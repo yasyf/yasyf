@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-12T12:24:21Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-12T12:25:00Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -25,16 +25,16 @@
 - `2026-06-12` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — shipped the gh-profile and gen-image plugins to the skills marketplace
 - `2026-06-12` Pushed to [yasyf/dailies](https://github.com/yasyf/dailies) — gave agent runs self-audit tools, structured errors, and workflow triggers
 - `2026-06-12` Created something new in [yasyf/yasyf](https://github.com/yasyf/yasyf) — bootstrapped this very profile README
-- `2026-06-12` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — per-turn diff attribution and a proven channel handshake
 - `2026-06-12` Created something new in [yasyf/cc-review](https://github.com/yasyf/cc-review)
-- `2026-06-12` Pushed to [yasyf/yasyf.com](https://github.com/yasyf/yasyf.com) — pages that personalize to the visitor's company via Cerebras
+- `2026-06-12` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — per-turn diff attribution and a proven channel handshake
 - `2026-06-12` Created something new in [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — a new notes and tasks layer for agents
-- `2026-06-12` Pushed to [yasyf/stream-trade](https://github.com/yasyf/stream-trade) — wired Gemini Live and realtime backends into the detector evals
 - `2026-06-12` Pushed to [yasyf/cc-pushback](https://github.com/yasyf/cc-pushback) — a training-pairs lineage dashboard with facet filters
 - `2026-06-12` Pushed to [yasyf/cc-sentiment](https://github.com/yasyf/cc-sentiment) — brand images and the cc-transcript 0.7 migration
 - `2026-06-12` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl) — a docs site, example recipes, and API docstrings
+- `2026-06-12` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
+- `2026-06-12` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
 
-**8,199 contributions in the last year**
+**8,204 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
