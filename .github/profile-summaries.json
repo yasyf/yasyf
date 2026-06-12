@@ -1,0 +1,67 @@
+{
+  "activity": {
+    "CreateEvent:yasyf/cc-notes": {
+      "as_of": "2026-06-12",
+      "summary": "a new notes and tasks layer for agents"
+    },
+    "CreateEvent:yasyf/yasyf": {
+      "as_of": "2026-06-12",
+      "summary": "bootstrapped this very profile README"
+    },
+    "PushEvent:yasyf/cc-pushback": {
+      "as_of": "3b101202de2d",
+      "summary": "a training-pairs lineage dashboard with facet filters"
+    },
+    "PushEvent:yasyf/cc-review": {
+      "as_of": "7114df8bfbd4",
+      "summary": "per-turn diff attribution and a proven channel handshake"
+    },
+    "PushEvent:yasyf/cc-sentiment": {
+      "as_of": "1fd0090c4e4f",
+      "summary": "brand images and the cc-transcript 0.7 migration"
+    },
+    "PushEvent:yasyf/cc-skills": {
+      "as_of": "d89b270563c5",
+      "summary": "shipped the gh-profile and gen-image plugins to the skills marketplace"
+    },
+    "PushEvent:yasyf/dailies": {
+      "as_of": "8eb6ae81b755",
+      "summary": "gave agent runs self-audit tools, structured errors, and workflow triggers"
+    },
+    "PushEvent:yasyf/docker-dsl": {
+      "as_of": "5cc8adc18032",
+      "summary": "a docs site, example recipes, and API docstrings"
+    },
+    "PushEvent:yasyf/stream-trade": {
+      "as_of": "fe5c934e1858",
+      "summary": "wired Gemini Live and realtime backends into the detector evals"
+    },
+    "PushEvent:yasyf/yasyf": {
+      "as_of": "a770e429b0c2",
+      "summary": "fixed the snake's dark palette and switched star counts to plain text"
+    },
+    "PushEvent:yasyf/yasyf.com": {
+      "as_of": "d1bb875ff0c3",
+      "summary": "pages that personalize to the visitor's company via Cerebras"
+    }
+  },
+  "generated_at": "2026-06-12T12:24:16Z",
+  "shipped": {
+    "captain-hook@v0.11.1": {
+      "summary": "tolerates undecodable transcripts and AppleDouble sidecars"
+    },
+    "cc-pool@v0.24.0": {
+      "summary": "net-burn caption and version-stamped widget bundles"
+    },
+    "cc-review@v0.9.0": {
+      "summary": "channel approval now offered unconditionally"
+    },
+    "slop-cop@v0.1.13": {
+      "summary": "html, jsx, and ts input modes plus a tunable --llm-effort flag"
+    },
+    "spawnllm@v0.1.3": {
+      "summary": "unwraps the single-result envelope in structured JSON output"
+    }
+  },
+  "version": 1
+}
