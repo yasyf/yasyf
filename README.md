@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-12T12:30:07Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-12T13:43:39Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -21,8 +21,9 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-06-12` Pushed to [yasyf/yasyf](https://github.com/yasyf/yasyf) — migrated to gh-profile 0.2.0 with a summaries sidecar and delegated refresh
+- `2026-06-12` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — added the transcript-investigation CLI and a plugin for agents to query them
 - `2026-06-12` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — shipped the gh-profile and gen-image plugins to the skills marketplace
+- `2026-06-12` Pushed to [yasyf/yasyf](https://github.com/yasyf/yasyf) — migrated to gh-profile 0.2.0 with a summaries sidecar and delegated refresh
 - `2026-06-12` Pushed to [yasyf/dailies](https://github.com/yasyf/dailies) — gave agent runs self-audit tools, structured errors, and workflow triggers
 - `2026-06-12` Created something new in [yasyf/yasyf](https://github.com/yasyf/yasyf) — bootstrapped this very profile README
 - `2026-06-12` Created something new in [yasyf/cc-review](https://github.com/yasyf/cc-review) — a local code-review daemon for reviewing Claude's diffs in a PR-style web UI
@@ -32,9 +33,8 @@
 - `2026-06-12` Pushed to [yasyf/cc-sentiment](https://github.com/yasyf/cc-sentiment) — brand images and the cc-transcript 0.7 migration
 - `2026-06-12` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl) — a docs site, example recipes, and API docstrings
 - `2026-06-12` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — added `ccp migrate` for symlink/fuse account overlays and burn-forecast widgets
-- `2026-06-12` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — added the transcript-investigation CLI and a plugin for agents to query them
 
-**8,206 contributions in the last year**
+**8,223 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -75,8 +75,8 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-06-12` [cc-transcript v2.0.0](https://github.com/yasyf/cc-transcript/releases/tag/v2.0.0)
 - `2026-06-12` [cc-review v0.9.0](https://github.com/yasyf/cc-review/releases/tag/v0.9.0) — channel approval now offered unconditionally
-- `2026-06-12` [cc-pool v0.24.0](https://github.com/yasyf/cc-pool/releases/tag/v0.24.0) — net-burn caption and version-stamped widget bundles
 - `2026-06-12` [captain-hook v0.11.1](https://github.com/yasyf/captain-hook/releases/tag/v0.11.1) — tolerates undecodable transcripts and AppleDouble sidecars
 - `2026-06-10` [spawnllm v0.1.3](https://github.com/yasyf/spawnllm/releases/tag/v0.1.3) — unwraps the single-result envelope in structured JSON output
 - `2026-06-05` [slop-cop v0.1.13](https://github.com/yasyf/slop-cop/releases/tag/v0.1.13) — html, jsx, and ts input modes plus a tunable --llm-effort flag
