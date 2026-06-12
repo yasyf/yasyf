@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-12T11:07:40Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.1.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-12T11:21:56Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.1.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -21,19 +21,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-06-12` Created something new in [yasyf/yasyf](https://github.com/yasyf/yasyf)
+- `2026-06-12` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
+- `2026-06-12` Created something new in [yasyf/cc-review](https://github.com/yasyf/cc-review)
 - `2026-06-12` Created something new in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
 - `2026-06-12` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-06-12` Pushed to [yasyf/dailies](https://github.com/yasyf/dailies)
 - `2026-06-12` Pushed to [yasyf/cc-pushback](https://github.com/yasyf/cc-pushback)
 - `2026-06-12` Pushed to [yasyf/cc-sentiment](https://github.com/yasyf/cc-sentiment)
-- `2026-06-12` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
 - `2026-06-12` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
 - `2026-06-12` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
 - `2026-06-12` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
 - `2026-06-12` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
-- `2026-06-12` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 
-**8,185 contributions in the last year**
+**8,193 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -74,12 +75,10 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-06-12` [cc-pool v0.24.0](https://github.com/yasyf/cc-pool/releases/tag/v0.24.0)
+- `2026-06-12` [cc-review v0.9.0](https://github.com/yasyf/cc-review/releases/tag/v0.9.0)
 - `2026-06-12` [captain-hook v0.11.1](https://github.com/yasyf/captain-hook/releases/tag/v0.11.1)
-- `2026-06-11` [cc-review v0.8.0](https://github.com/yasyf/cc-review/releases/tag/v0.8.0)
 - `2026-06-10` [spawnllm v0.1.3](https://github.com/yasyf/spawnllm/releases/tag/v0.1.3)
 - `2026-06-10` [cc-pushback v0.1.0](https://github.com/yasyf/cc-pushback/releases/tag/v0.1.0)
-- `2026-06-10` [cc-sentiment v0.2.120](https://github.com/yasyf/cc-sentiment/releases/tag/v0.2.120)
 - `2026-06-05` [slop-cop v0.1.13](https://github.com/yasyf/slop-cop/releases/tag/v0.1.13)
 <!-- gh-profile:end:shipped -->
 
