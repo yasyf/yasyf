@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-12T19:18:25Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-13T01:31:22Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -21,20 +21,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-06-12` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — added `ccp migrate` for symlink/fuse account overlays and burn-forecast widgets
 - `2026-06-12` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-06-12` Was active in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-06-12` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — added the transcript-investigation CLI and a plugin for agents to query them
-- `2026-06-12` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-06-12` Pushed to [yasyf/cc-pushback](https://github.com/yasyf/cc-pushback) — a training-pairs lineage dashboard with facet filters
 - `2026-06-12` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — per-turn diff attribution and a proven channel handshake
-- `2026-06-12` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — shipped the gh-profile and gen-image plugins to the skills marketplace
-- `2026-06-12` Pushed to [yasyf/yasyf](https://github.com/yasyf/yasyf) — migrated to gh-profile 0.2.0 with a summaries sidecar and delegated refresh
-- `2026-06-12` Pushed to [yasyf/dailies](https://github.com/yasyf/dailies) — gave agent runs self-audit tools, structured errors, and workflow triggers
-- `2026-06-12` Created something new in [yasyf/yasyf](https://github.com/yasyf/yasyf) — bootstrapped this very profile README
-- `2026-06-12` Created something new in [yasyf/cc-review](https://github.com/yasyf/cc-review) — a local code-review daemon for reviewing Claude's diffs in a PR-style web UI
-- `2026-06-12` Created something new in [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — a new notes and tasks layer for agents
+- `2026-06-12` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — added the transcript-investigation CLI and a plugin for agents to query them
+- `2026-06-12` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-06-12` Created something new in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-06-12` Triaged issues in [anthropics/claude-code](https://github.com/anthropics/claude-code)
+- `2026-06-12` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
+- `2026-06-12` Created something new in [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
+- `2026-06-12` Was active in [yasyf/cc-pushback](https://github.com/yasyf/cc-pushback)
+- `2026-06-12` Was active in [yasyf/cc-review](https://github.com/yasyf/cc-review)
+- `2026-06-12` Was active in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
 
-**8,272 contributions in the last year**
+**8,351 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -75,9 +75,10 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-06-12` [cc-notes v0.2.0](https://github.com/yasyf/cc-notes/releases/tag/v0.2.0)
+- `2026-06-12` [cc-review v0.11.0](https://github.com/yasyf/cc-review/releases/tag/v0.11.0)
+- `2026-06-12` [cc-pool v0.25.0](https://github.com/yasyf/cc-pool/releases/tag/v0.25.0)
 - `2026-06-12` [captain-hook v2.0.0](https://github.com/yasyf/captain-hook/releases/tag/v2.0.0)
-- `2026-06-12` [cc-pushback v0.2.0](https://github.com/yasyf/cc-pushback/releases/tag/v0.2.0)
-- `2026-06-12` [cc-review v0.10.0](https://github.com/yasyf/cc-review/releases/tag/v0.10.0)
 - `2026-06-12` [cc-transcript v2.0.0](https://github.com/yasyf/cc-transcript/releases/tag/v2.0.0)
 - `2026-06-10` [spawnllm v0.1.3](https://github.com/yasyf/spawnllm/releases/tag/v0.1.3) — unwraps the single-result envelope in structured JSON output
 - `2026-06-05` [slop-cop v0.1.13](https://github.com/yasyf/slop-cop/releases/tag/v0.1.13) — html, jsx, and ts input modes plus a tunable --llm-effort flag
@@ -94,14 +95,14 @@
 
 <!-- gh-profile:start:languages -->
 ```text
-Python       ████████████████████   60%
-Ruby         █████░░░░░░░░░░░░░░░   16%
+Python       ████████████████████   63%
+Ruby         █████░░░░░░░░░░░░░░░   15%
 Go           ███░░░░░░░░░░░░░░░░░    9%
 C            █░░░░░░░░░░░░░░░░░░░    4%
-Objective-C  █░░░░░░░░░░░░░░░░░░░    4%
 AppleScript  █░░░░░░░░░░░░░░░░░░░    2%
 HTML         █░░░░░░░░░░░░░░░░░░░    2%
 JavaScript   █░░░░░░░░░░░░░░░░░░░    2%
+Objective-C  █░░░░░░░░░░░░░░░░░░░    2%
 ```
 <!-- gh-profile:end:languages -->
 
