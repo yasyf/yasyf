@@ -1,64 +1,58 @@
 {
   "activity": {
-    "CreateEvent:yasyf/cc-notes": {
+    "CreateEvent:yasyf/cc-orchestrate": {
       "as_of": "2026-06-12",
-      "summary": "a new notes and tasks layer for agents"
+      "summary": "orchestrating fleets of Claude Code agents across pluggable backends"
     },
-    "CreateEvent:yasyf/cc-review": {
+    "CreateEvent:yasyf/cc-transcript": {
       "as_of": "2026-06-12",
-      "summary": "a local code-review daemon for reviewing Claude's diffs in a PR-style web UI"
+      "summary": "typed, non-lossy events for Claude Code transcripts"
     },
-    "CreateEvent:yasyf/yasyf": {
+    "IssuesEvent:anthropics/claude-code": {
       "as_of": "2026-06-12",
-      "summary": "bootstrapped this very profile README"
+      "summary": "reported a truncated-shell-snapshot bug dropping plugin bin/ PATH entries"
+    },
+    "PullRequestEvent:yasyf/cc-transcript": {
+      "as_of": "2026-06-12",
+      "summary": "degraded malformed tool inputs to OtherCall in the activity lift"
+    },
+    "PushEvent:yasyf/cc-notes": {
+      "as_of": "dd02f2dd8e9d",
+      "summary": "hardened branch-name validation and heal-safe promote/consolidation"
+    },
+    "PushEvent:yasyf/cc-orchestrate": {
+      "as_of": "4fd10ecb4d3f",
+      "summary": "scaffolded the package, CLI skeleton, and release workflows"
     },
     "PushEvent:yasyf/cc-pool": {
-      "as_of": "83b372296a7f",
-      "summary": "added `ccp migrate` for symlink/fuse account overlays and burn-forecast widgets"
-    },
-    "PushEvent:yasyf/cc-pushback": {
-      "as_of": "3b101202de2d",
-      "summary": "a training-pairs lineage dashboard with facet filters"
+      "as_of": "eecc9af3ee5a",
+      "summary": "shared per-project trust and MCP approvals so account switches never re-prompt"
     },
     "PushEvent:yasyf/cc-review": {
-      "as_of": "7114df8bfbd4",
-      "summary": "per-turn diff attribution and a proven channel handshake"
-    },
-    "PushEvent:yasyf/cc-sentiment": {
-      "as_of": "1fd0090c4e4f",
-      "summary": "brand images and the cc-transcript 0.7 migration"
-    },
-    "PushEvent:yasyf/cc-skills": {
-      "as_of": "89efbee5b628",
-      "summary": "shipped the gh-profile and gen-image plugins to the skills marketplace"
+      "as_of": "7c45ad33f8c1",
+      "summary": "newest-wins daemon eviction ends the multi-session version war"
     },
     "PushEvent:yasyf/cc-transcript": {
-      "as_of": "3388c3b87e5e",
-      "summary": "added the transcript-investigation CLI and a plugin for agents to query them"
-    },
-    "PushEvent:yasyf/dailies": {
-      "as_of": "8eb6ae81b755",
-      "summary": "gave agent runs self-audit tools, structured errors, and workflow triggers"
-    },
-    "PushEvent:yasyf/docker-dsl": {
-      "as_of": "5cc8adc18032",
-      "summary": "a docs site, example recipes, and API docstrings"
-    },
-    "PushEvent:yasyf/yasyf": {
-      "as_of": "0e97b7730e3c",
-      "summary": "migrated to gh-profile 0.2.0 with a summaries sidecar and delegated refresh"
+      "as_of": "12beba5ec6c0",
+      "summary": "added the shared corrections_v1 ledger and froze the decisions_v1 contract"
     }
   },
-  "generated_at": "2026-06-12T12:30:00Z",
+  "generated_at": "2026-06-13T10:28:53Z",
   "shipped": {
-    "captain-hook@v0.11.1": {
-      "summary": "tolerates undecodable transcripts and AppleDouble sidecars"
+    "captain-hook@v2.0.0": {
+      "summary": "the hook runtime of the session-activity platform"
     },
-    "cc-pool@v0.24.0": {
-      "summary": "net-burn caption and version-stamped widget bundles"
+    "cc-notes@v0.2.0": {
+      "summary": "the agent notes/tasks layer with FUSE-backed sync and Homebrew install"
     },
-    "cc-review@v0.9.0": {
-      "summary": "channel approval now offered unconditionally"
+    "cc-pool@v0.25.0": {
+      "summary": "host fuse mounts in a detached holder so daemon restarts never disturb sessions"
+    },
+    "cc-review@v0.11.0": {
+      "summary": "newest-wins daemon eviction ends the multi-session version war"
+    },
+    "cc-transcript@v2.0.0": {
+      "summary": "the session-activity platform — typed events, decision ledger, query surface"
     },
     "slop-cop@v0.1.13": {
       "summary": "html, jsx, and ts input modes plus a tunable --llm-effort flag"
