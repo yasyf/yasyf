@@ -37,7 +37,7 @@
       "summary": "added the shared corrections_v1 ledger and froze the decisions_v1 contract"
     }
   },
-  "generated_at": "2026-06-13T10:28:53Z",
+  "generated_at": "2026-06-14T10:41:05Z",
   "shipped": {
     "captain-hook@v2.0.0": {
       "summary": "the hook runtime of the session-activity platform"
