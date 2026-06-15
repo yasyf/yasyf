@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-15T01:37:49Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-15T08:36:10Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -22,7 +22,10 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-06-12` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — shared per-project trust and MCP approvals so account switches never re-prompt
+- `2026-06-15` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — shared per-project trust and MCP approvals so account switches never re-prompt
+- `2026-06-15` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-06-15` Starred [paperclipai/paperclip](https://github.com/paperclipai/paperclip)
+- `2026-06-15` Starred [Infisical/agent-vault](https://github.com/Infisical/agent-vault)
 - `2026-06-12` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — hardened branch-name validation and heal-safe promote/consolidation
 - `2026-06-12` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — newest-wins daemon eviction ends the multi-session version war
 - `2026-06-12` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — added the shared corrections_v1 ledger and froze the decisions_v1 contract
@@ -31,11 +34,8 @@
 - `2026-06-12` Triaged issues in [anthropics/claude-code](https://github.com/anthropics/claude-code) — reported a truncated-shell-snapshot bug dropping plugin bin/ PATH entries
 - `2026-06-12` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — scaffolded the package, CLI skeleton, and release workflows
 - `2026-06-12` Created something new in [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — orchestrating fleets of Claude Code agents across pluggable backends
-- `2026-06-12` Was active in [yasyf/cc-pushback](https://github.com/yasyf/cc-pushback)
-- `2026-06-12` Was active in [yasyf/cc-review](https://github.com/yasyf/cc-review)
-- `2026-06-12` Was active in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
 
-**8,229 contributions in the last year**
+**8,240 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -77,8 +77,8 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-06-15` [cc-pool v0.26.0](https://github.com/yasyf/cc-pool/releases/tag/v0.26.0)
 - `2026-06-12` [cc-notes v0.2.0](https://github.com/yasyf/cc-notes/releases/tag/v0.2.0) — the agent notes/tasks layer with FUSE-backed sync and Homebrew install
-- `2026-06-12` [cc-pool v0.25.0](https://github.com/yasyf/cc-pool/releases/tag/v0.25.0) — host fuse mounts in a detached holder so daemon restarts never disturb sessions
 - `2026-06-12` [cc-orchestrate v0.1.0](https://github.com/yasyf/cc-orchestrate/releases/tag/v0.1.0)
 - `2026-06-12` [captain-hook v2.0.0](https://github.com/yasyf/captain-hook/releases/tag/v2.0.0) — the hook runtime of the session-activity platform
 - `2026-06-12` [cc-pushback v0.2.0](https://github.com/yasyf/cc-pushback/releases/tag/v0.2.0)
