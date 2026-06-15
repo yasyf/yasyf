@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-14T08:03:21Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-15T01:37:49Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -35,7 +35,7 @@
 - `2026-06-12` Was active in [yasyf/cc-review](https://github.com/yasyf/cc-review)
 - `2026-06-12` Was active in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
 
-**8,351 contributions in the last year**
+**8,229 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -78,10 +78,10 @@
 
 <!-- gh-profile:start:shipped -->
 - `2026-06-12` [cc-notes v0.2.0](https://github.com/yasyf/cc-notes/releases/tag/v0.2.0) — the agent notes/tasks layer with FUSE-backed sync and Homebrew install
-- `2026-06-12` [cc-review v0.11.0](https://github.com/yasyf/cc-review/releases/tag/v0.11.0) — newest-wins daemon eviction ends the multi-session version war
 - `2026-06-12` [cc-pool v0.25.0](https://github.com/yasyf/cc-pool/releases/tag/v0.25.0) — host fuse mounts in a detached holder so daemon restarts never disturb sessions
+- `2026-06-12` [cc-orchestrate v0.1.0](https://github.com/yasyf/cc-orchestrate/releases/tag/v0.1.0)
 - `2026-06-12` [captain-hook v2.0.0](https://github.com/yasyf/captain-hook/releases/tag/v2.0.0) — the hook runtime of the session-activity platform
-- `2026-06-12` [cc-transcript v2.0.0](https://github.com/yasyf/cc-transcript/releases/tag/v2.0.0) — the session-activity platform — typed events, decision ledger, query surface
+- `2026-06-12` [cc-pushback v0.2.0](https://github.com/yasyf/cc-pushback/releases/tag/v0.2.0)
 - `2026-06-10` [spawnllm v0.1.3](https://github.com/yasyf/spawnllm/releases/tag/v0.1.3) — unwraps the single-result envelope in structured JSON output
 - `2026-06-05` [slop-cop v0.1.13](https://github.com/yasyf/slop-cop/releases/tag/v0.1.13) — html, jsx, and ts input modes plus a tunable --llm-effort flag
 <!-- gh-profile:end:shipped -->
