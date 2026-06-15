@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-15T08:36:10Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-15T11:38:43Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -22,8 +22,8 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-06-15` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — shared per-project trust and MCP approvals so account switches never re-prompt
-- `2026-06-15` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-06-15` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — heal partially-wedged fuse mirrors and classify mount-timeouts honestly
+- `2026-06-15` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — extracted the summaries sidecar machinery into a shared repo-summaries plugin
 - `2026-06-15` Starred [paperclipai/paperclip](https://github.com/paperclipai/paperclip)
 - `2026-06-15` Starred [Infisical/agent-vault](https://github.com/Infisical/agent-vault)
 - `2026-06-12` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — hardened branch-name validation and heal-safe promote/consolidation
@@ -77,11 +77,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-06-15` [cc-pool v0.26.0](https://github.com/yasyf/cc-pool/releases/tag/v0.26.0)
+- `2026-06-15` [cc-pool v0.26.0](https://github.com/yasyf/cc-pool/releases/tag/v0.26.0) — heal partially-wedged fuse mirrors and stop AppleDouble sidecar litter
 - `2026-06-12` [cc-notes v0.2.0](https://github.com/yasyf/cc-notes/releases/tag/v0.2.0) — the agent notes/tasks layer with FUSE-backed sync and Homebrew install
-- `2026-06-12` [cc-orchestrate v0.1.0](https://github.com/yasyf/cc-orchestrate/releases/tag/v0.1.0)
+- `2026-06-12` [cc-review v0.11.0](https://github.com/yasyf/cc-review/releases/tag/v0.11.0) — newest-wins daemon eviction ends the multi-session version war
 - `2026-06-12` [captain-hook v2.0.0](https://github.com/yasyf/captain-hook/releases/tag/v2.0.0) — the hook runtime of the session-activity platform
-- `2026-06-12` [cc-pushback v0.2.0](https://github.com/yasyf/cc-pushback/releases/tag/v0.2.0)
+- `2026-06-12` [cc-transcript v2.0.0](https://github.com/yasyf/cc-transcript/releases/tag/v2.0.0) — the session-activity platform — typed events, decision ledger, query surface
 - `2026-06-10` [spawnllm v0.1.3](https://github.com/yasyf/spawnllm/releases/tag/v0.1.3) — unwraps the single-result envelope in structured JSON output
 - `2026-06-05` [slop-cop v0.1.13](https://github.com/yasyf/slop-cop/releases/tag/v0.1.13) — html, jsx, and ts input modes plus a tunable --llm-effort flag
 <!-- gh-profile:end:shipped -->
