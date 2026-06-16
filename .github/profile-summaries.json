@@ -1,62 +1,62 @@
 {
   "activity": {
-    "CreateEvent:yasyf/cc-orchestrate": {
-      "as_of": "2026-06-12",
-      "summary": "orchestrating fleets of Claude Code agents across pluggable backends"
+    "CreateEvent:yasyf/cc-sentiment": {
+      "as_of": "2026-06-16",
+      "summary": "an open experiment in whether Claude Code sentiment tracks the time of day"
     },
-    "CreateEvent:yasyf/cc-transcript": {
-      "as_of": "2026-06-12",
-      "summary": "typed, non-lossy events for Claude Code transcripts"
+    "CreateEvent:yasyf/semisweet": {
+      "as_of": "2026-06-16",
+      "summary": "an in-memory semantic cache backed by turbopuffer"
     },
-    "IssuesEvent:anthropics/claude-code": {
-      "as_of": "2026-06-12",
-      "summary": "reported a truncated-shell-snapshot bug dropping plugin bin/ PATH entries"
-    },
-    "PullRequestEvent:yasyf/cc-transcript": {
-      "as_of": "2026-06-12",
-      "summary": "degraded malformed tool inputs to OtherCall in the activity lift"
+    "PushEvent:yasyf/captain-hook": {
+      "as_of": "01a3ba9714ca",
+      "summary": "upgraded onto cc-transcript 3.0 as the session-activity platform's hook runtime"
     },
     "PushEvent:yasyf/cc-notes": {
-      "as_of": "dd02f2dd8e9d",
-      "summary": "hardened branch-name validation and heal-safe promote/consolidation"
-    },
-    "PushEvent:yasyf/cc-orchestrate": {
-      "as_of": "4fd10ecb4d3f",
-      "summary": "scaffolded the package, CLI skeleton, and release workflows"
+      "as_of": "206380383f1f",
+      "summary": "promoted a merged branch's open tasks into the target and ran reconcile in CI"
     },
     "PushEvent:yasyf/cc-pool": {
-      "as_of": "284f97009c36",
-      "summary": "heal partially-wedged fuse mirrors and classify mount-timeouts honestly"
+      "as_of": "e092a54cdf37",
+      "summary": "recovered chronic 401s and surfaced accounts that need re-login"
     },
-    "PushEvent:yasyf/cc-review": {
-      "as_of": "7c45ad33f8c1",
-      "summary": "newest-wins daemon eviction ends the multi-session version war"
+    "PushEvent:yasyf/cc-pushback": {
+      "as_of": "7c236115ac97",
+      "summary": "rebuilt as pure policy on the cc-transcript platform with an enrich stage"
+    },
+    "PushEvent:yasyf/cc-sentiment": {
+      "as_of": "810fe18721ce",
+      "summary": "migrated onto cc-transcript, deleting the local parser and Rust crate"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "02db3cb0246b",
+      "as_of": "f4be9d6aaead",
       "summary": "extracted the summaries sidecar machinery into a shared repo-summaries plugin"
     },
     "PushEvent:yasyf/cc-transcript": {
-      "as_of": "12beba5ec6c0",
-      "summary": "added the shared corrections_v1 ledger and froze the decisions_v1 contract"
+      "as_of": "21b5c82b01fb",
+      "summary": "purged post-2.0 back-compat cruft and dropped the store-migration script in 3.0"
+    },
+    "PushEvent:yasyf/semisweet": {
+      "as_of": "6755ed82ae24",
+      "summary": "built the declarative semantic-cache API with read-after-write"
     }
   },
-  "generated_at": "2026-06-15T11:38:37Z",
+  "generated_at": "2026-06-16T11:30:26Z",
   "shipped": {
-    "captain-hook@v2.0.0": {
-      "summary": "the hook runtime of the session-activity platform"
+    "captain-hook@v3.0.0": {
+      "summary": "upgraded onto cc-transcript 3.0 as the session-activity platform's hook runtime"
     },
     "cc-notes@v0.2.0": {
       "summary": "the agent notes/tasks layer with FUSE-backed sync and Homebrew install"
     },
-    "cc-pool@v0.26.0": {
-      "summary": "heal partially-wedged fuse mirrors and stop AppleDouble sidecar litter"
+    "cc-pool@v0.27.3": {
+      "summary": "ran fuse write-through off the handler so a busy mirror can't stall the mount"
     },
-    "cc-review@v0.11.0": {
-      "summary": "newest-wins daemon eviction ends the multi-session version war"
+    "cc-pushback@v0.3.0": {
+      "summary": "migrated onto the capt-hook 2.0 and cc-transcript 2.0 API"
     },
-    "cc-transcript@v2.0.0": {
-      "summary": "the session-activity platform \u2014 typed events, decision ledger, query surface"
+    "cc-transcript@v3.0.1": {
+      "summary": "removed the store-migration script and scrubbed old-schema mentions"
     },
     "slop-cop@v0.1.13": {
       "summary": "html, jsx, and ts input modes plus a tunable --llm-effort flag"
