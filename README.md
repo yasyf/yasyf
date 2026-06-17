@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-17T01:36:59Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-17T08:22:57Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -22,20 +22,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-06-17` Pushed to [yasyf/cc-factory](https://github.com/yasyf/cc-factory)
+- `2026-06-17` Created something new in [yasyf/fusekit](https://github.com/yasyf/fusekit)
+- `2026-06-17` Created something new in [yasyf/cc-ask](https://github.com/yasyf/cc-ask)
+- `2026-06-17` Created something new in [yasyf/cc-factory](https://github.com/yasyf/cc-factory)
+- `2026-06-17` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-06-17` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
+- `2026-06-17` Created something new in [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-06-17` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
 - `2026-06-17` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — recovered chronic 401s and surfaced accounts that need re-login
 - `2026-06-17` Pushed to [yasyf/semisweet](https://github.com/yasyf/semisweet) — built the declarative semantic-cache API with read-after-write
 - `2026-06-17` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
 - `2026-06-17` Pushed to [yasyf/cc-pushback](https://github.com/yasyf/cc-pushback) — rebuilt as pure policy on the cc-transcript platform with an enrich stage
-- `2026-06-17` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — extracted the summaries sidecar machinery into a shared repo-summaries plugin
-- `2026-06-17` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — purged post-2.0 back-compat cruft and dropped the store-migration script in 3.0
-- `2026-06-17` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
-- `2026-06-17` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — promoted a merged branch's open tasks into the target and ran reconcile in CI
-- `2026-06-17` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
-- `2026-06-16` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — upgraded onto cc-transcript 3.0 as the session-activity platform's hook runtime
-- `2026-06-16` Pushed to [yasyf/dailies](https://github.com/yasyf/dailies)
-- `2026-06-16` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
 
-**8,476 contributions in the last year**
+**8,524 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -77,14 +77,10 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-06-17` [cc-review v0.13.0](https://github.com/yasyf/cc-review/releases/tag/v0.13.0)
-- `2026-06-17` [cc-notes v0.3.0](https://github.com/yasyf/cc-notes/releases/tag/v0.3.0)
+- `2026-06-17` [cc-pool v0.28.1](https://github.com/yasyf/cc-pool/releases/tag/v0.28.1)
 - `2026-06-17` [slop-cop v0.1.14](https://github.com/yasyf/slop-cop/releases/tag/v0.1.14)
-- `2026-06-16` [cc-pool v0.28.0](https://github.com/yasyf/cc-pool/releases/tag/v0.28.0)
 - `2026-06-16` [cc-interact v0.1.0](https://github.com/yasyf/cc-interact/releases/tag/v0.1.0)
 - `2026-06-16` [captain-hook v3.2.0](https://github.com/yasyf/captain-hook/releases/tag/v3.2.0)
-- `2026-06-16` [cc-transcript v3.2.0](https://github.com/yasyf/cc-transcript/releases/tag/v3.2.0)
-- `2026-06-16` [cc-pushback v0.3.0](https://github.com/yasyf/cc-pushback/releases/tag/v0.3.0) — migrated onto the capt-hook 2.0 and cc-transcript 2.0 API
 - `2026-06-10` [spawnllm v0.1.3](https://github.com/yasyf/spawnllm/releases/tag/v0.1.3) — unwraps the single-result envelope in structured JSON output
 <!-- gh-profile:end:shipped -->
 
@@ -99,14 +95,14 @@
 
 <!-- gh-profile:start:languages -->
 ```text
-Python       ████████████████████   61%
-Ruby         █████░░░░░░░░░░░░░░░   15%
-Go           ████░░░░░░░░░░░░░░░░   11%
-C            █░░░░░░░░░░░░░░░░░░░    4%
-AppleScript  █░░░░░░░░░░░░░░░░░░░    2%
-HTML         █░░░░░░░░░░░░░░░░░░░    2%
-JavaScript   █░░░░░░░░░░░░░░░░░░░    2%
-Objective-C  █░░░░░░░░░░░░░░░░░░░    2%
+Python      ████████████████████   57%
+Ruby        ██████░░░░░░░░░░░░░░   17%
+Go          ████░░░░░░░░░░░░░░░░   13%
+C           █░░░░░░░░░░░░░░░░░░░    4%
+HTML        █░░░░░░░░░░░░░░░░░░░    2%
+JavaScript  █░░░░░░░░░░░░░░░░░░░    2%
+Rust        █░░░░░░░░░░░░░░░░░░░    2%
+TypeScript  █░░░░░░░░░░░░░░░░░░░    2%
 ```
 <!-- gh-profile:end:languages -->
 
