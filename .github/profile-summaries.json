@@ -1,65 +1,73 @@
 {
   "activity": {
-    "CreateEvent:yasyf/cc-sentiment": {
-      "as_of": "2026-06-16",
-      "summary": "an open experiment in whether Claude Code sentiment tracks the time of day"
+    "CreateEvent:yasyf/cc-ask": {
+      "as_of": "2026-06-17",
+      "summary": "a persistent alternative to AskUserQuestion with richer context and remote approvals from web or phone"
     },
-    "CreateEvent:yasyf/semisweet": {
-      "as_of": "2026-06-16",
-      "summary": "an in-memory semantic cache backed by turbopuffer"
+    "CreateEvent:yasyf/fusekit": {
+      "as_of": "2026-06-17",
+      "summary": "a Go toolkit of detached FUSE-T mount-holder and mount-lifecycle primitives"
     },
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "01a3ba9714ca",
-      "summary": "upgraded onto cc-transcript 3.0 as the session-activity platform's hook runtime"
+      "as_of": "56d2645494e6",
+      "summary": "shipped the turnkey 'set up captain hook' session reviewer and stopped committed settings double-firing"
+    },
+    "PushEvent:yasyf/cc-factory": {
+      "as_of": "147291b74ea9",
+      "summary": "scaffolded a software factory for Claude Code: agents that plan, build, review, and ship"
     },
     "PushEvent:yasyf/cc-notes": {
-      "as_of": "206380383f1f",
-      "summary": "promoted a merged branch's open tasks into the target and ran reconcile in CI"
+      "as_of": "ca68e0794505",
+      "summary": "added a projects/sprints/validation-criteria planning layer and shipped the hooks as a capt-hook pack"
     },
-    "PushEvent:yasyf/cc-pool": {
-      "as_of": "e092a54cdf37",
-      "summary": "recovered chronic 401s and surfaced accounts that need re-login"
+    "PushEvent:yasyf/cc-orchestrate": {
+      "as_of": "dc4d02297b0a",
+      "summary": "rewrote it as a pure-Go CLI on cc-interact, driving agent fleets across cmux/superset/tmux backends"
     },
     "PushEvent:yasyf/cc-pushback": {
-      "as_of": "7c236115ac97",
-      "summary": "rebuilt as pure policy on the cc-transcript platform with an enrich stage"
+      "as_of": "51dd9c32e9b0",
+      "summary": "rebuilt the view-samples dashboard around a faceted sidebar with code-evidence and language filters"
     },
-    "PushEvent:yasyf/cc-sentiment": {
-      "as_of": "810fe18721ce",
-      "summary": "migrated onto cc-transcript, deleting the local parser and Rust crate"
+    "PushEvent:yasyf/cc-review": {
+      "as_of": "10933d24c65e",
+      "summary": "added per-line focus bubbles and gradient dimming so the reviewer is guided within each file, not just across"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "f4be9d6aaead",
-      "summary": "extracted the summaries sidecar machinery into a shared repo-summaries plugin"
+      "as_of": "635dd1005564",
+      "summary": "added the cli-demo skill for animated SVG CLI demos rendered with evp"
     },
     "PushEvent:yasyf/cc-transcript": {
-      "as_of": "21b5c82b01fb",
-      "summary": "purged post-2.0 back-compat cruft and dropped the store-migration script in 3.0"
+      "as_of": "766fc5f7faf6",
+      "summary": "modeled Claude Code's mid-turn model-fallback block and added an OtherBlock catch-all so the parser degrades"
     },
-    "PushEvent:yasyf/semisweet": {
-      "as_of": "6755ed82ae24",
-      "summary": "built the declarative semantic-cache API with read-after-write"
+    "PushEvent:yasyf/dailies": {
+      "as_of": "d7e9bddbaf9d",
+      "summary": "unified integration credentials into a Mongo store with a setup wizard, and seeded the weekly profile refresh"
+    },
+    "PushEvent:yasyf/fusekit": {
+      "as_of": "19ebbff8ef6a",
+      "summary": "stood up the detached mount-holder and FUSE mount-lifecycle primitives, cutting v0.1.0"
     }
   },
-  "generated_at": "2026-06-16T11:30:26Z",
+  "generated_at": "2026-06-17T11:20:35Z",
   "shipped": {
-    "captain-hook@v3.0.0": {
-      "summary": "upgraded onto cc-transcript 3.0 as the session-activity platform's hook runtime"
+    "captain-hook@v3.3.1": {
+      "summary": "stopped a repo with committed settings from double-firing its hooks at init"
     },
-    "cc-notes@v0.2.0": {
-      "summary": "the agent notes/tasks layer with FUSE-backed sync and Homebrew install"
+    "cc-notes@v0.4.0": {
+      "summary": "added a projects/sprints/validation-criteria planning layer and shipped the hooks as a capt-hook pack"
     },
-    "cc-pool@v0.27.3": {
-      "summary": "ran fuse write-through off the handler so a busy mirror can't stall the mount"
+    "cc-orchestrate@v0.2.1": {
+      "summary": "fixed a tailer data race by snapshotting the poll interval instead of reading the mutable global"
+    },
+    "cc-pool@v0.28.1": {
+      "summary": "cut the FUSE-T getattr/merge CPU storm under load and stopped false needs-login on 401 streaks"
     },
     "cc-pushback@v0.3.0": {
       "summary": "migrated onto the capt-hook 2.0 and cc-transcript 2.0 API"
     },
-    "cc-transcript@v3.0.1": {
-      "summary": "removed the store-migration script and scrubbed old-schema mentions"
-    },
-    "slop-cop@v0.1.13": {
-      "summary": "html, jsx, and ts input modes plus a tunable --llm-effort flag"
+    "slop-cop@v0.1.14": {
+      "summary": "added --lines to report only violations within a touched range, built for agents linting edits"
     },
     "spawnllm@v0.1.3": {
       "summary": "unwraps the single-result envelope in structured JSON output"

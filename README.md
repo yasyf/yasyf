@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-17T08:22:57Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-17T11:26:41Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -14,7 +14,7 @@
 ## 🔭 Now
 
 - Building the missing toolbelt for Claude Code: [captain-hook](https://github.com/yasyf/captain-hook) for declarative hooks, [cc-pool](https://github.com/yasyf/cc-pool) for account pooling, [cc-review](https://github.com/yasyf/cc-review) for reviewing Claude's diffs in a PR-style web UI, [cc-transcript](https://github.com/yasyf/cc-transcript) for typed transcripts, and [slop-cop](https://github.com/yasyf/slop-cop) to catch AI-flavored prose
-- Converging those pieces into one session-activity platform — typed events and a decision ledger in cc-transcript 3.0, with captain-hook 3.0 as its hook runtime — and starting [cc-orchestrate](https://github.com/yasyf/cc-orchestrate) to run fleets of agents across pluggable backends
+- Converging those pieces into one session-activity platform — typed events and a decision ledger in cc-transcript, with captain-hook as its hook runtime — and building [cc-orchestrate](https://github.com/yasyf/cc-orchestrate) into a pure-Go CLI that runs fleets of agents across pluggable backends like cmux, superset, and tmux
 - Running [cc-sentiment](https://github.com/yasyf/cc-sentiment), an open experiment in whether developer sentiment with Claude Code tracks the model, the tooling, or just the time of day
 - Engineer & CEO at [Aneta](https://aneta.company)
 
@@ -22,20 +22,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-06-17` Pushed to [yasyf/cc-factory](https://github.com/yasyf/cc-factory)
-- `2026-06-17` Created something new in [yasyf/fusekit](https://github.com/yasyf/fusekit)
-- `2026-06-17` Created something new in [yasyf/cc-ask](https://github.com/yasyf/cc-ask)
-- `2026-06-17` Created something new in [yasyf/cc-factory](https://github.com/yasyf/cc-factory)
-- `2026-06-17` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
-- `2026-06-17` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
-- `2026-06-17` Created something new in [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
-- `2026-06-17` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
-- `2026-06-17` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — recovered chronic 401s and surfaced accounts that need re-login
-- `2026-06-17` Pushed to [yasyf/semisweet](https://github.com/yasyf/semisweet) — built the declarative semantic-cache API with read-after-write
-- `2026-06-17` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
-- `2026-06-17` Pushed to [yasyf/cc-pushback](https://github.com/yasyf/cc-pushback) — rebuilt as pure policy on the cc-transcript platform with an enrich stage
+- `2026-06-17` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — stood up the detached mount-holder and FUSE mount-lifecycle primitives, cutting v0.1.0
+- `2026-06-17` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — shipped the turnkey 'set up captain hook' session reviewer and stopped committed settings double-firing
+- `2026-06-17` Pushed to [yasyf/cc-pushback](https://github.com/yasyf/cc-pushback) — rebuilt the view-samples dashboard around a faceted sidebar with code-evidence and language filters
+- `2026-06-17` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — added the cli-demo skill for animated SVG CLI demos rendered with evp
+- `2026-06-17` Pushed to [yasyf/dailies](https://github.com/yasyf/dailies) — unified integration credentials into a Mongo store with a setup wizard, and seeded the weekly profile refresh
+- `2026-06-17` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — rewrote it as a pure-Go CLI on cc-interact, driving agent fleets across cmux/superset/tmux backends
+- `2026-06-17` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — added per-line focus bubbles and gradient dimming so the reviewer is guided within each file, not just across
+- `2026-06-17` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — modeled Claude Code's mid-turn model-fallback block and added an OtherBlock catch-all so the parser degrades
+- `2026-06-17` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — added a projects/sprints/validation-criteria planning layer and shipped the hooks as a capt-hook pack
+- `2026-06-17` Pushed to [yasyf/cc-factory](https://github.com/yasyf/cc-factory) — scaffolded a software factory for Claude Code: agents that plan, build, review, and ship
+- `2026-06-17` Created something new in [yasyf/fusekit](https://github.com/yasyf/fusekit) — a Go toolkit of detached FUSE-T mount-holder and mount-lifecycle primitives
+- `2026-06-17` Created something new in [yasyf/cc-ask](https://github.com/yasyf/cc-ask) — a persistent alternative to AskUserQuestion with richer context and remote approvals from web or phone
 
-**8,524 contributions in the last year**
+**8,589 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -77,10 +77,12 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-06-17` [cc-pool v0.28.1](https://github.com/yasyf/cc-pool/releases/tag/v0.28.1)
-- `2026-06-17` [slop-cop v0.1.14](https://github.com/yasyf/slop-cop/releases/tag/v0.1.14)
-- `2026-06-16` [cc-interact v0.1.0](https://github.com/yasyf/cc-interact/releases/tag/v0.1.0)
-- `2026-06-16` [captain-hook v3.2.0](https://github.com/yasyf/captain-hook/releases/tag/v3.2.0)
+- `2026-06-17` [captain-hook v3.3.1](https://github.com/yasyf/captain-hook/releases/tag/v3.3.1) — stopped a repo with committed settings from double-firing its hooks at init
+- `2026-06-17` [cc-notes v0.4.0](https://github.com/yasyf/cc-notes/releases/tag/v0.4.0) — added a projects/sprints/validation-criteria planning layer and shipped the hooks as a capt-hook pack
+- `2026-06-17` [cc-orchestrate v0.2.1](https://github.com/yasyf/cc-orchestrate/releases/tag/v0.2.1) — fixed a tailer data race by snapshotting the poll interval instead of reading the mutable global
+- `2026-06-17` [cc-pool v0.28.1](https://github.com/yasyf/cc-pool/releases/tag/v0.28.1) — cut the FUSE-T getattr/merge CPU storm under load and stopped false needs-login on 401 streaks
+- `2026-06-17` [slop-cop v0.1.14](https://github.com/yasyf/slop-cop/releases/tag/v0.1.14) — added --lines to report only violations within a touched range, built for agents linting edits
+- `2026-06-16` [cc-pushback v0.3.0](https://github.com/yasyf/cc-pushback/releases/tag/v0.3.0) — migrated onto the capt-hook 2.0 and cc-transcript 2.0 API
 - `2026-06-10` [spawnllm v0.1.3](https://github.com/yasyf/spawnllm/releases/tag/v0.1.3) — unwraps the single-result envelope in structured JSON output
 <!-- gh-profile:end:shipped -->
 
@@ -95,10 +97,10 @@
 
 <!-- gh-profile:start:languages -->
 ```text
-Python      ████████████████████   57%
+Python      ████████████████████   55%
 Ruby        ██████░░░░░░░░░░░░░░   17%
-Go          ████░░░░░░░░░░░░░░░░   13%
-C           █░░░░░░░░░░░░░░░░░░░    4%
+Go          █████░░░░░░░░░░░░░░░   15%
+C           ██░░░░░░░░░░░░░░░░░░    4%
 HTML        █░░░░░░░░░░░░░░░░░░░    2%
 JavaScript  █░░░░░░░░░░░░░░░░░░░    2%
 Rust        █░░░░░░░░░░░░░░░░░░░    2%
