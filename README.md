@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-18T11:09:05Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-18T13:46:40Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -22,20 +22,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-06-18` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — polished the login flow — auto-close after `ccp login`, TUI re-login for unhealthy accounts, unattended widget
+- `2026-06-18` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-06-18` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync)
 - `2026-06-18` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — remodeled onto the fusekit detached mount-holder and made `cc-notes init` set up everything, cutting v0.5.0
-- `2026-06-18` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — unified the code-correction ledger as the LLM-grounded substrate, cutting the v4.0.0 breaking release
 - `2026-06-18` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — added the agent-browser-with-cookies skill — authenticated browsing via local cookies behind a reasoned Touch ID gate
 - `2026-06-18` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — wired hooks into the committed settings.json by default and switched skills to plugin registration instead of vendoring
-- `2026-06-18` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — ported the deadline-edge and darwin mount tests over from cc-pool and polished the README, cutting v0.1.1
-- `2026-06-18` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — generalized backend status checks and added a Gemini-family fallback, with a docs and changelog pass
-- `2026-06-18` Pushed to [yasyf/semisweet](https://github.com/yasyf/semisweet) — added hybrid BM25+dense retrieval plus perf wins: concurrent local inference, bounded frame reads, smaller payloads
-- `2026-06-18` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl) — wrote the narrative guide and curated reference, added Google-style docstrings, and cut v0.1.0
-- `2026-06-18` Pushed to [yasyf/dailies](https://github.com/yasyf/dailies) — built a live profile-mining dashboard and restyled the CLI on a shared rich presentation layer
-- `2026-06-18` Pushed to [yasyf/cc-runtime](https://github.com/yasyf/cc-runtime) — renamed the repo to cc-runtime and broadened its scope to harness-injected tools
 - `2026-06-18` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — redesigned the AI bar as the Command Deck, added keyboard shortcuts, and auto-collapsed generated files
+- `2026-06-18` Pushed to [yasyf/cc-pushback](https://github.com/yasyf/cc-pushback)
+- `2026-06-18` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — unified the code-correction ledger as the LLM-grounded substrate, cutting the v4.0.0 breaking release
+- `2026-06-18` Pushed to [yasyf/semisweet](https://github.com/yasyf/semisweet) — added hybrid BM25+dense retrieval plus perf wins: concurrent local inference, bounded frame reads, smaller payloads
+- `2026-06-18` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
+- `2026-06-18` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — polished the login flow — auto-close after `ccp login`, TUI re-login for unhealthy accounts, unattended widget
+- `2026-06-18` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — ported the deadline-edge and darwin mount tests over from cc-pool and polished the README, cutting v0.1.1
 
-**8,743 contributions in the last year**
+**8,785 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -84,13 +84,14 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-06-18` [cc-notes v0.7.0](https://github.com/yasyf/cc-notes/releases/tag/v0.7.0)
+- `2026-06-18` [captain-hook v3.8.0](https://github.com/yasyf/captain-hook/releases/tag/v3.8.0)
+- `2026-06-18` [cc-review v0.17.0](https://github.com/yasyf/cc-review/releases/tag/v0.17.0)
+- `2026-06-18` [cc-pushback v0.4.0](https://github.com/yasyf/cc-pushback/releases/tag/v0.4.0)
 - `2026-06-18` [cc-pool v0.30.1](https://github.com/yasyf/cc-pool/releases/tag/v0.30.1) — gave the menubar widget an app icon and made `ccp widget` run unattended
-- `2026-06-18` [cc-transcript v4.0.0](https://github.com/yasyf/cc-transcript/releases/tag/v4.0.0) — unified the code-correction ledger as the LLM-grounded substrate
-- `2026-06-18` [captain-hook v3.7.0](https://github.com/yasyf/captain-hook/releases/tag/v3.7.0) — wired hooks into the committed settings.json by default
 - `2026-06-18` [spawnllm v0.2.0](https://github.com/yasyf/spawnllm/releases/tag/v0.2.0) — generalized backend status checks and added a Gemini-family fallback
-- `2026-06-18` [cc-notes v0.5.0](https://github.com/yasyf/cc-notes/releases/tag/v0.5.0) — made `cc-notes init` set up everything and moved the capt-hook manifest into .claude/
+- `2026-06-17` [cc-orchestrate v0.2.1](https://github.com/yasyf/cc-orchestrate/releases/tag/v0.2.1)
 - `2026-06-17` [slop-cop v0.1.14](https://github.com/yasyf/slop-cop/releases/tag/v0.1.14) — added --lines to report only violations within a touched range, built for agents linting edits
-- `2026-06-16` [cc-interact v0.1.0](https://github.com/yasyf/cc-interact/releases/tag/v0.1.0) — extracted the domain-agnostic agent/daemon/web framework out of cc-review as its own library
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
@@ -104,14 +105,14 @@
 
 <!-- gh-profile:start:languages -->
 ```text
-Python      ████████████████████   55%
+Python      ████████████████████   54%
 Go          ██████░░░░░░░░░░░░░░   17%
-Ruby        █████░░░░░░░░░░░░░░░   15%
+Ruby        ██████░░░░░░░░░░░░░░   15%
 C           ██░░░░░░░░░░░░░░░░░░    4%
 HTML        █░░░░░░░░░░░░░░░░░░░    2%
 JavaScript  █░░░░░░░░░░░░░░░░░░░    2%
+Nix         █░░░░░░░░░░░░░░░░░░░    2%
 Rust        █░░░░░░░░░░░░░░░░░░░    2%
-TypeScript  █░░░░░░░░░░░░░░░░░░░    2%
 ```
 <!-- gh-profile:end:languages -->
 
