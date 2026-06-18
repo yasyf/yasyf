@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-17T13:49:57Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-18T01:33:55Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -22,20 +22,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-06-17` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
+- `2026-06-17` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — added per-line focus bubbles and gradient dimming so the reviewer is guided within each file, not just across
+- `2026-06-17` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — added a projects/sprints/validation-criteria planning layer and shipped the hooks as a capt-hook pack
+- `2026-06-17` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — rewrote it as a pure-Go CLI on cc-interact, driving agent fleets across cmux/superset/tmux backends
 - `2026-06-17` Pushed to [yasyf/dailies](https://github.com/yasyf/dailies) — unified integration credentials into a Mongo store with a setup wizard, and seeded the weekly profile refresh
 - `2026-06-17` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — stood up the detached mount-holder and FUSE mount-lifecycle primitives, cutting v0.1.0
 - `2026-06-17` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
-- `2026-06-17` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — rewrote it as a pure-Go CLI on cc-interact, driving agent fleets across cmux/superset/tmux backends
 - `2026-06-17` Pushed to [yasyf/cc-pushback](https://github.com/yasyf/cc-pushback) — rebuilt the view-samples dashboard around a faceted sidebar with code-evidence and language filters
-- `2026-06-17` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — added per-line focus bubbles and gradient dimming so the reviewer is guided within each file, not just across
 - `2026-06-17` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — added the cli-demo skill for animated SVG CLI demos rendered with evp
 - `2026-06-17` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — shipped the turnkey 'set up captain hook' session reviewer and stopped committed settings double-firing
 - `2026-06-17` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
 - `2026-06-17` Pushed to [yasyf/semisweet](https://github.com/yasyf/semisweet)
-- `2026-06-17` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
-- `2026-06-17` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — modeled Claude Code's mid-turn model-fallback block and added an OtherBlock catch-all so the parser degrades
 
-**8,639 contributions in the last year**
+**8,647 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -77,11 +77,12 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-06-17` [cc-pool v0.29.0](https://github.com/yasyf/cc-pool/releases/tag/v0.29.0)
+- `2026-06-17` [cc-review v0.15.0](https://github.com/yasyf/cc-review/releases/tag/v0.15.0)
 - `2026-06-17` [captain-hook v3.3.2](https://github.com/yasyf/captain-hook/releases/tag/v3.3.2)
 - `2026-06-17` [cc-notes v0.4.0](https://github.com/yasyf/cc-notes/releases/tag/v0.4.0) — added a projects/sprints/validation-criteria planning layer and shipped the hooks as a capt-hook pack
-- `2026-06-17` [cc-pool v0.28.1](https://github.com/yasyf/cc-pool/releases/tag/v0.28.1) — cut the FUSE-T getattr/merge CPU storm under load and stopped false needs-login on 401 streaks
+- `2026-06-17` [cc-orchestrate v0.2.1](https://github.com/yasyf/cc-orchestrate/releases/tag/v0.2.1) — fixed a tailer data race by snapshotting the poll interval instead of reading the mutable global
 - `2026-06-17` [slop-cop v0.1.14](https://github.com/yasyf/slop-cop/releases/tag/v0.1.14) — added --lines to report only violations within a touched range, built for agents linting edits
-- `2026-06-16` [cc-interact v0.1.0](https://github.com/yasyf/cc-interact/releases/tag/v0.1.0)
 - `2026-06-10` [spawnllm v0.1.3](https://github.com/yasyf/spawnllm/releases/tag/v0.1.3) — unwraps the single-result envelope in structured JSON output
 <!-- gh-profile:end:shipped -->
 
