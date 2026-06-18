@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-18T13:46:40Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-18T19:22:24Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -90,7 +90,6 @@
 - `2026-06-18` [cc-pushback v0.4.0](https://github.com/yasyf/cc-pushback/releases/tag/v0.4.0)
 - `2026-06-18` [cc-pool v0.30.1](https://github.com/yasyf/cc-pool/releases/tag/v0.30.1) — gave the menubar widget an app icon and made `ccp widget` run unattended
 - `2026-06-18` [spawnllm v0.2.0](https://github.com/yasyf/spawnllm/releases/tag/v0.2.0) — generalized backend status checks and added a Gemini-family fallback
-- `2026-06-17` [cc-orchestrate v0.2.1](https://github.com/yasyf/cc-orchestrate/releases/tag/v0.2.1)
 - `2026-06-17` [slop-cop v0.1.14](https://github.com/yasyf/slop-cop/releases/tag/v0.1.14) — added --lines to report only violations within a touched range, built for agents linting edits
 <!-- gh-profile:end:shipped -->
 
