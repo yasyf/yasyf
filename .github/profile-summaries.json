@@ -1,76 +1,76 @@
 {
   "activity": {
-    "CreateEvent:yasyf/cc-ask": {
-      "as_of": "2026-06-17",
-      "summary": "a persistent alternative to AskUserQuestion with richer context and remote approvals from web or phone"
-    },
-    "CreateEvent:yasyf/fusekit": {
-      "as_of": "2026-06-17",
-      "summary": "a Go toolkit of detached FUSE-T mount-holder and mount-lifecycle primitives"
-    },
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "56d2645494e6",
-      "summary": "shipped the turnkey 'set up captain hook' session reviewer and stopped committed settings double-firing"
-    },
-    "PushEvent:yasyf/cc-factory": {
-      "as_of": "147291b74ea9",
-      "summary": "scaffolded a software factory for Claude Code: agents that plan, build, review, and ship"
+      "as_of": "540b59c7da5d",
+      "summary": "wired hooks into the committed settings.json by default and switched skills to plugin registration instead of vendoring"
     },
     "PushEvent:yasyf/cc-notes": {
-      "as_of": "ca68e0794505",
-      "summary": "added a projects/sprints/validation-criteria planning layer and shipped the hooks as a capt-hook pack"
+      "as_of": "9fafd5a08279",
+      "summary": "remodeled onto the fusekit detached mount-holder and made `cc-notes init` set up everything, cutting v0.5.0"
     },
-    "PushEvent:yasyf/cc-orchestrate": {
-      "as_of": "dc4d02297b0a",
-      "summary": "rewrote it as a pure-Go CLI on cc-interact, driving agent fleets across cmux/superset/tmux backends"
-    },
-    "PushEvent:yasyf/cc-pushback": {
-      "as_of": "51dd9c32e9b0",
-      "summary": "rebuilt the view-samples dashboard around a faceted sidebar with code-evidence and language filters"
+    "PushEvent:yasyf/cc-pool": {
+      "as_of": "f946fe5c4a4a",
+      "summary": "polished the login flow — auto-close after `ccp login`, TUI re-login for unhealthy accounts, unattended widget"
     },
     "PushEvent:yasyf/cc-review": {
-      "as_of": "10933d24c65e",
-      "summary": "added per-line focus bubbles and gradient dimming so the reviewer is guided within each file, not just across"
+      "as_of": "75dc7811dadd",
+      "summary": "redesigned the AI bar as the Command Deck, added keyboard shortcuts, and auto-collapsed generated files"
+    },
+    "PushEvent:yasyf/cc-runtime": {
+      "as_of": "9048c68d3334",
+      "summary": "renamed the repo to cc-runtime and broadened its scope to harness-injected tools"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "635dd1005564",
-      "summary": "added the cli-demo skill for animated SVG CLI demos rendered with evp"
+      "as_of": "ade4bf20e306",
+      "summary": "added the agent-browser-with-cookies skill — authenticated browsing via local cookies behind a reasoned Touch ID gate"
     },
     "PushEvent:yasyf/cc-transcript": {
-      "as_of": "766fc5f7faf6",
-      "summary": "modeled Claude Code's mid-turn model-fallback block and added an OtherBlock catch-all so the parser degrades"
+      "as_of": "8beecc1ec026",
+      "summary": "unified the code-correction ledger as the LLM-grounded substrate, cutting the v4.0.0 breaking release"
     },
     "PushEvent:yasyf/dailies": {
-      "as_of": "d7e9bddbaf9d",
-      "summary": "unified integration credentials into a Mongo store with a setup wizard, and seeded the weekly profile refresh"
+      "as_of": "2f6f28da03f3",
+      "summary": "built a live profile-mining dashboard and restyled the CLI on a shared rich presentation layer"
+    },
+    "PushEvent:yasyf/docker-dsl": {
+      "as_of": "33f59f58516b",
+      "summary": "wrote the narrative guide and curated reference, added Google-style docstrings, and cut v0.1.0"
     },
     "PushEvent:yasyf/fusekit": {
-      "as_of": "19ebbff8ef6a",
-      "summary": "stood up the detached mount-holder and FUSE mount-lifecycle primitives, cutting v0.1.0"
+      "as_of": "4bdfed5cf537",
+      "summary": "ported the deadline-edge and darwin mount tests over from cc-pool and polished the README, cutting v0.1.1"
+    },
+    "PushEvent:yasyf/semisweet": {
+      "as_of": "8dd3c2552615",
+      "summary": "added hybrid BM25+dense retrieval plus perf wins: concurrent local inference, bounded frame reads, smaller payloads"
+    },
+    "PushEvent:yasyf/spawnllm": {
+      "as_of": "d559d633a660",
+      "summary": "generalized backend status checks and added a Gemini-family fallback, with a docs and changelog pass"
     }
   },
-  "generated_at": "2026-06-17T11:20:35Z",
+  "generated_at": "2026-06-18T11:03:49Z",
   "shipped": {
-    "captain-hook@v3.3.1": {
-      "summary": "stopped a repo with committed settings from double-firing its hooks at init"
+    "captain-hook@v3.7.0": {
+      "summary": "wired hooks into the committed settings.json by default"
     },
-    "cc-notes@v0.4.0": {
-      "summary": "added a projects/sprints/validation-criteria planning layer and shipped the hooks as a capt-hook pack"
+    "cc-interact@v0.1.0": {
+      "summary": "extracted the domain-agnostic agent/daemon/web framework out of cc-review as its own library"
     },
-    "cc-orchestrate@v0.2.1": {
-      "summary": "fixed a tailer data race by snapshotting the poll interval instead of reading the mutable global"
+    "cc-notes@v0.5.0": {
+      "summary": "made `cc-notes init` set up everything and moved the capt-hook manifest into .claude/"
     },
-    "cc-pool@v0.28.1": {
-      "summary": "cut the FUSE-T getattr/merge CPU storm under load and stopped false needs-login on 401 streaks"
+    "cc-pool@v0.30.1": {
+      "summary": "gave the menubar widget an app icon and made `ccp widget` run unattended"
     },
-    "cc-pushback@v0.3.0": {
-      "summary": "migrated onto the capt-hook 2.0 and cc-transcript 2.0 API"
+    "cc-transcript@v4.0.0": {
+      "summary": "unified the code-correction ledger as the LLM-grounded substrate"
     },
     "slop-cop@v0.1.14": {
       "summary": "added --lines to report only violations within a touched range, built for agents linting edits"
     },
-    "spawnllm@v0.1.3": {
-      "summary": "unwraps the single-result envelope in structured JSON output"
+    "spawnllm@v0.2.0": {
+      "summary": "generalized backend status checks and added a Gemini-family fallback"
     }
   },
   "version": 1

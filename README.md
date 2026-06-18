@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-18T08:17:14Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-18T11:09:05Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -22,20 +22,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-06-18` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — shipped the turnkey 'set up captain hook' session reviewer and stopped committed settings double-firing
-- `2026-06-18` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — rewrote it as a pure-Go CLI on cc-interact, driving agent fleets across cmux/superset/tmux backends
-- `2026-06-18` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — added per-line focus bubbles and gradient dimming so the reviewer is guided within each file, not just across
-- `2026-06-18` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — modeled Claude Code's mid-turn model-fallback block and added an OtherBlock catch-all so the parser degrades
-- `2026-06-18` Pushed to [yasyf/semisweet](https://github.com/yasyf/semisweet)
-- `2026-06-18` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
-- `2026-06-18` Pushed to [yasyf/dailies](https://github.com/yasyf/dailies) — unified integration credentials into a Mongo store with a setup wizard, and seeded the weekly profile refresh
-- `2026-06-18` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
-- `2026-06-18` Pushed to [yasyf/cc-pushback](https://github.com/yasyf/cc-pushback) — rebuilt the view-samples dashboard around a faceted sidebar with code-evidence and language filters
-- `2026-06-18` Pushed to [yasyf/cc-pane](https://github.com/yasyf/cc-pane)
-- `2026-06-18` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — added a projects/sprints/validation-criteria planning layer and shipped the hooks as a capt-hook pack
-- `2026-06-18` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
+- `2026-06-18` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — polished the login flow — auto-close after `ccp login`, TUI re-login for unhealthy accounts, unattended widget
+- `2026-06-18` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — remodeled onto the fusekit detached mount-holder and made `cc-notes init` set up everything, cutting v0.5.0
+- `2026-06-18` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — unified the code-correction ledger as the LLM-grounded substrate, cutting the v4.0.0 breaking release
+- `2026-06-18` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — added the agent-browser-with-cookies skill — authenticated browsing via local cookies behind a reasoned Touch ID gate
+- `2026-06-18` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — wired hooks into the committed settings.json by default and switched skills to plugin registration instead of vendoring
+- `2026-06-18` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — ported the deadline-edge and darwin mount tests over from cc-pool and polished the README, cutting v0.1.1
+- `2026-06-18` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — generalized backend status checks and added a Gemini-family fallback, with a docs and changelog pass
+- `2026-06-18` Pushed to [yasyf/semisweet](https://github.com/yasyf/semisweet) — added hybrid BM25+dense retrieval plus perf wins: concurrent local inference, bounded frame reads, smaller payloads
+- `2026-06-18` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl) — wrote the narrative guide and curated reference, added Google-style docstrings, and cut v0.1.0
+- `2026-06-18` Pushed to [yasyf/dailies](https://github.com/yasyf/dailies) — built a live profile-mining dashboard and restyled the CLI on a shared rich presentation layer
+- `2026-06-18` Pushed to [yasyf/cc-runtime](https://github.com/yasyf/cc-runtime) — renamed the repo to cc-runtime and broadened its scope to harness-injected tools
+- `2026-06-18` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — redesigned the AI bar as the Command Deck, added keyboard shortcuts, and auto-collapsed generated files
 
-**8,696 contributions in the last year**
+**8,743 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -55,10 +55,17 @@
 **Claude Code, continued**
 
 - [cc-skills](https://github.com/yasyf/cc-skills) — the plugin marketplace where the whole toolbelt ships
-- [spawnllm](https://github.com/yasyf/spawnllm) — call an LLM from any subshell: Claude, Codex, or a local MLX model
-- [cc-pushback](https://github.com/yasyf/cc-pushback) — learns how you push back on Claude from past feedback, then does it for you
 - [cc-notes](https://github.com/yasyf/cc-notes) — a notes-and-tasks layer agents can actually use
+- [cc-runtime](https://github.com/yasyf/cc-runtime) — a runtime that hands Claude Code its harness-injected tools, AskUserQuestion and friends
+- [cc-interact](https://github.com/yasyf/cc-interact) — the human-in-the-loop agent/daemon/web framework, pulled out of cc-review
+- [cc-pushback](https://github.com/yasyf/cc-pushback) — learns how you push back on Claude from past feedback, then does it for you
 - [cc-pane](https://github.com/yasyf/cc-pane) — one pane of glass over Claude Code and the whole cc-* toolbelt
+
+**Systems & libraries**
+
+- [fusekit](https://github.com/yasyf/fusekit) — detached FUSE-T mount-holder and mount-lifecycle primitives for Go, now under cc-pool and cc-notes
+- [semisweet](https://github.com/yasyf/semisweet) — an async, in-memory semantic cache with pluggable backends
+- [spawnllm](https://github.com/yasyf/spawnllm) — call an LLM from any subshell: Claude, Codex, or a local MLX model
 
 **Python, with fewer footguns**
 
@@ -77,13 +84,13 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-06-18` [cc-notes v0.4.1](https://github.com/yasyf/cc-notes/releases/tag/v0.4.1)
-- `2026-06-18` [captain-hook v3.5.0](https://github.com/yasyf/captain-hook/releases/tag/v3.5.0)
-- `2026-06-18` [cc-pool v0.29.1](https://github.com/yasyf/cc-pool/releases/tag/v0.29.1)
-- `2026-06-17` [cc-orchestrate v0.2.1](https://github.com/yasyf/cc-orchestrate/releases/tag/v0.2.1) — fixed a tailer data race by snapshotting the poll interval instead of reading the mutable global
+- `2026-06-18` [cc-pool v0.30.1](https://github.com/yasyf/cc-pool/releases/tag/v0.30.1) — gave the menubar widget an app icon and made `ccp widget` run unattended
+- `2026-06-18` [cc-transcript v4.0.0](https://github.com/yasyf/cc-transcript/releases/tag/v4.0.0) — unified the code-correction ledger as the LLM-grounded substrate
+- `2026-06-18` [captain-hook v3.7.0](https://github.com/yasyf/captain-hook/releases/tag/v3.7.0) — wired hooks into the committed settings.json by default
+- `2026-06-18` [spawnllm v0.2.0](https://github.com/yasyf/spawnllm/releases/tag/v0.2.0) — generalized backend status checks and added a Gemini-family fallback
+- `2026-06-18` [cc-notes v0.5.0](https://github.com/yasyf/cc-notes/releases/tag/v0.5.0) — made `cc-notes init` set up everything and moved the capt-hook manifest into .claude/
 - `2026-06-17` [slop-cop v0.1.14](https://github.com/yasyf/slop-cop/releases/tag/v0.1.14) — added --lines to report only violations within a touched range, built for agents linting edits
-- `2026-06-16` [cc-interact v0.1.0](https://github.com/yasyf/cc-interact/releases/tag/v0.1.0)
-- `2026-06-10` [spawnllm v0.1.3](https://github.com/yasyf/spawnllm/releases/tag/v0.1.3) — unwraps the single-result envelope in structured JSON output
+- `2026-06-16` [cc-interact v0.1.0](https://github.com/yasyf/cc-interact/releases/tag/v0.1.0) — extracted the domain-agnostic agent/daemon/web framework out of cc-review as its own library
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
@@ -98,8 +105,8 @@
 <!-- gh-profile:start:languages -->
 ```text
 Python      ████████████████████   55%
-Ruby        ██████░░░░░░░░░░░░░░   17%
-Go          █████░░░░░░░░░░░░░░░   15%
+Go          ██████░░░░░░░░░░░░░░   17%
+Ruby        █████░░░░░░░░░░░░░░░   15%
 C           ██░░░░░░░░░░░░░░░░░░    4%
 HTML        █░░░░░░░░░░░░░░░░░░░    2%
 JavaScript  █░░░░░░░░░░░░░░░░░░░    2%
