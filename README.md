@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-19T08:23:24Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-19T11:10:56Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -22,20 +22,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-06-19` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — wired hooks into the committed settings.json by default and switched skills to plugin registration instead of vendoring
-- `2026-06-19` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync)
-- `2026-06-19` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — generalized backend status checks and added a Gemini-family fallback, with a docs and changelog pass
-- `2026-06-19` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — redesigned the AI bar as the Command Deck, added keyboard shortcuts, and auto-collapsed generated files
-- `2026-06-19` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
-- `2026-06-19` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — added the agent-browser-with-cookies skill — authenticated browsing via local cookies behind a reasoned Touch ID gate
-- `2026-06-19` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw)
-- `2026-06-18` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — remodeled onto the fusekit detached mount-holder and made `cc-notes init` set up everything, cutting v0.5.0
-- `2026-06-18` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
-- `2026-06-18` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — polished the login flow — auto-close after `ccp login`, TUI re-login for unhealthy accounts, unattended widget
-- `2026-06-18` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
-- `2026-06-18` Pushed to [yasyf/cc-pushback](https://github.com/yasyf/cc-pushback)
+- `2026-06-19` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-06-19` Was active in [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
+- `2026-06-19` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — signed and notarized the CCPoolStatus widget app and fell back to a symlink when the mount holder crash-loops
+- `2026-06-19` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — added a builtin Go pack — test-gate plus gofumpt/golangci-lint guards — and hardened the loader past unloadable hooks
+- `2026-06-19` Pushed to [yasyf/cc-merge](https://github.com/yasyf/cc-merge) — stood up the new merge-queue repo: CLI skeleton, goreleaser release, and a cc-notes reconcile workflow
+- `2026-06-19` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — gave the repo-bootstrap skill a full Go layer — cobra, golangci-lint, goreleaser→Homebrew — with Developer ID signing
+- `2026-06-19` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — exposed a public in-process Go API, added `note expire` to flag stale notes, and signed the darwin binaries
+- `2026-06-19` Created something new in [yasyf/cc-merge](https://github.com/yasyf/cc-merge)
+- `2026-06-19` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — cut a goreleaser→Homebrew release with an embedded SPA, and wrote review corrections into the shared decision ledger
+- `2026-06-19` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync) — rebuilt the TUI as a filterable recency-sorted master-detail and synced repos over per-host RPC sockets via watchman
+- `2026-06-19` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — built the repo→workstream→sprint→agent model with worktree isolation and in-process cc-notes wiring
+- `2026-06-19` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop) — added `--lines` to report only violations within a touched range, built for agents linting their own edits
 
-**8,862 contributions in the last year**
+**8,914 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -84,13 +84,12 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-06-19` [captain-hook v3.10.0](https://github.com/yasyf/captain-hook/releases/tag/v3.10.0)
-- `2026-06-19` [spawnllm v0.3.1](https://github.com/yasyf/spawnllm/releases/tag/v0.3.1)
-- `2026-06-18` [reposync v0.3.0](https://github.com/yasyf/reposync/releases/tag/v0.3.0)
-- `2026-06-18` [cc-pool v0.31.2](https://github.com/yasyf/cc-pool/releases/tag/v0.31.2)
-- `2026-06-18` [cc-review v0.18.0](https://github.com/yasyf/cc-review/releases/tag/v0.18.0)
-- `2026-06-18` [slop-cop v0.1.15](https://github.com/yasyf/slop-cop/releases/tag/v0.1.15)
-- `2026-06-17` [cc-orchestrate v0.2.1](https://github.com/yasyf/cc-orchestrate/releases/tag/v0.2.1)
+- `2026-06-19` [cc-pool v0.31.5](https://github.com/yasyf/cc-pool/releases/tag/v0.31.5) — signed, notarized, and stapled the CCPoolStatus widget app
+- `2026-06-19` [cc-orchestrate v0.2.3](https://github.com/yasyf/cc-orchestrate/releases/tag/v0.2.3) — documented the in-process cc-notes integration, gated on repo entities
+- `2026-06-19` [slop-cop v0.1.19](https://github.com/yasyf/slop-cop/releases/tag/v0.1.19) — signed the darwin binaries with codesign+notarytool instead of quill
+- `2026-06-19` [cc-notes v0.7.5](https://github.com/yasyf/cc-notes/releases/tag/v0.7.5) — moved the pack test script into tests/ so capt-hook skips it
+- `2026-06-19` [captain-hook v3.10.1](https://github.com/yasyf/captain-hook/releases/tag/v3.10.1) — skipped test files and warn-continued past unloadable hook files in the loader
+- `2026-06-19` [spawnllm v0.3.1](https://github.com/yasyf/spawnllm/releases/tag/v0.3.1) — threaded cwd and timeout through the call() entrypoint
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
@@ -105,8 +104,8 @@
 <!-- gh-profile:start:languages -->
 ```text
 Python      ████████████████████   54%
-Go          ██████░░░░░░░░░░░░░░   17%
-Ruby        ██████░░░░░░░░░░░░░░   15%
+Go          ███████░░░░░░░░░░░░░   20%
+Ruby        █████░░░░░░░░░░░░░░░   13%
 C           ██░░░░░░░░░░░░░░░░░░    4%
 HTML        █░░░░░░░░░░░░░░░░░░░    2%
 JavaScript  █░░░░░░░░░░░░░░░░░░░    2%

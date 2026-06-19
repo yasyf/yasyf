@@ -1,76 +1,61 @@
 {
   "activity": {
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "540b59c7da5d",
-      "summary": "wired hooks into the committed settings.json by default and switched skills to plugin registration instead of vendoring"
+      "as_of": "4fae38dbcadd",
+      "summary": "added a builtin Go pack — test-gate plus gofumpt/golangci-lint guards — and hardened the loader past unloadable hooks"
+    },
+    "PushEvent:yasyf/cc-merge": {
+      "as_of": "36e5301b8a92",
+      "summary": "stood up the new merge-queue repo: CLI skeleton, goreleaser release, and a cc-notes reconcile workflow"
     },
     "PushEvent:yasyf/cc-notes": {
-      "as_of": "9fafd5a08279",
-      "summary": "remodeled onto the fusekit detached mount-holder and made `cc-notes init` set up everything, cutting v0.5.0"
+      "as_of": "4f3a3dd4a02e",
+      "summary": "exposed a public in-process Go API, added `note expire` to flag stale notes, and signed the darwin binaries"
+    },
+    "PushEvent:yasyf/cc-orchestrate": {
+      "as_of": "4017bfaa15ec",
+      "summary": "built the repo→workstream→sprint→agent model with worktree isolation and in-process cc-notes wiring"
     },
     "PushEvent:yasyf/cc-pool": {
-      "as_of": "f946fe5c4a4a",
-      "summary": "polished the login flow — auto-close after `ccp login`, TUI re-login for unhealthy accounts, unattended widget"
+      "as_of": "6e55a7c5af57",
+      "summary": "signed and notarized the CCPoolStatus widget app and fell back to a symlink when the mount holder crash-loops"
     },
     "PushEvent:yasyf/cc-review": {
-      "as_of": "75dc7811dadd",
-      "summary": "redesigned the AI bar as the Command Deck, added keyboard shortcuts, and auto-collapsed generated files"
-    },
-    "PushEvent:yasyf/cc-runtime": {
-      "as_of": "9048c68d3334",
-      "summary": "renamed the repo to cc-runtime and broadened its scope to harness-injected tools"
+      "as_of": "8a3ccd2460f9",
+      "summary": "cut a goreleaser→Homebrew release with an embedded SPA, and wrote review corrections into the shared decision ledger"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "ade4bf20e306",
-      "summary": "added the agent-browser-with-cookies skill — authenticated browsing via local cookies behind a reasoned Touch ID gate"
+      "as_of": "6395196be881",
+      "summary": "gave the repo-bootstrap skill a full Go layer — cobra, golangci-lint, goreleaser→Homebrew — with Developer ID signing"
     },
-    "PushEvent:yasyf/cc-transcript": {
-      "as_of": "8beecc1ec026",
-      "summary": "unified the code-correction ledger as the LLM-grounded substrate, cutting the v4.0.0 breaking release"
+    "PushEvent:yasyf/reposync": {
+      "as_of": "244ba7a80187",
+      "summary": "rebuilt the TUI as a filterable recency-sorted master-detail and synced repos over per-host RPC sockets via watchman"
     },
-    "PushEvent:yasyf/dailies": {
-      "as_of": "2f6f28da03f3",
-      "summary": "built a live profile-mining dashboard and restyled the CLI on a shared rich presentation layer"
-    },
-    "PushEvent:yasyf/docker-dsl": {
-      "as_of": "33f59f58516b",
-      "summary": "wrote the narrative guide and curated reference, added Google-style docstrings, and cut v0.1.0"
-    },
-    "PushEvent:yasyf/fusekit": {
-      "as_of": "4bdfed5cf537",
-      "summary": "ported the deadline-edge and darwin mount tests over from cc-pool and polished the README, cutting v0.1.1"
-    },
-    "PushEvent:yasyf/semisweet": {
-      "as_of": "8dd3c2552615",
-      "summary": "added hybrid BM25+dense retrieval plus perf wins: concurrent local inference, bounded frame reads, smaller payloads"
-    },
-    "PushEvent:yasyf/spawnllm": {
-      "as_of": "d559d633a660",
-      "summary": "generalized backend status checks and added a Gemini-family fallback, with a docs and changelog pass"
+    "PushEvent:yasyf/slop-cop": {
+      "as_of": "95e58aa0801b",
+      "summary": "added `--lines` to report only violations within a touched range, built for agents linting their own edits"
     }
   },
-  "generated_at": "2026-06-18T11:03:49Z",
+  "generated_at": "2026-06-19T11:08:11Z",
   "shipped": {
-    "captain-hook@v3.7.0": {
-      "summary": "wired hooks into the committed settings.json by default"
+    "captain-hook@v3.10.1": {
+      "summary": "skipped test files and warn-continued past unloadable hook files in the loader"
     },
-    "cc-interact@v0.1.0": {
-      "summary": "extracted the domain-agnostic agent/daemon/web framework out of cc-review as its own library"
+    "cc-notes@v0.7.5": {
+      "summary": "moved the pack test script into tests/ so capt-hook skips it"
     },
-    "cc-notes@v0.5.0": {
-      "summary": "made `cc-notes init` set up everything and moved the capt-hook manifest into .claude/"
+    "cc-orchestrate@v0.2.3": {
+      "summary": "documented the in-process cc-notes integration, gated on repo entities"
     },
-    "cc-pool@v0.30.1": {
-      "summary": "gave the menubar widget an app icon and made `ccp widget` run unattended"
+    "cc-pool@v0.31.5": {
+      "summary": "signed, notarized, and stapled the CCPoolStatus widget app"
     },
-    "cc-transcript@v4.0.0": {
-      "summary": "unified the code-correction ledger as the LLM-grounded substrate"
+    "slop-cop@v0.1.19": {
+      "summary": "signed the darwin binaries with codesign+notarytool instead of quill"
     },
-    "slop-cop@v0.1.14": {
-      "summary": "added --lines to report only violations within a touched range, built for agents linting edits"
-    },
-    "spawnllm@v0.2.0": {
-      "summary": "generalized backend status checks and added a Gemini-family fallback"
+    "spawnllm@v0.3.1": {
+      "summary": "threaded cwd and timeout through the call() entrypoint"
     }
   },
   "version": 1
