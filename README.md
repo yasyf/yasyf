@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-19T01:40:57Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-19T08:23:24Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -22,20 +22,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-06-18` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync)
+- `2026-06-19` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — wired hooks into the committed settings.json by default and switched skills to plugin registration instead of vendoring
+- `2026-06-19` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync)
+- `2026-06-19` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — generalized backend status checks and added a Gemini-family fallback, with a docs and changelog pass
+- `2026-06-19` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — redesigned the AI bar as the Command Deck, added keyboard shortcuts, and auto-collapsed generated files
+- `2026-06-19` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
+- `2026-06-19` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — added the agent-browser-with-cookies skill — authenticated browsing via local cookies behind a reasoned Touch ID gate
+- `2026-06-19` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw)
 - `2026-06-18` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — remodeled onto the fusekit detached mount-holder and made `cc-notes init` set up everything, cutting v0.5.0
-- `2026-06-18` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — wired hooks into the committed settings.json by default and switched skills to plugin registration instead of vendoring
-- `2026-06-18` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — generalized backend status checks and added a Gemini-family fallback, with a docs and changelog pass
-- `2026-06-18` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — added the agent-browser-with-cookies skill — authenticated browsing via local cookies behind a reasoned Touch ID gate
 - `2026-06-18` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
 - `2026-06-18` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — polished the login flow — auto-close after `ccp login`, TUI re-login for unhealthy accounts, unattended widget
-- `2026-06-18` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw)
-- `2026-06-18` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — redesigned the AI bar as the Command Deck, added keyboard shortcuts, and auto-collapsed generated files
 - `2026-06-18` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
-- `2026-06-18` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
 - `2026-06-18` Pushed to [yasyf/cc-pushback](https://github.com/yasyf/cc-pushback)
 
-**8,828 contributions in the last year**
+**8,862 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -84,12 +84,12 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-06-18` [spawnllm v0.3.0](https://github.com/yasyf/spawnllm/releases/tag/v0.3.0)
+- `2026-06-19` [captain-hook v3.10.0](https://github.com/yasyf/captain-hook/releases/tag/v3.10.0)
+- `2026-06-19` [spawnllm v0.3.1](https://github.com/yasyf/spawnllm/releases/tag/v0.3.1)
 - `2026-06-18` [reposync v0.3.0](https://github.com/yasyf/reposync/releases/tag/v0.3.0)
-- `2026-06-18` [cc-notes v0.7.2](https://github.com/yasyf/cc-notes/releases/tag/v0.7.2)
 - `2026-06-18` [cc-pool v0.31.2](https://github.com/yasyf/cc-pool/releases/tag/v0.31.2)
+- `2026-06-18` [cc-review v0.18.0](https://github.com/yasyf/cc-review/releases/tag/v0.18.0)
 - `2026-06-18` [slop-cop v0.1.15](https://github.com/yasyf/slop-cop/releases/tag/v0.1.15)
-- `2026-06-18` [captain-hook v3.9.0](https://github.com/yasyf/captain-hook/releases/tag/v3.9.0)
 - `2026-06-17` [cc-orchestrate v0.2.1](https://github.com/yasyf/cc-orchestrate/releases/tag/v0.2.1)
 <!-- gh-profile:end:shipped -->
 
