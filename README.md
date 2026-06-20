@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-19T19:11:34Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-20T01:27:30Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -88,7 +88,6 @@
 - `2026-06-19` [cc-orchestrate v0.2.3](https://github.com/yasyf/cc-orchestrate/releases/tag/v0.2.3) — documented the in-process cc-notes integration, gated on repo entities
 - `2026-06-19` [slop-cop v0.1.19](https://github.com/yasyf/slop-cop/releases/tag/v0.1.19) — signed the darwin binaries with codesign+notarytool instead of quill
 - `2026-06-19` [cc-notes v0.7.5](https://github.com/yasyf/cc-notes/releases/tag/v0.7.5) — moved the pack test script into tests/ so capt-hook skips it
-- `2026-06-19` [cc-review v0.18.3](https://github.com/yasyf/cc-review/releases/tag/v0.18.3)
 - `2026-06-19` [captain-hook v3.10.1](https://github.com/yasyf/captain-hook/releases/tag/v3.10.1) — skipped test files and warn-continued past unloadable hook files in the loader
 - `2026-06-19` [spawnllm v0.3.1](https://github.com/yasyf/spawnllm/releases/tag/v0.3.1) — threaded cwd and timeout through the call() entrypoint
 <!-- gh-profile:end:shipped -->
