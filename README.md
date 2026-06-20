@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-20T07:50:41Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-20T10:34:35Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -14,7 +14,7 @@
 ## 🔭 Now
 
 - Building the missing toolbelt for Claude Code: [captain-hook](https://github.com/yasyf/captain-hook) for declarative hooks, [cc-pool](https://github.com/yasyf/cc-pool) for account pooling, [cc-review](https://github.com/yasyf/cc-review) for reviewing Claude's diffs in a PR-style web UI, [cc-transcript](https://github.com/yasyf/cc-transcript) for typed transcripts, and [slop-cop](https://github.com/yasyf/slop-cop) to catch AI-flavored prose
-- Converging those pieces into one session-activity platform — typed events and a decision ledger in cc-transcript, with captain-hook as its hook runtime — and building [cc-orchestrate](https://github.com/yasyf/cc-orchestrate) into a pure-Go CLI that runs fleets of agents across pluggable backends like cmux, superset, and tmux
+- Converging those pieces into one session-activity platform — typed events and a decision ledger in cc-transcript, with captain-hook as its hook runtime — and building [cc-orchestrate](https://github.com/yasyf/cc-orchestrate) into a pure-Go CLI that runs fleets of agents across pluggable backends like cmux, superset, and tmux, now with long-lived, keep-alive agent sessions
 - Running [cc-sentiment](https://github.com/yasyf/cc-sentiment), an open experiment in whether developer sentiment with Claude Code tracks the model, the tooling, or just the time of day
 - Engineer & CEO at [Aneta](https://aneta.company)
 
@@ -22,20 +22,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-06-19` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
-- `2026-06-19` Was active in [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
-- `2026-06-19` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — signed and notarized the CCPoolStatus widget app and fell back to a symlink when the mount holder crash-loops
-- `2026-06-19` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — added a builtin Go pack — test-gate plus gofumpt/golangci-lint guards — and hardened the loader past unloadable hooks
-- `2026-06-19` Pushed to [yasyf/cc-merge](https://github.com/yasyf/cc-merge) — stood up the new merge-queue repo: CLI skeleton, goreleaser release, and a cc-notes reconcile workflow
-- `2026-06-19` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — gave the repo-bootstrap skill a full Go layer — cobra, golangci-lint, goreleaser→Homebrew — with Developer ID signing
-- `2026-06-19` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — exposed a public in-process Go API, added `note expire` to flag stale notes, and signed the darwin binaries
-- `2026-06-19` Created something new in [yasyf/cc-merge](https://github.com/yasyf/cc-merge)
-- `2026-06-19` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — cut a goreleaser→Homebrew release with an embedded SPA, and wrote review corrections into the shared decision ledger
-- `2026-06-19` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync) — rebuilt the TUI as a filterable recency-sorted master-detail and synced repos over per-host RPC sockets via watchman
-- `2026-06-19` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — built the repo→workstream→sprint→agent model with worktree isolation and in-process cc-notes wiring
-- `2026-06-19` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop) — added `--lines` to report only violations within a touched range, built for agents linting their own edits
+- `2026-06-20` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — stood up an in-process FUSE host with mount-core primitives and detached holder
+- `2026-06-20` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — added long-lived agent sessions: keep-alive supervision and serialize/restore
+- `2026-06-20` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — added `note expire` to flag stale notes and signed the darwin binaries
+- `2026-06-20` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — released via goreleaser/Homebrew with an embedded SPA and a corrections ledger
+- `2026-06-20` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync) — rebuilt a filterable, recency-sorted master-detail TUI synced over per-host RPC
+- `2026-06-20` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-06-20` Pushed to [yasyf/cc-runtime](https://github.com/yasyf/cc-runtime) — stood up cc-runtime: interaction domain, daemon, channel tools, TUI, and plugin
+- `2026-06-20` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop) — added `--lines` to report only violations within a touched line range
+- `2026-06-20` Pushed to [yasyf/cc-merge](https://github.com/yasyf/cc-merge) — stood up merge-queue repo: CLI skeleton, goreleaser release, cc-notes reconcile
+- `2026-06-20` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — scaffolded cc_context: a CLI skeleton with CI, docs, and PyPI release
+- `2026-06-20` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — scaffolded cc_squash: a CLI skeleton with CI, docs, and PyPI release
+- `2026-06-20` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — added a builtin Go pack (test-gate, gofumpt, golangci-lint) and hardened loader
 
-**8,914 contributions in the last year**
+**8,948 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -61,6 +61,12 @@
 - [cc-pushback](https://github.com/yasyf/cc-pushback) — learns how you push back on Claude from past feedback, then does it for you
 - [cc-pane](https://github.com/yasyf/cc-pane) — one pane of glass over Claude Code and the whole cc-* toolbelt
 
+**Taming long sessions**
+
+- [cc-merge](https://github.com/yasyf/cc-merge) — a merge queue for the git worktrees where finished Claude outputs land
+- [cc-context](https://github.com/yasyf/cc-context) — tools and skills for keeping Claude's context lean
+- [cc-squash](https://github.com/yasyf/cc-squash) — augmented auto-compaction for marathon Claude Code sessions
+
 **Systems & libraries**
 
 - [fusekit](https://github.com/yasyf/fusekit) — detached FUSE-T mount-holder and mount-lifecycle primitives for Go, now under cc-pool and cc-notes
@@ -84,10 +90,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-06-20` [slop-cop v0.1.20](https://github.com/yasyf/slop-cop/releases/tag/v0.1.20)
+- `2026-06-20` [cc-orchestrate v0.2.4](https://github.com/yasyf/cc-orchestrate/releases/tag/v0.2.4) — long-lived agent sessions with keep-alive supervision and serialize/restore
+- `2026-06-20` [captain-hook v3.11.1](https://github.com/yasyf/captain-hook/releases/tag/v3.11.1) — wired the SessionEnd reviewer async and skipped non-interactive ends
 - `2026-06-19` [cc-pool v0.31.5](https://github.com/yasyf/cc-pool/releases/tag/v0.31.5) — signed, notarized, and stapled the CCPoolStatus widget app
-- `2026-06-19` [slop-cop v0.1.19](https://github.com/yasyf/slop-cop/releases/tag/v0.1.19) — signed the darwin binaries with codesign+notarytool instead of quill
 - `2026-06-19` [cc-notes v0.7.5](https://github.com/yasyf/cc-notes/releases/tag/v0.7.5) — moved the pack test script into tests/ so capt-hook skips it
-- `2026-06-19` [captain-hook v3.10.1](https://github.com/yasyf/captain-hook/releases/tag/v3.10.1) — skipped test files and warn-continued past unloadable hook files in the loader
 - `2026-06-19` [spawnllm v0.3.1](https://github.com/yasyf/spawnllm/releases/tag/v0.3.1) — threaded cwd and timeout through the call() entrypoint
 <!-- gh-profile:end:shipped -->
 
@@ -102,8 +109,8 @@
 
 <!-- gh-profile:start:languages -->
 ```text
-Python      ████████████████████   54%
-Go          ███████░░░░░░░░░░░░░   20%
+Python      ████████████████████   53%
+Go          ████████░░░░░░░░░░░░   21%
 Ruby        █████░░░░░░░░░░░░░░░   13%
 C           ██░░░░░░░░░░░░░░░░░░    4%
 HTML        █░░░░░░░░░░░░░░░░░░░    2%

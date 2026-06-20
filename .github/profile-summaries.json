@@ -1,58 +1,63 @@
 {
   "activity": {
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "4fae38dbcadd",
-      "summary": "added a builtin Go pack — test-gate plus gofumpt/golangci-lint guards — and hardened the loader past unloadable hooks"
+      "as_of": "d994322f0107",
+      "summary": "added a builtin Go pack (test-gate, gofumpt, golangci-lint) and hardened loader"
+    },
+    "PushEvent:yasyf/cc-context": {
+      "as_of": "d00af3674d41",
+      "summary": "scaffolded cc_context: a CLI skeleton with CI, docs, and PyPI release"
     },
     "PushEvent:yasyf/cc-merge": {
-      "as_of": "36e5301b8a92",
-      "summary": "stood up the new merge-queue repo: CLI skeleton, goreleaser release, and a cc-notes reconcile workflow"
+      "as_of": "a729c631eed8",
+      "summary": "stood up merge-queue repo: CLI skeleton, goreleaser release, cc-notes reconcile"
     },
     "PushEvent:yasyf/cc-notes": {
-      "as_of": "4f3a3dd4a02e",
-      "summary": "exposed a public in-process Go API, added `note expire` to flag stale notes, and signed the darwin binaries"
+      "as_of": "469bb91845ec",
+      "summary": "added `note expire` to flag stale notes and signed the darwin binaries"
     },
     "PushEvent:yasyf/cc-orchestrate": {
-      "as_of": "4017bfaa15ec",
-      "summary": "built the repo→workstream→sprint→agent model with worktree isolation and in-process cc-notes wiring"
-    },
-    "PushEvent:yasyf/cc-pool": {
-      "as_of": "6e55a7c5af57",
-      "summary": "signed and notarized the CCPoolStatus widget app and fell back to a symlink when the mount holder crash-loops"
+      "as_of": "6f964a0e5fbb",
+      "summary": "added long-lived agent sessions: keep-alive supervision and serialize/restore"
     },
     "PushEvent:yasyf/cc-review": {
-      "as_of": "8a3ccd2460f9",
-      "summary": "cut a goreleaser→Homebrew release with an embedded SPA, and wrote review corrections into the shared decision ledger"
+      "as_of": "634558893b7f",
+      "summary": "released via goreleaser/Homebrew with an embedded SPA and a corrections ledger"
     },
-    "PushEvent:yasyf/cc-skills": {
-      "as_of": "6395196be881",
-      "summary": "gave the repo-bootstrap skill a full Go layer — cobra, golangci-lint, goreleaser→Homebrew — with Developer ID signing"
+    "PushEvent:yasyf/cc-runtime": {
+      "as_of": "fc623fe8a11f",
+      "summary": "stood up cc-runtime: interaction domain, daemon, channel tools, TUI, and plugin"
+    },
+    "PushEvent:yasyf/cc-squash": {
+      "as_of": "979b8b6cf9de",
+      "summary": "scaffolded cc_squash: a CLI skeleton with CI, docs, and PyPI release"
+    },
+    "PushEvent:yasyf/fusekit": {
+      "as_of": "d2b4e6858907",
+      "summary": "stood up an in-process FUSE host with mount-core primitives and detached holder"
     },
     "PushEvent:yasyf/reposync": {
-      "as_of": "244ba7a80187",
-      "summary": "rebuilt the TUI as a filterable recency-sorted master-detail and synced repos over per-host RPC sockets via watchman"
+      "as_of": "16da917d31b0",
+      "summary": "rebuilt a filterable, recency-sorted master-detail TUI synced over per-host RPC"
     },
     "PushEvent:yasyf/slop-cop": {
-      "as_of": "95e58aa0801b",
-      "summary": "added `--lines` to report only violations within a touched range, built for agents linting their own edits"
+      "as_of": "706b34a75c4c",
+      "summary": "added `--lines` to report only violations within a touched line range"
     }
   },
-  "generated_at": "2026-06-19T11:08:11Z",
+  "generated_at": "2026-06-20T10:30:20Z",
   "shipped": {
-    "captain-hook@v3.10.1": {
-      "summary": "skipped test files and warn-continued past unloadable hook files in the loader"
+    "captain-hook@v3.11.1": {
+      "summary": "wired the SessionEnd reviewer async and skipped non-interactive ends"
     },
     "cc-notes@v0.7.5": {
       "summary": "moved the pack test script into tests/ so capt-hook skips it"
     },
-    "cc-orchestrate@v0.2.3": {
-      "summary": "documented the in-process cc-notes integration, gated on repo entities"
+    "cc-orchestrate@v0.2.4": {
+      "summary": "long-lived agent sessions with keep-alive supervision and serialize/restore"
     },
     "cc-pool@v0.31.5": {
       "summary": "signed, notarized, and stapled the CCPoolStatus widget app"
-    },
-    "slop-cop@v0.1.19": {
-      "summary": "signed the darwin binaries with codesign+notarytool instead of quill"
     },
     "spawnllm@v0.3.1": {
       "summary": "threaded cwd and timeout through the call() entrypoint"
