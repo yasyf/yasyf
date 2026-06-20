@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-20T13:05:24Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-20T18:58:55Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -91,7 +91,6 @@
 
 <!-- gh-profile:start:shipped -->
 - `2026-06-20` [cc-pool v0.31.6](https://github.com/yasyf/cc-pool/releases/tag/v0.31.6)
-- `2026-06-20` [cc-notes v0.7.6](https://github.com/yasyf/cc-notes/releases/tag/v0.7.6)
 - `2026-06-20` [slop-cop v0.1.20](https://github.com/yasyf/slop-cop/releases/tag/v0.1.20)
 - `2026-06-20` [captain-hook v3.11.1](https://github.com/yasyf/captain-hook/releases/tag/v3.11.1) — wired the SessionEnd reviewer async and skipped non-interactive ends
 - `2026-06-19` [reposync v0.4.5](https://github.com/yasyf/reposync/releases/tag/v0.4.5)
