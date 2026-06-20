@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-20T01:27:30Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-20T07:50:41Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -85,7 +85,6 @@
 
 <!-- gh-profile:start:shipped -->
 - `2026-06-19` [cc-pool v0.31.5](https://github.com/yasyf/cc-pool/releases/tag/v0.31.5) — signed, notarized, and stapled the CCPoolStatus widget app
-- `2026-06-19` [cc-orchestrate v0.2.3](https://github.com/yasyf/cc-orchestrate/releases/tag/v0.2.3) — documented the in-process cc-notes integration, gated on repo entities
 - `2026-06-19` [slop-cop v0.1.19](https://github.com/yasyf/slop-cop/releases/tag/v0.1.19) — signed the darwin binaries with codesign+notarytool instead of quill
 - `2026-06-19` [cc-notes v0.7.5](https://github.com/yasyf/cc-notes/releases/tag/v0.7.5) — moved the pack test script into tests/ so capt-hook skips it
 - `2026-06-19` [captain-hook v3.10.1](https://github.com/yasyf/captain-hook/releases/tag/v3.10.1) — skipped test files and warn-continued past unloadable hook files in the loader
