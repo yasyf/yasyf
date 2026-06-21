@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-21T01:37:40Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-21T08:11:50Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -22,20 +22,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-06-21` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
-- `2026-06-21` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — stood up an in-process FUSE host with mount-core primitives and detached holder
+- `2026-06-21` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-06-21` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-06-21` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — added `note expire` to flag stale notes and signed the darwin binaries
+- `2026-06-21` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — added a builtin Go pack (test-gate, gofumpt, golangci-lint) and hardened loader
+- `2026-06-21` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
+- `2026-06-21` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — scaffolded cc_context: a CLI skeleton with CI, docs, and PyPI release
+- `2026-06-21` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — scaffolded cc_squash: a CLI skeleton with CI, docs, and PyPI release
+- `2026-06-21` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — stood up an in-process FUSE host with mount-core primitives and detached holder
 - `2026-06-20` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync) — rebuilt a filterable, recency-sorted master-detail TUI synced over per-host RPC
-- `2026-06-20` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-06-20` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — added `note expire` to flag stale notes and signed the darwin binaries
 - `2026-06-20` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — added long-lived agent sessions: keep-alive supervision and serialize/restore
 - `2026-06-20` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — released via goreleaser/Homebrew with an embedded SPA and a corrections ledger
 - `2026-06-20` Pushed to [yasyf/cc-runtime](https://github.com/yasyf/cc-runtime) — stood up cc-runtime: interaction domain, daemon, channel tools, TUI, and plugin
-- `2026-06-20` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop) — added `--lines` to report only violations within a touched line range
-- `2026-06-20` Pushed to [yasyf/cc-merge](https://github.com/yasyf/cc-merge) — stood up merge-queue repo: CLI skeleton, goreleaser release, cc-notes reconcile
-- `2026-06-20` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — scaffolded cc_context: a CLI skeleton with CI, docs, and PyPI release
 
-**8,972 contributions in the last year**
+**9,094 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -90,8 +90,9 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-06-21` [reposync v0.4.6](https://github.com/yasyf/reposync/releases/tag/v0.4.6)
-- `2026-06-20` [cc-pool v0.31.6](https://github.com/yasyf/cc-pool/releases/tag/v0.31.6)
+- `2026-06-21` [cc-context v0.1.0](https://github.com/yasyf/cc-context/releases/tag/v0.1.0)
+- `2026-06-21` [cc-pool v0.31.7](https://github.com/yasyf/cc-pool/releases/tag/v0.31.7)
+- `2026-06-20` [cc-notes v0.7.6](https://github.com/yasyf/cc-notes/releases/tag/v0.7.6)
 - `2026-06-20` [slop-cop v0.1.20](https://github.com/yasyf/slop-cop/releases/tag/v0.1.20)
 - `2026-06-20` [captain-hook v3.11.1](https://github.com/yasyf/captain-hook/releases/tag/v3.11.1) — wired the SessionEnd reviewer async and skipped non-interactive ends
 - `2026-06-19` [spawnllm v0.3.1](https://github.com/yasyf/spawnllm/releases/tag/v0.3.1) — threaded cwd and timeout through the call() entrypoint
@@ -108,8 +109,8 @@
 
 <!-- gh-profile:start:languages -->
 ```text
-Python      ████████████████████   53%
-Go          ████████░░░░░░░░░░░░   21%
+Python      ████████████████████   51%
+Go          █████████░░░░░░░░░░░   23%
 Ruby        █████░░░░░░░░░░░░░░░   13%
 C           ██░░░░░░░░░░░░░░░░░░    4%
 HTML        █░░░░░░░░░░░░░░░░░░░    2%
