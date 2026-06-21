@@ -1,63 +1,62 @@
 {
   "activity": {
-    "PushEvent:yasyf/captain-hook": {
-      "as_of": "d994322f0107",
-      "summary": "added a builtin Go pack (test-gate, gofumpt, golangci-lint) and hardened loader"
+    "PushEvent:yasyf/fusekit": {
+      "as_of": "464a62c1addc",
+      "summary": "added a generic Supervisor/Policy for detached children and a stable-path mount holder with peer-gated kill"
     },
-    "PushEvent:yasyf/cc-context": {
-      "as_of": "d00af3674d41",
-      "summary": "scaffolded cc_context: a CLI skeleton with CI, docs, and PyPI release"
-    },
-    "PushEvent:yasyf/cc-merge": {
-      "as_of": "a729c631eed8",
-      "summary": "stood up merge-queue repo: CLI skeleton, goreleaser release, cc-notes reconcile"
-    },
-    "PushEvent:yasyf/cc-notes": {
-      "as_of": "469bb91845ec",
-      "summary": "added `note expire` to flag stale notes and signed the darwin binaries"
-    },
-    "PushEvent:yasyf/cc-orchestrate": {
-      "as_of": "6f964a0e5fbb",
-      "summary": "added long-lived agent sessions: keep-alive supervision and serialize/restore"
-    },
-    "PushEvent:yasyf/cc-review": {
-      "as_of": "634558893b7f",
-      "summary": "released via goreleaser/Homebrew with an embedded SPA and a corrections ledger"
-    },
-    "PushEvent:yasyf/cc-runtime": {
-      "as_of": "fc623fe8a11f",
-      "summary": "stood up cc-runtime: interaction domain, daemon, channel tools, TUI, and plugin"
+    "PushEvent:yasyf/yclaw": {
+      "as_of": "4b2c94b5547c",
+      "summary": "hardened the hermes-agent home server: a gVisor runtime, a filtering docker socket proxy, and tailnet-only firewalls"
     },
     "PushEvent:yasyf/cc-squash": {
-      "as_of": "979b8b6cf9de",
-      "summary": "scaffolded cc_squash: a CLI skeleton with CI, docs, and PyPI release"
+      "as_of": "e410ce40c547",
+      "summary": "scaffolded cc_squash and laid out the compaction research, architecture, and build plan"
     },
-    "PushEvent:yasyf/fusekit": {
-      "as_of": "d2b4e6858907",
-      "summary": "stood up an in-process FUSE host with mount-core primitives and detached holder"
+    "PushEvent:yasyf/homebrew-tap": {
+      "as_of": "3f24b49c04fb",
+      "summary": "published the latest cask and formula bumps across the cc-* tools"
     },
-    "PushEvent:yasyf/reposync": {
-      "as_of": "16da917d31b0",
-      "summary": "rebuilt a filterable, recency-sorted master-detail TUI synced over per-host RPC"
+    "PushEvent:yasyf/cc-orchestrate": {
+      "as_of": "e24e06a2487c",
+      "summary": "added a /cco plugin and AgentProber liveness across the tmux, zellij, and superset backends"
     },
-    "PushEvent:yasyf/slop-cop": {
-      "as_of": "706b34a75c4c",
-      "summary": "added `--lines` to report only violations within a touched line range"
+    "PushEvent:yasyf/cc-notes": {
+      "as_of": "98d9f085799a",
+      "summary": "added a ccn alias and made the plugin auto-install the binary on first session"
+    },
+    "PushEvent:yasyf/cc-skills": {
+      "as_of": "0daee844ec8f",
+      "summary": "taught the repo-bootstrap skill to adopt cc-context (ccx) and documented the new plugins"
+    },
+    "PushEvent:yasyf/cc-context": {
+      "as_of": "cfa0dd9c5219",
+      "summary": "built ccx, a compact codebase-context facade over semble + tilth, with lazy engine startup"
+    },
+    "PushEvent:yasyf/captain-hook": {
+      "as_of": "4b4a78573c69",
+      "summary": "added on-demand pack fetching (@latest, daily refresh) and a shared review correction ledger"
+    },
+    "PushEvent:yasyf/cc-pool": {
+      "as_of": "4375fc3a732e",
+      "summary": "hardened the overlay's fuse→symlink retreat and kept the macOS Network Volumes grant across upgrades"
     }
   },
-  "generated_at": "2026-06-20T10:30:20Z",
+  "generated_at": "2026-06-21T10:49:59Z",
   "shipped": {
-    "captain-hook@v3.11.1": {
-      "summary": "wired the SessionEnd reviewer async and skipped non-interactive ends"
+    "cc-notes@v0.7.8": {
+      "summary": "auto-installs the cc-notes binary on first session and adds the ccn alias"
     },
-    "cc-notes@v0.7.5": {
-      "summary": "moved the pack test script into tests/ so capt-hook skips it"
+    "cc-context@v0.1.1": {
+      "summary": "cleared the S1–S7 acceptance-test findings and rewrote the ccx README"
     },
-    "cc-orchestrate@v0.2.4": {
-      "summary": "long-lived agent sessions with keep-alive supervision and serialize/restore"
+    "cc-pool@v0.31.8": {
+      "summary": "swept orphaned shared overlay entries into base on the fuse→symlink retreat"
     },
-    "cc-pool@v0.31.5": {
-      "summary": "signed, notarized, and stapled the CCPoolStatus widget app"
+    "captain-hook@v3.12.0": {
+      "summary": "fetch declared packs on demand — @latest, daily refresh, frozen tags at add time"
+    },
+    "slop-cop@v0.1.20": {
+      "summary": "added golangci-lint v2 lint and vuln jobs and cleared the lint debt"
     },
     "spawnllm@v0.3.1": {
       "summary": "threaded cwd and timeout through the call() entrypoint"

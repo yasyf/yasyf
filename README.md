@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-21T08:11:50Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-21T10:52:32Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -16,26 +16,27 @@
 - Building the missing toolbelt for Claude Code: [captain-hook](https://github.com/yasyf/captain-hook) for declarative hooks, [cc-pool](https://github.com/yasyf/cc-pool) for account pooling, [cc-review](https://github.com/yasyf/cc-review) for reviewing Claude's diffs in a PR-style web UI, [cc-transcript](https://github.com/yasyf/cc-transcript) for typed transcripts, and [slop-cop](https://github.com/yasyf/slop-cop) to catch AI-flavored prose
 - Converging those pieces into one session-activity platform — typed events and a decision ledger in cc-transcript, with captain-hook as its hook runtime — and building [cc-orchestrate](https://github.com/yasyf/cc-orchestrate) into a pure-Go CLI that runs fleets of agents across pluggable backends like cmux, superset, and tmux, now with long-lived, keep-alive agent sessions
 - Running [cc-sentiment](https://github.com/yasyf/cc-sentiment), an open experiment in whether developer sentiment with Claude Code tracks the model, the tooling, or just the time of day
+- Self-hosting [yclaw](https://github.com/yasyf/yclaw), an always-on, reproducible Apple Silicon home server for the Nous hermes-agent — gVisor-sandboxed and tailnet-only, so the agent never touches your credentials
 - Engineer & CEO at [Aneta](https://aneta.company)
 
 <details>
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-06-21` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-06-21` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
-- `2026-06-21` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — added `note expire` to flag stale notes and signed the darwin binaries
-- `2026-06-21` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — added a builtin Go pack (test-gate, gofumpt, golangci-lint) and hardened loader
-- `2026-06-21` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
-- `2026-06-21` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — scaffolded cc_context: a CLI skeleton with CI, docs, and PyPI release
-- `2026-06-21` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — scaffolded cc_squash: a CLI skeleton with CI, docs, and PyPI release
-- `2026-06-21` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — stood up an in-process FUSE host with mount-core primitives and detached holder
-- `2026-06-20` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync) — rebuilt a filterable, recency-sorted master-detail TUI synced over per-host RPC
-- `2026-06-20` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — added long-lived agent sessions: keep-alive supervision and serialize/restore
-- `2026-06-20` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — released via goreleaser/Homebrew with an embedded SPA and a corrections ledger
-- `2026-06-20` Pushed to [yasyf/cc-runtime](https://github.com/yasyf/cc-runtime) — stood up cc-runtime: interaction domain, daemon, channel tools, TUI, and plugin
+- `2026-06-21` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — added a generic Supervisor/Policy for detached children and a stable-path mount holder with peer-gated kill
+- `2026-06-21` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — hardened the hermes-agent home server: a gVisor runtime, a filtering docker socket proxy, and tailnet-only firewalls
+- `2026-06-21` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — scaffolded cc_squash and laid out the compaction research, architecture, and build plan
+- `2026-06-21` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published the latest cask and formula bumps across the cc-* tools
+- `2026-06-21` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — added a /cco plugin and AgentProber liveness across the tmux, zellij, and superset backends
+- `2026-06-21` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — added a ccn alias and made the plugin auto-install the binary on first session
+- `2026-06-21` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — taught the repo-bootstrap skill to adopt cc-context (ccx) and documented the new plugins
+- `2026-06-21` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — built ccx, a compact codebase-context facade over semble + tilth, with lazy engine startup
+- `2026-06-21` Was active in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-06-21` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — added on-demand pack fetching (@latest, daily refresh) and a shared review correction ledger
+- `2026-06-21` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-06-21` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — hardened the overlay's fuse→symlink retreat and kept the macOS Network Volumes grant across upgrades
 
-**9,094 contributions in the last year**
+**9,139 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -64,7 +65,7 @@
 **Taming long sessions**
 
 - [cc-merge](https://github.com/yasyf/cc-merge) — a merge queue for the git worktrees where finished Claude outputs land
-- [cc-context](https://github.com/yasyf/cc-context) — tools and skills for keeping Claude's context lean
+- [cc-context](https://github.com/yasyf/cc-context) — ccx, a token-bounded codebase-context facade over semble + tilth
 - [cc-squash](https://github.com/yasyf/cc-squash) — augmented auto-compaction for marathon Claude Code sessions
 
 **Systems & libraries**
@@ -90,11 +91,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-06-21` [cc-context v0.1.0](https://github.com/yasyf/cc-context/releases/tag/v0.1.0)
-- `2026-06-21` [cc-pool v0.31.7](https://github.com/yasyf/cc-pool/releases/tag/v0.31.7)
-- `2026-06-20` [cc-notes v0.7.6](https://github.com/yasyf/cc-notes/releases/tag/v0.7.6)
-- `2026-06-20` [slop-cop v0.1.20](https://github.com/yasyf/slop-cop/releases/tag/v0.1.20)
-- `2026-06-20` [captain-hook v3.11.1](https://github.com/yasyf/captain-hook/releases/tag/v3.11.1) — wired the SessionEnd reviewer async and skipped non-interactive ends
+- `2026-06-21` [cc-notes v0.7.8](https://github.com/yasyf/cc-notes/releases/tag/v0.7.8) — auto-installs the cc-notes binary on first session and adds the ccn alias
+- `2026-06-21` [cc-context v0.1.1](https://github.com/yasyf/cc-context/releases/tag/v0.1.1) — cleared the S1–S7 acceptance-test findings and rewrote the ccx README
+- `2026-06-21` [cc-pool v0.31.8](https://github.com/yasyf/cc-pool/releases/tag/v0.31.8) — swept orphaned shared overlay entries into base on the fuse→symlink retreat
+- `2026-06-21` [captain-hook v3.12.0](https://github.com/yasyf/captain-hook/releases/tag/v3.12.0) — fetch declared packs on demand — @latest, daily refresh, frozen tags at add time
+- `2026-06-20` [slop-cop v0.1.20](https://github.com/yasyf/slop-cop/releases/tag/v0.1.20) — added golangci-lint v2 lint and vuln jobs and cleared the lint debt
 - `2026-06-19` [spawnllm v0.3.1](https://github.com/yasyf/spawnllm/releases/tag/v0.3.1) — threaded cwd and timeout through the call() entrypoint
 <!-- gh-profile:end:shipped -->
 
