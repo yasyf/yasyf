@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-21T13:16:32Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-21T19:04:07Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -91,8 +91,8 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-06-21` [cc-orchestrate v0.2.5](https://github.com/yasyf/cc-orchestrate/releases/tag/v0.2.5)
 - `2026-06-21` [cc-notes v0.7.8](https://github.com/yasyf/cc-notes/releases/tag/v0.7.8) — auto-installs the cc-notes binary on first session and adds the ccn alias
-- `2026-06-21` [cc-context v0.1.1](https://github.com/yasyf/cc-context/releases/tag/v0.1.1) — cleared the S1–S7 acceptance-test findings and rewrote the ccx README
 - `2026-06-21` [cc-pool v0.31.8](https://github.com/yasyf/cc-pool/releases/tag/v0.31.8) — swept orphaned shared overlay entries into base on the fuse→symlink retreat
 - `2026-06-21` [captain-hook v3.12.0](https://github.com/yasyf/captain-hook/releases/tag/v3.12.0) — fetch declared packs on demand — @latest, daily refresh, frozen tags at add time
 - `2026-06-20` [slop-cop v0.1.20](https://github.com/yasyf/slop-cop/releases/tag/v0.1.20) — added golangci-lint v2 lint and vuln jobs and cleared the lint debt
