@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-21T10:52:32Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-21T13:16:32Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,6 +23,7 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-06-21` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — hardened the overlay's fuse→symlink retreat and kept the macOS Network Volumes grant across upgrades
 - `2026-06-21` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — added a generic Supervisor/Policy for detached children and a stable-path mount holder with peer-gated kill
 - `2026-06-21` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — hardened the hermes-agent home server: a gVisor runtime, a filtering docker socket proxy, and tailnet-only firewalls
 - `2026-06-21` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — scaffolded cc_squash and laid out the compaction research, architecture, and build plan
@@ -34,9 +35,8 @@
 - `2026-06-21` Was active in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 - `2026-06-21` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — added on-demand pack fetching (@latest, daily refresh) and a shared review correction ledger
 - `2026-06-21` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-06-21` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — hardened the overlay's fuse→symlink retreat and kept the macOS Network Volumes grant across upgrades
 
-**9,139 contributions in the last year**
+**9,142 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
