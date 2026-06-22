@@ -1,59 +1,60 @@
 {
   "activity": {
-    "PushEvent:yasyf/fusekit": {
-      "as_of": "464a62c1addc",
-      "summary": "added a generic Supervisor/Policy for detached children and a stable-path mount holder with peer-gated kill"
+    "PushEvent:yasyf/captain-hook": {
+      "as_of": "7246f1611884",
+      "summary": "added file fixtures, typed-input conditions, and declarative rewrite actions"
     },
-    "PushEvent:yasyf/yclaw": {
-      "as_of": "4b2c94b5547c",
-      "summary": "hardened the hermes-agent home server: a gVisor runtime, a filtering docker socket proxy, and tailnet-only firewalls"
-    },
-    "PushEvent:yasyf/cc-squash": {
-      "as_of": "e410ce40c547",
-      "summary": "scaffolded cc_squash and laid out the compaction research, architecture, and build plan"
-    },
-    "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "3f24b49c04fb",
-      "summary": "published the latest cask and formula bumps across the cc-* tools"
-    },
-    "PushEvent:yasyf/cc-orchestrate": {
-      "as_of": "e24e06a2487c",
-      "summary": "added a /cco plugin and AgentProber liveness across the tmux, zellij, and superset backends"
+    "PushEvent:yasyf/cc-context": {
+      "as_of": "361298ce16ba",
+      "summary": "added a ccx-guard pack that blocks raw grep and rewrites cat/sed/find to ccx"
     },
     "PushEvent:yasyf/cc-notes": {
       "as_of": "98d9f085799a",
       "summary": "added a ccn alias and made the plugin auto-install the binary on first session"
     },
+    "PushEvent:yasyf/cc-orchestrate": {
+      "as_of": "e24e06a2487c",
+      "summary": "added a /cco plugin and AgentProber liveness across the tmux, zellij, and superset backends"
+    },
+    "PushEvent:yasyf/cc-pool": {
+      "as_of": "7d8ee0bb94ce",
+      "summary": "consumed fusekit's v0.5.1 proc layer and cleared holder carcasses on ChildDied"
+    },
     "PushEvent:yasyf/cc-skills": {
       "as_of": "0daee844ec8f",
       "summary": "taught the repo-bootstrap skill to adopt cc-context (ccx) and documented the new plugins"
     },
-    "PushEvent:yasyf/cc-context": {
-      "as_of": "cfa0dd9c5219",
-      "summary": "built ccx, a compact codebase-context facade over semble + tilth, with lazy engine startup"
+    "PushEvent:yasyf/cc-squash": {
+      "as_of": "1593b2f5c98f",
+      "summary": "adopted fusekit for the FUSE layer and restructured the build plan"
     },
-    "PushEvent:yasyf/captain-hook": {
-      "as_of": "4b4a78573c69",
-      "summary": "added on-demand pack fetching (@latest, daily refresh) and a shared review correction ledger"
+    "PushEvent:yasyf/cc-transcript": {
+      "as_of": "72c0d75d5166",
+      "summary": "renamed the decisions ledger table and unified the code-correction ledger"
     },
-    "PushEvent:yasyf/cc-pool": {
-      "as_of": "4375fc3a732e",
-      "summary": "hardened the overlay's fuse→symlink retreat and kept the macOS Network Volumes grant across upgrades"
+    "PushEvent:yasyf/fusekit": {
+      "as_of": "cc9cb5c93c67",
+      "summary": "made the Supervisor/Policy consumer-agnostic with new spawn hooks"
+    },
+    "PushEvent:yasyf/homebrew-tap": {
+      "as_of": "395857413c07",
+      "summary": "published the latest cask and formula bumps across the cc-* tools"
+    },
+    "PushEvent:yasyf/yclaw": {
+      "as_of": "d4b4ad0738b2",
+      "summary": "scoped the pf boot gate to hermes and added a filtering docker socket proxy"
     }
   },
-  "generated_at": "2026-06-21T10:49:59Z",
+  "generated_at": "2026-06-22T11:31:02Z",
   "shipped": {
-    "cc-notes@v0.7.8": {
-      "summary": "auto-installs the cc-notes binary on first session and adds the ccn alias"
+    "captain-hook@v3.14.0": {
+      "summary": "added file fixtures, typed-input conditions, and declarative rewrites"
     },
-    "cc-context@v0.1.1": {
-      "summary": "cleared the S1–S7 acceptance-test findings and rewrote the ccx README"
+    "cc-pool@v0.31.9": {
+      "summary": "consumed fusekit's v0.5.1 proc layer and cleared holder carcasses on ChildDied"
     },
-    "cc-pool@v0.31.8": {
-      "summary": "swept orphaned shared overlay entries into base on the fuse→symlink retreat"
-    },
-    "captain-hook@v3.12.0": {
-      "summary": "fetch declared packs on demand — @latest, daily refresh, frozen tags at add time"
+    "cc-transcript@v4.1.0": {
+      "summary": "renamed the decisions_v1 ledger table to decisions"
     },
     "slop-cop@v0.1.20": {
       "summary": "added golangci-lint v2 lint and vuln jobs and cleared the lint debt"
