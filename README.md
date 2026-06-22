@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-21T19:04:07Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-22T01:37:42Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-06-22` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — added on-demand pack fetching (@latest, daily refresh) and a shared review correction ledger
+- `2026-06-22` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — hardened the hermes-agent home server: a gVisor runtime, a filtering docker socket proxy, and tailnet-only firewalls
+- `2026-06-22` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — built ccx, a compact codebase-context facade over semble + tilth, with lazy engine startup
 - `2026-06-21` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — hardened the overlay's fuse→symlink retreat and kept the macOS Network Volumes grant across upgrades
 - `2026-06-21` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — added a generic Supervisor/Policy for detached children and a stable-path mount holder with peer-gated kill
-- `2026-06-21` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — hardened the hermes-agent home server: a gVisor runtime, a filtering docker socket proxy, and tailnet-only firewalls
 - `2026-06-21` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — scaffolded cc_squash and laid out the compaction research, architecture, and build plan
 - `2026-06-21` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published the latest cask and formula bumps across the cc-* tools
 - `2026-06-21` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — added a /cco plugin and AgentProber liveness across the tmux, zellij, and superset backends
 - `2026-06-21` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — added a ccn alias and made the plugin auto-install the binary on first session
 - `2026-06-21` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — taught the repo-bootstrap skill to adopt cc-context (ccx) and documented the new plugins
-- `2026-06-21` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — built ccx, a compact codebase-context facade over semble + tilth, with lazy engine startup
 - `2026-06-21` Was active in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-06-21` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — added on-demand pack fetching (@latest, daily refresh) and a shared review correction ledger
 - `2026-06-21` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 
-**9,142 contributions in the last year**
+**8,960 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -91,10 +91,9 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-06-21` [cc-orchestrate v0.2.5](https://github.com/yasyf/cc-orchestrate/releases/tag/v0.2.5)
-- `2026-06-21` [cc-notes v0.7.8](https://github.com/yasyf/cc-notes/releases/tag/v0.7.8) — auto-installs the cc-notes binary on first session and adds the ccn alias
+- `2026-06-22` [captain-hook v3.13.0](https://github.com/yasyf/captain-hook/releases/tag/v3.13.0)
+- `2026-06-21` [cc-context v0.1.1](https://github.com/yasyf/cc-context/releases/tag/v0.1.1) — cleared the S1–S7 acceptance-test findings and rewrote the ccx README
 - `2026-06-21` [cc-pool v0.31.8](https://github.com/yasyf/cc-pool/releases/tag/v0.31.8) — swept orphaned shared overlay entries into base on the fuse→symlink retreat
-- `2026-06-21` [captain-hook v3.12.0](https://github.com/yasyf/captain-hook/releases/tag/v3.12.0) — fetch declared packs on demand — @latest, daily refresh, frozen tags at add time
 - `2026-06-20` [slop-cop v0.1.20](https://github.com/yasyf/slop-cop/releases/tag/v0.1.20) — added golangci-lint v2 lint and vuln jobs and cleared the lint debt
 - `2026-06-19` [spawnllm v0.3.1](https://github.com/yasyf/spawnllm/releases/tag/v0.3.1) — threaded cwd and timeout through the call() entrypoint
 <!-- gh-profile:end:shipped -->
@@ -110,8 +109,8 @@
 
 <!-- gh-profile:start:languages -->
 ```text
-Python      ████████████████████   51%
-Go          █████████░░░░░░░░░░░   23%
+Python      ████████████████████   53%
+Go          ████████░░░░░░░░░░░░   21%
 Ruby        █████░░░░░░░░░░░░░░░   13%
 C           ██░░░░░░░░░░░░░░░░░░    4%
 HTML        █░░░░░░░░░░░░░░░░░░░    2%
