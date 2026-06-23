@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-23T13:29:57Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-23T19:16:31Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -36,7 +36,7 @@
 - `2026-06-23` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync) — added a --reason Touch ID prompt and a self-bootstrapping Secure-Enclave helper
 - `2026-06-23` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 
-**9,320 contributions in the last year**
+**9,321 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -91,14 +91,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-06-23` [cc-notes v0.10.1](https://github.com/yasyf/cc-notes/releases/tag/v0.10.1)
 - `2026-06-23` [captain-hook v3.21.0](https://github.com/yasyf/captain-hook/releases/tag/v3.21.0)
-- `2026-06-23` [cc-pushback v0.6.0](https://github.com/yasyf/cc-pushback/releases/tag/v0.6.0)
 - `2026-06-23` [cc-pool v0.33.1](https://github.com/yasyf/cc-pool/releases/tag/v0.33.1)
 - `2026-06-23` [slop-cop v0.1.22](https://github.com/yasyf/slop-cop/releases/tag/v0.1.22)
 - `2026-06-23` [cc-context v0.2.0](https://github.com/yasyf/cc-context/releases/tag/v0.2.0) — added a cache-aware cost-per-correct-answer benchmark and ast-grep search routing
 - `2026-06-23` [spawnllm v0.4.0](https://github.com/yasyf/spawnllm/releases/tag/v0.4.0) — added a spec-driven backend contract, async run/call, and an MLX backend
-- `2026-06-19` [cc-review v0.18.3](https://github.com/yasyf/cc-review/releases/tag/v0.18.3)
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
@@ -112,9 +109,9 @@
 
 <!-- gh-profile:start:languages -->
 ```text
-Python      ████████████████████   50%
-Go          █████████░░░░░░░░░░░   23%
-Ruby        ██████░░░░░░░░░░░░░░   15%
+Python      ████████████████████   48%
+Go          ██████████░░░░░░░░░░   23%
+Ruby        ███████░░░░░░░░░░░░░   17%
 C           ██░░░░░░░░░░░░░░░░░░    4%
 JavaScript  █░░░░░░░░░░░░░░░░░░░    2%
 Nix         █░░░░░░░░░░░░░░░░░░░    2%
