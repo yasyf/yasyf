@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-23T01:22:30Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-23T07:50:34Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-06-23` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published the latest cask and formula bumps across the cc-* tools
-- `2026-06-23` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync)
+- `2026-06-23` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — added a ccx-guard pack that blocks raw grep and rewrites cat/sed/find to ccx
+- `2026-06-23` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync)
+- `2026-06-23` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — added file fixtures, typed-input conditions, and declarative rewrite actions
+- `2026-06-23` Pushed to [yasyf/cc-pushback](https://github.com/yasyf/cc-pushback)
 - `2026-06-23` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — adopted fusekit for the FUSE layer and restructured the build plan
 - `2026-06-23` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — scoped the pf boot gate to hermes and added a filtering docker socket proxy
+- `2026-06-23` Pushed to [yasyf/cc-sentiment](https://github.com/yasyf/cc-sentiment)
+- `2026-06-23` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — renamed the decisions ledger table and unified the code-correction ledger
+- `2026-06-23` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published the latest cask and formula bumps across the cc-* tools
+- `2026-06-23` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync)
 - `2026-06-23` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — taught the repo-bootstrap skill to adopt cc-context (ccx) and documented the new plugins
-- `2026-06-23` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — added file fixtures, typed-input conditions, and declarative rewrite actions
-- `2026-06-23` Created something new in [yasyf/mintlify-docs](https://github.com/yasyf/mintlify-docs)
-- `2026-06-23` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync)
-- `2026-06-23` Created something new in [yasyf/cookiesync](https://github.com/yasyf/cookiesync)
-- `2026-06-23` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — consumed fusekit's v0.5.1 proc layer and cleared holder carcasses on ChildDied
-- `2026-06-22` Was active in [yasyf/cc-sentiment](https://github.com/yasyf/cc-sentiment)
-- `2026-06-22` Created something new in [yasyf/cc-sentiment](https://github.com/yasyf/cc-sentiment)
+- `2026-06-23` Was active in [yasyf/cc-sentiment](https://github.com/yasyf/cc-sentiment)
 
-**9,070 contributions in the last year**
+**9,133 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -91,11 +91,13 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-06-23` [reposync v0.5.1](https://github.com/yasyf/reposync/releases/tag/v0.5.1)
-- `2026-06-23` [captain-hook v3.16.0](https://github.com/yasyf/captain-hook/releases/tag/v3.16.0)
+- `2026-06-23` [captain-hook v3.17.0](https://github.com/yasyf/captain-hook/releases/tag/v3.17.0)
+- `2026-06-23` [cc-pushback v0.5.0](https://github.com/yasyf/cc-pushback/releases/tag/v0.5.0)
+- `2026-06-23` [cc-sentiment v0.2.123](https://github.com/yasyf/cc-sentiment/releases/tag/v0.2.123)
+- `2026-06-23` [spawnllm v0.4.0](https://github.com/yasyf/spawnllm/releases/tag/v0.4.0)
 - `2026-06-23` [cc-pool v0.31.10](https://github.com/yasyf/cc-pool/releases/tag/v0.31.10)
+- `2026-06-21` [cc-context v0.1.1](https://github.com/yasyf/cc-context/releases/tag/v0.1.1)
 - `2026-06-20` [slop-cop v0.1.20](https://github.com/yasyf/slop-cop/releases/tag/v0.1.20) — added golangci-lint v2 lint and vuln jobs and cleared the lint debt
-- `2026-06-19` [spawnllm v0.3.1](https://github.com/yasyf/spawnllm/releases/tag/v0.3.1) — threaded cwd and timeout through the call() entrypoint
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
@@ -115,7 +117,7 @@ Ruby        ██████░░░░░░░░░░░░░░   15%
 C           ██░░░░░░░░░░░░░░░░░░    4%
 Rust        ██░░░░░░░░░░░░░░░░░░    4%
 JavaScript  █░░░░░░░░░░░░░░░░░░░    2%
-Nix         █░░░░░░░░░░░░░░░░░░░    2%
+Shell       █░░░░░░░░░░░░░░░░░░░    2%
 TypeScript  █░░░░░░░░░░░░░░░░░░░    2%
 ```
 <!-- gh-profile:end:languages -->
