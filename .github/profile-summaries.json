@@ -1,66 +1,76 @@
 {
   "activity": {
-    "PushEvent:yasyf/captain-hook": {
-      "as_of": "7246f1611884",
-      "summary": "added file fixtures, typed-input conditions, and declarative rewrite actions"
-    },
     "PushEvent:yasyf/cc-context": {
-      "as_of": "361298ce16ba",
-      "summary": "added a ccx-guard pack that blocks raw grep and rewrites cat/sed/find to ccx"
+      "as_of": "1b4fb8a0e803",
+      "summary": "routed ccx outline and structural find-replace through bundled ast-grep"
+    },
+    "PushEvent:yasyf/cc-merge": {
+      "as_of": "fad6022cb3a0",
+      "summary": "scaffolded the merge-queue CLI with goreleaser release and a cc-notes reconcile workflow"
     },
     "PushEvent:yasyf/cc-notes": {
-      "as_of": "98d9f085799a",
-      "summary": "added a ccn alias and made the plugin auto-install the binary on first session"
+      "as_of": "45da1e193ffa",
+      "summary": "added a doc primitive for long-form agent handoffs and an in-repo .notes symlink default"
     },
     "PushEvent:yasyf/cc-orchestrate": {
-      "as_of": "e24e06a2487c",
+      "as_of": "0c944f01147d",
       "summary": "added a /cco plugin and AgentProber liveness across the tmux, zellij, and superset backends"
     },
-    "PushEvent:yasyf/cc-pool": {
-      "as_of": "7d8ee0bb94ce",
-      "summary": "consumed fusekit's v0.5.1 proc layer and cleared holder carcasses on ChildDied"
-    },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "0daee844ec8f",
-      "summary": "taught the repo-bootstrap skill to adopt cc-context (ccx) and documented the new plugins"
-    },
-    "PushEvent:yasyf/cc-squash": {
-      "as_of": "1593b2f5c98f",
-      "summary": "adopted fusekit for the FUSE layer and restructured the build plan"
+      "as_of": "52afe1645815",
+      "summary": "added a repo-bootstrap PyPI-name guard and a Go-formula publish scaffold"
     },
     "PushEvent:yasyf/cc-transcript": {
-      "as_of": "72c0d75d5166",
-      "summary": "renamed the decisions ledger table and unified the code-correction ledger"
+      "as_of": "6e8a6895d2da",
+      "summary": "added a claude -p JSON envelope parser and a token-to-dollar cost helper"
     },
-    "PushEvent:yasyf/fusekit": {
-      "as_of": "cc9cb5c93c67",
-      "summary": "made the Supervisor/Policy consumer-agnostic with new spawn hooks"
+    "PushEvent:yasyf/cookiesync": {
+      "as_of": "e0f0f80637f8",
+      "summary": "added a --reason Touch ID prompt and a self-bootstrapping Secure-Enclave helper"
+    },
+    "PushEvent:yasyf/docker-dsl": {
+      "as_of": "25c3c6b97b7b",
+      "summary": "trimmed the README to one canonical install path"
+    },
+    "PushEvent:yasyf/gpt-do": {
+      "as_of": "1ad84f284563",
+      "summary": "trimmed the install docs and bumped the release runner to macos-latest"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "395857413c07",
+      "as_of": "8986341cb847",
       "summary": "published the latest cask and formula bumps across the cc-* tools"
     },
-    "PushEvent:yasyf/yclaw": {
-      "as_of": "d4b4ad0738b2",
-      "summary": "scoped the pf boot gate to hermes and added a filtering docker socket proxy"
+    "PushEvent:yasyf/slop-cop": {
+      "as_of": "9707e917db15",
+      "summary": "added a --lines range filter and codesign+notarytool release signing"
+    },
+    "PushEvent:yasyf/spawnllm": {
+      "as_of": "8f5ba2ba54fc",
+      "summary": "added a spec-driven backend contract, async run/call, and an MLX backend"
     }
   },
-  "generated_at": "2026-06-22T11:31:02Z",
+  "generated_at": "2026-06-23T10:46:20Z",
   "shipped": {
-    "captain-hook@v3.14.0": {
-      "summary": "added file fixtures, typed-input conditions, and declarative rewrites"
+    "captain-hook@v3.18.0": {
+      "summary": "added ast-grep capture, fail-soft call_cli, and an importable steering pack"
     },
-    "cc-pool@v0.31.9": {
-      "summary": "consumed fusekit's v0.5.1 proc layer and cleared holder carcasses on ChildDied"
+    "cc-context@v0.2.0": {
+      "summary": "added a cache-aware cost-per-correct-answer benchmark and ast-grep search routing"
     },
-    "cc-transcript@v4.1.0": {
-      "summary": "renamed the decisions_v1 ledger table to decisions"
+    "cc-notes@v0.8.0": {
+      "summary": "defaulted the mount to an in-repo .notes symlink"
     },
-    "slop-cop@v0.1.20": {
-      "summary": "added golangci-lint v2 lint and vuln jobs and cleared the lint debt"
+    "cc-orchestrate@v0.2.5": {
+      "summary": "added a /cco plugin and AgentProber liveness across the tmux, zellij, and superset backends"
     },
-    "spawnllm@v0.3.1": {
-      "summary": "threaded cwd and timeout through the call() entrypoint"
+    "cc-pool@v0.32.0": {
+      "summary": "consumed fusekit v0.6.0 and converged the overlay to a symlink when fuse-t can't mount"
+    },
+    "cc-transcript@v5.0.0": {
+      "summary": "added review-scan surfaces, a claude -p JSON envelope parser, and a token-to-dollar cost helper"
+    },
+    "spawnllm@v0.4.0": {
+      "summary": "added a spec-driven backend contract, async run/call, and an MLX backend"
     }
   },
   "version": 1
