@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-22T11:34:02Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-23T01:22:30Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-06-22` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — renamed the decisions ledger table and unified the code-correction ledger
-- `2026-06-22` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — adopted fusekit for the FUSE layer and restructured the build plan
-- `2026-06-22` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — made the Supervisor/Policy consumer-agnostic with new spawn hooks
-- `2026-06-22` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — consumed fusekit's v0.5.1 proc layer and cleared holder carcasses on ChildDied
-- `2026-06-22` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published the latest cask and formula bumps across the cc-* tools
-- `2026-06-22` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — added file fixtures, typed-input conditions, and declarative rewrite actions
-- `2026-06-22` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — scoped the pf boot gate to hermes and added a filtering docker socket proxy
-- `2026-06-22` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — added a ccx-guard pack that blocks raw grep and rewrites cat/sed/find to ccx
-- `2026-06-21` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — added a /cco plugin and AgentProber liveness across the tmux, zellij, and superset backends
-- `2026-06-21` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — added a ccn alias and made the plugin auto-install the binary on first session
-- `2026-06-21` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — taught the repo-bootstrap skill to adopt cc-context (ccx) and documented the new plugins
-- `2026-06-21` Was active in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-06-23` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published the latest cask and formula bumps across the cc-* tools
+- `2026-06-23` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync)
+- `2026-06-23` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — adopted fusekit for the FUSE layer and restructured the build plan
+- `2026-06-23` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — scoped the pf boot gate to hermes and added a filtering docker socket proxy
+- `2026-06-23` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — taught the repo-bootstrap skill to adopt cc-context (ccx) and documented the new plugins
+- `2026-06-23` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — added file fixtures, typed-input conditions, and declarative rewrite actions
+- `2026-06-23` Created something new in [yasyf/mintlify-docs](https://github.com/yasyf/mintlify-docs)
+- `2026-06-23` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync)
+- `2026-06-23` Created something new in [yasyf/cookiesync](https://github.com/yasyf/cookiesync)
+- `2026-06-23` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — consumed fusekit's v0.5.1 proc layer and cleared holder carcasses on ChildDied
+- `2026-06-22` Was active in [yasyf/cc-sentiment](https://github.com/yasyf/cc-sentiment)
+- `2026-06-22` Created something new in [yasyf/cc-sentiment](https://github.com/yasyf/cc-sentiment)
 
-**8,973 contributions in the last year**
+**9,070 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -91,11 +91,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-06-22` [cc-pool v0.31.9](https://github.com/yasyf/cc-pool/releases/tag/v0.31.9) — consumed fusekit's v0.5.1 proc layer and cleared holder carcasses on ChildDied
-- `2026-06-22` [captain-hook v3.14.0](https://github.com/yasyf/captain-hook/releases/tag/v3.14.0) — added file fixtures, typed-input conditions, and declarative rewrites
+- `2026-06-23` [reposync v0.5.1](https://github.com/yasyf/reposync/releases/tag/v0.5.1)
+- `2026-06-23` [captain-hook v3.16.0](https://github.com/yasyf/captain-hook/releases/tag/v3.16.0)
+- `2026-06-23` [cc-pool v0.31.10](https://github.com/yasyf/cc-pool/releases/tag/v0.31.10)
 - `2026-06-20` [slop-cop v0.1.20](https://github.com/yasyf/slop-cop/releases/tag/v0.1.20) — added golangci-lint v2 lint and vuln jobs and cleared the lint debt
 - `2026-06-19` [spawnllm v0.3.1](https://github.com/yasyf/spawnllm/releases/tag/v0.3.1) — threaded cwd and timeout through the call() entrypoint
-- `2026-06-18` [cc-transcript v4.1.0](https://github.com/yasyf/cc-transcript/releases/tag/v4.1.0) — renamed the decisions_v1 ledger table to decisions
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
@@ -109,14 +109,14 @@
 
 <!-- gh-profile:start:languages -->
 ```text
-Python      ████████████████████   53%
+Python      ████████████████████   50%
 Go          ████████░░░░░░░░░░░░   21%
-Ruby        █████░░░░░░░░░░░░░░░   13%
+Ruby        ██████░░░░░░░░░░░░░░   15%
 C           ██░░░░░░░░░░░░░░░░░░    4%
-HTML        █░░░░░░░░░░░░░░░░░░░    2%
+Rust        ██░░░░░░░░░░░░░░░░░░    4%
 JavaScript  █░░░░░░░░░░░░░░░░░░░    2%
 Nix         █░░░░░░░░░░░░░░░░░░░    2%
-Rust        █░░░░░░░░░░░░░░░░░░░    2%
+TypeScript  █░░░░░░░░░░░░░░░░░░░    2%
 ```
 <!-- gh-profile:end:languages -->
 
