@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-23T10:50:04Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-23T13:29:57Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-06-23` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — added a doc primitive for long-form agent handoffs and an in-repo .notes symlink default
-- `2026-06-23` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync) — added a --reason Touch ID prompt and a self-bootstrapping Secure-Enclave helper
+- `2026-06-23` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash)
 - `2026-06-23` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published the latest cask and formula bumps across the cc-* tools
-- `2026-06-23` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — added a repo-bootstrap PyPI-name guard and a Go-formula publish scaffold
-- `2026-06-23` Pushed to [yasyf/gpt-do](https://github.com/yasyf/gpt-do) — trimmed the install docs and bumped the release runner to macos-latest
-- `2026-06-23` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl) — trimmed the README to one canonical install path
-- `2026-06-23` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — added a /cco plugin and AgentProber liveness across the tmux, zellij, and superset backends
-- `2026-06-23` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — added a spec-driven backend contract, async run/call, and an MLX backend
-- `2026-06-23` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — added a claude -p JSON envelope parser and a token-to-dollar cost helper
-- `2026-06-23` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop) — added a --lines range filter and codesign+notarytool release signing
 - `2026-06-23` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — routed ccx outline and structural find-replace through bundled ast-grep
-- `2026-06-23` Pushed to [yasyf/cc-merge](https://github.com/yasyf/cc-merge) — scaffolded the merge-queue CLI with goreleaser release and a cc-notes reconcile workflow
+- `2026-06-23` Pushed to [yasyf/cc-runtime](https://github.com/yasyf/cc-runtime)
+- `2026-06-23` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
+- `2026-06-23` Pushed to [yasyf/cc-factory](https://github.com/yasyf/cc-factory)
+- `2026-06-23` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — added a doc primitive for long-form agent handoffs and an in-repo .notes symlink default
+- `2026-06-23` Pushed to [yasyf/cc-pushback](https://github.com/yasyf/cc-pushback)
+- `2026-06-23` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — added a repo-bootstrap PyPI-name guard and a Go-formula publish scaffold
+- `2026-06-23` Pushed to [yasyf/cc-sentiment](https://github.com/yasyf/cc-sentiment)
+- `2026-06-23` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync) — added a --reason Touch ID prompt and a self-bootstrapping Secure-Enclave helper
+- `2026-06-23` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 
-**9,199 contributions in the last year**
+**9,320 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -91,14 +91,14 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-06-23` [cc-notes v0.10.1](https://github.com/yasyf/cc-notes/releases/tag/v0.10.1)
+- `2026-06-23` [captain-hook v3.21.0](https://github.com/yasyf/captain-hook/releases/tag/v3.21.0)
+- `2026-06-23` [cc-pushback v0.6.0](https://github.com/yasyf/cc-pushback/releases/tag/v0.6.0)
+- `2026-06-23` [cc-pool v0.33.1](https://github.com/yasyf/cc-pool/releases/tag/v0.33.1)
 - `2026-06-23` [slop-cop v0.1.22](https://github.com/yasyf/slop-cop/releases/tag/v0.1.22)
-- `2026-06-23` [cc-pool v0.32.0](https://github.com/yasyf/cc-pool/releases/tag/v0.32.0) — consumed fusekit v0.6.0 and converged the overlay to a symlink when fuse-t can't mount
-- `2026-06-23` [cc-notes v0.8.0](https://github.com/yasyf/cc-notes/releases/tag/v0.8.0) — defaulted the mount to an in-repo .notes symlink
-- `2026-06-23` [captain-hook v3.18.0](https://github.com/yasyf/captain-hook/releases/tag/v3.18.0) — added ast-grep capture, fail-soft call_cli, and an importable steering pack
 - `2026-06-23` [cc-context v0.2.0](https://github.com/yasyf/cc-context/releases/tag/v0.2.0) — added a cache-aware cost-per-correct-answer benchmark and ast-grep search routing
-- `2026-06-23` [cc-transcript v5.0.0](https://github.com/yasyf/cc-transcript/releases/tag/v5.0.0) — added review-scan surfaces, a claude -p JSON envelope parser, and a token-to-dollar cost helper
 - `2026-06-23` [spawnllm v0.4.0](https://github.com/yasyf/spawnllm/releases/tag/v0.4.0) — added a spec-driven backend contract, async run/call, and an MLX backend
-- `2026-06-21` [cc-orchestrate v0.2.5](https://github.com/yasyf/cc-orchestrate/releases/tag/v0.2.5) — added a /cco plugin and AgentProber liveness across the tmux, zellij, and superset backends
+- `2026-06-19` [cc-review v0.18.3](https://github.com/yasyf/cc-review/releases/tag/v0.18.3)
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
@@ -113,12 +113,12 @@
 <!-- gh-profile:start:languages -->
 ```text
 Python      ████████████████████   50%
-Go          ████████░░░░░░░░░░░░   21%
+Go          █████████░░░░░░░░░░░   23%
 Ruby        ██████░░░░░░░░░░░░░░   15%
 C           ██░░░░░░░░░░░░░░░░░░    4%
-Rust        ██░░░░░░░░░░░░░░░░░░    4%
 JavaScript  █░░░░░░░░░░░░░░░░░░░    2%
 Nix         █░░░░░░░░░░░░░░░░░░░    2%
+Rust        █░░░░░░░░░░░░░░░░░░░    2%
 TypeScript  █░░░░░░░░░░░░░░░░░░░    2%
 ```
 <!-- gh-profile:end:languages -->
