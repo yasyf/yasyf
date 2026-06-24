@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-24T13:21:13Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-24T19:07:49Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -36,7 +36,7 @@
 - `2026-06-24` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — shipped 4.0 on spawnllm 0.5 and cc-transcript 7, with a broad test-suite DRY and parametrize pass
 - `2026-06-24` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — shipped 7.0 with a declarative MiningSpec and a dual-backend Rust signal-mining executor
 
-**9,442 contributions in the last year**
+**9,448 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -95,6 +95,7 @@
 - `2026-06-24` [spawnllm v0.5.1](https://github.com/yasyf/spawnllm/releases/tag/v0.5.1)
 - `2026-06-24` [captain-hook v4.0.0](https://github.com/yasyf/captain-hook/releases/tag/v4.0.0) — migrated onto spawnllm 0.5 and cc-transcript 7, with a broad test-suite DRY and parametrize pass
 - `2026-06-24` [cc-pool v0.34.1](https://github.com/yasyf/cc-pool/releases/tag/v0.34.1) — re-blinded the overlay onto fusekit's concrete backends and consumed its RetirePolicy for holder skew-replace
+- `2026-06-23` [cc-notes v0.11.0](https://github.com/yasyf/cc-notes/releases/tag/v0.11.0) — mirrored cc-pool memory writes into durable notes and marked the FS non-passthrough for FSKit
 - `2026-06-23` [slop-cop v0.1.22](https://github.com/yasyf/slop-cop/releases/tag/v0.1.22) — trimmed the README to one canonical install path
 <!-- gh-profile:end:shipped -->
 
