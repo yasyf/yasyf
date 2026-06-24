@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-24T01:20:15Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-24T07:49:30Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-06-24` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash)
 - `2026-06-24` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit)
-- `2026-06-24` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-06-24` Created something new in [yasyf/synckit](https://github.com/yasyf/synckit)
 - `2026-06-24` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published the latest cask and formula bumps across the cc-* tools
 - `2026-06-24` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
 - `2026-06-24` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit)
+- `2026-06-24` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — added a doc primitive for long-form agent handoffs and an in-repo .notes symlink default
+- `2026-06-24` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-06-24` Created something new in [yasyf/synckit](https://github.com/yasyf/synckit)
 - `2026-06-23` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw)
-- `2026-06-23` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — added a doc primitive for long-form agent handoffs and an in-repo .notes symlink default
-- `2026-06-23` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash)
 - `2026-06-23` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — routed ccx outline and structural find-replace through bundled ast-grep
 - `2026-06-23` Pushed to [yasyf/cc-runtime](https://github.com/yasyf/cc-runtime)
 - `2026-06-23` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
 
-**9,393 contributions in the last year**
+**9,411 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -91,7 +91,8 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-06-24` [cc-pool v0.34.0](https://github.com/yasyf/cc-pool/releases/tag/v0.34.0)
+- `2026-06-24` [cc-pool v0.34.1](https://github.com/yasyf/cc-pool/releases/tag/v0.34.1)
+- `2026-06-23` [cc-notes v0.11.0](https://github.com/yasyf/cc-notes/releases/tag/v0.11.0)
 - `2026-06-23` [captain-hook v3.21.0](https://github.com/yasyf/captain-hook/releases/tag/v3.21.0)
 - `2026-06-23` [slop-cop v0.1.22](https://github.com/yasyf/slop-cop/releases/tag/v0.1.22)
 - `2026-06-23` [spawnllm v0.4.0](https://github.com/yasyf/spawnllm/releases/tag/v0.4.0) — added a spec-driven backend contract, async run/call, and an MLX backend
@@ -109,11 +110,11 @@
 <!-- gh-profile:start:languages -->
 ```text
 Python      ████████████████████   48%
-Go          ██████████░░░░░░░░░░   25%
+Go          ██████████░░░░░░░░░░   23%
 Ruby        ███████░░░░░░░░░░░░░   17%
+Rust        ██░░░░░░░░░░░░░░░░░░    4%
 C           █░░░░░░░░░░░░░░░░░░░    2%
 JavaScript  █░░░░░░░░░░░░░░░░░░░    2%
-Rust        █░░░░░░░░░░░░░░░░░░░    2%
 Shell       █░░░░░░░░░░░░░░░░░░░    2%
 TypeScript  █░░░░░░░░░░░░░░░░░░░    2%
 ```
