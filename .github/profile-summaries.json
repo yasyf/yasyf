@@ -1,97 +1,73 @@
 {
   "activity": {
-    "PushEvent:yasyf/yclaw": {
-      "as_of": "ee61ab10cc49",
-      "summary": "hardened the Apple Silicon build — resumable hermes images and first-boot daemon activation on metal"
+    "PushEvent:yasyf/captain-hook": {
+      "as_of": "78110bb39d64",
+      "summary": "added SessionStore.once/unseen for keyed session dedup and a commit= diff source"
     },
-    "PushEvent:yasyf/spawnllm": {
-      "as_of": "829d1539e1bf",
-      "summary": "redesigned the public API around run/call/extract and isolated each spawned CLI's config per run"
+    "PushEvent:yasyf/cc-context": {
+      "as_of": "1038c7cb2b2a",
+      "summary": "migrated the bench harness onto spawnllm 0.5 and added accuracy-tied verdicts"
     },
-    "PushEvent:yasyf/semisweet": {
-      "as_of": "b73d475f8b3e",
-      "summary": "migrated the semantic cache onto the spawnllm 0.5 API and added a precision-first scoring benchmark"
-    },
-    "PushEvent:yasyf/cc-squash": {
-      "as_of": "dd12d8098965",
-      "summary": "built the two-socket cold start — Go daemon ↔ Rust proxy — with Layer-2 economics and policy crates"
-    },
-    "PushEvent:yasyf/cc-pool": {
-      "as_of": "13eb3c17cfbd",
-      "summary": "re-blinded the overlay onto fusekit's backends and added ccp fuse enable for one-step live-mirror setup"
+    "PushEvent:yasyf/cc-merge": {
+      "as_of": "dd26a9808c56",
+      "summary": "added CI, a goreleaser release with ubuntu/quill notarize, and README branding"
     },
     "PushEvent:yasyf/cc-notes": {
-      "as_of": "0df87df8b7f7",
-      "summary": "added an append-only log primitive, a history command for entity edit trails, and a cc-pool memory mirror"
+      "as_of": "8114c7348282",
+      "summary": "added an append-only log primitive and a history command for entity edit trails"
     },
-    "PushEvent:yasyf/cc-sentiment": {
-      "as_of": "d9f04f5f0f2c",
-      "summary": "migrated the sentiment client onto spawnllm 0.5 and cc-transcript 7"
+    "PushEvent:yasyf/cc-orchestrate": {
+      "as_of": "712e845ea70e",
+      "summary": "added a /cco plugin and AgentProber liveness across tmux, zellij, cmux, superset"
     },
-    "PushEvent:yasyf/cc-pushback": {
-      "as_of": "584c411ebe1f",
-      "summary": "tuned the triage judge to v5 to fix golden boundary misses; moved onto spawnllm 0.5 and cc-transcript 7"
+    "PushEvent:yasyf/cc-skills": {
+      "as_of": "668d108c9327",
+      "summary": "taught repo-bootstrap the shared release-go.yml workflow and a PyPI name guard"
+    },
+    "PushEvent:yasyf/cc-squash": {
+      "as_of": "17dec5710d33",
+      "summary": "added Layer 3's reversible store and Layer 4's live cache-economics rewriter"
+    },
+    "PushEvent:yasyf/cookiesync": {
+      "as_of": "9b22b69d1116",
+      "summary": "adopted synckitd and rode reposync's host mesh for self and peers"
     },
     "PushEvent:yasyf/fusekit": {
-      "as_of": "293a2f63fef6",
-      "summary": "took ownership of the overlay abstraction across symlink, NFS, and FSKit backends, with version-skew replace"
+      "as_of": "f302a7bc534c",
+      "summary": "added a content-over-RPC fuse holder and a multi-tenant Owner dimension"
     },
-    "PushEvent:yasyf/captain-hook": {
-      "as_of": "f51b9fb0a347",
-      "summary": "shipped 4.0 on spawnllm 0.5 and cc-transcript 7, with a broad test-suite DRY and parametrize pass"
+    "PushEvent:yasyf/homebrew-tap": {
+      "as_of": "94b1106ae05d",
+      "summary": "unified the fleet's Go release infra into one parameterized release-go workflow"
     },
-    "PushEvent:yasyf/cc-transcript": {
-      "as_of": "e0d2c9ce0227",
-      "summary": "shipped 7.0 with a declarative MiningSpec and a dual-backend Rust signal-mining executor"
+    "PushEvent:yasyf/reposync": {
+      "as_of": "cc5115346ec3",
+      "summary": "adopted synckitd and rode synckit's generic watch, RPC, and service engines"
     },
     "PushEvent:yasyf/synckit": {
-      "as_of": "0461fe2a8e0b",
-      "summary": "scaffolded a generic sync toolkit — unix-socket RPC, a launchd service manager, and an LWW-Element-Set registry"
+      "as_of": "761315a4432f",
+      "summary": "shipped synckitd, a multi-consumer sync daemon over an LWW-Element-Set CRDT"
     }
   },
-  "generated_at": "2026-06-24T10:36:44Z",
+  "generated_at": "2026-06-25T10:35:33Z",
   "shipped": {
-    "captain-hook@v3.18.0": {
-      "summary": "added ast-grep capture, fail-soft call_cli, and an importable steering pack"
-    },
-    "captain-hook@v4.0.0": {
-      "summary": "migrated onto spawnllm 0.5 and cc-transcript 7, with a broad test-suite DRY and parametrize pass"
+    "captain-hook@v4.2.0": {
+      "summary": "added SessionStore.once/unseen for keyed session dedup and a commit= diff source"
     },
     "cc-context@v0.2.0": {
       "summary": "added a cache-aware cost-per-correct-answer benchmark and ast-grep search routing"
     },
-    "cc-notes@v0.8.0": {
-      "summary": "defaulted the mount to an in-repo .notes symlink"
-    },
-    "cc-notes@v0.11.0": {
-      "summary": "mirrored cc-pool memory writes into durable notes and marked the FS non-passthrough for FSKit"
-    },
-    "cc-orchestrate@v0.2.5": {
-      "summary": "added a /cco plugin and AgentProber liveness across the tmux, zellij, and superset backends"
-    },
-    "cc-pool@v0.32.0": {
-      "summary": "consumed fusekit v0.6.0 and converged the overlay to a symlink when fuse-t can't mount"
+    "cc-notes@v0.12.0": {
+      "summary": "added an append-only log primitive and a history command for entity edit trails"
     },
     "cc-pool@v0.34.1": {
       "summary": "re-blinded the overlay onto fusekit's concrete backends and consumed its RetirePolicy for holder skew-replace"
     },
-    "cc-pushback@v0.7.0": {
-      "summary": "tuned the triage judge to v5 to fix four golden boundary misses; spawnllm 0.5 and cc-transcript 7"
-    },
-    "cc-sentiment@v0.2.125": {
-      "summary": "migrated the client onto the spawnllm 0.5 run/call/extract API"
-    },
-    "cc-transcript@v5.0.0": {
-      "summary": "added review-scan surfaces, a claude -p JSON envelope parser, and a token-to-dollar cost helper"
-    },
     "slop-cop@v0.1.22": {
       "summary": "trimmed the README to one canonical install path"
     },
-    "spawnllm@v0.4.0": {
-      "summary": "added a spec-driven backend contract, async run/call, and an MLX backend"
-    },
-    "spawnllm@v0.5.0": {
-      "summary": "redesigned the public API around run/call/extract over a self-contained Response"
+    "spawnllm@v0.5.2": {
+      "summary": "seeded an isolated CLAUDE_CONFIG_DIR per run"
     }
   },
   "version": 1

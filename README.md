@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-25T07:49:59Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-25T10:35:36Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-06-25` Pushed to [yasyf/cc-sentiment](https://github.com/yasyf/cc-sentiment) — migrated the sentiment client onto spawnllm 0.5 and cc-transcript 7
-- `2026-06-25` Pushed to [yasyf/semisweet](https://github.com/yasyf/semisweet) — migrated the semantic cache onto the spawnllm 0.5 API and added a precision-first scoring benchmark
-- `2026-06-25` Pushed to [yasyf/cc-pushback](https://github.com/yasyf/cc-pushback) — tuned the triage judge to v5 to fix golden boundary misses; moved onto spawnllm 0.5 and cc-transcript 7
-- `2026-06-25` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-06-25` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — took ownership of the overlay abstraction across symlink, NFS, and FSKit backends, with version-skew replace
-- `2026-06-25` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — shipped 7.0 with a declarative MiningSpec and a dual-backend Rust signal-mining executor
-- `2026-06-25` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
-- `2026-06-25` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — shipped 4.0 on spawnllm 0.5 and cc-transcript 7, with a broad test-suite DRY and parametrize pass
-- `2026-06-25` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — hardened the Apple Silicon build — resumable hermes images and first-boot daemon activation on metal
-- `2026-06-25` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — built the two-socket cold start — Go daemon ↔ Rust proxy — with Layer-2 economics and policy crates
-- `2026-06-25` Was active in [yasyf/cookiesync](https://github.com/yasyf/cookiesync)
-- `2026-06-25` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — redesigned the public API around run/call/extract and isolated each spawned CLI's config per run
+- `2026-06-25` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — added a content-over-RPC fuse holder and a multi-tenant Owner dimension
+- `2026-06-25` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — taught repo-bootstrap the shared release-go.yml workflow and a PyPI name guard
+- `2026-06-25` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — added a /cco plugin and AgentProber liveness across tmux, zellij, cmux, superset
+- `2026-06-25` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit) — shipped synckitd, a multi-consumer sync daemon over an LWW-Element-Set CRDT
+- `2026-06-25` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — migrated the bench harness onto spawnllm 0.5 and added accuracy-tied verdicts
+- `2026-06-25` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — unified the fleet's Go release infra into one parameterized release-go workflow
+- `2026-06-25` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — added SessionStore.once/unseen for keyed session dedup and a commit= diff source
+- `2026-06-25` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync) — adopted synckitd and rode synckit's generic watch, RPC, and service engines
+- `2026-06-25` Pushed to [yasyf/cc-merge](https://github.com/yasyf/cc-merge) — added CI, a goreleaser release with ubuntu/quill notarize, and README branding
+- `2026-06-25` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — added Layer 3's reversible store and Layer 4's live cache-economics rewriter
+- `2026-06-25` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync) — adopted synckitd and rode reposync's host mesh for self and peers
+- `2026-06-25` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — added an append-only log primitive and a history command for entity edit trails
 
-**9,518 contributions in the last year**
+**9,580 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -73,7 +73,7 @@
 - [fusekit](https://github.com/yasyf/fusekit) — detached FUSE-T mount-holder and mount-lifecycle primitives for Go, now under cc-pool and cc-notes
 - [semisweet](https://github.com/yasyf/semisweet) — an async, in-memory semantic cache with pluggable backends
 - [spawnllm](https://github.com/yasyf/spawnllm) — call an LLM from any subshell: Claude, Codex, or a local MLX model
-- [synckit](https://github.com/yasyf/synckit) — the shared substrate cross-host sync tools build on: host mesh, a convergent registry, and unix-socket RPC, extracted from reposync
+- [synckit](https://github.com/yasyf/synckit) — the shared substrate cross-host sync tools build on: host mesh, a convergent registry, unix-socket RPC, and synckitd, the daemon reposync and cookiesync now ride
 
 **Python, with fewer footguns**
 
@@ -92,9 +92,8 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-06-25` [captain-hook v4.2.0](https://github.com/yasyf/captain-hook/releases/tag/v4.2.0)
-- `2026-06-25` [cc-notes v0.12.0](https://github.com/yasyf/cc-notes/releases/tag/v0.12.0)
-- `2026-06-25` [spawnllm v0.5.2](https://github.com/yasyf/spawnllm/releases/tag/v0.5.2)
+- `2026-06-25` [captain-hook v4.2.0](https://github.com/yasyf/captain-hook/releases/tag/v4.2.0) — added SessionStore.once/unseen for keyed session dedup and a commit= diff source
+- `2026-06-25` [spawnllm v0.5.2](https://github.com/yasyf/spawnllm/releases/tag/v0.5.2) — seeded an isolated CLAUDE_CONFIG_DIR per run
 - `2026-06-24` [cc-pool v0.34.1](https://github.com/yasyf/cc-pool/releases/tag/v0.34.1) — re-blinded the overlay onto fusekit's concrete backends and consumed its RetirePolicy for holder skew-replace
 - `2026-06-23` [slop-cop v0.1.22](https://github.com/yasyf/slop-cop/releases/tag/v0.1.22) — trimmed the README to one canonical install path
 - `2026-06-23` [cc-context v0.2.0](https://github.com/yasyf/cc-context/releases/tag/v0.2.0) — added a cache-aware cost-per-correct-answer benchmark and ast-grep search routing
@@ -111,9 +110,9 @@
 
 <!-- gh-profile:start:languages -->
 ```text
-Python      ████████████████████   46%
-Go          ███████████░░░░░░░░░   25%
-Ruby        ███████░░░░░░░░░░░░░   17%
+Python      ████████████████████   44%
+Go          ████████████░░░░░░░░   27%
+Ruby        ████████░░░░░░░░░░░░   17%
 Rust        ██░░░░░░░░░░░░░░░░░░    4%
 C           █░░░░░░░░░░░░░░░░░░░    2%
 JavaScript  █░░░░░░░░░░░░░░░░░░░    2%
