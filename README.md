@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-25T10:35:36Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-25T13:20:48Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -36,7 +36,7 @@
 - `2026-06-25` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync) — adopted synckitd and rode reposync's host mesh for self and peers
 - `2026-06-25` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — added an append-only log primitive and a history command for entity edit trails
 
-**9,580 contributions in the last year**
+**9,582 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -97,6 +97,7 @@
 - `2026-06-24` [cc-pool v0.34.1](https://github.com/yasyf/cc-pool/releases/tag/v0.34.1) — re-blinded the overlay onto fusekit's concrete backends and consumed its RetirePolicy for holder skew-replace
 - `2026-06-23` [slop-cop v0.1.22](https://github.com/yasyf/slop-cop/releases/tag/v0.1.22) — trimmed the README to one canonical install path
 - `2026-06-23` [cc-context v0.2.0](https://github.com/yasyf/cc-context/releases/tag/v0.2.0) — added a cache-aware cost-per-correct-answer benchmark and ast-grep search routing
+- `2026-06-21` [cc-orchestrate v0.2.5](https://github.com/yasyf/cc-orchestrate/releases/tag/v0.2.5)
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
