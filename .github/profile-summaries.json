@@ -25,37 +25,44 @@
       "summary": "taught repo-bootstrap the shared release-go.yml workflow and a PyPI name guard"
     },
     "PushEvent:yasyf/cc-squash": {
-      "as_of": "17dec5710d33",
-      "summary": "added Layer 3's reversible store and Layer 4's live cache-economics rewriter"
+      "as_of": "af9c415c5b50",
+      "summary": "wired the proxy to reversibly squash tool output and calibrate the live cache-economics engine"
     },
     "PushEvent:yasyf/cookiesync": {
       "as_of": "9b22b69d1116",
       "summary": "adopted synckitd and rode reposync's host mesh for self and peers"
     },
     "PushEvent:yasyf/fusekit": {
-      "as_of": "f302a7bc534c",
-      "summary": "added a content-over-RPC fuse holder and a multi-tenant Owner dimension"
+      "as_of": "ff1d7b54e7a1",
+      "summary": "added a release workflow and cask for the holder, and darwin-bound its binary so the Linux build still vets"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "94b1106ae05d",
-      "summary": "unified the fleet's Go release infra into one parameterized release-go workflow"
+      "as_of": "95e25ddf3fb1",
+      "summary": "added a sign-notarize-app composite action for .app casks, with release-note generation"
     },
     "PushEvent:yasyf/reposync": {
       "as_of": "cc5115346ec3",
       "summary": "adopted synckitd and rode synckit's generic watch, RPC, and service engines"
+    },
+    "PushEvent:yasyf/slop-cop": {
+      "as_of": "dba41d497569",
+      "summary": "collapsed CI onto the unified release-go.yml@v1 and added golangci-lint v2 lint+vuln jobs"
     },
     "PushEvent:yasyf/synckit": {
       "as_of": "761315a4432f",
       "summary": "shipped synckitd, a multi-consumer sync daemon over an LWW-Element-Set CRDT"
     }
   },
-  "generated_at": "2026-06-25T10:35:33Z",
+  "generated_at": "2026-06-26T10:38:37Z",
   "shipped": {
     "captain-hook@v4.2.0": {
       "summary": "added SessionStore.once/unseen for keyed session dedup and a commit= diff source"
     },
     "cc-context@v0.2.0": {
       "summary": "added a cache-aware cost-per-correct-answer benchmark and ast-grep search routing"
+    },
+    "cc-context@v0.2.1": {
+      "summary": "routed ccx outline through ast-grep with a tilth fallback"
     },
     "cc-notes@v0.12.0": {
       "summary": "added an append-only log primitive and a history command for entity edit trails"
@@ -65,6 +72,9 @@
     },
     "slop-cop@v0.1.22": {
       "summary": "trimmed the README to one canonical install path"
+    },
+    "slop-cop@v0.1.24": {
+      "summary": "collapsed CI onto the unified release-go.yml@v1 with codesign and auto-tag"
     },
     "spawnllm@v0.5.2": {
       "summary": "seeded an isolated CLAUDE_CONFIG_DIR per run"
