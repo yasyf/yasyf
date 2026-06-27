@@ -1,77 +1,59 @@
 {
   "activity": {
-    "PushEvent:yasyf/captain-hook": {
-      "as_of": "78110bb39d64",
-      "summary": "added SessionStore.once/unseen for keyed session dedup and a commit= diff source"
-    },
-    "PushEvent:yasyf/cc-context": {
-      "as_of": "1038c7cb2b2a",
-      "summary": "migrated the bench harness onto spawnllm 0.5 and added accuracy-tied verdicts"
-    },
-    "PushEvent:yasyf/cc-merge": {
-      "as_of": "dd26a9808c56",
-      "summary": "added CI, a goreleaser release with ubuntu/quill notarize, and README branding"
-    },
     "PushEvent:yasyf/cc-notes": {
-      "as_of": "8114c7348282",
-      "summary": "added an append-only log primitive and a history command for entity edit trails"
+      "as_of": "f9f14e8a72f2",
+      "summary": "added --checkout/--apply to edit docs and notes as files, plus auto-sync/reconcile hooks"
     },
-    "PushEvent:yasyf/cc-orchestrate": {
-      "as_of": "712e845ea70e",
-      "summary": "added a /cco plugin and AgentProber liveness across tmux, zellij, cmux, superset"
+    "PushEvent:yasyf/cc-pool": {
+      "as_of": "b7698bdb2865",
+      "summary": "cut over to the shared fusekit-holder over RPC, going pure-Go with no in-process holder"
+    },
+    "PushEvent:yasyf/cc-pushback": {
+      "as_of": "18128606a05f",
+      "summary": "migrated to spawnllm 0.5's run/call/extract API with a structured Response, and tuned the judge prompt to v5"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "668d108c9327",
-      "summary": "taught repo-bootstrap the shared release-go.yml workflow and a PyPI name guard"
+      "as_of": "94b39cc716bd",
+      "summary": "collapsed repo-bootstrap's PyPI template onto a release-pypi.yml@pypi-v1 caller with opt-in maturin"
     },
     "PushEvent:yasyf/cc-squash": {
-      "as_of": "af9c415c5b50",
+      "as_of": "ee526f993e50",
       "summary": "wired the proxy to reversibly squash tool output and calibrate the live cache-economics engine"
     },
     "PushEvent:yasyf/cookiesync": {
-      "as_of": "9b22b69d1116",
-      "summary": "adopted synckitd and rode reposync's host mesh for self and peers"
-    },
-    "PushEvent:yasyf/fusekit": {
-      "as_of": "ff1d7b54e7a1",
-      "summary": "added a release workflow and cask for the holder, and darwin-bound its binary so the Linux build still vets"
+      "as_of": "375600b6ce43",
+      "summary": "added a Browsers + shared Hosts TUI on synckit v0.4.0 and a profile picker showing names/emails"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "95e25ddf3fb1",
-      "summary": "added a sign-notarize-app composite action for .app casks, with release-note generation"
+      "as_of": "a7fe1163f2eb",
+      "summary": "split release-pypi into a build-only reusable + caller-side OIDC publish, with notarization retry"
     },
     "PushEvent:yasyf/reposync": {
-      "as_of": "cc5115346ec3",
-      "summary": "adopted synckitd and rode synckit's generic watch, RPC, and service engines"
-    },
-    "PushEvent:yasyf/slop-cop": {
-      "as_of": "dba41d497569",
-      "summary": "collapsed CI onto the unified release-go.yml@v1 and added golangci-lint v2 lint+vuln jobs"
+      "as_of": "21f2dba4df86",
+      "summary": "adopted synckit's shared TUI (keeping only the Repos screen) and its typed RPC contract"
     },
     "PushEvent:yasyf/synckit": {
-      "as_of": "761315a4432f",
-      "summary": "shipped synckitd, a multi-consumer sync daemon over an LWW-Element-Set CRDT"
+      "as_of": "56d2a41086f2",
+      "summary": "extracted a shared TUI shell + Hosts tab and a typed RPC service contract (syncservice)"
+    },
+    "PushEvent:yasyf/yclaw": {
+      "as_of": "c92b434d1bd2",
+      "summary": "added unattended `just redeploy` + a `just onboard` TUI and hardened the metal daemon boot for reboot self-heal"
     }
   },
-  "generated_at": "2026-06-26T10:38:37Z",
+  "generated_at": "2026-06-27T10:25:54Z",
   "shipped": {
     "captain-hook@v4.2.0": {
       "summary": "added SessionStore.once/unseen for keyed session dedup and a commit= diff source"
     },
-    "cc-context@v0.2.0": {
-      "summary": "added a cache-aware cost-per-correct-answer benchmark and ast-grep search routing"
-    },
-    "cc-context@v0.2.1": {
-      "summary": "routed ccx outline through ast-grep with a tilth fallback"
-    },
-    "cc-notes@v0.12.0": {
-      "summary": "added an append-only log primitive and a history command for entity edit trails"
-    },
     "cc-pool@v0.34.1": {
       "summary": "re-blinded the overlay onto fusekit's concrete backends and consumed its RetirePolicy for holder skew-replace"
     },
-    "slop-cop@v0.1.22": {
-      "summary": "trimmed the README to one canonical install path"
+    "cc-pushback@v0.7.2": {
+      "summary": "adopted the shared release-pypi.yml@pypi-v1 workflow with in-repo OIDC publish"
+    },
+    "cookiesync@v0.6.1": {
+      "summary": "profile picker shows names/emails, with registered hosts sorted first"
     },
     "slop-cop@v0.1.24": {
       "summary": "collapsed CI onto the unified release-go.yml@v1 with codesign and auto-tag"
