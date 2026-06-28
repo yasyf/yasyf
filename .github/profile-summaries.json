@@ -5,8 +5,8 @@
       "summary": "added --checkout/--apply to edit docs and notes as files, plus auto-sync/reconcile hooks"
     },
     "PushEvent:yasyf/cc-pool": {
-      "as_of": "b7698bdb2865",
-      "summary": "cut over to the shared fusekit-holder over RPC, going pure-Go with no in-process holder"
+      "as_of": "59bdb1fe9ff7",
+      "summary": "bumped to fusekit v0.21.0 for holder come-up and dropped the dead -tags fuse build variant, going fully pure-Go"
     },
     "PushEvent:yasyf/cc-pushback": {
       "as_of": "18128606a05f",
@@ -21,27 +21,31 @@
       "summary": "wired the proxy to reversibly squash tool output and calibrate the live cache-economics engine"
     },
     "PushEvent:yasyf/cookiesync": {
-      "as_of": "375600b6ce43",
-      "summary": "added a Browsers + shared Hosts TUI on synckit v0.4.0 and a profile picker showing names/emails"
+      "as_of": "c328f501d511",
+      "summary": "enumerated each host's browser profiles over ssh atop the Browsers + shared Hosts TUI"
+    },
+    "PushEvent:yasyf/fusekit": {
+      "as_of": "146831a62635",
+      "summary": "threaded ExecPath into the holder probe and made mount teardown graceful-only with a more lenient liveness check"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "a7fe1163f2eb",
-      "summary": "split release-pypi into a build-only reusable + caller-side OIDC publish, with notarization retry"
+      "as_of": "7a6ed02ec5b0",
+      "summary": "rolled the latest cask and formula bumps for reposync, cookiesync, and synckitd"
     },
     "PushEvent:yasyf/reposync": {
-      "as_of": "21f2dba4df86",
-      "summary": "adopted synckit's shared TUI (keeping only the Repos screen) and its typed RPC contract"
+      "as_of": "093ff597635f",
+      "summary": "bumped to synckit v0.4.2 for Hosts-tab seed + revalidate, on top of the shared-TUI adoption"
     },
     "PushEvent:yasyf/synckit": {
-      "as_of": "56d2a41086f2",
-      "summary": "extracted a shared TUI shell + Hosts tab and a typed RPC service contract (syncservice)"
+      "as_of": "1daa3ad953c6",
+      "summary": "seeded the Hosts tab from the registered mesh and revalidated in place, sorting registered hosts first"
     },
     "PushEvent:yasyf/yclaw": {
       "as_of": "c92b434d1bd2",
       "summary": "added unattended `just redeploy` + a `just onboard` TUI and hardened the metal daemon boot for reboot self-heal"
     }
   },
-  "generated_at": "2026-06-27T10:25:54Z",
+  "generated_at": "2026-06-28T10:28:52Z",
   "shipped": {
     "captain-hook@v4.2.0": {
       "summary": "added SessionStore.once/unseen for keyed session dedup and a commit= diff source"
@@ -54,6 +58,9 @@
     },
     "cookiesync@v0.6.1": {
       "summary": "profile picker shows names/emails, with registered hosts sorted first"
+    },
+    "fusekit@v0.22.1": {
+      "summary": "threaded ExecPath into Select's holder-probe Spawn"
     },
     "slop-cop@v0.1.24": {
       "summary": "collapsed CI onto the unified release-go.yml@v1 with codesign and auto-tag"
