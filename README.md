@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-28T10:31:36Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-29T01:30:04Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -36,7 +36,7 @@
 - `2026-06-27` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — added unattended `just redeploy` + a `just onboard` TUI and hardened the metal daemon boot for reboot self-heal
 - `2026-06-27` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — added --checkout/--apply to edit docs and notes as files, plus auto-sync/reconcile hooks
 
-**9,685 contributions in the last year**
+**9,660 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
