@@ -45,19 +45,13 @@
       "summary": "added unattended `just redeploy` + a `just onboard` TUI and hardened the metal daemon boot for reboot self-heal"
     }
   },
-  "generated_at": "2026-06-28T10:28:52Z",
+  "generated_at": "2026-06-29T11:26:10Z",
   "shipped": {
     "captain-hook@v4.2.0": {
       "summary": "added SessionStore.once/unseen for keyed session dedup and a commit= diff source"
     },
     "cc-pool@v0.34.1": {
       "summary": "re-blinded the overlay onto fusekit's concrete backends and consumed its RetirePolicy for holder skew-replace"
-    },
-    "cc-pushback@v0.7.2": {
-      "summary": "adopted the shared release-pypi.yml@pypi-v1 workflow with in-repo OIDC publish"
-    },
-    "cookiesync@v0.6.1": {
-      "summary": "profile picker shows names/emails, with registered hosts sorted first"
     },
     "fusekit@v0.22.1": {
       "summary": "threaded ExecPath into Select's holder-probe Spawn"
