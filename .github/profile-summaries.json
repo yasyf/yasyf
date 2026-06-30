@@ -45,7 +45,7 @@
       "summary": "added unattended `just redeploy` + a `just onboard` TUI and hardened the metal daemon boot for reboot self-heal"
     }
   },
-  "generated_at": "2026-06-29T11:26:10Z",
+  "generated_at": "2026-06-30T10:44:23Z",
   "shipped": {
     "captain-hook@v4.2.0": {
       "summary": "added SessionStore.once/unseen for keyed session dedup and a commit= diff source"
