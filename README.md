@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-06-29T01:30:04Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-01T19:12:32Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -92,7 +92,6 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-06-27` [fusekit v0.22.1](https://github.com/yasyf/fusekit/releases/tag/v0.22.1) — threaded ExecPath into Select's holder-probe Spawn
 - `2026-06-26` [slop-cop v0.1.24](https://github.com/yasyf/slop-cop/releases/tag/v0.1.24) — collapsed CI onto the unified release-go.yml@v1 with codesign and auto-tag
 - `2026-06-25` [captain-hook v4.2.0](https://github.com/yasyf/captain-hook/releases/tag/v4.2.0) — added SessionStore.once/unseen for keyed session dedup and a commit= diff source
 - `2026-06-25` [spawnllm v0.5.2](https://github.com/yasyf/spawnllm/releases/tag/v0.5.2) — seeded an isolated CLAUDE_CONFIG_DIR per run
