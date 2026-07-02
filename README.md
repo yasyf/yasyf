@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-02T09:43:42Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-02T10:34:57Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-02` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — rolled the latest cask and formula bumps for reposync, cookiesync, and synckitd
-- `2026-07-02` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — threaded ExecPath into the holder probe and made mount teardown graceful-only with a more lenient liveness check
-- `2026-07-02` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — added unattended `just redeploy` + a `just onboard` TUI and hardened the metal daemon boot for reboot self-heal
-- `2026-07-02` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync) — bumped to synckit v0.4.2 for Hosts-tab seed + revalidate, on top of the shared-TUI adoption
-- `2026-07-02` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
-- `2026-07-02` Pushed to [yasyf/semisweet](https://github.com/yasyf/semisweet)
-- `2026-07-02` Pushed to [yasyf/cc-factory](https://github.com/yasyf/cc-factory)
-- `2026-07-02` Pushed to [yasyf/cc-runtime](https://github.com/yasyf/cc-runtime)
-- `2026-07-02` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit) — seeded the Hosts tab from the registered mesh and revalidated in place, sorting registered hosts first
-- `2026-07-02` Pushed to [yasyf/cc-pushback](https://github.com/yasyf/cc-pushback) — migrated to spawnllm 0.5's run/call/extract API with a structured Response, and tuned the judge prompt to v5
-- `2026-07-02` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — added --checkout/--apply to edit docs and notes as files, plus auto-sync/reconcile hooks
-- `2026-07-02` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — wired the proxy to reversibly squash tool output and calibrate the live cache-economics engine
+- `2026-07-02` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — replaced dispatch hardcoding with a per-op scope policy and narrowed subject resolution to a window's own review
+- `2026-07-02` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — added a shared Swift CLI release pipeline (release-swift.yml, swift-v1) and rolled the synckitd and cc-review casks
+- `2026-07-02` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit) — added a busy gate that defers watches, with skipped-busy counts wired through the sync service and daemon
+- `2026-07-02` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — added a review lifecycle: expire idle reviews after 24h, close-without-submitting, and close/list repair commands
+- `2026-07-02` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — built a tart VM harness for kernel-panic repro, added prefix-aware overlay skips and a writable fully-remote tree mode
+- `2026-07-02` Triaged issues in [macos-fuse-t/fuse-t](https://github.com/macos-fuse-t/fuse-t)
+- `2026-07-02` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — added model-routing guard hooks (general/models pack) with ToolInput and WorkflowScript conditions
+- `2026-07-02` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync) — hardened the vcs layer with typed command errors, structural divergence classification, and a shared vcstest fixture
+- `2026-07-02` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — swapped the max-effort rule for a model routing table
+- `2026-07-02` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — delegated the build to the shared release-pypi-build.yml@pypi-v1 caller while keeping OIDC publish in-repo
+- `2026-07-02` Pushed to [yasyf/semisweet](https://github.com/yasyf/semisweet) — unified CI onto current action majors (Node-24) and swapped the max-effort rule for a model routing table
+- `2026-07-02` Pushed to [yasyf/cc-factory](https://github.com/yasyf/cc-factory) — swapped the max-effort rule for a model routing table
 
-**9,792 contributions in the last year**
+**9,809 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -59,6 +59,7 @@
 - [cc-notes](https://github.com/yasyf/cc-notes) — a notes-and-tasks layer agents can actually use
 - [cc-runtime](https://github.com/yasyf/cc-runtime) — a runtime that hands Claude Code its harness-injected tools, AskUserQuestion and friends
 - [cc-interact](https://github.com/yasyf/cc-interact) — the human-in-the-loop agent/daemon/web framework, pulled out of cc-review
+- [cc-factory](https://github.com/yasyf/cc-factory) — a software factory where orchestrated agents plan, build, review, and ship
 - [cc-pushback](https://github.com/yasyf/cc-pushback) — learns how you push back on Claude from past feedback, then does it for you
 - [cc-pane](https://github.com/yasyf/cc-pane) — one pane of glass over Claude Code and the whole cc-* toolbelt
 
@@ -92,12 +93,13 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-02` [slop-cop v0.1.26](https://github.com/yasyf/slop-cop/releases/tag/v0.1.26)
-- `2026-07-02` [cc-pool v0.35.1](https://github.com/yasyf/cc-pool/releases/tag/v0.35.1)
-- `2026-07-02` [spawnllm v0.5.3](https://github.com/yasyf/spawnllm/releases/tag/v0.5.3)
-- `2026-07-02` [captain-hook v4.3.1](https://github.com/yasyf/captain-hook/releases/tag/v4.3.1)
-- `2026-06-26` [cc-context v0.2.1](https://github.com/yasyf/cc-context/releases/tag/v0.2.1)
-- `2026-06-16` [cc-interact v0.1.0](https://github.com/yasyf/cc-interact/releases/tag/v0.1.0)
+- `2026-07-02` [cc-review v0.19.0](https://github.com/yasyf/cc-review/releases/tag/v0.19.0) — added a review lifecycle: expire idle reviews after 24h, close-without-submitting, and close/list repair commands
+- `2026-07-02` [captain-hook v4.4.0](https://github.com/yasyf/captain-hook/releases/tag/v4.4.0) — added model-routing guard hooks (general/models pack) with ToolInput and WorkflowScript conditions
+- `2026-07-02` [fusekit v0.25.0](https://github.com/yasyf/fusekit/releases/tag/v0.25.0) — added prefix-aware overlay skipping (SkipPrefixes) and hardened the tart VM panic harness
+- `2026-07-02` [slop-cop v0.1.26](https://github.com/yasyf/slop-cop/releases/tag/v0.1.26) — unified GitHub Actions onto current majors (Node-24 baseline)
+- `2026-07-02` [cc-pool v0.35.1](https://github.com/yasyf/cc-pool/releases/tag/v0.35.1) — composed the shared homebrew-tap@v1 release tail (codesign, notarize, render-formula) and cleared golangci findings
+- `2026-07-02` [spawnllm v0.5.3](https://github.com/yasyf/spawnllm/releases/tag/v0.5.3) — delegated the build to the shared release-pypi-build.yml@pypi-v1 caller while keeping OIDC publish in-repo
+- `2026-06-16` [cc-interact v0.1.0](https://github.com/yasyf/cc-interact/releases/tag/v0.1.0) — initial release of the agent⟷daemon⟷web framework extracted from cc-review
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
