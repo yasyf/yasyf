@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-02T01:24:02Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-02T09:43:42Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-02` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — bumped to fusekit v0.21.0 for holder come-up and dropped the dead -tags fuse build variant, going fully pure-Go
-- `2026-07-02` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — threaded ExecPath into the holder probe and made mount teardown graceful-only with a more lenient liveness check
 - `2026-07-02` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — rolled the latest cask and formula bumps for reposync, cookiesync, and synckitd
+- `2026-07-02` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — threaded ExecPath into the holder probe and made mount teardown graceful-only with a more lenient liveness check
+- `2026-07-02` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — added unattended `just redeploy` + a `just onboard` TUI and hardened the metal daemon boot for reboot self-heal
 - `2026-07-02` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync) — bumped to synckit v0.4.2 for Hosts-tab seed + revalidate, on top of the shared-TUI adoption
-- `2026-07-01` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
-- `2026-07-01` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-06-27` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync) — enumerated each host's browser profiles over ssh atop the Browsers + shared Hosts TUI
-- `2026-06-27` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit) — seeded the Hosts tab from the registered mesh and revalidated in place, sorting registered hosts first
-- `2026-06-27` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — collapsed repo-bootstrap's PyPI template onto a release-pypi.yml@pypi-v1 caller with opt-in maturin
-- `2026-06-27` Pushed to [yasyf/cc-pushback](https://github.com/yasyf/cc-pushback) — migrated to spawnllm 0.5's run/call/extract API with a structured Response, and tuned the judge prompt to v5
-- `2026-06-27` Was active in [yasyf/cc-pushback](https://github.com/yasyf/cc-pushback)
-- `2026-06-27` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — wired the proxy to reversibly squash tool output and calibrate the live cache-economics engine
+- `2026-07-02` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
+- `2026-07-02` Pushed to [yasyf/semisweet](https://github.com/yasyf/semisweet)
+- `2026-07-02` Pushed to [yasyf/cc-factory](https://github.com/yasyf/cc-factory)
+- `2026-07-02` Pushed to [yasyf/cc-runtime](https://github.com/yasyf/cc-runtime)
+- `2026-07-02` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit) — seeded the Hosts tab from the registered mesh and revalidated in place, sorting registered hosts first
+- `2026-07-02` Pushed to [yasyf/cc-pushback](https://github.com/yasyf/cc-pushback) — migrated to spawnllm 0.5's run/call/extract API with a structured Response, and tuned the judge prompt to v5
+- `2026-07-02` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — added --checkout/--apply to edit docs and notes as files, plus auto-sync/reconcile hooks
+- `2026-07-02` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — wired the proxy to reversibly squash tool output and calibrate the live cache-economics engine
 
-**9,668 contributions in the last year**
+**9,792 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -92,11 +92,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-01` [captain-hook v4.3.0](https://github.com/yasyf/captain-hook/releases/tag/v4.3.0)
-- `2026-07-01` [cc-pool v0.35.0](https://github.com/yasyf/cc-pool/releases/tag/v0.35.0)
-- `2026-06-27` [fusekit v0.22.1](https://github.com/yasyf/fusekit/releases/tag/v0.22.1) — threaded ExecPath into Select's holder-probe Spawn
-- `2026-06-26` [slop-cop v0.1.24](https://github.com/yasyf/slop-cop/releases/tag/v0.1.24) — collapsed CI onto the unified release-go.yml@v1 with codesign and auto-tag
-- `2026-06-25` [spawnllm v0.5.2](https://github.com/yasyf/spawnllm/releases/tag/v0.5.2) — seeded an isolated CLAUDE_CONFIG_DIR per run
+- `2026-07-02` [slop-cop v0.1.26](https://github.com/yasyf/slop-cop/releases/tag/v0.1.26)
+- `2026-07-02` [cc-pool v0.35.1](https://github.com/yasyf/cc-pool/releases/tag/v0.35.1)
+- `2026-07-02` [spawnllm v0.5.3](https://github.com/yasyf/spawnllm/releases/tag/v0.5.3)
+- `2026-07-02` [captain-hook v4.3.1](https://github.com/yasyf/captain-hook/releases/tag/v4.3.1)
+- `2026-06-26` [cc-context v0.2.1](https://github.com/yasyf/cc-context/releases/tag/v0.2.1)
 - `2026-06-16` [cc-interact v0.1.0](https://github.com/yasyf/cc-interact/releases/tag/v0.1.0)
 <!-- gh-profile:end:shipped -->
 
