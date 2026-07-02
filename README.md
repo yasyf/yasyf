@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-02T10:34:57Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-02T14:40:27Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -24,19 +24,19 @@
 
 <!-- gh-profile:start:activity -->
 - `2026-07-02` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — replaced dispatch hardcoding with a per-op scope policy and narrowed subject resolution to a window's own review
-- `2026-07-02` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — added a shared Swift CLI release pipeline (release-swift.yml, swift-v1) and rolled the synckitd and cc-review casks
-- `2026-07-02` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit) — added a busy gate that defers watches, with skipped-busy counts wired through the sync service and daemon
-- `2026-07-02` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — added a review lifecycle: expire idle reviews after 24h, close-without-submitting, and close/list repair commands
-- `2026-07-02` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — built a tart VM harness for kernel-panic repro, added prefix-aware overlay skips and a writable fully-remote tree mode
-- `2026-07-02` Triaged issues in [macos-fuse-t/fuse-t](https://github.com/macos-fuse-t/fuse-t)
-- `2026-07-02` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — added model-routing guard hooks (general/models pack) with ToolInput and WorkflowScript conditions
-- `2026-07-02` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync) — hardened the vcs layer with typed command errors, structural divergence classification, and a shared vcstest fixture
 - `2026-07-02` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — swapped the max-effort rule for a model routing table
-- `2026-07-02` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — delegated the build to the shared release-pypi-build.yml@pypi-v1 caller while keeping OIDC publish in-repo
+- `2026-07-02` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit) — added a busy gate that defers watches, with skipped-busy counts wired through the sync service and daemon
 - `2026-07-02` Pushed to [yasyf/semisweet](https://github.com/yasyf/semisweet) — unified CI onto current action majors (Node-24) and swapped the max-effort rule for a model routing table
-- `2026-07-02` Pushed to [yasyf/cc-factory](https://github.com/yasyf/cc-factory) — swapped the max-effort rule for a model routing table
+- `2026-07-02` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — delegated the build to the shared release-pypi-build.yml@pypi-v1 caller while keeping OIDC publish in-repo
+- `2026-07-02` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — built a tart VM harness for kernel-panic repro, added prefix-aware overlay skips and a writable fully-remote tree mode
+- `2026-07-02` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync) — hardened the vcs layer with typed command errors, structural divergence classification, and a shared vcstest fixture
+- `2026-07-02` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
+- `2026-07-02` Pushed to [yasyf/cc-pushback](https://github.com/yasyf/cc-pushback)
+- `2026-07-02` Pushed to [yasyf/dailies](https://github.com/yasyf/dailies)
+- `2026-07-02` Pushed to [yasyf/cc-runtime](https://github.com/yasyf/cc-runtime)
+- `2026-07-02` Pushed to [yasyf/cc-pane](https://github.com/yasyf/cc-pane)
 
-**9,809 contributions in the last year**
+**9,883 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -93,12 +93,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-02` [cc-review v0.19.0](https://github.com/yasyf/cc-review/releases/tag/v0.19.0) — added a review lifecycle: expire idle reviews after 24h, close-without-submitting, and close/list repair commands
-- `2026-07-02` [captain-hook v4.4.0](https://github.com/yasyf/captain-hook/releases/tag/v4.4.0) — added model-routing guard hooks (general/models pack) with ToolInput and WorkflowScript conditions
-- `2026-07-02` [fusekit v0.25.0](https://github.com/yasyf/fusekit/releases/tag/v0.25.0) — added prefix-aware overlay skipping (SkipPrefixes) and hardened the tart VM panic harness
+- `2026-07-02` [cc-pool v0.36.0](https://github.com/yasyf/cc-pool/releases/tag/v0.36.0)
+- `2026-07-02` [spawnllm v0.5.4](https://github.com/yasyf/spawnllm/releases/tag/v0.5.4)
+- `2026-07-02` [captain-hook v4.5.0](https://github.com/yasyf/captain-hook/releases/tag/v4.5.0)
 - `2026-07-02` [slop-cop v0.1.26](https://github.com/yasyf/slop-cop/releases/tag/v0.1.26) — unified GitHub Actions onto current majors (Node-24 baseline)
-- `2026-07-02` [cc-pool v0.35.1](https://github.com/yasyf/cc-pool/releases/tag/v0.35.1) — composed the shared homebrew-tap@v1 release tail (codesign, notarize, render-formula) and cleared golangci findings
-- `2026-07-02` [spawnllm v0.5.3](https://github.com/yasyf/spawnllm/releases/tag/v0.5.3) — delegated the build to the shared release-pypi-build.yml@pypi-v1 caller while keeping OIDC publish in-repo
+- `2026-06-26` [cc-context v0.2.1](https://github.com/yasyf/cc-context/releases/tag/v0.2.1)
 - `2026-06-16` [cc-interact v0.1.0](https://github.com/yasyf/cc-interact/releases/tag/v0.1.0) — initial release of the agent⟷daemon⟷web framework extracted from cc-review
 <!-- gh-profile:end:shipped -->
 
