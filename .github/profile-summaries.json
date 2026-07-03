@@ -1,72 +1,59 @@
 {
   "activity": {
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "5dd673191cd9",
-      "summary": "added model-routing guard hooks (general/models pack) with ToolInput and WorkflowScript conditions"
+      "as_of": "5b5ffc06b679",
+      "summary": "added clause-parsed prose-routing prefilters (pack 0.8.0)"
     },
-    "PushEvent:yasyf/cc-factory": {
-      "as_of": "b0629bd2104c",
-      "summary": "swapped the max-effort rule for a model routing table"
+    "PushEvent:yasyf/cc-transcript": {
+      "as_of": "5601c3bfb742",
+      "summary": "moved sentiment buckets onto the event spine, retiring messages.py"
     },
-    "PushEvent:yasyf/cc-interact": {
-      "as_of": "24a1c604df5d",
-      "summary": "replaced dispatch hardcoding with a per-op scope policy and narrowed subject resolution to a window's own review"
+    "PushEvent:yasyf/cookiesync": {
+      "as_of": "17c1d5a87245",
+      "summary": "added MergeRanked endpoint fan-out and a single Touch ID tap for all browsers"
     },
-    "PushEvent:yasyf/cc-review": {
-      "as_of": "3933ef193077",
-      "summary": "added a review lifecycle: expire idle reviews after 24h, close-without-submitting, and close/list repair commands"
+    "PushEvent:yasyf/dailies": {
+      "as_of": "291fb4028dcc",
+      "summary": "restyled the CLI onto a shared rich layer with loading indicators"
     },
     "PushEvent:yasyf/fusekit": {
-      "as_of": "68052506579b",
-      "summary": "built a tart VM harness for kernel-panic repro, added prefix-aware overlay skips and a writable fully-remote tree mode"
-    },
-    "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "002d85ff6d0b",
-      "summary": "added a shared Swift CLI release pipeline (release-swift.yml, swift-v1) and rolled the synckitd and cc-review casks"
+      "as_of": "9637c7fe7275",
+      "summary": "added per-mount AttrCache opt-in and a silly-rename VM release gate"
     },
     "PushEvent:yasyf/reposync": {
-      "as_of": "e04c0b820991",
-      "summary": "hardened the vcs layer with typed command errors, structural divergence classification, and a shared vcstest fixture"
+      "as_of": "5cd65f7b7d0f",
+      "summary": "adopted synckit v0.5.0's busy watch wire, reporting busy repos as busy"
     },
     "PushEvent:yasyf/semisweet": {
-      "as_of": "6936f49aeba9",
-      "summary": "unified CI onto current action majors (Node-24) and swapped the max-effort rule for a model routing table"
+      "as_of": "631f080d3c6f",
+      "summary": "migrated to spawnllm 0.5's run/call/extract API; precision-first scoring gate"
     },
     "PushEvent:yasyf/spawnllm": {
-      "as_of": "4731363ecc3d",
-      "summary": "delegated the build to the shared release-pypi-build.yml@pypi-v1 caller while keeping OIDC publish in-repo"
+      "as_of": "20c8a6a73a04",
+      "summary": "isolated each run's CLAUDE_CONFIG_DIR with a config-home + Keychain fallback"
     },
     "PushEvent:yasyf/synckit": {
-      "as_of": "60acd0ca3054",
-      "summary": "added a busy gate that defers watches, with skipped-busy counts wired through the sync service and daemon"
+      "as_of": "79d2f9c2a3ec",
+      "summary": "added concurrent per-method RPC dispatch and a busy gate that defers watches"
     },
     "PushEvent:yasyf/yclaw": {
-      "as_of": "57b7916bf3c7",
-      "summary": "swapped the max-effort rule for a model routing table"
+      "as_of": "242045e2b615",
+      "summary": "added unattended `just redeploy` and auto re-mint ephemeral tailnet authkeys"
     }
   },
-  "generated_at": "2026-07-02T10:34:57Z",
+  "generated_at": "2026-07-03T11:58:59Z",
   "shipped": {
-    "captain-hook@v4.4.0": {
-      "summary": "added model-routing guard hooks (general/models pack) with ToolInput and WorkflowScript conditions"
+    "captain-hook@v6.3.0": {
+      "summary": "added clause-parsed prose-routing prefilters (pack 0.8.0)"
+    },
+    "cc-context@v0.2.1": {
+      "summary": "routed ccx outline through ast-grep with a tilth fallback"
     },
     "cc-interact@v0.1.0": {
       "summary": "initial release of the agent⟷daemon⟷web framework extracted from cc-review"
     },
-    "cc-pool@v0.35.1": {
-      "summary": "composed the shared homebrew-tap@v1 release tail (codesign, notarize, render-formula) and cleared golangci findings"
-    },
-    "cc-review@v0.19.0": {
-      "summary": "added a review lifecycle: expire idle reviews after 24h, close-without-submitting, and close/list repair commands"
-    },
-    "fusekit@v0.25.0": {
-      "summary": "added prefix-aware overlay skipping (SkipPrefixes) and hardened the tart VM panic harness"
-    },
-    "slop-cop@v0.1.26": {
-      "summary": "unified GitHub Actions onto current majors (Node-24 baseline)"
-    },
-    "spawnllm@v0.5.3": {
-      "summary": "delegated the build to the shared release-pypi-build.yml@pypi-v1 caller while keeping OIDC publish in-repo"
+    "spawnllm@v0.5.4": {
+      "summary": "seeded isolated runs from the config home with a Keychain fallback"
     }
   },
   "version": 1
