@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-03T11:59:49Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-03T14:51:31Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-03` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — moved sentiment buckets onto the event spine, retiring messages.py
+- `2026-07-03` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present)
 - `2026-07-03` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — added clause-parsed prose-routing prefilters (pack 0.8.0)
-- `2026-07-03` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — added unattended `just redeploy` and auto re-mint ephemeral tailnet authkeys
-- `2026-07-03` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync) — adopted synckit v0.5.0's busy watch wire, reporting busy repos as busy
-- `2026-07-03` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit) — added concurrent per-method RPC dispatch and a busy gate that defers watches
-- `2026-07-03` Pushed to [yasyf/semisweet](https://github.com/yasyf/semisweet) — migrated to spawnllm 0.5's run/call/extract API; precision-first scoring gate
-- `2026-07-03` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — isolated each run's CLAUDE_CONFIG_DIR with a config-home + Keychain fallback
-- `2026-07-03` Pushed to [yasyf/dailies](https://github.com/yasyf/dailies) — restyled the CLI onto a shared rich layer with loading indicators
-- `2026-07-03` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — added per-mount AttrCache opt-in and a silly-rename VM release gate
-- `2026-07-03` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
-- `2026-07-03` Pushed to [yasyf/cc-pushback](https://github.com/yasyf/cc-pushback)
+- `2026-07-03` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-07-03` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync) — added MergeRanked endpoint fan-out and a single Touch ID tap for all browsers
+- `2026-07-03` Pushed to [yasyf/cc-sentiment](https://github.com/yasyf/cc-sentiment)
+- `2026-07-03` Pushed to [yasyf/cc-pushback](https://github.com/yasyf/cc-pushback)
+- `2026-07-03` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — added unattended `just redeploy` and auto re-mint ephemeral tailnet authkeys
+- `2026-07-03` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit) — added concurrent per-method RPC dispatch and a busy gate that defers watches
+- `2026-07-03` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — moved sentiment buckets onto the event spine, retiring messages.py
+- `2026-07-03` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — isolated each run's CLAUDE_CONFIG_DIR with a config-home + Keychain fallback
+- `2026-07-03` Pushed to [yasyf/semisweet](https://github.com/yasyf/semisweet) — migrated to spawnllm 0.5's run/call/extract API; precision-first scoring gate
+- `2026-07-03` Pushed to [yasyf/dailies](https://github.com/yasyf/dailies) — restyled the CLI onto a shared rich layer with loading indicators
 
-**10,183 contributions in the last year**
+**10,263 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -94,12 +94,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-07-03` [captain-hook v7.0.0](https://github.com/yasyf/captain-hook/releases/tag/v7.0.0)
 - `2026-07-03` [cc-pool v0.37.3](https://github.com/yasyf/cc-pool/releases/tag/v0.37.3)
 - `2026-07-03` [slop-cop v0.1.28](https://github.com/yasyf/slop-cop/releases/tag/v0.1.28)
-- `2026-07-03` [captain-hook v6.3.0](https://github.com/yasyf/captain-hook/releases/tag/v6.3.0) — added clause-parsed prose-routing prefilters (pack 0.8.0)
 - `2026-07-02` [spawnllm v0.5.4](https://github.com/yasyf/spawnllm/releases/tag/v0.5.4) — seeded isolated runs from the config home with a Keychain fallback
 - `2026-06-26` [cc-context v0.2.1](https://github.com/yasyf/cc-context/releases/tag/v0.2.1) — routed ccx outline through ast-grep with a tilth fallback
-- `2026-06-16` [cc-interact v0.1.0](https://github.com/yasyf/cc-interact/releases/tag/v0.1.0) — initial release of the agent⟷daemon⟷web framework extracted from cc-review
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
