@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-04T11:11:28Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-04T14:09:54Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -36,7 +36,7 @@
 - `2026-07-04` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit) — added a per-peer circuit breaker on the watch-notify path with tailnet snapshots
 - `2026-07-04` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — gated web toasts on the SSE caught-up marker, dropping the replay-heuristic timer
 
-**10,514 contributions in the last year**
+**10,516 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
