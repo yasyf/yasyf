@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-04T04:12:30Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-04T09:05:38Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,7 +23,10 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-07-04` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — added unattended `just redeploy` and auto re-mint ephemeral tailnet authkeys
 - `2026-07-04` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-07-04` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — added per-mount AttrCache opt-in and a silly-rename VM release gate
+- `2026-07-04` Created something new in [yasyf/yclaw](https://github.com/yasyf/yclaw)
 - `2026-07-04` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync) — added MergeRanked endpoint fan-out and a single Touch ID tap for all browsers
 - `2026-07-04` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-07-04` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync) — adopted synckit v0.5.0's busy watch wire, reporting busy repos as busy
@@ -32,11 +35,8 @@
 - `2026-07-04` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
 - `2026-07-04` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit) — added concurrent per-method RPC dispatch and a busy gate that defers watches
 - `2026-07-04` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present)
-- `2026-07-04` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
-- `2026-07-04` Was active in [yasyf/cc-present](https://github.com/yasyf/cc-present)
-- `2026-07-04` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — added unattended `just redeploy` and auto re-mint ephemeral tailnet authkeys
 
-**10,478 contributions in the last year**
+**10,507 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -94,12 +94,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-04` [cc-context v0.4.0](https://github.com/yasyf/cc-context/releases/tag/v0.4.0)
+- `2026-07-04` [fusekit v0.29.1](https://github.com/yasyf/fusekit/releases/tag/v0.29.1)
 - `2026-07-04` [captain-hook v8.3.0](https://github.com/yasyf/captain-hook/releases/tag/v8.3.0)
 - `2026-07-04` [cc-pool v0.38.0](https://github.com/yasyf/cc-pool/releases/tag/v0.38.0)
 - `2026-07-03` [slop-cop v0.1.30](https://github.com/yasyf/slop-cop/releases/tag/v0.1.30)
 - `2026-07-02` [spawnllm v0.5.4](https://github.com/yasyf/spawnllm/releases/tag/v0.5.4) — seeded isolated runs from the config home with a Keychain fallback
-- `2026-06-16` [cc-interact v0.1.0](https://github.com/yasyf/cc-interact/releases/tag/v0.1.0) — initial release of the agent⟷daemon⟷web framework extracted from cc-review
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
