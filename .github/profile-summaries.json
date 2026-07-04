@@ -1,56 +1,56 @@
 {
   "activity": {
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "5b5ffc06b679",
-      "summary": "added clause-parsed prose-routing prefilters (pack 0.8.0)"
+      "as_of": "03c903324968",
+      "summary": "deferral gate now scans thinking and tool payloads across the whole turn (pack 0.5.0)"
     },
-    "PushEvent:yasyf/cc-transcript": {
-      "as_of": "5601c3bfb742",
-      "summary": "moved sentiment buckets onto the event spine, retiring messages.py"
+    "PushEvent:yasyf/cc-context": {
+      "as_of": "361973d9d54c",
+      "summary": "integrated ccx exec across the docs, guard pack, and plugin (v0.4.0)"
+    },
+    "PushEvent:yasyf/cc-notes": {
+      "as_of": "48e30d27e801",
+      "summary": "migrated hooks off the removed captain_hook.command module onto cc_transcript.command"
+    },
+    "PushEvent:yasyf/cc-present": {
+      "as_of": "36d4cd053491",
+      "summary": "gated web toasts on the SSE caught-up marker, dropping the replay-heuristic timer"
+    },
+    "PushEvent:yasyf/cc-skills": {
+      "as_of": "b02062588887",
+      "summary": "added the /show surface-dispatch skill and dropped the ccx repo-pin (cc-context attaches it now)"
     },
     "PushEvent:yasyf/cookiesync": {
-      "as_of": "17c1d5a87245",
-      "summary": "added MergeRanked endpoint fan-out and a single Touch ID tap for all browsers"
-    },
-    "PushEvent:yasyf/dailies": {
-      "as_of": "291fb4028dcc",
-      "summary": "restyled the CLI onto a shared rich layer with loading indicators"
+      "as_of": "38cbaab480b6",
+      "summary": "doctor now treats a locked keybag as healthy; unreachable peers log once per outage"
     },
     "PushEvent:yasyf/fusekit": {
-      "as_of": "9637c7fe7275",
-      "summary": "added per-mount AttrCache opt-in and a silly-rename VM release gate"
+      "as_of": "002685a3b608",
+      "summary": "mux Teardown grew a legacy per-dir arm so real-dir rows tear down via the pre-mux path"
     },
     "PushEvent:yasyf/reposync": {
-      "as_of": "5cd65f7b7d0f",
-      "summary": "adopted synckit v0.5.0's busy watch wire, reporting busy repos as busy"
-    },
-    "PushEvent:yasyf/semisweet": {
-      "as_of": "631f080d3c6f",
-      "summary": "migrated to spawnllm 0.5's run/call/extract API; precision-first scoring gate"
-    },
-    "PushEvent:yasyf/spawnllm": {
-      "as_of": "20c8a6a73a04",
-      "summary": "isolated each run's CLAUDE_CONFIG_DIR with a config-home + Keychain fallback"
+      "as_of": "dfd09997406b",
+      "summary": "pinned synckit v0.8.0 so unreachable peers log once per outage, not every pass"
     },
     "PushEvent:yasyf/synckit": {
-      "as_of": "79d2f9c2a3ec",
-      "summary": "added concurrent per-method RPC dispatch and a busy gate that defers watches"
+      "as_of": "22c5d202b389",
+      "summary": "added a per-peer circuit breaker on the watch-notify path with tailnet snapshots"
     },
     "PushEvent:yasyf/yclaw": {
-      "as_of": "242045e2b615",
-      "summary": "added unattended `just redeploy` and auto re-mint ephemeral tailnet authkeys"
+      "as_of": "642afffb1418",
+      "summary": "slimmed the macOS guests to essential services (aggressive metal disables ~55 launchd jobs)"
     }
   },
-  "generated_at": "2026-07-03T11:58:59Z",
+  "generated_at": "2026-07-04T11:11:28Z",
   "shipped": {
-    "captain-hook@v6.3.0": {
-      "summary": "added clause-parsed prose-routing prefilters (pack 0.8.0)"
+    "captain-hook@v8.3.0": {
+      "summary": "plugins ship their capt-hook pack via session attach + canonical dispatch, collapsing double-dispatch"
     },
-    "cc-context@v0.2.1": {
-      "summary": "routed ccx outline through ast-grep with a tilth fallback"
+    "cc-pool@v0.38.0": {
+      "summary": "single-mount mux cutover: one native NFS mount for the whole pool (consumes fusekit v0.29.0)"
     },
-    "cc-interact@v0.1.0": {
-      "summary": "initial release of the agent⟷daemon⟷web framework extracted from cc-review"
+    "fusekit@v0.29.1": {
+      "summary": "mux Teardown grew a legacy per-dir arm so real-dir rows tear down via the pre-mux path"
     },
     "spawnllm@v0.5.4": {
       "summary": "seeded isolated runs from the config home with a Keychain fallback"
