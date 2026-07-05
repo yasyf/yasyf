@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-05T14:17:08Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-05T19:51:48Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-05` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer) — renamed cc-pushback → cc-steer and reframed the judge from pushback to steering
-- `2026-07-05` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
-- `2026-07-05` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — re-applied metal debloat at every boot, not just on darwin-rebuild
-- `2026-07-05` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — added the /show surface-dispatch skill and dropped the ccx repo-pin
-- `2026-07-05` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
-- `2026-07-05` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — reaped cross-generation NFSv4 orphans and gated File Provider setup on domain readiness
-- `2026-07-05` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — passed codex --skip-git-repo-check so verdicts run in untrusted cwds
-- `2026-07-05` Pushed to [yasyf/cc-sentiment](https://github.com/yasyf/cc-sentiment) — rode the cc-transcript v8 event spine, dropping the migration-parity suite
-- `2026-07-05` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — capped note titles at 256 bytes and required doc bodies
-- `2026-07-05` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — made the plugin binary install diagnosable and fail-fast
-- `2026-07-05` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — published @cc-interact/react to npm via OIDC trusted publishing on tag
+- `2026-07-05` Worked on a pull request in [yasyf/cc-review](https://github.com/yasyf/cc-review)
+- `2026-07-05` Created something new in [yasyf/cc-review](https://github.com/yasyf/cc-review)
 - `2026-07-05` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — ingested ask_user_question signals as question_answer candidates (pack 0.5.0)
+- `2026-07-05` Worked on a pull request in [yasyf/cc-runtime](https://github.com/yasyf/cc-runtime)
+- `2026-07-05` Created something new in [yasyf/cc-runtime](https://github.com/yasyf/cc-runtime)
+- `2026-07-05` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-07-05` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — added ccp fp onboard for guided File Provider enablement and hardening
+- `2026-07-05` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — published @cc-interact/react to npm via OIDC trusted publishing on tag
+- `2026-07-05` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
+- `2026-07-05` Pushed to [yasyf/cc-sentiment](https://github.com/yasyf/cc-sentiment) — rode the cc-transcript v8 event spine, dropping the migration-parity suite
+- `2026-07-05` Worked on a pull request in [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
+- `2026-07-05` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — added the /show surface-dispatch skill and dropped the ccx repo-pin
 
-**10,610 contributions in the last year**
+**10,671 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -94,12 +94,12 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-05` [cc-steer v0.10.0](https://github.com/yasyf/cc-steer/releases/tag/v0.10.0)
-- `2026-07-05` [cc-transcript v9.0.0](https://github.com/yasyf/cc-transcript/releases/tag/v9.0.0)
-- `2026-07-05` [captain-hook v8.4.0](https://github.com/yasyf/captain-hook/releases/tag/v8.4.0) — re-aimed the deferral gate to PostToolUse and ingested ask_user_question signals (pack 0.5.0)
-- `2026-07-05` [cc-pool v0.42.0](https://github.com/yasyf/cc-pool/releases/tag/v0.42.0) — stripped the cask postflight download quarantine so first launch is silent
+- `2026-07-05` [captain-hook v8.5.1](https://github.com/yasyf/captain-hook/releases/tag/v8.5.1)
+- `2026-07-05` [cc-pool v0.43.2](https://github.com/yasyf/cc-pool/releases/tag/v0.43.2)
+- `2026-07-05` [cc-context v0.5.0](https://github.com/yasyf/cc-context/releases/tag/v0.5.0)
 - `2026-07-05` [spawnllm v0.5.5](https://github.com/yasyf/spawnllm/releases/tag/v0.5.5) — passed codex --skip-git-repo-check so verdicts run in untrusted cwds
 - `2026-07-03` [slop-cop v0.1.30](https://github.com/yasyf/slop-cop/releases/tag/v0.1.30)
+- `2026-07-02` [cc-review v0.19.1](https://github.com/yasyf/cc-review/releases/tag/v0.19.1)
 - `2026-06-16` [cc-interact v0.1.0](https://github.com/yasyf/cc-interact/releases/tag/v0.1.0) — the initial release of a domain-agnostic agent/daemon/web framework extracted from cc-review
 <!-- gh-profile:end:shipped -->
 
