@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-04T19:45:25Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-05T04:41:00Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-04` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — slimmed the macOS guests to essential services (aggressive metal disables ~55 launchd jobs)
-- `2026-07-04` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
-- `2026-07-04` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — mux Teardown grew a legacy per-dir arm so real-dir rows tear down via the pre-mux path
-- `2026-07-04` Created something new in [yasyf/yclaw](https://github.com/yasyf/yclaw)
-- `2026-07-04` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync) — doctor now treats a locked keybag as healthy; unreachable peers log once per outage
-- `2026-07-04` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — added the /show surface-dispatch skill and dropped the ccx repo-pin (cc-context attaches it now)
-- `2026-07-04` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync) — pinned synckit v0.8.0 so unreachable peers log once per outage, not every pass
-- `2026-07-04` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — integrated ccx exec across the docs, guard pack, and plugin (v0.4.0)
-- `2026-07-04` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — deferral gate now scans thinking and tool payloads across the whole turn (pack 0.5.0)
-- `2026-07-04` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — migrated hooks off the removed captain_hook.command module onto cc_transcript.command
-- `2026-07-04` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit) — added a per-peer circuit breaker on the watch-notify path with tailnet snapshots
-- `2026-07-04` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — gated web toasts on the SSE caught-up marker, dropping the replay-heuristic timer
+- `2026-07-05` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
+- `2026-07-05` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — mux Teardown grew a legacy per-dir arm so real-dir rows tear down via the pre-mux path
+- `2026-07-05` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — gated web toasts on the SSE caught-up marker, dropping the replay-heuristic timer
+- `2026-07-05` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-07-05` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — added the /show surface-dispatch skill and dropped the ccx repo-pin (cc-context attaches it now)
+- `2026-07-05` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — migrated hooks off the removed captain_hook.command module onto cc_transcript.command
+- `2026-07-05` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — integrated ccx exec across the docs, guard pack, and plugin (v0.4.0)
+- `2026-07-05` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — slimmed the macOS guests to essential services (aggressive metal disables ~55 launchd jobs)
+- `2026-07-05` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
+- `2026-07-05` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync) — doctor now treats a locked keybag as healthy; unreachable peers log once per outage
+- `2026-07-05` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync) — pinned synckit v0.8.0 so unreachable peers log once per outage, not every pass
+- `2026-07-04` Pushed to [yasyf/cc-sentiment](https://github.com/yasyf/cc-sentiment)
 
-**10,520 contributions in the last year**
+**10,582 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -94,11 +94,12 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-04` [fusekit v0.29.1](https://github.com/yasyf/fusekit/releases/tag/v0.29.1) — mux Teardown grew a legacy per-dir arm so real-dir rows tear down via the pre-mux path
+- `2026-07-05` [cc-pool v0.41.0](https://github.com/yasyf/cc-pool/releases/tag/v0.41.0)
+- `2026-07-04` [cc-context v0.4.0](https://github.com/yasyf/cc-context/releases/tag/v0.4.0)
 - `2026-07-04` [captain-hook v8.3.0](https://github.com/yasyf/captain-hook/releases/tag/v8.3.0) — plugins ship their capt-hook pack via session attach + canonical dispatch, collapsing double-dispatch
-- `2026-07-04` [cc-pool v0.38.0](https://github.com/yasyf/cc-pool/releases/tag/v0.38.0) — single-mount mux cutover: one native NFS mount for the whole pool (consumes fusekit v0.29.0)
 - `2026-07-03` [slop-cop v0.1.30](https://github.com/yasyf/slop-cop/releases/tag/v0.1.30)
 - `2026-07-02` [spawnllm v0.5.4](https://github.com/yasyf/spawnllm/releases/tag/v0.5.4) — seeded isolated runs from the config home with a Keychain fallback
+- `2026-06-16` [cc-interact v0.1.0](https://github.com/yasyf/cc-interact/releases/tag/v0.1.0)
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
