@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-06T04:52:28Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-06T11:13:16Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-05` Worked on a pull request in [yasyf/cc-review](https://github.com/yasyf/cc-review)
-- `2026-07-05` Created something new in [yasyf/cc-review](https://github.com/yasyf/cc-review)
-- `2026-07-05` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — ingested ask_user_question signals as question_answer candidates (pack 0.5.0)
-- `2026-07-05` Worked on a pull request in [yasyf/cc-runtime](https://github.com/yasyf/cc-runtime)
-- `2026-07-05` Created something new in [yasyf/cc-runtime](https://github.com/yasyf/cc-runtime)
-- `2026-07-05` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
-- `2026-07-05` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — added ccp fp onboard for guided File Provider enablement and hardening
-- `2026-07-05` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — published @cc-interact/react to npm via OIDC trusted publishing on tag
-- `2026-07-05` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
-- `2026-07-05` Pushed to [yasyf/cc-sentiment](https://github.com/yasyf/cc-sentiment) — rode the cc-transcript v8 event spine, dropping the migration-parity suite
-- `2026-07-05` Worked on a pull request in [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
-- `2026-07-05` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — added the /show surface-dispatch skill and dropped the ccx repo-pin
+- `2026-07-06` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-07-06` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — added ccp fp onboard for guided File Provider enablement and hardening
+- `2026-07-06` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — reaped cross-generation NFSv4 orphans and gated File Provider setup on domain readiness
+- `2026-07-06` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-07-06` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-07-06` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — added the /show surface-dispatch skill and dropped the ccx repo-pin
+- `2026-07-06` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — published @cc-interact/react to npm via OIDC trusted publishing on tag
+- `2026-07-06` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
+- `2026-07-06` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
+- `2026-07-06` Pushed to [yasyf/cc-runtime](https://github.com/yasyf/cc-runtime)
+- `2026-07-06` Was active in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
+- `2026-07-06` Worked on a pull request in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
 
-**10,621 contributions in the last year**
+**10,645 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -94,12 +94,12 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-07-06` [cc-pool v0.44.0](https://github.com/yasyf/cc-pool/releases/tag/v0.44.0)
+- `2026-07-06` [fusekit v0.32.0](https://github.com/yasyf/fusekit/releases/tag/v0.32.0)
+- `2026-07-06` [slop-cop v0.1.32](https://github.com/yasyf/slop-cop/releases/tag/v0.1.32)
 - `2026-07-05` [captain-hook v8.5.1](https://github.com/yasyf/captain-hook/releases/tag/v8.5.1)
-- `2026-07-05` [cc-pool v0.43.2](https://github.com/yasyf/cc-pool/releases/tag/v0.43.2)
-- `2026-07-05` [cc-context v0.5.0](https://github.com/yasyf/cc-context/releases/tag/v0.5.0)
+- `2026-07-05` [cc-notes v0.17.0](https://github.com/yasyf/cc-notes/releases/tag/v0.17.0) — capped note titles at 256 bytes and required doc bodies
 - `2026-07-05` [spawnllm v0.5.5](https://github.com/yasyf/spawnllm/releases/tag/v0.5.5) — passed codex --skip-git-repo-check so verdicts run in untrusted cwds
-- `2026-07-03` [slop-cop v0.1.30](https://github.com/yasyf/slop-cop/releases/tag/v0.1.30)
-- `2026-06-16` [cc-interact v0.1.0](https://github.com/yasyf/cc-interact/releases/tag/v0.1.0) — the initial release of a domain-agnostic agent/daemon/web framework extracted from cc-review
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
