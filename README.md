@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-06T13:10:58Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-06T16:00:57Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -98,7 +98,6 @@
 - `2026-07-06` [fusekit v0.32.0](https://github.com/yasyf/fusekit/releases/tag/v0.32.0) — added a probe-domain control op and an app-side probe for FP Setup readiness
 - `2026-07-06` [slop-cop v0.1.32](https://github.com/yasyf/slop-cop/releases/tag/v0.1.32) — dropped Windows support and re-stamped the canonical installer
 - `2026-07-05` [captain-hook v8.5.1](https://github.com/yasyf/captain-hook/releases/tag/v8.5.1) — tightened nudge precision — pin-faithful headers and relay-aware prose rubrics
-- `2026-07-05` [cc-notes v0.17.0](https://github.com/yasyf/cc-notes/releases/tag/v0.17.0) — capped note titles at 256 bytes and required doc bodies
 - `2026-07-05` [spawnllm v0.5.5](https://github.com/yasyf/spawnllm/releases/tag/v0.5.5) — passed codex --skip-git-repo-check so verdicts run in untrusted cwds
 <!-- gh-profile:end:shipped -->
 
