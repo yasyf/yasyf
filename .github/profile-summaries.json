@@ -1,66 +1,58 @@
 {
   "activity": {
-    "PushEvent:yasyf/captain-hook": {
-      "as_of": "dfadba0bea4e",
-      "summary": "ingested ask_user_question signals as question_answer candidates (pack 0.5.0)"
+    "PushEvent:yasyf/cc-context": {
+      "as_of": "8179ac066962",
+      "summary": "shipped smart JSON formatting (ccx format + BashFormat) and fixed awaited host calls to run exactly once"
     },
     "PushEvent:yasyf/cc-interact": {
-      "as_of": "094035c77f59",
-      "summary": "published @cc-interact/react to npm via OIDC trusted publishing on tag"
-    },
-    "PushEvent:yasyf/cc-notes": {
-      "as_of": "7c6a7dabc55b",
-      "summary": "capped note titles at 256 bytes and required doc bodies"
+      "as_of": "fd39accc4917",
+      "summary": "moved the web UI onto design tokens with a light-dark() dark palette and cut @cc-interact/react 0.3.0"
     },
     "PushEvent:yasyf/cc-pool": {
-      "as_of": "85ca9e2aef6d",
-      "summary": "added ccp fp onboard for guided File Provider enablement and hardening"
+      "as_of": "ba30f2ba79a9",
+      "summary": "shipped a trustworthy File Provider end to end — app-side probe, parked breaker, transactional convert"
     },
-    "PushEvent:yasyf/cc-present": {
-      "as_of": "6486b2932849",
-      "summary": "made the plugin binary install diagnosable and fail-fast"
+    "PushEvent:yasyf/cc-review": {
+      "as_of": "8f3a33a8d98d",
+      "summary": "finalized the canonical installer provenance stamp and made --version print the exact release tag (v0.19.2)"
     },
-    "PushEvent:yasyf/cc-sentiment": {
-      "as_of": "626e44c8c3b7",
-      "summary": "rode the cc-transcript v8 event spine, dropping the migration-parity suite"
+    "PushEvent:yasyf/cc-runtime": {
+      "as_of": "74eb51b80a42",
+      "summary": "provisioned the binary through the canonical repo-bootstrap installer with a provenance stamp"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "d5978a88a740",
-      "summary": "added the /show surface-dispatch skill and dropped the ccx repo-pin"
+      "as_of": "f70f0e5a70ec",
+      "summary": "rolled the canonical repo-bootstrap plugin installer across the marketplace and dropped Windows"
     },
-    "PushEvent:yasyf/cc-steer": {
-      "as_of": "0a15e71b9750",
-      "summary": "renamed cc-pushback → cc-steer and reframed the judge from pushback to steering"
+    "PushEvent:yasyf/cc-transcript": {
+      "as_of": "cd9c7506fdaa",
+      "summary": "reworked the judge for model-free verdict identity, canonical keys, and a retrieval suggester (v9)"
     },
     "PushEvent:yasyf/fusekit": {
-      "as_of": "26bcff4d2306",
-      "summary": "reaped cross-generation NFSv4 orphans and gated File Provider setup on domain readiness"
+      "as_of": "bd35d8e75917",
+      "summary": "added a probe-domain control op and gated FP Setup readiness on an app-side domain probe"
     },
-    "PushEvent:yasyf/spawnllm": {
-      "as_of": "e77828bde89d",
-      "summary": "passed codex --skip-git-repo-check so verdicts run in untrusted cwds"
-    },
-    "PushEvent:yasyf/yclaw": {
-      "as_of": "b11e8d2c6661",
-      "summary": "re-applied metal debloat at every boot, not just on darwin-rebuild"
+    "PushEvent:yasyf/slop-cop": {
+      "as_of": "11e09aefbc79",
+      "summary": "dropped Windows and swapped in the canonical repo-bootstrap installer with bare per-arch binaries"
     }
   },
-  "generated_at": "2026-07-05T11:23:52Z",
+  "generated_at": "2026-07-06T13:07:16Z",
   "shipped": {
-    "captain-hook@v8.4.0": {
-      "summary": "re-aimed the deferral gate to PostToolUse and ingested ask_user_question signals (pack 0.5.0)"
-    },
-    "cc-interact@v0.1.0": {
-      "summary": "the initial release of a domain-agnostic agent/daemon/web framework extracted from cc-review"
+    "captain-hook@v8.5.1": {
+      "summary": "tightened nudge precision — pin-faithful headers and relay-aware prose rubrics"
     },
     "cc-notes@v0.17.0": {
       "summary": "capped note titles at 256 bytes and required doc bodies"
     },
-    "cc-pool@v0.42.0": {
-      "summary": "stripped the cask postflight download quarantine so first launch is silent"
+    "cc-pool@v0.44.0": {
+      "summary": "shipped a trustworthy File Provider end to end — app-side probe, parked breaker, transactional convert"
     },
-    "cc-present@v0.2.1": {
-      "summary": "fixed stale release binaries never being replaced (goreleaser versions carry no v prefix)"
+    "fusekit@v0.32.0": {
+      "summary": "added a probe-domain control op and an app-side probe for FP Setup readiness"
+    },
+    "slop-cop@v0.1.32": {
+      "summary": "dropped Windows support and re-stamped the canonical installer"
     },
     "spawnllm@v0.5.5": {
       "summary": "passed codex --skip-git-repo-check so verdicts run in untrusted cwds"
