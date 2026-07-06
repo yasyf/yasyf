@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-05T19:51:48Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-06T04:52:28Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -36,7 +36,7 @@
 - `2026-07-05` Worked on a pull request in [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
 - `2026-07-05` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — added the /show surface-dispatch skill and dropped the ccx repo-pin
 
-**10,671 contributions in the last year**
+**10,621 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -99,7 +99,6 @@
 - `2026-07-05` [cc-context v0.5.0](https://github.com/yasyf/cc-context/releases/tag/v0.5.0)
 - `2026-07-05` [spawnllm v0.5.5](https://github.com/yasyf/spawnllm/releases/tag/v0.5.5) — passed codex --skip-git-repo-check so verdicts run in untrusted cwds
 - `2026-07-03` [slop-cop v0.1.30](https://github.com/yasyf/slop-cop/releases/tag/v0.1.30)
-- `2026-07-02` [cc-review v0.19.1](https://github.com/yasyf/cc-review/releases/tag/v0.19.1)
 - `2026-06-16` [cc-interact v0.1.0](https://github.com/yasyf/cc-interact/releases/tag/v0.1.0) — the initial release of a domain-agnostic agent/daemon/web framework extracted from cc-review
 <!-- gh-profile:end:shipped -->
 
