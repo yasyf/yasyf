@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-06T20:25:45Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-07T10:06:29Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-06` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
-- `2026-07-06` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — shipped a trustworthy File Provider end to end — app-side probe, parked breaker, transactional convert
-- `2026-07-06` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — added a probe-domain control op and gated FP Setup readiness on an app-side domain probe
+- `2026-07-07` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — shipped smart JSON formatting (ccx format + BashFormat) and fixed awaited host calls to run exactly once
+- `2026-07-07` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-07-07` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — shipped a trustworthy File Provider end to end — app-side probe, parked breaker, transactional convert
+- `2026-07-07` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-07-07` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — added a probe-domain control op and gated FP Setup readiness on an app-side domain probe
+- `2026-07-07` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — rolled the canonical repo-bootstrap plugin installer across the marketplace and dropped Windows
+- `2026-07-07` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-07-07` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present)
 - `2026-07-06` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — reworked the judge for model-free verdict identity, canonical keys, and a retrieval suggester (v9)
-- `2026-07-06` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — shipped smart JSON formatting (ccx format + BashFormat) and fixed awaited host calls to run exactly once
-- `2026-07-06` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — rolled the canonical repo-bootstrap plugin installer across the marketplace and dropped Windows
 - `2026-07-06` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — moved the web UI onto design tokens with a light-dark() dark palette and cut @cc-interact/react 0.3.0
 - `2026-07-06` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop) — dropped Windows and swapped in the canonical repo-bootstrap installer with bare per-arch binaries
 - `2026-07-06` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — finalized the canonical installer provenance stamp and made --version print the exact release tag (v0.19.2)
-- `2026-07-06` Pushed to [yasyf/cc-runtime](https://github.com/yasyf/cc-runtime) — provisioned the binary through the canonical repo-bootstrap installer with a provenance stamp
-- `2026-07-06` Was active in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
-- `2026-07-06` Worked on a pull request in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
 
-**10,645 contributions in the last year**
+**10,704 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -94,11 +94,12 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-06` [cc-pool v0.44.0](https://github.com/yasyf/cc-pool/releases/tag/v0.44.0) — shipped a trustworthy File Provider end to end — app-side probe, parked breaker, transactional convert
-- `2026-07-06` [fusekit v0.32.0](https://github.com/yasyf/fusekit/releases/tag/v0.32.0) — added a probe-domain control op and an app-side probe for FP Setup readiness
+- `2026-07-07` [captain-hook v8.8.0](https://github.com/yasyf/captain-hook/releases/tag/v8.8.0)
+- `2026-07-07` [cc-context v0.6.0](https://github.com/yasyf/cc-context/releases/tag/v0.6.0)
+- `2026-07-07` [cc-pool v0.45.0](https://github.com/yasyf/cc-pool/releases/tag/v0.45.0)
+- `2026-07-07` [fusekit v0.33.1](https://github.com/yasyf/fusekit/releases/tag/v0.33.1)
+- `2026-07-07` [cc-notes v0.18.0](https://github.com/yasyf/cc-notes/releases/tag/v0.18.0)
 - `2026-07-06` [slop-cop v0.1.32](https://github.com/yasyf/slop-cop/releases/tag/v0.1.32) — dropped Windows support and re-stamped the canonical installer
-- `2026-07-05` [captain-hook v8.5.1](https://github.com/yasyf/captain-hook/releases/tag/v8.5.1) — tightened nudge precision — pin-faithful headers and relay-aware prose rubrics
-- `2026-07-05` [cc-notes v0.17.0](https://github.com/yasyf/cc-notes/releases/tag/v0.17.0) — capped note titles at 256 bytes and required doc bodies
 - `2026-07-05` [spawnllm v0.5.5](https://github.com/yasyf/spawnllm/releases/tag/v0.5.5) — passed codex --skip-git-repo-check so verdicts run in untrusted cwds
 <!-- gh-profile:end:shipped -->
 
