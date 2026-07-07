@@ -1,55 +1,70 @@
 {
   "activity": {
+    "PushEvent:yasyf/captain-hook": {
+      "as_of": "36bc4db5623e",
+      "summary": "reworked signals \u2014 presence-union aggregation, first-class vetoes, and a per-hook consumed ledger (v8.8.0)"
+    },
     "PushEvent:yasyf/cc-context": {
-      "as_of": "8179ac066962",
-      "summary": "shipped smart JSON formatting (ccx format + BashFormat) and fixed awaited host calls to run exactly once"
+      "as_of": "2b95b5f0d1fc",
+      "summary": "shipped hash-verified edit-by-anchor (ccx code edit) and moved the sandbox onto pydantic-monty under uv (v0.6.0)"
     },
     "PushEvent:yasyf/cc-interact": {
       "as_of": "fd39accc4917",
       "summary": "moved the web UI onto design tokens with a light-dark() dark palette and cut @cc-interact/react 0.3.0"
     },
+    "PushEvent:yasyf/cc-notes": {
+      "as_of": "12c901f5564f",
+      "summary": "shipped a cc-notes viz web UI \u2014 swimlane timeline and commit-DAG tabs with live SSE (v0.18.0)"
+    },
     "PushEvent:yasyf/cc-pool": {
-      "as_of": "ba30f2ba79a9",
-      "summary": "shipped a trustworthy File Provider end to end — app-side probe, parked breaker, transactional convert"
+      "as_of": "509c82129841",
+      "summary": "landed a stable TCC identity and zero-touch File Provider onboarding"
+    },
+    "PushEvent:yasyf/cc-present": {
+      "as_of": "d0ca1b300b89",
+      "summary": "restyled the web UI with a Graphite default theme, content tiers, and a system/light/dark toggle (v0.3.0)"
     },
     "PushEvent:yasyf/cc-review": {
       "as_of": "8f3a33a8d98d",
       "summary": "finalized the canonical installer provenance stamp and made --version print the exact release tag (v0.19.2)"
     },
-    "PushEvent:yasyf/cc-runtime": {
-      "as_of": "74eb51b80a42",
-      "summary": "provisioned the binary through the canonical repo-bootstrap installer with a provenance stamp"
-    },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "f70f0e5a70ec",
-      "summary": "rolled the canonical repo-bootstrap plugin installer across the marketplace and dropped Windows"
+      "as_of": "d5b9ba6b905f",
+      "summary": "added a wall_of_text nudge steering verbose turns to cc-present and a canonical repo-bootstrap plugin installer"
     },
     "PushEvent:yasyf/cc-transcript": {
       "as_of": "cd9c7506fdaa",
       "summary": "reworked the judge for model-free verdict identity, canonical keys, and a retrieval suggester (v9)"
     },
     "PushEvent:yasyf/fusekit": {
-      "as_of": "bd35d8e75917",
-      "summary": "added a probe-domain control op and gated FP Setup readiness on an app-side domain probe"
+      "as_of": "4afff62eae67",
+      "summary": "added TryEnableFileProvider \u2014 File Provider appex election via pluginkit \u2014 and hardened the election scan"
+    },
+    "PushEvent:yasyf/homebrew-tap": {
+      "as_of": "7cefcdd2beae",
+      "summary": "bumped casks for ccx v0.6.0, cc-pool v0.45.0, and fusekit-holder v0.33.1"
     },
     "PushEvent:yasyf/slop-cop": {
       "as_of": "11e09aefbc79",
       "summary": "dropped Windows and swapped in the canonical repo-bootstrap installer with bare per-arch binaries"
     }
   },
-  "generated_at": "2026-07-06T13:07:16Z",
+  "generated_at": "2026-07-07T12:17:58Z",
   "shipped": {
-    "captain-hook@v8.5.1": {
-      "summary": "tightened nudge precision — pin-faithful headers and relay-aware prose rubrics"
+    "captain-hook@v8.8.0": {
+      "summary": "reworked signals \u2014 presence-union aggregation, first-class vetoes, and a per-hook consumed ledger"
     },
-    "cc-notes@v0.17.0": {
-      "summary": "capped note titles at 256 bytes and required doc bodies"
+    "cc-context@v0.6.0": {
+      "summary": "shipped hash-verified edit-by-anchor (ccx code edit) and moved the sandbox onto pydantic-monty under uv"
     },
-    "cc-pool@v0.44.0": {
-      "summary": "shipped a trustworthy File Provider end to end — app-side probe, parked breaker, transactional convert"
+    "cc-interact@v0.1.0": {
+      "summary": "first release \u2014 the domain-agnostic agent/daemon/web framework extracted from cc-review"
     },
-    "fusekit@v0.32.0": {
-      "summary": "added a probe-domain control op and an app-side probe for FP Setup readiness"
+    "cc-notes@v0.18.0": {
+      "summary": "shipped the cc-notes viz web UI \u2014 swimlane timeline and commit-DAG tabs with live SSE"
+    },
+    "cc-pool@v0.45.0": {
+      "summary": "landed a stable TCC identity and zero-touch File Provider onboarding"
     },
     "slop-cop@v0.1.32": {
       "summary": "dropped Windows support and re-stamped the canonical installer"
