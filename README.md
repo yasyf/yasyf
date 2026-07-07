@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-07T12:22:26Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-07T15:26:24Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -97,7 +97,6 @@
 - `2026-07-07` [captain-hook v8.8.0](https://github.com/yasyf/captain-hook/releases/tag/v8.8.0) — reworked signals — presence-union aggregation, first-class vetoes, and a per-hook consumed ledger
 - `2026-07-07` [cc-context v0.6.0](https://github.com/yasyf/cc-context/releases/tag/v0.6.0) — shipped hash-verified edit-by-anchor (ccx code edit) and moved the sandbox onto pydantic-monty under uv
 - `2026-07-07` [cc-pool v0.45.0](https://github.com/yasyf/cc-pool/releases/tag/v0.45.0) — landed a stable TCC identity and zero-touch File Provider onboarding
-- `2026-07-07` [cc-notes v0.18.0](https://github.com/yasyf/cc-notes/releases/tag/v0.18.0) — shipped the cc-notes viz web UI — swimlane timeline and commit-DAG tabs with live SSE
 - `2026-07-06` [slop-cop v0.1.32](https://github.com/yasyf/slop-cop/releases/tag/v0.1.32) — dropped Windows support and re-stamped the canonical installer
 - `2026-07-05` [spawnllm v0.5.5](https://github.com/yasyf/spawnllm/releases/tag/v0.5.5) — passed codex --skip-git-repo-check so verdicts run in untrusted cwds
 - `2026-06-16` [cc-interact v0.1.0](https://github.com/yasyf/cc-interact/releases/tag/v0.1.0) — first release — the domain-agnostic agent/daemon/web framework extracted from cc-review
