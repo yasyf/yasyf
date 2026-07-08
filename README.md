@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-08T03:54:41Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-08T09:07:26Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-07-08` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — shipped hash-verified edit-by-anchor (ccx code edit) and moved the sandbox onto pydantic-monty under uv (v0.6.0)
 - `2026-07-08` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped casks for ccx v0.6.0, cc-pool v0.45.0, and fusekit-holder v0.33.1
-- `2026-07-08` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — added TryEnableFileProvider — File Provider appex election via pluginkit — and hardened the election scan
-- `2026-07-08` Pushed to [yasyf/cc-vigil](https://github.com/yasyf/cc-vigil)
 - `2026-07-08` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — landed a stable TCC identity and zero-touch File Provider onboarding
+- `2026-07-08` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw)
+- `2026-07-08` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync)
 - `2026-07-08` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — added a wall_of_text nudge steering verbose turns to cc-present and a canonical repo-bootstrap plugin installer
-- `2026-07-08` Discussed issues in [superset-sh/superset](https://github.com/superset-sh/superset)
-- `2026-07-08` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — reworked the judge for model-free verdict identity, canonical keys, and a retrieval suggester (v9)
-- `2026-07-08` Triaged issues in [superset-sh/superset](https://github.com/superset-sh/superset)
-- `2026-07-08` Was active in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
-- `2026-07-08` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
-- `2026-07-08` Created something new in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
-- `2026-07-08` Starred [tiliondev/fortress](https://github.com/tiliondev/fortress)
+- `2026-07-08` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit)
+- `2026-07-08` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
+- `2026-07-08` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
+- `2026-07-08` Pushed to [yasyf/dailies](https://github.com/yasyf/dailies)
+- `2026-07-08` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop) — dropped Windows and swapped in the canonical repo-bootstrap installer with bare per-arch binaries
+- `2026-07-08` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — reworked signals — presence-union aggregation, first-class vetoes, and a per-hook consumed ledger (v8.8.0)
 
-**10,842 contributions in the last year**
+**10,973 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -94,12 +94,12 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-08` [fusekit v0.34.0](https://github.com/yasyf/fusekit/releases/tag/v0.34.0)
-- `2026-07-08` [cc-pool v0.45.3](https://github.com/yasyf/cc-pool/releases/tag/v0.45.3)
-- `2026-07-08` [captain-hook v8.10.0](https://github.com/yasyf/captain-hook/releases/tag/v8.10.0)
-- `2026-07-08` [cc-transcript v9.1.0](https://github.com/yasyf/cc-transcript/releases/tag/v9.1.0)
-- `2026-07-06` [slop-cop v0.1.32](https://github.com/yasyf/slop-cop/releases/tag/v0.1.32) — dropped Windows support and re-stamped the canonical installer
+- `2026-07-08` [cc-pool v0.46.0](https://github.com/yasyf/cc-pool/releases/tag/v0.46.0)
+- `2026-07-08` [slop-cop v0.1.34](https://github.com/yasyf/slop-cop/releases/tag/v0.1.34)
+- `2026-07-08` [captain-hook v8.12.0](https://github.com/yasyf/captain-hook/releases/tag/v8.12.0)
+- `2026-07-07` [cc-context v0.6.1](https://github.com/yasyf/cc-context/releases/tag/v0.6.1)
 - `2026-07-05` [spawnllm v0.5.5](https://github.com/yasyf/spawnllm/releases/tag/v0.5.5) — passed codex --skip-git-repo-check so verdicts run in untrusted cwds
+- `2026-06-16` [cc-interact v0.1.0](https://github.com/yasyf/cc-interact/releases/tag/v0.1.0) — first release — the domain-agnostic agent/daemon/web framework extracted from cc-review
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
