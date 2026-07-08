@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-08T09:07:26Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-08T11:30:05Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -14,7 +14,7 @@
 ## 🔭 Now
 
 - Building the missing toolbelt for Claude Code: [captain-hook](https://github.com/yasyf/captain-hook) for declarative hooks, [cc-pool](https://github.com/yasyf/cc-pool) for account pooling, [cc-review](https://github.com/yasyf/cc-review) for reviewing Claude's diffs in a PR-style web UI, [cc-transcript](https://github.com/yasyf/cc-transcript) for typed transcripts, and [slop-cop](https://github.com/yasyf/slop-cop) to catch AI-flavored prose
-- Converging those pieces into one session-activity platform — typed events and a decision ledger in cc-transcript, with captain-hook as its hook runtime — and building [cc-orchestrate](https://github.com/yasyf/cc-orchestrate) into a pure-Go CLI that runs fleets of agents across pluggable backends like cmux, superset, tmux, and zellij, each with an AgentProber liveness check for long-lived, keep-alive sessions
+- Converging those pieces into one session-activity platform — typed events and a decision ledger in cc-transcript, with captain-hook as its hook runtime — and building [cc-orchestrate](https://github.com/yasyf/cc-orchestrate) into a pure-Go CLI that runs fleets of agents across pluggable backends like cmux, superset, tmux, and zellij, each with an AgentProber liveness check for long-lived, keep-alive sessions — with [cc-vigil](https://github.com/yasyf/cc-vigil), a transcript-oracle sleep inhibitor, keeping the Mac awake only while those agents are truly working
 - Running [cc-sentiment](https://github.com/yasyf/cc-sentiment), an open experiment in whether developer sentiment with Claude Code tracks the model, the tooling, or just the time of day
 - Self-hosting [yclaw](https://github.com/yasyf/yclaw), an always-on, reproducible Apple Silicon home server for the Nous hermes-agent — gVisor-sandboxed and tailnet-only, so the agent never touches your credentials
 - Engineer & CEO at [Aneta](https://aneta.company)
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-08` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — shipped hash-verified edit-by-anchor (ccx code edit) and moved the sandbox onto pydantic-monty under uv (v0.6.0)
-- `2026-07-08` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped casks for ccx v0.6.0, cc-pool v0.45.0, and fusekit-holder v0.33.1
-- `2026-07-08` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — landed a stable TCC identity and zero-touch File Provider onboarding
-- `2026-07-08` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw)
-- `2026-07-08` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync)
-- `2026-07-08` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — added a wall_of_text nudge steering verbose turns to cc-present and a canonical repo-bootstrap plugin installer
-- `2026-07-08` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit)
-- `2026-07-08` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
-- `2026-07-08` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
-- `2026-07-08` Pushed to [yasyf/dailies](https://github.com/yasyf/dailies)
-- `2026-07-08` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop) — dropped Windows and swapped in the canonical repo-bootstrap installer with bare per-arch binaries
-- `2026-07-08` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — reworked signals — presence-union aggregation, first-class vetoes, and a per-hook consumed ledger (v8.8.0)
+- `2026-07-08` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped casks for cc-vigil v0.1.0, cc-notes v0.21.1, cc-pool v0.48.0, and ccx v0.7.0
+- `2026-07-08` Pushed to [yasyf/cc-vigil](https://github.com/yasyf/cc-vigil) — shipped CCVigil — a notarized menu-bar app whose oracle ages out stale Claude sessions (v0.1.0)
+- `2026-07-08` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — polished the viz web UI — SSE reconnect refetch, a faceted Browse tab, and a duplicate guard on Create (v0.21.1)
+- `2026-07-08` Created something new in [yasyf/cc-guides](https://github.com/yasyf/cc-guides)
+- `2026-07-08` Triaged issues in [posit-dev/great-docs](https://github.com/posit-dev/great-docs)
+- `2026-07-08` Forked [posit-dev/great-docs](https://github.com/posit-dev/great-docs)
+- `2026-07-08` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — added ReadOnlyCommand permission hooks, hardened against shell-expansion false-approves
+- `2026-07-08` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — reworked the codex lane to run Skill(codex) inline and gave repo-bootstrap end-marker-delimited fragment sync (v0.39.1)
+- `2026-07-08` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — built cross-host credential sync end to end (P1–P3) and added account add/relogin via claude auth login
+- `2026-07-08` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — shipped the ccx web op family — a fetch/cite/chunk engine with BM25+RRF fusion and local embeddings (v0.7.0)
+- `2026-07-08` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — hardened the hermes home server — per-boot agent-vault proxy refresh, in-guest rebuild swap, tailnet cleanup
+- `2026-07-08` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync) — added a requestor command and captured web storage (localStorage + sessionStorage) in exports (v0.10.0)
 
-**10,973 contributions in the last year**
+**11,064 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -69,6 +69,7 @@
 - [cc-merge](https://github.com/yasyf/cc-merge) — a merge queue for the git worktrees where finished Claude outputs land
 - [cc-context](https://github.com/yasyf/cc-context) — ccx, a token-bounded codebase-context facade over semble + tilth
 - [cc-squash](https://github.com/yasyf/cc-squash) — augmented auto-compaction for marathon Claude Code sessions
+- [cc-vigil](https://github.com/yasyf/cc-vigil) — a transcript-oracle sleep inhibitor that keeps your Mac awake only while Claude agents are truly working
 
 **Systems & libraries**
 
@@ -94,12 +95,13 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-08` [cc-pool v0.46.0](https://github.com/yasyf/cc-pool/releases/tag/v0.46.0)
+- `2026-07-08` [cc-vigil v0.1.0](https://github.com/yasyf/cc-vigil/releases/tag/v0.1.0) — first release — a notarized menu-bar app whose oracle ages out stale Claude sessions with a self-healing dead-man clear
+- `2026-07-08` [cc-notes v0.21.1](https://github.com/yasyf/cc-notes/releases/tag/v0.21.1) — viz web UI polish — SSE reconnect refetch, lazy detail chunks, and a sticky lane-label gutter
+- `2026-07-08` [cc-pool v0.48.0](https://github.com/yasyf/cc-pool/releases/tag/v0.48.0) — added account add via claude auth login and pinned the self-heal policy constants
+- `2026-07-08` [cc-context v0.7.0](https://github.com/yasyf/cc-context/releases/tag/v0.7.0) — the ccx web op family — fetch/cite/chunk with BM25+RRF fusion, local embeddings, and page-dump guards
+- `2026-07-08` [captain-hook v8.13.0](https://github.com/yasyf/captain-hook/releases/tag/v8.13.0) — added ReadOnlyCommand and read-only/LLM-judge permission hooks, hardened against shell-expansion false-approves
 - `2026-07-08` [slop-cop v0.1.34](https://github.com/yasyf/slop-cop/releases/tag/v0.1.34)
-- `2026-07-08` [captain-hook v8.12.0](https://github.com/yasyf/captain-hook/releases/tag/v8.12.0)
-- `2026-07-07` [cc-context v0.6.1](https://github.com/yasyf/cc-context/releases/tag/v0.6.1)
 - `2026-07-05` [spawnllm v0.5.5](https://github.com/yasyf/spawnllm/releases/tag/v0.5.5) — passed codex --skip-git-repo-check so verdicts run in untrusted cwds
-- `2026-06-16` [cc-interact v0.1.0](https://github.com/yasyf/cc-interact/releases/tag/v0.1.0) — first release — the domain-agnostic agent/daemon/web framework extracted from cc-review
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
@@ -113,8 +115,8 @@
 
 <!-- gh-profile:start:languages -->
 ```text
-Python      ████████████████████   42%
-Go          ██████████████░░░░░░   29%
+Python      ████████████████████   40%
+Go          ████████████████░░░░   31%
 Ruby        ████████░░░░░░░░░░░░   17%
 Rust        ██░░░░░░░░░░░░░░░░░░    4%
 JavaScript  █░░░░░░░░░░░░░░░░░░░    2%

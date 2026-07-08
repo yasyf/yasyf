@@ -1,73 +1,61 @@
 {
   "activity": {
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "36bc4db5623e",
-      "summary": "reworked signals \u2014 presence-union aggregation, first-class vetoes, and a per-hook consumed ledger (v8.8.0)"
+      "as_of": "029fdf6f4019",
+      "summary": "added ReadOnlyCommand permission hooks, hardened against shell-expansion false-approves"
     },
     "PushEvent:yasyf/cc-context": {
-      "as_of": "2b95b5f0d1fc",
-      "summary": "shipped hash-verified edit-by-anchor (ccx code edit) and moved the sandbox onto pydantic-monty under uv (v0.6.0)"
-    },
-    "PushEvent:yasyf/cc-interact": {
-      "as_of": "fd39accc4917",
-      "summary": "moved the web UI onto design tokens with a light-dark() dark palette and cut @cc-interact/react 0.3.0"
+      "as_of": "6b0b10353160",
+      "summary": "shipped the ccx web op family \u2014 a fetch/cite/chunk engine with BM25+RRF fusion and local embeddings (v0.7.0)"
     },
     "PushEvent:yasyf/cc-notes": {
-      "as_of": "12c901f5564f",
-      "summary": "shipped a cc-notes viz web UI \u2014 swimlane timeline and commit-DAG tabs with live SSE (v0.18.0)"
+      "as_of": "47de46d1717a",
+      "summary": "polished the viz web UI \u2014 SSE reconnect refetch, a faceted Browse tab, and a duplicate guard on Create (v0.21.1)"
     },
     "PushEvent:yasyf/cc-pool": {
-      "as_of": "509c82129841",
-      "summary": "landed a stable TCC identity and zero-touch File Provider onboarding"
-    },
-    "PushEvent:yasyf/cc-present": {
-      "as_of": "d0ca1b300b89",
-      "summary": "restyled the web UI with a Graphite default theme, content tiers, and a system/light/dark toggle (v0.3.0)"
-    },
-    "PushEvent:yasyf/cc-review": {
-      "as_of": "8f3a33a8d98d",
-      "summary": "finalized the canonical installer provenance stamp and made --version print the exact release tag (v0.19.2)"
+      "as_of": "e4370224fec2",
+      "summary": "built cross-host credential sync end to end (P1\u2013P3) and added account add/relogin via claude auth login"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "d5b9ba6b905f",
-      "summary": "added a wall_of_text nudge steering verbose turns to cc-present and a canonical repo-bootstrap plugin installer"
+      "as_of": "19b671f510cc",
+      "summary": "reworked the codex lane to run Skill(codex) inline and gave repo-bootstrap end-marker-delimited fragment sync (v0.39.1)"
     },
-    "PushEvent:yasyf/cc-transcript": {
-      "as_of": "cd9c7506fdaa",
-      "summary": "reworked the judge for model-free verdict identity, canonical keys, and a retrieval suggester (v9)"
+    "PushEvent:yasyf/cc-vigil": {
+      "as_of": "02262da6c4ff",
+      "summary": "shipped CCVigil \u2014 a notarized menu-bar app whose oracle ages out stale Claude sessions (v0.1.0)"
     },
-    "PushEvent:yasyf/fusekit": {
-      "as_of": "4afff62eae67",
-      "summary": "added TryEnableFileProvider \u2014 File Provider appex election via pluginkit \u2014 and hardened the election scan"
+    "PushEvent:yasyf/cookiesync": {
+      "as_of": "d5e75e5e86c4",
+      "summary": "added a requestor command and captured web storage (localStorage + sessionStorage) in exports (v0.10.0)"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "7cefcdd2beae",
-      "summary": "bumped casks for ccx v0.6.0, cc-pool v0.45.0, and fusekit-holder v0.33.1"
+      "as_of": "dbdbf9f96369",
+      "summary": "bumped casks for cc-vigil v0.1.0, cc-notes v0.21.1, cc-pool v0.48.0, and ccx v0.7.0"
     },
-    "PushEvent:yasyf/slop-cop": {
-      "as_of": "11e09aefbc79",
-      "summary": "dropped Windows and swapped in the canonical repo-bootstrap installer with bare per-arch binaries"
+    "PushEvent:yasyf/yclaw": {
+      "as_of": "5405e7a72b5f",
+      "summary": "hardened the hermes home server \u2014 per-boot agent-vault proxy refresh, in-guest rebuild swap, tailnet cleanup"
     }
   },
-  "generated_at": "2026-07-07T12:17:58Z",
+  "generated_at": "2026-07-08T11:28:32Z",
   "shipped": {
-    "captain-hook@v8.8.0": {
-      "summary": "reworked signals \u2014 presence-union aggregation, first-class vetoes, and a per-hook consumed ledger"
+    "captain-hook@v8.13.0": {
+      "summary": "added ReadOnlyCommand and read-only/LLM-judge permission hooks, hardened against shell-expansion false-approves"
     },
-    "cc-context@v0.6.0": {
-      "summary": "shipped hash-verified edit-by-anchor (ccx code edit) and moved the sandbox onto pydantic-monty under uv"
+    "cc-context@v0.7.0": {
+      "summary": "the ccx web op family \u2014 fetch/cite/chunk with BM25+RRF fusion, local embeddings, and page-dump guards"
     },
     "cc-interact@v0.1.0": {
       "summary": "first release \u2014 the domain-agnostic agent/daemon/web framework extracted from cc-review"
     },
-    "cc-notes@v0.18.0": {
-      "summary": "shipped the cc-notes viz web UI \u2014 swimlane timeline and commit-DAG tabs with live SSE"
+    "cc-notes@v0.21.1": {
+      "summary": "viz web UI polish \u2014 SSE reconnect refetch, lazy detail chunks, and a sticky lane-label gutter"
     },
-    "cc-pool@v0.45.0": {
-      "summary": "landed a stable TCC identity and zero-touch File Provider onboarding"
+    "cc-pool@v0.48.0": {
+      "summary": "added account add via claude auth login and pinned the self-heal policy constants"
     },
-    "slop-cop@v0.1.32": {
-      "summary": "dropped Windows support and re-stamped the canonical installer"
+    "cc-vigil@v0.1.0": {
+      "summary": "first release \u2014 a notarized menu-bar app whose oracle ages out stale Claude sessions with a self-healing dead-man clear"
     },
     "spawnllm@v0.5.5": {
       "summary": "passed codex --skip-git-repo-check so verdicts run in untrusted cwds"
