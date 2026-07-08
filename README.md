@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-08T14:56:19Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-08T20:04:27Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -24,6 +24,9 @@
 
 <!-- gh-profile:start:activity -->
 - `2026-07-08` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped casks for cc-vigil v0.1.0, cc-notes v0.21.1, cc-pool v0.48.0, and ccx v0.7.0
+- `2026-07-08` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — built cross-host credential sync end to end (P1–P3) and added account add/relogin via claude auth login
+- `2026-07-08` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — polished the viz web UI — SSE reconnect refetch, a faceted Browse tab, and a duplicate guard on Create (v0.21.1)
+- `2026-07-08` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit)
 - `2026-07-08` Pushed to [yasyf/cc-vigil](https://github.com/yasyf/cc-vigil) — shipped CCVigil — a notarized menu-bar app whose oracle ages out stale Claude sessions (v0.1.0)
 - `2026-07-08` Pushed to [yasyf/cc-guides](https://github.com/yasyf/cc-guides)
 - `2026-07-08` Pushed to [yasyf/cc-runtime](https://github.com/yasyf/cc-runtime)
@@ -32,11 +35,8 @@
 - `2026-07-08` Pushed to [yasyf/cc-factory](https://github.com/yasyf/cc-factory)
 - `2026-07-08` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
 - `2026-07-08` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
-- `2026-07-08` Pushed to [yasyf/cc-sentiment](https://github.com/yasyf/cc-sentiment)
-- `2026-07-08` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
-- `2026-07-08` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — added ReadOnlyCommand permission hooks, hardened against shell-expansion false-approves
 
-**11,099 contributions in the last year**
+**11,114 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -95,10 +95,10 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-08` [cc-guides v0.1.6](https://github.com/yasyf/cc-guides/releases/tag/v0.1.6)
+- `2026-07-08` [cc-pool v0.49.0](https://github.com/yasyf/cc-pool/releases/tag/v0.49.0)
+- `2026-07-08` [cc-notes v0.21.2](https://github.com/yasyf/cc-notes/releases/tag/v0.21.2)
+- `2026-07-08` [fusekit v0.35.0](https://github.com/yasyf/fusekit/releases/tag/v0.35.0)
 - `2026-07-08` [slop-cop v0.1.35](https://github.com/yasyf/slop-cop/releases/tag/v0.1.35)
-- `2026-07-08` [cc-pool v0.48.0](https://github.com/yasyf/cc-pool/releases/tag/v0.48.0) — added account add via claude auth login and pinned the self-heal policy constants
-- `2026-07-08` [cc-context v0.7.0](https://github.com/yasyf/cc-context/releases/tag/v0.7.0) — the ccx web op family — fetch/cite/chunk with BM25+RRF fusion, local embeddings, and page-dump guards
 - `2026-07-08` [captain-hook v8.13.0](https://github.com/yasyf/captain-hook/releases/tag/v8.13.0) — added ReadOnlyCommand and read-only/LLM-judge permission hooks, hardened against shell-expansion false-approves
 - `2026-07-05` [spawnllm v0.5.5](https://github.com/yasyf/spawnllm/releases/tag/v0.5.5) — passed codex --skip-git-repo-check so verdicts run in untrusted cwds
 <!-- gh-profile:end:shipped -->
