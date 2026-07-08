@@ -131,11 +131,11 @@ TypeScript  █░░░░░░░░░░░░░░░░░░░    2%
 Latest from [Yasyf's Random Musings](https://musings.yasyf.com):
 
 <!-- BLOG-POST-LIST:START -->
-- [Improving Claude Computer Use](https://musings.yasyf.com/improving-claude-computer-use/)
-- [On Securing Model Supply Chains](https://musings.yasyf.com/on-llm-supply-chain-attacks/)
-- [python 🤝 `defer`](https://musings.yasyf.com/bringing-gos-defer-to-python/)
-- [Haystack + Pinecone Hybrid Vectors](https://musings.yasyf.com/hybrid-vectors-are-cool/)
-- [CompressGPT: Decrease Token Usage by ~70%](https://musings.yasyf.com/compressgpt-decrease-token-usage-by-70/)
+- [Improving Claude Computer Use](https://yasyf.com/writing/improving-claude-computer-use/)
+- [On Securing Model Supply Chains](https://yasyf.com/writing/on-llm-supply-chain-attacks/)
+- [python 🤝 `defer`](https://yasyf.com/writing/bringing-gos-defer-to-python/)
+- [Haystack + Pinecone Hybrid Vectors](https://yasyf.com/writing/hybrid-vectors-are-cool/)
+- [CompressGPT: Decrease Token Usage by ~70%](https://yasyf.com/writing/compressgpt-decrease-token-usage-by-70/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
