@@ -1,61 +1,66 @@
 {
   "activity": {
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "029fdf6f4019",
-      "summary": "added ReadOnlyCommand permission hooks, hardened against shell-expansion false-approves"
+      "as_of": "0da09f362138",
+      "summary": "routed delegated codex runs to the codex:codex-wrapper agent and added a teammate tight-digest nudge on SubagentStart"
     },
     "PushEvent:yasyf/cc-context": {
-      "as_of": "6b0b10353160",
-      "summary": "shipped the ccx web op family \u2014 a fetch/cite/chunk engine with BM25+RRF fusion and local embeddings (v0.7.0)"
+      "as_of": "bb945bbf2285",
+      "summary": "live-verified the ccx web tier wire shapes and auto-rewrote blocked commands to ccx equivalents (v0.8.1)"
+    },
+    "PushEvent:yasyf/cc-guides": {
+      "as_of": "413e8c24bb03",
+      "summary": "stood up cc-guides \u2014 src\u2192artifact doc rendering with embedded canonical fragments and fan-out fleet CI"
     },
     "PushEvent:yasyf/cc-notes": {
-      "as_of": "47de46d1717a",
-      "summary": "polished the viz web UI \u2014 SSE reconnect refetch, a faceted Browse tab, and a duplicate guard on Create (v0.21.1)"
+      "as_of": "873725085e71",
+      "summary": "landed one flag vocabulary across every entity and survived concurrent git ref writes in gitobj (v0.22.0)"
     },
     "PushEvent:yasyf/cc-pool": {
-      "as_of": "e4370224fec2",
-      "summary": "built cross-host credential sync end to end (P1\u2013P3) and added account add/relogin via claude auth login"
+      "as_of": "2af08926f269",
+      "summary": "survived TCC app-group consent across upgrades via a stable-path daemon re-exec, plus ledger observability in doctor"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "19b671f510cc",
-      "summary": "reworked the codex lane to run Skill(codex) inline and gave repo-bootstrap end-marker-delimited fragment sync (v0.39.1)"
+      "as_of": "a91b043bdbd2",
+      "summary": "built the cc-guides v3 content split \u2014 shared fragments, a fleet roster, and fan-out CI (v0.39.1)"
+    },
+    "PushEvent:yasyf/cc-transcript": {
+      "as_of": "b7045c930e84",
+      "summary": "shipped cc-transcript 10 \u2014 a delivery-aware session-activity oracle with a regenerated swift-bridge Swift package"
     },
     "PushEvent:yasyf/cc-vigil": {
-      "as_of": "02262da6c4ff",
-      "summary": "shipped CCVigil \u2014 a notarized menu-bar app whose oracle ages out stale Claude sessions (v0.1.0)"
+      "as_of": "96a814795746",
+      "summary": "notarized the Developer ID release and shipped a Homebrew cask, with the oracle aging out stale sessions (v0.1.1)"
     },
-    "PushEvent:yasyf/cookiesync": {
-      "as_of": "d5e75e5e86c4",
-      "summary": "added a requestor command and captured web storage (localStorage + sessionStorage) in exports (v0.10.0)"
+    "PushEvent:yasyf/fusekit": {
+      "as_of": "8c70f7fde1cc",
+      "summary": "added ReexecStable \u2014 self-exec onto a stable path so path-keyed TCC grants survive upgrades"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "dbdbf9f96369",
-      "summary": "bumped casks for cc-vigil v0.1.0, cc-notes v0.21.1, cc-pool v0.48.0, and ccx v0.7.0"
+      "as_of": "5966f5ea6a52",
+      "summary": "bumped casks for cc-pool v0.50.1, cc-notes v0.22.0, ccx v0.8.1, and fusekit-holder v0.36.0"
     },
     "PushEvent:yasyf/yclaw": {
-      "as_of": "5405e7a72b5f",
-      "summary": "hardened the hermes home server \u2014 per-boot agent-vault proxy refresh, in-guest rebuild swap, tailnet cleanup"
+      "as_of": "bf078a481e12",
+      "summary": "shipped yclaw onboard \u2014 seven auto-advancing gates with piped guest bring-up and Google Workspace OAuth connect"
     }
   },
-  "generated_at": "2026-07-08T11:28:32Z",
+  "generated_at": "2026-07-09T12:22:15Z",
   "shipped": {
-    "captain-hook@v8.13.0": {
-      "summary": "added ReadOnlyCommand and read-only/LLM-judge permission hooks, hardened against shell-expansion false-approves"
+    "captain-hook@v8.14.0": {
+      "summary": "routed delegated codex runs to the codex:codex-wrapper agent, retiring the sonnet wrapper shape"
     },
-    "cc-context@v0.7.0": {
-      "summary": "the ccx web op family \u2014 fetch/cite/chunk with BM25+RRF fusion, local embeddings, and page-dump guards"
+    "cc-context@v0.8.1": {
+      "summary": "live-verified the web tier wire shapes \u2014 jina warnings and a browserbase content envelope"
     },
-    "cc-interact@v0.1.0": {
-      "summary": "first release \u2014 the domain-agnostic agent/daemon/web framework extracted from cc-review"
+    "cc-pool@v0.50.1": {
+      "summary": "daemon FP healing under the claim \u2014 one-snapshot status and a doctor that explains a parked-but-never-faulted domain"
     },
-    "cc-notes@v0.21.1": {
-      "summary": "viz web UI polish \u2014 SSE reconnect refetch, lazy detail chunks, and a sticky lane-label gutter"
+    "cc-transcript@v10.0.0": {
+      "summary": "the delivery-aware session-activity oracle, with a swift-bridge CCTranscript Swift package"
     },
-    "cc-pool@v0.48.0": {
-      "summary": "added account add via claude auth login and pinned the self-heal policy constants"
-    },
-    "cc-vigil@v0.1.0": {
-      "summary": "first release \u2014 a notarized menu-bar app whose oracle ages out stale Claude sessions with a self-healing dead-man clear"
+    "slop-cop@v0.1.35": {
+      "summary": "migrated generated files to cc-guides rendering"
     },
     "spawnllm@v0.5.5": {
       "summary": "passed codex --skip-git-repo-check so verdicts run in untrusted cwds"

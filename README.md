@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-09T10:04:26Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-09T12:25:28Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-09` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped casks for cc-vigil v0.1.0, cc-notes v0.21.1, cc-pool v0.48.0, and ccx v0.7.0
-- `2026-07-09` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit)
-- `2026-07-09` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — built cross-host credential sync end to end (P1–P3) and added account add/relogin via claude auth login
+- `2026-07-09` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — shipped cc-transcript 10 — a delivery-aware session-activity oracle with a regenerated swift-bridge Swift package
+- `2026-07-09` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — built the cc-guides v3 content split — shared fragments, a fleet roster, and fan-out CI (v0.39.1)
+- `2026-07-09` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped casks for cc-pool v0.50.1, cc-notes v0.22.0, ccx v0.8.1, and fusekit-holder v0.36.0
+- `2026-07-09` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — survived TCC app-group consent across upgrades via a stable-path daemon re-exec, plus ledger observability in doctor
+- `2026-07-09` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — routed delegated codex runs to the codex:codex-wrapper agent and added a teammate tight-digest nudge on SubagentStart
+- `2026-07-09` Pushed to [yasyf/cc-guides](https://github.com/yasyf/cc-guides) — stood up cc-guides — src→artifact doc rendering with embedded canonical fragments and fan-out fleet CI
+- `2026-07-09` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — landed one flag vocabulary across every entity and survived concurrent git ref writes in gitobj (v0.22.0)
+- `2026-07-09` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — added ReexecStable — self-exec onto a stable path so path-keyed TCC grants survive upgrades
 - `2026-07-08` Worked on a pull request in [posit-dev/great-docs](https://github.com/posit-dev/great-docs)
-- `2026-07-08` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — shipped the ccx web op family — a fetch/cite/chunk engine with BM25+RRF fusion and local embeddings (v0.7.0)
-- `2026-07-08` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — hardened the hermes home server — per-boot agent-vault proxy refresh, in-guest rebuild swap, tailnet cleanup
-- `2026-07-08` Pushed to [yasyf/cc-vigil](https://github.com/yasyf/cc-vigil) — shipped CCVigil — a notarized menu-bar app whose oracle ages out stale Claude sessions (v0.1.0)
-- `2026-07-08` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
-- `2026-07-08` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
-- `2026-07-08` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit)
-- `2026-07-08` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
-- `2026-07-08` Pushed to [yasyf/dailies](https://github.com/yasyf/dailies)
+- `2026-07-08` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — live-verified the ccx web tier wire shapes and auto-rewrote blocked commands to ccx equivalents (v0.8.1)
+- `2026-07-08` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — shipped yclaw onboard — seven auto-advancing gates with piped guest bring-up and Google Workspace OAuth connect
+- `2026-07-08` Pushed to [yasyf/cc-vigil](https://github.com/yasyf/cc-vigil) — notarized the Developer ID release and shipped a Homebrew cask, with the oracle aging out stale sessions (v0.1.1)
 
-**11,185 contributions in the last year**
+**11,228 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -56,6 +56,7 @@
 **Claude Code, continued**
 
 - [cc-skills](https://github.com/yasyf/cc-skills) — the plugin marketplace where the whole toolbelt ships
+- [cc-guides](https://github.com/yasyf/cc-guides) — src→artifact doc rendering with embedded canonical fragments, keeping every repo's CLAUDE.md and AGENTS.md in sync
 - [cc-notes](https://github.com/yasyf/cc-notes) — a notes-and-tasks layer agents can actually use
 - [cc-runtime](https://github.com/yasyf/cc-runtime) — a runtime that hands Claude Code its harness-injected tools, AskUserQuestion and friends
 - [cc-interact](https://github.com/yasyf/cc-interact) — the human-in-the-loop agent/daemon/web framework, pulled out of cc-review
@@ -95,10 +96,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-09` [fusekit v0.36.0](https://github.com/yasyf/fusekit/releases/tag/v0.36.0)
-- `2026-07-09` [cc-pool v0.50.0](https://github.com/yasyf/cc-pool/releases/tag/v0.50.0)
-- `2026-07-08` [captain-hook v8.14.0](https://github.com/yasyf/captain-hook/releases/tag/v8.14.0)
-- `2026-07-08` [slop-cop v0.1.35](https://github.com/yasyf/slop-cop/releases/tag/v0.1.35)
+- `2026-07-09` [cc-pool v0.50.1](https://github.com/yasyf/cc-pool/releases/tag/v0.50.1) — daemon FP healing under the claim — one-snapshot status and a doctor that explains a parked-but-never-faulted domain
+- `2026-07-09` [cc-transcript v10.0.0](https://github.com/yasyf/cc-transcript/releases/tag/v10.0.0) — the delivery-aware session-activity oracle, with a swift-bridge CCTranscript Swift package
+- `2026-07-08` [cc-context v0.8.1](https://github.com/yasyf/cc-context/releases/tag/v0.8.1) — live-verified the web tier wire shapes — jina warnings and a browserbase content envelope
+- `2026-07-08` [captain-hook v8.14.0](https://github.com/yasyf/captain-hook/releases/tag/v8.14.0) — routed delegated codex runs to the codex:codex-wrapper agent, retiring the sonnet wrapper shape
+- `2026-07-08` [slop-cop v0.1.35](https://github.com/yasyf/slop-cop/releases/tag/v0.1.35) — migrated generated files to cc-guides rendering
 - `2026-07-05` [spawnllm v0.5.5](https://github.com/yasyf/spawnllm/releases/tag/v0.5.5) — passed codex --skip-git-repo-check so verdicts run in untrusted cwds
 <!-- gh-profile:end:shipped -->
 
