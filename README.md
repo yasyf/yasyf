@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-10T04:34:12Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-10T10:00:31Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-10` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — live-verified the ccx web tier wire shapes and auto-rewrote blocked commands to ccx equivalents (v0.8.1)
+- `2026-07-10` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — routed delegated codex runs to the codex:codex-wrapper agent and added a teammate tight-digest nudge on SubagentStart
+- `2026-07-10` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
+- `2026-07-10` Pushed to [yasyf/cc-vigil](https://github.com/yasyf/cc-vigil) — notarized the Developer ID release and shipped a Homebrew cask, with the oracle aging out stale sessions (v0.1.1)
 - `2026-07-10` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — built the cc-guides v3 content split — shared fragments, a fleet roster, and fan-out CI (v0.39.1)
 - `2026-07-10` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped casks for cc-pool v0.50.1, cc-notes v0.22.0, ccx v0.8.1, and fusekit-holder v0.36.0
-- `2026-07-10` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — routed delegated codex runs to the codex:codex-wrapper agent and added a teammate tight-digest nudge on SubagentStart
-- `2026-07-10` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
-- `2026-07-10` Pushed to [yasyf/cc-sentiment](https://github.com/yasyf/cc-sentiment)
-- `2026-07-10` Pushed to [yasyf/cc-runtime](https://github.com/yasyf/cc-runtime)
-- `2026-07-10` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
-- `2026-07-10` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
-- `2026-07-10` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
-- `2026-07-10` Pushed to [yasyf/dailies](https://github.com/yasyf/dailies)
+- `2026-07-10` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — added ReexecStable — self-exec onto a stable path so path-keyed TCC grants survive upgrades
+- `2026-07-10` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — live-verified the ccx web tier wire shapes and auto-rewrote blocked commands to ccx equivalents (v0.8.1)
 - `2026-07-10` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — shipped cc-transcript 10 — a delivery-aware session-activity oracle with a regenerated swift-bridge Swift package
+- `2026-07-10` Was active in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-07-10` Created something new in [yasyf/fusekit](https://github.com/yasyf/fusekit)
+- `2026-07-10` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present)
+- `2026-07-10` Created something new in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
 
-**11,348 contributions in the last year**
+**11,407 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -96,10 +96,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-10` [slop-cop v0.1.36](https://github.com/yasyf/slop-cop/releases/tag/v0.1.36)
-- `2026-07-10` [captain-hook v8.15.0](https://github.com/yasyf/captain-hook/releases/tag/v8.15.0)
+- `2026-07-10` [captain-hook v8.17.0](https://github.com/yasyf/captain-hook/releases/tag/v8.17.0)
+- `2026-07-10` [cc-context v0.10.0](https://github.com/yasyf/cc-context/releases/tag/v0.10.0)
+- `2026-07-10` [cc-guides v0.1.12](https://github.com/yasyf/cc-guides/releases/tag/v0.1.12)
+- `2026-07-10` [slop-cop v0.1.37](https://github.com/yasyf/slop-cop/releases/tag/v0.1.37)
 - `2026-07-10` [cc-pool v0.50.2](https://github.com/yasyf/cc-pool/releases/tag/v0.50.2)
-- `2026-07-08` [cc-context v0.8.1](https://github.com/yasyf/cc-context/releases/tag/v0.8.1) — live-verified the web tier wire shapes — jina warnings and a browserbase content envelope
 - `2026-07-05` [spawnllm v0.5.5](https://github.com/yasyf/spawnllm/releases/tag/v0.5.5) — passed codex --skip-git-repo-check so verdicts run in untrusted cwds
 <!-- gh-profile:end:shipped -->
 
