@@ -1,66 +1,58 @@
 {
   "activity": {
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "0da09f362138",
-      "summary": "routed delegated codex runs to the codex:codex-wrapper agent and added a teammate tight-digest nudge on SubagentStart"
+      "as_of": "6b77ab9b1fce",
+      "summary": "rebuilt is_waiting on the cc-transcript activity probe (v8.17.0)"
     },
     "PushEvent:yasyf/cc-context": {
-      "as_of": "bb945bbf2285",
-      "summary": "live-verified the ccx web tier wire shapes and auto-rewrote blocked commands to ccx equivalents (v0.8.1)"
+      "as_of": "01c0aa14b0aa",
+      "summary": "added dependency-source search and gated unpiped rg at grep parity (v0.10.0)"
     },
-    "PushEvent:yasyf/cc-guides": {
-      "as_of": "413e8c24bb03",
-      "summary": "stood up cc-guides \u2014 src\u2192artifact doc rendering with embedded canonical fragments and fan-out fleet CI"
+    "PushEvent:yasyf/cc-interact": {
+      "as_of": "25507a55d7a0",
+      "summary": "added configurable daemon bind + bearer-token auth and a 0.5.0 web ToastStack"
     },
-    "PushEvent:yasyf/cc-notes": {
-      "as_of": "873725085e71",
-      "summary": "landed one flag vocabulary across every entity and survived concurrent git ref writes in gitobj (v0.22.0)"
-    },
-    "PushEvent:yasyf/cc-pool": {
-      "as_of": "2af08926f269",
-      "summary": "survived TCC app-group consent across upgrades via a stable-path daemon re-exec, plus ledger observability in doctor"
+    "PushEvent:yasyf/cc-present": {
+      "as_of": "56fec044db43",
+      "summary": "added native SwiftUI client and a LAN daemon with bearer-token auth and pairing"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "a91b043bdbd2",
-      "summary": "built the cc-guides v3 content split \u2014 shared fragments, a fleet roster, and fan-out CI (v0.39.1)"
+      "as_of": "1d12978b0605",
+      "summary": "retired stamp/drift/sync in repo-bootstrap v0.40.0 for cc-guides scaffolding"
     },
     "PushEvent:yasyf/cc-transcript": {
-      "as_of": "b7045c930e84",
-      "summary": "shipped cc-transcript 10 \u2014 a delivery-aware session-activity oracle with a regenerated swift-bridge Swift package"
+      "as_of": "0f04e6a1fec6",
+      "summary": "made oracle name matching alias- and MCP-aware (10.4.0)"
     },
     "PushEvent:yasyf/cc-vigil": {
-      "as_of": "96a814795746",
-      "summary": "notarized the Developer ID release and shipped a Homebrew cask, with the oracle aging out stale sessions (v0.1.1)"
+      "as_of": "7a872937cb19",
+      "summary": "added an App Intents control surface and Low Power Mode cutout signal (v0.3.0)"
     },
     "PushEvent:yasyf/fusekit": {
-      "as_of": "8c70f7fde1cc",
-      "summary": "added ReexecStable \u2014 self-exec onto a stable path so path-keyed TCC grants survive upgrades"
+      "as_of": "65b21cd4214c",
+      "summary": "added RelaySource, a caching, spooling File Provider bridge proxy"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "5966f5ea6a52",
-      "summary": "bumped casks for cc-pool v0.50.1, cc-notes v0.22.0, ccx v0.8.1, and fusekit-holder v0.36.0"
-    },
-    "PushEvent:yasyf/yclaw": {
-      "as_of": "bf078a481e12",
-      "summary": "shipped yclaw onboard \u2014 seven auto-advancing gates with piped guest bring-up and Google Workspace OAuth connect"
+      "as_of": "c726574af8df",
+      "summary": "bumped casks for cc-vigil v0.3.0, ccx v0.10.0, and cc-present v0.5.0"
     }
   },
-  "generated_at": "2026-07-09T12:22:15Z",
+  "generated_at": "2026-07-10T12:18:32Z",
   "shipped": {
-    "captain-hook@v8.14.0": {
-      "summary": "routed delegated codex runs to the codex:codex-wrapper agent, retiring the sonnet wrapper shape"
+    "captain-hook@v8.17.0": {
+      "summary": "rebuilt is_waiting on the cc-transcript activity probe"
     },
-    "cc-context@v0.8.1": {
-      "summary": "live-verified the web tier wire shapes \u2014 jina warnings and a browserbase content envelope"
+    "cc-context@v0.10.0": {
+      "summary": "added dependency-source search and gated unpiped rg at grep parity"
     },
-    "cc-pool@v0.50.1": {
-      "summary": "daemon FP healing under the claim \u2014 one-snapshot status and a doctor that explains a parked-but-never-faulted domain"
+    "cc-interact@v0.1.0": {
+      "summary": "the domain-agnostic agent, daemon, and web framework extracted from cc-review"
     },
-    "cc-transcript@v10.0.0": {
-      "summary": "the delivery-aware session-activity oracle, with a swift-bridge CCTranscript Swift package"
+    "cc-pool@v0.50.2": {
+      "summary": "returned needs-login instead of panicking when sampling a tokenless credential"
     },
-    "slop-cop@v0.1.35": {
-      "summary": "migrated generated files to cc-guides rendering"
+    "cc-present@v0.5.0": {
+      "summary": "added web lifecycle phases, floating toasts, and a keyboard review layer"
     },
     "spawnllm@v0.5.5": {
       "summary": "passed codex --skip-git-repo-check so verdicts run in untrusted cwds"
