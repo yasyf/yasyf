@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-10T12:19:21Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-10T15:13:15Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-07-10` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-07-10` Was active in [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
+- `2026-07-10` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — added RelaySource, a caching, spooling File Provider bridge proxy
 - `2026-07-10` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped casks for cc-vigil v0.3.0, ccx v0.10.0, and cc-present v0.5.0
 - `2026-07-10` Pushed to [yasyf/cc-vigil](https://github.com/yasyf/cc-vigil) — added an App Intents control surface and Low Power Mode cutout signal (v0.3.0)
 - `2026-07-10` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — added native SwiftUI client and a LAN daemon with bearer-token auth and pairing
 - `2026-07-10` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — rebuilt is_waiting on the cc-transcript activity probe (v8.17.0)
 - `2026-07-10` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — added configurable daemon bind + bearer-token auth and a 0.5.0 web ToastStack
 - `2026-07-10` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — retired stamp/drift/sync in repo-bootstrap v0.40.0 for cc-guides scaffolding
-- `2026-07-10` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — added RelaySource, a caching, spooling File Provider bridge proxy
 - `2026-07-10` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — added dependency-source search and gated unpiped rg at grep parity (v0.10.0)
 - `2026-07-10` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — made oracle name matching alias- and MCP-aware (10.4.0)
 - `2026-07-10` Was active in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
-- `2026-07-10` Created something new in [yasyf/fusekit](https://github.com/yasyf/fusekit)
-- `2026-07-10` Created something new in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
 
-**11,422 contributions in the last year**
+**11,423 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -96,12 +96,13 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-07-10` [cc-vigil v0.3.0](https://github.com/yasyf/cc-vigil/releases/tag/v0.3.0)
 - `2026-07-10` [captain-hook v8.17.0](https://github.com/yasyf/captain-hook/releases/tag/v8.17.0) — rebuilt is_waiting on the cc-transcript activity probe
-- `2026-07-10` [cc-present v0.5.0](https://github.com/yasyf/cc-present/releases/tag/v0.5.0) — added web lifecycle phases, floating toasts, and a keyboard review layer
 - `2026-07-10` [slop-cop v0.1.37](https://github.com/yasyf/slop-cop/releases/tag/v0.1.37)
 - `2026-07-10` [cc-pool v0.50.2](https://github.com/yasyf/cc-pool/releases/tag/v0.50.2) — returned needs-login instead of panicking when sampling a tokenless credential
+- `2026-07-09` [fusekit v0.37.0](https://github.com/yasyf/fusekit/releases/tag/v0.37.0)
+- `2026-07-09` [cc-notes v0.22.0](https://github.com/yasyf/cc-notes/releases/tag/v0.22.0)
 - `2026-07-05` [spawnllm v0.5.5](https://github.com/yasyf/spawnllm/releases/tag/v0.5.5) — passed codex --skip-git-repo-check so verdicts run in untrusted cwds
-- `2026-06-16` [cc-interact v0.1.0](https://github.com/yasyf/cc-interact/releases/tag/v0.1.0) — the domain-agnostic agent, daemon, and web framework extracted from cc-review
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
