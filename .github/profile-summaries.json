@@ -1,58 +1,59 @@
 {
   "activity": {
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "6b77ab9b1fce",
-      "summary": "rebuilt is_waiting on the cc-transcript activity probe (v8.17.0)"
+      "as_of": "ea1984f979b6",
+      "summary": "moved hook-event registration into a shipped hooks.json (v9.0.0)"
     },
     "PushEvent:yasyf/cc-context": {
-      "as_of": "01c0aa14b0aa",
-      "summary": "added dependency-source search and gated unpiped rg at grep parity (v0.10.0)"
+      "as_of": "c12732c37412",
+      "summary": "added a render chain that escalates thin JS app-shell pages (0.12.0)"
     },
-    "PushEvent:yasyf/cc-interact": {
-      "as_of": "25507a55d7a0",
-      "summary": "added configurable daemon bind + bearer-token auth and a 0.5.0 web ToastStack"
+    "PushEvent:yasyf/cc-guides": {
+      "as_of": "93e3876079e0",
+      "summary": "removed the v1 .src render path, leaving lock-only checking (0.1.17)"
+    },
+    "PushEvent:yasyf/cc-notes": {
+      "as_of": "167a99caa33e",
+      "summary": "collapsed fusefs and cli onto generic builders; dropped the differential oracle"
     },
     "PushEvent:yasyf/cc-present": {
-      "as_of": "56fec044db43",
-      "summary": "added native SwiftUI client and a LAN daemon with bearer-token auth and pairing"
+      "as_of": "a7554dbd1cd6",
+      "summary": "added plugin-supplied block packs with dynamic web and iOS rendering"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "1d12978b0605",
-      "summary": "retired stamp/drift/sync in repo-bootstrap v0.40.0 for cc-guides scaffolding"
+      "as_of": "8e08e7926693",
+      "summary": "retired the guides push model for a pull-model cc-guides scaffold (v0.41.0)"
     },
     "PushEvent:yasyf/cc-transcript": {
-      "as_of": "0f04e6a1fec6",
-      "summary": "made oracle name matching alias- and MCP-aware (10.4.0)"
-    },
-    "PushEvent:yasyf/cc-vigil": {
-      "as_of": "7a872937cb19",
-      "summary": "added an App Intents control surface and Low Power Mode cutout signal (v0.3.0)"
+      "as_of": "0375a30d8d4a",
+      "summary": "memoized transcript discovery and opted judges out of per-row probes (10.8.0)"
     },
     "PushEvent:yasyf/fusekit": {
-      "as_of": "65b21cd4214c",
-      "summary": "added RelaySource, a caching, spooling File Provider bridge proxy"
+      "as_of": "a0eefbab2182",
+      "summary": "added a self-owning holder with spec-journal replay and idle-gated self-retire"
+    },
+    "PushEvent:yasyf/getaway": {
+      "as_of": "10d3f1e644d2",
+      "summary": "built an award-flight planning skill on seats.aero across 26 mileage programs"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "c726574af8df",
-      "summary": "bumped casks for cc-vigil v0.3.0, ccx v0.10.0, and cc-present v0.5.0"
+      "as_of": "3183c934d439",
+      "summary": "bumped casks for cc-notes v0.24.0, ccx v0.11.0, and fusekit-holder v0.38.4"
     }
   },
-  "generated_at": "2026-07-10T12:18:32Z",
+  "generated_at": "2026-07-11T10:47:22Z",
   "shipped": {
-    "captain-hook@v8.17.0": {
-      "summary": "rebuilt is_waiting on the cc-transcript activity probe"
+    "captain-hook@v9.0.0": {
+      "summary": "registered every hook event via a shipped hooks.json; deduped dispatch"
     },
-    "cc-context@v0.10.0": {
-      "summary": "added dependency-source search and gated unpiped rg at grep parity"
+    "cc-guides@v0.1.17": {
+      "summary": "renamed --banner-version to --lock-version and removed the v1 .src render path"
     },
     "cc-interact@v0.1.0": {
       "summary": "the domain-agnostic agent, daemon, and web framework extracted from cc-review"
     },
     "cc-pool@v0.50.2": {
       "summary": "returned needs-login instead of panicking when sampling a tokenless credential"
-    },
-    "cc-present@v0.5.0": {
-      "summary": "added web lifecycle phases, floating toasts, and a keyboard review layer"
     },
     "spawnllm@v0.5.5": {
       "summary": "passed codex --skip-git-repo-check so verdicts run in untrusted cwds"
