@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-11T10:48:05Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-11T14:01:10Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -36,7 +36,7 @@
 - `2026-07-10` Created something new in [yasyf/getaway](https://github.com/yasyf/getaway)
 - `2026-07-10` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash)
 
-**11,737 contributions in the last year**
+**11,739 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
