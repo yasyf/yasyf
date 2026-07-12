@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-11T19:42:18Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-12T04:07:05Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-11` Pushed to [yasyf/cc-sentiment](https://github.com/yasyf/cc-sentiment)
-- `2026-07-11` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
-- `2026-07-11` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync)
-- `2026-07-11` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — added a render chain that escalates thin JS app-shell pages (0.12.0)
-- `2026-07-11` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped casks for cc-notes v0.24.0, ccx v0.11.0, and fusekit-holder v0.38.4
-- `2026-07-11` Pushed to [yasyf/cc-merge](https://github.com/yasyf/cc-merge)
-- `2026-07-11` Pushed to [yasyf/cc-factory](https://github.com/yasyf/cc-factory)
-- `2026-07-11` Pushed to [yasyf/getaway](https://github.com/yasyf/getaway) — built an award-flight planning skill on seats.aero across 26 mileage programs
-- `2026-07-11` Pushed to [yasyf/cc-pane](https://github.com/yasyf/cc-pane)
-- `2026-07-11` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — moved hook-event registration into a shipped hooks.json (v9.0.0)
-- `2026-07-11` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
-- `2026-07-11` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash)
+- `2026-07-12` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — added plugin-supplied block packs with dynamic web and iOS rendering
+- `2026-07-12` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — retired the guides push model for a pull-model cc-guides scaffold (v0.41.0)
+- `2026-07-12` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw)
+- `2026-07-12` Pushed to [yasyf/mintlify-docs](https://github.com/yasyf/mintlify-docs)
+- `2026-07-12` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — added a self-owning holder with spec-journal replay and idle-gated self-retire
+- `2026-07-12` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — added a render chain that escalates thin JS app-shell pages (0.12.0)
+- `2026-07-12` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
+- `2026-07-12` Pushed to [yasyf/semisweet](https://github.com/yasyf/semisweet)
+- `2026-07-12` Pushed to [yasyf/cc-vigil](https://github.com/yasyf/cc-vigil)
+- `2026-07-12` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
+- `2026-07-12` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync)
+- `2026-07-11` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — memoized transcript discovery and opted judges out of per-row probes (10.8.0)
 
-**11,800 contributions in the last year**
+**11,868 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -96,12 +96,13 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-11` [cc-guides v0.1.19](https://github.com/yasyf/cc-guides/releases/tag/v0.1.19)
+- `2026-07-11` [slop-cop v0.1.40](https://github.com/yasyf/slop-cop/releases/tag/v0.1.40)
 - `2026-07-11` [cc-context v0.12.0](https://github.com/yasyf/cc-context/releases/tag/v0.12.0)
 - `2026-07-11` [captain-hook v9.0.0](https://github.com/yasyf/captain-hook/releases/tag/v9.0.0) — registered every hook event via a shipped hooks.json; deduped dispatch
-- `2026-07-10` [slop-cop v0.1.39](https://github.com/yasyf/slop-cop/releases/tag/v0.1.39)
+- `2026-07-10` [cc-present v0.5.0](https://github.com/yasyf/cc-present/releases/tag/v0.5.0)
 - `2026-07-10` [cc-pool v0.50.2](https://github.com/yasyf/cc-pool/releases/tag/v0.50.2) — returned needs-login instead of panicking when sampling a tokenless credential
 - `2026-07-05` [spawnllm v0.5.5](https://github.com/yasyf/spawnllm/releases/tag/v0.5.5) — passed codex --skip-git-repo-check so verdicts run in untrusted cwds
+- `2026-06-21` [cc-orchestrate v0.2.5](https://github.com/yasyf/cc-orchestrate/releases/tag/v0.2.5)
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
