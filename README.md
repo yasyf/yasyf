@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-12T11:01:45Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-12T14:05:28Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-12` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — removed the vestigial packs.toml launcher key and shipped a preload-tools SessionStart nudge (v9.5.0)
-- `2026-07-12` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — routed codex browser work through agent-browser and dropped the seatbelt sandbox
-- `2026-07-12` Discussed issues in [anthropics/claude-code](https://github.com/anthropics/claude-code) — argued for a settings opt-out of built-in deferred tools to cut baseline context
-- `2026-07-12` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — auto-pushed refs/cc-notes/* on wider turn triggers with a SessionEnd backstop; added a papercut journal
-- `2026-07-12` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — made symbol and outline output terse by default; added grep -A/-B/-C context and --section windowing
 - `2026-07-12` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped casks for slop-cop v0.1.41, cc-guides v0.1.21, cc-notes v0.25.0, and cc-present v0.6.0
+- `2026-07-12` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present)
+- `2026-07-12` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — routed codex browser work through agent-browser and dropped the seatbelt sandbox
+- `2026-07-12` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — removed the vestigial packs.toml launcher key and shipped a preload-tools SessionStart nudge (v9.5.0)
+- `2026-07-12` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — made symbol and outline output terse by default; added grep -A/-B/-C context and --section windowing
+- `2026-07-12` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync)
+- `2026-07-12` Triaged issues in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-07-12` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-07-12` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 - `2026-07-12` Pushed to [yasyf/getaway](https://github.com/yasyf/getaway) — split onboarding and balance refresh into skills — /getaway:refresh reads points browser-first, Gmail fallback
-- `2026-07-12` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — built the onboarding flow — seven auto-advancing gates, guest_pipe bring-up, and Workspace OAuth
-- `2026-07-12` Pushed to [yasyf/cc-vigil](https://github.com/yasyf/cc-vigil) — added an App Intents control surface (Hold/Release/Pause/Resume) and Low Power Mode as a cutout signal
-- `2026-07-12` Pushed to [yasyf/cc-sentiment](https://github.com/yasyf/cc-sentiment) — adopted the cc-guides pull model — fragments, cc-skills:claude-rules import, and daily re-render
-- `2026-07-12` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop) — adopted the cc-guides pull model and added the missing steering pack to the go flavor
-- `2026-07-12` Pushed to [yasyf/cc-guides](https://github.com/yasyf/cc-guides) — added a ci-render subcommand and install action; fixed pack-root README handling and import-name validation
+- `2026-07-12` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
+- `2026-07-12` Discussed issues in [anthropics/claude-code](https://github.com/anthropics/claude-code) — argued for a settings opt-out of built-in deferred tools to cut baseline context
 
-**12,014 contributions in the last year**
+**12,036 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -96,10 +96,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-12` [captain-hook v9.5.0](https://github.com/yasyf/captain-hook/releases/tag/v9.5.0) — preload-tools SessionStart nudge batch-loads always-used deferred tools in one ToolSearch call
+- `2026-07-12` [cc-present v0.6.1](https://github.com/yasyf/cc-present/releases/tag/v0.6.1)
+- `2026-07-12` [captain-hook v9.6.0](https://github.com/yasyf/captain-hook/releases/tag/v9.6.0)
+- `2026-07-12` [cc-context v0.13.0](https://github.com/yasyf/cc-context/releases/tag/v0.13.0)
 - `2026-07-12` [slop-cop v0.1.41](https://github.com/yasyf/slop-cop/releases/tag/v0.1.41) — packs.toml — added the missing steering pack to match the go flavor
-- `2026-07-12` [cc-guides v0.1.21](https://github.com/yasyf/cc-guides/releases/tag/v0.1.21) — kind dirs at pack root only, case-folded README reservation, and import-name validation
-- `2026-07-11` [cc-context v0.12.0](https://github.com/yasyf/cc-context/releases/tag/v0.12.0) — escalated thin JS app-shell pages through a render chain; dropped PreToolUse/PostToolUse/PreCompact hooks
+- `2026-07-12` [cc-notes v0.25.0](https://github.com/yasyf/cc-notes/releases/tag/v0.25.0)
 - `2026-07-10` [cc-pool v0.50.2](https://github.com/yasyf/cc-pool/releases/tag/v0.50.2) — returned needs-login instead of panicking when sampling a tokenless credential
 - `2026-07-05` [spawnllm v0.5.5](https://github.com/yasyf/spawnllm/releases/tag/v0.5.5) — passed codex --skip-git-repo-check so verdicts run in untrusted cwds
 <!-- gh-profile:end:shipped -->
