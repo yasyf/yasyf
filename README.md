@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-12T14:05:28Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-12T19:40:13Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -24,19 +24,19 @@
 
 <!-- gh-profile:start:activity -->
 - `2026-07-12` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped casks for slop-cop v0.1.41, cc-guides v0.1.21, cc-notes v0.25.0, and cc-present v0.6.0
+- `2026-07-12` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — auto-pushed refs/cc-notes/* on wider turn triggers with a SessionEnd backstop; added a papercut journal
+- `2026-07-12` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
+- `2026-07-12` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit)
+- `2026-07-12` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — removed the vestigial packs.toml launcher key and shipped a preload-tools SessionStart nudge (v9.5.0)
 - `2026-07-12` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present)
 - `2026-07-12` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — routed codex browser work through agent-browser and dropped the seatbelt sandbox
-- `2026-07-12` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — removed the vestigial packs.toml launcher key and shipped a preload-tools SessionStart nudge (v9.5.0)
 - `2026-07-12` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — made symbol and outline output terse by default; added grep -A/-B/-C context and --section windowing
 - `2026-07-12` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync)
 - `2026-07-12` Triaged issues in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 - `2026-07-12` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 - `2026-07-12` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-07-12` Pushed to [yasyf/getaway](https://github.com/yasyf/getaway) — split onboarding and balance refresh into skills — /getaway:refresh reads points browser-first, Gmail fallback
-- `2026-07-12` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
-- `2026-07-12` Discussed issues in [anthropics/claude-code](https://github.com/anthropics/claude-code) — argued for a settings opt-out of built-in deferred tools to cut baseline context
 
-**12,036 contributions in the last year**
+**12,051 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -96,12 +96,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-12` [cc-present v0.6.1](https://github.com/yasyf/cc-present/releases/tag/v0.6.1)
-- `2026-07-12` [captain-hook v9.6.0](https://github.com/yasyf/captain-hook/releases/tag/v9.6.0)
-- `2026-07-12` [cc-context v0.13.0](https://github.com/yasyf/cc-context/releases/tag/v0.13.0)
+- `2026-07-12` [cc-notes v0.27.0](https://github.com/yasyf/cc-notes/releases/tag/v0.27.0)
+- `2026-07-12` [cc-pool v0.52.0](https://github.com/yasyf/cc-pool/releases/tag/v0.52.0)
+- `2026-07-12` [fusekit v1.0.0](https://github.com/yasyf/fusekit/releases/tag/v1.0.0)
+- `2026-07-12` [captain-hook v9.7.0](https://github.com/yasyf/captain-hook/releases/tag/v9.7.0)
 - `2026-07-12` [slop-cop v0.1.41](https://github.com/yasyf/slop-cop/releases/tag/v0.1.41) — packs.toml — added the missing steering pack to match the go flavor
-- `2026-07-12` [cc-notes v0.25.0](https://github.com/yasyf/cc-notes/releases/tag/v0.25.0)
-- `2026-07-10` [cc-pool v0.50.2](https://github.com/yasyf/cc-pool/releases/tag/v0.50.2) — returned needs-login instead of panicking when sampling a tokenless credential
 - `2026-07-05` [spawnllm v0.5.5](https://github.com/yasyf/spawnllm/releases/tag/v0.5.5) — passed codex --skip-git-repo-check so verdicts run in untrusted cwds
 <!-- gh-profile:end:shipped -->
 
