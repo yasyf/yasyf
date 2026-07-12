@@ -1,59 +1,70 @@
 {
   "activity": {
+    "IssueCommentEvent:anthropics/claude-code": {
+      "as_of": "2026-07-12T10:08:12Z",
+      "summary": "argued for a settings opt-out of built-in deferred tools to cut baseline context"
+    },
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "ea1984f979b6",
-      "summary": "moved hook-event registration into a shipped hooks.json (v9.0.0)"
+      "as_of": "a7a7e12acf49",
+      "summary": "removed the vestigial packs.toml launcher key and shipped a preload-tools SessionStart nudge (v9.5.0)"
     },
     "PushEvent:yasyf/cc-context": {
-      "as_of": "c12732c37412",
-      "summary": "added a render chain that escalates thin JS app-shell pages (0.12.0)"
+      "as_of": "28b6dca25b0f",
+      "summary": "made symbol and outline output terse by default; added grep -A/-B/-C context and --section windowing"
     },
     "PushEvent:yasyf/cc-guides": {
-      "as_of": "93e3876079e0",
-      "summary": "removed the v1 .src render path, leaving lock-only checking (0.1.17)"
+      "as_of": "783f5f879155",
+      "summary": "added a ci-render subcommand and install action; fixed pack-root README handling and import-name validation"
     },
     "PushEvent:yasyf/cc-notes": {
-      "as_of": "167a99caa33e",
-      "summary": "collapsed fusefs and cli onto generic builders; dropped the differential oracle"
+      "as_of": "e06d4be7983f",
+      "summary": "auto-pushed refs/cc-notes/* on wider turn triggers with a SessionEnd backstop; added a papercut journal"
     },
-    "PushEvent:yasyf/cc-present": {
-      "as_of": "a7554dbd1cd6",
-      "summary": "added plugin-supplied block packs with dynamic web and iOS rendering"
+    "PushEvent:yasyf/cc-sentiment": {
+      "as_of": "aa3ed89d5277",
+      "summary": "adopted the cc-guides pull model \u2014 fragments, cc-skills:claude-rules import, and daily re-render"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "8e08e7926693",
-      "summary": "retired the guides push model for a pull-model cc-guides scaffold (v0.41.0)"
+      "as_of": "85d670945293",
+      "summary": "routed codex browser work through agent-browser and dropped the seatbelt sandbox"
     },
-    "PushEvent:yasyf/cc-transcript": {
-      "as_of": "0375a30d8d4a",
-      "summary": "memoized transcript discovery and opted judges out of per-row probes (10.8.0)"
-    },
-    "PushEvent:yasyf/fusekit": {
-      "as_of": "a0eefbab2182",
-      "summary": "added a self-owning holder with spec-journal replay and idle-gated self-retire"
+    "PushEvent:yasyf/cc-vigil": {
+      "as_of": "db54bef79736",
+      "summary": "added an App Intents control surface (Hold/Release/Pause/Resume) and Low Power Mode as a cutout signal"
     },
     "PushEvent:yasyf/getaway": {
-      "as_of": "10d3f1e644d2",
-      "summary": "built an award-flight planning skill on seats.aero across 26 mileage programs"
+      "as_of": "c11d311a3fe3",
+      "summary": "split onboarding and balance refresh into skills \u2014 /getaway:refresh reads points browser-first, Gmail fallback"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "3183c934d439",
-      "summary": "bumped casks for cc-notes v0.24.0, ccx v0.11.0, and fusekit-holder v0.38.4"
+      "as_of": "5d07d386ab4a",
+      "summary": "bumped casks for slop-cop v0.1.41, cc-guides v0.1.21, cc-notes v0.25.0, and cc-present v0.6.0"
+    },
+    "PushEvent:yasyf/slop-cop": {
+      "as_of": "18871e442f8e",
+      "summary": "adopted the cc-guides pull model and added the missing steering pack to the go flavor"
+    },
+    "PushEvent:yasyf/yclaw": {
+      "as_of": "1d45fabbaeee",
+      "summary": "built the onboarding flow \u2014 seven auto-advancing gates, guest_pipe bring-up, and Workspace OAuth"
     }
   },
-  "generated_at": "2026-07-11T10:47:22Z",
+  "generated_at": "2026-07-12T10:57:50Z",
   "shipped": {
-    "captain-hook@v9.0.0": {
-      "summary": "registered every hook event via a shipped hooks.json; deduped dispatch"
+    "captain-hook@v9.5.0": {
+      "summary": "preload-tools SessionStart nudge batch-loads always-used deferred tools in one ToolSearch call"
     },
-    "cc-guides@v0.1.17": {
-      "summary": "renamed --banner-version to --lock-version and removed the v1 .src render path"
+    "cc-context@v0.12.0": {
+      "summary": "escalated thin JS app-shell pages through a render chain; dropped PreToolUse/PostToolUse/PreCompact hooks"
     },
-    "cc-interact@v0.1.0": {
-      "summary": "the domain-agnostic agent, daemon, and web framework extracted from cc-review"
+    "cc-guides@v0.1.21": {
+      "summary": "kind dirs at pack root only, case-folded README reservation, and import-name validation"
     },
     "cc-pool@v0.50.2": {
       "summary": "returned needs-login instead of panicking when sampling a tokenless credential"
+    },
+    "slop-cop@v0.1.41": {
+      "summary": "packs.toml \u2014 added the missing steering pack to match the go flavor"
     },
     "spawnllm@v0.5.5": {
       "summary": "passed codex --skip-git-repo-check so verdicts run in untrusted cwds"
