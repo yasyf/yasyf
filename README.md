@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-12T19:40:13Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-13T04:09:10Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -36,7 +36,7 @@
 - `2026-07-12` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 - `2026-07-12` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 
-**12,051 contributions in the last year**
+**11,888 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -96,10 +96,9 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-12` [cc-notes v0.27.0](https://github.com/yasyf/cc-notes/releases/tag/v0.27.0)
 - `2026-07-12` [cc-pool v0.52.0](https://github.com/yasyf/cc-pool/releases/tag/v0.52.0)
-- `2026-07-12` [fusekit v1.0.0](https://github.com/yasyf/fusekit/releases/tag/v1.0.0)
 - `2026-07-12` [captain-hook v9.7.0](https://github.com/yasyf/captain-hook/releases/tag/v9.7.0)
+- `2026-07-12` [cc-present v0.6.1](https://github.com/yasyf/cc-present/releases/tag/v0.6.1)
 - `2026-07-12` [slop-cop v0.1.41](https://github.com/yasyf/slop-cop/releases/tag/v0.1.41) — packs.toml — added the missing steering pack to match the go flavor
 - `2026-07-05` [spawnllm v0.5.5](https://github.com/yasyf/spawnllm/releases/tag/v0.5.5) — passed codex --skip-git-repo-check so verdicts run in untrusted cwds
 <!-- gh-profile:end:shipped -->
