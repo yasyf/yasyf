@@ -1,74 +1,62 @@
 {
   "activity": {
-    "IssueCommentEvent:anthropics/claude-code": {
-      "as_of": "2026-07-12T10:08:12Z",
-      "summary": "argued for a settings opt-out of built-in deferred tools to cut baseline context"
+    "PushEvent:yasyf/homebrew-tap": {
+      "as_of": "62419f34a800",
+      "summary": "bumped casks for synckitd v0.9.0, ccx v0.14.0, cc-present v0.8.1, cc-notes v0.28.0, and cc-pool v0.52.1"
     },
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "a7a7e12acf49",
-      "summary": "removed the vestigial packs.toml launcher key and shipped a preload-tools SessionStart nudge (v9.5.0)"
+      "as_of": "47c37d1e3d1d",
+      "summary": "hardened the daemon for v9.9.0 — registry TOCTOU fixes, peer-uid/run-dir trust checks, in-flight request preservation"
     },
-    "PushEvent:yasyf/cc-context": {
-      "as_of": "28b6dca25b0f",
-      "summary": "made symbol and outline output terse by default; added grep -A/-B/-C context and --section windowing"
-    },
-    "PushEvent:yasyf/cc-guides": {
-      "as_of": "783f5f879155",
-      "summary": "added a ci-render subcommand and install action; fixed pack-root README handling and import-name validation"
-    },
-    "PushEvent:yasyf/cc-notes": {
-      "as_of": "e06d4be7983f",
-      "summary": "auto-pushed refs/cc-notes/* on wider turn triggers with a SessionEnd backstop; added a papercut journal"
-    },
-    "PushEvent:yasyf/cc-sentiment": {
-      "as_of": "aa3ed89d5277",
-      "summary": "adopted the cc-guides pull model \u2014 fragments, cc-skills:claude-rules import, and daily re-render"
-    },
-    "PushEvent:yasyf/cc-skills": {
-      "as_of": "85d670945293",
-      "summary": "routed codex browser work through agent-browser and dropped the seatbelt sandbox"
-    },
-    "PushEvent:yasyf/cc-vigil": {
-      "as_of": "db54bef79736",
-      "summary": "added an App Intents control surface (Hold/Release/Pause/Resume) and Low Power Mode as a cutout signal"
+    "PushEvent:yasyf/synckit": {
+      "as_of": "db66d83f8eea",
+      "summary": "added a self-healing recursive fsnotify watch backend with supervised, backoff-restarted watches"
     },
     "PushEvent:yasyf/getaway": {
-      "as_of": "c11d311a3fe3",
-      "summary": "split onboarding and balance refresh into skills \u2014 /getaway:refresh reads points browser-first, Gmail fallback"
+      "as_of": "a641649c42e4",
+      "summary": "rewrote getaway as a v2 uv CLI — a doctrine-driven planning engine over data registries — and cut 1.0.0"
     },
-    "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "5d07d386ab4a",
-      "summary": "bumped casks for slop-cop v0.1.41, cc-guides v0.1.21, cc-notes v0.25.0, and cc-present v0.6.0"
-    },
-    "PushEvent:yasyf/slop-cop": {
-      "as_of": "18871e442f8e",
-      "summary": "adopted the cc-guides pull model and added the missing steering pack to the go flavor"
+    "PushEvent:yasyf/experiment-at-home": {
+      "as_of": "9f0c8e8f82b2",
+      "summary": "new experiment-at-home toolkit — closed Phase A security & correctness findings and drafted the Phase B API spec"
     },
     "PushEvent:yasyf/yclaw": {
-      "as_of": "1d45fabbaeee",
-      "summary": "built the onboarding flow \u2014 seven auto-advancing gates, guest_pipe bring-up, and Workspace OAuth"
+      "as_of": "f5d011070f9a",
+      "summary": "built the hermes disk image with systemd-repart (KVM-less CI) and swapped the MLX daemon to rapid-mlx 0.10.9"
+    },
+    "PushEvent:yasyf/cc-present": {
+      "as_of": "a4ca7b71c8d8",
+      "summary": "built focus mode — a one-decision-at-a-time card deck with swipe-to-decide, at parity across web and iOS"
+    },
+    "PushEvent:yasyf/cc-skills": {
+      "as_of": "d8f21c503eae",
+      "summary": "routed bounded work to gpt-5.6-sol via the codex skill; quieted codex exec behind a non-improvisable scratchpad log"
+    },
+    "PushEvent:yasyf/cc-context": {
+      "as_of": "a02ed3dfa795",
+      "summary": "v0.14.0 — git-show flag-injection & SSRF fixes, a read-only ccx auto-approver, and tilth grep zero-match re-verification"
     }
   },
-  "generated_at": "2026-07-12T10:57:50Z",
   "shipped": {
-    "captain-hook@v9.5.0": {
-      "summary": "preload-tools SessionStart nudge batch-loads always-used deferred tools in one ToolSearch call"
+    "spawnllm@v0.6.0": {
+      "summary": "file-backed claude stdout capture that fixes the 64KiB pipe truncation, plus retried-away attempt transparency"
     },
-    "cc-context@v0.12.0": {
-      "summary": "escalated thin JS app-shell pages through a render chain; dropped PreToolUse/PostToolUse/PreCompact hooks"
+    "captain-hook@v9.9.0": {
+      "summary": "deny-wins dispatch precedence plus the attach-only pack contract — pack lint, versioned plugin, async-decision guard"
+    },
+    "cc-pool@v0.52.1": {
+      "summary": "fixed a lease-agent fd-3 crash by single-sourcing --ready-fd parsing; hid File Provider overlay domains from Finder"
+    },
+    "slop-cop@v0.1.41": {
+      "summary": "packs.toml — added the missing steering pack to match the go flavor"
     },
     "cc-guides@v0.1.21": {
       "summary": "kind dirs at pack root only, case-folded README reservation, and import-name validation"
     },
-    "cc-pool@v0.50.2": {
-      "summary": "returned needs-login instead of panicking when sampling a tokenless credential"
-    },
-    "slop-cop@v0.1.41": {
-      "summary": "packs.toml \u2014 added the missing steering pack to match the go flavor"
-    },
-    "spawnllm@v0.5.5": {
-      "summary": "passed codex --skip-git-repo-check so verdicts run in untrusted cwds"
+    "cc-interact@v0.1.0": {
+      "summary": "initial release — the domain-agnostic agent ⟷ daemon ⟷ web framework extracted from cc-review"
     }
   },
+  "generated_at": "2026-07-13T12:22:55Z",
   "version": 1
 }

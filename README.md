@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-13T09:54:46Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-13T12:28:23Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-13` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — routed codex browser work through agent-browser and dropped the seatbelt sandbox
-- `2026-07-13` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped casks for slop-cop v0.1.41, cc-guides v0.1.21, cc-notes v0.25.0, and cc-present v0.6.0
-- `2026-07-13` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — made symbol and outline output terse by default; added grep -A/-B/-C context and --section windowing
-- `2026-07-13` Was active in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-07-13` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present)
-- `2026-07-13` Pushed to [yasyf/getaway](https://github.com/yasyf/getaway) — split onboarding and balance refresh into skills — /getaway:refresh reads points browser-first, Gmail fallback
-- `2026-07-13` Triaged issues in [anthropics/claude-code](https://github.com/anthropics/claude-code)
-- `2026-07-13` Was active in [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
-- `2026-07-13` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
-- `2026-07-13` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — removed the vestigial packs.toml launcher key and shipped a preload-tools SessionStart nudge (v9.5.0)
-- `2026-07-13` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync)
-- `2026-07-13` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — auto-pushed refs/cc-notes/* on wider turn triggers with a SessionEnd backstop; added a papercut journal
+- `2026-07-13` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped casks for synckitd v0.9.0, ccx v0.14.0, cc-present v0.8.1, cc-notes v0.28.0, and cc-pool v0.52.1
+- `2026-07-13` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — hardened the daemon for v9.9.0 — registry TOCTOU fixes, peer-uid/run-dir trust checks, in-flight request preservation
+- `2026-07-13` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit) — added a self-healing recursive fsnotify watch backend with supervised, backoff-restarted watches
+- `2026-07-13` Pushed to [yasyf/getaway](https://github.com/yasyf/getaway) — rewrote getaway as a v2 uv CLI — a doctrine-driven planning engine over data registries — and cut 1.0.0
+- `2026-07-13` Was active in [yasyf/yclaw](https://github.com/yasyf/yclaw)
+- `2026-07-13` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home) — new experiment-at-home toolkit — closed Phase A security & correctness findings and drafted the Phase B API spec
+- `2026-07-13` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — built the hermes disk image with systemd-repart (KVM-less CI) and swapped the MLX daemon to rapid-mlx 0.10.9
+- `2026-07-13` Created something new in [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
+- `2026-07-13` Created something new in [yasyf/yclaw](https://github.com/yasyf/yclaw)
+- `2026-07-13` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — built focus mode — a one-decision-at-a-time card deck with swipe-to-decide, at parity across web and iOS
+- `2026-07-13` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — routed bounded work to gpt-5.6-sol via the codex skill; quieted codex exec behind a non-improvisable scratchpad log
+- `2026-07-13` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — v0.14.0 — git-show flag-injection & SSRF fixes, a read-only ccx auto-approver, and tilth grep zero-match re-verification
 
-**11,988 contributions in the last year**
+**12,030 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -96,12 +96,12 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-13` [cc-context v0.14.0](https://github.com/yasyf/cc-context/releases/tag/v0.14.0)
-- `2026-07-13` [cc-present v0.8.0](https://github.com/yasyf/cc-present/releases/tag/v0.8.0)
-- `2026-07-13` [spawnllm v0.6.0](https://github.com/yasyf/spawnllm/releases/tag/v0.6.0)
-- `2026-07-13` [captain-hook v9.9.0](https://github.com/yasyf/captain-hook/releases/tag/v9.9.0)
-- `2026-07-13` [cc-pool v0.52.1](https://github.com/yasyf/cc-pool/releases/tag/v0.52.1)
+- `2026-07-13` [spawnllm v0.6.0](https://github.com/yasyf/spawnllm/releases/tag/v0.6.0) — file-backed claude stdout capture that fixes the 64KiB pipe truncation, plus retried-away attempt transparency
+- `2026-07-13` [captain-hook v9.9.0](https://github.com/yasyf/captain-hook/releases/tag/v9.9.0) — deny-wins dispatch precedence plus the attach-only pack contract — pack lint, versioned plugin, async-decision guard
+- `2026-07-13` [cc-pool v0.52.1](https://github.com/yasyf/cc-pool/releases/tag/v0.52.1) — fixed a lease-agent fd-3 crash by single-sourcing --ready-fd parsing; hid File Provider overlay domains from Finder
 - `2026-07-12` [slop-cop v0.1.41](https://github.com/yasyf/slop-cop/releases/tag/v0.1.41) — packs.toml — added the missing steering pack to match the go flavor
+- `2026-07-12` [cc-guides v0.1.21](https://github.com/yasyf/cc-guides/releases/tag/v0.1.21) — kind dirs at pack root only, case-folded README reservation, and import-name validation
+- `2026-06-16` [cc-interact v0.1.0](https://github.com/yasyf/cc-interact/releases/tag/v0.1.0) — initial release — the domain-agnostic agent ⟷ daemon ⟷ web framework extracted from cc-review
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
@@ -115,12 +115,12 @@
 
 <!-- gh-profile:start:languages -->
 ```text
-Python      ████████████████████   42%
-Go          ██████████████░░░░░░   29%
-Ruby        ███████░░░░░░░░░░░░░   15%
-JavaScript  ██░░░░░░░░░░░░░░░░░░    4%
+Python      ████████████████████   46%
+Go          █████████████░░░░░░░   29%
+Ruby        █████░░░░░░░░░░░░░░░   12%
 Rust        ██░░░░░░░░░░░░░░░░░░    4%
 Swift       ██░░░░░░░░░░░░░░░░░░    4%
+JavaScript  █░░░░░░░░░░░░░░░░░░░    2%
 TypeScript  █░░░░░░░░░░░░░░░░░░░    2%
 ```
 <!-- gh-profile:end:languages -->
