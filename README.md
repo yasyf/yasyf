@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-14T08:36:37Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-14T11:15:18Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-14` Pushed to [yasyf/getaway](https://github.com/yasyf/getaway) — rewrote getaway as a v2 uv CLI — a doctrine-driven planning engine over data registries — and cut 1.0.0
-- `2026-07-14` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped casks for synckitd v0.9.0, ccx v0.14.0, cc-present v0.8.1, cc-notes v0.28.0, and cc-pool v0.52.1
-- `2026-07-14` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — built focus mode — a one-decision-at-a-time card deck with swipe-to-decide, at parity across web and iOS
-- `2026-07-14` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — v0.14.0 — git-show flag-injection & SSRF fixes, a read-only ccx auto-approver, and tilth grep zero-match re-verification
-- `2026-07-14` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
-- `2026-07-14` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — built the hermes disk image with systemd-repart (KVM-less CI) and swapped the MLX daemon to rapid-mlx 0.10.9
-- `2026-07-14` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-07-14` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — routed bounded work to gpt-5.6-sol via the codex skill; quieted codex exec behind a non-improvisable scratchpad log
-- `2026-07-14` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — hardened the daemon for v9.9.0 — registry TOCTOU fixes, peer-uid/run-dir trust checks, in-flight request preservation
-- `2026-07-14` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home) — new experiment-at-home toolkit — closed Phase A security & correctness findings and drafted the Phase B API spec
-- `2026-07-14` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash)
-- `2026-07-14` Triaged issues in [jahala/tilth](https://github.com/jahala/tilth)
+- `2026-07-14` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — moved ccx format onto a canonical Rust format-core running via wazero
+- `2026-07-14` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped casks for cc-present v0.9.4, cc-pool v0.54.0, and cc-notes v0.31.0
+- `2026-07-14` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — shipped context-rich option primitives with facts and expandable detail
+- `2026-07-14` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync) — added cross-host .env file sync — key-level LWW merge with a per-repo opt-out
+- `2026-07-14` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — added Phase-5 holder-v2 replay validation scenarios with fail-closed teardown
+- `2026-07-14` Pushed to [yasyf/getaway](https://github.com/yasyf/getaway) — added a SerpApi Google Flights fallback and held-credit-card prefs + registry
+- `2026-07-14` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — reworked host credential sync around an origin-owned, stripped-envelope model
+- `2026-07-14` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — ported the transcript query, analytics, cost, and ledger surfaces to a Rust core
+- `2026-07-14` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — locked down the host pf firewall with a to-self block and a WireGuard carve-out
+- `2026-07-14` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — added a notes.Client domain core and a verbose-comment → cc-notes redirect hook
+- `2026-07-14` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — bundled recipes into a codex-ask executable; added the luna bounded-recon lane
+- `2026-07-14` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — added per-(session,event) dispatch heartbeats and a heartbeats command
 
-**12,317 contributions in the last year**
+**12,341 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -96,12 +96,12 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-14` [cc-present v0.9.2](https://github.com/yasyf/cc-present/releases/tag/v0.9.2)
-- `2026-07-14` [cc-notes v0.31.0](https://github.com/yasyf/cc-notes/releases/tag/v0.31.0)
-- `2026-07-14` [captain-hook v9.13.0](https://github.com/yasyf/captain-hook/releases/tag/v9.13.0)
-- `2026-07-13` [cc-pool v0.53.0](https://github.com/yasyf/cc-pool/releases/tag/v0.53.0)
-- `2026-07-13` [spawnllm v0.6.1](https://github.com/yasyf/spawnllm/releases/tag/v0.6.1)
+- `2026-07-14` [cc-pool v0.54.0](https://github.com/yasyf/cc-pool/releases/tag/v0.54.0) — removed back-compat, migration, and legacy-version cruft
+- `2026-07-14` [captain-hook v9.13.0](https://github.com/yasyf/captain-hook/releases/tag/v9.13.0) — deleted the once-guard shim now that the cache-decay gate has cleared
+- `2026-07-14` [cc-context v0.15.0](https://github.com/yasyf/cc-context/releases/tag/v0.15.0) — gitignore-honoring find glob walk, ccx repipe guard, and a never-re-truncate rule
+- `2026-07-13` [spawnllm v0.6.1](https://github.com/yasyf/spawnllm/releases/tag/v0.6.1) — added an OpenAI-compatible endpoint backend with an injectable transport
 - `2026-07-12` [slop-cop v0.1.41](https://github.com/yasyf/slop-cop/releases/tag/v0.1.41) — packs.toml — added the missing steering pack to match the go flavor
+- `2026-07-12` [cc-guides v0.1.21](https://github.com/yasyf/cc-guides/releases/tag/v0.1.21) — kind dirs at pack root only, case-folded README reservation, and import-name validation
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox

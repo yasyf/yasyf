@@ -1,62 +1,74 @@
 {
   "activity": {
-    "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "62419f34a800",
-      "summary": "bumped casks for synckitd v0.9.0, ccx v0.14.0, cc-present v0.8.1, cc-notes v0.28.0, and cc-pool v0.52.1"
-    },
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "47c37d1e3d1d",
-      "summary": "hardened the daemon for v9.9.0 — registry TOCTOU fixes, peer-uid/run-dir trust checks, in-flight request preservation"
-    },
-    "PushEvent:yasyf/synckit": {
-      "as_of": "db66d83f8eea",
-      "summary": "added a self-healing recursive fsnotify watch backend with supervised, backoff-restarted watches"
-    },
-    "PushEvent:yasyf/getaway": {
-      "as_of": "a641649c42e4",
-      "summary": "rewrote getaway as a v2 uv CLI — a doctrine-driven planning engine over data registries — and cut 1.0.0"
-    },
-    "PushEvent:yasyf/experiment-at-home": {
-      "as_of": "9f0c8e8f82b2",
-      "summary": "new experiment-at-home toolkit — closed Phase A security & correctness findings and drafted the Phase B API spec"
-    },
-    "PushEvent:yasyf/yclaw": {
-      "as_of": "f5d011070f9a",
-      "summary": "built the hermes disk image with systemd-repart (KVM-less CI) and swapped the MLX daemon to rapid-mlx 0.10.9"
-    },
-    "PushEvent:yasyf/cc-present": {
-      "as_of": "a4ca7b71c8d8",
-      "summary": "built focus mode — a one-decision-at-a-time card deck with swipe-to-decide, at parity across web and iOS"
-    },
-    "PushEvent:yasyf/cc-skills": {
-      "as_of": "d8f21c503eae",
-      "summary": "routed bounded work to gpt-5.6-sol via the codex skill; quieted codex exec behind a non-improvisable scratchpad log"
+      "as_of": "1f397e475cac",
+      "summary": "added per-(session,event) dispatch heartbeats and a heartbeats command"
     },
     "PushEvent:yasyf/cc-context": {
-      "as_of": "a02ed3dfa795",
-      "summary": "v0.14.0 — git-show flag-injection & SSRF fixes, a read-only ccx auto-approver, and tilth grep zero-match re-verification"
+      "as_of": "0b0b510d2aee",
+      "summary": "moved ccx format onto a canonical Rust format-core running via wazero"
+    },
+    "PushEvent:yasyf/cc-notes": {
+      "as_of": "de470cd30feb",
+      "summary": "added a notes.Client domain core and a verbose-comment → cc-notes redirect hook"
+    },
+    "PushEvent:yasyf/cc-pool": {
+      "as_of": "04ce289f2fbc",
+      "summary": "reworked host credential sync around an origin-owned, stripped-envelope model"
+    },
+    "PushEvent:yasyf/cc-present": {
+      "as_of": "daead6e410c2",
+      "summary": "shipped context-rich option primitives with facts and expandable detail"
+    },
+    "PushEvent:yasyf/cc-skills": {
+      "as_of": "f3c968ea6fcb",
+      "summary": "bundled recipes into a codex-ask executable; added the luna bounded-recon lane"
+    },
+    "PushEvent:yasyf/cc-transcript": {
+      "as_of": "d936cee683fd",
+      "summary": "ported the transcript query, analytics, cost, and ledger surfaces to a Rust core"
+    },
+    "PushEvent:yasyf/fusekit": {
+      "as_of": "14054709055b",
+      "summary": "added Phase-5 holder-v2 replay validation scenarios with fail-closed teardown"
+    },
+    "PushEvent:yasyf/getaway": {
+      "as_of": "95994921639a",
+      "summary": "added a SerpApi Google Flights fallback and held-credit-card prefs + registry"
+    },
+    "PushEvent:yasyf/homebrew-tap": {
+      "as_of": "cc1f7b812957",
+      "summary": "bumped casks for cc-present v0.9.4, cc-pool v0.54.0, and cc-notes v0.31.0"
+    },
+    "PushEvent:yasyf/reposync": {
+      "as_of": "cecacda70790",
+      "summary": "added cross-host .env file sync — key-level LWW merge with a per-repo opt-out"
+    },
+    "PushEvent:yasyf/yclaw": {
+      "as_of": "dbee8c5f78cd",
+      "summary": "locked down the host pf firewall with a to-self block and a WireGuard carve-out"
     }
   },
   "shipped": {
-    "spawnllm@v0.6.0": {
-      "summary": "file-backed claude stdout capture that fixes the 64KiB pipe truncation, plus retried-away attempt transparency"
+    "captain-hook@v9.13.0": {
+      "summary": "deleted the once-guard shim now that the cache-decay gate has cleared"
     },
-    "captain-hook@v9.9.0": {
-      "summary": "deny-wins dispatch precedence plus the attach-only pack contract — pack lint, versioned plugin, async-decision guard"
-    },
-    "cc-pool@v0.52.1": {
-      "summary": "fixed a lease-agent fd-3 crash by single-sourcing --ready-fd parsing; hid File Provider overlay domains from Finder"
-    },
-    "slop-cop@v0.1.41": {
-      "summary": "packs.toml — added the missing steering pack to match the go flavor"
+    "cc-context@v0.15.0": {
+      "summary": "gitignore-honoring find glob walk, ccx repipe guard, and a never-re-truncate rule"
     },
     "cc-guides@v0.1.21": {
       "summary": "kind dirs at pack root only, case-folded README reservation, and import-name validation"
     },
-    "cc-interact@v0.1.0": {
-      "summary": "initial release — the domain-agnostic agent ⟷ daemon ⟷ web framework extracted from cc-review"
+    "cc-pool@v0.54.0": {
+      "summary": "removed back-compat, migration, and legacy-version cruft"
+    },
+    "slop-cop@v0.1.41": {
+      "summary": "packs.toml — added the missing steering pack to match the go flavor"
+    },
+    "spawnllm@v0.6.1": {
+      "summary": "added an OpenAI-compatible endpoint backend with an injectable transport"
     }
   },
-  "generated_at": "2026-07-13T12:22:55Z",
+  "generated_at": "2026-07-14T11:12:00Z",
   "version": 1
 }
