@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-15T08:55:09Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-15T11:17:44Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,18 +23,18 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-15` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash)
-- `2026-07-15` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
-- `2026-07-15` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — added a notes.Client domain core and a verbose-comment → cc-notes redirect hook
-- `2026-07-15` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — added per-(session,event) dispatch heartbeats and a heartbeats command
-- `2026-07-15` Pushed to [yasyf/getaway](https://github.com/yasyf/getaway) — added a SerpApi Google Flights fallback and held-credit-card prefs + registry
-- `2026-07-15` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — locked down the host pf firewall with a to-self block and a WireGuard carve-out
-- `2026-07-15` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped casks for cc-present v0.9.4, cc-pool v0.54.0, and cc-notes v0.31.0
-- `2026-07-15` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — reworked host credential sync around an origin-owned, stripped-envelope model
-- `2026-07-14` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — moved ccx format onto a canonical Rust format-core running via wazero
-- `2026-07-14` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync)
-- `2026-07-14` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
-- `2026-07-14` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync) — added cross-host .env file sync — key-level LWW merge with a per-repo opt-out
+- `2026-07-15` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — added an on-path inline-lossless fast-lane and format-core policy passes
+- `2026-07-15` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer) — added mirror-mode live steering — delivery mailbox, prompt hook, kill switch
+- `2026-07-15` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — added full MCP parity, self-healing CLI errors, and runbook anchors
+- `2026-07-15` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — added pack scaffold and per-occurrence Bash-line rewrite primitives
+- `2026-07-15` Pushed to [yasyf/getaway](https://github.com/yasyf/getaway) — added honest wide retrieval, constraint gates, and deterministic flight ranking
+- `2026-07-15` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — moved the model plane to the host and shrank the metal guest to a 16 GB relay
+- `2026-07-15` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped casks for cc-pool, ccx, synckitd, and cookiesync; added cc-sudo
+- `2026-07-15` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — hardened fingerprint probe cadence and launch gating after the Holder v2 cutover
+- `2026-07-14` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — hardened ship's CI-watch discovery and eager-loaded common ccx MCP tools
+- `2026-07-14` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync) — added a browser-liveness busy gate and 30-day tombstone compaction
+- `2026-07-14` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home) — added modal, local mlx-lm, and tinker training backends with a shared registry
+- `2026-07-14` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync) — added .env file sync with key-level LWW merge and swept-edit recovery
 
 **12,609 contributions in the last year**
 <!-- gh-profile:end:activity -->
@@ -96,13 +96,12 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-15` [cc-steer v0.12.1](https://github.com/yasyf/cc-steer/releases/tag/v0.12.1)
-- `2026-07-15` [cc-pool v0.55.1](https://github.com/yasyf/cc-pool/releases/tag/v0.55.1)
-- `2026-07-14` [captain-hook v9.15.0](https://github.com/yasyf/captain-hook/releases/tag/v9.15.0)
+- `2026-07-15` [cc-pool v0.55.1](https://github.com/yasyf/cc-pool/releases/tag/v0.55.1) — propagated daemon operation contexts and stabilized file provider launches
+- `2026-07-14` [captain-hook v9.15.0](https://github.com/yasyf/captain-hook/releases/tag/v9.15.0) — added pack scaffold and self-bootstrapping the marketplace from pack attach
 - `2026-07-14` [slop-cop v0.1.42](https://github.com/yasyf/slop-cop/releases/tag/v0.1.42)
-- `2026-07-14` [cc-notes v0.31.1](https://github.com/yasyf/cc-notes/releases/tag/v0.31.1)
-- `2026-07-14` [spawnllm v0.6.2](https://github.com/yasyf/spawnllm/releases/tag/v0.6.2)
-- `2026-07-02` [cc-squash v0.1.0](https://github.com/yasyf/cc-squash/releases/tag/v0.1.0)
+- `2026-07-14` [cc-guides v0.1.22](https://github.com/yasyf/cc-guides/releases/tag/v0.1.22)
+- `2026-07-14` [spawnllm v0.6.2](https://github.com/yasyf/spawnllm/releases/tag/v0.6.2) — codex backend pins service_tier=fast; stopped dropping the user's tier pin
+- `2026-06-16` [cc-interact v0.1.0](https://github.com/yasyf/cc-interact/releases/tag/v0.1.0) — initial release — a domain-agnostic agent/daemon/web framework from cc-review
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox

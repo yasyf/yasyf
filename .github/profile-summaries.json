@@ -1,74 +1,68 @@
 {
   "activity": {
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "1f397e475cac",
-      "summary": "added per-(session,event) dispatch heartbeats and a heartbeats command"
+      "as_of": "4816eb316268",
+      "summary": "added pack scaffold and per-occurrence Bash-line rewrite primitives"
     },
     "PushEvent:yasyf/cc-context": {
-      "as_of": "0b0b510d2aee",
-      "summary": "moved ccx format onto a canonical Rust format-core running via wazero"
+      "as_of": "2b772d2d61f4",
+      "summary": "hardened ship's CI-watch discovery and eager-loaded common ccx MCP tools"
     },
     "PushEvent:yasyf/cc-notes": {
-      "as_of": "de470cd30feb",
-      "summary": "added a notes.Client domain core and a verbose-comment → cc-notes redirect hook"
+      "as_of": "215488ba04ba",
+      "summary": "added full MCP parity, self-healing CLI errors, and runbook anchors"
     },
     "PushEvent:yasyf/cc-pool": {
-      "as_of": "04ce289f2fbc",
-      "summary": "reworked host credential sync around an origin-owned, stripped-envelope model"
+      "as_of": "2bc66c8919aa",
+      "summary": "hardened fingerprint probe cadence and launch gating after the Holder v2 cutover"
     },
-    "PushEvent:yasyf/cc-present": {
-      "as_of": "daead6e410c2",
-      "summary": "shipped context-rich option primitives with facts and expandable detail"
+    "PushEvent:yasyf/cc-squash": {
+      "as_of": "bbd3bb4807f3",
+      "summary": "added an on-path inline-lossless fast-lane and format-core policy passes"
     },
-    "PushEvent:yasyf/cc-skills": {
-      "as_of": "f3c968ea6fcb",
-      "summary": "bundled recipes into a codex-ask executable; added the luna bounded-recon lane"
+    "PushEvent:yasyf/cc-steer": {
+      "as_of": "c97d4f717001",
+      "summary": "added mirror-mode live steering — delivery mailbox, prompt hook, kill switch"
     },
-    "PushEvent:yasyf/cc-transcript": {
-      "as_of": "d936cee683fd",
-      "summary": "ported the transcript query, analytics, cost, and ledger surfaces to a Rust core"
+    "PushEvent:yasyf/cookiesync": {
+      "as_of": "114fefe85219",
+      "summary": "added a browser-liveness busy gate and 30-day tombstone compaction"
     },
-    "PushEvent:yasyf/fusekit": {
-      "as_of": "14054709055b",
-      "summary": "added Phase-5 holder-v2 replay validation scenarios with fail-closed teardown"
+    "PushEvent:yasyf/experiment-at-home": {
+      "as_of": "53968c1aef37",
+      "summary": "added modal, local mlx-lm, and tinker training backends with a shared registry"
     },
     "PushEvent:yasyf/getaway": {
-      "as_of": "95994921639a",
-      "summary": "added a SerpApi Google Flights fallback and held-credit-card prefs + registry"
+      "as_of": "c8ec271fb935",
+      "summary": "added honest wide retrieval, constraint gates, and deterministic flight ranking"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "cc1f7b812957",
-      "summary": "bumped casks for cc-present v0.9.4, cc-pool v0.54.0, and cc-notes v0.31.0"
+      "as_of": "0bb9a3d511c7",
+      "summary": "bumped casks for cc-pool, ccx, synckitd, and cookiesync; added cc-sudo"
     },
     "PushEvent:yasyf/reposync": {
-      "as_of": "cecacda70790",
-      "summary": "added cross-host .env file sync — key-level LWW merge with a per-repo opt-out"
+      "as_of": "1b39be882ae0",
+      "summary": "added .env file sync with key-level LWW merge and swept-edit recovery"
     },
     "PushEvent:yasyf/yclaw": {
-      "as_of": "dbee8c5f78cd",
-      "summary": "locked down the host pf firewall with a to-self block and a WireGuard carve-out"
+      "as_of": "fbbd937aa330",
+      "summary": "moved the model plane to the host and shrank the metal guest to a 16 GB relay"
     }
   },
+  "generated_at": "2026-07-15T11:16:48Z",
   "shipped": {
-    "captain-hook@v9.13.0": {
-      "summary": "deleted the once-guard shim now that the cache-decay gate has cleared"
+    "captain-hook@v9.15.0": {
+      "summary": "added pack scaffold and self-bootstrapping the marketplace from pack attach"
     },
-    "cc-context@v0.15.0": {
-      "summary": "gitignore-honoring find glob walk, ccx repipe guard, and a never-re-truncate rule"
+    "cc-interact@v0.1.0": {
+      "summary": "initial release — a domain-agnostic agent/daemon/web framework from cc-review"
     },
-    "cc-guides@v0.1.21": {
-      "summary": "kind dirs at pack root only, case-folded README reservation, and import-name validation"
+    "cc-pool@v0.55.1": {
+      "summary": "propagated daemon operation contexts and stabilized file provider launches"
     },
-    "cc-pool@v0.54.0": {
-      "summary": "removed back-compat, migration, and legacy-version cruft"
-    },
-    "slop-cop@v0.1.41": {
-      "summary": "packs.toml — added the missing steering pack to match the go flavor"
-    },
-    "spawnllm@v0.6.1": {
-      "summary": "added an OpenAI-compatible endpoint backend with an injectable transport"
+    "spawnllm@v0.6.2": {
+      "summary": "codex backend pins service_tier=fast; stopped dropping the user's tier pin"
     }
   },
-  "generated_at": "2026-07-14T11:12:00Z",
   "version": 1
 }
