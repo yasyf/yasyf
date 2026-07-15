@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-14T19:51:45Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-15T03:44:49Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-14` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — locked down the host pf firewall with a to-self block and a WireGuard carve-out
-- `2026-07-14` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped casks for cc-present v0.9.4, cc-pool v0.54.0, and cc-notes v0.31.0
-- `2026-07-14` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — reworked host credential sync around an origin-owned, stripped-envelope model
-- `2026-07-14` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — added per-(session,event) dispatch heartbeats and a heartbeats command
+- `2026-07-15` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — added per-(session,event) dispatch heartbeats and a heartbeats command
+- `2026-07-15` Pushed to [yasyf/getaway](https://github.com/yasyf/getaway) — added a SerpApi Google Flights fallback and held-credit-card prefs + registry
+- `2026-07-15` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — locked down the host pf firewall with a to-self block and a WireGuard carve-out
+- `2026-07-15` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped casks for cc-present v0.9.4, cc-pool v0.54.0, and cc-notes v0.31.0
+- `2026-07-15` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
+- `2026-07-15` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — reworked host credential sync around an origin-owned, stripped-envelope model
+- `2026-07-14` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — moved ccx format onto a canonical Rust format-core running via wazero
 - `2026-07-14` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync)
-- `2026-07-14` Pushed to [yasyf/cc-sudo](https://github.com/yasyf/cc-sudo)
-- `2026-07-14` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit)
-- `2026-07-14` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — added Phase-5 holder-v2 replay validation scenarios with fail-closed teardown
-- `2026-07-14` Pushed to [yasyf/getaway](https://github.com/yasyf/getaway) — added a SerpApi Google Flights fallback and held-credit-card prefs + registry
-- `2026-07-14` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — bundled recipes into a codex-ask executable; added the luna bounded-recon lane
 - `2026-07-14` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — added a notes.Client domain core and a verbose-comment → cc-notes redirect hook
+- `2026-07-14` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
+- `2026-07-14` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync) — added cross-host .env file sync — key-level LWW merge with a per-repo opt-out
 - `2026-07-14` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — ported the transcript query, analytics, cost, and ledger surfaces to a Rust core
 
-**12,489 contributions in the last year**
+**12,603 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -96,13 +96,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-14` [cc-pool v0.55.0](https://github.com/yasyf/cc-pool/releases/tag/v0.55.0)
-- `2026-07-14` [cookiesync v0.13.0](https://github.com/yasyf/cookiesync/releases/tag/v0.13.0)
+- `2026-07-15` [cc-pool v0.55.1](https://github.com/yasyf/cc-pool/releases/tag/v0.55.1)
+- `2026-07-15` [cc-steer v0.12.0](https://github.com/yasyf/cc-steer/releases/tag/v0.12.0)
+- `2026-07-14` [captain-hook v9.15.0](https://github.com/yasyf/captain-hook/releases/tag/v9.15.0)
 - `2026-07-14` [slop-cop v0.1.42](https://github.com/yasyf/slop-cop/releases/tag/v0.1.42)
-- `2026-07-14` [captain-hook v9.14.0](https://github.com/yasyf/captain-hook/releases/tag/v9.14.0)
-- `2026-07-14` [cc-notes v0.31.1](https://github.com/yasyf/cc-notes/releases/tag/v0.31.1)
 - `2026-07-14` [spawnllm v0.6.2](https://github.com/yasyf/spawnllm/releases/tag/v0.6.2)
-- `2026-07-13` [cc-transcript v13.1.0](https://github.com/yasyf/cc-transcript/releases/tag/v13.1.0)
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
