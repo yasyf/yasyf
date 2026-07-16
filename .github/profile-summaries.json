@@ -1,64 +1,50 @@
 {
   "activity": {
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "4816eb316268",
-      "summary": "added pack scaffold and per-occurrence Bash-line rewrite primitives"
+      "as_of": "4d8746a2914f",
+      "summary": "routed review run and sweep onto native run-Event dispatch"
     },
     "PushEvent:yasyf/cc-context": {
-      "as_of": "2b772d2d61f4",
-      "summary": "hardened ship's CI-watch discovery and eager-loaded common ccx MCP tools"
+      "as_of": "2e1f23b7ca7f",
+      "summary": "resolved ast-grep from PATH with a 0.44.0 floor; dropped the vendored download"
+    },
+    "PushEvent:yasyf/cc-guides": {
+      "as_of": "fe6b3ad045fd",
+      "summary": "made the action warn on drift and fail on misconfiguration; added a yml kind"
     },
     "PushEvent:yasyf/cc-notes": {
-      "as_of": "215488ba04ba",
-      "summary": "added full MCP parity, self-healing CLI errors, and runbook anchors"
+      "as_of": "08187680603e",
+      "summary": "added cross-kind not-found hints and stamped the Claude session id into audits"
     },
-    "PushEvent:yasyf/cc-pool": {
-      "as_of": "2bc66c8919aa",
-      "summary": "hardened fingerprint probe cadence and launch gating after the Holder v2 cutover"
-    },
-    "PushEvent:yasyf/cc-squash": {
-      "as_of": "bbd3bb4807f3",
-      "summary": "added an on-path inline-lossless fast-lane and format-core policy passes"
-    },
-    "PushEvent:yasyf/cc-steer": {
-      "as_of": "c97d4f717001",
-      "summary": "added mirror-mode live steering — delivery mailbox, prompt hook, kill switch"
-    },
-    "PushEvent:yasyf/cookiesync": {
-      "as_of": "114fefe85219",
-      "summary": "added a browser-liveness busy gate and 30-day tombstone compaction"
-    },
-    "PushEvent:yasyf/experiment-at-home": {
-      "as_of": "53968c1aef37",
-      "summary": "added modal, local mlx-lm, and tinker training backends with a shared registry"
-    },
-    "PushEvent:yasyf/getaway": {
-      "as_of": "c8ec271fb935",
-      "summary": "added honest wide retrieval, constraint gates, and deterministic flight ranking"
+    "PushEvent:yasyf/fusekit": {
+      "as_of": "f05c075898c6",
+      "summary": "hard-cut the overlay to an event-driven provider API"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "0bb9a3d511c7",
-      "summary": "bumped casks for cc-pool, ccx, synckitd, and cookiesync; added cc-sudo"
-    },
-    "PushEvent:yasyf/reposync": {
-      "as_of": "1b39be882ae0",
-      "summary": "added .env file sync with key-level LWW merge and swept-edit recovery"
+      "as_of": "251c29512325",
+      "summary": "bumped casks for cc-notes, ccx, cc-guides, slop-cop, and cc-pool"
     },
     "PushEvent:yasyf/yclaw": {
-      "as_of": "fbbd937aa330",
-      "summary": "moved the model plane to the host and shrank the metal guest to a 16 GB relay"
+      "as_of": "63cd85f0e17e",
+      "summary": "shrank the guest to 8 GB / 2 vCPU and slept its display after one idle minute"
     }
   },
-  "generated_at": "2026-07-15T11:16:48Z",
+  "generated_at": "2026-07-16T11:23:41Z",
   "shipped": {
-    "captain-hook@v9.15.0": {
-      "summary": "added pack scaffold and self-bootstrapping the marketplace from pack attach"
+    "captain-hook@v9.23.0": {
+      "summary": "review run and sweep now ride native run-Event dispatch"
     },
-    "cc-interact@v0.1.0": {
-      "summary": "initial release — a domain-agnostic agent/daemon/web framework from cc-review"
+    "cc-context@v0.22.0": {
+      "summary": "resolves ast-grep from PATH with a 0.44.0 floor; drops the vendored download"
     },
-    "cc-pool@v0.55.1": {
-      "summary": "propagated daemon operation contexts and stabilized file provider launches"
+    "cc-guides@v0.1.24": {
+      "summary": "the action warns on drift and fails on misconfiguration"
+    },
+    "cc-notes@v0.33.0": {
+      "summary": "kind-scoped misses now name the entity's real kind; writes record the session"
+    },
+    "cc-pool@v0.58.5": {
+      "summary": "preserves sync anchor history in the file provider"
     },
     "spawnllm@v0.6.2": {
       "summary": "codex backend pins service_tier=fast; stopped dropping the user's tier pin"
