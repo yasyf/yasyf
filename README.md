@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-16T14:33:18Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-16T19:41:44Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,18 +23,18 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-16` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
-- `2026-07-16` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-07-16` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped casks for cc-notes, ccx, cc-guides, slop-cop, and cc-pool
-- `2026-07-16` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
+- `2026-07-16` Discussed issues in [superset-sh/superset](https://github.com/superset-sh/superset)
 - `2026-07-16` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — resolved ast-grep from PATH with a 0.44.0 floor; dropped the vendored download
-- `2026-07-16` Pushed to [yasyf/getaway](https://github.com/yasyf/getaway)
+- `2026-07-16` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped casks for cc-notes, ccx, cc-guides, slop-cop, and cc-pool
+- `2026-07-16` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-07-16` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
 - `2026-07-16` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — routed review run and sweep onto native run-Event dispatch
+- `2026-07-16` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-07-16` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
+- `2026-07-16` Pushed to [yasyf/getaway](https://github.com/yasyf/getaway)
 - `2026-07-16` Pushed to [yasyf/cc-guides](https://github.com/yasyf/cc-guides) — made the action warn on drift and fail on misconfiguration; added a yml kind
 - `2026-07-16` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — added cross-kind not-found hints and stamped the Claude session id into audits
-- `2026-07-16` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
 - `2026-07-16` Was active in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-07-16` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
 
 **12,892 contributions in the last year**
 <!-- gh-profile:end:activity -->
@@ -98,12 +98,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-16` [cc-orchestrate v0.3.0](https://github.com/yasyf/cc-orchestrate/releases/tag/v0.3.0)
-- `2026-07-16` [cc-context v0.23.0](https://github.com/yasyf/cc-context/releases/tag/v0.23.0)
+- `2026-07-16` [cc-context v0.25.0](https://github.com/yasyf/cc-context/releases/tag/v0.25.0)
+- `2026-07-16` [cc-steer v0.13.0](https://github.com/yasyf/cc-steer/releases/tag/v0.13.0)
 - `2026-07-16` [captain-hook v9.24.0](https://github.com/yasyf/captain-hook/releases/tag/v9.24.0)
 - `2026-07-16` [slop-cop v0.1.43](https://github.com/yasyf/slop-cop/releases/tag/v0.1.43)
 - `2026-07-16` [cc-pool v0.58.5](https://github.com/yasyf/cc-pool/releases/tag/v0.58.5) — preserves sync anchor history in the file provider
-- `2026-07-14` [cc-transcript v13.2.0](https://github.com/yasyf/cc-transcript/releases/tag/v13.2.0)
 - `2026-07-14` [spawnllm v0.6.2](https://github.com/yasyf/spawnllm/releases/tag/v0.6.2) — codex backend pins service_tier=fast; stopped dropping the user's tier pin
 <!-- gh-profile:end:shipped -->
 
