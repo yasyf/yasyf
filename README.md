@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-17T08:35:41Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-17T11:12:33Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-17` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped casks for cc-notes, ccx, cc-guides, slop-cop, and cc-pool
-- `2026-07-17` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present)
-- `2026-07-17` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
-- `2026-07-17` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
-- `2026-07-17` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — routed review run and sweep onto native run-Event dispatch
-- `2026-07-17` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
-- `2026-07-17` Pushed to [yasyf/getaway](https://github.com/yasyf/getaway)
-- `2026-07-17` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit)
-- `2026-07-17` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — shrank the guest to 8 GB / 2 vCPU and slept its display after one idle minute
-- `2026-07-17` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
-- `2026-07-17` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
+- `2026-07-17` Pushed to [yasyf/cc-runtime](https://github.com/yasyf/cc-runtime) — hardened the iOS bearer-token Keychain to device-only and made the token store atomic and race-safe
+- `2026-07-17` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — parsed commands structurally instead of regex-matching the teammate denylist
+- `2026-07-17` Pushed to [yasyf/semisweet](https://github.com/yasyf/semisweet)
+- `2026-07-17` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — dropped the deprecated cookiesync-keyhelper cask, superseded by authkit
 - `2026-07-17` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync)
+- `2026-07-17` Created something new in [yasyf/cc-runtime](https://github.com/yasyf/cc-runtime)
+- `2026-07-17` Created something new in [yasyf/cc-present](https://github.com/yasyf/cc-present)
+- `2026-07-17` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — auto-trusted synckit mesh hosts on the HTTP plane and hardened the iOS token store to device-only
+- `2026-07-17` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — pointed ccx's dep-source, CI-triage, web, and enumeration lanes at the shipped reader subagents
+- `2026-07-17` Was active in [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
+- `2026-07-17` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw)
+- `2026-07-17` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — resolved the App Group container via NSFileManager
 
-**13,144 contributions in the last year**
+**13,251 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -75,6 +75,7 @@
 
 **Systems & libraries**
 
+- [authkit](https://github.com/yasyf/authkit) — a signed macOS helper for Touch ID consent and Secure Enclave attestation, replacing the old cookiesync keyhelper
 - [fusekit](https://github.com/yasyf/fusekit) — detached FUSE-T mount-holder and mount-lifecycle primitives for Go, now under cc-pool and cc-notes
 - [semisweet](https://github.com/yasyf/semisweet) — an async, in-memory semantic cache with pluggable backends
 - [experiment-at-home](https://github.com/yasyf/experiment-at-home) — the plumbing every local AI experiment rebuilds, built once: modal, mlx-lm, and tinker backends behind one registry
@@ -98,11 +99,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-07-17` [cc-pool v0.59.0](https://github.com/yasyf/cc-pool/releases/tag/v0.59.0) — ships the daemon as a profiled .app bundle and resolves the file-provider bridge through the app-group container
 - `2026-07-17` [slop-cop v0.1.45](https://github.com/yasyf/slop-cop/releases/tag/v0.1.45)
-- `2026-07-17` [experiment-at-home v0.5.1](https://github.com/yasyf/experiment-at-home/releases/tag/v0.5.1)
-- `2026-07-16` [captain-hook v9.25.0](https://github.com/yasyf/captain-hook/releases/tag/v9.25.0)
-- `2026-07-16` [cc-context v0.26.0](https://github.com/yasyf/cc-context/releases/tag/v0.26.0)
-- `2026-07-16` [cc-pool v0.58.5](https://github.com/yasyf/cc-pool/releases/tag/v0.58.5) — preserves sync anchor history in the file provider
+- `2026-07-16` [captain-hook v9.25.0](https://github.com/yasyf/captain-hook/releases/tag/v9.25.0) — added the capt-hook hooks active-hook inventory and routed create-PRs by change shape
+- `2026-07-16` [cc-context v0.26.0](https://github.com/yasyf/cc-context/releases/tag/v0.26.0) — ship now runs prek pre-commit hooks before committing
+- `2026-07-16` [authkit v0.1.0](https://github.com/yasyf/authkit/releases/tag/v0.1.0) — first release: the AuthKit library and authkit helper CLI, with a Developer-ID .app cask pipeline
 - `2026-07-14` [spawnllm v0.6.2](https://github.com/yasyf/spawnllm/releases/tag/v0.6.2) — codex backend pins service_tier=fast; stopped dropping the user's tier pin
 <!-- gh-profile:end:shipped -->
 

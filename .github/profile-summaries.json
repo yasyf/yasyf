@@ -1,50 +1,43 @@
 {
   "activity": {
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "4d8746a2914f",
-      "summary": "routed review run and sweep onto native run-Event dispatch"
+      "as_of": "4f3e3c287d2c",
+      "summary": "parsed commands structurally instead of regex-matching the teammate denylist"
     },
-    "PushEvent:yasyf/cc-context": {
-      "as_of": "2e1f23b7ca7f",
-      "summary": "resolved ast-grep from PATH with a 0.44.0 floor; dropped the vendored download"
+    "PushEvent:yasyf/cc-present": {
+      "as_of": "ca5b634a3415",
+      "summary": "auto-trusted synckit mesh hosts on the HTTP plane and hardened the iOS token store to device-only"
     },
-    "PushEvent:yasyf/cc-guides": {
-      "as_of": "fe6b3ad045fd",
-      "summary": "made the action warn on drift and fail on misconfiguration; added a yml kind"
+    "PushEvent:yasyf/cc-runtime": {
+      "as_of": "1e75a6c86faf",
+      "summary": "hardened the iOS bearer-token Keychain to device-only and made the token store atomic and race-safe"
     },
-    "PushEvent:yasyf/cc-notes": {
-      "as_of": "08187680603e",
-      "summary": "added cross-kind not-found hints and stamped the Claude session id into audits"
+    "PushEvent:yasyf/cc-skills": {
+      "as_of": "b784ce836581",
+      "summary": "pointed ccx's dep-source, CI-triage, web, and enumeration lanes at the shipped reader subagents"
     },
     "PushEvent:yasyf/fusekit": {
-      "as_of": "f05c075898c6",
-      "summary": "hard-cut the overlay to an event-driven provider API"
+      "as_of": "ed3e90a88288",
+      "summary": "resolved the App Group container via NSFileManager"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "251c29512325",
-      "summary": "bumped casks for cc-notes, ccx, cc-guides, slop-cop, and cc-pool"
-    },
-    "PushEvent:yasyf/yclaw": {
-      "as_of": "63cd85f0e17e",
-      "summary": "shrank the guest to 8 GB / 2 vCPU and slept its display after one idle minute"
+      "as_of": "aa8e97f4e393",
+      "summary": "dropped the deprecated cookiesync-keyhelper cask, superseded by authkit"
     }
   },
-  "generated_at": "2026-07-16T11:23:41Z",
+  "generated_at": "2026-07-17T11:12:06Z",
   "shipped": {
-    "captain-hook@v9.23.0": {
-      "summary": "review run and sweep now ride native run-Event dispatch"
+    "authkit@v0.1.0": {
+      "summary": "first release: the AuthKit library and authkit helper CLI, with a Developer-ID .app cask pipeline"
     },
-    "cc-context@v0.22.0": {
-      "summary": "resolves ast-grep from PATH with a 0.44.0 floor; drops the vendored download"
+    "captain-hook@v9.25.0": {
+      "summary": "added the capt-hook hooks active-hook inventory and routed create-PRs by change shape"
     },
-    "cc-guides@v0.1.24": {
-      "summary": "the action warns on drift and fails on misconfiguration"
+    "cc-context@v0.26.0": {
+      "summary": "ship now runs prek pre-commit hooks before committing"
     },
-    "cc-notes@v0.33.0": {
-      "summary": "kind-scoped misses now name the entity's real kind; writes record the session"
-    },
-    "cc-pool@v0.58.5": {
-      "summary": "preserves sync anchor history in the file provider"
+    "cc-pool@v0.59.0": {
+      "summary": "ships the daemon as a profiled .app bundle and resolves the file-provider bridge through the app-group container"
     },
     "spawnllm@v0.6.2": {
       "summary": "codex backend pins service_tier=fast; stopped dropping the user's tier pin"
