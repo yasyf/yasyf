@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-17T03:47:33Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-17T08:35:41Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-16` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
-- `2026-07-16` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
-- `2026-07-16` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
-- `2026-07-16` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
-- `2026-07-16` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — routed review run and sweep onto native run-Event dispatch
-- `2026-07-16` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped casks for cc-notes, ccx, cc-guides, slop-cop, and cc-pool
-- `2026-07-16` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync)
-- `2026-07-16` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
-- `2026-07-16` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
-- `2026-07-16` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — resolved ast-grep from PATH with a 0.44.0 floor; dropped the vendored download
-- `2026-07-16` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — hard-cut the overlay to an event-driven provider API
-- `2026-07-16` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — shrank the guest to 8 GB / 2 vCPU and slept its display after one idle minute
+- `2026-07-17` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped casks for cc-notes, ccx, cc-guides, slop-cop, and cc-pool
+- `2026-07-17` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present)
+- `2026-07-17` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
+- `2026-07-17` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-07-17` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — routed review run and sweep onto native run-Event dispatch
+- `2026-07-17` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
+- `2026-07-17` Pushed to [yasyf/getaway](https://github.com/yasyf/getaway)
+- `2026-07-17` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit)
+- `2026-07-17` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — shrank the guest to 8 GB / 2 vCPU and slept its display after one idle minute
+- `2026-07-17` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
+- `2026-07-17` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
+- `2026-07-17` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync)
 
-**13,090 contributions in the last year**
+**13,144 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -98,11 +98,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-07-17` [slop-cop v0.1.45](https://github.com/yasyf/slop-cop/releases/tag/v0.1.45)
+- `2026-07-17` [experiment-at-home v0.5.1](https://github.com/yasyf/experiment-at-home/releases/tag/v0.5.1)
 - `2026-07-16` [captain-hook v9.25.0](https://github.com/yasyf/captain-hook/releases/tag/v9.25.0)
 - `2026-07-16` [cc-context v0.26.0](https://github.com/yasyf/cc-context/releases/tag/v0.26.0)
-- `2026-07-16` [slop-cop v0.1.44](https://github.com/yasyf/slop-cop/releases/tag/v0.1.44)
 - `2026-07-16` [cc-pool v0.58.5](https://github.com/yasyf/cc-pool/releases/tag/v0.58.5) — preserves sync anchor history in the file provider
-- `2026-07-16` [experiment-at-home v0.5.0](https://github.com/yasyf/experiment-at-home/releases/tag/v0.5.0)
 - `2026-07-14` [spawnllm v0.6.2](https://github.com/yasyf/spawnllm/releases/tag/v0.6.2) — codex backend pins service_tier=fast; stopped dropping the user's tier pin
 <!-- gh-profile:end:shipped -->
 
