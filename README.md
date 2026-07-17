@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-17T14:12:46Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-17T19:40:26Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-07-17` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
+- `2026-07-17` Pushed to [yasyf/getaway](https://github.com/yasyf/getaway)
+- `2026-07-17` Pushed to [yasyf/cc-pane](https://github.com/yasyf/cc-pane)
 - `2026-07-17` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — dropped the deprecated cookiesync-keyhelper cask, superseded by authkit
 - `2026-07-17` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-07-17` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
-- `2026-07-17` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
 - `2026-07-17` Created something new in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
 - `2026-07-17` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — auto-trusted synckit mesh hosts on the HTTP plane and hardened the iOS token store to device-only
 - `2026-07-17` Pushed to [yasyf/cc-runtime](https://github.com/yasyf/cc-runtime) — hardened the iOS bearer-token Keychain to device-only and made the token store atomic and race-safe
 - `2026-07-17` Created something new in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
 - `2026-07-17` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
 - `2026-07-17` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
-- `2026-07-17` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
-- `2026-07-17` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
 
-**13,269 contributions in the last year**
+**13,270 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -99,13 +99,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-17` [cc-context v0.28.0](https://github.com/yasyf/cc-context/releases/tag/v0.28.0)
 - `2026-07-17` [captain-hook v9.28.0](https://github.com/yasyf/captain-hook/releases/tag/v9.28.0)
 - `2026-07-17` [cc-pool v0.59.0](https://github.com/yasyf/cc-pool/releases/tag/v0.59.0) — ships the daemon as a profiled .app bundle and resolves the file-provider bridge through the app-group container
 - `2026-07-17` [slop-cop v0.1.45](https://github.com/yasyf/slop-cop/releases/tag/v0.1.45)
-- `2026-07-16` [cc-orchestrate v0.3.0](https://github.com/yasyf/cc-orchestrate/releases/tag/v0.3.0)
+- `2026-07-16` [authkit v0.1.0](https://github.com/yasyf/authkit/releases/tag/v0.1.0) — first release: the AuthKit library and authkit helper CLI, with a Developer-ID .app cask pipeline
 - `2026-07-14` [spawnllm v0.6.2](https://github.com/yasyf/spawnllm/releases/tag/v0.6.2) — codex backend pins service_tier=fast; stopped dropping the user's tier pin
-- `2026-06-16` [cc-interact v0.1.0](https://github.com/yasyf/cc-interact/releases/tag/v0.1.0)
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
@@ -120,12 +118,11 @@
 <!-- gh-profile:start:languages -->
 ```text
 Python      ████████████████████   42%
-Go          ██████████████░░░░░░   29%
+Go          ███████████████░░░░░   31%
 Ruby        ██████░░░░░░░░░░░░░░   12%
 Swift       ███░░░░░░░░░░░░░░░░░    6%
 Rust        ██░░░░░░░░░░░░░░░░░░    4%
 TypeScript  ██░░░░░░░░░░░░░░░░░░    4%
-Shell       █░░░░░░░░░░░░░░░░░░░    2%
 ```
 <!-- gh-profile:end:languages -->
 
