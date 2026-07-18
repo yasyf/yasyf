@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-18T13:57:34Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-18T19:42:21Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-18` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
-- `2026-07-18` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-07-18` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
-- `2026-07-18` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
-- `2026-07-18` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — added a cross-language conformance vector pipeline
 - `2026-07-18` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — enumerated word- and argument-position command substitutions
-- `2026-07-18` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit)
-- `2026-07-18` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-07-18` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
-- `2026-07-18` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — gave hermes a container-native OCI image with a secret-injection entrypoint
 - `2026-07-18` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit) — extracted registry-backed mesh trust into a meshtrust package
-- `2026-07-18` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
+- `2026-07-18` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present)
+- `2026-07-18` Pushed to [yasyf/cc-runtime](https://github.com/yasyf/cc-runtime)
+- `2026-07-18` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
+- `2026-07-18` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
+- `2026-07-18` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-07-18` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
+- `2026-07-18` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-07-18` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
+- `2026-07-18` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-07-18` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 
-**14,111 contributions in the last year**
+**14,140 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -99,7 +99,7 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-18` [cc-notes v0.35.0](https://github.com/yasyf/cc-notes/releases/tag/v0.35.0)
+- `2026-07-18` [cc-transcript v14.1.1](https://github.com/yasyf/cc-transcript/releases/tag/v14.1.1)
 - `2026-07-18` [slop-cop v0.1.47](https://github.com/yasyf/slop-cop/releases/tag/v0.1.47)
 - `2026-07-18` [authkit v0.2.0](https://github.com/yasyf/authkit/releases/tag/v0.2.0) — pinned cookiesync trust by its shipped module-path codesign identifier
 - `2026-07-18` [captain-hook v10.1.0](https://github.com/yasyf/captain-hook/releases/tag/v10.1.0) — added a performance pack of speculate-while-you-verify pipelining nudges
