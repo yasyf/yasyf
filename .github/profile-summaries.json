@@ -1,46 +1,50 @@
 {
   "activity": {
-    "PushEvent:yasyf/captain-hook": {
-      "as_of": "4f3e3c287d2c",
-      "summary": "parsed commands structurally instead of regex-matching the teammate denylist"
+    "PushEvent:yasyf/cc-transcript": {
+      "as_of": "401e78f64b69",
+      "summary": "enumerated word- and argument-position command substitutions"
     },
-    "PushEvent:yasyf/cc-present": {
-      "as_of": "ca5b634a3415",
-      "summary": "auto-trusted synckit mesh hosts on the HTTP plane and hardened the iOS token store to device-only"
+    "PushEvent:yasyf/experiment-at-home": {
+      "as_of": "433e31d26228",
+      "summary": "added TinkerBackend.sample() and threaded sampler_path through the adapter"
     },
-    "PushEvent:yasyf/cc-runtime": {
-      "as_of": "1e75a6c86faf",
-      "summary": "hardened the iOS bearer-token Keychain to device-only and made the token store atomic and race-safe"
+    "PushEvent:yasyf/getaway": {
+      "as_of": "323e7a1d72e0",
+      "summary": "re-keyed seat-advice verdicts on the researcher-reported operating carrier"
     },
-    "PushEvent:yasyf/cc-skills": {
-      "as_of": "b784ce836581",
-      "summary": "pointed ccx's dep-source, CI-triage, web, and enumeration lanes at the shipped reader subagents"
+    "PushEvent:yasyf/reposync": {
+      "as_of": "c13b6be68686",
+      "summary": "exposed the repo registry as a public read-only package"
     },
-    "PushEvent:yasyf/fusekit": {
-      "as_of": "ed3e90a88288",
-      "summary": "resolved the App Group container via NSFileManager"
+    "PushEvent:yasyf/spawnllm": {
+      "as_of": "c6da3e57f820",
+      "summary": "added a cross-language conformance vector pipeline"
     },
-    "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "aa8e97f4e393",
-      "summary": "dropped the deprecated cookiesync-keyhelper cask, superseded by authkit"
+    "PushEvent:yasyf/synckit": {
+      "as_of": "fef055007761",
+      "summary": "extracted registry-backed mesh trust into a meshtrust package"
+    },
+    "PushEvent:yasyf/yclaw": {
+      "as_of": "05ccb3e392af",
+      "summary": "gave hermes a container-native OCI image with a secret-injection entrypoint"
     }
   },
-  "generated_at": "2026-07-17T11:12:06Z",
+  "generated_at": "2026-07-18T10:50:34Z",
   "shipped": {
-    "authkit@v0.1.0": {
-      "summary": "first release: the AuthKit library and authkit helper CLI, with a Developer-ID .app cask pipeline"
+    "authkit@v0.2.0": {
+      "summary": "pinned cookiesync trust by its shipped module-path codesign identifier"
     },
-    "captain-hook@v9.25.0": {
-      "summary": "added the capt-hook hooks active-hook inventory and routed create-PRs by change shape"
+    "captain-hook@v10.1.0": {
+      "summary": "added a performance pack of speculate-while-you-verify pipelining nudges"
     },
-    "cc-context@v0.26.0": {
-      "summary": "ship now runs prek pre-commit hooks before committing"
+    "cc-context@v0.28.2": {
+      "summary": "added a dual-grammar pack manifest for capt-hook 10.x discovery"
     },
     "cc-pool@v0.59.0": {
       "summary": "ships the daemon as a profiled .app bundle and resolves the file-provider bridge through the app-group container"
     },
-    "spawnllm@v0.6.2": {
-      "summary": "codex backend pins service_tier=fast; stopped dropping the user's tier pin"
+    "spawnllm@v0.7.0": {
+      "summary": "typed ClaudeConfig.tools as a tuple toolset selection"
     }
   },
   "version": 1
