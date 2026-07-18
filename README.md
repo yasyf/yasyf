@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-18T10:51:28Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-18T13:57:34Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-18` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — enumerated word- and argument-position command substitutions
 - `2026-07-18` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-07-18` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-07-18` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
+- `2026-07-18` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
+- `2026-07-18` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — added a cross-language conformance vector pipeline
+- `2026-07-18` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — enumerated word- and argument-position command substitutions
+- `2026-07-18` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit)
+- `2026-07-18` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-07-18` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
 - `2026-07-18` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — gave hermes a container-native OCI image with a secret-injection entrypoint
 - `2026-07-18` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit) — extracted registry-backed mesh trust into a meshtrust package
-- `2026-07-18` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — added a cross-language conformance vector pipeline
 - `2026-07-18` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
-- `2026-07-18` Pushed to [yasyf/semisweet](https://github.com/yasyf/semisweet)
-- `2026-07-18` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync) — exposed the repo registry as a public read-only package
-- `2026-07-18` Pushed to [yasyf/getaway](https://github.com/yasyf/getaway) — re-keyed seat-advice verdicts on the researcher-reported operating carrier
-- `2026-07-18` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit)
-- `2026-07-18` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home) — added TinkerBackend.sample() and threaded sampler_path through the adapter
-- `2026-07-18` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
 
-**14,099 contributions in the last year**
+**14,111 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -99,12 +99,13 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-07-18` [cc-notes v0.35.0](https://github.com/yasyf/cc-notes/releases/tag/v0.35.0)
 - `2026-07-18` [slop-cop v0.1.47](https://github.com/yasyf/slop-cop/releases/tag/v0.1.47)
 - `2026-07-18` [authkit v0.2.0](https://github.com/yasyf/authkit/releases/tag/v0.2.0) — pinned cookiesync trust by its shipped module-path codesign identifier
-- `2026-07-18` [cc-context v0.28.2](https://github.com/yasyf/cc-context/releases/tag/v0.28.2) — added a dual-grammar pack manifest for capt-hook 10.x discovery
 - `2026-07-18` [captain-hook v10.1.0](https://github.com/yasyf/captain-hook/releases/tag/v10.1.0) — added a performance pack of speculate-while-you-verify pipelining nudges
 - `2026-07-18` [spawnllm v0.7.0](https://github.com/yasyf/spawnllm/releases/tag/v0.7.0) — typed ClaudeConfig.tools as a tuple toolset selection
 - `2026-07-17` [cc-pool v0.59.0](https://github.com/yasyf/cc-pool/releases/tag/v0.59.0) — ships the daemon as a profiled .app bundle and resolves the file-provider bridge through the app-group container
+- `2026-06-16` [cc-interact v0.1.0](https://github.com/yasyf/cc-interact/releases/tag/v0.1.0)
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
