@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-19T04:03:52Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-19T08:53:38Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-19` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
-- `2026-07-19` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
-- `2026-07-19` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit)
-- `2026-07-19` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — enumerated word- and argument-position command substitutions
-- `2026-07-19` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
-- `2026-07-19` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit) — extracted registry-backed mesh trust into a meshtrust package
-- `2026-07-19` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-07-19` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home) — added TinkerBackend.sample() and threaded sampler_path through the adapter
-- `2026-07-19` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — gave hermes a container-native OCI image with a secret-injection entrypoint
 - `2026-07-19` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — added a cross-language conformance vector pipeline
+- `2026-07-19` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home) — added TinkerBackend.sample() and threaded sampler_path through the adapter
 - `2026-07-19` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
+- `2026-07-19` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — enumerated word- and argument-position command substitutions
+- `2026-07-19` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
+- `2026-07-19` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-07-19` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-07-19` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-07-19` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present)
+- `2026-07-19` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit)
+- `2026-07-19` Pushed to [yasyf/cc-guides](https://github.com/yasyf/cc-guides)
+- `2026-07-19` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
 
-**14,268 contributions in the last year**
+**14,379 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -99,13 +99,13 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-19` [spawnllm v0.9.1](https://github.com/yasyf/spawnllm/releases/tag/v0.9.1)
+- `2026-07-19` [cc-guides v0.1.39](https://github.com/yasyf/cc-guides/releases/tag/v0.1.39)
+- `2026-07-19` [cc-present v0.11.0](https://github.com/yasyf/cc-present/releases/tag/v0.11.0)
+- `2026-07-19` [spawnllm v0.10.0](https://github.com/yasyf/spawnllm/releases/tag/v0.10.0)
 - `2026-07-19` [captain-hook v10.4.0](https://github.com/yasyf/captain-hook/releases/tag/v10.4.0)
-- `2026-07-18` [cc-notes v0.35.1](https://github.com/yasyf/cc-notes/releases/tag/v0.35.1)
 - `2026-07-18` [slop-cop v0.1.47](https://github.com/yasyf/slop-cop/releases/tag/v0.1.47)
 - `2026-07-18` [authkit v0.2.0](https://github.com/yasyf/authkit/releases/tag/v0.2.0) — pinned cookiesync trust by its shipped module-path codesign identifier
 - `2026-07-17` [cc-pool v0.59.0](https://github.com/yasyf/cc-pool/releases/tag/v0.59.0) — ships the daemon as a profiled .app bundle and resolves the file-provider bridge through the app-group container
-- `2026-06-16` [cc-interact v0.1.0](https://github.com/yasyf/cc-interact/releases/tag/v0.1.0)
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
@@ -119,11 +119,11 @@
 
 <!-- gh-profile:start:languages -->
 ```text
-Python      ████████████████████   42%
-Go          ███████████████░░░░░   31%
+Python      ████████████████████   40%
+Go          ████████████████░░░░   31%
 Ruby        ██████░░░░░░░░░░░░░░   12%
+Rust        ███░░░░░░░░░░░░░░░░░    6%
 Swift       ███░░░░░░░░░░░░░░░░░    6%
-Rust        ██░░░░░░░░░░░░░░░░░░    4%
 TypeScript  ██░░░░░░░░░░░░░░░░░░    4%
 ```
 <!-- gh-profile:end:languages -->
