@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-19T14:02:05Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-19T19:41:41Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-19` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer) — added a thresholds refit that re-fits served gate thresholds from live moments
-- `2026-07-19` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
-- `2026-07-19` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — added codex rollout discovery with filename-suffix resolution and zst awareness
-- `2026-07-19` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-07-19` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — brought focus-deck parity to iOS: write-ins, auto-advance, and live revisions
+- `2026-07-19` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
 - `2026-07-19` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — added an app-build preparation action with parameterized prebuild dependencies
-- `2026-07-19` Was active in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-07-19` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — added codex rollout discovery with filename-suffix resolution and zst awareness
+- `2026-07-19` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer) — added a thresholds refit that re-fits served gate thresholds from live moments
+- `2026-07-19` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — brought focus-deck parity to iOS: write-ins, auto-advance, and live revisions
+- `2026-07-19` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — composed a production filesystem runtime with role-aware mutation ownership
 - `2026-07-19` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — promoted pack-local machinery into framework primitives
-- `2026-07-19` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home) — priced the qwen3.6-35b-a3b arm against the live Tinker price sheet
-- `2026-07-19` Worked on a pull request in [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
+- `2026-07-19` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit)
 - `2026-07-19` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — added guides-deploy-keys to mint cc-guides deploy keys from 1Password
-- `2026-07-19` Created something new in [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
+- `2026-07-19` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home) — priced the qwen3.6-35b-a3b arm against the live Tinker price sheet
+- `2026-07-19` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-07-19` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — retired the legacy VM-disk image machinery for one container build path
 
-**14,454 contributions in the last year**
+**14,476 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -99,13 +99,13 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-19` [captain-hook v10.5.0](https://github.com/yasyf/captain-hook/releases/tag/v10.5.0)
+- `2026-07-19` [captain-hook v10.6.0](https://github.com/yasyf/captain-hook/releases/tag/v10.6.0)
+- `2026-07-19` [cc-context v0.28.4](https://github.com/yasyf/cc-context/releases/tag/v0.28.4)
 - `2026-07-19` [spawnllm v0.10.0](https://github.com/yasyf/spawnllm/releases/tag/v0.10.0) — stripped provider API keys from the child env and added a claude-sdk backend
+- `2026-07-19` [cc-steer v0.17.0](https://github.com/yasyf/cc-steer/releases/tag/v0.17.0)
 - `2026-07-18` [slop-cop v0.1.47](https://github.com/yasyf/slop-cop/releases/tag/v0.1.47)
 - `2026-07-18` [authkit v0.2.0](https://github.com/yasyf/authkit/releases/tag/v0.2.0) — pinned cookiesync trust by its shipped module-path codesign identifier
-- `2026-07-18` [cc-context v0.28.2](https://github.com/yasyf/cc-context/releases/tag/v0.28.2) — added a dual-grammar pack manifest for capt-hook 10.x discovery
 - `2026-07-17` [cc-pool v0.59.0](https://github.com/yasyf/cc-pool/releases/tag/v0.59.0) — ships the daemon as a profiled .app bundle and resolves the file-provider bridge through the app-group container
-- `2026-06-16` [cc-interact v0.1.0](https://github.com/yasyf/cc-interact/releases/tag/v0.1.0)
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
@@ -122,9 +122,9 @@
 Python      ████████████████████   40%
 Go          ████████████████░░░░   31%
 Ruby        ██████░░░░░░░░░░░░░░   12%
-Swift       ████░░░░░░░░░░░░░░░░    8%
 Rust        ███░░░░░░░░░░░░░░░░░    6%
-TypeScript  █░░░░░░░░░░░░░░░░░░░    2%
+Swift       ███░░░░░░░░░░░░░░░░░    6%
+TypeScript  ██░░░░░░░░░░░░░░░░░░    4%
 ```
 <!-- gh-profile:end:languages -->
 
