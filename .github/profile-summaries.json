@@ -1,41 +1,57 @@
 {
   "activity": {
+    "PushEvent:yasyf/captain-hook": {
+      "as_of": "432106bad47d",
+      "summary": "promoted pack-local machinery into framework primitives"
+    },
+    "PushEvent:yasyf/cc-notes": {
+      "as_of": "7024e7d97c1b",
+      "summary": "added a global --repo/-R flag to target another repository's store"
+    },
+    "PushEvent:yasyf/cc-present": {
+      "as_of": "6df09043cc40",
+      "summary": "brought focus-deck parity to iOS: write-ins, auto-advance, and live revisions"
+    },
+    "PushEvent:yasyf/cc-skills": {
+      "as_of": "7504dd589aa0",
+      "summary": "added guides-deploy-keys to mint cc-guides deploy keys from 1Password"
+    },
+    "PushEvent:yasyf/cc-steer": {
+      "as_of": "678cc6fd692f",
+      "summary": "added a thresholds refit that re-fits served gate thresholds from live moments"
+    },
     "PushEvent:yasyf/cc-transcript": {
-      "as_of": "401e78f64b69",
-      "summary": "enumerated word- and argument-position command substitutions"
+      "as_of": "cb749e7f6f4b",
+      "summary": "added codex rollout discovery with filename-suffix resolution and zst awareness"
     },
     "PushEvent:yasyf/experiment-at-home": {
-      "as_of": "433e31d26228",
-      "summary": "added TinkerBackend.sample() and threaded sampler_path through the adapter"
+      "as_of": "f230be818230",
+      "summary": "priced the qwen3.6-35b-a3b arm against the live Tinker price sheet"
     },
-    "PushEvent:yasyf/getaway": {
-      "as_of": "323e7a1d72e0",
-      "summary": "re-keyed seat-advice verdicts on the researcher-reported operating carrier"
+    "PushEvent:yasyf/fusekit": {
+      "as_of": "f595c00bcaef",
+      "summary": "composed a production filesystem runtime with role-aware mutation ownership"
     },
-    "PushEvent:yasyf/reposync": {
-      "as_of": "c13b6be68686",
-      "summary": "exposed the repo registry as a public read-only package"
+    "PushEvent:yasyf/homebrew-tap": {
+      "as_of": "a566d9839442",
+      "summary": "added an app-build preparation action with parameterized prebuild dependencies"
     },
     "PushEvent:yasyf/spawnllm": {
-      "as_of": "c6da3e57f820",
-      "summary": "added a cross-language conformance vector pipeline"
-    },
-    "PushEvent:yasyf/synckit": {
-      "as_of": "fef055007761",
-      "summary": "extracted registry-backed mesh trust into a meshtrust package"
+      "as_of": "777f77372c26",
+      "summary": "stripped provider API keys from the child env and added a claude-sdk backend"
     },
     "PushEvent:yasyf/yclaw": {
-      "as_of": "05ccb3e392af",
-      "summary": "gave hermes a container-native OCI image with a secret-injection entrypoint"
+      "as_of": "eb31310381ed",
+      "summary": "retired the legacy VM-disk image machinery for one container build path"
     }
   },
-  "generated_at": "2026-07-18T10:50:34Z",
+  "generated_at": "2026-07-19T10:59:01Z",
   "shipped": {
     "authkit@v0.2.0": {
       "summary": "pinned cookiesync trust by its shipped module-path codesign identifier"
     },
-    "captain-hook@v10.1.0": {
-      "summary": "added a performance pack of speculate-while-you-verify pipelining nudges"
+    "captain-hook@v10.4.0": {
+      "summary": "added Captain Hook.app, a resident notification helper with a PR widget"
     },
     "cc-context@v0.28.2": {
       "summary": "added a dual-grammar pack manifest for capt-hook 10.x discovery"
@@ -43,8 +59,8 @@
     "cc-pool@v0.59.0": {
       "summary": "ships the daemon as a profiled .app bundle and resolves the file-provider bridge through the app-group container"
     },
-    "spawnllm@v0.7.0": {
-      "summary": "typed ClaudeConfig.tools as a tuple toolset selection"
+    "spawnllm@v0.10.0": {
+      "summary": "stripped provider API keys from the child env and added a claude-sdk backend"
     }
   },
   "version": 1
