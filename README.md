@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-20T04:22:34Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-20T09:42:10Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-20` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
+- `2026-07-20` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer) — added a thresholds refit that re-fits served gate thresholds from live moments
+- `2026-07-20` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — promoted pack-local machinery into framework primitives
 - `2026-07-20` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
 - `2026-07-20` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — brought focus-deck parity to iOS: write-ins, auto-advance, and live revisions
-- `2026-07-20` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — promoted pack-local machinery into framework primitives
+- `2026-07-20` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync)
+- `2026-07-20` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — added codex rollout discovery with filename-suffix resolution and zst awareness
 - `2026-07-20` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit)
-- `2026-07-20` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — added a global --repo/-R flag to target another repository's store
-- `2026-07-20` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-07-20` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — added guides-deploy-keys to mint cc-guides deploy keys from 1Password
+- `2026-07-20` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash)
+- `2026-07-20` Pushed to [yasyf/semisweet](https://github.com/yasyf/semisweet)
 - `2026-07-20` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — added an app-build preparation action with parameterized prebuild dependencies
-- `2026-07-20` Pushed to [yasyf/cc-guides](https://github.com/yasyf/cc-guides)
-- `2026-07-20` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-07-20` Created something new in [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
+- `2026-07-20` Pushed to [yasyf/getaway](https://github.com/yasyf/getaway)
+- `2026-07-20` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
 
-**14,664 contributions in the last year**
+**14,748 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -99,13 +99,13 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-07-20` [slop-cop v0.1.49](https://github.com/yasyf/slop-cop/releases/tag/v0.1.49)
 - `2026-07-20` [captain-hook v12.0.1](https://github.com/yasyf/captain-hook/releases/tag/v12.0.1)
-- `2026-07-19` [slop-cop v0.1.48](https://github.com/yasyf/slop-cop/releases/tag/v0.1.48)
-- `2026-07-19` [cc-context v0.28.4](https://github.com/yasyf/cc-context/releases/tag/v0.28.4)
+- `2026-07-20` [cc-present v0.13.0](https://github.com/yasyf/cc-present/releases/tag/v0.13.0)
 - `2026-07-19` [spawnllm v0.10.0](https://github.com/yasyf/spawnllm/releases/tag/v0.10.0) — stripped provider API keys from the child env and added a claude-sdk backend
+- `2026-07-19` [cc-steer v0.17.0](https://github.com/yasyf/cc-steer/releases/tag/v0.17.0)
 - `2026-07-18` [authkit v0.2.0](https://github.com/yasyf/authkit/releases/tag/v0.2.0) — pinned cookiesync trust by its shipped module-path codesign identifier
 - `2026-07-17` [cc-pool v0.59.0](https://github.com/yasyf/cc-pool/releases/tag/v0.59.0) — ships the daemon as a profiled .app bundle and resolves the file-provider bridge through the app-group container
-- `2026-06-16` [cc-interact v0.1.0](https://github.com/yasyf/cc-interact/releases/tag/v0.1.0)
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
