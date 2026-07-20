@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-20T09:42:10Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-20T12:07:05Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-20` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer) — added a thresholds refit that re-fits served gate thresholds from live moments
-- `2026-07-20` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — promoted pack-local machinery into framework primitives
-- `2026-07-20` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
-- `2026-07-20` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — brought focus-deck parity to iOS: write-ins, auto-advance, and live revisions
-- `2026-07-20` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync)
-- `2026-07-20` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — added codex rollout discovery with filename-suffix resolution and zst awareness
-- `2026-07-20` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit)
-- `2026-07-20` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash)
-- `2026-07-20` Pushed to [yasyf/semisweet](https://github.com/yasyf/semisweet)
-- `2026-07-20` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — added an app-build preparation action with parameterized prebuild dependencies
-- `2026-07-20` Pushed to [yasyf/getaway](https://github.com/yasyf/getaway)
-- `2026-07-20` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
+- `2026-07-20` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer) — added a transformer-encoder gate lane, paired-comparable with the lexical scorer
+- `2026-07-20` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — added a recursive deep view: walk/deep traversal, DeepSession, and attachments
+- `2026-07-20` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — added LambdaCondition for inline hook conditions from a bare callable
+- `2026-07-20` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — consumed cc-interact's shared procs and dropped the vendored package
+- `2026-07-20` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — hard-cut the control runtime over to daemonkit
+- `2026-07-20` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — added adoption of hand-started Claude Code sessions into the fleet
+- `2026-07-20` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — stripped provider API keys from the child env and added a claude-sdk backend
+- `2026-07-20` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home) — swapped to a module-sync Modal entrypoint, killing the local==image Python coupling
+- `2026-07-20` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
+- `2026-07-20` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — added supervision for durable terminal sessions
+- `2026-07-20` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — added draft and triage blocks across web, iOS, and the Go core
+- `2026-07-20` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync) — hard-cut reposync onto the strict Synckit runtime
 
-**14,748 contributions in the last year**
+**14,749 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -77,6 +77,7 @@
 
 - [authkit](https://github.com/yasyf/authkit) — a signed macOS helper for Touch ID consent and Secure Enclave attestation, replacing the old cookiesync keyhelper
 - [fusekit](https://github.com/yasyf/fusekit) — detached FUSE-T mount-holder and mount-lifecycle primitives for Go, now under cc-pool and cc-notes
+- [daemonkit](https://github.com/yasyf/daemonkit) — the durable daemon-lifecycle runtime the cc-* control planes now ride: detached spawns, codesign trust, and drain-on-upgrade
 - [semisweet](https://github.com/yasyf/semisweet) — an async, in-memory semantic cache with pluggable backends
 - [experiment-at-home](https://github.com/yasyf/experiment-at-home) — the plumbing every local AI experiment rebuilds, built once: modal, mlx-lm, and tinker backends behind one registry
 - [spawnllm](https://github.com/yasyf/spawnllm) — call an LLM from any subshell: Claude, Codex, or a local MLX model
@@ -100,10 +101,9 @@
 
 <!-- gh-profile:start:shipped -->
 - `2026-07-20` [slop-cop v0.1.49](https://github.com/yasyf/slop-cop/releases/tag/v0.1.49)
-- `2026-07-20` [captain-hook v12.0.1](https://github.com/yasyf/captain-hook/releases/tag/v12.0.1)
-- `2026-07-20` [cc-present v0.13.0](https://github.com/yasyf/cc-present/releases/tag/v0.13.0)
+- `2026-07-20` [captain-hook v12.0.1](https://github.com/yasyf/captain-hook/releases/tag/v12.0.1) — shipped an interactive tutorial with an in-browser hook emulator
+- `2026-07-19` [cc-context v0.28.4](https://github.com/yasyf/cc-context/releases/tag/v0.28.4) — ccx pack 0.10.0: bounded-grep existence exemption and assignment-captured dump sinks
 - `2026-07-19` [spawnllm v0.10.0](https://github.com/yasyf/spawnllm/releases/tag/v0.10.0) — stripped provider API keys from the child env and added a claude-sdk backend
-- `2026-07-19` [cc-steer v0.17.0](https://github.com/yasyf/cc-steer/releases/tag/v0.17.0)
 - `2026-07-18` [authkit v0.2.0](https://github.com/yasyf/authkit/releases/tag/v0.2.0) — pinned cookiesync trust by its shipped module-path codesign identifier
 - `2026-07-17` [cc-pool v0.59.0](https://github.com/yasyf/cc-pool/releases/tag/v0.59.0) — ships the daemon as a profiled .app bundle and resolves the file-provider bridge through the app-group container
 <!-- gh-profile:end:shipped -->

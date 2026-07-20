@@ -1,63 +1,63 @@
 {
   "activity": {
-    "PushEvent:yasyf/captain-hook": {
-      "as_of": "432106bad47d",
-      "summary": "promoted pack-local machinery into framework primitives"
-    },
-    "PushEvent:yasyf/cc-notes": {
-      "as_of": "7024e7d97c1b",
-      "summary": "added a global --repo/-R flag to target another repository's store"
+    "PushEvent:yasyf/cc-orchestrate": {
+      "as_of": "c4db138dab0e",
+      "summary": "added adoption of hand-started Claude Code sessions into the fleet"
     },
     "PushEvent:yasyf/cc-present": {
-      "as_of": "6df09043cc40",
-      "summary": "brought focus-deck parity to iOS: write-ins, auto-advance, and live revisions"
+      "as_of": "3c3681d6ca77",
+      "summary": "added draft and triage blocks across web, iOS, and the Go core"
     },
-    "PushEvent:yasyf/cc-skills": {
-      "as_of": "7504dd589aa0",
-      "summary": "added guides-deploy-keys to mint cc-guides deploy keys from 1Password"
+    "PushEvent:yasyf/cc-review": {
+      "as_of": "49a4fa4c8234",
+      "summary": "consumed cc-interact's shared procs and dropped the vendored package"
+    },
+    "PushEvent:yasyf/cc-squash": {
+      "as_of": "76f752b548a1",
+      "summary": "hard-cut the control runtime over to daemonkit"
     },
     "PushEvent:yasyf/cc-steer": {
-      "as_of": "678cc6fd692f",
-      "summary": "added a thresholds refit that re-fits served gate thresholds from live moments"
+      "as_of": "712e2291e6db",
+      "summary": "added a transformer-encoder gate lane, paired-comparable with the lexical scorer"
     },
     "PushEvent:yasyf/cc-transcript": {
-      "as_of": "cb749e7f6f4b",
-      "summary": "added codex rollout discovery with filename-suffix resolution and zst awareness"
+      "as_of": "56ee824bd18b",
+      "summary": "added a recursive deep view: walk/deep traversal, DeepSession, and attachments"
+    },
+    "PushEvent:yasyf/captain-hook": {
+      "as_of": "91055c2612c5",
+      "summary": "added LambdaCondition for inline hook conditions from a bare callable"
+    },
+    "PushEvent:yasyf/daemonkit": {
+      "as_of": "a6c3bb465a54",
+      "summary": "added supervision for durable terminal sessions"
     },
     "PushEvent:yasyf/experiment-at-home": {
-      "as_of": "f230be818230",
-      "summary": "priced the qwen3.6-35b-a3b arm against the live Tinker price sheet"
+      "as_of": "e3b1cd4e8cd1",
+      "summary": "swapped to a module-sync Modal entrypoint, killing the local==image Python coupling"
     },
-    "PushEvent:yasyf/fusekit": {
-      "as_of": "f595c00bcaef",
-      "summary": "composed a production filesystem runtime with role-aware mutation ownership"
-    },
-    "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "a566d9839442",
-      "summary": "added an app-build preparation action with parameterized prebuild dependencies"
+    "PushEvent:yasyf/reposync": {
+      "as_of": "6e44706f46f2",
+      "summary": "hard-cut reposync onto the strict Synckit runtime"
     },
     "PushEvent:yasyf/spawnllm": {
-      "as_of": "777f77372c26",
+      "as_of": "32c4553dd3a5",
       "summary": "stripped provider API keys from the child env and added a claude-sdk backend"
-    },
-    "PushEvent:yasyf/yclaw": {
-      "as_of": "eb31310381ed",
-      "summary": "retired the legacy VM-disk image machinery for one container build path"
     }
   },
-  "generated_at": "2026-07-19T10:59:01Z",
+  "generated_at": "2026-07-20T12:03:05Z",
   "shipped": {
     "authkit@v0.2.0": {
       "summary": "pinned cookiesync trust by its shipped module-path codesign identifier"
     },
-    "captain-hook@v10.4.0": {
-      "summary": "added Captain Hook.app, a resident notification helper with a PR widget"
-    },
-    "cc-context@v0.28.2": {
-      "summary": "added a dual-grammar pack manifest for capt-hook 10.x discovery"
+    "cc-context@v0.28.4": {
+      "summary": "ccx pack 0.10.0: bounded-grep existence exemption and assignment-captured dump sinks"
     },
     "cc-pool@v0.59.0": {
       "summary": "ships the daemon as a profiled .app bundle and resolves the file-provider bridge through the app-group container"
+    },
+    "captain-hook@v12.0.1": {
+      "summary": "shipped an interactive tutorial with an in-browser hook emulator"
     },
     "spawnllm@v0.10.0": {
       "summary": "stripped provider API keys from the child env and added a claude-sdk backend"
