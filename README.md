@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-21T14:35:08Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-21T20:00:59Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -24,8 +24,8 @@
 
 <!-- gh-profile:start:activity -->
 - `2026-07-21` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — made evt.llm the in-handler LLM surface and moved packs onto public conditions
-- `2026-07-21` Pushed to [yasyf/pocket-llm](https://github.com/yasyf/pocket-llm)
 - `2026-07-21` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present)
+- `2026-07-21` Pushed to [yasyf/pocket-llm](https://github.com/yasyf/pocket-llm)
 - `2026-07-21` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-07-21` Was active in [yasyf/cc-guides](https://github.com/yasyf/cc-guides)
 - `2026-07-21` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
@@ -36,7 +36,7 @@
 - `2026-07-21` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — inverted the core so Python is a thin wasmtime host over spawnllm-core
 - `2026-07-21` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — hard-cut the control runtime onto daemonkit and reset formats to epoch one
 
-**15,107 contributions in the last year**
+**15,108 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
