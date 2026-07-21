@@ -1,63 +1,52 @@
 {
   "activity": {
-    "PushEvent:yasyf/cc-orchestrate": {
-      "as_of": "c4db138dab0e",
-      "summary": "added adoption of hand-started Claude Code sessions into the fleet"
+    "PushEvent:yasyf/captain-hook": {
+      "as_of": "282501e3aaa8",
+      "summary": "made evt.llm the in-handler LLM surface and moved packs onto public conditions"
     },
-    "PushEvent:yasyf/cc-present": {
-      "as_of": "3c3681d6ca77",
-      "summary": "added draft and triage blocks across web, iOS, and the Go core"
+    "PushEvent:yasyf/cc-orchestrate": {
+      "as_of": "aa513d5f1e09",
+      "summary": "migrated the orchestrator onto the daemon runtime with PTY incarnation nonces"
+    },
+    "PushEvent:yasyf/cc-pool": {
+      "as_of": "0762e80b249d",
+      "summary": "made holder install transactional and resolved the canonical daemon executable"
     },
     "PushEvent:yasyf/cc-review": {
-      "as_of": "49a4fa4c8234",
-      "summary": "consumed cc-interact's shared procs and dropped the vendored package"
+      "as_of": "1f8005f080cb",
+      "summary": "reset the state layer and wired cc-review onto the cc-interact v1 runtime"
     },
     "PushEvent:yasyf/cc-squash": {
-      "as_of": "76f752b548a1",
-      "summary": "hard-cut the control runtime over to daemonkit"
+      "as_of": "008111d4b100",
+      "summary": "hard-cut the control runtime onto daemonkit and reset formats to epoch one"
     },
     "PushEvent:yasyf/cc-steer": {
-      "as_of": "712e2291e6db",
-      "summary": "added a transformer-encoder gate lane, paired-comparable with the lexical scorer"
+      "as_of": "66f6dd917d7c",
+      "summary": "made paired DeLong the default for comparative verdicts across both scorer arms"
     },
     "PushEvent:yasyf/cc-transcript": {
-      "as_of": "56ee824bd18b",
-      "summary": "added a recursive deep view: walk/deep traversal, DeepSession, and attachments"
-    },
-    "PushEvent:yasyf/captain-hook": {
-      "as_of": "91055c2612c5",
-      "summary": "added LambdaCondition for inline hook conditions from a bare callable"
-    },
-    "PushEvent:yasyf/daemonkit": {
-      "as_of": "a6c3bb465a54",
-      "summary": "added supervision for durable terminal sessions"
+      "as_of": "106b603054db",
+      "summary": "swapped the shell parser to rable and added a recursive deep-view over sessions"
     },
     "PushEvent:yasyf/experiment-at-home": {
-      "as_of": "e3b1cd4e8cd1",
-      "summary": "swapped to a module-sync Modal entrypoint, killing the local==image Python coupling"
-    },
-    "PushEvent:yasyf/reposync": {
-      "as_of": "6e44706f46f2",
-      "summary": "hard-cut reposync onto the strict Synckit runtime"
+      "as_of": "d925571f020e",
+      "summary": "added an engine-owned checkpoint subsystem with resumable runs"
     },
     "PushEvent:yasyf/spawnllm": {
-      "as_of": "32c4553dd3a5",
-      "summary": "stripped provider API keys from the child env and added a claude-sdk backend"
+      "as_of": "9fc659e31b0c",
+      "summary": "inverted the core so Python is a thin wasmtime host over spawnllm-core"
     }
   },
-  "generated_at": "2026-07-20T12:03:05Z",
+  "generated_at": "2026-07-21T11:29:18Z",
   "shipped": {
     "authkit@v0.2.0": {
       "summary": "pinned cookiesync trust by its shipped module-path codesign identifier"
     },
-    "cc-context@v0.28.4": {
-      "summary": "ccx pack 0.10.0: bounded-grep existence exemption and assignment-captured dump sinks"
+    "captain-hook@v12.9.0": {
+      "summary": "added evt.llm as the in-handler LLM surface with packs on the new helpers"
     },
-    "cc-pool@v0.59.0": {
-      "summary": "ships the daemon as a profiled .app bundle and resolves the file-provider bridge through the app-group container"
-    },
-    "captain-hook@v12.0.1": {
-      "summary": "shipped an interactive tutorial with an in-browser hook emulator"
+    "cc-context@v0.29.0": {
+      "summary": "promoted the anchor package to the public API with ccx anchor hash/resolve"
     },
     "spawnllm@v0.10.0": {
       "summary": "stripped provider API keys from the child env and added a claude-sdk backend"
