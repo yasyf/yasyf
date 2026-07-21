@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-21T11:29:35Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-21T14:35:08Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-21` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer) — made paired DeLong the default for comparative verdicts across both scorer arms
-- `2026-07-21` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — swapped the shell parser to rable and added a recursive deep-view over sessions
 - `2026-07-21` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — made evt.llm the in-handler LLM surface and moved packs onto public conditions
-- `2026-07-21` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — reset the state layer and wired cc-review onto the cc-interact v1 runtime
-- `2026-07-21` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — hard-cut the control runtime onto daemonkit and reset formats to epoch one
-- `2026-07-21` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — inverted the core so Python is a thin wasmtime host over spawnllm-core
-- `2026-07-21` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — migrated the orchestrator onto the daemon runtime with PTY incarnation nonces
-- `2026-07-21` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home) — added an engine-owned checkpoint subsystem with resumable runs
-- `2026-07-21` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
-- `2026-07-21` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-07-21` Pushed to [yasyf/pocket-llm](https://github.com/yasyf/pocket-llm)
+- `2026-07-21` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present)
 - `2026-07-21` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-07-21` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — made holder install transactional and resolved the canonical daemon executable
+- `2026-07-21` Was active in [yasyf/cc-guides](https://github.com/yasyf/cc-guides)
+- `2026-07-21` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-07-21` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home) — added an engine-owned checkpoint subsystem with resumable runs
+- `2026-07-21` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — reset the state layer and wired cc-review onto the cc-interact v1 runtime
+- `2026-07-21` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — migrated the orchestrator onto the daemon runtime with PTY incarnation nonces
+- `2026-07-21` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
+- `2026-07-21` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — inverted the core so Python is a thin wasmtime host over spawnllm-core
+- `2026-07-21` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — hard-cut the control runtime onto daemonkit and reset formats to epoch one
 
-**15,008 contributions in the last year**
+**15,107 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -100,11 +100,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-07-21` [slop-cop v0.1.50](https://github.com/yasyf/slop-cop/releases/tag/v0.1.50)
+- `2026-07-21` [cc-present v0.16.1](https://github.com/yasyf/cc-present/releases/tag/v0.16.1)
+- `2026-07-21` [cc-pool v0.61.7](https://github.com/yasyf/cc-pool/releases/tag/v0.61.7)
 - `2026-07-21` [captain-hook v12.9.0](https://github.com/yasyf/captain-hook/releases/tag/v12.9.0) — added evt.llm as the in-handler LLM surface with packs on the new helpers
-- `2026-07-21` [cc-pool v0.61.6](https://github.com/yasyf/cc-pool/releases/tag/v0.61.6)
 - `2026-07-21` [cc-skills v1.3.0](https://github.com/yasyf/cc-skills/releases/tag/v1.3.0)
-- `2026-07-21` [cc-context v0.29.0](https://github.com/yasyf/cc-context/releases/tag/v0.29.0) — promoted the anchor package to the public API with ccx anchor hash/resolve
-- `2026-07-20` [slop-cop v0.1.49](https://github.com/yasyf/slop-cop/releases/tag/v0.1.49)
 - `2026-07-19` [spawnllm v0.10.0](https://github.com/yasyf/spawnllm/releases/tag/v0.10.0) — stripped provider API keys from the child env and added a claude-sdk backend
 - `2026-07-18` [authkit v0.2.0](https://github.com/yasyf/authkit/releases/tag/v0.2.0) — pinned cookiesync trust by its shipped module-path codesign identifier
 <!-- gh-profile:end:shipped -->
@@ -120,12 +120,12 @@
 
 <!-- gh-profile:start:languages -->
 ```text
-Python      ████████████████████   40%
-Go          ████████████████░░░░   31%
-Ruby        ██████░░░░░░░░░░░░░░   12%
+Python      ████████████████████   38%
+Go          █████████████████░░░   31%
+Ruby        ███████░░░░░░░░░░░░░   12%
 Rust        ███░░░░░░░░░░░░░░░░░    6%
 Swift       ███░░░░░░░░░░░░░░░░░    6%
-TypeScript  ██░░░░░░░░░░░░░░░░░░    4%
+TypeScript  ███░░░░░░░░░░░░░░░░░    6%
 ```
 <!-- gh-profile:end:languages -->
 
