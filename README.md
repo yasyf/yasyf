@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-22T11:33:30Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-22T14:34:31Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-22` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — added the design-doc plugin for assumptions-first architecture design, with iterated cc-present review rounds
-- `2026-07-22` Forked [MinishLab/semble](https://github.com/MinishLab/semble)
-- `2026-07-22` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
-- `2026-07-22` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit) — moved child-process ownership onto daemonkit and pinned settlement tests to exact identity
-- `2026-07-22` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — reset the state layer and wired cc-review onto the cc-interact v1 runtime
-- `2026-07-22` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — hard cut dispatch to a signed universal host and dropped the Python daemon lifecycle
-- `2026-07-22` Pushed to [yasyf/cc-sudo](https://github.com/yasyf/cc-sudo) — migrated consent and transport onto the daemonkit wire
-- `2026-07-22` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — added durable duplex child sessions and made spawned-process settlement exact
-- `2026-07-22` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync) — moved the bridge and helper lifecycle onto daemonkit
+- `2026-07-22` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-07-22` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-07-22` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
+- `2026-07-22` Pushed to [yasyf/getaway](https://github.com/yasyf/getaway)
 - `2026-07-22` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-07-22` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-07-22` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
+- `2026-07-22` Pushed to [yasyf/cc-guides](https://github.com/yasyf/cc-guides)
+- `2026-07-22` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — added the design-doc plugin for assumptions-first architecture design, with iterated cc-present review rounds
 - `2026-07-22` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — split holder process and resource settlement and exposed native runtime health
-- `2026-07-22` Pushed to [yasyf/cc-vigil](https://github.com/yasyf/cc-vigil) — moved the CLI transport onto daemonkit and cut v0.4.0
+- `2026-07-22` Created something new in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
+- `2026-07-22` Pushed to [yasyf/semble](https://github.com/yasyf/semble)
 
-**15,193 contributions in the last year**
+**15,229 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -100,9 +100,9 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-07-22` [cc-guides v0.1.45](https://github.com/yasyf/cc-guides/releases/tag/v0.1.45)
 - `2026-07-22` [cc-skills v1.3.1](https://github.com/yasyf/cc-skills/releases/tag/v1.3.1) — packaged the design-doc plugin for assumptions-first architecture design with iterated cc-present rounds
 - `2026-07-21` [slop-cop v0.1.50](https://github.com/yasyf/slop-cop/releases/tag/v0.1.50)
-- `2026-07-21` [cc-guides v0.1.44](https://github.com/yasyf/cc-guides/releases/tag/v0.1.44) — made CI own guide rendering: one dual-mode workflow and a pr-check that fails hand-edited artifacts
 - `2026-07-21` [cc-pool v0.61.7](https://github.com/yasyf/cc-pool/releases/tag/v0.61.7)
 - `2026-07-21` [captain-hook v12.9.0](https://github.com/yasyf/captain-hook/releases/tag/v12.9.0) — added evt.llm as the in-handler LLM surface with packs on the new helpers
 - `2026-07-21` [cc-context v0.29.0](https://github.com/yasyf/cc-context/releases/tag/v0.29.0) — promoted the anchor package to the public API with ccx anchor hash/resolve
