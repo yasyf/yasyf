@@ -1,43 +1,43 @@
 {
   "activity": {
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "282501e3aaa8",
-      "summary": "made evt.llm the in-handler LLM surface and moved packs onto public conditions"
-    },
-    "PushEvent:yasyf/cc-orchestrate": {
-      "as_of": "aa513d5f1e09",
-      "summary": "migrated the orchestrator onto the daemon runtime with PTY incarnation nonces"
-    },
-    "PushEvent:yasyf/cc-pool": {
-      "as_of": "0762e80b249d",
-      "summary": "made holder install transactional and resolved the canonical daemon executable"
+      "as_of": "d8380175dc3a",
+      "summary": "hard cut dispatch to a signed universal host and dropped the Python daemon lifecycle"
     },
     "PushEvent:yasyf/cc-review": {
-      "as_of": "1f8005f080cb",
+      "as_of": "f0f5423449eb",
       "summary": "reset the state layer and wired cc-review onto the cc-interact v1 runtime"
     },
-    "PushEvent:yasyf/cc-squash": {
-      "as_of": "008111d4b100",
-      "summary": "hard-cut the control runtime onto daemonkit and reset formats to epoch one"
+    "PushEvent:yasyf/cc-skills": {
+      "as_of": "3b06ab973aa8",
+      "summary": "added the design-doc plugin for assumptions-first architecture design, with iterated cc-present review rounds"
     },
-    "PushEvent:yasyf/cc-steer": {
-      "as_of": "66f6dd917d7c",
-      "summary": "made paired DeLong the default for comparative verdicts across both scorer arms"
+    "PushEvent:yasyf/cc-sudo": {
+      "as_of": "7a12838a0b62",
+      "summary": "migrated consent and transport onto the daemonkit wire"
     },
-    "PushEvent:yasyf/cc-transcript": {
-      "as_of": "106b603054db",
-      "summary": "swapped the shell parser to rable and added a recursive deep-view over sessions"
+    "PushEvent:yasyf/cc-vigil": {
+      "as_of": "655a78da08b6",
+      "summary": "moved the CLI transport onto daemonkit and cut v0.4.0"
     },
-    "PushEvent:yasyf/experiment-at-home": {
-      "as_of": "d925571f020e",
-      "summary": "added an engine-owned checkpoint subsystem with resumable runs"
+    "PushEvent:yasyf/cookiesync": {
+      "as_of": "ce9e22fe0876",
+      "summary": "moved the bridge and helper lifecycle onto daemonkit"
     },
-    "PushEvent:yasyf/spawnllm": {
-      "as_of": "9fc659e31b0c",
-      "summary": "inverted the core so Python is a thin wasmtime host over spawnllm-core"
+    "PushEvent:yasyf/daemonkit": {
+      "as_of": "aac0fcbb26c3",
+      "summary": "added durable duplex child sessions and made spawned-process settlement exact"
+    },
+    "PushEvent:yasyf/fusekit": {
+      "as_of": "e4a2f0df137a",
+      "summary": "split holder process and resource settlement and exposed native runtime health"
+    },
+    "PushEvent:yasyf/synckit": {
+      "as_of": "418115054c93",
+      "summary": "moved child-process ownership onto daemonkit and pinned settlement tests to exact identity"
     }
   },
-  "generated_at": "2026-07-21T11:29:18Z",
+  "generated_at": "2026-07-22T11:31:58Z",
   "shipped": {
     "authkit@v0.2.0": {
       "summary": "pinned cookiesync trust by its shipped module-path codesign identifier"
@@ -47,6 +47,12 @@
     },
     "cc-context@v0.29.0": {
       "summary": "promoted the anchor package to the public API with ccx anchor hash/resolve"
+    },
+    "cc-guides@v0.1.44": {
+      "summary": "made CI own guide rendering: one dual-mode workflow and a pr-check that fails hand-edited artifacts"
+    },
+    "cc-skills@v1.3.1": {
+      "summary": "packaged the design-doc plugin for assumptions-first architecture design with iterated cc-present rounds"
     },
     "spawnllm@v0.10.0": {
       "summary": "stripped provider API keys from the child env and added a claude-sdk backend"
