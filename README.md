@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-23T11:31:42Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-23T14:41:18Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-23` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — hard cut the daemon runtime and pinned stop authority at durable admission
-- `2026-07-23` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — fetched the signed holder at first run and reconciled the exact signed release
 - `2026-07-23` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — rejected standalone cc-notes helper casks and required explicit release tags
-- `2026-07-23` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer) — added the cc-present human-labeling tool and live watcher outcome ground truth
+- `2026-07-23` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
+- `2026-07-23` Created something new in [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
+- `2026-07-23` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit)
+- `2026-07-23` Pushed to [yasyf/cc-runtime](https://github.com/yasyf/cc-runtime)
 - `2026-07-23` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — built the floating margin rail with hover-expand overlay and a live add-note chip
-- `2026-07-23` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — added exact-model passthrough resolving tier names to concrete model ids
-- `2026-07-23` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home) — added an engine-owned checkpoint subsystem with resumable runs and sidecar.generate
-- `2026-07-23` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
-- `2026-07-23` Pushed to [yasyf/cc-patch](https://github.com/yasyf/cc-patch) — shipped fastmode as a builtin with installable packs and auto-registered daemons
-- `2026-07-23` Created something new in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
 - `2026-07-23` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — added a live on-device LLM lane via pocket-llm with a three-engine adapter
-- `2026-07-23` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — kept lifecycle control inside daemon identity and published proxy status early
+- `2026-07-23` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
+- `2026-07-23` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync)
+- `2026-07-23` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync)
+- `2026-07-23` Pushed to [yasyf/cc-patch](https://github.com/yasyf/cc-patch) — shipped fastmode as a builtin with installable packs and auto-registered daemons
+- `2026-07-23` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit)
 
-**15,380 contributions in the last year**
+**15,471 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -101,9 +101,10 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-23` [cc-skills v1.3.6](https://github.com/yasyf/cc-skills/releases/tag/v1.3.6)
-- `2026-07-23` [cc-notes v0.39.2](https://github.com/yasyf/cc-notes/releases/tag/v0.39.2) — recovered immutable release tags and reconciled the exact signed release
-- `2026-07-22` [captain-hook v12.11.0](https://github.com/yasyf/captain-hook/releases/tag/v12.11.0) — kept ordinary warnings off denied events and fixed denied-advisory bundle drift
+- `2026-07-23` [captain-hook v12.13.0](https://github.com/yasyf/captain-hook/releases/tag/v12.13.0)
+- `2026-07-23` [cc-notes v0.43.0](https://github.com/yasyf/cc-notes/releases/tag/v0.43.0)
+- `2026-07-23` [cc-context v0.32.0](https://github.com/yasyf/cc-context/releases/tag/v0.32.0)
+- `2026-07-23` [cc-skills v1.4.0](https://github.com/yasyf/cc-skills/releases/tag/v1.4.0)
 - `2026-07-22` [slop-cop v0.1.51](https://github.com/yasyf/slop-cop/releases/tag/v0.1.51)
 - `2026-07-21` [cc-pool v0.61.7](https://github.com/yasyf/cc-pool/releases/tag/v0.61.7)
 - `2026-07-19` [spawnllm v0.10.0](https://github.com/yasyf/spawnllm/releases/tag/v0.10.0) — stripped provider API keys from the child env and added a claude-sdk backend
