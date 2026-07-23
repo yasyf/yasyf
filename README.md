@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-23T03:54:40Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-23T09:08:01Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-07-23` Pushed to [yasyf/cc-runtime](https://github.com/yasyf/cc-runtime)
+- `2026-07-23` Created something new in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
+- `2026-07-23` Pushed to [yasyf/cc-vigil](https://github.com/yasyf/cc-vigil) — moved the CLI transport onto daemonkit and cut v0.4.0
+- `2026-07-23` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit) — moved child-process ownership onto daemonkit and pinned settlement tests to exact identity
 - `2026-07-23` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
-- `2026-07-23` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-07-23` Pushed to [yasyf/cc-patch](https://github.com/yasyf/cc-patch)
-- `2026-07-23` Was active in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-07-23` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-07-23` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — added durable duplex child sessions and made spawned-process settlement exact
-- `2026-07-23` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-07-23` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — reset the state layer and wired cc-review onto the cc-interact v1 runtime
 - `2026-07-23` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — added the design-doc plugin for assumptions-first architecture design, with iterated cc-present review rounds
-- `2026-07-22` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
-- `2026-07-22` Created something new in [yasyf/cc-patch](https://github.com/yasyf/cc-patch)
-- `2026-07-22` Was active in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
+- `2026-07-23` Pushed to [yasyf/authkit](https://github.com/yasyf/authkit)
+- `2026-07-23` Cut a release in [yasyf/fusekit](https://github.com/yasyf/fusekit)
+- `2026-07-23` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — hard cut dispatch to a signed universal host and dropped the Python daemon lifecycle
+- `2026-07-23` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — split holder process and resource settlement and exposed native runtime health
+- `2026-07-23` Pushed to [yasyf/pocket-llm](https://github.com/yasyf/pocket-llm)
+- `2026-07-23` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync) — moved the bridge and helper lifecycle onto daemonkit
 
-**15,286 contributions in the last year**
+**15,336 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -100,11 +100,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-23` [cc-context v0.30.0](https://github.com/yasyf/cc-context/releases/tag/v0.30.0)
-- `2026-07-23` [cc-skills v1.3.4](https://github.com/yasyf/cc-skills/releases/tag/v1.3.4)
+- `2026-07-23` [cc-notes v0.39.1](https://github.com/yasyf/cc-notes/releases/tag/v0.39.1)
+- `2026-07-23` [cc-skills v1.3.5](https://github.com/yasyf/cc-skills/releases/tag/v1.3.5)
+- `2026-07-23` [cc-context v0.31.0](https://github.com/yasyf/cc-context/releases/tag/v0.31.0)
 - `2026-07-22` [captain-hook v12.11.0](https://github.com/yasyf/captain-hook/releases/tag/v12.11.0)
 - `2026-07-22` [slop-cop v0.1.51](https://github.com/yasyf/slop-cop/releases/tag/v0.1.51)
-- `2026-07-22` [cc-notes v0.39.0](https://github.com/yasyf/cc-notes/releases/tag/v0.39.0)
 - `2026-07-21` [cc-pool v0.61.7](https://github.com/yasyf/cc-pool/releases/tag/v0.61.7)
 - `2026-07-19` [spawnllm v0.10.0](https://github.com/yasyf/spawnllm/releases/tag/v0.10.0) — stripped provider API keys from the child env and added a claude-sdk backend
 - `2026-07-18` [authkit v0.2.0](https://github.com/yasyf/authkit/releases/tag/v0.2.0) — pinned cookiesync trust by its shipped module-path codesign identifier
