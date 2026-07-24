@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-24T14:20:42Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-24T19:56:02Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-24` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — dispatched hooks through the binrun wrapper with an async self-updater
-- `2026-07-24` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
-- `2026-07-24` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-07-24` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
-- `2026-07-24` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — hard-cut the signed-holder runtime and sealed worker environments
-- `2026-07-24` Created something new in [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
-- `2026-07-24` Pushed to [yasyf/cc-vigil](https://github.com/yasyf/cc-vigil)
-- `2026-07-24` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-07-24` Cut a release in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
-- `2026-07-24` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — fenced mutation reservations at observer barriers and joined stopped children
 - `2026-07-24` Pushed to [yasyf/cc-sudo](https://github.com/yasyf/cc-sudo)
-- `2026-07-24` Created something new in [yasyf/fusekit](https://github.com/yasyf/fusekit)
+- `2026-07-24` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-07-24` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-07-24` Created something new in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-07-24` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-07-24` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
+- `2026-07-24` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — distributed via a binrun shim with a version-exact descriptor
+- `2026-07-24` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
+- `2026-07-24` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit)
+- `2026-07-24` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync)
+- `2026-07-24` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
+- `2026-07-24` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — hard-cut the signed-holder runtime and sealed worker environments
 
-**16,496 contributions in the last year**
+**16,549 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -107,12 +107,12 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-24` [daemonkit v0.18.0](https://github.com/yasyf/daemonkit/releases/tag/v0.18.0)
+- `2026-07-24` [cc-notes v0.46.1](https://github.com/yasyf/cc-notes/releases/tag/v0.46.1)
+- `2026-07-24` [cc-pool v0.64.3](https://github.com/yasyf/cc-pool/releases/tag/v0.64.3)
+- `2026-07-24` [slop-cop v0.1.58](https://github.com/yasyf/slop-cop/releases/tag/v0.1.58)
+- `2026-07-24` [captain-hook v12.19.1](https://github.com/yasyf/captain-hook/releases/tag/v12.19.1)
 - `2026-07-24` [cc-skills v1.7.0](https://github.com/yasyf/cc-skills/releases/tag/v1.7.0)
-- `2026-07-24` [cc-pool v0.64.2](https://github.com/yasyf/cc-pool/releases/tag/v0.64.2)
-- `2026-07-24` [captain-hook v12.18.4](https://github.com/yasyf/captain-hook/releases/tag/v12.18.4)
-- `2026-07-24` [cc-notes v0.46.0](https://github.com/yasyf/cc-notes/releases/tag/v0.46.0)
-- `2026-07-24` [slop-cop v0.1.57](https://github.com/yasyf/slop-cop/releases/tag/v0.1.57)
+- `2026-07-24` [cc-sudo v0.10.0](https://github.com/yasyf/cc-sudo/releases/tag/v0.10.0)
 - `2026-07-19` [spawnllm v0.10.0](https://github.com/yasyf/spawnllm/releases/tag/v0.10.0) — stripped provider API keys from the child env and added a claude-sdk backend
 - `2026-07-18` [authkit v0.2.0](https://github.com/yasyf/authkit/releases/tag/v0.2.0) — pinned cookiesync trust by its shipped module-path codesign identifier
 <!-- gh-profile:end:shipped -->
