@@ -1,56 +1,58 @@
 {
   "activity": {
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "af22212462a0",
-      "summary": "added a live on-device LLM lane via pocket-llm with a three-engine adapter"
+      "as_of": "91aeba2874bf",
+      "summary": "dispatched hooks through the binrun wrapper with an async self-updater"
     },
-    "PushEvent:yasyf/cc-notes": {
-      "as_of": "3d3367b23861",
-      "summary": "fetched the signed holder at first run and reconciled the exact signed release"
-    },
-    "PushEvent:yasyf/cc-patch": {
-      "as_of": "d065731893ff",
-      "summary": "shipped fastmode as a builtin with installable packs and auto-registered daemons"
+    "PushEvent:yasyf/cc-pool": {
+      "as_of": "c4a81d902307",
+      "summary": "hard-cut the signed-holder runtime and sealed worker environments"
     },
     "PushEvent:yasyf/cc-present": {
-      "as_of": "5f1a5c6aebb5",
-      "summary": "built the floating margin rail with hover-expand overlay and a live add-note chip"
+      "as_of": "1e40ddd92a8f",
+      "summary": "distributed via a binrun shim with a version-exact descriptor"
     },
-    "PushEvent:yasyf/cc-squash": {
-      "as_of": "3a188f368687",
-      "summary": "kept lifecycle control inside daemon identity and published proxy status early"
+    "PushEvent:yasyf/cc-runtime": {
+      "as_of": "2a08b9896d1a",
+      "summary": "bound requests to daemon publications and hard-cut durable workers to daemonkit"
     },
     "PushEvent:yasyf/cc-steer": {
-      "as_of": "8fe9da430e08",
-      "summary": "added the cc-present human-labeling tool and live watcher outcome ground truth"
+      "as_of": "8217b2e523c3",
+      "summary": "hard-cut shadow state to cc-transcript's schema and pruned degenerate DPO pairs"
     },
-    "PushEvent:yasyf/daemonkit": {
-      "as_of": "f5ce8df2ade5",
-      "summary": "hard cut the daemon runtime and pinned stop authority at durable admission"
+    "PushEvent:yasyf/cc-transcript": {
+      "as_of": "f63565e15030",
+      "summary": "archived-and-continued on schema mismatch instead of failing closed"
     },
     "PushEvent:yasyf/experiment-at-home": {
-      "as_of": "8db4f48aaec2",
-      "summary": "added an engine-owned checkpoint subsystem with resumable runs and sidecar.generate"
+      "as_of": "db094ec8a5fe",
+      "summary": "reaped completed child processes in the detach runtime"
     },
-    "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "237001d260b4",
-      "summary": "rejected standalone cc-notes helper casks and required explicit release tags"
+    "PushEvent:yasyf/fusekit": {
+      "as_of": "eaaa7178a007",
+      "summary": "fenced mutation reservations at observer barriers and joined stopped children"
     },
     "PushEvent:yasyf/spawnllm": {
-      "as_of": "9dba9a0f9b73",
-      "summary": "added exact-model passthrough resolving tier names to concrete model ids"
+      "as_of": "5106e2400c9e",
+      "summary": "switched to file-backed stdin so the payload is complete at exec"
     }
   },
-  "generated_at": "2026-07-23T11:31:22Z",
+  "generated_at": "2026-07-24T11:23:07Z",
   "shipped": {
     "authkit@v0.2.0": {
       "summary": "pinned cookiesync trust by its shipped module-path codesign identifier"
     },
-    "captain-hook@v12.11.0": {
-      "summary": "kept ordinary warnings off denied events and fixed denied-advisory bundle drift"
+    "captain-hook@v12.17.0": {
+      "summary": "dispatched hooks through a binrun wrapper with an async self-updater"
     },
-    "cc-notes@v0.39.2": {
-      "summary": "recovered immutable release tags and reconciled the exact signed release"
+    "cc-notes@v0.45.0": {
+      "summary": "adopted fenced signed-helper deployment and closed its CI contracts"
+    },
+    "cc-pool@v0.63.2": {
+      "summary": "kept the App Group identity signed-side and prevented unsigned leakage"
+    },
+    "cc-skills@v1.5.0": {
+      "summary": "scaffolded .pre-commit-config.yaml in repo-bootstrap and documented .mcp.json"
     },
     "spawnllm@v0.10.0": {
       "summary": "stripped provider API keys from the child env and added a claude-sdk backend"

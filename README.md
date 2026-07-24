@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-24T09:03:42Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-24T11:23:23Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-24` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
-- `2026-07-24` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — fetched the signed holder at first run and reconciled the exact signed release
-- `2026-07-24` Created something new in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
+- `2026-07-24` Pushed to [yasyf/cc-runtime](https://github.com/yasyf/cc-runtime) — bound requests to daemon publications and hard-cut durable workers to daemonkit
+- `2026-07-24` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-07-24` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — hard-cut the signed-holder runtime and sealed worker environments
 - `2026-07-24` Created something new in [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
-- `2026-07-24` Created something new in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-07-24` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — rejected standalone cc-notes helper casks and required explicit release tags
-- `2026-07-24` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — added a live on-device LLM lane via pocket-llm with a three-engine adapter
-- `2026-07-24` Cut a release in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
-- `2026-07-24` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — hard cut the daemon runtime and pinned stop authority at durable admission
-- `2026-07-24` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-07-24` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit)
+- `2026-07-24` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — archived-and-continued on schema mismatch instead of failing closed
+- `2026-07-24` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer) — hard-cut shadow state to cc-transcript's schema and pruned degenerate DPO pairs
+- `2026-07-24` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — fenced mutation reservations at observer barriers and joined stopped children
+- `2026-07-24` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — dispatched hooks through the binrun wrapper with an async self-updater
+- `2026-07-24` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — switched to file-backed stdin so the payload is complete at exec
+- `2026-07-24` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home) — reaped completed child processes in the detach runtime
 - `2026-07-24` Created something new in [yasyf/fusekit](https://github.com/yasyf/fusekit)
+- `2026-07-24` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — distributed via a binrun shim with a version-exact descriptor
 
-**16,245 contributions in the last year**
+**16,352 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -74,6 +74,11 @@
 - [cc-squash](https://github.com/yasyf/cc-squash) — augmented auto-compaction for marathon Claude Code sessions
 - [cc-vigil](https://github.com/yasyf/cc-vigil) — a transcript-oracle sleep inhibitor that keeps your Mac awake only while Claude agents are truly working
 
+**Claude Code, off the clock**
+
+- [getaway](https://github.com/yasyf/getaway) — plan award trips from Claude Code: sweeps seats.aero across 28 mileage programs and composes whole journeys, flights out and home plus hotel award nights via rooms.aero
+- [dailies](https://github.com/yasyf/dailies) — stop being your own cron job
+
 **Systems & libraries**
 
 - [authkit](https://github.com/yasyf/authkit) — a signed macOS helper for Touch ID consent and Secure Enclave attestation, replacing the old cookiesync keyhelper
@@ -82,6 +87,7 @@
 - [semisweet](https://github.com/yasyf/semisweet) — an async, in-memory semantic cache with pluggable backends
 - [experiment-at-home](https://github.com/yasyf/experiment-at-home) — the plumbing every local AI experiment rebuilds, built once: modal, mlx-lm, and tinker backends behind one registry
 - [spawnllm](https://github.com/yasyf/spawnllm) — call an LLM from any subshell: Claude, Codex, or a local MLX model
+- [pocket-llm](https://github.com/yasyf/pocket-llm) — on-device LLM sessions for any browser: Chrome's Prompt API, WebLLM, or wllama, picked by feature detection, smallest model first
 - [synckit](https://github.com/yasyf/synckit) — the shared substrate cross-host sync tools build on: host mesh, a convergent registry, unix-socket RPC, and synckitd, the daemon reposync and cookiesync now ride
 
 **Python, with fewer footguns**
@@ -101,12 +107,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-24` [cc-context v0.33.0](https://github.com/yasyf/cc-context/releases/tag/v0.33.0)
-- `2026-07-24` [captain-hook v12.16.2](https://github.com/yasyf/captain-hook/releases/tag/v12.16.2)
+- `2026-07-24` [captain-hook v12.17.0](https://github.com/yasyf/captain-hook/releases/tag/v12.17.0) — dispatched hooks through a binrun wrapper with an async self-updater
 - `2026-07-24` [slop-cop v0.1.57](https://github.com/yasyf/slop-cop/releases/tag/v0.1.57)
-- `2026-07-23` [cc-pool v0.63.2](https://github.com/yasyf/cc-pool/releases/tag/v0.63.2)
-- `2026-07-23` [cc-notes v0.45.0](https://github.com/yasyf/cc-notes/releases/tag/v0.45.0)
-- `2026-07-23` [cc-skills v1.5.0](https://github.com/yasyf/cc-skills/releases/tag/v1.5.0)
+- `2026-07-23` [cc-pool v0.63.2](https://github.com/yasyf/cc-pool/releases/tag/v0.63.2) — kept the App Group identity signed-side and prevented unsigned leakage
+- `2026-07-23` [cc-notes v0.45.0](https://github.com/yasyf/cc-notes/releases/tag/v0.45.0) — adopted fenced signed-helper deployment and closed its CI contracts
+- `2026-07-23` [cc-skills v1.5.0](https://github.com/yasyf/cc-skills/releases/tag/v1.5.0) — scaffolded .pre-commit-config.yaml in repo-bootstrap and documented .mcp.json
 - `2026-07-19` [spawnllm v0.10.0](https://github.com/yasyf/spawnllm/releases/tag/v0.10.0) — stripped provider API keys from the child env and added a claude-sdk backend
 - `2026-07-18` [authkit v0.2.0](https://github.com/yasyf/authkit/releases/tag/v0.2.0) — pinned cookiesync trust by its shipped module-path codesign identifier
 <!-- gh-profile:end:shipped -->
