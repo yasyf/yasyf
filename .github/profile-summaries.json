@@ -1,58 +1,62 @@
 {
   "activity": {
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "91aeba2874bf",
-      "summary": "dispatched hooks through the binrun wrapper with an async self-updater"
+      "as_of": "4f5d8394ed72",
+      "summary": "unwedged cold upgrades and recalibrated models-pack routing for Opus 5"
     },
-    "PushEvent:yasyf/cc-pool": {
-      "as_of": "c4a81d902307",
-      "summary": "hard-cut the signed-holder runtime and sealed worker environments"
+    "PushEvent:yasyf/cc-orchestrate": {
+      "as_of": "040018ba57f3",
+      "summary": "registered the launchd agent at daemonkit's stable program path"
     },
-    "PushEvent:yasyf/cc-present": {
-      "as_of": "1e40ddd92a8f",
-      "summary": "distributed via a binrun shim with a version-exact descriptor"
+    "PushEvent:yasyf/cc-review": {
+      "as_of": "e86e46f4839b",
+      "summary": "added short 8-hex review slugs and SPA serving for dotted /s/ deep links"
     },
-    "PushEvent:yasyf/cc-runtime": {
-      "as_of": "2a08b9896d1a",
-      "summary": "bound requests to daemon publications and hard-cut durable workers to daemonkit"
+    "PushEvent:yasyf/cc-skills": {
+      "as_of": "555b45526c5b",
+      "summary": "routed bounded implementation to opus-5, leaving sol the sweep and verify lanes"
+    },
+    "PushEvent:yasyf/cc-squash": {
+      "as_of": "b46a8ff3ab92",
+      "summary": "adopted the daemonkit verifier self-probe and bound the proxy seam to its target"
     },
     "PushEvent:yasyf/cc-steer": {
-      "as_of": "8217b2e523c3",
+      "as_of": "388c8df34cf4",
       "summary": "hard-cut shadow state to cc-transcript's schema and pruned degenerate DPO pairs"
     },
     "PushEvent:yasyf/cc-transcript": {
-      "as_of": "f63565e15030",
-      "summary": "archived-and-continued on schema mismatch instead of failing closed"
+      "as_of": "5b29f8b773d9",
+      "summary": "attested before enabling WAL and archived-and-continued on schema mismatch"
+    },
+    "PushEvent:yasyf/daemonkit": {
+      "as_of": "5dc172a9e9af",
+      "summary": "materialized version-stable launchd programs and inherited child PATH"
     },
     "PushEvent:yasyf/experiment-at-home": {
-      "as_of": "db094ec8a5fe",
+      "as_of": "2194cc553261",
       "summary": "reaped completed child processes in the detach runtime"
     },
-    "PushEvent:yasyf/fusekit": {
-      "as_of": "eaaa7178a007",
-      "summary": "fenced mutation reservations at observer barriers and joined stopped children"
-    },
     "PushEvent:yasyf/spawnllm": {
-      "as_of": "5106e2400c9e",
-      "summary": "switched to file-backed stdin so the payload is complete at exec"
+      "as_of": "2255dfba2623",
+      "summary": "added exact-model passthrough and moved stdin to a file, complete at exec"
     }
   },
-  "generated_at": "2026-07-24T11:23:07Z",
+  "generated_at": "2026-07-25T10:55:45Z",
   "shipped": {
     "authkit@v0.2.0": {
       "summary": "pinned cookiesync trust by its shipped module-path codesign identifier"
     },
-    "captain-hook@v12.17.0": {
-      "summary": "dispatched hooks through a binrun wrapper with an async self-updater"
+    "captain-hook@v12.20.9": {
+      "summary": "unwedged cold upgrades via daemonkit 0.20.5"
     },
-    "cc-notes@v0.45.0": {
-      "summary": "adopted fenced signed-helper deployment and closed its CI contracts"
+    "cc-notes@v0.47.2": {
+      "summary": "installed the packaged app before runtime planning"
     },
-    "cc-pool@v0.63.2": {
-      "summary": "kept the App Group identity signed-side and prevented unsigned leakage"
+    "cc-pool@v0.64.6": {
+      "summary": "trusted only the fleet signing key and required verified signed tags"
     },
-    "cc-skills@v1.5.0": {
-      "summary": "scaffolded .pre-commit-config.yaml in repo-bootstrap and documented .mcp.json"
+    "cc-skills@v1.8.2": {
+      "summary": "routed bounded implementation to opus-5, leaving sol the sweep and verify lanes"
     },
     "spawnllm@v0.10.0": {
       "summary": "stripped provider API keys from the child env and added a claude-sdk backend"
