@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-26T04:06:45Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-26T08:57:17Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -24,6 +24,7 @@
 
 <!-- gh-profile:start:activity -->
 - `2026-07-26` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-07-26` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync)
 - `2026-07-26` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present)
 - `2026-07-26` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — added short 8-hex review slugs and SPA serving for dotted /s/ deep links
 - `2026-07-26` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — registered the launchd agent at daemonkit's stable program path
@@ -34,9 +35,8 @@
 - `2026-07-25` Was active in [yasyf/reposync](https://github.com/yasyf/reposync)
 - `2026-07-25` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit)
 - `2026-07-25` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync)
-- `2026-07-25` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
 
-**16,884 contributions in the last year**
+**16,890 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -113,6 +113,7 @@
 - `2026-07-26` [cc-pool v0.64.8](https://github.com/yasyf/cc-pool/releases/tag/v0.64.8)
 - `2026-07-25` [cc-notes v0.47.10](https://github.com/yasyf/cc-notes/releases/tag/v0.47.10)
 - `2026-07-24` [slop-cop v0.1.58](https://github.com/yasyf/slop-cop/releases/tag/v0.1.58)
+- `2026-07-23` [cc-steer v0.20.0](https://github.com/yasyf/cc-steer/releases/tag/v0.20.0)
 - `2026-07-19` [spawnllm v0.10.0](https://github.com/yasyf/spawnllm/releases/tag/v0.10.0) — stripped provider API keys from the child env and added a claude-sdk backend
 - `2026-07-18` [authkit v0.2.0](https://github.com/yasyf/authkit/releases/tag/v0.2.0) — pinned cookiesync trust by its shipped module-path codesign identifier
 <!-- gh-profile:end:shipped -->
