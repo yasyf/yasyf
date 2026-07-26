@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-25T19:43:59Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-26T04:06:45Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -23,20 +23,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-25` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-07-26` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-07-26` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present)
+- `2026-07-26` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — added short 8-hex review slugs and SPA serving for dotted /s/ deep links
+- `2026-07-26` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — registered the launchd agent at daemonkit's stable program path
+- `2026-07-26` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — routed bounded implementation to opus-5, leaving sol the sweep and verify lanes
+- `2026-07-26` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
+- `2026-07-25` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit)
+- `2026-07-25` Pushed to [yasyf/cc-patch](https://github.com/yasyf/cc-patch)
+- `2026-07-25` Was active in [yasyf/reposync](https://github.com/yasyf/reposync)
+- `2026-07-25` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit)
+- `2026-07-25` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync)
 - `2026-07-25` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-07-25` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer) — hard-cut shadow state to cc-transcript's schema and pruned degenerate DPO pairs
-- `2026-07-25` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — attested before enabling WAL and archived-and-continued on schema mismatch
-- `2026-07-25` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — added short 8-hex review slugs and SPA serving for dotted /s/ deep links
-- `2026-07-25` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — adopted the daemonkit verifier self-probe and bound the proxy seam to its target
-- `2026-07-25` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — registered the launchd agent at daemonkit's stable program path
-- `2026-07-25` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — added exact-model passthrough and moved stdin to a file, complete at exec
-- `2026-07-25` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home) — reaped completed child processes in the detach runtime
-- `2026-07-25` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
-- `2026-07-25` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — unwedged cold upgrades and recalibrated models-pack routing for Opus 5
-- `2026-07-25` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — materialized version-stable launchd programs and inherited child PATH
 
-**16,834 contributions in the last year**
+**16,884 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -108,10 +108,10 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-25` [cc-notes v0.47.9](https://github.com/yasyf/cc-notes/releases/tag/v0.47.9)
-- `2026-07-25` [captain-hook v12.20.9](https://github.com/yasyf/captain-hook/releases/tag/v12.20.9) — unwedged cold upgrades via daemonkit 0.20.5
-- `2026-07-25` [cc-skills v1.8.2](https://github.com/yasyf/cc-skills/releases/tag/v1.8.2) — routed bounded implementation to opus-5, leaving sol the sweep and verify lanes
-- `2026-07-25` [cc-pool v0.64.6](https://github.com/yasyf/cc-pool/releases/tag/v0.64.6) — trusted only the fleet signing key and required verified signed tags
+- `2026-07-26` [captain-hook v12.20.10](https://github.com/yasyf/captain-hook/releases/tag/v12.20.10)
+- `2026-07-26` [cc-skills v1.8.4](https://github.com/yasyf/cc-skills/releases/tag/v1.8.4)
+- `2026-07-26` [cc-pool v0.64.8](https://github.com/yasyf/cc-pool/releases/tag/v0.64.8)
+- `2026-07-25` [cc-notes v0.47.10](https://github.com/yasyf/cc-notes/releases/tag/v0.47.10)
 - `2026-07-24` [slop-cop v0.1.58](https://github.com/yasyf/slop-cop/releases/tag/v0.1.58)
 - `2026-07-19` [spawnllm v0.10.0](https://github.com/yasyf/spawnllm/releases/tag/v0.10.0) — stripped provider API keys from the child env and added a claude-sdk backend
 - `2026-07-18` [authkit v0.2.0](https://github.com/yasyf/authkit/releases/tag/v0.2.0) — pinned cookiesync trust by its shipped module-path codesign identifier
