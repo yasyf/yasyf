@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-26T08:57:17Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-26T11:08:39Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -15,6 +15,7 @@
 
 - Building the missing toolbelt for Claude Code: [captain-hook](https://github.com/yasyf/captain-hook) for declarative hooks, [cc-pool](https://github.com/yasyf/cc-pool) for account pooling, [cc-review](https://github.com/yasyf/cc-review) for reviewing Claude's diffs in a PR-style web UI, [cc-transcript](https://github.com/yasyf/cc-transcript) for typed transcripts, and [slop-cop](https://github.com/yasyf/slop-cop) to catch AI-flavored prose
 - Converging those pieces into one session-activity platform — typed events and a decision ledger in cc-transcript, with captain-hook as its hook runtime — and building [cc-orchestrate](https://github.com/yasyf/cc-orchestrate) into a pure-Go CLI that runs fleets of agents across pluggable backends like cmux, superset, tmux, and zellij, each with an AgentProber liveness check for long-lived, keep-alive sessions — with [cc-vigil](https://github.com/yasyf/cc-vigil), a transcript-oracle sleep inhibitor, keeping the Mac awake only while those agents are truly working
+- Hard-cutting the whole cc-* fleet onto shared substrate: [daemonkit](https://github.com/yasyf/daemonkit) for daemon lifecycle — stable launchd program paths, verifier self-probes, drain-on-upgrade — and [binrun](https://github.com/yasyf/binrun) for distribution, with every release gated on trusted signed tags
 - Running [cc-sentiment](https://github.com/yasyf/cc-sentiment), an open experiment in whether developer sentiment with Claude Code tracks the model, the tooling, or just the time of day
 - Self-hosting [yclaw](https://github.com/yasyf/yclaw), an always-on, reproducible Apple Silicon home server for the Nous hermes-agent — gVisor-sandboxed and tailnet-only, so the agent never touches your credentials
 - Engineer & CEO at [Aneta](https://aneta.company)
@@ -23,20 +24,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-26` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
-- `2026-07-26` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync)
-- `2026-07-26` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present)
+- `2026-07-26` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — unwedged cold upgrades and recalibrated models-pack routing for Opus 5
 - `2026-07-26` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — added short 8-hex review slugs and SPA serving for dotted /s/ deep links
+- `2026-07-26` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — adopted the daemonkit verifier self-probe and bound the proxy seam to its target
+- `2026-07-26` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — required trusted signed release tags
 - `2026-07-26` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — registered the launchd agent at daemonkit's stable program path
-- `2026-07-26` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — routed bounded implementation to opus-5, leaving sol the sweep and verify lanes
-- `2026-07-26` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
-- `2026-07-25` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit)
-- `2026-07-25` Pushed to [yasyf/cc-patch](https://github.com/yasyf/cc-patch)
-- `2026-07-25` Was active in [yasyf/reposync](https://github.com/yasyf/reposync)
-- `2026-07-25` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit)
-- `2026-07-25` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync)
+- `2026-07-26` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
+- `2026-07-26` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the tap formulae for cc-notes, cookiesync, and cc-orchestrate
+- `2026-07-26` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — reworked the v0.48.0 JSON surface: summaries on listings and acks, zero values omitted
+- `2026-07-26` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — kept the codex lane lock out of the GC's hands and made ship run prek hooks once per commit
+- `2026-07-26` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync) — hardened source tag verification and allowed packaged FuseKit helpers
+- `2026-07-26` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — moved the daemon onto daemonkit's stable launchd program path
+- `2026-07-26` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — polled for the deferred durable untrack and matched the widget's FuseKit pin to v1.15.3
 
-**16,890 contributions in the last year**
+**16,901 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -89,7 +90,12 @@
 - [experiment-at-home](https://github.com/yasyf/experiment-at-home) — the plumbing every local AI experiment rebuilds, built once: modal, mlx-lm, and tinker backends behind one registry
 - [spawnllm](https://github.com/yasyf/spawnllm) — call an LLM from any subshell: Claude, Codex, or a local MLX model
 - [pocket-llm](https://github.com/yasyf/pocket-llm) — on-device LLM sessions for any browser: Chrome's Prompt API, WebLLM, or wllama, picked by feature detection, smallest model first
-- [synckit](https://github.com/yasyf/synckit) — the shared substrate cross-host sync tools build on: host mesh, a convergent registry, unix-socket RPC, and synckitd, the daemon reposync and cookiesync now ride
+
+**Cross-host sync**
+
+- [synckit](https://github.com/yasyf/synckit) — the shared substrate the tools below build on: host mesh, a convergent registry, unix-socket RPC, and synckitd, the daemon they now ride
+- [reposync](https://github.com/yasyf/reposync) — your other machine already pulled: git checkouts kept in step across every host you work from
+- [cookiesync](https://github.com/yasyf/cookiesync) — your other Mac already did the 2FA: browser sessions moved between your own machines, consent gated behind Touch ID via authkit
 
 **Python, with fewer footguns**
 
@@ -108,12 +114,12 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-26` [captain-hook v12.20.10](https://github.com/yasyf/captain-hook/releases/tag/v12.20.10)
-- `2026-07-26` [cc-skills v1.8.4](https://github.com/yasyf/cc-skills/releases/tag/v1.8.4)
+- `2026-07-26` [cc-notes v0.48.0](https://github.com/yasyf/cc-notes/releases/tag/v0.48.0) — returned summaries from listings and write acks, clipped history values behind --full
+- `2026-07-26` [captain-hook v12.20.10](https://github.com/yasyf/captain-hook/releases/tag/v12.20.10) — pinned daemonkit v0.20.6
+- `2026-07-26` [cc-skills v1.8.4](https://github.com/yasyf/cc-skills/releases/tag/v1.8.4) — let the binrun shim tell the codex binary its plugin root, and kept the lane lock out of the GC
 - `2026-07-26` [cc-pool v0.64.8](https://github.com/yasyf/cc-pool/releases/tag/v0.64.8)
-- `2026-07-25` [cc-notes v0.47.10](https://github.com/yasyf/cc-notes/releases/tag/v0.47.10)
 - `2026-07-24` [slop-cop v0.1.58](https://github.com/yasyf/slop-cop/releases/tag/v0.1.58)
-- `2026-07-23` [cc-steer v0.20.0](https://github.com/yasyf/cc-steer/releases/tag/v0.20.0)
+- `2026-07-24` [binrun v0.2.0](https://github.com/yasyf/binrun/releases/tag/v0.2.0) — updated daemonkit to v0.17.2
 - `2026-07-19` [spawnllm v0.10.0](https://github.com/yasyf/spawnllm/releases/tag/v0.10.0) — stripped provider API keys from the child env and added a claude-sdk backend
 - `2026-07-18` [authkit v0.2.0](https://github.com/yasyf/authkit/releases/tag/v0.2.0) — pinned cookiesync trust by its shipped module-path codesign identifier
 <!-- gh-profile:end:shipped -->
