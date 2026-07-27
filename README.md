@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-27T15:24:31Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-27T20:05:35Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -37,7 +37,7 @@
 - `2026-07-27` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — cut v0.31.3 on the daemonkit v0.20.9 pin
 - `2026-07-27` Pushed to [yasyf/yasyf](https://github.com/yasyf/yasyf)
 
-**16,909 contributions in the last year**
+**16,918 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
