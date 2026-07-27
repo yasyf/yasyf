@@ -1,51 +1,51 @@
 {
   "activity": {
-    "PushEvent:yasyf/captain-hook": {
-      "as_of": "0a38eab7b3d5",
-      "summary": "unwedged cold upgrades and recalibrated models-pack routing for Opus 5"
+    "PushEvent:yasyf/cc-interact": {
+      "as_of": "1c5c50c6c9a1",
+      "summary": "sandboxed home-derived state behind internal/testhome"
     },
     "PushEvent:yasyf/cc-notes": {
-      "as_of": "7dddba5b93d1",
-      "summary": "reworked the v0.48.0 JSON surface: summaries on listings and acks, zero values omitted"
+      "as_of": "be590f763c95",
+      "summary": "built internal/kg, the derived graph over notes activity, plus its eval harness"
     },
     "PushEvent:yasyf/cc-orchestrate": {
-      "as_of": "3a3ce5e3dbc2",
-      "summary": "registered the launchd agent at daemonkit's stable program path"
+      "as_of": "a98dca367aac",
+      "summary": "cut 0.15.3 on daemonkit v0.20.9 and sandboxed HOME in every orchestrate test"
+    },
+    "PushEvent:yasyf/cc-pane": {
+      "as_of": "33bf5ef74eb9",
+      "summary": "repinned the release-tag gate onto the unsigned-tag verifier"
     },
     "PushEvent:yasyf/cc-pool": {
-      "as_of": "74e74363057a",
-      "summary": "polled for the deferred durable untrack and matched the widget's FuseKit pin to v1.15.3"
+      "as_of": "980cc0015dab",
+      "summary": "cut v0.64.9 and sandboxed daemonkit's home override alongside HOME"
     },
     "PushEvent:yasyf/cc-present": {
-      "as_of": "4d16d0ba8db8",
-      "summary": "moved the daemon onto daemonkit's stable launchd program path"
+      "as_of": "a696d4efc164",
+      "summary": "cut v0.31.3 on the daemonkit v0.20.9 pin"
     },
     "PushEvent:yasyf/cc-review": {
-      "as_of": "e1e4a7585034",
-      "summary": "added short 8-hex review slugs and SPA serving for dotted /s/ deep links"
+      "as_of": "52c10492fc86",
+      "summary": "cut v0.33.3 and sandboxed the stable-program stagings that escaped real home"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "b57d62cdfd4a",
-      "summary": "kept the codex lane lock out of the GC's hands and made ship run prek hooks once per commit"
-    },
-    "PushEvent:yasyf/cc-squash": {
-      "as_of": "e89204b71dab",
-      "summary": "adopted the daemonkit verifier self-probe and bound the proxy seam to its target"
-    },
-    "PushEvent:yasyf/cookiesync": {
-      "as_of": "3db2adacbd3a",
-      "summary": "hardened source tag verification and allowed packaged FuseKit helpers"
+      "as_of": "712ee4b568fd",
+      "summary": "taught open-pr the repo's own voice and gated ship's graphite lane"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "485965a51c3f",
-      "summary": "bumped the tap formulae for cc-notes, cookiesync, and cc-orchestrate"
+      "as_of": "79042bc2df80",
+      "summary": "bumped the cc-pool, cc-orchestrate, cc-review, cc-present, and synckitd formulae"
     },
-    "PushEvent:yasyf/spawnllm": {
-      "as_of": "6d61804c4034",
-      "summary": "required trusted signed release tags"
+    "PushEvent:yasyf/synckit": {
+      "as_of": "378311614735",
+      "summary": "cut v0.36.4 with keyless helper agents and digest-staged helper programs"
+    },
+    "ReleaseEvent:yasyf/cc-interact": {
+      "as_of": "2026-07-27",
+      "summary": "cut v0.31.1 on daemonkit v0.20.9"
     }
   },
-  "generated_at": "2026-07-26T11:08:07Z",
+  "generated_at": "2026-07-27T12:46:39Z",
   "shipped": {
     "authkit@v0.2.0": {
       "summary": "pinned cookiesync trust by its shipped module-path codesign identifier"
@@ -53,17 +53,17 @@
     "binrun@v0.2.0": {
       "summary": "updated daemonkit to v0.17.2"
     },
-    "captain-hook@v12.20.10": {
-      "summary": "pinned daemonkit v0.20.6"
+    "captain-hook@v12.20.12": {
+      "summary": "repinned daemonkit v0.20.9 for the postinstall temp-HOME and launchctl fixes"
     },
-    "cc-notes@v0.48.0": {
-      "summary": "returned summaries from listings and write acks, clipped history values behind --full"
+    "cc-pool@v0.64.9": {
+      "summary": "pinned FuseKit v1.15.5 for the daemonkit v0.20.9 solve"
     },
     "cc-skills@v1.8.4": {
       "summary": "let the binrun shim tell the codex binary its plugin root, and kept the lane lock out of the GC"
     },
-    "spawnllm@v0.10.0": {
-      "summary": "stripped provider API keys from the child env and added a claude-sdk backend"
+    "spawnllm@v0.11.0": {
+      "summary": "added an Apple Foundation Models on-device backend and exact-model passthrough"
     }
   },
   "version": 1

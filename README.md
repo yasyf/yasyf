@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-27T10:26:27Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-27T12:46:56Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -24,20 +24,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-27` Was active in [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
-- `2026-07-27` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — required trusted signed release tags
-- `2026-07-27` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit)
-- `2026-07-27` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-07-27` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the tap formulae for cc-notes, cookiesync, and cc-orchestrate
-- `2026-07-27` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — polled for the deferred durable untrack and matched the widget's FuseKit pin to v1.15.3
-- `2026-07-27` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — reworked the v0.48.0 JSON surface: summaries on listings and acks, zero values omitted
-- `2026-07-27` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — kept the codex lane lock out of the GC's hands and made ship run prek hooks once per commit
-- `2026-07-27` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync) — hardened source tag verification and allowed packaged FuseKit helpers
-- `2026-07-27` Pushed to [yasyf/cc-patch](https://github.com/yasyf/cc-patch)
-- `2026-07-27` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync)
-- `2026-07-27` Starred [vercel-labs/scriptc](https://github.com/vercel-labs/scriptc)
+- `2026-07-27` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — built internal/kg, the derived graph over notes activity, plus its eval harness
+- `2026-07-27` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-pool, cc-orchestrate, cc-review, cc-present, and synckitd formulae
+- `2026-07-27` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — cut 0.15.3 on daemonkit v0.20.9 and sandboxed HOME in every orchestrate test
+- `2026-07-27` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — cut v0.64.9 and sandboxed daemonkit's home override alongside HOME
+- `2026-07-27` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — cut v0.33.3 and sandboxed the stable-program stagings that escaped real home
+- `2026-07-27` Cut a release in [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — cut v0.31.1 on daemonkit v0.20.9
+- `2026-07-27` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — sandboxed home-derived state behind internal/testhome
+- `2026-07-27` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit) — cut v0.36.4 with keyless helper agents and digest-staged helper programs
+- `2026-07-27` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — cut v0.31.3 on the daemonkit v0.20.9 pin
+- `2026-07-27` Pushed to [yasyf/yasyf](https://github.com/yasyf/yasyf)
+- `2026-07-27` Pushed to [yasyf/cc-pane](https://github.com/yasyf/cc-pane) — repinned the release-tag gate onto the unsigned-tag verifier
+- `2026-07-27` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — taught open-pr the repo's own voice and gated ship's graphite lane
 
-**16,845 contributions in the last year**
+**16,905 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -58,7 +58,7 @@
 
 - [cc-skills](https://github.com/yasyf/cc-skills) — the plugin marketplace where the whole toolbelt ships
 - [cc-guides](https://github.com/yasyf/cc-guides) — src→artifact doc rendering with embedded canonical fragments, keeping every repo's CLAUDE.md and AGENTS.md in sync
-- [cc-notes](https://github.com/yasyf/cc-notes) — a notes-and-tasks layer agents can actually use
+- [cc-notes](https://github.com/yasyf/cc-notes) — a notes-and-tasks layer agents can actually use, now with a derived knowledge graph over everything they've recorded
 - [cc-runtime](https://github.com/yasyf/cc-runtime) — a runtime that hands Claude Code its harness-injected tools, AskUserQuestion and friends
 - [cc-interact](https://github.com/yasyf/cc-interact) — the human-in-the-loop agent/daemon/web framework, pulled out of cc-review
 - [cc-present](https://github.com/yasyf/cc-present) — ad-hoc live web artifacts for a session: approval boards and choices whose every click streams back to the agent
@@ -114,13 +114,13 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0)
+- `2026-07-27` [cc-pool v0.64.9](https://github.com/yasyf/cc-pool/releases/tag/v0.64.9) — pinned FuseKit v1.15.5 for the daemonkit v0.20.9 solve
+- `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
 - `2026-07-27` [cc-notes v0.48.2](https://github.com/yasyf/cc-notes/releases/tag/v0.48.2)
-- `2026-07-27` [captain-hook v12.20.12](https://github.com/yasyf/captain-hook/releases/tag/v12.20.12)
-- `2026-07-26` [cc-context v0.34.0](https://github.com/yasyf/cc-context/releases/tag/v0.34.0)
+- `2026-07-27` [captain-hook v12.20.12](https://github.com/yasyf/captain-hook/releases/tag/v12.20.12) — repinned daemonkit v0.20.9 for the postinstall temp-HOME and launchctl fixes
 - `2026-07-26` [cc-skills v1.8.4](https://github.com/yasyf/cc-skills/releases/tag/v1.8.4) — let the binrun shim tell the codex binary its plugin root, and kept the lane lock out of the GC
-- `2026-07-26` [cc-pool v0.64.8](https://github.com/yasyf/cc-pool/releases/tag/v0.64.8)
 - `2026-07-24` [slop-cop v0.1.58](https://github.com/yasyf/slop-cop/releases/tag/v0.1.58)
+- `2026-07-24` [binrun v0.2.0](https://github.com/yasyf/binrun/releases/tag/v0.2.0) — updated daemonkit to v0.17.2
 - `2026-07-18` [authkit v0.2.0](https://github.com/yasyf/authkit/releases/tag/v0.2.0) — pinned cookiesync trust by its shipped module-path codesign identifier
 <!-- gh-profile:end:shipped -->
 
