@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-26T19:44:23Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-27T04:22:49Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -24,20 +24,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-07-27` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the tap formulae for cc-notes, cookiesync, and cc-orchestrate
+- `2026-07-27` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — unwedged cold upgrades and recalibrated models-pack routing for Opus 5
+- `2026-07-26` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
+- `2026-07-26` Cut a release in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
+- `2026-07-26` Was active in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-07-26` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-07-26` Was active in [yasyf/synckit](https://github.com/yasyf/synckit)
-- `2026-07-26` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the tap formulae for cc-notes, cookiesync, and cc-orchestrate
 - `2026-07-26` Was active in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-07-26` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — unwedged cold upgrades and recalibrated models-pack routing for Opus 5
 - `2026-07-26` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 - `2026-07-26` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit)
 - `2026-07-26` Created something new in [yasyf/synckit](https://github.com/yasyf/synckit)
 - `2026-07-26` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — reworked the v0.48.0 JSON surface: summaries on listings and acks, zero values omitted
-- `2026-07-26` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
-- `2026-07-26` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit)
-- `2026-07-26` Starred [macro-inc/macro](https://github.com/macro-inc/macro)
-- `2026-07-26` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — added short 8-hex review slugs and SPA serving for dotted /s/ deep links
 
-**16,908 contributions in the last year**
+**16,809 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -114,9 +114,8 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-26` [captain-hook v12.20.11](https://github.com/yasyf/captain-hook/releases/tag/v12.20.11)
+- `2026-07-27` [captain-hook v12.20.12](https://github.com/yasyf/captain-hook/releases/tag/v12.20.12)
 - `2026-07-26` [cc-notes v0.48.1](https://github.com/yasyf/cc-notes/releases/tag/v0.48.1)
-- `2026-07-26` [daemonkit v0.20.8](https://github.com/yasyf/daemonkit/releases/tag/v0.20.8)
 - `2026-07-26` [cc-skills v1.8.4](https://github.com/yasyf/cc-skills/releases/tag/v1.8.4) — let the binrun shim tell the codex binary its plugin root, and kept the lane lock out of the GC
 - `2026-07-26` [cc-pool v0.64.8](https://github.com/yasyf/cc-pool/releases/tag/v0.64.8)
 - `2026-07-24` [slop-cop v0.1.58](https://github.com/yasyf/slop-cop/releases/tag/v0.1.58)
