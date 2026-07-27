@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-27T04:22:49Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-27T10:26:27Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -24,20 +24,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-07-27` Was active in [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
+- `2026-07-27` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — required trusted signed release tags
+- `2026-07-27` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit)
+- `2026-07-27` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-07-27` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the tap formulae for cc-notes, cookiesync, and cc-orchestrate
-- `2026-07-27` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — unwedged cold upgrades and recalibrated models-pack routing for Opus 5
-- `2026-07-26` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
-- `2026-07-26` Cut a release in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
-- `2026-07-26` Was active in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-07-26` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-07-26` Was active in [yasyf/synckit](https://github.com/yasyf/synckit)
-- `2026-07-26` Was active in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-07-26` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-07-26` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit)
-- `2026-07-26` Created something new in [yasyf/synckit](https://github.com/yasyf/synckit)
-- `2026-07-26` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — reworked the v0.48.0 JSON surface: summaries on listings and acks, zero values omitted
+- `2026-07-27` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — polled for the deferred durable untrack and matched the widget's FuseKit pin to v1.15.3
+- `2026-07-27` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — reworked the v0.48.0 JSON surface: summaries on listings and acks, zero values omitted
+- `2026-07-27` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — kept the codex lane lock out of the GC's hands and made ship run prek hooks once per commit
+- `2026-07-27` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync) — hardened source tag verification and allowed packaged FuseKit helpers
+- `2026-07-27` Pushed to [yasyf/cc-patch](https://github.com/yasyf/cc-patch)
+- `2026-07-27` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync)
+- `2026-07-27` Starred [vercel-labs/scriptc](https://github.com/vercel-labs/scriptc)
 
-**16,809 contributions in the last year**
+**16,845 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -114,12 +114,13 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0)
+- `2026-07-27` [cc-notes v0.48.2](https://github.com/yasyf/cc-notes/releases/tag/v0.48.2)
 - `2026-07-27` [captain-hook v12.20.12](https://github.com/yasyf/captain-hook/releases/tag/v12.20.12)
-- `2026-07-26` [cc-notes v0.48.1](https://github.com/yasyf/cc-notes/releases/tag/v0.48.1)
+- `2026-07-26` [cc-context v0.34.0](https://github.com/yasyf/cc-context/releases/tag/v0.34.0)
 - `2026-07-26` [cc-skills v1.8.4](https://github.com/yasyf/cc-skills/releases/tag/v1.8.4) — let the binrun shim tell the codex binary its plugin root, and kept the lane lock out of the GC
 - `2026-07-26` [cc-pool v0.64.8](https://github.com/yasyf/cc-pool/releases/tag/v0.64.8)
 - `2026-07-24` [slop-cop v0.1.58](https://github.com/yasyf/slop-cop/releases/tag/v0.1.58)
-- `2026-07-19` [spawnllm v0.10.0](https://github.com/yasyf/spawnllm/releases/tag/v0.10.0) — stripped provider API keys from the child env and added a claude-sdk backend
 - `2026-07-18` [authkit v0.2.0](https://github.com/yasyf/authkit/releases/tag/v0.2.0) — pinned cookiesync trust by its shipped module-path codesign identifier
 <!-- gh-profile:end:shipped -->
 
