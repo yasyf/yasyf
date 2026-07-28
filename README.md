@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-27T20:05:35Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-28T03:46:44Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -24,20 +24,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-27` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-pool, cc-orchestrate, cc-review, cc-present, and synckitd formulae
+- `2026-07-28` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-pool, cc-orchestrate, cc-review, cc-present, and synckitd formulae
+- `2026-07-28` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-07-28` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — built internal/kg, the derived graph over notes activity, plus its eval harness
+- `2026-07-27` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
 - `2026-07-27` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 - `2026-07-27` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
-- `2026-07-27` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — built internal/kg, the derived graph over notes activity, plus its eval harness
 - `2026-07-27` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — cut 0.15.3 on daemonkit v0.20.9 and sandboxed HOME in every orchestrate test
 - `2026-07-27` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — cut v0.64.9 and sandboxed daemonkit's home override alongside HOME
 - `2026-07-27` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — cut v0.33.3 and sandboxed the stable-program stagings that escaped real home
 - `2026-07-27` Cut a release in [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — cut v0.31.1 on daemonkit v0.20.9
 - `2026-07-27` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — sandboxed home-derived state behind internal/testhome
 - `2026-07-27` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit) — cut v0.36.4 with keyless helper agents and digest-staged helper programs
-- `2026-07-27` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — cut v0.31.3 on the daemonkit v0.20.9 pin
-- `2026-07-27` Pushed to [yasyf/yasyf](https://github.com/yasyf/yasyf)
 
-**16,918 contributions in the last year**
+**16,949 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -114,8 +114,8 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-07-28` [cc-context v0.36.0](https://github.com/yasyf/cc-context/releases/tag/v0.36.0)
 - `2026-07-27` [captain-hook v12.20.13](https://github.com/yasyf/captain-hook/releases/tag/v12.20.13)
-- `2026-07-27` [daemonkit v0.20.10](https://github.com/yasyf/daemonkit/releases/tag/v0.20.10)
 - `2026-07-27` [cc-pool v0.64.9](https://github.com/yasyf/cc-pool/releases/tag/v0.64.9) — pinned FuseKit v1.15.5 for the daemonkit v0.20.9 solve
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
 - `2026-07-27` [cc-notes v0.48.2](https://github.com/yasyf/cc-notes/releases/tag/v0.48.2)
