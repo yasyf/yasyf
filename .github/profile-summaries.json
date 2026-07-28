@@ -1,12 +1,28 @@
 {
   "activity": {
+    "IssuesEvent:anthropics/claude-code": {
+      "as_of": "2026-07-28",
+      "summary": "filed the bundled-ugrep busy-loop: --ignore-files pointed at a directory spins at 100% CPU forever"
+    },
+    "PushEvent:yasyf/captain-hook": {
+      "as_of": "2236508c3c11",
+      "summary": "repinned daemonkit v0.20.10 across the Go host and Swift helper, and made slow-host handshakes transient"
+    },
+    "PushEvent:yasyf/cc-context": {
+      "as_of": "9508683e225b",
+      "summary": "made ccx --glob a repeatable, ordered rg-style list and made negated globs fail loudly"
+    },
+    "PushEvent:yasyf/cc-guides": {
+      "as_of": "f7461080896b",
+      "summary": "drilled through the pack manifest to resolve localdir sources"
+    },
     "PushEvent:yasyf/cc-interact": {
       "as_of": "1c5c50c6c9a1",
       "summary": "sandboxed home-derived state behind internal/testhome"
     },
     "PushEvent:yasyf/cc-notes": {
-      "as_of": "be590f763c95",
-      "summary": "built internal/kg, the derived graph over notes activity, plus its eval harness"
+      "as_of": "3ee946a63b5e",
+      "summary": "added internal/kg/rank, the fused retriever measured against BM25, and had hooks write graph edges"
     },
     "PushEvent:yasyf/cc-orchestrate": {
       "as_of": "a98dca367aac",
@@ -32,9 +48,17 @@
       "as_of": "712ee4b568fd",
       "summary": "taught open-pr the repo's own voice and gated ship's graphite lane"
     },
+    "PushEvent:yasyf/daemonkit": {
+      "as_of": "c77fd335d4e3",
+      "summary": "classified the dead-peer verification race as ErrPeerGone and added the Phase-0 CI guardrails"
+    },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "79042bc2df80",
-      "summary": "bumped the cc-pool, cc-orchestrate, cc-review, cc-present, and synckitd formulae"
+      "as_of": "c114173f300d",
+      "summary": "published the ccx v0.37.0 and captain-hook v12.20.13 formulae"
+    },
+    "PushEvent:yasyf/slop-cop": {
+      "as_of": "6c29cd7ed931",
+      "summary": "repinned the release-tag gate onto the unsigned-tag verifier"
     },
     "PushEvent:yasyf/synckit": {
       "as_of": "378311614735",
@@ -45,7 +69,7 @@
       "summary": "cut v0.31.1 on daemonkit v0.20.9"
     }
   },
-  "generated_at": "2026-07-27T12:46:39Z",
+  "generated_at": "2026-07-28T11:40:03Z",
   "shipped": {
     "authkit@v0.2.0": {
       "summary": "pinned cookiesync trust by its shipped module-path codesign identifier"
@@ -56,11 +80,26 @@
     "captain-hook@v12.20.12": {
       "summary": "repinned daemonkit v0.20.9 for the postinstall temp-HOME and launchctl fixes"
     },
+    "captain-hook@v12.20.13": {
+      "summary": "repinned daemonkit v0.20.10 and reclassified slow-host handshake timeouts as transient"
+    },
+    "cc-guides@v0.1.50": {
+      "summary": "required signed release tags and fixed ci-render pushes under exact-commit checkouts"
+    },
+    "cc-notes@v0.48.2": {
+      "summary": "pinned daemonkit v0.20.9"
+    },
     "cc-pool@v0.64.9": {
       "summary": "pinned FuseKit v1.15.5 for the daemonkit v0.20.9 solve"
     },
     "cc-skills@v1.8.4": {
       "summary": "let the binrun shim tell the codex binary its plugin root, and kept the lane lock out of the GC"
+    },
+    "daemonkit@v0.20.10": {
+      "summary": "added ErrPeerGone so a peer that exits mid-verification stops looking like a missing verifier"
+    },
+    "slop-cop@v0.1.58": {
+      "summary": "bumped release-go.yml to current tap main so the stale publish guard stops breaking releases"
     },
     "spawnllm@v0.11.0": {
       "summary": "added an Apple Foundation Models on-device backend and exact-model passthrough"
