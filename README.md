@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-29T03:50:12Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-29T09:22:16Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -24,12 +24,12 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-07-29` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — taught open-pr the repo's own voice and gated ship's graphite lane
 - `2026-07-29` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — classified the dead-peer verification race as ErrPeerGone and added the Phase-0 CI guardrails
 - `2026-07-28` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
 - `2026-07-28` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published the ccx v0.37.0 and captain-hook v12.20.13 formulae
 - `2026-07-28` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — added internal/kg/rank, the fused retriever measured against BM25, and had hooks write graph edges
 - `2026-07-28` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — made ccx --glob a repeatable, ordered rg-style list and made negated globs fail loudly
-- `2026-07-28` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — taught open-pr the repo's own voice and gated ship's graphite lane
 - `2026-07-28` Pushed to [yasyf/cc-guides](https://github.com/yasyf/cc-guides) — drilled through the pack manifest to resolve localdir sources
 - `2026-07-28` Triaged issues in [anthropics/claude-code](https://github.com/anthropics/claude-code) — filed the bundled-ugrep busy-loop: --ignore-files pointed at a directory spins at 100% CPU forever
 - `2026-07-27` Cut a release in [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — cut v0.31.1 on daemonkit v0.20.9
@@ -37,7 +37,7 @@
 - `2026-07-27` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 - `2026-07-26` Cut a release in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
 
-**17,103 contributions in the last year**
+**17,164 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
