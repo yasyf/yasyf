@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-29T11:52:31Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-29T14:43:18Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -24,6 +24,7 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-07-29` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — deleted --scope so -g/--glob is ccx's one path selector, then made the graphite reachability gate actually gate
 - `2026-07-29` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
 - `2026-07-29` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
 - `2026-07-29` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — repinned daemonkit v0.20.10 across the Go host and Swift helper, and made slow-host handshakes transient
@@ -34,10 +35,9 @@
 - `2026-07-29` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
 - `2026-07-29` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
 - `2026-07-29` Was active in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-07-29` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — deleted --scope so -g/--glob is ccx's one path selector, then made the graphite reachability gate actually gate
 - `2026-07-29` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — corrected the --help description of the graphite probe gate
 
-**17,183 contributions in the last year**
+**17,191 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
