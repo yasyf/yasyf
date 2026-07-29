@@ -1,75 +1,31 @@
 {
   "activity": {
-    "IssuesEvent:anthropics/claude-code": {
-      "as_of": "2026-07-28",
-      "summary": "filed the bundled-ugrep busy-loop: --ignore-files pointed at a directory spins at 100% CPU forever"
+    "PullRequestEvent:yasyf/cc-context": {
+      "as_of": "2026-07-29",
+      "summary": "corrected the --help description of the graphite probe gate"
     },
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "2236508c3c11",
+      "as_of": "93e0fc6bd8e5",
       "summary": "repinned daemonkit v0.20.10 across the Go host and Swift helper, and made slow-host handshakes transient"
     },
     "PushEvent:yasyf/cc-context": {
-      "as_of": "9508683e225b",
-      "summary": "made ccx --glob a repeatable, ordered rg-style list and made negated globs fail loudly"
-    },
-    "PushEvent:yasyf/cc-guides": {
-      "as_of": "f7461080896b",
-      "summary": "drilled through the pack manifest to resolve localdir sources"
-    },
-    "PushEvent:yasyf/cc-interact": {
-      "as_of": "1c5c50c6c9a1",
-      "summary": "sandboxed home-derived state behind internal/testhome"
-    },
-    "PushEvent:yasyf/cc-notes": {
-      "as_of": "3ee946a63b5e",
-      "summary": "added internal/kg/rank, the fused retriever measured against BM25, and had hooks write graph edges"
+      "as_of": "2956ea53161b",
+      "summary": "deleted --scope so -g/--glob is ccx's one path selector, then made the graphite reachability gate actually gate"
     },
     "PushEvent:yasyf/cc-orchestrate": {
-      "as_of": "a98dca367aac",
+      "as_of": "3126ab0bfed8",
       "summary": "cut 0.15.3 on daemonkit v0.20.9 and sandboxed HOME in every orchestrate test"
     },
-    "PushEvent:yasyf/cc-pane": {
-      "as_of": "33bf5ef74eb9",
-      "summary": "repinned the release-tag gate onto the unsigned-tag verifier"
-    },
-    "PushEvent:yasyf/cc-pool": {
-      "as_of": "980cc0015dab",
-      "summary": "cut v0.64.9 and sandboxed daemonkit's home override alongside HOME"
-    },
-    "PushEvent:yasyf/cc-present": {
-      "as_of": "a696d4efc164",
-      "summary": "cut v0.31.3 on the daemonkit v0.20.9 pin"
-    },
     "PushEvent:yasyf/cc-review": {
-      "as_of": "52c10492fc86",
+      "as_of": "46f0f71dd257",
       "summary": "cut v0.33.3 and sandboxed the stable-program stagings that escaped real home"
     },
-    "PushEvent:yasyf/cc-skills": {
-      "as_of": "712ee4b568fd",
-      "summary": "taught open-pr the repo's own voice and gated ship's graphite lane"
-    },
-    "PushEvent:yasyf/daemonkit": {
-      "as_of": "c77fd335d4e3",
-      "summary": "classified the dead-peer verification race as ErrPeerGone and added the Phase-0 CI guardrails"
-    },
-    "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "c114173f300d",
-      "summary": "published the ccx v0.37.0 and captain-hook v12.20.13 formulae"
-    },
-    "PushEvent:yasyf/slop-cop": {
-      "as_of": "6c29cd7ed931",
-      "summary": "repinned the release-tag gate onto the unsigned-tag verifier"
-    },
-    "PushEvent:yasyf/synckit": {
-      "as_of": "378311614735",
-      "summary": "cut v0.36.4 with keyless helper agents and digest-staged helper programs"
-    },
-    "ReleaseEvent:yasyf/cc-interact": {
-      "as_of": "2026-07-27",
-      "summary": "cut v0.31.1 on daemonkit v0.20.9"
+    "PushEvent:yasyf/spawnllm": {
+      "as_of": "5474bc132651",
+      "summary": "shipped Apple through a prebuilt Swift sidecar, one wasm blob per version, and locked the sidecar cache to its owner"
     }
   },
-  "generated_at": "2026-07-28T11:40:03Z",
+  "generated_at": "2026-07-29T11:52:07Z",
   "shipped": {
     "authkit@v0.2.0": {
       "summary": "pinned cookiesync trust by its shipped module-path codesign identifier"
@@ -88,6 +44,9 @@
     },
     "cc-notes@v0.48.2": {
       "summary": "pinned daemonkit v0.20.9"
+    },
+    "cc-notes@v0.49.0": {
+      "summary": "landed the derived knowledge graph: internal/kg, the kg command group, and a fused retriever measured against BM25"
     },
     "cc-pool@v0.64.9": {
       "summary": "pinned FuseKit v1.15.5 for the daemonkit v0.20.9 solve"

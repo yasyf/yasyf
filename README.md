@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-29T09:22:16Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-29T11:52:31Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -24,20 +24,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-29` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — taught open-pr the repo's own voice and gated ship's graphite lane
-- `2026-07-29` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — classified the dead-peer verification race as ErrPeerGone and added the Phase-0 CI guardrails
-- `2026-07-28` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
-- `2026-07-28` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published the ccx v0.37.0 and captain-hook v12.20.13 formulae
-- `2026-07-28` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — added internal/kg/rank, the fused retriever measured against BM25, and had hooks write graph edges
-- `2026-07-28` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — made ccx --glob a repeatable, ordered rg-style list and made negated globs fail loudly
-- `2026-07-28` Pushed to [yasyf/cc-guides](https://github.com/yasyf/cc-guides) — drilled through the pack manifest to resolve localdir sources
-- `2026-07-28` Triaged issues in [anthropics/claude-code](https://github.com/anthropics/claude-code) — filed the bundled-ugrep busy-loop: --ignore-files pointed at a directory spins at 100% CPU forever
-- `2026-07-27` Cut a release in [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — cut v0.31.1 on daemonkit v0.20.9
-- `2026-07-27` Starred [vercel-labs/scriptc](https://github.com/vercel-labs/scriptc)
-- `2026-07-27` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-07-26` Cut a release in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
+- `2026-07-29` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
+- `2026-07-29` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-07-29` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — repinned daemonkit v0.20.10 across the Go host and Swift helper, and made slow-host handshakes transient
+- `2026-07-29` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — cut v0.33.3 and sandboxed the stable-program stagings that escaped real home
+- `2026-07-29` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash)
+- `2026-07-29` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — cut 0.15.3 on daemonkit v0.20.9 and sandboxed HOME in every orchestrate test
+- `2026-07-29` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — shipped Apple through a prebuilt Swift sidecar, one wasm blob per version, and locked the sidecar cache to its owner
+- `2026-07-29` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
+- `2026-07-29` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
+- `2026-07-29` Was active in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-07-29` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — deleted --scope so -g/--glob is ccx's one path selector, then made the graphite reachability gate actually gate
+- `2026-07-29` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — corrected the --help description of the graphite probe gate
 
-**17,164 contributions in the last year**
+**17,183 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -71,7 +71,7 @@
 **Taming long sessions**
 
 - [cc-merge](https://github.com/yasyf/cc-merge) — a merge queue for the git worktrees where finished Claude outputs land
-- [cc-context](https://github.com/yasyf/cc-context) — ccx, a token-bounded codebase-context facade over semble + tilth
+- [cc-context](https://github.com/yasyf/cc-context) — ccx, token-bounded codebase context for agents, with semantic search now running in-process instead of farmed out to semble
 - [cc-squash](https://github.com/yasyf/cc-squash) — augmented auto-compaction for marathon Claude Code sessions
 - [cc-vigil](https://github.com/yasyf/cc-vigil) — a transcript-oracle sleep inhibitor that keeps your Mac awake only while Claude agents are truly working
 
@@ -88,7 +88,7 @@
 - [binrun](https://github.com/yasyf/binrun) — fetch, verify, and exec the exact artifact a descriptor pins: release binaries, Python tools, signed apps — the shim the cc-* tools now ship behind
 - [semisweet](https://github.com/yasyf/semisweet) — an async, in-memory semantic cache with pluggable backends
 - [experiment-at-home](https://github.com/yasyf/experiment-at-home) — the plumbing every local AI experiment rebuilds, built once: modal, mlx-lm, and tinker backends behind one registry
-- [spawnllm](https://github.com/yasyf/spawnllm) — call an LLM from any subshell: Claude, Codex, or a local MLX model
+- [spawnllm](https://github.com/yasyf/spawnllm) — call an LLM from any subshell: Claude, Codex, a local MLX model, or Apple's on-device Foundation Models
 - [pocket-llm](https://github.com/yasyf/pocket-llm) — on-device LLM sessions for any browser: Chrome's Prompt API, WebLLM, or wllama, picked by feature detection, smallest model first
 
 **Cross-host sync**
@@ -114,13 +114,14 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-28` [cc-notes v0.49.0](https://github.com/yasyf/cc-notes/releases/tag/v0.49.0)
+- `2026-07-28` [cc-notes v0.49.0](https://github.com/yasyf/cc-notes/releases/tag/v0.49.0) — landed the derived knowledge graph: internal/kg, the kg command group, and a fused retriever measured against BM25
 - `2026-07-27` [captain-hook v12.20.13](https://github.com/yasyf/captain-hook/releases/tag/v12.20.13) — repinned daemonkit v0.20.10 and reclassified slow-host handshake timeouts as transient
-- `2026-07-27` [daemonkit v0.20.10](https://github.com/yasyf/daemonkit/releases/tag/v0.20.10) — added ErrPeerGone so a peer that exits mid-verification stops looking like a missing verifier
 - `2026-07-27` [cc-pool v0.64.9](https://github.com/yasyf/cc-pool/releases/tag/v0.64.9) — pinned FuseKit v1.15.5 for the daemonkit v0.20.9 solve
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
 - `2026-07-26` [cc-skills v1.8.4](https://github.com/yasyf/cc-skills/releases/tag/v1.8.4) — let the binrun shim tell the codex binary its plugin root, and kept the lane lock out of the GC
 - `2026-07-24` [slop-cop v0.1.58](https://github.com/yasyf/slop-cop/releases/tag/v0.1.58) — bumped release-go.yml to current tap main so the stale publish guard stops breaking releases
+- `2026-07-24` [binrun v0.2.0](https://github.com/yasyf/binrun/releases/tag/v0.2.0) — updated daemonkit to v0.17.2
+- `2026-07-18` [authkit v0.2.0](https://github.com/yasyf/authkit/releases/tag/v0.2.0) — pinned cookiesync trust by its shipped module-path codesign identifier
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
