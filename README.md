@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-30T09:14:49Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-30T11:34:39Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -24,17 +24,17 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-07-30` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-07-29` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — deleted --scope so -g/--glob is ccx's one path selector, then made the graphite reachability gate actually gate
-- `2026-07-29` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
-- `2026-07-29` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-07-30` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — cut v0.33.3 and sandboxed the stable-program stagings that escaped real home
+- `2026-07-30` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — adopted the daemonkit verifier self-probe and tightened the tag-signer gate
+- `2026-07-30` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — cut 0.15.3 on daemonkit v0.20.9 and sandboxed HOME in every orchestrate test
+- `2026-07-30` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — shipped Apple through a prebuilt Swift sidecar and one wasm blob per version
+- `2026-07-30` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home) — reaped completed detach children and added the plugin autobump CI caller
+- `2026-07-30` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
+- `2026-07-30` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — made dynamic workflows the default and banned inline sweeps in parallelize
+- `2026-07-29` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — bounded the grep auto-regex retry and the engine subprocess
+- `2026-07-29` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer) — cut shadow state over to the cc-transcript exact schema v1
+- `2026-07-29` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — made decision schema mismatches archive-and-continue instead of failing closed
 - `2026-07-29` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — repinned daemonkit v0.20.10 across the Go host and Swift helper, and made slow-host handshakes transient
-- `2026-07-29` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — cut v0.33.3 and sandboxed the stable-program stagings that escaped real home
-- `2026-07-29` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash)
-- `2026-07-29` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — cut 0.15.3 on daemonkit v0.20.9 and sandboxed HOME in every orchestrate test
-- `2026-07-29` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — shipped Apple through a prebuilt Swift sidecar, one wasm blob per version, and locked the sidecar cache to its owner
-- `2026-07-29` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
-- `2026-07-29` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
 - `2026-07-29` Was active in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 
 **17,215 contributions in the last year**
@@ -115,12 +115,13 @@
 
 <!-- gh-profile:start:shipped -->
 - `2026-07-28` [cc-notes v0.49.0](https://github.com/yasyf/cc-notes/releases/tag/v0.49.0) — landed the derived knowledge graph: internal/kg, the kg command group, and a fused retriever measured against BM25
-- `2026-07-28` [cc-context v0.39.0](https://github.com/yasyf/cc-context/releases/tag/v0.39.0)
 - `2026-07-27` [captain-hook v12.20.13](https://github.com/yasyf/captain-hook/releases/tag/v12.20.13) — repinned daemonkit v0.20.10 and reclassified slow-host handshake timeouts as transient
 - `2026-07-27` [cc-pool v0.64.9](https://github.com/yasyf/cc-pool/releases/tag/v0.64.9) — pinned FuseKit v1.15.5 for the daemonkit v0.20.9 solve
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
 - `2026-07-26` [cc-skills v1.8.4](https://github.com/yasyf/cc-skills/releases/tag/v1.8.4) — let the binrun shim tell the codex binary its plugin root, and kept the lane lock out of the GC
 - `2026-07-24` [slop-cop v0.1.58](https://github.com/yasyf/slop-cop/releases/tag/v0.1.58) — bumped release-go.yml to current tap main so the stale publish guard stops breaking releases
+- `2026-07-24` [binrun v0.2.0](https://github.com/yasyf/binrun/releases/tag/v0.2.0) — updated daemonkit to v0.17.2
+- `2026-07-18` [authkit v0.2.0](https://github.com/yasyf/authkit/releases/tag/v0.2.0) — pinned cookiesync trust by its shipped module-path codesign identifier
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
