@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-30T20:03:17Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-31T04:00:47Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -24,20 +24,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-07-31` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-07-31` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-07-31` Pushed to [yasyf/cc-patch](https://github.com/yasyf/cc-patch)
 - `2026-07-30` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
-- `2026-07-30` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
 - `2026-07-30` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit)
 - `2026-07-30` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — shipped Apple through a prebuilt Swift sidecar and one wasm blob per version
 - `2026-07-30` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync)
 - `2026-07-30` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — made decision schema mismatches archive-and-continue instead of failing closed
 - `2026-07-30` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — cut v0.33.3 and sandboxed the stable-program stagings that escaped real home
 - `2026-07-30` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present)
-- `2026-07-30` Pushed to [yasyf/cc-patch](https://github.com/yasyf/cc-patch)
 - `2026-07-30` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — cut 0.15.3 on daemonkit v0.20.9 and sandboxed HOME in every orchestrate test
 - `2026-07-30` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
-- `2026-07-30` Pushed to [yasyf/cc-guides](https://github.com/yasyf/cc-guides)
 
-**17,282 contributions in the last year**
+**17,298 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -114,12 +114,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-07-30` [cc-guides v0.1.53](https://github.com/yasyf/cc-guides/releases/tag/v0.1.53)
-- `2026-07-28` [cc-notes v0.49.0](https://github.com/yasyf/cc-notes/releases/tag/v0.49.0) — landed the derived knowledge graph: internal/kg, the kg command group, and a fused retriever measured against BM25
+- `2026-07-31` [cc-notes v0.50.0](https://github.com/yasyf/cc-notes/releases/tag/v0.50.0)
 - `2026-07-27` [captain-hook v12.20.13](https://github.com/yasyf/captain-hook/releases/tag/v12.20.13) — repinned daemonkit v0.20.10 and reclassified slow-host handshake timeouts as transient
-- `2026-07-27` [daemonkit v0.20.10](https://github.com/yasyf/daemonkit/releases/tag/v0.20.10)
 - `2026-07-27` [cc-pool v0.64.9](https://github.com/yasyf/cc-pool/releases/tag/v0.64.9) — pinned FuseKit v1.15.5 for the daemonkit v0.20.9 solve
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
+- `2026-07-27` [cc-patch v0.12.3](https://github.com/yasyf/cc-patch/releases/tag/v0.12.3)
 - `2026-07-26` [cc-skills v1.8.4](https://github.com/yasyf/cc-skills/releases/tag/v1.8.4) — let the binrun shim tell the codex binary its plugin root, and kept the lane lock out of the GC
 - `2026-07-24` [slop-cop v0.1.58](https://github.com/yasyf/slop-cop/releases/tag/v0.1.58) — bumped release-go.yml to current tap main so the stale publish guard stops breaking releases
 <!-- gh-profile:end:shipped -->
