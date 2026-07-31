@@ -1,59 +1,44 @@
 {
   "activity": {
-    "PushEvent:yasyf/captain-hook": {
-      "as_of": "93e0fc6bd8e5",
-      "summary": "repinned daemonkit v0.20.10 across the Go host and Swift helper, and made slow-host handshakes transient"
-    },
     "PushEvent:yasyf/cc-context": {
-      "as_of": "fb6402ab4815",
-      "summary": "bounded the grep auto-regex retry and the engine subprocess"
+      "as_of": "2b8465744e21",
+      "summary": "read jj without snapshotting the working copy and fixed bookmark resolution"
     },
-    "PushEvent:yasyf/cc-orchestrate": {
-      "as_of": "eff16c147691",
-      "summary": "cut 0.15.3 on daemonkit v0.20.9 and sandboxed HOME in every orchestrate test"
+    "PushEvent:yasyf/cc-notes": {
+      "as_of": "fbfb1ddf0516",
+      "summary": "made gitobj honor the shallow graft and read rev:path in process"
     },
-    "PushEvent:yasyf/cc-review": {
-      "as_of": "96aa3c47c33f",
-      "summary": "cut v0.33.3 and sandboxed the stable-program stagings that escaped real home"
+    "PushEvent:yasyf/cc-patch": {
+      "as_of": "0d29f01ac56d",
+      "summary": "added the noshadow builtin pack and retired patches when their issue closes"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "6c4d8b95f9d6",
-      "summary": "made dynamic workflows the default and banned inline sweeps in parallelize"
+      "as_of": "65bfa5aeecd1",
+      "summary": "stopped scaffolding fragment dirs that shadow their rendered artifacts"
     },
     "PushEvent:yasyf/cc-squash": {
-      "as_of": "dc0fa2209b7b",
-      "summary": "adopted the daemonkit verifier self-probe and tightened the tag-signer gate"
+      "as_of": "a20f4b35a5ed",
+      "summary": "adopted the daemonkit verifier self-probe and tightened the release-tag gate"
     },
-    "PushEvent:yasyf/cc-steer": {
-      "as_of": "a510d963ec32",
-      "summary": "cut shadow state over to the cc-transcript exact schema v1"
+    "PushEvent:yasyf/daemonkit": {
+      "as_of": "f06775019d1e",
+      "summary": "rebuilt wire as internal/wire and moved the Swift client to protocol 2"
     },
-    "PushEvent:yasyf/cc-transcript": {
-      "as_of": "76344ecd6739",
-      "summary": "made decision schema mismatches archive-and-continue instead of failing closed"
-    },
-    "PushEvent:yasyf/experiment-at-home": {
-      "as_of": "5635f54f65b5",
-      "summary": "reaped completed detach children and added the plugin autobump CI caller"
-    },
-    "PushEvent:yasyf/spawnllm": {
-      "as_of": "8700e6cb4107",
-      "summary": "shipped Apple through a prebuilt Swift sidecar and one wasm blob per version"
+    "PushEvent:yasyf/slop-cop": {
+      "as_of": "571adbe55c5d",
+      "summary": "greened the CI suite under -race and fixed the prompt goldens' newline"
     }
   },
-  "generated_at": "2026-07-30T11:34:16Z",
+  "generated_at": "2026-07-31T11:43:19Z",
   "shipped": {
     "authkit@v0.2.0": {
       "summary": "pinned cookiesync trust by its shipped module-path codesign identifier"
     },
-    "binrun@v0.2.0": {
-      "summary": "updated daemonkit to v0.17.2"
-    },
     "captain-hook@v12.20.13": {
       "summary": "repinned daemonkit v0.20.10 and reclassified slow-host handshake timeouts as transient"
     },
-    "cc-notes@v0.49.0": {
-      "summary": "landed the derived knowledge graph: internal/kg, the kg command group, and a fused retriever measured against BM25"
+    "cc-notes@v0.50.0": {
+      "summary": "registered repositories in a per-user root and resolved a cwd without exec"
     },
     "cc-pool@v0.64.9": {
       "summary": "pinned FuseKit v1.15.5 for the daemonkit v0.20.9 solve"
@@ -61,8 +46,8 @@
     "cc-skills@v1.8.4": {
       "summary": "let the binrun shim tell the codex binary its plugin root, and kept the lane lock out of the GC"
     },
-    "slop-cop@v0.1.58": {
-      "summary": "bumped release-go.yml to current tap main so the stale publish guard stops breaking releases"
+    "slop-cop@v0.1.59": {
+      "summary": "added a clarity base layer and repaired the dead LLM tiers"
     },
     "spawnllm@v0.11.0": {
       "summary": "added an Apple Foundation Models on-device backend and exact-model passthrough"
