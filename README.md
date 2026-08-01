@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-07-31T11:43:33Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-01T04:01:35Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -24,6 +24,8 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-08-01` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — rebuilt wire as internal/wire and moved the Swift client to protocol 2
+- `2026-07-31` Pushed to [yasyf/gpt-do](https://github.com/yasyf/gpt-do)
 - `2026-07-31` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
 - `2026-07-31` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — adopted the daemonkit verifier self-probe and tightened the release-tag gate
 - `2026-07-31` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
@@ -33,11 +35,9 @@
 - `2026-07-31` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — stopped scaffolding fragment dirs that shadow their rendered artifacts
 - `2026-07-31` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop) — greened the CI suite under -race and fixed the prompt goldens' newline
 - `2026-07-31` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
-- `2026-07-31` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — rebuilt wire as internal/wire and moved the Swift client to protocol 2
 - `2026-07-31` Pushed to [yasyf/cc-patch](https://github.com/yasyf/cc-patch) — added the noshadow builtin pack and retired patches when their issue closes
-- `2026-07-29` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 
-**17,356 contributions in the last year**
+**17,377 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -117,10 +117,10 @@
 - `2026-07-31` [slop-cop v0.1.59](https://github.com/yasyf/slop-cop/releases/tag/v0.1.59) — added a clarity base layer and repaired the dead LLM tiers
 - `2026-07-31` [cc-notes v0.50.0](https://github.com/yasyf/cc-notes/releases/tag/v0.50.0) — registered repositories in a per-user root and resolved a cwd without exec
 - `2026-07-27` [captain-hook v12.20.13](https://github.com/yasyf/captain-hook/releases/tag/v12.20.13) — repinned daemonkit v0.20.10 and reclassified slow-host handshake timeouts as transient
+- `2026-07-27` [daemonkit v0.20.10](https://github.com/yasyf/daemonkit/releases/tag/v0.20.10)
 - `2026-07-27` [cc-pool v0.64.9](https://github.com/yasyf/cc-pool/releases/tag/v0.64.9) — pinned FuseKit v1.15.5 for the daemonkit v0.20.9 solve
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
 - `2026-07-26` [cc-skills v1.8.4](https://github.com/yasyf/cc-skills/releases/tag/v1.8.4) — let the binrun shim tell the codex binary its plugin root, and kept the lane lock out of the GC
-- `2026-07-18` [authkit v0.2.0](https://github.com/yasyf/authkit/releases/tag/v0.2.0) — pinned cookiesync trust by its shipped module-path codesign identifier
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
