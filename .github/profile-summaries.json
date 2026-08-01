@@ -1,38 +1,57 @@
 {
   "activity": {
+    "PushEvent:yasyf/captain-hook": {
+      "as_of": "2190c461d2aa",
+      "summary": "retargeted the models-pack nudges so tool-driving is fable's lane and implementation isn't"
+    },
     "PushEvent:yasyf/cc-context": {
-      "as_of": "2b8465744e21",
-      "summary": "read jj without snapshotting the working copy and fixed bookmark resolution"
+      "as_of": "8ce0dcf1c1b6",
+      "summary": "keyed the repository caches on the repo instead of the checkout, and stopped ccx wedging on a stalled subprocess"
     },
     "PushEvent:yasyf/cc-notes": {
-      "as_of": "fbfb1ddf0516",
-      "summary": "made gitobj honor the shallow graft and read rev:path in process"
+      "as_of": "312402426eac",
+      "summary": "added the plan kind, so approved plans are recorded verbatim and revised in place"
+    },
+    "PushEvent:yasyf/cc-orchestrate": {
+      "as_of": "e5e65adb1b0c",
+      "summary": "cut 0.15.3 onto daemonkit v0.20.9 and sandboxed HOME in every orchestrate test"
     },
     "PushEvent:yasyf/cc-patch": {
       "as_of": "0d29f01ac56d",
       "summary": "added the noshadow builtin pack and retired patches when their issue closes"
+    },
+    "PushEvent:yasyf/cc-review": {
+      "as_of": "dfea6a505e13",
+      "summary": "shipped v0.33.3 onto daemonkit v0.20.9 and sandboxed the stagings that escaped the real home"
     },
     "PushEvent:yasyf/cc-skills": {
       "as_of": "65bfa5aeecd1",
       "summary": "stopped scaffolding fragment dirs that shadow their rendered artifacts"
     },
     "PushEvent:yasyf/cc-squash": {
-      "as_of": "a20f4b35a5ed",
+      "as_of": "df416b54c70a",
       "summary": "adopted the daemonkit verifier self-probe and tightened the release-tag gate"
     },
     "PushEvent:yasyf/daemonkit": {
-      "as_of": "f06775019d1e",
-      "summary": "rebuilt wire as internal/wire and moved the Swift client to protocol 2"
+      "as_of": "4df0aa0e4580",
+      "summary": "made durable/ and launchd public behind a root Serve/Client/Control surface, and went macOS-only"
     },
     "PushEvent:yasyf/slop-cop": {
       "as_of": "571adbe55c5d",
       "summary": "greened the CI suite under -race and fixed the prompt goldens' newline"
+    },
+    "PushEvent:yasyf/spawnllm": {
+      "as_of": "193c6f837ce9",
+      "summary": "shipped Apple through a prebuilt Swift sidecar and one wasm blob per version"
     }
   },
-  "generated_at": "2026-07-31T11:43:19Z",
+  "generated_at": "2026-08-01T11:03:22Z",
   "shipped": {
     "authkit@v0.2.0": {
       "summary": "pinned cookiesync trust by its shipped module-path codesign identifier"
+    },
+    "binrun@v0.2.0": {
+      "summary": "moved onto daemonkit v0.17.2"
     },
     "captain-hook@v12.20.13": {
       "summary": "repinned daemonkit v0.20.10 and reclassified slow-host handshake timeouts as transient"
