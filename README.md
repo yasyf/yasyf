@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-01T19:44:08Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-02T04:04:08Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -24,20 +24,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-08-01` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — made durable/ and launchd public behind a root Serve/Client/Control surface, and went macOS-only
+- `2026-08-02` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — made durable/ and launchd public behind a root Serve/Client/Control surface, and went macOS-only
 - `2026-08-01` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
 - `2026-08-01` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
 - `2026-08-01` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — shipped v0.33.3 onto daemonkit v0.20.9 and sandboxed the stagings that escaped the real home
-- `2026-08-01` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — adopted the daemonkit verifier self-probe and tightened the release-tag gate
-- `2026-08-01` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — shipped Apple through a prebuilt Swift sidecar and one wasm blob per version
-- `2026-08-01` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — cut 0.15.3 onto daemonkit v0.20.9 and sandboxed HOME in every orchestrate test
-- `2026-08-01` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
-- `2026-08-01` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
-- `2026-08-01` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — added the plan kind, so approved plans are recorded verbatim and revised in place
-- `2026-08-01` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — keyed the repository caches on the repo instead of the checkout, and stopped ccx wedging on a stalled subprocess
-- `2026-08-01` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — retargeted the models-pack nudges so tool-driving is fable's lane and implementation isn't
+- `2026-07-29` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-07-28` Triaged issues in [anthropics/claude-code](https://github.com/anthropics/claude-code)
+- `2026-07-27` Cut a release in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
+- `2026-07-27` Starred [vercel-labs/scriptc](https://github.com/vercel-labs/scriptc)
+- `2026-07-27` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-07-26` Cut a release in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
+- `2026-07-26` Starred [macro-inc/macro](https://github.com/macro-inc/macro)
+- `2026-07-25` Starred [stablyai/orca](https://github.com/stablyai/orca)
 
-**17,520 contributions in the last year**
+**17,543 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
