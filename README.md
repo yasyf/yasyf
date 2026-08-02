@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-02T04:04:08Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-02T11:07:23Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -15,7 +15,7 @@
 
 - Building the missing toolbelt for Claude Code: [captain-hook](https://github.com/yasyf/captain-hook) for declarative hooks, [cc-pool](https://github.com/yasyf/cc-pool) for account pooling, [cc-review](https://github.com/yasyf/cc-review) for reviewing Claude's diffs in a PR-style web UI, [cc-transcript](https://github.com/yasyf/cc-transcript) for typed transcripts, and [slop-cop](https://github.com/yasyf/slop-cop) to catch AI-flavored prose
 - Converging those pieces into one session-activity platform — typed events and a decision ledger in cc-transcript, with captain-hook as its hook runtime — and building [cc-orchestrate](https://github.com/yasyf/cc-orchestrate) into a pure-Go CLI that runs fleets of agents across pluggable backends like cmux, superset, tmux, and zellij, each with an AgentProber liveness check for long-lived, keep-alive sessions — with [cc-vigil](https://github.com/yasyf/cc-vigil), a transcript-oracle sleep inhibitor, keeping the Mac awake only while those agents are truly working
-- Hard-cutting the whole cc-* fleet onto shared substrate: [daemonkit](https://github.com/yasyf/daemonkit) for daemon lifecycle — now four phases into a hard cut: wire, trust, and proc carved into internal packages, durable/ and launchd made public behind one macOS-only root Serve/Client/Control surface, and one schema generating the frame codec for both Go and Swift behind a drift gate — and [binrun](https://github.com/yasyf/binrun) for distribution, with every release gated on a tag resolving to one exact commit on main
+- Hard-cutting the whole cc-* fleet onto shared substrate: [daemonkit](https://github.com/yasyf/daemonkit) for daemon lifecycle — now four phases into a hard cut: wire, trust, and proc carved into internal packages, durable/ and launchd made public behind one macOS-only root Serve/Client/Control surface, and one schema generating the frame codec for both Go and Swift behind a drift gate, with no byte now reaching a peer whose code identity hasn't been judged — and [binrun](https://github.com/yasyf/binrun) for distribution, with every release gated on a tag resolving to one exact commit on main
 - Running [cc-sentiment](https://github.com/yasyf/cc-sentiment), an open experiment in whether developer sentiment with Claude Code tracks the model, the tooling, or just the time of day
 - Self-hosting [yclaw](https://github.com/yasyf/yclaw), an always-on, reproducible Apple Silicon home server for the Nous hermes-agent — gVisor-sandboxed and tailnet-only, so the agent never touches your credentials
 - Engineer & CEO at [Aneta](https://aneta.company)
@@ -24,16 +24,16 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-08-02` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — made durable/ and launchd public behind a root Serve/Client/Control surface, and went macOS-only
-- `2026-08-01` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
-- `2026-08-01` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-08-02` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — closed the trust gate ahead of the first byte, so a same-UID socket squatter harvests nothing
+- `2026-08-01` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer) — re-rendered the bundled guides onto cc-guides 0.1.53
+- `2026-08-01` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — re-rendered the bundled guides onto cc-guides 0.1.53
 - `2026-08-01` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — shipped v0.33.3 onto daemonkit v0.20.9 and sandboxed the stagings that escaped the real home
-- `2026-07-29` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-07-28` Triaged issues in [anthropics/claude-code](https://github.com/anthropics/claude-code)
-- `2026-07-27` Cut a release in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
+- `2026-07-29` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — corrected the ship --help text after v0.39.0 inverted the graphite probe gate
+- `2026-07-28` Triaged issues in [anthropics/claude-code](https://github.com/anthropics/claude-code) — reported the bundled ugrep busy-loop that pins a machine when --ignore-files resolves to a directory
+- `2026-07-27` Cut a release in [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — pinned daemonkit v0.20.9 so helper installs resolve the real home under Homebrew's sandboxed postinstall
 - `2026-07-27` Starred [vercel-labs/scriptc](https://github.com/vercel-labs/scriptc)
-- `2026-07-27` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-07-26` Cut a release in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
+- `2026-07-27` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — stopped the stewardship nudge firing on a first-person report of fixing a flake
+- `2026-07-26` Cut a release in [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — moved durable untrack out of the settlement reserve so a slow store can't terminalize a worker claim
 - `2026-07-26` Starred [macro-inc/macro](https://github.com/macro-inc/macro)
 - `2026-07-25` Starred [stablyai/orca](https://github.com/stablyai/orca)
 
@@ -117,7 +117,7 @@
 - `2026-07-31` [slop-cop v0.1.59](https://github.com/yasyf/slop-cop/releases/tag/v0.1.59) — added a clarity base layer and repaired the dead LLM tiers
 - `2026-07-31` [cc-notes v0.50.0](https://github.com/yasyf/cc-notes/releases/tag/v0.50.0) — registered repositories in a per-user root and resolved a cwd without exec
 - `2026-07-27` [captain-hook v12.20.13](https://github.com/yasyf/captain-hook/releases/tag/v12.20.13) — repinned daemonkit v0.20.10 and reclassified slow-host handshake timeouts as transient
-- `2026-07-27` [daemonkit v0.20.10](https://github.com/yasyf/daemonkit/releases/tag/v0.20.10)
+- `2026-07-27` [daemonkit v0.20.10](https://github.com/yasyf/daemonkit/releases/tag/v0.20.10) — classified peers that exit mid-verification as ErrPeerGone, quieting a log flood and unbricking the lifecycle client
 - `2026-07-27` [cc-pool v0.64.9](https://github.com/yasyf/cc-pool/releases/tag/v0.64.9) — pinned FuseKit v1.15.5 for the daemonkit v0.20.9 solve
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
 - `2026-07-26` [cc-skills v1.8.4](https://github.com/yasyf/cc-skills/releases/tag/v1.8.4) — let the binrun shim tell the codex binary its plugin root, and kept the lane lock out of the GC

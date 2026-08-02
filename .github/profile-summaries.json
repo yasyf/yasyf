@@ -1,58 +1,44 @@
 {
   "activity": {
-    "PushEvent:yasyf/captain-hook": {
-      "as_of": "2190c461d2aa",
-      "summary": "retargeted the models-pack nudges so tool-driving is fable's lane and implementation isn't"
+    "IssuesEvent:anthropics/claude-code": {
+      "as_of": "2026-07-28T10:09:15Z",
+      "summary": "reported the bundled ugrep busy-loop that pins a machine when --ignore-files resolves to a directory"
     },
-    "PushEvent:yasyf/cc-context": {
-      "as_of": "8ce0dcf1c1b6",
-      "summary": "keyed the repository caches on the repo instead of the checkout, and stopped ccx wedging on a stalled subprocess"
+    "PullRequestEvent:yasyf/captain-hook": {
+      "as_of": "2026-07-27T08:27:56Z",
+      "summary": "stopped the stewardship nudge firing on a first-person report of fixing a flake"
     },
-    "PushEvent:yasyf/cc-notes": {
-      "as_of": "312402426eac",
-      "summary": "added the plan kind, so approved plans are recorded verbatim and revised in place"
-    },
-    "PushEvent:yasyf/cc-orchestrate": {
-      "as_of": "e5e65adb1b0c",
-      "summary": "cut 0.15.3 onto daemonkit v0.20.9 and sandboxed HOME in every orchestrate test"
-    },
-    "PushEvent:yasyf/cc-patch": {
-      "as_of": "0d29f01ac56d",
-      "summary": "added the noshadow builtin pack and retired patches when their issue closes"
+    "PullRequestEvent:yasyf/cc-context": {
+      "as_of": "2026-07-29T10:32:39Z",
+      "summary": "corrected the ship --help text after v0.39.0 inverted the graphite probe gate"
     },
     "PushEvent:yasyf/cc-review": {
       "as_of": "dfea6a505e13",
       "summary": "shipped v0.33.3 onto daemonkit v0.20.9 and sandboxed the stagings that escaped the real home"
     },
-    "PushEvent:yasyf/cc-skills": {
-      "as_of": "65bfa5aeecd1",
-      "summary": "stopped scaffolding fragment dirs that shadow their rendered artifacts"
+    "PushEvent:yasyf/cc-steer": {
+      "as_of": "9ec79e0d9ea9",
+      "summary": "re-rendered the bundled guides onto cc-guides 0.1.53"
     },
-    "PushEvent:yasyf/cc-squash": {
-      "as_of": "df416b54c70a",
-      "summary": "adopted the daemonkit verifier self-probe and tightened the release-tag gate"
+    "PushEvent:yasyf/cc-transcript": {
+      "as_of": "94cbb6857efd",
+      "summary": "re-rendered the bundled guides onto cc-guides 0.1.53"
     },
     "PushEvent:yasyf/daemonkit": {
-      "as_of": "4df0aa0e4580",
-      "summary": "made durable/ and launchd public behind a root Serve/Client/Control surface, and went macOS-only"
+      "as_of": "0efa6e85cbc0",
+      "summary": "closed the trust gate ahead of the first byte, so a same-UID socket squatter harvests nothing"
     },
-    "PushEvent:yasyf/slop-cop": {
-      "as_of": "571adbe55c5d",
-      "summary": "greened the CI suite under -race and fixed the prompt goldens' newline"
+    "ReleaseEvent:yasyf/cc-interact": {
+      "as_of": "2026-07-27T11:40:13Z",
+      "summary": "pinned daemonkit v0.20.9 so helper installs resolve the real home under Homebrew's sandboxed postinstall"
     },
-    "PushEvent:yasyf/spawnllm": {
-      "as_of": "193c6f837ce9",
-      "summary": "shipped Apple through a prebuilt Swift sidecar and one wasm blob per version"
+    "ReleaseEvent:yasyf/daemonkit": {
+      "as_of": "2026-07-26T23:40:33Z",
+      "summary": "moved durable untrack out of the settlement reserve so a slow store can't terminalize a worker claim"
     }
   },
-  "generated_at": "2026-08-01T11:03:22Z",
+  "generated_at": "2026-08-02T11:07:16Z",
   "shipped": {
-    "authkit@v0.2.0": {
-      "summary": "pinned cookiesync trust by its shipped module-path codesign identifier"
-    },
-    "binrun@v0.2.0": {
-      "summary": "moved onto daemonkit v0.17.2"
-    },
     "captain-hook@v12.20.13": {
       "summary": "repinned daemonkit v0.20.10 and reclassified slow-host handshake timeouts as transient"
     },
@@ -64,6 +50,9 @@
     },
     "cc-skills@v1.8.4": {
       "summary": "let the binrun shim tell the codex binary its plugin root, and kept the lane lock out of the GC"
+    },
+    "daemonkit@v0.20.10": {
+      "summary": "classified peers that exit mid-verification as ErrPeerGone, quieting a log flood and unbricking the lifecycle client"
     },
     "slop-cop@v0.1.59": {
       "summary": "added a clarity base layer and repaired the dead LLM tiers"
