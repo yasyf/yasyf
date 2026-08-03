@@ -12,21 +12,13 @@
       "as_of": "2026-07-29T10:32:39Z",
       "summary": "corrected the ship --help text after v0.39.0 inverted the graphite probe gate"
     },
-    "PushEvent:yasyf/cc-review": {
-      "as_of": "dfea6a505e13",
-      "summary": "shipped v0.33.3 onto daemonkit v0.20.9 and sandboxed the stagings that escaped the real home"
+    "PullRequestEvent:yasyf/cc-review": {
+      "as_of": "2026-07-24T07:54:36Z",
+      "summary": "pinned daemonkit v0.16"
     },
-    "PushEvent:yasyf/cc-steer": {
-      "as_of": "9ec79e0d9ea9",
-      "summary": "re-rendered the bundled guides onto cc-guides 0.1.53"
-    },
-    "PushEvent:yasyf/cc-transcript": {
-      "as_of": "94cbb6857efd",
-      "summary": "re-rendered the bundled guides onto cc-guides 0.1.53"
-    },
-    "PushEvent:yasyf/daemonkit": {
-      "as_of": "0efa6e85cbc0",
-      "summary": "closed the trust gate ahead of the first byte, so a same-UID socket squatter harvests nothing"
+    "PullRequestEvent:yasyf/daemonkit": {
+      "as_of": "2026-07-22T22:10:03Z",
+      "summary": "added WatchPaths and StartCalendarInterval to launchd Agent services"
     },
     "ReleaseEvent:yasyf/cc-interact": {
       "as_of": "2026-07-27T11:40:13Z",
@@ -35,18 +27,34 @@
     "ReleaseEvent:yasyf/daemonkit": {
       "as_of": "2026-07-26T23:40:33Z",
       "summary": "moved durable untrack out of the settlement reserve so a slow store can't terminalize a worker claim"
+    },
+    "ReleaseEvent:yasyf/fusekit": {
+      "as_of": "2026-07-23T08:46:56Z",
+      "summary": "made the native mount's readiness proof causal and holder-proven, on daemonkit's async session runtime"
     }
   },
-  "generated_at": "2026-08-02T11:07:16Z",
+  "generated_at": "2026-08-03T12:48:13Z",
   "shipped": {
     "captain-hook@v12.20.13": {
       "summary": "repinned daemonkit v0.20.10 and reclassified slow-host handshake timeouts as transient"
     },
+    "captain-hook@v12.21.0": {
+      "summary": "retargeted the models-pack nudges so tool-driving is fable's lane, and migrated to daemonkit v0.21.2"
+    },
+    "cc-context@v0.39.0": {
+      "summary": "made the graphite reachability gate actually gate, after its 5s probe cap sat under every real measurement"
+    },
     "cc-notes@v0.50.0": {
       "summary": "registered repositories in a per-user root and resolved a cwd without exec"
     },
+    "cc-orchestrate@v0.16.0": {
+      "summary": "sandboxed HOME and DAEMONKIT_HOME in every test, so staged plists and sockets stop escaping the real home"
+    },
     "cc-pool@v0.64.9": {
       "summary": "pinned FuseKit v1.15.5 for the daemonkit v0.20.9 solve"
+    },
+    "cc-present@v0.32.2": {
+      "summary": "dropped the linux platforms from the descriptor along with the builds"
     },
     "cc-skills@v1.8.4": {
       "summary": "let the binrun shim tell the codex binary its plugin root, and kept the lane lock out of the GC"
