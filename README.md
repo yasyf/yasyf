@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-03T20:12:35Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-04T03:48:56Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -24,20 +24,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-08-04` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync)
+- `2026-08-04` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit)
+- `2026-08-04` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-08-04` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-08-04` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
 - `2026-08-03` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-08-03` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
 - `2026-07-29` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — corrected the ship --help text after v0.39.0 inverted the graphite probe gate
 - `2026-07-28` Triaged issues in [anthropics/claude-code](https://github.com/anthropics/claude-code) — reported the bundled ugrep busy-loop that pins a machine when --ignore-files resolves to a directory
 - `2026-07-27` Cut a release in [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — pinned daemonkit v0.20.9 so helper installs resolve the real home under Homebrew's sandboxed postinstall
 - `2026-07-27` Starred [vercel-labs/scriptc](https://github.com/vercel-labs/scriptc)
 - `2026-07-27` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — stopped the stewardship nudge firing on a first-person report of fixing a flake
 - `2026-07-26` Cut a release in [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — moved durable untrack out of the settlement reserve so a slow store can't terminalize a worker claim
-- `2026-07-26` Starred [macro-inc/macro](https://github.com/macro-inc/macro)
-- `2026-07-25` Starred [stablyai/orca](https://github.com/stablyai/orca)
-- `2026-07-24` Worked on a pull request in [yasyf/cc-review](https://github.com/yasyf/cc-review) — pinned daemonkit v0.16
-- `2026-07-23` Cut a release in [yasyf/fusekit](https://github.com/yasyf/fusekit) — made the native mount's readiness proof causal and holder-proven, on daemonkit's async session runtime
 
-**17,599 contributions in the last year**
+**17,657 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -114,10 +114,10 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-08-04` [cc-notes v0.51.1](https://github.com/yasyf/cc-notes/releases/tag/v0.51.1)
+- `2026-08-03` [cookiesync v0.28.0](https://github.com/yasyf/cookiesync/releases/tag/v0.28.0)
 - `2026-08-03` [captain-hook v12.21.0](https://github.com/yasyf/captain-hook/releases/tag/v12.21.0) — retargeted the models-pack nudges so tool-driving is fable's lane, and migrated to daemonkit v0.21.2
 - `2026-07-31` [slop-cop v0.1.59](https://github.com/yasyf/slop-cop/releases/tag/v0.1.59) — added a clarity base layer and repaired the dead LLM tiers
-- `2026-07-31` [cc-notes v0.50.0](https://github.com/yasyf/cc-notes/releases/tag/v0.50.0) — registered repositories in a per-user root and resolved a cwd without exec
-- `2026-07-28` [cc-context v0.39.0](https://github.com/yasyf/cc-context/releases/tag/v0.39.0) — made the graphite reachability gate actually gate, after its 5s probe cap sat under every real measurement
 - `2026-07-27` [cc-pool v0.64.9](https://github.com/yasyf/cc-pool/releases/tag/v0.64.9) — pinned FuseKit v1.15.5 for the daemonkit v0.20.9 solve
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
 - `2026-07-26` [cc-skills v1.8.4](https://github.com/yasyf/cc-skills/releases/tag/v1.8.4) — let the binrun shim tell the codex binary its plugin root, and kept the lane lock out of the GC
