@@ -4,21 +4,37 @@
       "as_of": "2026-07-28T10:09:15Z",
       "summary": "reported the bundled ugrep busy-loop that pins a machine when --ignore-files resolves to a directory"
     },
-    "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-07-27T08:27:56Z",
-      "summary": "stopped the stewardship nudge firing on a first-person report of fixing a flake"
-    },
     "PullRequestEvent:yasyf/cc-context": {
       "as_of": "2026-07-29T10:32:39Z",
       "summary": "corrected the ship --help text after v0.39.0 inverted the graphite probe gate"
     },
-    "PullRequestEvent:yasyf/cc-review": {
-      "as_of": "2026-07-24T07:54:36Z",
-      "summary": "pinned daemonkit v0.16"
+    "PushEvent:yasyf/cc-context": {
+      "as_of": "67aabe95210d",
+      "summary": "stood the ship and vcs suites up on real git and jj repositories, which surfaced four bugs the shell fakes had hidden"
     },
-    "PullRequestEvent:yasyf/daemonkit": {
-      "as_of": "2026-07-22T22:10:03Z",
-      "summary": "added WatchPaths and StartCalendarInterval to launchd Agent services"
+    "PushEvent:yasyf/cc-notes": {
+      "as_of": "701f1446d2fe",
+      "summary": "stated a budget at every daemonkit entry point, and moved the signed helper onto daemonkit v0.21.3 and fusekit v1.16.0"
+    },
+    "PushEvent:yasyf/cc-pool": {
+      "as_of": "2a627599347a",
+      "summary": "cut v0.65.0 off the daemonkit v0.21 rebuild, then adapted the widget's broker configuration to FuseKit v1.16"
+    },
+    "PushEvent:yasyf/cookiesync": {
+      "as_of": "7ee2d54f4dd8",
+      "summary": "gave the Chrome teardown a settlement budget, and pinned that a failed-open teardown really does reap chrome"
+    },
+    "PushEvent:yasyf/daemonkit": {
+      "as_of": "7f99e55b7aae",
+      "summary": "exported deploy.BundleDigest so captain-hook, fusekit, and cc-notes stop hand-copying the digest installs re-derive"
+    },
+    "PushEvent:yasyf/fusekit": {
+      "as_of": "dcd62d0c264d",
+      "summary": "stated a deadline budget at every daemonkit choke point, then cut v1.16.1 so consumers can receive it"
+    },
+    "PushEvent:yasyf/homebrew-tap": {
+      "as_of": "ebc9784aaedd",
+      "summary": "published the cc-pool v0.65.0 stack to the tap"
     },
     "ReleaseEvent:yasyf/cc-interact": {
       "as_of": "2026-07-27T11:40:13Z",
@@ -27,13 +43,9 @@
     "ReleaseEvent:yasyf/daemonkit": {
       "as_of": "2026-07-26T23:40:33Z",
       "summary": "moved durable untrack out of the settlement reserve so a slow store can't terminalize a worker claim"
-    },
-    "ReleaseEvent:yasyf/fusekit": {
-      "as_of": "2026-07-23T08:46:56Z",
-      "summary": "made the native mount's readiness proof causal and holder-proven, on daemonkit's async session runtime"
     }
   },
-  "generated_at": "2026-08-03T12:48:13Z",
+  "generated_at": "2026-08-04T11:47:03Z",
   "shipped": {
     "captain-hook@v12.20.13": {
       "summary": "repinned daemonkit v0.20.10 and reclassified slow-host handshake timeouts as transient"
@@ -47,11 +59,17 @@
     "cc-notes@v0.50.0": {
       "summary": "registered repositories in a per-user root and resolved a cwd without exec"
     },
+    "cc-notes@v0.51.1": {
+      "summary": "stated a deadline budget at every daemonkit entry point"
+    },
     "cc-orchestrate@v0.16.0": {
       "summary": "sandboxed HOME and DAEMONKIT_HOME in every test, so staged plists and sockets stop escaping the real home"
     },
     "cc-pool@v0.64.9": {
       "summary": "pinned FuseKit v1.15.5 for the daemonkit v0.20.9 solve"
+    },
+    "cc-pool@v0.65.0": {
+      "summary": "rebuilt the disposable-worker pool, credential fencing, and the daemon's control surface on daemonkit v0.21"
     },
     "cc-present@v0.32.2": {
       "summary": "dropped the linux platforms from the descriptor along with the builds"
@@ -61,6 +79,9 @@
     },
     "daemonkit@v0.20.10": {
       "summary": "classified peers that exit mid-verification as ErrPeerGone, quieting a log flood and unbricking the lifecycle client"
+    },
+    "daemonkit@v0.21.4": {
+      "summary": "made deploy.BundleDigest callable, ending the three hand-copied transcriptions of a hash every install re-derives"
     },
     "slop-cop@v0.1.59": {
       "summary": "added a clarity base layer and repaired the dead LLM tiers"
