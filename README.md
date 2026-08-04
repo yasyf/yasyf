@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-04T11:48:23Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-04T15:02:15Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -25,19 +25,19 @@
 
 <!-- gh-profile:start:activity -->
 - `2026-08-04` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published the cc-pool v0.65.0 stack to the tap
+- `2026-08-04` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — exported deploy.BundleDigest so captain-hook, fusekit, and cc-notes stop hand-copying the digest installs re-derive
 - `2026-08-04` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — cut v0.65.0 off the daemonkit v0.21 rebuild, then adapted the widget's broker configuration to FuseKit v1.16
 - `2026-08-04` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — stated a deadline budget at every daemonkit choke point, then cut v1.16.1 so consumers can receive it
 - `2026-08-04` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync) — gave the Chrome teardown a settlement budget, and pinned that a failed-open teardown really does reap chrome
 - `2026-08-04` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — stated a budget at every daemonkit entry point, and moved the signed helper onto daemonkit v0.21.3 and fusekit v1.16.0
-- `2026-08-04` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — exported deploy.BundleDigest so captain-hook, fusekit, and cc-notes stop hand-copying the digest installs re-derive
-- `2026-08-03` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — stood the ship and vcs suites up on real git and jj repositories, which surfaced four bugs the shell fakes had hidden
 - `2026-07-29` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — corrected the ship --help text after v0.39.0 inverted the graphite probe gate
 - `2026-07-28` Triaged issues in [anthropics/claude-code](https://github.com/anthropics/claude-code) — reported the bundled ugrep busy-loop that pins a machine when --ignore-files resolves to a directory
 - `2026-07-27` Cut a release in [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — pinned daemonkit v0.20.9 so helper installs resolve the real home under Homebrew's sandboxed postinstall
 - `2026-07-27` Starred [vercel-labs/scriptc](https://github.com/vercel-labs/scriptc)
 - `2026-07-26` Cut a release in [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — moved durable untrack out of the settlement reserve so a slow store can't terminalize a worker claim
+- `2026-07-26` Starred [macro-inc/macro](https://github.com/macro-inc/macro)
 
-**17,798 contributions in the last year**
+**17,831 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
