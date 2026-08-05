@@ -8,6 +8,14 @@
       "as_of": "2026-07-29T10:32:39Z",
       "summary": "corrected the ship --help text after v0.39.0 inverted the graphite probe gate"
     },
+    "PullRequestEvent:yasyf/cc-review": {
+      "as_of": "2026-07-24T07:54:36Z",
+      "summary": "pinned the build onto daemonkit v0.16"
+    },
+    "PullRequestEvent:yasyf/daemonkit": {
+      "as_of": "2026-07-22T22:10:03Z",
+      "summary": "added WatchPaths and StartCalendarInterval to the Agent service"
+    },
     "PushEvent:yasyf/cc-context": {
       "as_of": "67aabe95210d",
       "summary": "stood the ship and vcs suites up on real git and jj repositories, which surfaced four bugs the shell fakes had hidden"
@@ -19,6 +27,10 @@
     "PushEvent:yasyf/cc-pool": {
       "as_of": "2a627599347a",
       "summary": "cut v0.65.0 off the daemonkit v0.21 rebuild, then adapted the widget's broker configuration to FuseKit v1.16"
+    },
+    "PushEvent:yasyf/cc-skills": {
+      "as_of": "4d5f664622fb",
+      "summary": "gave design docs a meta.draft flag that pins a grey draft banner to the top"
     },
     "PushEvent:yasyf/cookiesync": {
       "as_of": "7ee2d54f4dd8",
@@ -36,6 +48,10 @@
       "as_of": "ebc9784aaedd",
       "summary": "published the cc-pool v0.65.0 stack to the tap"
     },
+    "PushEvent:yasyf/spawnllm": {
+      "as_of": "913e9e751e90",
+      "summary": "merged a fix for the stderr drain crashing on newline-free blobs past 64 KiB"
+    },
     "ReleaseEvent:yasyf/cc-interact": {
       "as_of": "2026-07-27T11:40:13Z",
       "summary": "pinned daemonkit v0.20.9 so helper installs resolve the real home under Homebrew's sandboxed postinstall"
@@ -43,9 +59,13 @@
     "ReleaseEvent:yasyf/daemonkit": {
       "as_of": "2026-07-26T23:40:33Z",
       "summary": "moved durable untrack out of the settlement reserve so a slow store can't terminalize a worker claim"
+    },
+    "ReleaseEvent:yasyf/fusekit": {
+      "as_of": "2026-07-23T08:46:56Z",
+      "summary": "made native mount readiness a causal proof, and adopted daemonkit's async session runtime"
     }
   },
-  "generated_at": "2026-08-04T11:47:03Z",
+  "generated_at": "2026-08-05T11:41:08Z",
   "shipped": {
     "captain-hook@v12.20.13": {
       "summary": "repinned daemonkit v0.20.10 and reclassified slow-host handshake timeouts as transient"
