@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-06T10:36:15Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-06T13:07:22Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -37,7 +37,7 @@
 - `2026-07-22` Forked [MinishLab/semble](https://github.com/MinishLab/semble)
 - `2026-07-21` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 
-**18,149 contributions in the last year**
+**18,167 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
