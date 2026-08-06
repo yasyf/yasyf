@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-05T19:03:58Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-06T01:00:35Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -25,7 +25,6 @@
 
 <!-- gh-profile:start:activity -->
 - `2026-08-05` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — gave design docs a meta.draft flag that pins a grey draft banner to the top
-- `2026-08-05` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — merged a fix for the stderr drain crashing on newline-free blobs past 64 KiB
 - `2026-07-29` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — corrected the ship --help text after v0.39.0 inverted the graphite probe gate
 - `2026-07-28` Triaged issues in [anthropics/claude-code](https://github.com/anthropics/claude-code) — reported the bundled ugrep busy-loop that pins a machine when --ignore-files resolves to a directory
 - `2026-07-27` Cut a release in [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — pinned daemonkit v0.20.9 so helper installs resolve the real home under Homebrew's sandboxed postinstall
@@ -36,8 +35,9 @@
 - `2026-07-24` Worked on a pull request in [yasyf/cc-review](https://github.com/yasyf/cc-review) — pinned the build onto daemonkit v0.16
 - `2026-07-23` Cut a release in [yasyf/fusekit](https://github.com/yasyf/fusekit) — made native mount readiness a causal proof, and adopted daemonkit's async session runtime
 - `2026-07-22` Worked on a pull request in [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — added WatchPaths and StartCalendarInterval to the Agent service
+- `2026-07-22` Forked [MinishLab/semble](https://github.com/MinishLab/semble)
 
-**18,013 contributions in the last year**
+**18,036 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
