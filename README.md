@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-07T10:00:23Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-07T12:51:25Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -24,6 +24,8 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-08-07` Triaged issues in [bytecodealliance/jco](https://github.com/bytecodealliance/jco)
+- `2026-08-07` Triaged issues in [partite-ai/wacogo](https://github.com/partite-ai/wacogo)
 - `2026-07-29` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — corrected the ship --help text after v0.39.0 inverted the graphite probe gate
 - `2026-07-28` Triaged issues in [anthropics/claude-code](https://github.com/anthropics/claude-code) — reported the bundled ugrep busy-loop that pins a machine when --ignore-files resolves to a directory
 - `2026-07-27` Cut a release in [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — pinned daemonkit v0.20.9 so helper installs resolve the real home under Homebrew's sandboxed postinstall
@@ -34,10 +36,8 @@
 - `2026-07-24` Worked on a pull request in [yasyf/cc-review](https://github.com/yasyf/cc-review) — pinned the build onto daemonkit v0.16
 - `2026-07-23` Cut a release in [yasyf/fusekit](https://github.com/yasyf/fusekit) — made native mount readiness a causal proof, and adopted daemonkit's async session runtime
 - `2026-07-22` Worked on a pull request in [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — added WatchPaths and StartCalendarInterval to the Agent service
-- `2026-07-22` Forked [MinishLab/semble](https://github.com/MinishLab/semble)
-- `2026-07-21` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — canary-probed the pr-check gate for the CI-owned rendering redesign
 
-**18,387 contributions in the last year**
+**18,450 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -116,7 +116,6 @@
 <!-- gh-profile:start:shipped -->
 - `2026-08-04` [cc-pool v0.65.0](https://github.com/yasyf/cc-pool/releases/tag/v0.65.0) — rebuilt the disposable-worker pool, credential fencing, and the daemon's control surface on daemonkit v0.21
 - `2026-08-04` [cc-notes v0.51.1](https://github.com/yasyf/cc-notes/releases/tag/v0.51.1) — stated a deadline budget at every daemonkit entry point
-- `2026-08-04` [daemonkit v0.21.4](https://github.com/yasyf/daemonkit/releases/tag/v0.21.4) — made deploy.BundleDigest callable, ending the three hand-copied transcriptions of a hash every install re-derives
 - `2026-08-03` [captain-hook v12.21.0](https://github.com/yasyf/captain-hook/releases/tag/v12.21.0) — retargeted the models-pack nudges so tool-driving is fable's lane, and migrated to daemonkit v0.21.2
 - `2026-07-31` [slop-cop v0.1.59](https://github.com/yasyf/slop-cop/releases/tag/v0.1.59) — added a clarity base layer and repaired the dead LLM tiers
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
