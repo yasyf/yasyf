@@ -12,6 +12,10 @@
       "as_of": "2026-07-24T07:54:36Z",
       "summary": "pinned the build onto daemonkit v0.16"
     },
+    "PullRequestEvent:yasyf/cc-skills": {
+      "as_of": "2026-07-21T12:52:17Z",
+      "summary": "canary-probed the pr-check gate for the CI-owned rendering redesign"
+    },
     "PullRequestEvent:yasyf/daemonkit": {
       "as_of": "2026-07-22T22:10:03Z",
       "summary": "added WatchPaths and StartCalendarInterval to the Agent service"
@@ -29,7 +33,7 @@
       "summary": "made native mount readiness a causal proof, and adopted daemonkit's async session runtime"
     }
   },
-  "generated_at": "2026-08-06T10:35:44Z",
+  "generated_at": "2026-08-07T10:00:02Z",
   "shipped": {
     "captain-hook@v12.21.0": {
       "summary": "retargeted the models-pack nudges so tool-driving is fable's lane, and migrated to daemonkit v0.21.2"
