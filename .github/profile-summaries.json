@@ -4,6 +4,14 @@
       "as_of": "2026-07-28T10:09:15Z",
       "summary": "reported the bundled ugrep busy-loop that pins a machine when --ignore-files resolves to a directory"
     },
+    "IssuesEvent:bytecodealliance/jco": {
+      "as_of": "2026-08-07T12:18:38Z",
+      "summary": "asked for an oxc-parser bump: the 0.76.0 bindings ship without build provenance, so strict installers refuse jco"
+    },
+    "IssuesEvent:partite-ai/wacogo": {
+      "as_of": "2026-08-07T11:31:05Z",
+      "summary": "traced a list<record> instantiation panic to the (eq)-bounded type imports wasm-tools emits for every named record"
+    },
     "PullRequestEvent:yasyf/cc-context": {
       "as_of": "2026-07-29T10:32:39Z",
       "summary": "corrected the ship --help text after v0.39.0 inverted the graphite probe gate"
@@ -11,10 +19,6 @@
     "PullRequestEvent:yasyf/cc-review": {
       "as_of": "2026-07-24T07:54:36Z",
       "summary": "pinned the build onto daemonkit v0.16"
-    },
-    "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-07-21T12:52:17Z",
-      "summary": "canary-probed the pr-check gate for the CI-owned rendering redesign"
     },
     "PullRequestEvent:yasyf/daemonkit": {
       "as_of": "2026-07-22T22:10:03Z",
@@ -33,7 +37,7 @@
       "summary": "made native mount readiness a causal proof, and adopted daemonkit's async session runtime"
     }
   },
-  "generated_at": "2026-08-07T10:00:02Z",
+  "generated_at": "2026-08-08T09:53:49Z",
   "shipped": {
     "captain-hook@v12.21.0": {
       "summary": "retargeted the models-pack nudges so tool-driving is fable's lane, and migrated to daemonkit v0.21.2"
@@ -47,14 +51,14 @@
     "cc-skills@v1.8.4": {
       "summary": "let the binrun shim tell the codex binary its plugin root, and kept the lane lock out of the GC"
     },
-    "daemonkit@v0.21.4": {
-      "summary": "made deploy.BundleDigest callable, ending the three hand-copied transcriptions of a hash every install re-derives"
-    },
     "slop-cop@v0.1.59": {
       "summary": "added a clarity base layer and repaired the dead LLM tiers"
     },
     "spawnllm@v0.11.0": {
       "summary": "added an Apple Foundation Models on-device backend and exact-model passthrough"
+    },
+    "synckit@v0.37.1": {
+      "summary": "dropped the linux release targets: daemonkit v0.21 compiles only on macOS"
     }
   },
   "version": 1
