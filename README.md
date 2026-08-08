@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-08T12:49:57Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-08T18:48:48Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -37,7 +37,7 @@
 - `2026-07-24` Worked on a pull request in [yasyf/cc-review](https://github.com/yasyf/cc-review) — pinned the build onto daemonkit v0.16
 - `2026-07-23` Cut a release in [yasyf/fusekit](https://github.com/yasyf/fusekit) — made native mount readiness a causal proof, and adopted daemonkit's async session runtime
 
-**18,608 contributions in the last year**
+**18,620 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -117,7 +117,6 @@
 - `2026-08-04` [cc-pool v0.65.0](https://github.com/yasyf/cc-pool/releases/tag/v0.65.0) — rebuilt the disposable-worker pool, credential fencing, and the daemon's control surface on daemonkit v0.21
 - `2026-08-04` [cc-notes v0.51.1](https://github.com/yasyf/cc-notes/releases/tag/v0.51.1) — stated a deadline budget at every daemonkit entry point
 - `2026-08-03` [captain-hook v12.21.0](https://github.com/yasyf/captain-hook/releases/tag/v12.21.0) — retargeted the models-pack nudges so tool-driving is fable's lane, and migrated to daemonkit v0.21.2
-- `2026-08-03` [synckit v0.37.1](https://github.com/yasyf/synckit/releases/tag/v0.37.1) — dropped the linux release targets: daemonkit v0.21 compiles only on macOS
 - `2026-07-31` [slop-cop v0.1.59](https://github.com/yasyf/slop-cop/releases/tag/v0.1.59) — added a clarity base layer and repaired the dead LLM tiers
 - `2026-07-27` [cc-interact v0.31.1](https://github.com/yasyf/cc-interact/releases/tag/v0.31.1)
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
