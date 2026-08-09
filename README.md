@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-09T06:50:43Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-09T09:54:42Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -15,7 +15,7 @@
 
 - Building the missing toolbelt for Claude Code: [captain-hook](https://github.com/yasyf/captain-hook) for declarative hooks, [cc-pool](https://github.com/yasyf/cc-pool) for account pooling, [cc-review](https://github.com/yasyf/cc-review) for reviewing Claude's diffs in a PR-style web UI, [cc-transcript](https://github.com/yasyf/cc-transcript) for typed transcripts, and [slop-cop](https://github.com/yasyf/slop-cop) to catch AI-flavored prose
 - Converging those pieces into one session-activity platform — typed events and a decision ledger in cc-transcript, with captain-hook as its hook runtime — and building [cc-orchestrate](https://github.com/yasyf/cc-orchestrate) into a pure-Go CLI that runs fleets of agents across pluggable backends like cmux, superset, tmux, and zellij, each with an AgentProber liveness check for long-lived, keep-alive sessions — with [cc-vigil](https://github.com/yasyf/cc-vigil), a transcript-oracle sleep inhibitor, keeping the Mac awake only while those agents are truly working
-- Hard-cutting the whole cc-* fleet onto shared substrate: [daemonkit](https://github.com/yasyf/daemonkit) for daemon lifecycle — the five-phase hard cut has landed as v0.21: wire, trust, and proc carved into internal packages, durable/ and launchd made public behind one macOS-only root Serve/Client/Control surface, one schema generating the frame codec for both Go and Swift behind a drift gate, and subprocess supervision exposed from a single implementation to both a serving daemon and a CLI with no daemon, socket, or wire at all — with no byte now reaching a peer whose code identity hasn't been judged. captain-hook, cc-pool, cc-notes, fusekit, and cookiesync have all since moved onto it, each stating a deadline budget at every choke point, and the bundle digest three of them once hand-copied is finally callable — and [binrun](https://github.com/yasyf/binrun) for distribution, with every release gated on a tag resolving to one exact commit on main
+- Hard-cutting the whole cc-* fleet onto shared substrate: [daemonkit](https://github.com/yasyf/daemonkit) for daemon lifecycle — the five-phase hard cut has landed as v0.21: wire, trust, and proc carved into internal packages, durable/ and launchd made public behind one macOS-only root Serve/Client/Control surface, one schema generating the frame codec for both Go and Swift behind a drift gate, and subprocess supervision exposed from a single implementation to both a serving daemon and a CLI with no daemon, socket, or wire at all — with no byte now reaching a peer whose code identity hasn't been judged. captain-hook, cc-pool, cc-notes, cc-interact, fusekit, and cookiesync have all since moved onto it, each stating a deadline budget at every choke point, and the bundle digest three of them once hand-copied is finally callable — and [binrun](https://github.com/yasyf/binrun) for distribution, with every release gated on a tag resolving to one exact commit on main
 - Running [cc-sentiment](https://github.com/yasyf/cc-sentiment), an open experiment in whether developer sentiment with Claude Code tracks the model, the tooling, or just the time of day
 - Self-hosting [yclaw](https://github.com/yasyf/yclaw), an always-on, reproducible Apple Silicon home server for the Nous hermes-agent — gVisor-sandboxed and tailnet-only, so the agent never touches your credentials
 - Engineer & CEO at [Aneta](https://aneta.company)
@@ -24,7 +24,7 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-08-08` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
+- `2026-08-08` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — migrated to daemonkit v0.21.1 and fixed a Stop that left the LaunchAgent loaded
 - `2026-08-07` Triaged issues in [bytecodealliance/jco](https://github.com/bytecodealliance/jco) — asked for an oxc-parser bump: the 0.76.0 bindings ship without build provenance, so strict installers refuse jco
 - `2026-08-07` Triaged issues in [partite-ai/wacogo](https://github.com/partite-ai/wacogo) — traced a list<record> instantiation panic to the (eq)-bounded type imports wasm-tools emits for every named record
 - `2026-07-29` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — corrected the ship --help text after v0.39.0 inverted the graphite probe gate
@@ -37,7 +37,7 @@
 - `2026-07-24` Worked on a pull request in [yasyf/cc-review](https://github.com/yasyf/cc-review) — pinned the build onto daemonkit v0.16
 - `2026-07-23` Cut a release in [yasyf/fusekit](https://github.com/yasyf/fusekit) — made native mount readiness a causal proof, and adopted daemonkit's async session runtime
 
-**18,632 contributions in the last year**
+**18,657 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -118,7 +118,7 @@
 - `2026-08-04` [cc-notes v0.51.1](https://github.com/yasyf/cc-notes/releases/tag/v0.51.1) — stated a deadline budget at every daemonkit entry point
 - `2026-08-03` [captain-hook v12.21.0](https://github.com/yasyf/captain-hook/releases/tag/v12.21.0) — retargeted the models-pack nudges so tool-driving is fable's lane, and migrated to daemonkit v0.21.2
 - `2026-07-31` [slop-cop v0.1.59](https://github.com/yasyf/slop-cop/releases/tag/v0.1.59) — added a clarity base layer and repaired the dead LLM tiers
-- `2026-07-27` [cc-interact v0.31.1](https://github.com/yasyf/cc-interact/releases/tag/v0.31.1)
+- `2026-07-27` [cc-interact v0.31.1](https://github.com/yasyf/cc-interact/releases/tag/v0.31.1) — pinned daemonkit v0.20.9 so helper installs resolve the real home directory
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
 - `2026-07-26` [cc-skills v1.8.4](https://github.com/yasyf/cc-skills/releases/tag/v1.8.4) — let the binrun shim tell the codex binary its plugin root, and kept the lane lock out of the GC
 <!-- gh-profile:end:shipped -->

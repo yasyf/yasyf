@@ -20,9 +20,9 @@
       "as_of": "2026-07-24T07:54:36Z",
       "summary": "pinned the build onto daemonkit v0.16"
     },
-    "PullRequestEvent:yasyf/daemonkit": {
-      "as_of": "2026-07-22T22:10:03Z",
-      "summary": "added WatchPaths and StartCalendarInterval to the Agent service"
+    "PushEvent:yasyf/cc-interact": {
+      "as_of": "2614d0a998a8",
+      "summary": "migrated to daemonkit v0.21.1 and fixed a Stop that left the LaunchAgent loaded"
     },
     "ReleaseEvent:yasyf/cc-interact": {
       "as_of": "2026-07-27T11:40:13Z",
@@ -37,10 +37,13 @@
       "summary": "made native mount readiness a causal proof, and adopted daemonkit's async session runtime"
     }
   },
-  "generated_at": "2026-08-08T09:53:49Z",
+  "generated_at": "2026-08-09T09:54:24Z",
   "shipped": {
     "captain-hook@v12.21.0": {
       "summary": "retargeted the models-pack nudges so tool-driving is fable's lane, and migrated to daemonkit v0.21.2"
+    },
+    "cc-interact@v0.31.1": {
+      "summary": "pinned daemonkit v0.20.9 so helper installs resolve the real home directory"
     },
     "cc-notes@v0.51.1": {
       "summary": "stated a deadline budget at every daemonkit entry point"
@@ -56,9 +59,6 @@
     },
     "spawnllm@v0.11.0": {
       "summary": "added an Apple Foundation Models on-device backend and exact-model passthrough"
-    },
-    "synckit@v0.37.1": {
-      "summary": "dropped the linux release targets: daemonkit v0.21 compiles only on macOS"
     }
   },
   "version": 1
