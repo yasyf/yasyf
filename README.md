@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-10T00:52:21Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-10T06:57:16Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -25,7 +25,6 @@
 
 <!-- gh-profile:start:activity -->
 - `2026-08-09` Triaged issues in [bytecodealliance/ComponentizeJS](https://github.com/bytecodealliance/ComponentizeJS)
-- `2026-08-08` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — migrated to daemonkit v0.21.1 and fixed a Stop that left the LaunchAgent loaded
 - `2026-08-07` Triaged issues in [bytecodealliance/jco](https://github.com/bytecodealliance/jco) — asked for an oxc-parser bump: the 0.76.0 bindings ship without build provenance, so strict installers refuse jco
 - `2026-08-07` Triaged issues in [partite-ai/wacogo](https://github.com/partite-ai/wacogo) — traced a list<record> instantiation panic to the (eq)-bounded type imports wasm-tools emits for every named record
 - `2026-07-29` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — corrected the ship --help text after v0.39.0 inverted the graphite probe gate
@@ -36,8 +35,9 @@
 - `2026-07-26` Starred [macro-inc/macro](https://github.com/macro-inc/macro)
 - `2026-07-25` Starred [stablyai/orca](https://github.com/stablyai/orca)
 - `2026-07-24` Worked on a pull request in [yasyf/cc-review](https://github.com/yasyf/cc-review) — pinned the build onto daemonkit v0.16
+- `2026-07-23` Cut a release in [yasyf/fusekit](https://github.com/yasyf/fusekit) — made native mount readiness a causal proof, and adopted daemonkit's async session runtime
 
-**18,530 contributions in the last year**
+**18,601 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
