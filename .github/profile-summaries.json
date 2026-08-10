@@ -4,6 +4,10 @@
       "as_of": "2026-07-28T10:09:15Z",
       "summary": "reported the bundled ugrep busy-loop that pins a machine when --ignore-files resolves to a directory"
     },
+    "IssuesEvent:bytecodealliance/ComponentizeJS": {
+      "as_of": "2026-08-09T12:07:03Z",
+      "summary": "took the same oxc-parser bump upstream at jco's suggestion: only the 15 binding packages lack attestations"
+    },
     "IssuesEvent:bytecodealliance/jco": {
       "as_of": "2026-08-07T12:18:38Z",
       "summary": "asked for an oxc-parser bump: the 0.76.0 bindings ship without build provenance, so strict installers refuse jco"
@@ -20,10 +24,6 @@
       "as_of": "2026-07-24T07:54:36Z",
       "summary": "pinned the build onto daemonkit v0.16"
     },
-    "PushEvent:yasyf/cc-interact": {
-      "as_of": "2614d0a998a8",
-      "summary": "migrated to daemonkit v0.21.1 and fixed a Stop that left the LaunchAgent loaded"
-    },
     "ReleaseEvent:yasyf/cc-interact": {
       "as_of": "2026-07-27T11:40:13Z",
       "summary": "pinned daemonkit v0.20.9 so helper installs resolve the real home under Homebrew's sandboxed postinstall"
@@ -37,7 +37,7 @@
       "summary": "made native mount readiness a causal proof, and adopted daemonkit's async session runtime"
     }
   },
-  "generated_at": "2026-08-09T09:54:24Z",
+  "generated_at": "2026-08-10T10:05:24Z",
   "shipped": {
     "captain-hook@v12.21.0": {
       "summary": "retargeted the models-pack nudges so tool-driving is fable's lane, and migrated to daemonkit v0.21.2"
@@ -53,6 +53,9 @@
     },
     "cc-skills@v1.8.4": {
       "summary": "let the binrun shim tell the codex binary its plugin root, and kept the lane lock out of the GC"
+    },
+    "daemonkit@v0.21.4": {
+      "summary": "exported the bundle digest that captain-hook, fusekit, and cc-notes each hand-copied out of the source"
     },
     "slop-cop@v0.1.59": {
       "summary": "added a clarity base layer and repaired the dead LLM tiers"
