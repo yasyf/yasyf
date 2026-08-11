@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-11T00:52:30Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-11T06:51:53Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -37,7 +37,7 @@
 - `2026-07-24` Worked on a pull request in [yasyf/cc-review](https://github.com/yasyf/cc-review) — pinned the build onto daemonkit v0.16
 - `2026-07-23` Cut a release in [yasyf/fusekit](https://github.com/yasyf/fusekit) — made native mount readiness a causal proof, and adopted daemonkit's async session runtime
 
-**18,767 contributions in the last year**
+**18,891 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
