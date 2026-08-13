@@ -24,6 +24,54 @@
       "as_of": "2026-07-24T07:54:36Z",
       "summary": "pinned the build onto daemonkit v0.16"
     },
+    "PushEvent:yasyf/captain-hook": {
+      "as_of": "2f40967a672d",
+      "summary": "re-rendered CLAUDE.md and AGENTS.md from cc-guides 0.1.53"
+    },
+    "PushEvent:yasyf/cc-orchestrate": {
+      "as_of": "fcc254f0e49c",
+      "summary": "re-rendered CLAUDE.md and AGENTS.md from cc-guides 0.1.53"
+    },
+    "PushEvent:yasyf/cc-review": {
+      "as_of": "eae22b39e0c8",
+      "summary": "re-rendered CLAUDE.md and AGENTS.md from cc-guides 0.1.53"
+    },
+    "PushEvent:yasyf/cc-skills": {
+      "as_of": "3b49237eac39",
+      "summary": "named codex lanes with -l so no path crosses the CLI"
+    },
+    "PushEvent:yasyf/cc-squash": {
+      "as_of": "2d39f18c1aac",
+      "summary": "re-rendered CLAUDE.md and AGENTS.md from cc-guides 0.1.53"
+    },
+    "PushEvent:yasyf/cc-steer": {
+      "as_of": "f21aa0eeaeb2",
+      "summary": "re-rendered CLAUDE.md and AGENTS.md from cc-guides 0.1.53"
+    },
+    "PushEvent:yasyf/cc-transcript": {
+      "as_of": "c309aca952e9",
+      "summary": "re-rendered CLAUDE.md and AGENTS.md from cc-guides 0.1.53"
+    },
+    "PushEvent:yasyf/docker-dsl": {
+      "as_of": "eca3113a8719",
+      "summary": "re-rendered CLAUDE.md and AGENTS.md from cc-guides 0.1.53"
+    },
+    "PushEvent:yasyf/experiment-at-home": {
+      "as_of": "72407ff124e9",
+      "summary": "re-rendered CLAUDE.md and AGENTS.md from cc-guides 0.1.53"
+    },
+    "PushEvent:yasyf/homebrew-tap": {
+      "as_of": "659f2028bc99",
+      "summary": "published the cc-skills v1.9.0 and cc-patch v0.13.1 formulae"
+    },
+    "PushEvent:yasyf/spawnllm": {
+      "as_of": "f1cc8af88bc9",
+      "summary": "re-rendered CLAUDE.md and AGENTS.md from cc-guides 0.1.53"
+    },
+    "PushEvent:yasyf/yclaw": {
+      "as_of": "7a7976892a88",
+      "summary": "debloated the residual audiohald poller ring, coreaudiod, and audiomxd on the BlueBubbles host"
+    },
     "ReleaseEvent:yasyf/cc-interact": {
       "as_of": "2026-07-27T11:40:13Z",
       "summary": "pinned daemonkit v0.20.9 so helper installs resolve the real home under Homebrew's sandboxed postinstall"
@@ -37,22 +85,28 @@
       "summary": "made native mount readiness a causal proof, and adopted daemonkit's async session runtime"
     }
   },
-  "generated_at": "2026-08-12T10:00:23Z",
+  "generated_at": "2026-08-13T10:02:14Z",
   "shipped": {
+    "authkit@v0.2.0": {
+      "summary": "pinned cookiesync by its shipped module-path codesign identifier"
+    },
+    "binrun@v0.3.0": {
+      "summary": "repinned the shim onto daemonkit v0.21"
+    },
     "captain-hook@v12.21.0": {
       "summary": "retargeted the models-pack nudges so tool-driving is fable's lane, and migrated to daemonkit v0.21.2"
-    },
-    "cc-interact@v0.31.1": {
-      "summary": "pinned daemonkit v0.20.9 so helper installs resolve the real home directory"
     },
     "cc-notes@v0.51.1": {
       "summary": "stated a deadline budget at every daemonkit entry point"
     },
+    "cc-patch@v0.13.1": {
+      "summary": "signed and verified the patched binary before installing it"
+    },
     "cc-pool@v0.65.0": {
       "summary": "rebuilt the disposable-worker pool, credential fencing, and the daemon's control surface on daemonkit v0.21"
     },
-    "cc-skills@v1.8.4": {
-      "summary": "let the binrun shim tell the codex binary its plugin root, and kept the lane lock out of the GC"
+    "cc-skills@v1.9.0": {
+      "summary": "taught ship the graphite lane and prek hooks, gave open-pr the repo's own voice, and named codex lanes with -l"
     },
     "slop-cop@v0.1.59": {
       "summary": "added a clarity base layer and repaired the dead LLM tiers"

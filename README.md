@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-13T07:01:14Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-13T10:02:17Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -24,20 +24,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-08-13` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw)
-- `2026-08-13` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
-- `2026-08-13` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-08-13` Pushed to [yasyf/cc-patch](https://github.com/yasyf/cc-patch)
-- `2026-08-09` Triaged issues in [bytecodealliance/ComponentizeJS](https://github.com/bytecodealliance/ComponentizeJS) — took the same oxc-parser bump upstream at jco's suggestion: only the 15 binding packages lack attestations
-- `2026-08-07` Triaged issues in [bytecodealliance/jco](https://github.com/bytecodealliance/jco) — asked for an oxc-parser bump: the 0.76.0 bindings ship without build provenance, so strict installers refuse jco
-- `2026-08-07` Triaged issues in [partite-ai/wacogo](https://github.com/partite-ai/wacogo) — traced a list<record> instantiation panic to the (eq)-bounded type imports wasm-tools emits for every named record
-- `2026-07-29` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — corrected the ship --help text after v0.39.0 inverted the graphite probe gate
-- `2026-07-28` Triaged issues in [anthropics/claude-code](https://github.com/anthropics/claude-code) — reported the bundled ugrep busy-loop that pins a machine when --ignore-files resolves to a directory
-- `2026-07-27` Cut a release in [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — pinned daemonkit v0.20.9 so helper installs resolve the real home under Homebrew's sandboxed postinstall
-- `2026-07-27` Starred [vercel-labs/scriptc](https://github.com/vercel-labs/scriptc)
-- `2026-07-26` Cut a release in [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — moved durable untrack out of the settlement reserve so a slow store can't terminalize a worker claim
+- `2026-08-13` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer) — re-rendered CLAUDE.md and AGENTS.md from cc-guides 0.1.53
+- `2026-08-13` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — re-rendered CLAUDE.md and AGENTS.md from cc-guides 0.1.53
+- `2026-08-13` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — re-rendered CLAUDE.md and AGENTS.md from cc-guides 0.1.53
+- `2026-08-13` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — re-rendered CLAUDE.md and AGENTS.md from cc-guides 0.1.53
+- `2026-08-13` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — re-rendered CLAUDE.md and AGENTS.md from cc-guides 0.1.53
+- `2026-08-13` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — re-rendered CLAUDE.md and AGENTS.md from cc-guides 0.1.53
+- `2026-08-13` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — re-rendered CLAUDE.md and AGENTS.md from cc-guides 0.1.53
+- `2026-08-13` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home) — re-rendered CLAUDE.md and AGENTS.md from cc-guides 0.1.53
+- `2026-08-13` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl) — re-rendered CLAUDE.md and AGENTS.md from cc-guides 0.1.53
+- `2026-08-13` Pushed to [yasyf/yclaw](https://github.com/yasyf/yclaw) — debloated the residual audiohald poller ring, coreaudiod, and audiomxd on the BlueBubbles host
+- `2026-08-13` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published the cc-skills v1.9.0 and cc-patch v0.13.1 formulae
+- `2026-08-13` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — named codex lanes with -l so no path crosses the CLI
 
-**18,998 contributions in the last year**
+**19,002 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -114,12 +114,14 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-08-13` [cc-skills v1.9.0](https://github.com/yasyf/cc-skills/releases/tag/v1.9.0)
-- `2026-08-13` [cc-patch v0.13.1](https://github.com/yasyf/cc-patch/releases/tag/v0.13.1)
+- `2026-08-13` [cc-skills v1.9.0](https://github.com/yasyf/cc-skills/releases/tag/v1.9.0) — taught ship the graphite lane and prek hooks, gave open-pr the repo's own voice, and named codex lanes with -l
 - `2026-08-04` [cc-pool v0.65.0](https://github.com/yasyf/cc-pool/releases/tag/v0.65.0) — rebuilt the disposable-worker pool, credential fencing, and the daemon's control surface on daemonkit v0.21
+- `2026-08-04` [cc-notes v0.51.1](https://github.com/yasyf/cc-notes/releases/tag/v0.51.1) — stated a deadline budget at every daemonkit entry point
 - `2026-08-03` [captain-hook v12.21.0](https://github.com/yasyf/captain-hook/releases/tag/v12.21.0) — retargeted the models-pack nudges so tool-driving is fable's lane, and migrated to daemonkit v0.21.2
+- `2026-08-03` [binrun v0.3.0](https://github.com/yasyf/binrun/releases/tag/v0.3.0) — repinned the shim onto daemonkit v0.21
 - `2026-07-31` [slop-cop v0.1.59](https://github.com/yasyf/slop-cop/releases/tag/v0.1.59) — added a clarity base layer and repaired the dead LLM tiers
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
+- `2026-07-18` [authkit v0.2.0](https://github.com/yasyf/authkit/releases/tag/v0.2.0) — pinned cookiesync by its shipped module-path codesign identifier
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
