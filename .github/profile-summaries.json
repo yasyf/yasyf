@@ -49,7 +49,7 @@
       "summary": "debloated the residual audiohald poller ring, coreaudiod, and audiomxd on the BlueBubbles host"
     }
   },
-  "generated_at": "2026-08-14T10:00:07Z",
+  "generated_at": "2026-08-15T09:46:22Z",
   "shipped": {
     "authkit@v0.2.0": {
       "summary": "pinned cookiesync by its shipped module-path codesign identifier"
