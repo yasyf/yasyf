@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-15T06:48:54Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-15T12:49:11Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -37,7 +37,7 @@
 - `2026-08-13` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published the cc-skills v1.9.0 and cc-patch v0.13.1 formulae
 - `2026-08-13` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — named codex lanes with -l so no path crosses the CLI
 
-**19,121 contributions in the last year**
+**19,123 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
