@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-16T12:49:09Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-16T18:44:23Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -37,7 +37,7 @@
 - `2026-08-07` Triaged issues in [partite-ai/wacogo](https://github.com/partite-ai/wacogo) — reported a panic on list<record> whose element is an (eq)-bounded type import
 - `2026-07-29` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — corrected the --help description of the graphite probe gate
 
-**19,271 contributions in the last year**
+**19,275 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -115,7 +115,6 @@
 
 <!-- gh-profile:start:shipped -->
 - `2026-08-16` [cc-skills v1.10.0](https://github.com/yasyf/cc-skills/releases/tag/v1.10.0)
-- `2026-08-16` [cc-orchestrate v0.16.1](https://github.com/yasyf/cc-orchestrate/releases/tag/v0.16.1)
 - `2026-08-04` [cc-pool v0.65.0](https://github.com/yasyf/cc-pool/releases/tag/v0.65.0) — rebuilt the disposable-worker pool, credential fencing, and the daemon's control surface on daemonkit v0.21
 - `2026-08-04` [cc-notes v0.51.1](https://github.com/yasyf/cc-notes/releases/tag/v0.51.1) — stated a deadline budget at every daemonkit entry point
 - `2026-08-03` [captain-hook v12.21.0](https://github.com/yasyf/captain-hook/releases/tag/v12.21.0) — retargeted the models-pack nudges so tool-driving is fable's lane, and migrated to daemonkit v0.21.2
