@@ -1,59 +1,56 @@
 {
   "activity": {
-    "PushEvent:yasyf/captain-hook": {
-      "as_of": "2f40967a672d",
-      "summary": "re-rendered CLAUDE.md and AGENTS.md from cc-guides 0.1.53"
+    "IssuesEvent:anthropics/claude-code": {
+      "as_of": "2026-07-28",
+      "summary": "reported the bundled ugrep busy-looping at 100% CPU when --ignore-files resolves to a directory"
+    },
+    "IssuesEvent:bytecodealliance/ComponentizeJS": {
+      "as_of": "2026-08-09",
+      "summary": "asked for oxc-parser >=0.90.0, since the 0.76.0 bindings ship without build provenance"
+    },
+    "IssuesEvent:bytecodealliance/jco": {
+      "as_of": "2026-08-07",
+      "summary": "asked for oxc-parser >=0.90.0, since the 0.76.0 bindings ship without build provenance"
+    },
+    "IssuesEvent:partite-ai/wacogo": {
+      "as_of": "2026-08-07",
+      "summary": "reported a panic on list<record> whose element is an (eq)-bounded type import"
+    },
+    "PullRequestEvent:yasyf/cc-context": {
+      "as_of": "2026-07-29",
+      "summary": "corrected the --help description of the graphite probe gate"
+    },
+    "PushEvent:yasyf/cc-interact": {
+      "as_of": "fa301187c525",
+      "summary": "built with go1.26.6 to clear five called stdlib advisories, after carrying the Stop fix to three consumers"
     },
     "PushEvent:yasyf/cc-orchestrate": {
-      "as_of": "fcc254f0e49c",
-      "summary": "re-rendered CLAUDE.md and AGENTS.md from cc-guides 0.1.53"
+      "as_of": "1167a386138f",
+      "summary": "cut 0.16.1 on cc-interact v0.32.1, built with go1.26.6"
+    },
+    "PushEvent:yasyf/cc-present": {
+      "as_of": "dd9fb28b3d7a",
+      "summary": "prepared v0.32.3, built with go1.26.6 to clear five called stdlib advisories"
     },
     "PushEvent:yasyf/cc-review": {
-      "as_of": "eae22b39e0c8",
-      "summary": "re-rendered CLAUDE.md and AGENTS.md from cc-guides 0.1.53"
-    },
-    "PushEvent:yasyf/cc-skills": {
-      "as_of": "3b49237eac39",
-      "summary": "named codex lanes with -l so no path crosses the CLI"
-    },
-    "PushEvent:yasyf/cc-squash": {
-      "as_of": "2d39f18c1aac",
-      "summary": "re-rendered CLAUDE.md and AGENTS.md from cc-guides 0.1.53"
-    },
-    "PushEvent:yasyf/cc-steer": {
-      "as_of": "f21aa0eeaeb2",
-      "summary": "re-rendered CLAUDE.md and AGENTS.md from cc-guides 0.1.53"
-    },
-    "PushEvent:yasyf/cc-transcript": {
-      "as_of": "c309aca952e9",
-      "summary": "re-rendered CLAUDE.md and AGENTS.md from cc-guides 0.1.53"
-    },
-    "PushEvent:yasyf/docker-dsl": {
-      "as_of": "eca3113a8719",
-      "summary": "re-rendered CLAUDE.md and AGENTS.md from cc-guides 0.1.53"
-    },
-    "PushEvent:yasyf/experiment-at-home": {
-      "as_of": "72407ff124e9",
-      "summary": "re-rendered CLAUDE.md and AGENTS.md from cc-guides 0.1.53"
+      "as_of": "49829fc5f34e",
+      "summary": "prepared v0.34.1 on cc-interact v0.32.1 and daemonkit v0.21.4"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "659f2028bc99",
-      "summary": "published the cc-skills v1.9.0 and cc-patch v0.13.1 formulae"
+      "as_of": "ba84ca30f5ce",
+      "summary": "published the synckitd v0.37.2, cc-orchestrate v0.16.1, cc-present v0.32.3, and cc-review v0.34.1 formulae"
     },
-    "PushEvent:yasyf/spawnllm": {
-      "as_of": "f1cc8af88bc9",
-      "summary": "re-rendered CLAUDE.md and AGENTS.md from cc-guides 0.1.53"
+    "PushEvent:yasyf/synckit": {
+      "as_of": "5c376454ef4f",
+      "summary": "rebuilt on Go 1.26.6 for two stdlib advisories, and gave the serve LaunchAgent back its dropped argument"
     },
-    "PushEvent:yasyf/yclaw": {
-      "as_of": "7a7976892a88",
-      "summary": "debloated the residual audiohald poller ring, coreaudiod, and audiomxd on the BlueBubbles host"
+    "ReleaseEvent:yasyf/cc-interact": {
+      "as_of": "2026-07-27",
+      "summary": "v0.31.1: helper installs survive Homebrew's sandboxed temp HOME, and recovery-mode reconcile clears wedged installs"
     }
   },
-  "generated_at": "2026-08-15T09:46:22Z",
+  "generated_at": "2026-08-16T09:48:46Z",
   "shipped": {
-    "authkit@v0.2.0": {
-      "summary": "pinned cookiesync by its shipped module-path codesign identifier"
-    },
     "captain-hook@v12.21.0": {
       "summary": "retargeted the models-pack nudges so tool-driving is fable's lane, and migrated to daemonkit v0.21.2"
     },
@@ -71,6 +68,9 @@
     },
     "spawnllm@v0.11.0": {
       "summary": "added an Apple Foundation Models on-device backend and exact-model passthrough"
+    },
+    "synckit@v0.37.2": {
+      "summary": "restored the serve LaunchAgent's dropped argument and rebuilt on Go 1.26.6 for two stdlib advisories"
     }
   },
   "version": 1
