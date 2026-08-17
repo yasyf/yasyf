@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-17T09:57:22Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-17T12:49:35Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -24,20 +24,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-08-17` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — took daemonkit v0.22.0, and gave the mount holder its sessions over the spawn channel, not a socket path
+- `2026-08-17` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
 - `2026-08-17` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash)
 - `2026-08-17` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — cut 0.16.1 on cc-interact v0.32.1 and go1.26.6, then synced cco.binrun and its manifest
+- `2026-08-17` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
 - `2026-08-17` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
 - `2026-08-17` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
-- `2026-08-17` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — took daemonkit v0.22.0, and gave the mount holder its sessions over the spawn channel, not a socket path
 - `2026-08-17` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — cut 0.22.0: spawned children take their sessions over the channel they inherit, and state roots at ~/.daemonkit
 - `2026-08-16` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published the slop-cop v0.1.62, captain-hook v12.21.3, cc-pool v0.65.2, and cc-patch v0.14.0 formulae
 - `2026-08-16` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop) — added allow-unsigned-executable-memory, the entitlement wazero actually needs, after allow-jit stopped the SIGKILLs
 - `2026-08-16` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — repinned the publisher SHA the release contract asserts, and migrated the MCP server to mcp 2.x
 - `2026-08-16` Was active in [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
-- `2026-08-16` Pushed to [yasyf/cc-patch](https://github.com/yasyf/cc-patch) — dropped the tasktools builtin, unreachable since Claude Code 2.1.233, and added the workflowdefault pack
-- `2026-08-09` Triaged issues in [bytecodealliance/ComponentizeJS](https://github.com/bytecodealliance/ComponentizeJS) — asked for oxc-parser >=0.90.0, since the 0.76.0 bindings ship without build provenance
 
-**19,258 contributions in the last year**
+**19,262 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -114,14 +114,13 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-08-17` [fusekit v1.17.0](https://github.com/yasyf/fusekit/releases/tag/v1.17.0)
 - `2026-08-16` [slop-cop v0.1.62](https://github.com/yasyf/slop-cop/releases/tag/v0.1.62) — added allow-unsigned-executable-memory, the entitlement wazero actually needs
 - `2026-08-16` [captain-hook v12.21.3](https://github.com/yasyf/captain-hook/releases/tag/v12.21.3) — repinned the publisher SHA the release contract asserts, and accepted the metadata version uv now emits
 - `2026-08-16` [cc-pool v0.65.2](https://github.com/yasyf/cc-pool/releases/tag/v0.65.2) — rebuilt on Go 1.26.6
 - `2026-08-16` [cc-skills v1.10.0](https://github.com/yasyf/cc-skills/releases/tag/v1.10.0) — moved the codex lane onto daemonkit v0.21.4 and a stable daemon path, and covered its --owner routing
 - `2026-08-04` [cc-notes v0.51.1](https://github.com/yasyf/cc-notes/releases/tag/v0.51.1) — stated a deadline budget at every daemonkit entry point
-- `2026-08-03` [binrun v0.3.0](https://github.com/yasyf/binrun/releases/tag/v0.3.0) — repinned daemonkit to v0.21.0, and resolved the cache dir from the passwd database so a sandboxed HOME can't move it
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
-- `2026-07-18` [authkit v0.2.0](https://github.com/yasyf/authkit/releases/tag/v0.2.0) — pinned cookiesync by its shipped module-path codesign identifier
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
