@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-16T18:44:23Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-17T00:51:26Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -24,20 +24,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-08-16` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 - `2026-08-16` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published the synckitd v0.37.2, cc-orchestrate v0.16.1, cc-present v0.32.3, and cc-review v0.34.1 formulae
+- `2026-08-16` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
+- `2026-08-16` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-08-16` Was active in [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
+- `2026-08-16` Pushed to [yasyf/cc-patch](https://github.com/yasyf/cc-patch)
+- `2026-08-16` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit)
+- `2026-08-16` Was active in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-08-16` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
 - `2026-08-16` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-08-16` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit) — rebuilt on Go 1.26.6 for two stdlib advisories, and gave the serve LaunchAgent back its dropped argument
-- `2026-08-16` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — cut 0.16.1 on cc-interact v0.32.1, built with go1.26.6
-- `2026-08-16` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — prepared v0.34.1 on cc-interact v0.32.1 and daemonkit v0.21.4
-- `2026-08-16` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — prepared v0.32.3, built with go1.26.6 to clear five called stdlib advisories
-- `2026-08-16` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — built with go1.26.6 to clear five called stdlib advisories, after carrying the Stop fix to three consumers
 - `2026-08-09` Triaged issues in [bytecodealliance/ComponentizeJS](https://github.com/bytecodealliance/ComponentizeJS) — asked for oxc-parser >=0.90.0, since the 0.76.0 bindings ship without build provenance
 - `2026-08-07` Triaged issues in [bytecodealliance/jco](https://github.com/bytecodealliance/jco) — asked for oxc-parser >=0.90.0, since the 0.76.0 bindings ship without build provenance
 - `2026-08-07` Triaged issues in [partite-ai/wacogo](https://github.com/partite-ai/wacogo) — reported a panic on list<record> whose element is an (eq)-bounded type import
-- `2026-07-29` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — corrected the --help description of the graphite probe gate
 
-**19,275 contributions in the last year**
+**19,199 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -114,11 +114,12 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-08-16` [slop-cop v0.1.62](https://github.com/yasyf/slop-cop/releases/tag/v0.1.62)
+- `2026-08-16` [captain-hook v12.21.3](https://github.com/yasyf/captain-hook/releases/tag/v12.21.3)
+- `2026-08-16` [cc-pool v0.65.2](https://github.com/yasyf/cc-pool/releases/tag/v0.65.2)
 - `2026-08-16` [cc-skills v1.10.0](https://github.com/yasyf/cc-skills/releases/tag/v1.10.0)
-- `2026-08-04` [cc-pool v0.65.0](https://github.com/yasyf/cc-pool/releases/tag/v0.65.0) — rebuilt the disposable-worker pool, credential fencing, and the daemon's control surface on daemonkit v0.21
 - `2026-08-04` [cc-notes v0.51.1](https://github.com/yasyf/cc-notes/releases/tag/v0.51.1) — stated a deadline budget at every daemonkit entry point
-- `2026-08-03` [captain-hook v12.21.0](https://github.com/yasyf/captain-hook/releases/tag/v12.21.0) — retargeted the models-pack nudges so tool-driving is fable's lane, and migrated to daemonkit v0.21.2
-- `2026-07-31` [slop-cop v0.1.59](https://github.com/yasyf/slop-cop/releases/tag/v0.1.59) — added a clarity base layer and repaired the dead LLM tiers
+- `2026-08-04` [daemonkit v0.21.4](https://github.com/yasyf/daemonkit/releases/tag/v0.21.4)
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
 <!-- gh-profile:end:shipped -->
 
