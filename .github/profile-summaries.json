@@ -1,76 +1,63 @@
 {
   "activity": {
-    "IssuesEvent:anthropics/claude-code": {
-      "as_of": "2026-07-28",
-      "summary": "reported the bundled ugrep busy-looping at 100% CPU when --ignore-files resolves to a directory"
-    },
     "IssuesEvent:bytecodealliance/ComponentizeJS": {
       "as_of": "2026-08-09",
       "summary": "asked for oxc-parser >=0.90.0, since the 0.76.0 bindings ship without build provenance"
     },
-    "IssuesEvent:bytecodealliance/jco": {
-      "as_of": "2026-08-07",
-      "summary": "asked for oxc-parser >=0.90.0, since the 0.76.0 bindings ship without build provenance"
-    },
-    "IssuesEvent:partite-ai/wacogo": {
-      "as_of": "2026-08-07",
-      "summary": "reported a panic on list<record> whose element is an (eq)-bounded type import"
-    },
-    "PullRequestEvent:yasyf/cc-context": {
-      "as_of": "2026-07-29",
-      "summary": "corrected the --help description of the graphite probe gate"
-    },
-    "PushEvent:yasyf/cc-interact": {
-      "as_of": "fa301187c525",
-      "summary": "built with go1.26.6 to clear five called stdlib advisories, after carrying the Stop fix to three consumers"
+    "PushEvent:yasyf/captain-hook": {
+      "as_of": "b7a78e4b8281",
+      "summary": "repinned the publisher SHA the release contract asserts, and migrated the MCP server to mcp 2.x"
     },
     "PushEvent:yasyf/cc-orchestrate": {
-      "as_of": "1167a386138f",
-      "summary": "cut 0.16.1 on cc-interact v0.32.1, built with go1.26.6"
+      "as_of": "1ca533aa2f7b",
+      "summary": "cut 0.16.1 on cc-interact v0.32.1 and go1.26.6, then synced cco.binrun and its manifest"
     },
-    "PushEvent:yasyf/cc-present": {
-      "as_of": "dd9fb28b3d7a",
-      "summary": "prepared v0.32.3, built with go1.26.6 to clear five called stdlib advisories"
+    "PushEvent:yasyf/cc-patch": {
+      "as_of": "d67e646752de",
+      "summary": "dropped the tasktools builtin, unreachable since Claude Code 2.1.233, and added the workflowdefault pack"
     },
-    "PushEvent:yasyf/cc-review": {
-      "as_of": "49829fc5f34e",
-      "summary": "prepared v0.34.1 on cc-interact v0.32.1 and daemonkit v0.21.4"
+    "PushEvent:yasyf/daemonkit": {
+      "as_of": "93e50dc991c1",
+      "summary": "cut 0.22.0: spawned children take their sessions over the channel they inherit, and state roots at ~/.daemonkit"
+    },
+    "PushEvent:yasyf/fusekit": {
+      "as_of": "17093ed099ec",
+      "summary": "took daemonkit v0.22.0, and gave the mount holder its sessions over the spawn channel, not a socket path"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "ba84ca30f5ce",
-      "summary": "published the synckitd v0.37.2, cc-orchestrate v0.16.1, cc-present v0.32.3, and cc-review v0.34.1 formulae"
+      "as_of": "e1ed94b45603",
+      "summary": "published the slop-cop v0.1.62, captain-hook v12.21.3, cc-pool v0.65.2, and cc-patch v0.14.0 formulae"
     },
-    "PushEvent:yasyf/synckit": {
-      "as_of": "5c376454ef4f",
-      "summary": "rebuilt on Go 1.26.6 for two stdlib advisories, and gave the serve LaunchAgent back its dropped argument"
-    },
-    "ReleaseEvent:yasyf/cc-interact": {
-      "as_of": "2026-07-27",
-      "summary": "v0.31.1: helper installs survive Homebrew's sandboxed temp HOME, and recovery-mode reconcile clears wedged installs"
+    "PushEvent:yasyf/slop-cop": {
+      "as_of": "5a3068dacf90",
+      "summary": "added allow-unsigned-executable-memory, the entitlement wazero actually needs, after allow-jit stopped the SIGKILLs"
     }
   },
-  "generated_at": "2026-08-16T09:48:46Z",
+  "generated_at": "2026-08-17T09:56:56Z",
   "shipped": {
-    "captain-hook@v12.21.0": {
-      "summary": "retargeted the models-pack nudges so tool-driving is fable's lane, and migrated to daemonkit v0.21.2"
+    "authkit@v0.2.0": {
+      "summary": "pinned cookiesync by its shipped module-path codesign identifier"
+    },
+    "binrun@v0.3.0": {
+      "summary": "repinned daemonkit to v0.21.0, and resolved the cache dir from the passwd database so a sandboxed HOME can't move it"
+    },
+    "captain-hook@v12.21.3": {
+      "summary": "repinned the publisher SHA the release contract asserts, and accepted the metadata version uv now emits"
     },
     "cc-notes@v0.51.1": {
       "summary": "stated a deadline budget at every daemonkit entry point"
     },
-    "cc-pool@v0.65.0": {
-      "summary": "rebuilt the disposable-worker pool, credential fencing, and the daemon's control surface on daemonkit v0.21"
+    "cc-pool@v0.65.2": {
+      "summary": "rebuilt on Go 1.26.6"
     },
-    "cc-skills@v1.9.0": {
-      "summary": "taught ship the graphite lane and prek hooks, gave open-pr the repo's own voice, and named codex lanes with -l"
+    "cc-skills@v1.10.0": {
+      "summary": "moved the codex lane onto daemonkit v0.21.4 and a stable daemon path, and covered its --owner routing"
     },
-    "slop-cop@v0.1.59": {
-      "summary": "added a clarity base layer and repaired the dead LLM tiers"
+    "slop-cop@v0.1.62": {
+      "summary": "added allow-unsigned-executable-memory, the entitlement wazero actually needs"
     },
     "spawnllm@v0.11.0": {
       "summary": "added an Apple Foundation Models on-device backend and exact-model passthrough"
-    },
-    "synckit@v0.37.2": {
-      "summary": "restored the serve LaunchAgent's dropped argument and rebuilt on Go 1.26.6 for two stdlib advisories"
     }
   },
   "version": 1
