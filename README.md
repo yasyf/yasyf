@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-18T12:50:08Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-18T18:49:00Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -28,16 +28,16 @@
 - `2026-08-18` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — bounded the worker cache, so churning roots stop leaking interpreters
 - `2026-08-17` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — read how each downstack PR ended, so a queue merge stops reading as closed
 - `2026-08-17` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — let open-pr pick a depth, and stop reading a queue merge as an abandonment
-- `2026-08-17` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — cut 0.66.0 on daemonkit v0.22.0, and dropped the holder socket path
-- `2026-08-17` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — cut 1.17.0: the holder takes sessions over the spawn channel, not a socket path
-- `2026-08-17` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
-- `2026-08-17` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash)
-- `2026-08-17` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — cut 0.16.1 on cc-interact v0.32.1 and go1.26.6, then synced cco.binrun and its manifest
-- `2026-08-17` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
-- `2026-08-17` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
-- `2026-08-17` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
+- `2026-08-09` Triaged issues in [bytecodealliance/ComponentizeJS](https://github.com/bytecodealliance/ComponentizeJS)
+- `2026-08-07` Triaged issues in [bytecodealliance/jco](https://github.com/bytecodealliance/jco)
+- `2026-08-07` Triaged issues in [partite-ai/wacogo](https://github.com/partite-ai/wacogo)
+- `2026-07-29` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-07-28` Triaged issues in [anthropics/claude-code](https://github.com/anthropics/claude-code)
+- `2026-07-27` Cut a release in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
+- `2026-07-27` Starred [vercel-labs/scriptc](https://github.com/vercel-labs/scriptc)
+- `2026-07-26` Cut a release in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
 
-**19,504 contributions in the last year**
+**19,523 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
