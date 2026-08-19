@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-18T18:49:00Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-19T00:51:27Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -26,8 +26,6 @@
 <!-- gh-profile:start:activity -->
 - `2026-08-18` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published the captain-hook v12.21.4, ccx v0.40.0, and cc-pool v0.66.0 formulae
 - `2026-08-18` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — bounded the worker cache, so churning roots stop leaking interpreters
-- `2026-08-17` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — read how each downstack PR ended, so a queue merge stops reading as closed
-- `2026-08-17` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — let open-pr pick a depth, and stop reading a queue merge as an abandonment
 - `2026-08-09` Triaged issues in [bytecodealliance/ComponentizeJS](https://github.com/bytecodealliance/ComponentizeJS)
 - `2026-08-07` Triaged issues in [bytecodealliance/jco](https://github.com/bytecodealliance/jco)
 - `2026-08-07` Triaged issues in [partite-ai/wacogo](https://github.com/partite-ai/wacogo)
@@ -36,8 +34,10 @@
 - `2026-07-27` Cut a release in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
 - `2026-07-27` Starred [vercel-labs/scriptc](https://github.com/vercel-labs/scriptc)
 - `2026-07-26` Cut a release in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
+- `2026-07-26` Starred [macro-inc/macro](https://github.com/macro-inc/macro)
+- `2026-07-25` Starred [stablyai/orca](https://github.com/stablyai/orca)
 
-**19,523 contributions in the last year**
+**19,605 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
