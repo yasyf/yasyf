@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-19T18:47:38Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-20T00:51:44Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -24,20 +24,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-08-19` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published the captain-hook v12.21.4, ccx v0.40.0, and cc-pool v0.66.0 formulae
+- `2026-08-19` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — read how each downstack PR ended, so a queue merge stops reading as closed
+- `2026-08-19` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — bounded the worker cache, so churning roots stop leaking interpreters
+- `2026-08-19` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-08-19` Triaged issues in [stablyai/orca](https://github.com/stablyai/orca)
 - `2026-08-19` Starred [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec)
-- `2026-08-18` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published the captain-hook v12.21.4, ccx v0.40.0, and cc-pool v0.66.0 formulae
-- `2026-08-18` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — bounded the worker cache, so churning roots stop leaking interpreters
 - `2026-08-09` Triaged issues in [bytecodealliance/ComponentizeJS](https://github.com/bytecodealliance/ComponentizeJS)
 - `2026-08-07` Triaged issues in [bytecodealliance/jco](https://github.com/bytecodealliance/jco)
 - `2026-08-07` Triaged issues in [partite-ai/wacogo](https://github.com/partite-ai/wacogo)
 - `2026-07-29` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-07-28` Triaged issues in [anthropics/claude-code](https://github.com/anthropics/claude-code)
 - `2026-07-27` Cut a release in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
-- `2026-07-27` Starred [vercel-labs/scriptc](https://github.com/vercel-labs/scriptc)
-- `2026-07-26` Cut a release in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
-- `2026-07-26` Starred [macro-inc/macro](https://github.com/macro-inc/macro)
 
-**19,678 contributions in the last year**
+**19,720 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -114,7 +114,8 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-08-18` [captain-hook v12.21.4](https://github.com/yasyf/captain-hook/releases/tag/v12.21.4) — bounded the worker cache so churning roots stop leaking interpreters
+- `2026-08-19` [cc-context v0.41.0](https://github.com/yasyf/cc-context/releases/tag/v0.41.0)
+- `2026-08-19` [captain-hook v12.21.6](https://github.com/yasyf/captain-hook/releases/tag/v12.21.6)
 - `2026-08-17` [cc-pool v0.66.0](https://github.com/yasyf/cc-pool/releases/tag/v0.66.0) — took daemonkit v0.22.0 and fusekit v1.17.0, and dropped the holder socket path
 - `2026-08-16` [slop-cop v0.1.62](https://github.com/yasyf/slop-cop/releases/tag/v0.1.62) — added allow-unsigned-executable-memory, the entitlement wazero actually needs
 - `2026-08-16` [cc-skills v1.10.0](https://github.com/yasyf/cc-skills/releases/tag/v1.10.0) — moved the codex lane onto daemonkit v0.21.4 and a stable daemon path, and covered its --owner routing
