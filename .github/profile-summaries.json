@@ -1,38 +1,46 @@
 {
   "activity": {
+    "IssuesEvent:bytecodealliance/ComponentizeJS": {
+      "as_of": "2026-08-09",
+      "summary": "the 0.76.0 oxc-parser bindings lack build provenance; bump to >=0.90.0"
+    },
+    "IssuesEvent:bytecodealliance/jco": {
+      "as_of": "2026-08-07",
+      "summary": "the 0.76.0 oxc-parser bindings lack build provenance; bump to >=0.90.0"
+    },
+    "IssuesEvent:partite-ai/wacogo": {
+      "as_of": "2026-08-07",
+      "summary": "a panic on `list<record>` whose element is an (eq)-bounded type import"
+    },
+    "IssuesEvent:stablyai/orca": {
+      "as_of": "2026-08-19",
+      "summary": "⌘Q on a serve-hosted desktop window kills the headless runtime on macOS"
+    },
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "2c9bd4552206",
-      "summary": "bounded the worker cache, so churning roots stop leaking interpreters"
+      "as_of": "e7d974f1bad8",
+      "summary": "cut 12.21.5 and 12.21.6, and stopped the graphite pack steering opted-out repos"
     },
     "PushEvent:yasyf/cc-context": {
-      "as_of": "98780a363248",
-      "summary": "read how each downstack PR ended, so a queue merge stops reading as closed"
-    },
-    "PushEvent:yasyf/cc-orchestrate": {
-      "as_of": "1ca533aa2f7b",
-      "summary": "cut 0.16.1 on cc-interact v0.32.1 and go1.26.6, then synced cco.binrun and its manifest"
-    },
-    "PushEvent:yasyf/cc-pool": {
-      "as_of": "903f25edae03",
-      "summary": "cut 0.66.0 on daemonkit v0.22.0, and dropped the holder socket path"
+      "as_of": "5c3dfc00a131",
+      "summary": "cut ccx 0.41.0: ship reports progress and submits a stack only once"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "f027008f33a2",
-      "summary": "let open-pr pick a depth, and stop reading a queue merge as an abandonment"
-    },
-    "PushEvent:yasyf/fusekit": {
-      "as_of": "66238ebb9d36",
-      "summary": "cut 1.17.0: the holder takes sessions over the spawn channel, not a socket path"
+      "as_of": "f9f7c5795931",
+      "summary": "excluded .cursor-plugin from drift, so the weekly strict run stops crying wolf"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "629601a0a08d",
-      "summary": "published the captain-hook v12.21.4, ccx v0.40.0, and cc-pool v0.66.0 formulae"
+      "as_of": "eb9230ba6d1b",
+      "summary": "published the slop-cop v0.1.63, ccx v0.41.0, and captain-hook v12.21.6 formulae"
+    },
+    "PushEvent:yasyf/slop-cop": {
+      "as_of": "29ce78fab001",
+      "summary": "bumped Go to 1.26.6 to clear the govulncheck stdlib findings"
     }
   },
-  "generated_at": "2026-08-18T09:51:26Z",
+  "generated_at": "2026-08-20T09:52:13Z",
   "shipped": {
-    "captain-hook@v12.21.4": {
-      "summary": "bounded the worker cache so churning roots stop leaking interpreters"
+    "captain-hook@v12.21.6": {
+      "summary": "gave the worktree test a git identity, since CI runners carry none"
     },
     "cc-notes@v0.51.1": {
       "summary": "stated a deadline budget at every daemonkit entry point"
@@ -43,8 +51,8 @@
     "cc-skills@v1.10.0": {
       "summary": "moved the codex lane onto daemonkit v0.21.4 and a stable daemon path, and covered its --owner routing"
     },
-    "slop-cop@v0.1.62": {
-      "summary": "added allow-unsigned-executable-memory, the entitlement wazero actually needs"
+    "slop-cop@v0.1.63": {
+      "summary": "adopted the Google developer documentation style guide as a third rule layer"
     },
     "spawnllm@v0.11.0": {
       "summary": "added an Apple Foundation Models on-device backend and exact-model passthrough"

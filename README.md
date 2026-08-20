@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-20T06:49:41Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-20T09:52:30Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -24,20 +24,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-08-20` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — let open-pr pick a depth, and stop reading a queue merge as an abandonment
-- `2026-08-20` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published the captain-hook v12.21.4, ccx v0.40.0, and cc-pool v0.66.0 formulae
-- `2026-08-20` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
-- `2026-08-19` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — read how each downstack PR ended, so a queue merge stops reading as closed
-- `2026-08-19` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — bounded the worker cache, so churning roots stop leaking interpreters
+- `2026-08-20` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — excluded .cursor-plugin from drift, so the weekly strict run stops crying wolf
+- `2026-08-20` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published the slop-cop v0.1.63, ccx v0.41.0, and captain-hook v12.21.6 formulae
+- `2026-08-20` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop) — bumped Go to 1.26.6 to clear the govulncheck stdlib findings
+- `2026-08-19` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — cut ccx 0.41.0: ship reports progress and submits a stack only once
+- `2026-08-19` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — cut 12.21.5 and 12.21.6, and stopped the graphite pack steering opted-out repos
 - `2026-08-19` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-08-19` Triaged issues in [stablyai/orca](https://github.com/stablyai/orca)
+- `2026-08-19` Triaged issues in [stablyai/orca](https://github.com/stablyai/orca) — ⌘Q on a serve-hosted desktop window kills the headless runtime on macOS
 - `2026-08-19` Starred [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec)
-- `2026-08-09` Triaged issues in [bytecodealliance/ComponentizeJS](https://github.com/bytecodealliance/ComponentizeJS)
-- `2026-08-07` Triaged issues in [bytecodealliance/jco](https://github.com/bytecodealliance/jco)
-- `2026-08-07` Triaged issues in [partite-ai/wacogo](https://github.com/partite-ai/wacogo)
+- `2026-08-09` Triaged issues in [bytecodealliance/ComponentizeJS](https://github.com/bytecodealliance/ComponentizeJS) — the 0.76.0 oxc-parser bindings lack build provenance; bump to >=0.90.0
+- `2026-08-07` Triaged issues in [bytecodealliance/jco](https://github.com/bytecodealliance/jco) — the 0.76.0 oxc-parser bindings lack build provenance; bump to >=0.90.0
+- `2026-08-07` Triaged issues in [partite-ai/wacogo](https://github.com/partite-ai/wacogo) — a panic on `list<record>` whose element is an (eq)-bounded type import
 - `2026-07-29` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 
-**19,810 contributions in the last year**
+**19,817 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -114,8 +114,8 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-08-20` [slop-cop v0.1.63](https://github.com/yasyf/slop-cop/releases/tag/v0.1.63)
-- `2026-08-19` [captain-hook v12.21.6](https://github.com/yasyf/captain-hook/releases/tag/v12.21.6)
+- `2026-08-20` [slop-cop v0.1.63](https://github.com/yasyf/slop-cop/releases/tag/v0.1.63) — adopted the Google developer documentation style guide as a third rule layer
+- `2026-08-19` [captain-hook v12.21.6](https://github.com/yasyf/captain-hook/releases/tag/v12.21.6) — gave the worktree test a git identity, since CI runners carry none
 - `2026-08-17` [cc-pool v0.66.0](https://github.com/yasyf/cc-pool/releases/tag/v0.66.0) — took daemonkit v0.22.0 and fusekit v1.17.0, and dropped the holder socket path
 - `2026-08-16` [cc-skills v1.10.0](https://github.com/yasyf/cc-skills/releases/tag/v1.10.0) — moved the codex lane onto daemonkit v0.21.4 and a stable daemon path, and covered its --owner routing
 - `2026-08-04` [cc-notes v0.51.1](https://github.com/yasyf/cc-notes/releases/tag/v0.51.1) — stated a deadline budget at every daemonkit entry point
