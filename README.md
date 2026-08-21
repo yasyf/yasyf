@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-21T06:49:59Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-21T09:53:52Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -24,18 +24,18 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-08-21` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop) — bumped Go to 1.26.6 to clear the govulncheck stdlib findings
-- `2026-08-21` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — cut 12.21.5 and 12.21.6, and stopped the graphite pack steering opted-out repos
-- `2026-08-21` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — excluded .cursor-plugin from drift, so the weekly strict run stops crying wolf
-- `2026-08-21` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published the slop-cop v0.1.63, ccx v0.41.0, and captain-hook v12.21.6 formulae
-- `2026-08-21` Pushed to [yasyf/cc-patch](https://github.com/yasyf/cc-patch)
+- `2026-08-21` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — cut v0.34.1 on cc-interact v0.32.1 and daemonkit v0.21.4
+- `2026-08-21` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — cut 0.16.1, and made pty hosts Serve products under one daemonkit Daemon
+- `2026-08-21` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop) — started no MCP servers for the analysis passes
+- `2026-08-21` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — ran the hook shims and the host wrapper under bash, not sh
+- `2026-08-21` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — ran the binrun shim under bash, and excluded .cursor-plugin from drift
+- `2026-08-21` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published the cc-patch v0.15.0, ccx v0.41.0, and slop-cop v0.1.63 formulae
+- `2026-08-21` Pushed to [yasyf/cc-patch](https://github.com/yasyf/cc-patch) — cut 0.15.0 with local packs and replace sites, dropping the tasktools builtin
 - `2026-08-21` Was active in [yasyf/cc-patch](https://github.com/yasyf/cc-patch)
 - `2026-08-21` Worked on a pull request in [yasyf/cc-patch](https://github.com/yasyf/cc-patch)
 - `2026-08-21` Created something new in [yasyf/cc-patch](https://github.com/yasyf/cc-patch)
 - `2026-08-20` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-08-20` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-08-19` Triaged issues in [stablyai/orca](https://github.com/stablyai/orca) — ⌘Q on a serve-hosted desktop window kills the headless runtime on macOS
-- `2026-08-19` Starred [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec)
 
 **19,965 contributions in the last year**
 <!-- gh-profile:end:activity -->
@@ -114,11 +114,12 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-08-21` [cc-patch v0.15.0](https://github.com/yasyf/cc-patch/releases/tag/v0.15.0)
 - `2026-08-20` [slop-cop v0.1.63](https://github.com/yasyf/slop-cop/releases/tag/v0.1.63) — adopted the Google developer documentation style guide as a third rule layer
+- `2026-08-19` [cc-context v0.41.0](https://github.com/yasyf/cc-context/releases/tag/v0.41.0) — made ship report progress, submit a stack once, and ship an in-place commit
 - `2026-08-19` [captain-hook v12.21.6](https://github.com/yasyf/captain-hook/releases/tag/v12.21.6) — gave the worktree test a git identity, since CI runners carry none
 - `2026-08-17` [cc-pool v0.66.0](https://github.com/yasyf/cc-pool/releases/tag/v0.66.0) — took daemonkit v0.22.0 and fusekit v1.17.0, and dropped the holder socket path
-- `2026-08-16` [cc-skills v1.10.0](https://github.com/yasyf/cc-skills/releases/tag/v1.10.0) — moved the codex lane onto daemonkit v0.21.4 and a stable daemon path, and covered its --owner routing
+- `2026-08-16` [cc-skills v1.10.0](https://github.com/yasyf/cc-skills/releases/tag/v1.10.0) — moved the codex lane onto daemonkit v0.21.4 and a stable daemon path
+- `2026-08-16` [cc-orchestrate v0.16.1](https://github.com/yasyf/cc-orchestrate/releases/tag/v0.16.1)
 - `2026-08-04` [cc-notes v0.51.1](https://github.com/yasyf/cc-notes/releases/tag/v0.51.1) — stated a deadline budget at every daemonkit entry point
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
 <!-- gh-profile:end:shipped -->
