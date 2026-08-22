@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-22T06:49:13Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-22T09:48:59Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -24,20 +24,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-08-22` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published the ccx v0.42.0, cc-patch v0.15.0, and slop-cop v0.1.63 formulae
+- `2026-08-22` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — made ship restack a graphite stack itself, take --yolo, and derive its commit from the PR flags
 - `2026-08-21` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — cut v0.34.1 on cc-interact v0.32.1 and daemonkit v0.21.4
 - `2026-08-21` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — cut 0.16.1, and made pty hosts Serve products under one daemonkit Daemon
 - `2026-08-21` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop) — started no MCP servers for the analysis passes
 - `2026-08-21` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — ran the hook shims and the host wrapper under bash, not sh
 - `2026-08-21` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — ran the binrun shim under bash, and excluded .cursor-plugin from drift
-- `2026-08-21` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published the cc-patch v0.15.0, ccx v0.41.0, and slop-cop v0.1.63 formulae
 - `2026-08-21` Pushed to [yasyf/cc-patch](https://github.com/yasyf/cc-patch) — cut 0.15.0 with local packs and replace sites, dropping the tasktools builtin
 - `2026-08-21` Was active in [yasyf/cc-patch](https://github.com/yasyf/cc-patch)
 - `2026-08-21` Worked on a pull request in [yasyf/cc-patch](https://github.com/yasyf/cc-patch)
 - `2026-08-21` Created something new in [yasyf/cc-patch](https://github.com/yasyf/cc-patch)
 - `2026-08-20` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-08-20` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 
-**19,993 contributions in the last year**
+**19,996 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -71,7 +71,7 @@
 **Taming long sessions**
 
 - [cc-merge](https://github.com/yasyf/cc-merge) — a merge queue for the git worktrees where finished Claude outputs land
-- [cc-context](https://github.com/yasyf/cc-context) — ccx, token-bounded codebase context for agents, with semantic search now running in-process instead of farmed out to semble
+- [cc-context](https://github.com/yasyf/cc-context) — ccx, token-bounded codebase context for agents, whose `ship` now submits and restacks a whole graphite stack on its own
 - [cc-squash](https://github.com/yasyf/cc-squash) — augmented auto-compaction for marathon Claude Code sessions
 - [cc-vigil](https://github.com/yasyf/cc-vigil) — a transcript-oracle sleep inhibitor that keeps your Mac awake only while Claude agents are truly working
 
@@ -114,8 +114,8 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-08-22` [cc-context v0.42.0](https://github.com/yasyf/cc-context/releases/tag/v0.42.0) — shipped self-restacking graphite stacks, a --yolo flag, and a commit derived from the PR flags
 - `2026-08-20` [slop-cop v0.1.63](https://github.com/yasyf/slop-cop/releases/tag/v0.1.63) — adopted the Google developer documentation style guide as a third rule layer
-- `2026-08-19` [cc-context v0.41.0](https://github.com/yasyf/cc-context/releases/tag/v0.41.0) — made ship report progress, submit a stack once, and ship an in-place commit
 - `2026-08-19` [captain-hook v12.21.6](https://github.com/yasyf/captain-hook/releases/tag/v12.21.6) — gave the worktree test a git identity, since CI runners carry none
 - `2026-08-17` [cc-pool v0.66.0](https://github.com/yasyf/cc-pool/releases/tag/v0.66.0) — took daemonkit v0.22.0 and fusekit v1.17.0, and dropped the holder socket path
 - `2026-08-16` [cc-skills v1.10.0](https://github.com/yasyf/cc-skills/releases/tag/v1.10.0) — moved the codex lane onto daemonkit v0.21.4 and a stable daemon path

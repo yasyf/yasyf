@@ -4,6 +4,10 @@
       "as_of": "0a2748539c25",
       "summary": "ran the hook shims and the host wrapper under bash, not sh"
     },
+    "PushEvent:yasyf/cc-context": {
+      "as_of": "19c8d4a87005",
+      "summary": "made ship restack a graphite stack itself, take --yolo, and derive its commit from the PR flags"
+    },
     "PushEvent:yasyf/cc-orchestrate": {
       "as_of": "c7934e58ee08",
       "summary": "cut 0.16.1, and made pty hosts Serve products under one daemonkit Daemon"
@@ -21,21 +25,21 @@
       "summary": "ran the binrun shim under bash, and excluded .cursor-plugin from drift"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "9f16a959df5a",
-      "summary": "published the cc-patch v0.15.0, ccx v0.41.0, and slop-cop v0.1.63 formulae"
+      "as_of": "024bc2d583f3",
+      "summary": "published the ccx v0.42.0, cc-patch v0.15.0, and slop-cop v0.1.63 formulae"
     },
     "PushEvent:yasyf/slop-cop": {
       "as_of": "3ea9de993a89",
       "summary": "started no MCP servers for the analysis passes"
     }
   },
-  "generated_at": "2026-08-21T09:53:03Z",
+  "generated_at": "2026-08-22T09:48:56Z",
   "shipped": {
     "captain-hook@v12.21.6": {
       "summary": "gave the worktree test a git identity, since CI runners carry none"
     },
-    "cc-context@v0.41.0": {
-      "summary": "made ship report progress, submit a stack once, and ship an in-place commit"
+    "cc-context@v0.42.0": {
+      "summary": "shipped self-restacking graphite stacks, a --yolo flag, and a commit derived from the PR flags"
     },
     "cc-notes@v0.51.1": {
       "summary": "stated a deadline budget at every daemonkit entry point"
