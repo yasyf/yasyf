@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-21T09:53:52Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-22T00:51:27Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -37,7 +37,7 @@
 - `2026-08-20` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-08-20` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 
-**19,965 contributions in the last year**
+**19,981 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -119,7 +119,6 @@
 - `2026-08-19` [captain-hook v12.21.6](https://github.com/yasyf/captain-hook/releases/tag/v12.21.6) — gave the worktree test a git identity, since CI runners carry none
 - `2026-08-17` [cc-pool v0.66.0](https://github.com/yasyf/cc-pool/releases/tag/v0.66.0) — took daemonkit v0.22.0 and fusekit v1.17.0, and dropped the holder socket path
 - `2026-08-16` [cc-skills v1.10.0](https://github.com/yasyf/cc-skills/releases/tag/v1.10.0) — moved the codex lane onto daemonkit v0.21.4 and a stable daemon path
-- `2026-08-16` [cc-orchestrate v0.16.1](https://github.com/yasyf/cc-orchestrate/releases/tag/v0.16.1)
 - `2026-08-04` [cc-notes v0.51.1](https://github.com/yasyf/cc-notes/releases/tag/v0.51.1) — stated a deadline budget at every daemonkit entry point
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
 <!-- gh-profile:end:shipped -->
