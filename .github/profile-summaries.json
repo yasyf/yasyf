@@ -33,7 +33,7 @@
       "summary": "started no MCP servers for the analysis passes"
     }
   },
-  "generated_at": "2026-08-22T09:48:56Z",
+  "generated_at": "2026-08-23T09:48:06Z",
   "shipped": {
     "captain-hook@v12.21.6": {
       "summary": "gave the worktree test a git identity, since CI runners carry none"
