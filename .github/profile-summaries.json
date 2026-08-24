@@ -1,45 +1,48 @@
 {
   "activity": {
-    "PushEvent:yasyf/captain-hook": {
-      "as_of": "0a2748539c25",
-      "summary": "ran the hook shims and the host wrapper under bash, not sh"
+    "IssueCommentEvent:yasyf/cc-context": {
+      "as_of": "2026-08-24T09:22:15Z",
+      "summary": "ship taking -m twice, and running the repo's hooks only where CI never will"
     },
-    "PushEvent:yasyf/cc-context": {
-      "as_of": "19c8d4a87005",
-      "summary": "made ship restack a graphite stack itself, take --yolo, and derive its commit from the PR flags"
+    "PullRequestEvent:yasyf/cc-skills": {
+      "as_of": "2026-08-24T09:21:37Z",
+      "summary": "moved the ccx restack docs under the new vcs stack group"
+    },
+    "PushEvent:yasyf/captain-hook": {
+      "as_of": "277f2a2f9e25",
+      "summary": "ran the hook shims and the host wrapper under bash, and moved MCP to 2.x"
     },
     "PushEvent:yasyf/cc-orchestrate": {
-      "as_of": "c7934e58ee08",
-      "summary": "cut 0.16.1, and made pty hosts Serve products under one daemonkit Daemon"
-    },
-    "PushEvent:yasyf/cc-patch": {
-      "as_of": "19f7e1e68b74",
-      "summary": "cut 0.15.0 with local packs and replace sites, dropping the tasktools builtin"
+      "as_of": "2971ce71fd7f",
+      "summary": "cut 0.16.1 on cc-interact v0.32.1, with pty hosts as Serve products"
     },
     "PushEvent:yasyf/cc-review": {
-      "as_of": "7b84b653035c",
-      "summary": "cut v0.34.1 on cc-interact v0.32.1 and daemonkit v0.21.4"
+      "as_of": "b5ec887beef2",
+      "summary": "cut v0.34.1 on cc-interact v0.32.1 and daemonkit v0.21.4, built with go1.26.6"
     },
-    "PushEvent:yasyf/cc-skills": {
-      "as_of": "d5a5ee7b8b09",
-      "summary": "ran the binrun shim under bash, and excluded .cursor-plugin from drift"
+    "PushEvent:yasyf/cc-squash": {
+      "as_of": "af48202b6d64",
+      "summary": "adopted the daemonkit verifier self-probe, and verified the trusted tag signer"
     },
-    "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "024bc2d583f3",
-      "summary": "published the ccx v0.42.0, cc-patch v0.15.0, and slop-cop v0.1.63 formulae"
+    "PushEvent:yasyf/cc-transcript": {
+      "as_of": "889fdb07ab51",
+      "summary": "de-dotted the file-shadowing fragment dirs, and rolled the plugin to 0.2.19"
     },
-    "PushEvent:yasyf/slop-cop": {
-      "as_of": "3ea9de993a89",
-      "summary": "started no MCP servers for the analysis passes"
+    "PushEvent:yasyf/spawnllm": {
+      "as_of": "747a86272e8a",
+      "summary": "shipped Apple via a prebuilt Swift sidecar, and fixed the 64 KiB stderr crash"
     }
   },
-  "generated_at": "2026-08-23T09:48:06Z",
+  "generated_at": "2026-08-24T09:58:37Z",
   "shipped": {
+    "authkit@v0.2.0": {
+      "summary": "pinned cookiesync by its shipped module-path codesign identifier"
+    },
+    "binrun@v0.3.0": {
+      "summary": "repinned daemonkit to v0.21.0, and de-dotted the file-shadowing fragment dirs"
+    },
     "captain-hook@v12.21.6": {
       "summary": "gave the worktree test a git identity, since CI runners carry none"
-    },
-    "cc-context@v0.42.0": {
-      "summary": "shipped self-restacking graphite stacks, a --yolo flag, and a commit derived from the PR flags"
     },
     "cc-notes@v0.51.1": {
       "summary": "stated a deadline budget at every daemonkit entry point"
