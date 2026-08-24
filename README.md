@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-23T12:49:11Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-24T00:51:46Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -37,7 +37,7 @@
 - `2026-08-21` Created something new in [yasyf/cc-patch](https://github.com/yasyf/cc-patch)
 - `2026-08-20` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 
-**20,017 contributions in the last year**
+**19,841 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
