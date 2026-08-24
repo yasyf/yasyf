@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-24T12:50:20Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-24T18:49:11Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -25,6 +25,7 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-08-24` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
 - `2026-08-24` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-08-24` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — de-dotted the file-shadowing fragment dirs, and rolled the plugin to 0.2.19
 - `2026-08-24` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
@@ -36,9 +37,8 @@
 - `2026-08-24` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
 - `2026-08-24` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
 - `2026-08-24` Was active in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-08-24` Discussed issues in [yasyf/cc-context](https://github.com/yasyf/cc-context) — ship taking -m twice, and running the repo's hooks only where CI never will
 
-**19,889 contributions in the last year**
+**19,901 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
