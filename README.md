@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-24T09:58:40Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-24T12:50:20Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -25,6 +25,7 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-08-24` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-08-24` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — de-dotted the file-shadowing fragment dirs, and rolled the plugin to 0.2.19
 - `2026-08-24` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
 - `2026-08-24` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — adopted the daemonkit verifier self-probe, and verified the trusted tag signer
@@ -36,9 +37,8 @@
 - `2026-08-24` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
 - `2026-08-24` Was active in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-08-24` Discussed issues in [yasyf/cc-context](https://github.com/yasyf/cc-context) — ship taking -m twice, and running the repo's hooks only where CI never will
-- `2026-08-24` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — moved the ccx restack docs under the new vcs stack group
 
-**19,874 contributions in the last year**
+**19,889 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -115,14 +115,13 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-08-24` [cc-context v0.43.0](https://github.com/yasyf/cc-context/releases/tag/v0.43.0)
 - `2026-08-20` [slop-cop v0.1.63](https://github.com/yasyf/slop-cop/releases/tag/v0.1.63) — adopted the Google developer documentation style guide as a third rule layer
 - `2026-08-19` [captain-hook v12.21.6](https://github.com/yasyf/captain-hook/releases/tag/v12.21.6) — gave the worktree test a git identity, since CI runners carry none
 - `2026-08-17` [cc-pool v0.66.0](https://github.com/yasyf/cc-pool/releases/tag/v0.66.0) — took daemonkit v0.22.0 and fusekit v1.17.0, and dropped the holder socket path
 - `2026-08-16` [cc-skills v1.10.0](https://github.com/yasyf/cc-skills/releases/tag/v1.10.0) — moved the codex lane onto daemonkit v0.21.4 and a stable daemon path
 - `2026-08-04` [cc-notes v0.51.1](https://github.com/yasyf/cc-notes/releases/tag/v0.51.1) — stated a deadline budget at every daemonkit entry point
-- `2026-08-03` [binrun v0.3.0](https://github.com/yasyf/binrun/releases/tag/v0.3.0) — repinned daemonkit to v0.21.0, and de-dotted the file-shadowing fragment dirs
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
-- `2026-07-18` [authkit v0.2.0](https://github.com/yasyf/authkit/releases/tag/v0.2.0) — pinned cookiesync by its shipped module-path codesign identifier
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
