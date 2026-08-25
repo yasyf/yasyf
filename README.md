@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-24T18:49:11Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-25T00:51:36Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -38,7 +38,7 @@
 - `2026-08-24` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
 - `2026-08-24` Was active in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 
-**19,901 contributions in the last year**
+**19,933 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
