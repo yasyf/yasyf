@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-25T06:50:12Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-25T09:52:45Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -17,6 +17,7 @@
 - Converging those pieces into one session-activity platform — typed events and a decision ledger in cc-transcript, with captain-hook as its hook runtime — and building [cc-orchestrate](https://github.com/yasyf/cc-orchestrate) into a pure-Go CLI that runs fleets of agents across pluggable backends like cmux, superset, tmux, and zellij, each with an AgentProber liveness check for long-lived, keep-alive sessions — with [cc-vigil](https://github.com/yasyf/cc-vigil), a transcript-oracle sleep inhibitor, keeping the Mac awake only while those agents are truly working
 - Running the whole cc-* fleet on shared substrate: [daemonkit](https://github.com/yasyf/daemonkit) for daemon lifecycle — one macOS-only Serve/Client/Control surface, one schema generating the frame codec for both Go and Swift behind a drift gate, and no byte reaching a peer whose code identity hasn't been judged. captain-hook, cc-pool, cc-notes, cc-interact, fusekit, cookiesync, synckit, cc-orchestrate, cc-present, and cc-review have all moved onto it, each stating a deadline budget at every choke point; v0.22 has since taken the socket path out of a spawned child's argv entirely — the child inherits its session on fd 3 — and moved every daemon's private state under `~/.daemonkit/agents/<Label>`
 - Cutting that substrate through to releases: [cc-review](https://github.com/yasyf/cc-review) now ships on cc-interact v0.32.1 and daemonkit v0.21.4, cc-orchestrate runs its pty hosts as Serve products under one Daemon, and [binrun](https://github.com/yasyf/binrun) gates every release on a tag resolving to one exact commit on main
+- Teaching [cc-context](https://github.com/yasyf/cc-context) to ship the way I actually branch: `ccx vcs stack` drives a Graphite stack that spans one working copy per branch — restacking one spread across working copies instead of refusing it, pinning every child to its own copy and `gt track` to its branch, and running a repo's hooks only where CI never will
 - Running [cc-sentiment](https://github.com/yasyf/cc-sentiment), an open experiment in whether developer sentiment with Claude Code tracks the model, the tooling, or just the time of day
 - Self-hosting [yclaw](https://github.com/yasyf/yclaw), an always-on, reproducible Apple Silicon home server for the Nous hermes-agent — gVisor-sandboxed and tailnet-only, so the agent never touches your credentials
 - Engineer & CEO at [Aneta](https://aneta.company)
@@ -25,20 +26,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-08-25` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
-- `2026-08-25` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-08-25` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — rebased a scoped ship's paths onto the root its children now run in
+- `2026-08-25` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — pinned every ship child to a working copy, and gt track to its branch
+- `2026-08-25` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the ccx formula to v0.44.0
 - `2026-08-24` Discussed issues in [yasyf/cc-context](https://github.com/yasyf/cc-context) — ship taking -m twice, and running the repo's hooks only where CI never will
 - `2026-08-24` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — moved the ccx restack docs under the new vcs stack group
-- `2026-08-24` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-08-21` Worked on a pull request in [yasyf/cc-patch](https://github.com/yasyf/cc-patch)
-- `2026-08-19` Triaged issues in [stablyai/orca](https://github.com/stablyai/orca)
+- `2026-08-21` Worked on a pull request in [yasyf/cc-patch](https://github.com/yasyf/cc-patch) — added local packs and replace sites
+- `2026-08-19` Triaged issues in [stablyai/orca](https://github.com/stablyai/orca) — how closing a serve-hosted desktop window kills the macOS headless runtime
 - `2026-08-19` Starred [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec)
-- `2026-08-09` Triaged issues in [bytecodealliance/ComponentizeJS](https://github.com/bytecodealliance/ComponentizeJS)
-- `2026-08-07` Triaged issues in [bytecodealliance/jco](https://github.com/bytecodealliance/jco)
-- `2026-08-07` Triaged issues in [partite-ai/wacogo](https://github.com/partite-ai/wacogo)
-- `2026-07-28` Triaged issues in [anthropics/claude-code](https://github.com/anthropics/claude-code)
+- `2026-08-09` Triaged issues in [bytecodealliance/ComponentizeJS](https://github.com/bytecodealliance/ComponentizeJS) — oxc-parser 0.76.0 bindings shipping without build provenance
+- `2026-08-07` Triaged issues in [bytecodealliance/jco](https://github.com/bytecodealliance/jco) — asking for oxc-parser >=0.90.0, since 0.76.0 bindings lack build provenance
+- `2026-08-07` Triaged issues in [partite-ai/wacogo](https://github.com/partite-ai/wacogo) — a panic on list<record> whose element is an (eq)-bounded type import
+- `2026-07-28` Triaged issues in [anthropics/claude-code](https://github.com/anthropics/claude-code) — bundled ugrep busy-looping at 100% CPU when --ignore-files hits a directory
 
-**20,016 contributions in the last year**
+**20,057 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -67,12 +68,12 @@
 - [cc-steer](https://github.com/yasyf/cc-steer) — learns how you steer Claude from past sessions, then does the steering for you
 - [cc-pane](https://github.com/yasyf/cc-pane) — one pane of glass over Claude Code and the whole cc-* toolbelt
 - [cc-sudo](https://github.com/yasyf/cc-sudo) — sudo for Claude Code: one Touch ID tap per privileged command
-- [cc-patch](https://github.com/yasyf/cc-patch) — fast mode for Claude Code's delegated agents, re-applied automatically on every spawn
+- [cc-patch](https://github.com/yasyf/cc-patch) — fast mode for Claude Code's delegated agents, re-applied automatically on every spawn, now with local packs and replace sites
 
 **Taming long sessions**
 
 - [cc-merge](https://github.com/yasyf/cc-merge) — a merge queue for the git worktrees where finished Claude outputs land
-- [cc-context](https://github.com/yasyf/cc-context) — ccx, token-bounded codebase context for agents, whose `ship` now submits and restacks a whole graphite stack on its own
+- [cc-context](https://github.com/yasyf/cc-context) — ccx, token-bounded codebase context for agents; takes `cat` away from your agent
 - [cc-squash](https://github.com/yasyf/cc-squash) — augmented auto-compaction for marathon Claude Code sessions
 - [cc-vigil](https://github.com/yasyf/cc-vigil) — a transcript-oracle sleep inhibitor that keeps your Mac awake only while Claude agents are truly working
 
@@ -115,7 +116,7 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-08-25` [cc-context v0.44.0](https://github.com/yasyf/cc-context/releases/tag/v0.44.0)
+- `2026-08-25` [cc-context v0.44.0](https://github.com/yasyf/cc-context/releases/tag/v0.44.0) — let a Read of a binary file through instead of blocking it
 - `2026-08-20` [slop-cop v0.1.63](https://github.com/yasyf/slop-cop/releases/tag/v0.1.63) — adopted the Google developer documentation style guide as a third rule layer
 - `2026-08-19` [captain-hook v12.21.6](https://github.com/yasyf/captain-hook/releases/tag/v12.21.6) — gave the worktree test a git identity, since CI runners carry none
 - `2026-08-17` [cc-pool v0.66.0](https://github.com/yasyf/cc-pool/releases/tag/v0.66.0) — took daemonkit v0.22.0 and fusekit v1.17.0, and dropped the holder socket path
