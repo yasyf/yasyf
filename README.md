@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-25T00:51:36Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-25T06:50:12Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -25,20 +25,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-08-24` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
-- `2026-08-24` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-08-24` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — de-dotted the file-shadowing fragment dirs, and rolled the plugin to 0.2.19
-- `2026-08-24` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
-- `2026-08-24` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — adopted the daemonkit verifier self-probe, and verified the trusted tag signer
-- `2026-08-24` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — ran the hook shims and the host wrapper under bash, and moved MCP to 2.x
-- `2026-08-24` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — cut v0.34.1 on cc-interact v0.32.1 and daemonkit v0.21.4, built with go1.26.6
-- `2026-08-24` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — shipped Apple via a prebuilt Swift sidecar, and fixed the 64 KiB stderr crash
-- `2026-08-24` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — cut 0.16.1 on cc-interact v0.32.1, with pty hosts as Serve products
-- `2026-08-24` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
-- `2026-08-24` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
-- `2026-08-24` Was active in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-08-25` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-08-25` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-08-24` Discussed issues in [yasyf/cc-context](https://github.com/yasyf/cc-context) — ship taking -m twice, and running the repo's hooks only where CI never will
+- `2026-08-24` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — moved the ccx restack docs under the new vcs stack group
+- `2026-08-24` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-08-21` Worked on a pull request in [yasyf/cc-patch](https://github.com/yasyf/cc-patch)
+- `2026-08-19` Triaged issues in [stablyai/orca](https://github.com/stablyai/orca)
+- `2026-08-19` Starred [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec)
+- `2026-08-09` Triaged issues in [bytecodealliance/ComponentizeJS](https://github.com/bytecodealliance/ComponentizeJS)
+- `2026-08-07` Triaged issues in [bytecodealliance/jco](https://github.com/bytecodealliance/jco)
+- `2026-08-07` Triaged issues in [partite-ai/wacogo](https://github.com/partite-ai/wacogo)
+- `2026-07-28` Triaged issues in [anthropics/claude-code](https://github.com/anthropics/claude-code)
 
-**19,933 contributions in the last year**
+**20,016 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -115,7 +115,7 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-08-24` [cc-context v0.43.0](https://github.com/yasyf/cc-context/releases/tag/v0.43.0)
+- `2026-08-25` [cc-context v0.44.0](https://github.com/yasyf/cc-context/releases/tag/v0.44.0)
 - `2026-08-20` [slop-cop v0.1.63](https://github.com/yasyf/slop-cop/releases/tag/v0.1.63) — adopted the Google developer documentation style guide as a third rule layer
 - `2026-08-19` [captain-hook v12.21.6](https://github.com/yasyf/captain-hook/releases/tag/v12.21.6) — gave the worktree test a git identity, since CI runners carry none
 - `2026-08-17` [cc-pool v0.66.0](https://github.com/yasyf/cc-pool/releases/tag/v0.66.0) — took daemonkit v0.22.0 and fusekit v1.17.0, and dropped the holder socket path
