@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-26T13:34:41Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-26T20:38:24Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -26,20 +26,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-08-25` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the ccx formula to v0.45.0
-- `2026-08-25` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — followed the scoped path onto the root the commit child runs in
-- `2026-08-25` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — pinned every ship child to a working copy, and gt track to its branch
-- `2026-08-25` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context) — the yasyf/pin-subprocess-cwd branch
-- `2026-08-24` Discussed issues in [yasyf/cc-context](https://github.com/yasyf/cc-context) — ship taking -m twice, and running the repo's hooks only where CI never will
-- `2026-08-24` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — moved the ccx restack docs under the new vcs stack group
-- `2026-08-21` Worked on a pull request in [yasyf/cc-patch](https://github.com/yasyf/cc-patch) — added local packs and replace sites
-- `2026-08-19` Triaged issues in [stablyai/orca](https://github.com/stablyai/orca) — how closing a serve-hosted desktop window kills the macOS headless runtime
-- `2026-08-19` Starred [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec)
-- `2026-08-09` Triaged issues in [bytecodealliance/ComponentizeJS](https://github.com/bytecodealliance/ComponentizeJS) — oxc-parser 0.76.0 bindings shipping without build provenance
-- `2026-08-07` Triaged issues in [bytecodealliance/jco](https://github.com/bytecodealliance/jco) — asking for oxc-parser >=0.90.0, since 0.76.0 bindings lack build provenance
-- `2026-08-07` Triaged issues in [partite-ai/wacogo](https://github.com/partite-ai/wacogo) — a panic on list<record> whose element is an (eq)-bounded type import
+- `2026-08-26` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-08-26` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-08-26` Created something new in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-08-26` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync)
+- `2026-08-26` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-08-26` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync)
+- `2026-08-26` Pushed to [yasyf/binrun](https://github.com/yasyf/binrun)
+- `2026-08-26` Worked on a pull request in [yasyf/cc-patch](https://github.com/yasyf/cc-patch) — added local packs and replace sites
+- `2026-08-26` Worked on a pull request in [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
+- `2026-08-26` Worked on a pull request in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
+- `2026-08-26` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-08-26` Worked on a pull request in [yasyf/cc-review](https://github.com/yasyf/cc-review)
 
-**20,152 contributions in the last year**
+**20,183 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -116,13 +116,14 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-08-25` [cc-context v0.45.0](https://github.com/yasyf/cc-context/releases/tag/v0.45.0) — rebased a scoped ship's paths onto the root its children run in, and pinned each child to its own copy
 - `2026-08-20` [slop-cop v0.1.63](https://github.com/yasyf/slop-cop/releases/tag/v0.1.63) — adopted the Google developer documentation style guide as a third rule layer
 - `2026-08-19` [captain-hook v12.21.6](https://github.com/yasyf/captain-hook/releases/tag/v12.21.6) — gave the worktree test a git identity, since CI runners carry none
 - `2026-08-17` [cc-pool v0.66.0](https://github.com/yasyf/cc-pool/releases/tag/v0.66.0) — took daemonkit v0.22.0 and fusekit v1.17.0, and dropped the holder socket path
 - `2026-08-16` [cc-skills v1.10.0](https://github.com/yasyf/cc-skills/releases/tag/v1.10.0) — moved the codex lane onto daemonkit v0.21.4 and a stable daemon path
 - `2026-08-04` [cc-notes v0.51.1](https://github.com/yasyf/cc-notes/releases/tag/v0.51.1) — stated a deadline budget at every daemonkit entry point
+- `2026-08-03` [reposync v0.28.0](https://github.com/yasyf/reposync/releases/tag/v0.28.0)
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
+- `2026-07-23` [cc-transcript v14.14.0](https://github.com/yasyf/cc-transcript/releases/tag/v14.14.0)
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
