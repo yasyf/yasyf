@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-26T07:25:54Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-26T09:56:53Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -26,10 +26,10 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-08-25` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the ccx formula to v0.44.0
-- `2026-08-25` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — rebased a scoped ship's paths onto the root its children now run in
+- `2026-08-25` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the ccx formula to v0.45.0
+- `2026-08-25` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — followed the scoped path onto the root the commit child runs in
 - `2026-08-25` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — pinned every ship child to a working copy, and gt track to its branch
-- `2026-08-25` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-08-25` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context) — the yasyf/pin-subprocess-cwd branch
 - `2026-08-24` Discussed issues in [yasyf/cc-context](https://github.com/yasyf/cc-context) — ship taking -m twice, and running the repo's hooks only where CI never will
 - `2026-08-24` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — moved the ccx restack docs under the new vcs stack group
 - `2026-08-21` Worked on a pull request in [yasyf/cc-patch](https://github.com/yasyf/cc-patch) — added local packs and replace sites
@@ -39,7 +39,7 @@
 - `2026-08-07` Triaged issues in [bytecodealliance/jco](https://github.com/bytecodealliance/jco) — asking for oxc-parser >=0.90.0, since 0.76.0 bindings lack build provenance
 - `2026-08-07` Triaged issues in [partite-ai/wacogo](https://github.com/partite-ai/wacogo) — a panic on list<record> whose element is an (eq)-bounded type import
 
-**20,111 contributions in the last year**
+**20,127 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -116,7 +116,7 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-08-25` [cc-context v0.45.0](https://github.com/yasyf/cc-context/releases/tag/v0.45.0)
+- `2026-08-25` [cc-context v0.45.0](https://github.com/yasyf/cc-context/releases/tag/v0.45.0) — rebased a scoped ship's paths onto the root its children run in, and pinned each child to its own copy
 - `2026-08-20` [slop-cop v0.1.63](https://github.com/yasyf/slop-cop/releases/tag/v0.1.63) — adopted the Google developer documentation style guide as a third rule layer
 - `2026-08-19` [captain-hook v12.21.6](https://github.com/yasyf/captain-hook/releases/tag/v12.21.6) — gave the worktree test a git identity, since CI runners carry none
 - `2026-08-17` [cc-pool v0.66.0](https://github.com/yasyf/cc-pool/releases/tag/v0.66.0) — took daemonkit v0.22.0 and fusekit v1.17.0, and dropped the holder socket path

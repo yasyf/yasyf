@@ -1,12 +1,12 @@
 {
   "activity": {
+    "CreateEvent:yasyf/cc-context": {
+      "as_of": "2026-08-25T08:09:19Z",
+      "summary": "the yasyf/pin-subprocess-cwd branch"
+    },
     "IssueCommentEvent:yasyf/cc-context": {
       "as_of": "2026-08-24T09:22:15Z",
       "summary": "ship taking -m twice, and running the repo's hooks only where CI never will"
-    },
-    "IssuesEvent:anthropics/claude-code": {
-      "as_of": "2026-07-28T10:09:15Z",
-      "summary": "bundled ugrep busy-looping at 100% CPU when --ignore-files hits a directory"
     },
     "IssuesEvent:bytecodealliance/ComponentizeJS": {
       "as_of": "2026-08-09T12:07:03Z",
@@ -37,21 +37,21 @@
       "summary": "moved the ccx restack docs under the new vcs stack group"
     },
     "PushEvent:yasyf/cc-context": {
-      "as_of": "f0f0bc8fd0a4",
-      "summary": "rebased a scoped ship's paths onto the root its children now run in"
+      "as_of": "c51084860f83",
+      "summary": "followed the scoped path onto the root the commit child runs in"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "d71819e7d310",
-      "summary": "bumped the ccx formula to v0.44.0"
+      "as_of": "5515dedc1b9f",
+      "summary": "bumped the ccx formula to v0.45.0"
     }
   },
-  "generated_at": "2026-08-25T09:52:26Z",
+  "generated_at": "2026-08-26T09:55:40Z",
   "shipped": {
     "captain-hook@v12.21.6": {
       "summary": "gave the worktree test a git identity, since CI runners carry none"
     },
-    "cc-context@v0.44.0": {
-      "summary": "let a Read of a binary file through instead of blocking it"
+    "cc-context@v0.45.0": {
+      "summary": "rebased a scoped ship's paths onto the root its children run in, and pinned each child to its own copy"
     },
     "cc-notes@v0.51.1": {
       "summary": "stated a deadline budget at every daemonkit entry point"
