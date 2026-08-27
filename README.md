@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-27T10:09:05Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-27T19:59:28Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -15,8 +15,8 @@
 
 - Building the missing toolbelt for Claude Code: [captain-hook](https://github.com/yasyf/captain-hook) for declarative hooks, [cc-pool](https://github.com/yasyf/cc-pool) for account pooling, [cc-review](https://github.com/yasyf/cc-review) for reviewing Claude's diffs in a PR-style web UI, [cc-transcript](https://github.com/yasyf/cc-transcript) for typed transcripts, and [slop-cop](https://github.com/yasyf/slop-cop) to catch AI-flavored prose
 - Converging those pieces into one session-activity platform — typed events and a decision ledger in cc-transcript, with captain-hook as its hook runtime — and building [cc-orchestrate](https://github.com/yasyf/cc-orchestrate) into a pure-Go CLI that runs fleets of agents across pluggable backends like cmux, superset, tmux, and zellij, each with an AgentProber liveness check for long-lived, keep-alive sessions — with [cc-vigil](https://github.com/yasyf/cc-vigil), a transcript-oracle sleep inhibitor, keeping the Mac awake only while those agents are truly working
-- Running the whole cc-* fleet on shared substrate: [daemonkit](https://github.com/yasyf/daemonkit) for daemon lifecycle — one macOS-only Serve/Client/Control surface, one schema generating the frame codec for both Go and Swift behind a drift gate, and no byte reaching a peer whose code identity hasn't been judged. captain-hook, cc-pool, cc-notes, cc-interact, fusekit, cookiesync, synckit, cc-orchestrate, cc-present, and cc-review have all moved onto it, each stating a deadline budget at every choke point; v0.22 has since taken the socket path out of a spawned child's argv entirely — the child inherits its session on fd 3 — and moved every daemon's private state under `~/.daemonkit/agents/<Label>`
-- Cutting that substrate through to releases: [cc-review](https://github.com/yasyf/cc-review) now ships on cc-interact v0.32.1 and daemonkit v0.21.4, cc-orchestrate runs its pty hosts as Serve products under one Daemon, and [binrun](https://github.com/yasyf/binrun) gates every release on a tag resolving to one exact commit on main
+- Running the whole cc-* fleet on shared substrate: [daemonkit](https://github.com/yasyf/daemonkit) for daemon lifecycle — one macOS-only Serve/Client/Control surface, one schema generating the frame codec for both Go and Swift behind a drift gate, and no byte reaching a peer whose code identity hasn't been judged. captain-hook, cc-pool, cc-notes, cc-interact, fusekit, cookiesync, synckit, cc-orchestrate, cc-present, and cc-review have all moved onto it, each stating a deadline budget at every choke point; v0.22 took the socket path out of a spawned child's argv entirely — the child inherits its session on fd 3 — and v0.23 has since moved every daemon's private state under `~/.daemonkit/a/<label>`, with HelperPaths no longer deriving the socket at all
+- Cutting that substrate through to releases: [cc-review](https://github.com/yasyf/cc-review) cut v0.35.0 on daemonkit v0.23.0, cc-orchestrate runs its pty hosts as Serve products under one Daemon, and [binrun](https://github.com/yasyf/binrun) gates every release on a tag resolving to one exact commit on main
 - Teaching [cc-context](https://github.com/yasyf/cc-context) to ship the way I actually branch: `ccx vcs stack` drives a Graphite stack that spans one working copy per branch — restacking one spread across working copies instead of refusing it, pinning every child to its own copy and `gt track` to its branch, and running a repo's hooks only where CI never will
 - Running [cc-sentiment](https://github.com/yasyf/cc-sentiment), an open experiment in whether developer sentiment with Claude Code tracks the model, the tooling, or just the time of day
 - Self-hosting [yclaw](https://github.com/yasyf/yclaw), an always-on, reproducible Apple Silicon home server for the Nous hermes-agent — gVisor-sandboxed and tailnet-only, so the agent never touches your credentials
@@ -26,20 +26,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-08-27` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit)
-- `2026-08-27` Triaged issues in [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
-- `2026-08-27` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-08-27` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-08-27` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit)
-- `2026-08-27` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
-- `2026-08-27` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-08-27` Worked on a pull request in [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
-- `2026-08-27` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the ccx formula to v0.45.0
-- `2026-08-27` Was active in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-08-27` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync)
-- `2026-08-27` Worked on a pull request in [yasyf/fusekit](https://github.com/yasyf/fusekit)
+- `2026-08-27` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — took spawnllm 0.12, so concurrent judge spawns stop dying
+- `2026-08-27` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — cut 1.19.0: reap receipts numbered per recovery ID, boot session from a UUID
+- `2026-08-27` Triaged issues in [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — brew upgrade leaving the app bundle, plists, and daemon shim on the old version
+- `2026-08-27` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the captain-hook formula to v12.22.0
+- `2026-08-27` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — took daemonkit v0.23.0 on both halves, so HelperPaths stops deriving the socket
+- `2026-08-27` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — cut 0.35.0 on daemonkit v0.23.0
+- `2026-08-27` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit) — cut 0.38.0 on daemonkit v0.23.0
+- `2026-08-27` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — cut 0.67.0 on daemonkit v0.23.0
+- `2026-08-27` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — the deps-daemonkit-v0-23-0 branch
+- `2026-08-27` Worked on a pull request in [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — took daemonkit v0.23.0, moving daemon state to ~/.daemonkit/a/<label>
+- `2026-08-27` Worked on a pull request in [yasyf/fusekit](https://github.com/yasyf/fusekit) — took daemonkit v0.23.0, moving daemon state to ~/.daemonkit/a/<label>
+- `2026-08-27` Worked on a pull request in [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — took daemonkit v0.23.0, moving daemon state to ~/.daemonkit/a/<label>
 
-**20,357 contributions in the last year**
+**20,448 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -50,7 +50,7 @@
 - **[gpt-do](https://github.com/yasyf/gpt-do)** ⭐ 211 — GPT-powered bash commands. `Python`
 - **[summ](https://github.com/yasyf/summ)** ⭐ 152 — GPT-based Conversation Summarizer `Python`
 - **[compress-gpt](https://github.com/yasyf/compress-gpt)** ⭐ 217 — Self-extracting GPT prompts for ~70% token savings `Python`
-- **[anthropic-computer-use-modal](https://github.com/yasyf/anthropic-computer-use-modal)** ⭐ 49 — Anthropic Computer Use with Modal Sandboxes `Python`
+- **[anthropic-computer-use-modal](https://github.com/yasyf/anthropic-computer-use-modal)** ⭐ 50 — Anthropic Computer Use with Modal Sandboxes `Python`
 - **[shamer](https://github.com/yasyf/shamer)** ⭐ 37 — Code Coverage Gamified `Python`
 <!-- gh-profile:end:featured -->
 
@@ -85,7 +85,7 @@
 **Systems & libraries**
 
 - [authkit](https://github.com/yasyf/authkit) — a signed macOS helper for Touch ID consent and Secure Enclave attestation, replacing the old cookiesync keyhelper
-- [fusekit](https://github.com/yasyf/fusekit) — detached FUSE-T mount-holder and mount-lifecycle primitives for Go, now under cc-pool and cc-notes
+- [fusekit](https://github.com/yasyf/fusekit) — detached FUSE-T mount-holder and mount-lifecycle primitives for Go, now under cc-pool and cc-notes, with a process ledger that tells a real reboot from a slewed clock
 - [daemonkit](https://github.com/yasyf/daemonkit) — the durable daemon-lifecycle runtime the cc-* control planes now ride: detached spawns, codesign trust, and drain-on-upgrade
 - [binrun](https://github.com/yasyf/binrun) — fetch, verify, and exec the exact artifact a descriptor pins: release binaries, Python tools, signed apps — the shim the cc-* tools now ship behind
 - [semisweet](https://github.com/yasyf/semisweet) — an async, in-memory semantic cache with pluggable backends
@@ -116,8 +116,9 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-08-27` [captain-hook v12.22.1](https://github.com/yasyf/captain-hook/releases/tag/v12.22.1) — guarded unbounded find in the packs primitives, and took spawnllm 0.12
 - `2026-08-27` [cc-pool v0.68.0](https://github.com/yasyf/cc-pool/releases/tag/v0.68.0)
-- `2026-08-27` [captain-hook v12.22.0](https://github.com/yasyf/captain-hook/releases/tag/v12.22.0)
+- `2026-08-27` [fusekit v1.19.0](https://github.com/yasyf/fusekit/releases/tag/v1.19.0) — numbered reap receipts per recovery ID, and made the boot session a UUID
 - `2026-08-20` [slop-cop v0.1.63](https://github.com/yasyf/slop-cop/releases/tag/v0.1.63) — adopted the Google developer documentation style guide as a third rule layer
 - `2026-08-16` [cc-skills v1.10.0](https://github.com/yasyf/cc-skills/releases/tag/v1.10.0) — moved the codex lane onto daemonkit v0.21.4 and a stable daemon path
 - `2026-08-04` [cc-notes v0.51.1](https://github.com/yasyf/cc-notes/releases/tag/v0.51.1) — stated a deadline budget at every daemonkit entry point

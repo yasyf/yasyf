@@ -1,66 +1,67 @@
 {
   "activity": {
-    "CreateEvent:yasyf/cc-context": {
-      "as_of": "2026-08-25T08:09:19Z",
-      "summary": "the yasyf/pin-subprocess-cwd branch"
+    "CreateEvent:yasyf/captain-hook": {
+      "as_of": "2026-08-27T03:53:57Z",
+      "summary": "the deps-daemonkit-v0-23-0 branch"
     },
-    "IssueCommentEvent:yasyf/cc-context": {
-      "as_of": "2026-08-24T09:22:15Z",
-      "summary": "ship taking -m twice, and running the repo's hooks only where CI never will"
+    "IssuesEvent:yasyf/cc-pool": {
+      "as_of": "2026-08-27T06:14:57Z",
+      "summary": "brew upgrade leaving the app bundle, plists, and daemon shim on the old version"
     },
-    "IssuesEvent:bytecodealliance/ComponentizeJS": {
-      "as_of": "2026-08-09T12:07:03Z",
-      "summary": "oxc-parser 0.76.0 bindings shipping without build provenance"
+    "PullRequestEvent:yasyf/captain-hook": {
+      "as_of": "2026-08-27T19:01:57Z",
+      "summary": "took spawnllm 0.12, so concurrent judge spawns stop dying"
     },
-    "IssuesEvent:bytecodealliance/jco": {
-      "as_of": "2026-08-07T12:18:38Z",
-      "summary": "asking for oxc-parser >=0.90.0, since 0.76.0 bindings lack build provenance"
+    "PullRequestEvent:yasyf/cc-orchestrate": {
+      "as_of": "2026-08-27T02:52:34Z",
+      "summary": "took daemonkit v0.23.0, moving daemon state to ~/.daemonkit/a/<label>"
     },
-    "IssuesEvent:partite-ai/wacogo": {
-      "as_of": "2026-08-07T11:31:05Z",
-      "summary": "a panic on list<record> whose element is an (eq)-bounded type import"
+    "PullRequestEvent:yasyf/cc-pool": {
+      "as_of": "2026-08-27T03:49:49Z",
+      "summary": "took daemonkit v0.23.0, moving daemon state to ~/.daemonkit/a/<label>"
     },
-    "IssuesEvent:stablyai/orca": {
-      "as_of": "2026-08-19T22:38:04Z",
-      "summary": "how closing a serve-hosted desktop window kills the macOS headless runtime"
+    "PullRequestEvent:yasyf/fusekit": {
+      "as_of": "2026-08-27T02:53:02Z",
+      "summary": "took daemonkit v0.23.0, moving daemon state to ~/.daemonkit/a/<label>"
     },
-    "PullRequestEvent:yasyf/cc-context": {
-      "as_of": "2026-08-25T08:10:11Z",
-      "summary": "pinned every ship child to a working copy, and gt track to its branch"
+    "PushEvent:yasyf/captain-hook": {
+      "as_of": "afe545afa216",
+      "summary": "took daemonkit v0.23.0 on both halves, so HelperPaths stops deriving the socket"
     },
-    "PullRequestEvent:yasyf/cc-patch": {
-      "as_of": "2026-08-21T01:46:00Z",
-      "summary": "added local packs and replace sites"
+    "PushEvent:yasyf/cc-pool": {
+      "as_of": "a4e65cfa81af",
+      "summary": "cut 0.67.0 on daemonkit v0.23.0"
     },
-    "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-08-24T09:21:37Z",
-      "summary": "moved the ccx restack docs under the new vcs stack group"
+    "PushEvent:yasyf/cc-review": {
+      "as_of": "772348fc655e",
+      "summary": "cut 0.35.0 on daemonkit v0.23.0"
     },
-    "PushEvent:yasyf/cc-context": {
-      "as_of": "c51084860f83",
-      "summary": "followed the scoped path onto the root the commit child runs in"
+    "PushEvent:yasyf/fusekit": {
+      "as_of": "2fa2e02edde1",
+      "summary": "cut 1.19.0: reap receipts numbered per recovery ID, boot session from a UUID"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "5515dedc1b9f",
-      "summary": "bumped the ccx formula to v0.45.0"
+      "as_of": "80a69c2084f1",
+      "summary": "bumped the captain-hook formula to v12.22.0"
+    },
+    "PushEvent:yasyf/synckit": {
+      "as_of": "8672649544db",
+      "summary": "cut 0.38.0 on daemonkit v0.23.0"
     }
   },
-  "generated_at": "2026-08-26T09:55:40Z",
+  "generated_at": "2026-08-27T19:59:02Z",
   "shipped": {
-    "captain-hook@v12.21.6": {
-      "summary": "gave the worktree test a git identity, since CI runners carry none"
-    },
-    "cc-context@v0.45.0": {
-      "summary": "rebased a scoped ship's paths onto the root its children run in, and pinned each child to its own copy"
+    "captain-hook@v12.22.1": {
+      "summary": "guarded unbounded find in the packs primitives, and took spawnllm 0.12"
     },
     "cc-notes@v0.51.1": {
       "summary": "stated a deadline budget at every daemonkit entry point"
     },
-    "cc-pool@v0.66.0": {
-      "summary": "took daemonkit v0.22.0 and fusekit v1.17.0, and dropped the holder socket path"
-    },
     "cc-skills@v1.10.0": {
       "summary": "moved the codex lane onto daemonkit v0.21.4 and a stable daemon path"
+    },
+    "fusekit@v1.19.0": {
+      "summary": "numbered reap receipts per recovery ID, and made the boot session a UUID"
     },
     "slop-cop@v0.1.63": {
       "summary": "adopted the Google developer documentation style guide as a third rule layer"
