@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-27T22:29:47Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-28T11:40:25Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -26,20 +26,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-08-27` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-08-28` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — took spawnllm 0.12, so concurrent judge spawns stop dying
+- `2026-08-28` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — took daemonkit v0.23.0 on both halves, so HelperPaths stops deriving the socket
+- `2026-08-28` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — the deps-daemonkit-v0-23-0 branch
+- `2026-08-28` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the captain-hook formula to v12.22.0
+- `2026-08-28` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-08-28` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-08-28` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-08-27` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-08-27` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-08-27` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-08-27` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — took spawnllm 0.12, so concurrent judge spawns stop dying
-- `2026-08-27` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the captain-hook formula to v12.22.0
-- `2026-08-27` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — cut 1.19.0: reap receipts numbered per recovery ID, boot session from a UUID
+- `2026-08-27` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-08-27` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — cut 0.67.0 on daemonkit v0.23.0
 - `2026-08-27` Triaged issues in [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — brew upgrade leaving the app bundle, plists, and daemon shim on the old version
-- `2026-08-27` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — cut 0.35.0 on daemonkit v0.23.0
-- `2026-08-27` Worked on a pull request in [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — took daemonkit v0.23.0, moving daemon state to ~/.daemonkit/a/<label>
-- `2026-08-27` Worked on a pull request in [yasyf/fusekit](https://github.com/yasyf/fusekit) — took daemonkit v0.23.0, moving daemon state to ~/.daemonkit/a/<label>
-- `2026-08-27` Worked on a pull request in [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — took daemonkit v0.23.0, moving daemon state to ~/.daemonkit/a/<label>
-- `2026-08-27` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync)
 
-**20,495 contributions in the last year**
+**20,638 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -116,9 +116,9 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-08-27` [captain-hook v12.22.1](https://github.com/yasyf/captain-hook/releases/tag/v12.22.1) — guarded unbounded find in the packs primitives, and took spawnllm 0.12
+- `2026-08-28` [cc-context v0.47.0](https://github.com/yasyf/cc-context/releases/tag/v0.47.0)
+- `2026-08-28` [captain-hook v12.22.2](https://github.com/yasyf/captain-hook/releases/tag/v12.22.2)
 - `2026-08-27` [cc-pool v0.68.0](https://github.com/yasyf/cc-pool/releases/tag/v0.68.0)
-- `2026-08-25` [cc-context v0.45.0](https://github.com/yasyf/cc-context/releases/tag/v0.45.0)
 - `2026-08-20` [slop-cop v0.1.63](https://github.com/yasyf/slop-cop/releases/tag/v0.1.63) — adopted the Google developer documentation style guide as a third rule layer
 - `2026-08-16` [cc-skills v1.10.0](https://github.com/yasyf/cc-skills/releases/tag/v1.10.0) — moved the codex lane onto daemonkit v0.21.4 and a stable daemon path
 - `2026-08-04` [cc-notes v0.51.1](https://github.com/yasyf/cc-notes/releases/tag/v0.51.1) — stated a deadline budget at every daemonkit entry point
