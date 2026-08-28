@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-28T21:01:35Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-28T22:32:45Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -30,16 +30,16 @@
 - `2026-08-28` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 - `2026-08-28` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — addressed the int32 conversions gosec flags in the BM25 index
 - `2026-08-28` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — the fix/login-path-cache branch
-- `2026-08-28` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the ccx formula to v0.46.0
 - `2026-08-28` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — named the legal moves when an investigation transition is refused
 - `2026-08-28` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — made ship submit a branch whose work is already committed instead of refusing it
+- `2026-08-27` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-08-27` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — catalogued ccx vcs status, and the merge-queue snapshot it reconstructs
 - `2026-08-27` Triaged issues in [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — brew upgrade leaving the app bundle, plists, and daemon shim on the old version
 - `2026-08-27` Pushed to [yasyf/fusekit](https://github.com/yasyf/fusekit) — numbered reap receipts per recovery ID
 - `2026-08-27` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
 - `2026-08-27` Worked on a pull request in [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — took daemonkit v0.23.0, moving daemon state to ~/.daemonkit/a/<label>
 
-**20,671 contributions in the last year**
+**21,340 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -50,7 +50,7 @@
 - **[gpt-do](https://github.com/yasyf/gpt-do)** ⭐ 211 — GPT-powered bash commands. `Python`
 - **[summ](https://github.com/yasyf/summ)** ⭐ 152 — GPT-based Conversation Summarizer `Python`
 - **[compress-gpt](https://github.com/yasyf/compress-gpt)** ⭐ 217 — Self-extracting GPT prompts for ~70% token savings `Python`
-- **[anthropic-computer-use-modal](https://github.com/yasyf/anthropic-computer-use-modal)** ⭐ 50 — Anthropic Computer Use with Modal Sandboxes `Python`
+- **[anthropic-computer-use-modal](https://github.com/yasyf/anthropic-computer-use-modal)** ⭐ 51 — Anthropic Computer Use with Modal Sandboxes `Python`
 - **[shamer](https://github.com/yasyf/shamer)** ⭐ 37 — Code Coverage Gamified `Python`
 <!-- gh-profile:end:featured -->
 
