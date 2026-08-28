@@ -1,67 +1,59 @@
 {
   "activity": {
     "CreateEvent:yasyf/captain-hook": {
-      "as_of": "2026-08-27T03:53:57Z",
-      "summary": "the deps-daemonkit-v0-23-0 branch"
+      "as_of": "2026-08-28T08:40:50Z",
+      "summary": "the fix/login-path-cache branch"
     },
     "IssuesEvent:yasyf/cc-pool": {
       "as_of": "2026-08-27T06:14:57Z",
       "summary": "brew upgrade leaving the app bundle, plists, and daemon shim on the old version"
     },
-    "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-08-27T19:01:57Z",
-      "summary": "took spawnllm 0.12, so concurrent judge spawns stop dying"
+    "PullRequestEvent:yasyf/cc-context": {
+      "as_of": "2026-08-28T03:40:24Z",
+      "summary": "made ship submit a branch whose work is already committed instead of refusing it"
     },
-    "PullRequestEvent:yasyf/cc-orchestrate": {
-      "as_of": "2026-08-27T02:52:34Z",
-      "summary": "took daemonkit v0.23.0, moving daemon state to ~/.daemonkit/a/<label>"
+    "PullRequestEvent:yasyf/cc-notes": {
+      "as_of": "2026-08-28T03:40:30Z",
+      "summary": "named the legal moves when an investigation transition is refused"
     },
     "PullRequestEvent:yasyf/cc-pool": {
       "as_of": "2026-08-27T03:49:49Z",
       "summary": "took daemonkit v0.23.0, moving daemon state to ~/.daemonkit/a/<label>"
     },
-    "PullRequestEvent:yasyf/fusekit": {
-      "as_of": "2026-08-27T02:53:02Z",
-      "summary": "took daemonkit v0.23.0, moving daemon state to ~/.daemonkit/a/<label>"
+    "PullRequestEvent:yasyf/cc-skills": {
+      "as_of": "2026-08-27T21:48:14Z",
+      "summary": "catalogued ccx vcs status, and the merge-queue snapshot it reconstructs"
     },
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "afe545afa216",
-      "summary": "took daemonkit v0.23.0 on both halves, so HelperPaths stops deriving the socket"
+      "as_of": "d5d4d64e5d05",
+      "summary": "serialized lexicon reads, so dispatch threads stop sharing one sqlite statement"
     },
-    "PushEvent:yasyf/cc-pool": {
-      "as_of": "a4e65cfa81af",
-      "summary": "cut 0.67.0 on daemonkit v0.23.0"
-    },
-    "PushEvent:yasyf/cc-review": {
-      "as_of": "772348fc655e",
-      "summary": "cut 0.35.0 on daemonkit v0.23.0"
+    "PushEvent:yasyf/cc-context": {
+      "as_of": "dc5188b2b155",
+      "summary": "addressed the int32 conversions gosec flags in the BM25 index"
     },
     "PushEvent:yasyf/fusekit": {
-      "as_of": "2fa2e02edde1",
-      "summary": "cut 1.19.0: reap receipts numbered per recovery ID, boot session from a UUID"
+      "as_of": "ceaa938dfd86",
+      "summary": "numbered reap receipts per recovery ID"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "80a69c2084f1",
-      "summary": "bumped the captain-hook formula to v12.22.0"
-    },
-    "PushEvent:yasyf/synckit": {
-      "as_of": "8672649544db",
-      "summary": "cut 0.38.0 on daemonkit v0.23.0"
+      "as_of": "4255acae956c",
+      "summary": "bumped the ccx formula to v0.46.0"
     }
   },
-  "generated_at": "2026-08-27T19:59:02Z",
+  "generated_at": "2026-08-28T21:01:19Z",
   "shipped": {
-    "captain-hook@v12.22.1": {
-      "summary": "guarded unbounded find in the packs primitives, and took spawnllm 0.12"
+    "captain-hook@v12.22.3": {
+      "summary": "serialized lexicon reads, so dispatch threads stop sharing one sqlite statement"
+    },
+    "cc-context@v0.47.0": {
+      "summary": "cut a warm ccx mcp server's memory by a third, and fixed BM25 int32 conversions"
     },
     "cc-notes@v0.51.1": {
       "summary": "stated a deadline budget at every daemonkit entry point"
     },
     "cc-skills@v1.10.0": {
       "summary": "moved the codex lane onto daemonkit v0.21.4 and a stable daemon path"
-    },
-    "fusekit@v1.19.0": {
-      "summary": "numbered reap receipts per recovery ID, and made the boot session a UUID"
     },
     "slop-cop@v0.1.63": {
       "summary": "adopted the Google developer documentation style guide as a third rule layer"
