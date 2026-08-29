@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-29T07:17:03Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-29T14:42:18Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -26,20 +26,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-08-29` Was active in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-08-29` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — stopped a ref lock file failing every ref read
+- `2026-08-29` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — established that a ref lock file is not a ref, so it no longer fails every read
+- `2026-08-29` Created something new in [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — the lock-files-are-not-refs branch
+- `2026-08-28` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — ran the commit hooks once instead of twice
 - `2026-08-28` Was active in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-08-28` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — serialized lexicon reads, so dispatch threads stop sharing one sqlite statement
-- `2026-08-28` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-08-28` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — addressed the int32 conversions gosec flags in the BM25 index
-- `2026-08-28` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-08-28` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — named the legal moves when an investigation transition is refused
+- `2026-08-28` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — serialized lexicon reads, so dispatch threads stop sharing one sqlite statement
+- `2026-08-28` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — the fix/wn-thread-safety branch
 - `2026-08-28` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — made ship submit a branch whose work is already committed instead of refusing it
-- `2026-08-27` Created something new in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-08-27` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-08-27` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context) — the vcs-status-queue-probe branch
 - `2026-08-27` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — catalogued ccx vcs status, and the merge-queue snapshot it reconstructs
 - `2026-08-27` Was active in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-08-27` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — the fix/login-path-cache branch
 
-**21,450 contributions in the last year**
+**21,476 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -116,12 +116,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-08-29` [cc-notes v0.51.2](https://github.com/yasyf/cc-notes/releases/tag/v0.51.2) — took daemonkit v0.23.0's ~/.daemonkit/a/<label> state path, and stopped a ref lock file failing every read
 - `2026-08-28` [captain-hook v12.22.3](https://github.com/yasyf/captain-hook/releases/tag/v12.22.3) — serialized lexicon reads, so dispatch threads stop sharing one sqlite statement
-- `2026-08-28` [cc-context v0.47.0](https://github.com/yasyf/cc-context/releases/tag/v0.47.0) — cut a warm ccx mcp server's memory by a third, and fixed BM25 int32 conversions
-- `2026-08-27` [cc-pool v0.68.0](https://github.com/yasyf/cc-pool/releases/tag/v0.68.0)
+- `2026-08-27` [cc-pool v0.68.0](https://github.com/yasyf/cc-pool/releases/tag/v0.68.0) — repinned fusekit v1.19.0, reading the boot session from kern.bootsessionuuid so a clock slew can't retire a live process
 - `2026-08-20` [slop-cop v0.1.63](https://github.com/yasyf/slop-cop/releases/tag/v0.1.63) — adopted the Google developer documentation style guide as a third rule layer
 - `2026-08-16` [cc-skills v1.10.0](https://github.com/yasyf/cc-skills/releases/tag/v1.10.0) — moved the codex lane onto daemonkit v0.21.4 and a stable daemon path
-- `2026-08-04` [cc-notes v0.51.1](https://github.com/yasyf/cc-notes/releases/tag/v0.51.1) — stated a deadline budget at every daemonkit entry point
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
 <!-- gh-profile:end:shipped -->
 

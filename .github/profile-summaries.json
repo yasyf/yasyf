@@ -1,20 +1,32 @@
 {
   "activity": {
     "CreateEvent:yasyf/captain-hook": {
-      "as_of": "2026-08-28T08:40:50Z",
-      "summary": "the fix/login-path-cache branch"
+      "as_of": "2026-08-28T10:22:03Z",
+      "summary": "the fix/wn-thread-safety branch"
+    },
+    "CreateEvent:yasyf/cc-context": {
+      "as_of": "2026-08-27T22:07:28Z",
+      "summary": "the vcs-status-queue-probe branch"
+    },
+    "CreateEvent:yasyf/cc-notes": {
+      "as_of": "2026-08-29T08:15:36Z",
+      "summary": "the lock-files-are-not-refs branch"
     },
     "IssuesEvent:yasyf/cc-pool": {
       "as_of": "2026-08-27T06:14:57Z",
       "summary": "brew upgrade leaving the app bundle, plists, and daemon shim on the old version"
+    },
+    "PullRequestEvent:yasyf/captain-hook": {
+      "as_of": "2026-08-28T17:17:11Z",
+      "summary": "serialized lexicon reads, so dispatch threads stop sharing one sqlite statement"
     },
     "PullRequestEvent:yasyf/cc-context": {
       "as_of": "2026-08-28T03:40:24Z",
       "summary": "made ship submit a branch whose work is already committed instead of refusing it"
     },
     "PullRequestEvent:yasyf/cc-notes": {
-      "as_of": "2026-08-28T03:40:30Z",
-      "summary": "named the legal moves when an investigation transition is refused"
+      "as_of": "2026-08-29T08:21:30Z",
+      "summary": "established that a ref lock file is not a ref, so it no longer fails every read"
     },
     "PullRequestEvent:yasyf/cc-pool": {
       "as_of": "2026-08-27T03:49:49Z",
@@ -29,8 +41,12 @@
       "summary": "serialized lexicon reads, so dispatch threads stop sharing one sqlite statement"
     },
     "PushEvent:yasyf/cc-context": {
-      "as_of": "dc5188b2b155",
-      "summary": "addressed the int32 conversions gosec flags in the BM25 index"
+      "as_of": "9e285506d116",
+      "summary": "ran the commit hooks once instead of twice"
+    },
+    "PushEvent:yasyf/cc-notes": {
+      "as_of": "136611f1ffd1",
+      "summary": "stopped a ref lock file failing every ref read"
     },
     "PushEvent:yasyf/fusekit": {
       "as_of": "ceaa938dfd86",
@@ -41,7 +57,7 @@
       "summary": "bumped the ccx formula to v0.46.0"
     }
   },
-  "generated_at": "2026-08-28T21:01:19Z",
+  "generated_at": "2026-08-29T14:42:15Z",
   "shipped": {
     "captain-hook@v12.22.3": {
       "summary": "serialized lexicon reads, so dispatch threads stop sharing one sqlite statement"
@@ -51,6 +67,12 @@
     },
     "cc-notes@v0.51.1": {
       "summary": "stated a deadline budget at every daemonkit entry point"
+    },
+    "cc-notes@v0.51.2": {
+      "summary": "took daemonkit v0.23.0's ~/.daemonkit/a/<label> state path, and stopped a ref lock file failing every read"
+    },
+    "cc-pool@v0.68.0": {
+      "summary": "repinned fusekit v1.19.0, reading the boot session from kern.bootsessionuuid so a clock slew can't retire a live process"
     },
     "cc-skills@v1.10.0": {
       "summary": "moved the codex lane onto daemonkit v0.21.4 and a stable daemon path"
