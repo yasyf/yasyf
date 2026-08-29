@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-29T16:50:03Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-29T21:04:41Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -31,13 +31,13 @@
 - `2026-08-29` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — established that a ref lock file is not a ref, so it no longer fails every read
 - `2026-08-29` Created something new in [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — the lock-files-are-not-refs branch
 - `2026-08-28` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — ran the commit hooks once instead of twice
-- `2026-08-28` Was active in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 - `2026-08-28` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — serialized lexicon reads, so dispatch threads stop sharing one sqlite statement
 - `2026-08-28` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — the fix/wn-thread-safety branch
 - `2026-08-28` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — made ship submit a branch whose work is already committed instead of refusing it
 - `2026-08-27` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — catalogued ccx vcs status, and the merge-queue snapshot it reconstructs
-- `2026-08-27` Was active in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-08-27` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context) — the vcs-status-queue-probe branch
+- `2026-08-27` Triaged issues in [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — brew upgrade leaving the app bundle, plists, and daemon shim on the old version
+- `2026-08-27` Worked on a pull request in [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — took daemonkit v0.23.0, moving daemon state to ~/.daemonkit/a/<label>
+- `2026-08-27` Worked on a pull request in [yasyf/fusekit](https://github.com/yasyf/fusekit)
 
 **21,482 contributions in the last year**
 <!-- gh-profile:end:activity -->
