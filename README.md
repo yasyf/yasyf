@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-30T16:55:08Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-30T21:23:48Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,19 +27,19 @@
 
 <!-- gh-profile:start:activity -->
 - `2026-08-30` Worked on a pull request in [jahala/tilth](https://github.com/jahala/tilth)
+- `2026-08-30` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
 - `2026-08-30` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash)
+- `2026-08-30` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
 - `2026-08-30` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
 - `2026-08-30` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — resolved the MCP project root from the client, not the spawn cwd
+- `2026-08-30` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-08-30` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-pool stack formulae to v0.69.0
 - `2026-08-30` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — bumped the Swift FuseKit pin and tightened the reset test's file modes
 - `2026-08-30` Pushed to [yasyf/cc-runtime](https://github.com/yasyf/cc-runtime) — cut 0.18.0 onto the daemonkit v0.23 surface
 - `2026-08-30` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — retired launchd.RemoveUnmarked and its ErrMarked sentinel
 - `2026-08-30` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — configured the daemon log sinks the worker never installed
-- `2026-08-30` Pushed to [yasyf/cc-patch](https://github.com/yasyf/cc-patch) — let a derive render a replace site from its captures
-- `2026-08-30` Worked on a pull request in [yasyf/cc-patch](https://github.com/yasyf/cc-patch) — landed derive-rendered replace sites, built from a rule's own captures
-- `2026-08-30` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit) — dropped the pre-v0.21 legacy LaunchAgent sweep
 
-**21,591 contributions in the last year**
+**22,427 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -119,7 +119,6 @@
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
 - `2026-08-30` [captain-hook v12.22.5](https://github.com/yasyf/captain-hook/releases/tag/v12.22.5) — gated the whole apply lane on the escalation budget, and let the helper install own the host deployment
 - `2026-08-30` [cc-skills v1.11.0](https://github.com/yasyf/cc-skills/releases/tag/v1.11.0) — moved restack under the new ccx vcs stack group, and catalogued ccx vcs status
-- `2026-08-30` [cc-context v0.48.0](https://github.com/yasyf/cc-context/releases/tag/v0.48.0) — read the merge queue through gt, and caught a branch reparented out from under its PR
 - `2026-08-29` [cc-notes v0.51.2](https://github.com/yasyf/cc-notes/releases/tag/v0.51.2) — took daemonkit v0.23.0's ~/.daemonkit/a/<label> state path, and stopped a ref lock file failing every read
 - `2026-08-20` [slop-cop v0.1.63](https://github.com/yasyf/slop-cop/releases/tag/v0.1.63) — adopted the Google developer documentation style guide as a third rule layer
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
