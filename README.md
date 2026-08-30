@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-30T14:33:20Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-30T16:55:08Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -26,20 +26,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-08-30` Worked on a pull request in [jahala/tilth](https://github.com/jahala/tilth)
 - `2026-08-30` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash)
 - `2026-08-30` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
 - `2026-08-30` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — resolved the MCP project root from the client, not the spawn cwd
 - `2026-08-30` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-pool stack formulae to v0.69.0
-- `2026-08-30` Pushed to [yasyf/cc-runtime](https://github.com/yasyf/cc-runtime) — cut 0.18.0 onto the daemonkit v0.23 surface
 - `2026-08-30` Pushed to [yasyf/cc-pool](https://github.com/yasyf/cc-pool) — bumped the Swift FuseKit pin and tightened the reset test's file modes
+- `2026-08-30` Pushed to [yasyf/cc-runtime](https://github.com/yasyf/cc-runtime) — cut 0.18.0 onto the daemonkit v0.23 surface
 - `2026-08-30` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — retired launchd.RemoveUnmarked and its ErrMarked sentinel
 - `2026-08-30` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — configured the daemon log sinks the worker never installed
 - `2026-08-30` Pushed to [yasyf/cc-patch](https://github.com/yasyf/cc-patch) — let a derive render a replace site from its captures
 - `2026-08-30` Worked on a pull request in [yasyf/cc-patch](https://github.com/yasyf/cc-patch) — landed derive-rendered replace sites, built from a rule's own captures
 - `2026-08-30` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit) — dropped the pre-v0.21 legacy LaunchAgent sweep
-- `2026-08-30` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — stopped detecting pre-0.21 daemons
 
-**21,587 contributions in the last year**
+**21,591 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
