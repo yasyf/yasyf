@@ -1,81 +1,65 @@
 {
   "activity": {
-    "CreateEvent:yasyf/captain-hook": {
-      "as_of": "2026-08-28T10:22:03Z",
-      "summary": "the fix/wn-thread-safety branch"
-    },
-    "CreateEvent:yasyf/cc-context": {
-      "as_of": "2026-08-27T22:07:28Z",
-      "summary": "the vcs-status-queue-probe branch"
-    },
-    "CreateEvent:yasyf/cc-notes": {
-      "as_of": "2026-08-29T08:15:36Z",
-      "summary": "the lock-files-are-not-refs branch"
-    },
-    "IssuesEvent:yasyf/cc-pool": {
-      "as_of": "2026-08-27T06:14:57Z",
-      "summary": "brew upgrade leaving the app bundle, plists, and daemon shim on the old version"
-    },
-    "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-08-28T17:17:11Z",
-      "summary": "serialized lexicon reads, so dispatch threads stop sharing one sqlite statement"
-    },
     "PullRequestEvent:yasyf/cc-context": {
-      "as_of": "2026-08-28T03:40:24Z",
-      "summary": "made ship submit a branch whose work is already committed instead of refusing it"
+      "as_of": "2026-08-30T14:19:55Z",
+      "summary": "resolved the MCP project root from the client, not the spawn cwd"
     },
-    "PullRequestEvent:yasyf/cc-notes": {
-      "as_of": "2026-08-29T08:21:30Z",
-      "summary": "established that a ref lock file is not a ref, so it no longer fails every read"
-    },
-    "PullRequestEvent:yasyf/cc-pool": {
-      "as_of": "2026-08-27T03:49:49Z",
-      "summary": "took daemonkit v0.23.0, moving daemon state to ~/.daemonkit/a/<label>"
-    },
-    "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-08-27T21:48:14Z",
-      "summary": "catalogued ccx vcs status, and the merge-queue snapshot it reconstructs"
+    "PullRequestEvent:yasyf/cc-patch": {
+      "as_of": "2026-08-30T04:11:25Z",
+      "summary": "landed derive-rendered replace sites, built from a rule's own captures"
     },
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "d5d4d64e5d05",
-      "summary": "serialized lexicon reads, so dispatch threads stop sharing one sqlite statement"
+      "as_of": "bc799a9c5d31",
+      "summary": "configured the daemon log sinks the worker never installed"
     },
-    "PushEvent:yasyf/cc-context": {
-      "as_of": "9e285506d116",
-      "summary": "ran the commit hooks once instead of twice"
+    "PushEvent:yasyf/cc-interact": {
+      "as_of": "997286c66653",
+      "summary": "stopped detecting pre-0.21 daemons"
     },
-    "PushEvent:yasyf/cc-notes": {
-      "as_of": "136611f1ffd1",
-      "summary": "stopped a ref lock file failing every ref read"
+    "PushEvent:yasyf/cc-patch": {
+      "as_of": "ffb9cba0847e",
+      "summary": "let a derive render a replace site from its captures"
     },
-    "PushEvent:yasyf/fusekit": {
-      "as_of": "ceaa938dfd86",
-      "summary": "numbered reap receipts per recovery ID"
+    "PushEvent:yasyf/cc-pool": {
+      "as_of": "7e7305591f79",
+      "summary": "bumped the Swift FuseKit pin and tightened the reset test's file modes"
+    },
+    "PushEvent:yasyf/cc-runtime": {
+      "as_of": "d28d05c3060d",
+      "summary": "cut 0.18.0 onto the daemonkit v0.23 surface"
+    },
+    "PushEvent:yasyf/daemonkit": {
+      "as_of": "b99c8a17bf0e",
+      "summary": "retired launchd.RemoveUnmarked and its ErrMarked sentinel"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "4255acae956c",
-      "summary": "bumped the ccx formula to v0.46.0"
+      "as_of": "14a5ec6173c8",
+      "summary": "bumped the cc-pool stack formulae to v0.69.0"
+    },
+    "PushEvent:yasyf/synckit": {
+      "as_of": "ed7f56867875",
+      "summary": "dropped the pre-v0.21 legacy LaunchAgent sweep"
     }
   },
-  "generated_at": "2026-08-29T14:42:15Z",
+  "generated_at": "2026-08-30T14:33:20Z",
   "shipped": {
-    "captain-hook@v12.22.3": {
-      "summary": "serialized lexicon reads, so dispatch threads stop sharing one sqlite statement"
+    "authkit@v0.2.0": {
+      "summary": "pinned cookiesync by its shipped module-path codesign identifier"
     },
-    "cc-context@v0.47.0": {
-      "summary": "cut a warm ccx mcp server's memory by a third, and fixed BM25 int32 conversions"
+    "captain-hook@v12.22.5": {
+      "summary": "gated the whole apply lane on the escalation budget, and let the helper install own the host deployment"
     },
-    "cc-notes@v0.51.1": {
-      "summary": "stated a deadline budget at every daemonkit entry point"
+    "cc-context@v0.48.0": {
+      "summary": "read the merge queue through gt, and caught a branch reparented out from under its PR"
     },
     "cc-notes@v0.51.2": {
       "summary": "took daemonkit v0.23.0's ~/.daemonkit/a/<label> state path, and stopped a ref lock file failing every read"
     },
-    "cc-pool@v0.68.0": {
-      "summary": "repinned fusekit v1.19.0, reading the boot session from kern.bootsessionuuid so a clock slew can't retire a live process"
+    "cc-pool@v0.69.0": {
+      "summary": "added `ccp package reset` to retire a wedged deployment"
     },
-    "cc-skills@v1.10.0": {
-      "summary": "moved the codex lane onto daemonkit v0.21.4 and a stable daemon path"
+    "cc-skills@v1.11.0": {
+      "summary": "moved restack under the new ccx vcs stack group, and catalogued ccx vcs status"
     },
     "slop-cop@v0.1.63": {
       "summary": "adopted the Google developer documentation style guide as a third rule layer"
