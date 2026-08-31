@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-31T14:18:11Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-31T17:16:43Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -26,18 +26,18 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-08-30` Worked on a pull request in [jahala/tilth](https://github.com/jahala/tilth)
+- `2026-08-30` Worked on a pull request in [jahala/tilth](https://github.com/jahala/tilth) — taught grok to search binary and non-UTF-8 files without a decode error
 - `2026-08-30` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — resolved the MCP project root from the client, not the spawn cwd
 - `2026-08-30` Worked on a pull request in [yasyf/cc-patch](https://github.com/yasyf/cc-patch) — landed derive-rendered replace sites, built from a rule's own captures
-- `2026-08-30` Discussed issues in [benbjohnson/litestream](https://github.com/benbjohnson/litestream)
-- `2026-08-30` Worked on a pull request in [benbjohnson/litestream](https://github.com/benbjohnson/litestream)
-- `2026-08-30` Forked [benbjohnson/litestream](https://github.com/benbjohnson/litestream)
-- `2026-08-30` Triaged issues in [benbjohnson/litestream](https://github.com/benbjohnson/litestream)
-- `2026-08-30` Worked on a pull request in [yasyf/cc-guides](https://github.com/yasyf/cc-guides)
-- `2026-08-30` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-08-30` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-08-29` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-08-27` Triaged issues in [yasyf/cc-pool](https://github.com/yasyf/cc-pool)
+- `2026-08-30` Discussed issues in [benbjohnson/litestream](https://github.com/benbjohnson/litestream) — retracted one of the two reported WAL defects once the fix proved it unreachable
+- `2026-08-30` Worked on a pull request in [benbjohnson/litestream](https://github.com/benbjohnson/litestream) — stopped snapshot WAL reads before the transaction straddling the advertised end
+- `2026-08-30` Forked [benbjohnson/litestream](https://github.com/benbjohnson/litestream) — the working base for the snapshot-compaction fix
+- `2026-08-30` Triaged issues in [benbjohnson/litestream](https://github.com/benbjohnson/litestream) — reported the compaction stall behind `snapshot wal read exceeded bound`
+- `2026-08-30` Worked on a pull request in [yasyf/cc-guides](https://github.com/yasyf/cc-guides) — accepted a #!/bin/bash shebang inside a shell fragment
+- `2026-08-30` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — catalogued ccx vcs status and the merge-queue snapshot it reconstructs
+- `2026-08-30` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — stopped a nudge misfiring on prose that only describes consequences
+- `2026-08-29` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-notes formula to v0.51.2
+- `2026-08-29` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — taught the ref reader that a lock file is not a ref
 
 **22,417 contributions in the last year**
 <!-- gh-profile:end:activity -->
