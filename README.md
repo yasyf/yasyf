@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-31T17:16:43Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-08-31T22:58:35Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -26,20 +26,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-08-31` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash)
+- `2026-08-31` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — resolved the MCP project root from the client, not the spawn cwd
+- `2026-08-31` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-08-31` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-08-31` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-notes formula to v0.51.2
+- `2026-08-31` Was active in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-08-31` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-08-30` Worked on a pull request in [jahala/tilth](https://github.com/jahala/tilth) — taught grok to search binary and non-UTF-8 files without a decode error
-- `2026-08-30` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — resolved the MCP project root from the client, not the spawn cwd
 - `2026-08-30` Worked on a pull request in [yasyf/cc-patch](https://github.com/yasyf/cc-patch) — landed derive-rendered replace sites, built from a rule's own captures
 - `2026-08-30` Discussed issues in [benbjohnson/litestream](https://github.com/benbjohnson/litestream) — retracted one of the two reported WAL defects once the fix proved it unreachable
 - `2026-08-30` Worked on a pull request in [benbjohnson/litestream](https://github.com/benbjohnson/litestream) — stopped snapshot WAL reads before the transaction straddling the advertised end
 - `2026-08-30` Forked [benbjohnson/litestream](https://github.com/benbjohnson/litestream) — the working base for the snapshot-compaction fix
-- `2026-08-30` Triaged issues in [benbjohnson/litestream](https://github.com/benbjohnson/litestream) — reported the compaction stall behind `snapshot wal read exceeded bound`
-- `2026-08-30` Worked on a pull request in [yasyf/cc-guides](https://github.com/yasyf/cc-guides) — accepted a #!/bin/bash shebang inside a shell fragment
-- `2026-08-30` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — catalogued ccx vcs status and the merge-queue snapshot it reconstructs
-- `2026-08-30` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — stopped a nudge misfiring on prose that only describes consequences
-- `2026-08-29` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-notes formula to v0.51.2
-- `2026-08-29` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — taught the ref reader that a lock file is not a ref
 
-**22,417 contributions in the last year**
+**22,445 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -116,12 +116,14 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-08-31` [cc-notes v0.51.3](https://github.com/yasyf/cc-notes/releases/tag/v0.51.3)
+- `2026-08-31` [cc-context v0.49.0](https://github.com/yasyf/cc-context/releases/tag/v0.49.0)
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
 - `2026-08-30` [captain-hook v12.22.5](https://github.com/yasyf/captain-hook/releases/tag/v12.22.5) — gated the whole apply lane on the escalation budget, and let the helper install own the host deployment
 - `2026-08-30` [cc-skills v1.11.0](https://github.com/yasyf/cc-skills/releases/tag/v1.11.0) — moved restack under the new ccx vcs stack group, and catalogued ccx vcs status
-- `2026-08-29` [cc-notes v0.51.2](https://github.com/yasyf/cc-notes/releases/tag/v0.51.2) — took daemonkit v0.23.0's ~/.daemonkit/a/<label> state path, and stopped a ref lock file failing every read
 - `2026-08-20` [slop-cop v0.1.63](https://github.com/yasyf/slop-cop/releases/tag/v0.1.63) — adopted the Google developer documentation style guide as a third rule layer
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
+- `2026-07-25` [cc-squash v0.11.1](https://github.com/yasyf/cc-squash/releases/tag/v0.11.1)
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
