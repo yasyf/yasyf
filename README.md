@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-01T05:29:42Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-01T11:56:00Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -26,20 +26,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-09-01` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-09-01` Was active in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-09-01` Worked on a pull request in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
 - `2026-09-01` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — resolved the MCP project root from the client, not the spawn cwd
+- `2026-09-01` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-09-01` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — catalogued ccx vcs status and the merge-queue snapshot it reconstructs
+- `2026-09-01` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-09-01` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present)
 - `2026-09-01` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-notes formula to v0.51.2
+- `2026-09-01` Was active in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-09-01` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit)
 - `2026-08-31` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash)
-- `2026-08-31` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-08-31` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
 - `2026-08-30` Worked on a pull request in [jahala/tilth](https://github.com/jahala/tilth) — taught grok to search binary and non-UTF-8 files without a decode error
 - `2026-08-30` Worked on a pull request in [yasyf/cc-patch](https://github.com/yasyf/cc-patch) — landed derive-rendered replace sites, built from a rule's own captures
-- `2026-08-30` Discussed issues in [benbjohnson/litestream](https://github.com/benbjohnson/litestream) — retracted one of the two reported WAL defects once the fix proved it unreachable
-- `2026-08-30` Worked on a pull request in [benbjohnson/litestream](https://github.com/benbjohnson/litestream) — stopped snapshot WAL reads before the transaction straddling the advertised end
-- `2026-08-30` Forked [benbjohnson/litestream](https://github.com/benbjohnson/litestream) — the working base for the snapshot-compaction fix
 
-**22,526 contributions in the last year**
+**22,597 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -116,11 +116,12 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-09-01` [synckit v0.39.1](https://github.com/yasyf/synckit/releases/tag/v0.39.1)
+- `2026-09-01` [cc-context v0.52.0](https://github.com/yasyf/cc-context/releases/tag/v0.52.0)
 - `2026-08-31` [cc-notes v0.51.3](https://github.com/yasyf/cc-notes/releases/tag/v0.51.3)
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
 - `2026-08-30` [captain-hook v12.22.5](https://github.com/yasyf/captain-hook/releases/tag/v12.22.5) — gated the whole apply lane on the escalation budget, and let the helper install own the host deployment
 - `2026-08-30` [cc-skills v1.11.0](https://github.com/yasyf/cc-skills/releases/tag/v1.11.0) — moved restack under the new ccx vcs stack group, and catalogued ccx vcs status
+- `2026-08-27` [daemonkit v0.23.0](https://github.com/yasyf/daemonkit/releases/tag/v0.23.0)
 - `2026-08-20` [slop-cop v0.1.63](https://github.com/yasyf/slop-cop/releases/tag/v0.1.63) — adopted the Google developer documentation style guide as a third rule layer
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
 <!-- gh-profile:end:shipped -->
