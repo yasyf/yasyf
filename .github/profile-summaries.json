@@ -1,61 +1,52 @@
 {
   "activity": {
-    "ForkEvent:benbjohnson/litestream": {
-      "as_of": "2026-08-30T01:12:51Z",
-      "summary": "the working base for the snapshot-compaction fix"
-    },
-    "IssueCommentEvent:benbjohnson/litestream": {
-      "as_of": "2026-08-30T01:14:55Z",
-      "summary": "retracted one of the two reported WAL defects once the fix proved it unreachable"
-    },
-    "IssuesEvent:benbjohnson/litestream": {
-      "as_of": "2026-08-30T00:58:50Z",
-      "summary": "reported the compaction stall behind `snapshot wal read exceeded bound`"
-    },
-    "PullRequestEvent:benbjohnson/litestream": {
-      "as_of": "2026-08-30T01:14:02Z",
-      "summary": "stopped snapshot WAL reads before the transaction straddling the advertised end"
-    },
-    "PullRequestEvent:jahala/tilth": {
-      "as_of": "2026-08-30T16:02:21Z",
-      "summary": "taught grok to search binary and non-UTF-8 files without a decode error"
-    },
-    "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-08-30T00:19:46Z",
-      "summary": "stopped a nudge misfiring on prose that only describes consequences"
-    },
     "PullRequestEvent:yasyf/cc-context": {
-      "as_of": "2026-08-30T14:19:55Z",
-      "summary": "resolved the MCP project root from the client, not the spawn cwd"
-    },
-    "PullRequestEvent:yasyf/cc-guides": {
-      "as_of": "2026-08-30T00:50:33Z",
-      "summary": "accepted a #!/bin/bash shebang inside a shell fragment"
+      "as_of": "2026-09-01T11:08:39Z",
+      "summary": "stopped telling a --no-commit ship to re-run the command that just failed"
     },
     "PullRequestEvent:yasyf/cc-notes": {
-      "as_of": "2026-08-29T08:21:30Z",
-      "summary": "taught the ref reader that a lock file is not a ref"
-    },
-    "PullRequestEvent:yasyf/cc-patch": {
-      "as_of": "2026-08-30T04:11:25Z",
-      "summary": "landed derive-rendered replace sites, built from a rule's own captures"
+      "as_of": "2026-09-01T14:15:17Z",
+      "summary": "stopped the availability nudge spawning a version read on every prompt"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-08-30T00:22:13Z",
-      "summary": "catalogued ccx vcs status and the merge-queue snapshot it reconstructs"
+      "as_of": "2026-09-01T09:43:33Z",
+      "summary": "added a cc-present block pack for the design-doc interview rounds"
+    },
+    "PullRequestEvent:yasyf/daemonkit": {
+      "as_of": "2026-09-01T11:30:30Z",
+      "summary": "rendered a Homebrew-first PATH into every agent plist"
+    },
+    "PushEvent:yasyf/cc-context": {
+      "as_of": "30ba73742e84",
+      "summary": "outlasted gt's background writer in the live graphite fixture"
+    },
+    "PushEvent:yasyf/cc-present": {
+      "as_of": "8a888a117319",
+      "summary": "ran against a newer daemon instead of refusing the command"
+    },
+    "PushEvent:yasyf/cc-squash": {
+      "as_of": "2805d368e5e1",
+      "summary": "cut 0.12.0 with the control plane ported onto daemonkit v0.23"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "dc927acc217d",
-      "summary": "bumped the cc-notes formula to v0.51.2"
+      "as_of": "bdda4773b0ac",
+      "summary": "bumped the cc-present formula to v0.33.4"
+    },
+    "PushEvent:yasyf/synckit": {
+      "as_of": "ac72083b8079",
+      "summary": "cut 0.39.2 with gosec waivers for the tailscale resolver"
     }
   },
-  "generated_at": "2026-08-31T17:13:19Z",
+  "generated_at": "2026-09-01T14:18:10Z",
   "shipped": {
     "captain-hook@v12.22.5": {
       "summary": "gated the whole apply lane on the escalation budget, and let the helper install own the host deployment"
     },
-    "cc-notes@v0.51.2": {
-      "summary": "took daemonkit v0.23.0's ~/.daemonkit/a/<label> state path, and stopped a ref lock file failing every read"
+    "cc-context@v0.53.0": {
+      "summary": "stopped telling a --no-commit ship to re-run the command that just failed"
+    },
+    "cc-notes@v0.51.3": {
+      "summary": "stopped a dict tool response killing the handler reading it"
     },
     "cc-pool@v0.69.0": {
       "summary": "added `ccp package reset` to retire a wedged deployment"
