@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-02T11:35:45Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-02T13:52:25Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -13,11 +13,11 @@
 
 ## 🔭 Now
 
-- Building the missing toolbelt for Claude Code: [captain-hook](https://github.com/yasyf/captain-hook) for declarative hooks, [cc-pool](https://github.com/yasyf/cc-pool) for account pooling, [cc-review](https://github.com/yasyf/cc-review) for reviewing Claude's diffs in a PR-style web UI, [cc-transcript](https://github.com/yasyf/cc-transcript) for typed transcripts, and [slop-cop](https://github.com/yasyf/slop-cop) to catch AI-flavored prose
-- Converging those pieces into one session-activity platform — typed events and a decision ledger in cc-transcript, with captain-hook as its hook runtime — and building [cc-orchestrate](https://github.com/yasyf/cc-orchestrate) into a pure-Go CLI that runs fleets of agents across pluggable backends like cmux, superset, tmux, and zellij, each with an AgentProber liveness check for long-lived, keep-alive sessions — with [cc-vigil](https://github.com/yasyf/cc-vigil), a transcript-oracle sleep inhibitor, keeping the Mac awake only while those agents are truly working
+- Building the missing toolbelt for Claude Code: [captain-hook](https://github.com/yasyf/captain-hook) for declarative hooks, [cc-pool](https://github.com/yasyf/cc-pool) for account pooling, [cc-review](https://github.com/yasyf/cc-review) for reviewing Claude's diffs in a PR-style web UI, [cc-transcript](https://github.com/yasyf/cc-transcript) for typed transcripts, and [slop-cop](https://github.com/yasyf/slop-cop) to catch AI-flavored prose — and now to rewrite it, with a `plainify` pass that puts prose into plain English under word and vocabulary constraints
+- Converging those pieces into one session-activity platform — typed events and a decision ledger in cc-transcript, with captain-hook as its hook runtime. Both sides now read a relay envelope as agent-injected, so a relay stops opening a turn in cc-transcript and stops counting as an authored prompt in captain-hook, whose dispatch judges lane tool events against the lane transcript rather than the parent's task — and building [cc-orchestrate](https://github.com/yasyf/cc-orchestrate) into a pure-Go CLI that runs fleets of agents across pluggable backends like cmux, superset, tmux, and zellij, each with an AgentProber liveness check for long-lived, keep-alive sessions — with [cc-vigil](https://github.com/yasyf/cc-vigil), a transcript-oracle sleep inhibitor, keeping the Mac awake only while those agents are truly working
 - Running the whole cc-* fleet on shared substrate: [daemonkit](https://github.com/yasyf/daemonkit) for daemon lifecycle — one macOS-only Serve/Client/Control surface, one schema generating the frame codec for both Go and Swift behind a drift gate, and no byte reaching a peer whose code identity hasn't been judged. captain-hook, cc-pool, cc-notes, cc-interact, fusekit, cookiesync, synckit, cc-orchestrate, cc-present, cc-review, cc-runtime, and cc-squash have all moved onto it, each stating a deadline budget at every choke point; v0.22 took the socket path out of a spawned child's argv entirely — the child inherits its session on fd 3 — and v0.23 has since moved every daemon's private state under `~/.daemonkit/a/<label>`, with HelperPaths no longer deriving the socket at all. With v0.23 in, the fleet has deleted what it made obsolete: daemonkit retired `RemoveUnmarked` and its `ErrMarked` sentinel, the deprecated launchd `SessionType` API, the legacy bbolt sweep, the pre-rename metadata migration, and the markerless-plist fallback, and synckit dropped its pre-v0.21 LaunchAgent sweep — while every agent plist now renders a Homebrew-first PATH
-- Cutting that substrate through to releases: [cc-review](https://github.com/yasyf/cc-review) cut v0.35.0 on daemonkit v0.23.0 and [cc-runtime](https://github.com/yasyf/cc-runtime) cut 0.18.0 onto the same surface, cc-orchestrate runs its pty hosts as Serve products under one Daemon, and [binrun](https://github.com/yasyf/binrun) gates every release on a tag resolving to one exact commit on main
-- Teaching [cc-context](https://github.com/yasyf/cc-context) to ship the way I actually branch: `ccx vcs stack` drives a Graphite stack that spans one working copy per branch — restacking one spread across working copies instead of refusing it, pinning every child to its own copy and `gt track` to its branch, and running a repo's hooks only where CI never will. Those paths have since moved off the gt CLI: the stack is read from Graphite's own database, the downstack submits over Graphite's API, and a refusal carries what Graphite actually said — with `ccx vcs status` reading the merge queue through gt to reconstruct the snapshot no GitHub field carries, catching a branch reparented out from under its PR, submitting one whose work is already committed instead of refusing it, and no longer telling a `--no-commit` ship to re-run the command that just failed
+- Cutting that substrate through to releases: [cc-review](https://github.com/yasyf/cc-review) has cut 0.36.0 — daemonkit v0.23.0 underneath, cc-interact v0.33.0's subprocess-free Root above it, and a daemon that chains turn starts when no review is open — while [cc-runtime](https://github.com/yasyf/cc-runtime) cut 0.18.0 onto the same surface, cc-orchestrate runs its pty hosts as Serve products under one Daemon, and [binrun](https://github.com/yasyf/binrun) gates every release on a tag resolving to one exact commit on main
+- Teaching [cc-context](https://github.com/yasyf/cc-context) to ship the way I actually branch: `ccx vcs stack` drives a Graphite stack that spans one working copy per branch — restacking one spread across working copies instead of refusing it, pinning every child to its own copy and `gt track` to its branch, and running a repo's hooks only where CI never will. Those paths have since moved off the gt CLI: the stack is read from Graphite's own database, the downstack submits over Graphite's API, and a refusal carries what Graphite actually said — with `ccx vcs status` reading the merge queue through gt to reconstruct the snapshot no GitHub field carries, catching a branch reparented out from under its PR, submitting one whose work is already committed instead of refusing it, and no longer telling a `--no-commit` ship to re-run the command that just failed. Restack has since moved onto `git replay`, so a branch another worktree holds can no longer stop the stack, and a merged decline from gt gets read rather than dropped
 - Running [cc-sentiment](https://github.com/yasyf/cc-sentiment), an open experiment in whether developer sentiment with Claude Code tracks the model, the tooling, or just the time of day
 - Self-hosting [yclaw](https://github.com/yasyf/yclaw), an always-on, reproducible Apple Silicon home server for the Nous hermes-agent — gVisor-sandboxed and tailnet-only, so the agent never touches your credentials
 - Engineer & CEO at [Aneta](https://aneta.company)
@@ -26,20 +26,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-09-02` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — added a cc-present block pack for the design-doc interview rounds
-- `2026-09-02` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-09-02` Worked on a pull request in [yasyf/slop-cop](https://github.com/yasyf/slop-cop) — added plainify, rewriting prose into plain English under vocabulary limits
+- `2026-09-02` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — spelled --cwd against the root so a deleted workspace stops failing its hooks
+- `2026-09-02` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — gave design-doc an executive summary and a plain-language interview
+- `2026-09-02` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — judged lane tool events against the lane transcript, not the parent's task
+- `2026-09-02` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — matched relay envelopes as agent-injected, so relays stop opening turns
 - `2026-09-02` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
-- `2026-09-01` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-present formula to v0.33.4
-- `2026-09-01` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — outlasted gt's background writer in the live graphite fixture
-- `2026-09-01` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
-- `2026-09-01` Worked on a pull request in [yasyf/cc-review](https://github.com/yasyf/cc-review)
+- `2026-09-02` Created something new in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-09-01` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the ccx formula to v0.55.0
+- `2026-09-01` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — read gt's merged decline instead of dropping it
+- `2026-09-01` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — cut 0.36.0 on cc-interact v0.33.0's subprocess-free Root and turn queries
+- `2026-09-01` Worked on a pull request in [yasyf/cc-review](https://github.com/yasyf/cc-review) — chained turn starts when no review is open, with async prompt hooks
 - `2026-09-01` Created something new in [yasyf/cc-review](https://github.com/yasyf/cc-review)
-- `2026-09-01` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
-- `2026-09-01` Was active in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
-- `2026-09-01` Worked on a pull request in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
-- `2026-09-01` Created something new in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
 
-**22,743 contributions in the last year**
+**22,763 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -116,11 +116,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-09-02` [cc-context v0.56.0](https://github.com/yasyf/cc-context/releases/tag/v0.56.0)
-- `2026-09-02` [captain-hook v12.23.0](https://github.com/yasyf/captain-hook/releases/tag/v12.23.0)
+- `2026-09-02` [captain-hook v12.23.3](https://github.com/yasyf/captain-hook/releases/tag/v12.23.3) — spelled --cwd against the root so a deleted workspace stops failing its hooks
+- `2026-09-02` [cc-skills v1.11.1](https://github.com/yasyf/cc-skills/releases/tag/v1.11.1) — added a cc-present block pack for the design-doc interview rounds
+- `2026-09-02` [cc-context v0.56.0](https://github.com/yasyf/cc-context/releases/tag/v0.56.0) — restacked with git replay, so a branch another worktree holds cannot block it
 - `2026-08-31` [cc-notes v0.51.3](https://github.com/yasyf/cc-notes/releases/tag/v0.51.3) — stopped a dict tool response killing the handler reading it
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
-- `2026-08-30` [cc-skills v1.11.0](https://github.com/yasyf/cc-skills/releases/tag/v1.11.0) — moved restack under the new ccx vcs stack group, and catalogued ccx vcs status
 - `2026-08-20` [slop-cop v0.1.63](https://github.com/yasyf/slop-cop/releases/tag/v0.1.63) — adopted the Google developer documentation style guide as a third rule layer
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
 <!-- gh-profile:end:shipped -->
