@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-02T13:52:25Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-02T16:47:12Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -29,6 +29,7 @@
 - `2026-09-02` Worked on a pull request in [yasyf/slop-cop](https://github.com/yasyf/slop-cop) — added plainify, rewriting prose into plain English under vocabulary limits
 - `2026-09-02` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — spelled --cwd against the root so a deleted workspace stops failing its hooks
 - `2026-09-02` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — gave design-doc an executive summary and a plain-language interview
+- `2026-09-02` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 - `2026-09-02` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — judged lane tool events against the lane transcript, not the parent's task
 - `2026-09-02` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — matched relay envelopes as agent-injected, so relays stop opening turns
 - `2026-09-02` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
@@ -37,9 +38,8 @@
 - `2026-09-01` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — read gt's merged decline instead of dropping it
 - `2026-09-01` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — cut 0.36.0 on cc-interact v0.33.0's subprocess-free Root and turn queries
 - `2026-09-01` Worked on a pull request in [yasyf/cc-review](https://github.com/yasyf/cc-review) — chained turn starts when no review is open, with async prompt hooks
-- `2026-09-01` Created something new in [yasyf/cc-review](https://github.com/yasyf/cc-review)
 
-**22,763 contributions in the last year**
+**22,764 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -116,12 +116,12 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-09-02` [slop-cop v0.1.64](https://github.com/yasyf/slop-cop/releases/tag/v0.1.64)
 - `2026-09-02` [captain-hook v12.23.3](https://github.com/yasyf/captain-hook/releases/tag/v12.23.3) — spelled --cwd against the root so a deleted workspace stops failing its hooks
 - `2026-09-02` [cc-skills v1.11.1](https://github.com/yasyf/cc-skills/releases/tag/v1.11.1) — added a cc-present block pack for the design-doc interview rounds
 - `2026-09-02` [cc-context v0.56.0](https://github.com/yasyf/cc-context/releases/tag/v0.56.0) — restacked with git replay, so a branch another worktree holds cannot block it
 - `2026-08-31` [cc-notes v0.51.3](https://github.com/yasyf/cc-notes/releases/tag/v0.51.3) — stopped a dict tool response killing the handler reading it
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
-- `2026-08-20` [slop-cop v0.1.63](https://github.com/yasyf/slop-cop/releases/tag/v0.1.63) — adopted the Google developer documentation style guide as a third rule layer
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
 <!-- gh-profile:end:shipped -->
 
