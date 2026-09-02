@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-01T21:13:50Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-02T04:55:53Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -26,20 +26,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-09-02` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-09-01` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-present formula to v0.33.4
 - `2026-09-01` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — outlasted gt's background writer in the live graphite fixture
 - `2026-09-01` Worked on a pull request in [yasyf/cc-review](https://github.com/yasyf/cc-review)
 - `2026-09-01` Created something new in [yasyf/cc-review](https://github.com/yasyf/cc-review)
-- `2026-09-01` Worked on a pull request in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
-- `2026-09-01` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-present formula to v0.33.4
-- `2026-09-01` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
 - `2026-09-01` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
+- `2026-09-01` Worked on a pull request in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
+- `2026-09-01` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
 - `2026-09-01` Created something new in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
 - `2026-09-01` Created something new in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
 - `2026-09-01` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — stopped the availability nudge spawning a version read on every prompt
 - `2026-09-01` Was active in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
-- `2026-09-01` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
 
-**22,623 contributions in the last year**
+**22,679 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -116,11 +116,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-09-01` [cc-context v0.55.0](https://github.com/yasyf/cc-context/releases/tag/v0.55.0)
 - `2026-08-31` [cc-notes v0.51.3](https://github.com/yasyf/cc-notes/releases/tag/v0.51.3) — stopped a dict tool response killing the handler reading it
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
 - `2026-08-30` [captain-hook v12.22.5](https://github.com/yasyf/captain-hook/releases/tag/v12.22.5) — gated the whole apply lane on the escalation budget, and let the helper install own the host deployment
 - `2026-08-30` [cc-skills v1.11.0](https://github.com/yasyf/cc-skills/releases/tag/v1.11.0) — moved restack under the new ccx vcs stack group, and catalogued ccx vcs status
+- `2026-08-27` [cc-transcript v14.15.0](https://github.com/yasyf/cc-transcript/releases/tag/v14.15.0)
 - `2026-08-20` [slop-cop v0.1.63](https://github.com/yasyf/slop-cop/releases/tag/v0.1.63) — adopted the Google developer documentation style guide as a third rule layer
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
 <!-- gh-profile:end:shipped -->
