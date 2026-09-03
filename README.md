@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-03T13:52:05Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-03T16:37:07Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -29,6 +29,7 @@
 - `2026-09-03` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — gave design-doc term hover, a stacked deck, and overview diagrams
 - `2026-09-03` Worked on a pull request in [yasyf/slop-cop](https://github.com/yasyf/slop-cop) — stripped the quarantine xattr on install so the first exec clears Gatekeeper
 - `2026-09-03` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — read the version from Info.plist, sparing every hook two execve for a string
+- `2026-09-03` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-09-03` Pushed to [yasyf/binrun](https://github.com/yasyf/binrun) — repinned daemonkit to v0.24.0
 - `2026-09-03` Worked on a pull request in [yasyf/binrun](https://github.com/yasyf/binrun) — took daemonkit v0.24.0, whose gc now prunes the tool store too
 - `2026-09-03` Created something new in [yasyf/binrun](https://github.com/yasyf/binrun)
@@ -37,9 +38,8 @@
 - `2026-09-03` Created something new in [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
 - `2026-09-02` Created something new in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
 - `2026-09-02` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-09-02` Worked on a pull request in [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — stopped Claude runs inheriting the host's user settings via --setting-sources
 
-**23,020 contributions in the last year**
+**23,038 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -116,13 +116,13 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-09-03` [slop-cop v0.1.68](https://github.com/yasyf/slop-cop/releases/tag/v0.1.68) — ran the detection tiers on gpt-5.6-luna:low through codex
+- `2026-09-03` [cc-skills v1.11.3](https://github.com/yasyf/cc-skills/releases/tag/v1.11.3)
+- `2026-09-03` [slop-cop v0.1.69](https://github.com/yasyf/slop-cop/releases/tag/v0.1.69)
 - `2026-09-03` [captain-hook v12.25.0](https://github.com/yasyf/captain-hook/releases/tag/v12.25.0) — read the version from Info.plist, sparing every hook two execve for a string
-- `2026-09-02` [cc-skills v1.11.2](https://github.com/yasyf/cc-skills/releases/tag/v1.11.2) — skipped the codex spawn when the daemon is down
+- `2026-09-02` [cc-context v0.56.0](https://github.com/yasyf/cc-context/releases/tag/v0.56.0)
 - `2026-08-31` [cc-notes v0.51.3](https://github.com/yasyf/cc-notes/releases/tag/v0.51.3) — stopped a dict tool response killing the handler reading it
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
-- `2026-07-18` [authkit v0.2.0](https://github.com/yasyf/authkit/releases/tag/v0.2.0) — pinned cookiesync by its shipped module-path codesign identifier
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
