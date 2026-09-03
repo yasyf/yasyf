@@ -1,49 +1,45 @@
 {
   "activity": {
-    "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-09-02T13:36:22Z",
-      "summary": "spelled --cwd against the root so a deleted workspace stops failing its hooks"
+    "PullRequestEvent:yasyf/binrun": {
+      "as_of": "2026-09-03T03:33:01Z",
+      "summary": "took daemonkit v0.24.0, whose gc now prunes the tool store too"
     },
-    "PullRequestEvent:yasyf/cc-review": {
-      "as_of": "2026-09-01T15:44:31Z",
-      "summary": "chained turn starts when no review is open, with async prompt hooks"
+    "PullRequestEvent:yasyf/captain-hook": {
+      "as_of": "2026-09-03T09:48:35Z",
+      "summary": "read the version from Info.plist, sparing every hook two execve for a string"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-09-02T12:19:02Z",
-      "summary": "gave design-doc an executive summary and a plain-language interview"
+      "as_of": "2026-09-03T12:24:51Z",
+      "summary": "gave design-doc term hover, a stacked deck, and overview diagrams"
+    },
+    "PullRequestEvent:yasyf/daemonkit": {
+      "as_of": "2026-09-03T02:18:35Z",
+      "summary": "read the host version without a spawn, and let gc sweep the tool store"
     },
     "PullRequestEvent:yasyf/slop-cop": {
-      "as_of": "2026-09-02T13:45:09Z",
-      "summary": "added plainify, rewriting prose into plain English under vocabulary limits"
+      "as_of": "2026-09-03T11:15:27Z",
+      "summary": "stripped the quarantine xattr on install so the first exec clears Gatekeeper"
+    },
+    "PullRequestEvent:yasyf/spawnllm": {
+      "as_of": "2026-09-02T21:48:36Z",
+      "summary": "stopped Claude runs inheriting the host's user settings via --setting-sources"
+    },
+    "PushEvent:yasyf/binrun": {
+      "as_of": "1b4da58793b5",
+      "summary": "repinned daemonkit to v0.24.0"
     },
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "56551112574b",
-      "summary": "judged lane tool events against the lane transcript, not the parent's task"
-    },
-    "PushEvent:yasyf/cc-context": {
-      "as_of": "3dbd874dc120",
-      "summary": "read gt's merged decline instead of dropping it"
-    },
-    "PushEvent:yasyf/cc-review": {
-      "as_of": "701dc9166818",
-      "summary": "cut 0.36.0 on cc-interact v0.33.0's subprocess-free Root and turn queries"
-    },
-    "PushEvent:yasyf/cc-transcript": {
-      "as_of": "feb2bf0046ae",
-      "summary": "matched relay envelopes as agent-injected, so relays stop opening turns"
-    },
-    "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "fa24bfff4613",
-      "summary": "bumped the ccx formula to v0.55.0"
+      "as_of": "e6642133a98b",
+      "summary": "backfilled the changelog from 12.23.1 through 12.24.0"
     }
   },
-  "generated_at": "2026-09-02T13:52:05Z",
+  "generated_at": "2026-09-03T13:51:49Z",
   "shipped": {
-    "captain-hook@v12.23.3": {
-      "summary": "spelled --cwd against the root so a deleted workspace stops failing its hooks"
+    "authkit@v0.2.0": {
+      "summary": "pinned cookiesync by its shipped module-path codesign identifier"
     },
-    "cc-context@v0.56.0": {
-      "summary": "restacked with git replay, so a branch another worktree holds cannot block it"
+    "captain-hook@v12.25.0": {
+      "summary": "read the version from Info.plist, sparing every hook two execve for a string"
     },
     "cc-notes@v0.51.3": {
       "summary": "stopped a dict tool response killing the handler reading it"
@@ -51,11 +47,11 @@
     "cc-pool@v0.69.0": {
       "summary": "added `ccp package reset` to retire a wedged deployment"
     },
-    "cc-skills@v1.11.1": {
-      "summary": "added a cc-present block pack for the design-doc interview rounds"
+    "cc-skills@v1.11.2": {
+      "summary": "skipped the codex spawn when the daemon is down"
     },
-    "slop-cop@v0.1.63": {
-      "summary": "adopted the Google developer documentation style guide as a third rule layer"
+    "slop-cop@v0.1.68": {
+      "summary": "ran the detection tiers on gpt-5.6-luna:low through codex"
     },
     "spawnllm@v0.11.0": {
       "summary": "added an Apple Foundation Models on-device backend and exact-model passthrough"
