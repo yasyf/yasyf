@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-04T04:57:33Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-04T11:35:53Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,19 +27,19 @@
 
 <!-- gh-profile:start:activity -->
 - `2026-09-03` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — gave design-doc term hover, a stacked deck, and overview diagrams
+- `2026-09-03` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
 - `2026-09-03` Worked on a pull request in [yasyf/slop-cop](https://github.com/yasyf/slop-cop) — stripped the quarantine xattr on install so the first exec clears Gatekeeper
+- `2026-09-03` Was active in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 - `2026-09-03` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — read the version from Info.plist, sparing every hook two execve for a string
+- `2026-09-03` Was active in [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
+- `2026-09-03` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-09-03` Created something new in [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
 - `2026-09-03` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-09-03` Created something new in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
 - `2026-09-03` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-09-03` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
-- `2026-09-03` Was active in [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
-- `2026-09-03` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
-- `2026-09-03` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — backfilled the changelog from 12.23.1 through 12.24.0
-- `2026-09-03` Was active in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-09-03` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-09-03` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 
-**23,083 contributions in the last year**
+**23,108 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -118,6 +118,7 @@
 <!-- gh-profile:start:shipped -->
 - `2026-09-03` [captain-hook v12.26.0](https://github.com/yasyf/captain-hook/releases/tag/v12.26.0)
 - `2026-09-03` [slop-cop v0.1.70](https://github.com/yasyf/slop-cop/releases/tag/v0.1.70)
+- `2026-09-03` [cc-context v0.57.0](https://github.com/yasyf/cc-context/releases/tag/v0.57.0)
 - `2026-09-03` [cc-skills v1.11.3](https://github.com/yasyf/cc-skills/releases/tag/v1.11.3)
 - `2026-08-31` [cc-notes v0.51.3](https://github.com/yasyf/cc-notes/releases/tag/v0.51.3) — stopped a dict tool response killing the handler reading it
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
