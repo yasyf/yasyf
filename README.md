@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-04T16:32:34Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-04T20:56:28Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -28,6 +28,7 @@
 
 <!-- gh-profile:start:activity -->
 - `2026-09-04` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — gave design-doc one argument per doc, evidence source previews, and grounded Ask follow-ups
+- `2026-09-04` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-09-03` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-09-03` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop) — cut truncation at a rune boundary, and let a report survive an unlocatable binary
 - `2026-09-03` Worked on a pull request in [yasyf/slop-cop](https://github.com/yasyf/slop-cop) — cut the tests' provider stubs to one execve per call
@@ -38,7 +39,6 @@
 - `2026-09-03` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
 - `2026-09-03` Created something new in [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
 - `2026-09-03` Was active in [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
-- `2026-09-03` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 
 **23,125 contributions in the last year**
 <!-- gh-profile:end:activity -->
@@ -122,7 +122,6 @@
 - `2026-09-03` [cc-skills v1.11.3](https://github.com/yasyf/cc-skills/releases/tag/v1.11.3) — took design-doc through v0.13.0: term hover, a stacked deck, and overview diagrams
 - `2026-08-31` [cc-notes v0.51.3](https://github.com/yasyf/cc-notes/releases/tag/v0.51.3) — stopped a dict tool response killing the handler reading it
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
-- `2026-08-30` [cc-orchestrate v0.17.0](https://github.com/yasyf/cc-orchestrate/releases/tag/v0.17.0) — moved onto daemonkit v0.23.0, with daemon state under `~/.daemonkit/a/<label>`
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
 <!-- gh-profile:end:shipped -->
 
