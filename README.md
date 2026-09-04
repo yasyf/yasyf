@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-04T13:46:05Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-04T16:32:34Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -32,13 +32,13 @@
 - `2026-09-03` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop) — cut truncation at a rune boundary, and let a report survive an unlocatable binary
 - `2026-09-03` Worked on a pull request in [yasyf/slop-cop](https://github.com/yasyf/slop-cop) — cut the tests' provider stubs to one execve per call
 - `2026-09-03` Was active in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-09-03` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 - `2026-09-03` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — digested settings to the enablement keys, so churn stops costing every root a 3.3s spawn
+- `2026-09-03` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-09-03` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-09-03` Created something new in [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
 - `2026-09-03` Was active in [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
 - `2026-09-03` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-09-03` Created something new in [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
-- `2026-09-03` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — added a corpus command, so one sweep answers a hundred questions
-- `2026-09-03` Created something new in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
-- `2026-09-03` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — swept codex run dirs from an async SessionStart hook, not just on `--ps`
 
 **23,125 contributions in the last year**
 <!-- gh-profile:end:activity -->
