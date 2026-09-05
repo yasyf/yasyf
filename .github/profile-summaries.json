@@ -1,34 +1,52 @@
 {
   "activity": {
-    "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-09-03T17:52:45Z",
-      "summary": "digested settings to the enablement keys, so churn stops costing every root a 3.3s spawn"
+    "PullRequestEvent:yasyf/cc-context": {
+      "as_of": "2026-09-05T08:50:59Z",
+      "summary": "anchored the graphite submit on the remote trunk, dropping the branches it already holds"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-09-04T12:52:56Z",
-      "summary": "gave design-doc one argument per doc, evidence source previews, and grounded Ask follow-ups"
-    },
-    "PullRequestEvent:yasyf/cc-transcript": {
-      "as_of": "2026-09-03T16:57:40Z",
-      "summary": "added a corpus command, so one sweep answers a hundred questions"
+      "as_of": "2026-09-05T11:36:21Z",
+      "summary": "gave design-doc reader comments: margin threads, quote anchors, and auto-merging pull requests"
     },
     "PullRequestEvent:yasyf/slop-cop": {
       "as_of": "2026-09-03T18:11:11Z",
       "summary": "cut the tests' provider stubs to one execve per call"
     },
+    "PushEvent:yasyf/captain-hook": {
+      "as_of": "658ff058f0a3",
+      "summary": "digested settings to the enablement keys, so churn stops costing every root a 3.3s spawn"
+    },
+    "PushEvent:yasyf/cc-review": {
+      "as_of": "7e9e60cfbde7",
+      "summary": "chained turn starts when no review is open, and moved the prompt hooks off the blocking path"
+    },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "d621269d9488",
-      "summary": "swept codex run dirs from an async SessionStart hook, not just on `--ps`"
+      "as_of": "77709c04859a",
+      "summary": "moved the codex prose lane onto gpt-6-astra, then landed design-doc v0.16.0"
+    },
+    "PushEvent:yasyf/cc-squash": {
+      "as_of": "48dc8ffa5dba",
+      "summary": "made the release smoke run prove what the artifact is, instead of claiming the daemon started"
+    },
+    "PushEvent:yasyf/homebrew-tap": {
+      "as_of": "c6b284ef6fd5",
+      "summary": "bumped the tap's formulae for cc-skills, captain-hook, slop-cop, and ccx"
     },
     "PushEvent:yasyf/slop-cop": {
-      "as_of": "de6640deb1b1",
-      "summary": "cut truncation at a rune boundary, and let a report survive an unlocatable binary"
+      "as_of": "a8cc40d09196",
+      "summary": "gave /slop-cop-plainify the same binary rules as the rest of the plugin"
     }
   },
-  "generated_at": "2026-09-04T13:45:40Z",
+  "generated_at": "2026-09-05T13:03:34Z",
   "shipped": {
+    "authkit@v0.2.0": {
+      "summary": "pinned cookiesync by its shipped module-path codesign identifier"
+    },
     "captain-hook@v12.26.0": {
       "summary": "digested settings to the enablement keys, sparing every root a 3.3s spawn when settings churn"
+    },
+    "cc-context@v0.57.0": {
+      "summary": "submitted one pull request per graphite call, and stopped a failed --amend pushing the un-amended commit"
     },
     "cc-notes@v0.51.3": {
       "summary": "stopped a dict tool response killing the handler reading it"
@@ -39,8 +57,8 @@
     "cc-pool@v0.69.0": {
       "summary": "added `ccp package reset` to retire a wedged deployment"
     },
-    "cc-skills@v1.11.3": {
-      "summary": "took design-doc through v0.13.0: term hover, a stacked deck, and overview diagrams"
+    "cc-skills@v1.12.0": {
+      "summary": "shipped design-doc's Ask bar and whole-document assistant, and routed the codex prose lane to gpt-6-astra"
     },
     "slop-cop@v0.1.70": {
       "summary": "made --sentence-timeout and --document-timeout bound the whole pass, retries included"
