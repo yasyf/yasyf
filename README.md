@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-05T13:04:25Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-05T15:27:28Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -29,6 +29,7 @@
 <!-- gh-profile:start:activity -->
 - `2026-09-05` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — chained turn starts when no review is open, and moved the prompt hooks off the blocking path
 - `2026-09-05` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — made the release smoke run prove what the artifact is, instead of claiming the daemon started
+- `2026-09-05` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
 - `2026-09-05` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — moved the codex prose lane onto gpt-6-astra, then landed design-doc v0.16.0
 - `2026-09-05` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — gave design-doc reader comments: margin threads, quote anchors, and auto-merging pull requests
 - `2026-09-05` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
@@ -38,9 +39,8 @@
 - `2026-09-04` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-09-03` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop) — gave /slop-cop-plainify the same binary rules as the rest of the plugin
 - `2026-09-03` Worked on a pull request in [yasyf/slop-cop](https://github.com/yasyf/slop-cop) — cut the tests' provider stubs to one execve per call
-- `2026-09-03` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — digested settings to the enablement keys, so churn stops costing every root a 3.3s spawn
 
-**23,157 contributions in the last year**
+**23,174 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -123,7 +123,6 @@
 - `2026-08-31` [cc-notes v0.51.3](https://github.com/yasyf/cc-notes/releases/tag/v0.51.3) — stopped a dict tool response killing the handler reading it
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
-- `2026-07-18` [authkit v0.2.0](https://github.com/yasyf/authkit/releases/tag/v0.2.0) — pinned cookiesync by its shipped module-path codesign identifier
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
