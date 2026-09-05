@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-05T04:50:44Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-05T10:51:51Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,8 +27,10 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-09-05` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-09-05` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-09-05` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — gave design-doc one argument per doc, evidence source previews, and grounded Ask follow-ups
 - `2026-09-04` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — swept codex run dirs from an async SessionStart hook, not just on `--ps`
-- `2026-09-04` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — gave design-doc one argument per doc, evidence source previews, and grounded Ask follow-ups
 - `2026-09-04` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-09-03` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-09-03` Pushed to [yasyf/slop-cop](https://github.com/yasyf/slop-cop) — cut truncation at a rune boundary, and let a report survive an unlocatable binary
@@ -36,11 +38,9 @@
 - `2026-09-03` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 - `2026-09-03` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — digested settings to the enablement keys, so churn stops costing every root a 3.3s spawn
 - `2026-09-03` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-09-03` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
 - `2026-09-03` Created something new in [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
-- `2026-09-03` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — added a corpus command, so one sweep answers a hundred questions
 
-**23,125 contributions in the last year**
+**23,144 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -117,9 +117,10 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-09-05` [cc-skills v1.12.0](https://github.com/yasyf/cc-skills/releases/tag/v1.12.0)
 - `2026-09-03` [captain-hook v12.26.0](https://github.com/yasyf/captain-hook/releases/tag/v12.26.0) — digested settings to the enablement keys, sparing every root a 3.3s spawn when settings churn
 - `2026-09-03` [slop-cop v0.1.70](https://github.com/yasyf/slop-cop/releases/tag/v0.1.70) — made --sentence-timeout and --document-timeout bound the whole pass, retries included
-- `2026-09-03` [cc-skills v1.11.3](https://github.com/yasyf/cc-skills/releases/tag/v1.11.3) — took design-doc through v0.13.0: term hover, a stacked deck, and overview diagrams
+- `2026-09-03` [cc-context v0.57.0](https://github.com/yasyf/cc-context/releases/tag/v0.57.0)
 - `2026-08-31` [cc-notes v0.51.3](https://github.com/yasyf/cc-notes/releases/tag/v0.51.3) — stopped a dict tool response killing the handler reading it
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
