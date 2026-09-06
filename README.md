@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-06T04:58:12Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-06T11:15:27Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-09-06` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — moved the codex prose lane onto gpt-6-astra, then landed design-doc v0.16.0
+- `2026-09-06` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — gave design-doc reader comments: margin threads, quote anchors, and auto-merging pull requests
+- `2026-09-06` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-09-05` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
 - `2026-09-05` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — chained turn starts when no review is open, and moved the prompt hooks off the blocking path
 - `2026-09-05` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — made the release smoke run prove what the artifact is, instead of claiming the daemon started
 - `2026-09-05` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
 - `2026-09-05` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
 - `2026-09-05` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
-- `2026-09-05` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — moved the codex prose lane onto gpt-6-astra, then landed design-doc v0.16.0
-- `2026-09-05` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — gave design-doc reader comments: margin threads, quote anchors, and auto-merging pull requests
 - `2026-09-05` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-09-05` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — anchored the graphite submit on the remote trunk, dropping the branches it already holds
 - `2026-09-05` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the tap's formulae for cc-skills, captain-hook, slop-cop, and ccx
-- `2026-09-05` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 
-**23,200 contributions in the last year**
+**23,232 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
