@@ -1,28 +1,28 @@
 {
   "activity": {
+    "CreateEvent:yasyf/cc-skills": {
+      "as_of": "2026-09-06T06:26:33Z",
+      "summary": "the ir/integrate branch, carrying incident-retro v0.1.0"
+    },
     "PullRequestEvent:yasyf/cc-context": {
       "as_of": "2026-09-05T08:50:59Z",
       "summary": "anchored the graphite submit on the remote trunk, dropping the branches it already holds"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-09-05T11:36:21Z",
-      "summary": "gave design-doc reader comments: margin threads, quote anchors, and auto-merging pull requests"
+      "as_of": "2026-09-06T06:26:36Z",
+      "summary": "built incident-retro on one retro.json, with evidence snapshots and a Docs importer"
     },
-    "PullRequestEvent:yasyf/slop-cop": {
-      "as_of": "2026-09-03T18:11:11Z",
-      "summary": "cut the tests' provider stubs to one execve per call"
-    },
-    "PushEvent:yasyf/captain-hook": {
-      "as_of": "658ff058f0a3",
-      "summary": "digested settings to the enablement keys, so churn stops costing every root a 3.3s spawn"
+    "PushEvent:yasyf/cc-context": {
+      "as_of": "9dbe593f9f65",
+      "summary": "dropped the redundant element type gofumpt rejects in the invocation lists"
     },
     "PushEvent:yasyf/cc-review": {
       "as_of": "7e9e60cfbde7",
       "summary": "chained turn starts when no review is open, and moved the prompt hooks off the blocking path"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "77709c04859a",
-      "summary": "moved the codex prose lane onto gpt-6-astra, then landed design-doc v0.16.0"
+      "as_of": "9e719949f81b",
+      "summary": "kept a draft retro from leaving onset and resolved unset under --strict"
     },
     "PushEvent:yasyf/cc-squash": {
       "as_of": "48dc8ffa5dba",
@@ -31,28 +31,15 @@
     "PushEvent:yasyf/homebrew-tap": {
       "as_of": "c6b284ef6fd5",
       "summary": "bumped the tap's formulae for cc-skills, captain-hook, slop-cop, and ccx"
-    },
-    "PushEvent:yasyf/slop-cop": {
-      "as_of": "a8cc40d09196",
-      "summary": "gave /slop-cop-plainify the same binary rules as the rest of the plugin"
     }
   },
-  "generated_at": "2026-09-05T13:03:34Z",
+  "generated_at": "2026-09-06T13:06:18Z",
   "shipped": {
-    "authkit@v0.2.0": {
-      "summary": "pinned cookiesync by its shipped module-path codesign identifier"
-    },
     "captain-hook@v12.26.0": {
       "summary": "digested settings to the enablement keys, sparing every root a 3.3s spawn when settings churn"
     },
-    "cc-context@v0.57.0": {
-      "summary": "submitted one pull request per graphite call, and stopped a failed --amend pushing the un-amended commit"
-    },
     "cc-notes@v0.51.3": {
       "summary": "stopped a dict tool response killing the handler reading it"
-    },
-    "cc-orchestrate@v0.17.0": {
-      "summary": "moved onto daemonkit v0.23.0, with daemon state under `~/.daemonkit/a/<label>`"
     },
     "cc-pool@v0.69.0": {
       "summary": "added `ccp package reset` to retire a wedged deployment"
