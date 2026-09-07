@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-06T13:06:33Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-07T05:05:05Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,8 +27,8 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-09-06` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — kept a draft retro from leaving onset and resolved unset under --strict
-- `2026-09-06` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — built incident-retro on one retro.json, with evidence snapshots and a Docs importer
+- `2026-09-07` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — kept a draft retro from leaving onset and resolved unset under --strict
+- `2026-09-07` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — built incident-retro on one retro.json, with evidence snapshots and a Docs importer
 - `2026-09-06` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — the ir/integrate branch, carrying incident-retro v0.1.0
 - `2026-09-05` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
 - `2026-09-05` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — chained turn starts when no review is open, and moved the prompt hooks off the blocking path
@@ -40,7 +40,7 @@
 - `2026-09-05` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — anchored the graphite submit on the remote trunk, dropping the branches it already holds
 - `2026-09-05` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the tap's formulae for cc-skills, captain-hook, slop-cop, and ccx
 
-**23,232 contributions in the last year**
+**23,149 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -137,11 +137,12 @@
 <!-- gh-profile:start:languages -->
 ```text
 Go          ████████████████████   35%
-Python      ████████████████████   35%
+Python      ███████████████████░   33%
 Ruby        ██████░░░░░░░░░░░░░░   10%
 Rust        ████░░░░░░░░░░░░░░░░    6%
 Swift       ████░░░░░░░░░░░░░░░░    6%
 TypeScript  ████░░░░░░░░░░░░░░░░    6%
+HTML        █░░░░░░░░░░░░░░░░░░░    2%
 ```
 <!-- gh-profile:end:languages -->
 
