@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-07T12:55:57Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-07T15:13:08Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,9 +27,10 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-09-07` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — kept a draft retro from leaving onset and resolved unset under --strict
+- `2026-09-07` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — landed design-doc v0.17.0 and incident-retro v0.1.0 on partials the two now share
 - `2026-09-07` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — built incident-retro on one retro.json, with evidence snapshots and a Docs importer
 - `2026-09-06` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — the ir/integrate branch, carrying incident-retro v0.1.0
+- `2026-09-05` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
 - `2026-09-05` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
 - `2026-09-05` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 - `2026-09-05` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — chained turn starts when no review is open, and moved the prompt hooks off the blocking path
@@ -38,9 +39,8 @@
 - `2026-09-05` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
 - `2026-09-05` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
 - `2026-09-05` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
-- `2026-09-05` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — dropped the redundant element type gofumpt rejects in the invocation lists
 
-**23,149 contributions in the last year**
+**23,150 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>

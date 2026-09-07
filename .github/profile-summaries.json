@@ -9,7 +9,7 @@
       "summary": "anchored the graphite submit on the remote trunk, dropping the branches it already holds"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-09-06T06:26:36Z",
+      "as_of": "2026-09-07T02:07:47Z",
       "summary": "built incident-retro on one retro.json, with evidence snapshots and a Docs importer"
     },
     "PushEvent:yasyf/cc-context": {
@@ -21,8 +21,8 @@
       "summary": "chained turn starts when no review is open, and moved the prompt hooks off the blocking path"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "9e719949f81b",
-      "summary": "kept a draft retro from leaving onset and resolved unset under --strict"
+      "as_of": "66d46a28fd2f",
+      "summary": "landed design-doc v0.17.0 and incident-retro v0.1.0 on partials the two now share"
     },
     "PushEvent:yasyf/cc-squash": {
       "as_of": "48dc8ffa5dba",
@@ -33,7 +33,7 @@
       "summary": "bumped the tap's formulae for cc-skills, captain-hook, slop-cop, and ccx"
     }
   },
-  "generated_at": "2026-09-06T13:06:18Z",
+  "generated_at": "2026-09-07T15:10:00Z",
   "shipped": {
     "captain-hook@v12.26.0": {
       "summary": "digested settings to the enablement keys, sparing every root a 3.3s spawn when settings churn"
