@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-08T13:50:42Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-08T16:47:38Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -40,7 +40,7 @@
 - `2026-09-05` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
 - `2026-09-05` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — anchored the graphite submit on the remote trunk, dropping the branches it already holds
 
-**23,234 contributions in the last year**
+**23,247 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
