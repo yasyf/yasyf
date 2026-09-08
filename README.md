@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-08T05:02:09Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-08T11:38:04Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,6 +27,7 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-09-08` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — dropped the redundant element type gofumpt rejects in the invocation lists
 - `2026-09-08` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-09-08` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — built incident-retro on one retro.json, with evidence snapshots and a Docs importer
 - `2026-09-08` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — the ir/integrate branch, carrying incident-retro v0.1.0
@@ -34,13 +35,12 @@
 - `2026-09-05` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
 - `2026-09-05` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
 - `2026-09-05` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-09-05` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — chained turn starts when no review is open, and moved the prompt hooks off the blocking path
-- `2026-09-05` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash) — made the release smoke run prove what the artifact is, instead of claiming the daemon started
 - `2026-09-05` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
 - `2026-09-05` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
 - `2026-09-05` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
+- `2026-09-05` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — anchored the graphite submit on the remote trunk, dropping the branches it already holds
 
-**23,168 contributions in the last year**
+**23,228 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -120,6 +120,7 @@
 - `2026-09-05` [cc-skills v1.12.0](https://github.com/yasyf/cc-skills/releases/tag/v1.12.0) — shipped design-doc's Ask bar and whole-document assistant, and routed the codex prose lane to gpt-6-astra
 - `2026-09-03` [captain-hook v12.26.0](https://github.com/yasyf/captain-hook/releases/tag/v12.26.0) — digested settings to the enablement keys, sparing every root a 3.3s spawn when settings churn
 - `2026-09-03` [slop-cop v0.1.70](https://github.com/yasyf/slop-cop/releases/tag/v0.1.70) — made --sentence-timeout and --document-timeout bound the whole pass, retries included
+- `2026-09-03` [cc-context v0.57.0](https://github.com/yasyf/cc-context/releases/tag/v0.57.0)
 - `2026-08-31` [cc-notes v0.51.3](https://github.com/yasyf/cc-notes/releases/tag/v0.51.3) — stopped a dict tool response killing the handler reading it
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
