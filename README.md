@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-07T21:42:39Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-08T05:02:09Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,9 +27,10 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-09-08` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-09-08` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — built incident-retro on one retro.json, with evidence snapshots and a Docs importer
+- `2026-09-08` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — the ir/integrate branch, carrying incident-retro v0.1.0
 - `2026-09-07` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — landed design-doc v0.17.0 and incident-retro v0.1.0 on partials the two now share
-- `2026-09-07` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — built incident-retro on one retro.json, with evidence snapshots and a Docs importer
-- `2026-09-06` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — the ir/integrate branch, carrying incident-retro v0.1.0
 - `2026-09-05` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
 - `2026-09-05` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
 - `2026-09-05` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
@@ -38,9 +39,8 @@
 - `2026-09-05` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
 - `2026-09-05` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
 - `2026-09-05` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
-- `2026-09-05` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
 
-**23,151 contributions in the last year**
+**23,168 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -51,7 +51,7 @@
 - **[gpt-do](https://github.com/yasyf/gpt-do)** ⭐ 211 — GPT-powered bash commands. `Python`
 - **[summ](https://github.com/yasyf/summ)** ⭐ 152 — GPT-based Conversation Summarizer `Python`
 - **[compress-gpt](https://github.com/yasyf/compress-gpt)** ⭐ 217 — Self-extracting GPT prompts for ~70% token savings `Python`
-- **[anthropic-computer-use-modal](https://github.com/yasyf/anthropic-computer-use-modal)** ⭐ 51 — Anthropic Computer Use with Modal Sandboxes `Python`
+- **[anthropic-computer-use-modal](https://github.com/yasyf/anthropic-computer-use-modal)** ⭐ 50 — Anthropic Computer Use with Modal Sandboxes `Python`
 - **[shamer](https://github.com/yasyf/shamer)** ⭐ 37 — Code Coverage Gamified `Python`
 <!-- gh-profile:end:featured -->
 
