@@ -1,39 +1,43 @@
 {
   "activity": {
     "CreateEvent:yasyf/cc-skills": {
-      "as_of": "2026-09-06T06:26:33Z",
-      "summary": "the ir/integrate branch, carrying incident-retro v0.1.0"
+      "as_of": "2026-09-08T04:08:43Z",
+      "summary": "the gh-fix branch, carrying design-doc v0.17.1 and incident-retro v0.1.1"
     },
     "PullRequestEvent:yasyf/cc-context": {
       "as_of": "2026-09-05T08:50:59Z",
       "summary": "anchored the graphite submit on the remote trunk, dropping the branches it already holds"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-09-07T02:07:47Z",
-      "summary": "built incident-retro on one retro.json, with evidence snapshots and a Docs importer"
+      "as_of": "2026-09-08T04:32:21Z",
+      "summary": "stopped the actions table re-booting the GitHub resolver on every chip"
+    },
+    "PushEvent:yasyf/captain-hook": {
+      "as_of": "e1f669279fe0",
+      "summary": "read the hook version from Info.plist, sparing every hook two execve"
     },
     "PushEvent:yasyf/cc-context": {
-      "as_of": "9dbe593f9f65",
-      "summary": "dropped the redundant element type gofumpt rejects in the invocation lists"
+      "as_of": "faf6b0f87d8f",
+      "summary": "fixed graphite submit to open one pull request per call, the way gt does"
     },
-    "PushEvent:yasyf/cc-review": {
-      "as_of": "7e9e60cfbde7",
-      "summary": "chained turn starts when no review is open, and moved the prompt hooks off the blocking path"
+    "PushEvent:yasyf/cc-orchestrate": {
+      "as_of": "0dea78c539db",
+      "summary": "picked up daemonkit v0.23.0, moving daemon state under ~/.daemonkit"
     },
     "PushEvent:yasyf/cc-skills": {
       "as_of": "66d46a28fd2f",
       "summary": "landed design-doc v0.17.0 and incident-retro v0.1.0 on partials the two now share"
     },
-    "PushEvent:yasyf/cc-squash": {
-      "as_of": "48dc8ffa5dba",
-      "summary": "made the release smoke run prove what the artifact is, instead of claiming the daemon started"
+    "PushEvent:yasyf/cc-transcript": {
+      "as_of": "c885d4bf19ae",
+      "summary": "matched relay envelopes as agent-injected, so relays stop opening turns"
     },
-    "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "c6b284ef6fd5",
-      "summary": "bumped the tap's formulae for cc-skills, captain-hook, slop-cop, and ccx"
+    "PushEvent:yasyf/spawnllm": {
+      "as_of": "be10efbc8996",
+      "summary": "stopped Claude runs inheriting the host's user settings via --setting-sources"
     }
   },
-  "generated_at": "2026-09-07T15:10:00Z",
+  "generated_at": "2026-09-08T13:50:27Z",
   "shipped": {
     "captain-hook@v12.26.0": {
       "summary": "digested settings to the enablement keys, sparing every root a 3.3s spawn when settings churn"
