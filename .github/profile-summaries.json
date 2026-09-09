@@ -1,44 +1,55 @@
 {
   "activity": {
     "CreateEvent:yasyf/cc-skills": {
-      "as_of": "2026-09-08T04:08:43Z",
-      "summary": "the gh-fix branch, carrying design-doc v0.17.1 and incident-retro v0.1.1"
+      "as_of": "2026-09-08T17:36:44Z",
+      "summary": "the long-running-skill branch, context discipline for multi-lane orchestration"
     },
-    "PullRequestEvent:yasyf/cc-context": {
-      "as_of": "2026-09-05T08:50:59Z",
-      "summary": "anchored the graphite submit on the remote trunk, dropping the branches it already holds"
+    "PullRequestEvent:yasyf/binrun": {
+      "as_of": "2026-09-03T03:33:01Z",
+      "summary": "repinned onto daemonkit v0.24.0, whose gc prunes the tool store too"
     },
-    "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-09-08T04:32:21Z",
-      "summary": "stopped the actions table re-booting the GitHub resolver on every chip"
-    },
-    "PushEvent:yasyf/captain-hook": {
-      "as_of": "e1f669279fe0",
+    "PullRequestEvent:yasyf/captain-hook": {
+      "as_of": "2026-09-03T17:52:45Z",
       "summary": "read the hook version from Info.plist, sparing every hook two execve"
     },
-    "PushEvent:yasyf/cc-context": {
-      "as_of": "faf6b0f87d8f",
-      "summary": "fixed graphite submit to open one pull request per call, the way gt does"
+    "PullRequestEvent:yasyf/cc-context": {
+      "as_of": "2026-09-09T04:04:07Z",
+      "summary": "resolved a non-stub git, and overlapped what the graphite ship does serially"
     },
-    "PushEvent:yasyf/cc-orchestrate": {
-      "as_of": "0dea78c539db",
-      "summary": "picked up daemonkit v0.23.0, moving daemon state under ~/.daemonkit"
+    "PullRequestEvent:yasyf/cc-skills": {
+      "as_of": "2026-09-08T20:52:46Z",
+      "summary": "stopped the actions table re-booting the GitHub resolver on every chip"
+    },
+    "PullRequestEvent:yasyf/cc-transcript": {
+      "as_of": "2026-09-03T16:57:40Z",
+      "summary": "added a corpus command, so one sweep answers a hundred questions"
+    },
+    "PullRequestEvent:yasyf/daemonkit": {
+      "as_of": "2026-09-03T02:18:35Z",
+      "summary": "let version.file read the host's version without a spawn"
+    },
+    "PullRequestEvent:yasyf/slop-cop": {
+      "as_of": "2026-09-03T18:11:11Z",
+      "summary": "cut the provider stubs to one execve per call"
+    },
+    "PullRequestEvent:yasyf/spawnllm": {
+      "as_of": "2026-09-02T21:48:36Z",
+      "summary": "stopped Claude runs inheriting the host's user settings via --setting-sources"
+    },
+    "PushEvent:yasyf/cc-context": {
+      "as_of": "8d48b774e1d0",
+      "summary": "committed and restacked the graphite lane without shelling out to gt"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "66d46a28fd2f",
-      "summary": "landed design-doc v0.17.0 and incident-retro v0.1.0 on partials the two now share"
-    },
-    "PushEvent:yasyf/cc-transcript": {
-      "as_of": "c885d4bf19ae",
-      "summary": "matched relay envelopes as agent-injected, so relays stop opening turns"
-    },
-    "PushEvent:yasyf/spawnllm": {
-      "as_of": "be10efbc8996",
-      "summary": "stopped Claude runs inheriting the host's user settings via --setting-sources"
+      "as_of": "ea7d305071fc",
+      "summary": "drafted design-doc prose with Astra, falling back to Claude"
     }
   },
-  "generated_at": "2026-09-08T13:50:27Z",
+  "generated_at": "2026-09-09T13:54:58Z",
   "shipped": {
+    "authkit@v0.2.0": {
+      "summary": "pinned cookiesync by its shipped module-path codesign identifier"
+    },
     "captain-hook@v12.26.0": {
       "summary": "digested settings to the enablement keys, sparing every root a 3.3s spawn when settings churn"
     },

@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-09T11:44:18Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-09T13:55:14Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -14,7 +14,7 @@
 ## 🔭 Now
 
 - Building the missing toolbelt for Claude Code: [captain-hook](https://github.com/yasyf/captain-hook) for declarative hooks, [cc-pool](https://github.com/yasyf/cc-pool) for account pooling, [cc-review](https://github.com/yasyf/cc-review) for reviewing Claude's diffs in a PR-style web UI, [cc-transcript](https://github.com/yasyf/cc-transcript) for typed transcripts, and [slop-cop](https://github.com/yasyf/slop-cop) to catch AI-flavored prose — and now to rewrite it, with a `plainify` pass that puts prose into plain English under word and vocabulary constraints
-- Turning design docs into something you can interrogate: the `design-doc` skill in [cc-skills](https://github.com/yasyf/cc-skills) went v0.12.0 to v0.16.0 in three days — a summary deck and Mermaid overview diagrams, term hover and a plain-language twin beside every section, then an Ask bar over the whole document whose follow-ups stay grounded in the doc, whose cites preview the evidence they lean on, and whose every doc now makes exactly one argument. A doc is now something you can talk back to as well: reader comments arrive as margin threads anchored to the quote they mark, queue through an append-only outbox, and land as pull requests that merge themselves. That machinery has since become shared substrate: v0.17.0 builds design-doc's template, scripts, and component schemas from canonical partials, and the new `incident-retro` skill rides the same partials — one canonical `retro.json` beside committed evidence snapshots (Datadog notebooks, Slack threads, images) rendering as an interactive retro with Markdown and PDF editions, TTD/TTE/TTM/TTR tiles derived from timestamps alone, and a Google Docs importer that records every guess it made rather than smoothing the narrative
+- Turning design docs into something you can interrogate: the `design-doc` skill in [cc-skills](https://github.com/yasyf/cc-skills) went v0.12.0 to v0.16.0 in three days — a summary deck and Mermaid overview diagrams, term hover and a plain-language twin beside every section, then an Ask bar over the whole document whose follow-ups stay grounded in the doc, whose cites preview the evidence they lean on, and whose every doc now makes exactly one argument. A doc is now something you can talk back to as well: reader comments arrive as margin threads anchored to the quote they mark, queue through an append-only outbox, and land as pull requests that merge themselves. That machinery has since become shared substrate: v0.17.0 builds design-doc's template, scripts, and component schemas from canonical partials, and the new `incident-retro` skill rides the same partials — one canonical `retro.json` beside committed evidence snapshots (Datadog notebooks, Slack threads, images) rendering as an interactive retro with Markdown and PDF editions, TTD/TTE/TTM/TTR tiles derived from timestamps alone, and a Google Docs importer that records every guess it made rather than smoothing the narrative. design-doc now drafts its prose with Astra and falls back to Claude, and a new `long-running` skill carries the context discipline the multi-lane orchestration needs
 - Converging those pieces into one session-activity platform — typed events, a decision ledger, and now a `corpus` command in cc-transcript, so one sweep answers a hundred questions instead of one, with captain-hook as its hook runtime. Both sides now read a relay envelope as agent-injected, so a relay stops opening a turn in cc-transcript and stops counting as an authored prompt in captain-hook, whose dispatch judges lane tool events against the lane transcript rather than the parent's task, scales its budget to live sessions, reads its version from Info.plist rather than exec'ing capt-hookd, and digests settings down to the enablement keys — so a busy machine stops blocking hooks, no hook pays two execve for a string, and settings churn stops costing every root a 3.3s spawn — and building [cc-orchestrate](https://github.com/yasyf/cc-orchestrate) into a pure-Go CLI that runs fleets of agents across pluggable backends like cmux, superset, tmux, and zellij, each with an AgentProber liveness check for long-lived, keep-alive sessions — with [cc-vigil](https://github.com/yasyf/cc-vigil), a transcript-oracle sleep inhibitor, keeping the Mac awake only while those agents are truly working
 - Running the whole cc-* fleet on shared substrate: [daemonkit](https://github.com/yasyf/daemonkit) for daemon lifecycle — one macOS-only Serve/Client/Control surface, one schema generating the frame codec for both Go and Swift behind a drift gate, and no byte reaching a peer whose code identity hasn't been judged. captain-hook, cc-pool, cc-notes, cc-interact, fusekit, cookiesync, synckit, cc-orchestrate, cc-present, cc-review, cc-runtime, and cc-squash have all moved onto it, each stating a deadline budget at every choke point; v0.22 took the socket path out of a spawned child's argv entirely — the child inherits its session on fd 3 — and v0.23 has since moved every daemon's private state under `~/.daemonkit/a/<label>`, with HelperPaths no longer deriving the socket at all. With v0.23 in, the fleet has deleted what it made obsolete: daemonkit retired `RemoveUnmarked` and its `ErrMarked` sentinel, the deprecated launchd `SessionType` API, the legacy bbolt sweep, the pre-rename metadata migration, and the markerless-plist fallback, and synckit dropped its pre-v0.21 LaunchAgent sweep — while every agent plist now renders a Homebrew-first PATH. v0.24 has since let a `version.file` read the host's version without a spawn and taught gc to prune the tool store, with [binrun](https://github.com/yasyf/binrun) repinned onto it the same day
 - Cutting that substrate through to releases: [cc-review](https://github.com/yasyf/cc-review) has cut 0.36.0 — daemonkit v0.23.0 underneath, cc-interact v0.33.0's subprocess-free Root above it, and a daemon that chains turn starts when no review is open — while [cc-runtime](https://github.com/yasyf/cc-runtime) cut 0.18.0 onto the same surface, cc-orchestrate runs its pty hosts as Serve products under one Daemon, and [binrun](https://github.com/yasyf/binrun) gates every release on a tag resolving to one exact commit on main
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-09-09` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — fixed graphite submit to open one pull request per call, the way gt does
-- `2026-09-09` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — anchored the graphite submit on the remote trunk, dropping the branches it already holds
-- `2026-09-08` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — landed design-doc v0.17.0 and incident-retro v0.1.0 on partials the two now share
+- `2026-09-09` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — committed and restacked the graphite lane without shelling out to gt
+- `2026-09-09` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — resolved a non-stub git, and overlapped what the graphite ship does serially
+- `2026-09-08` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — drafted design-doc prose with Astra, falling back to Claude
 - `2026-09-08` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — stopped the actions table re-booting the GitHub resolver on every chip
 - `2026-09-08` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-09-08` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — the gh-fix branch, carrying design-doc v0.17.1 and incident-retro v0.1.1
-- `2026-09-03` Worked on a pull request in [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
-- `2026-09-03` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-09-03` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
-- `2026-09-03` Worked on a pull request in [yasyf/binrun](https://github.com/yasyf/binrun)
-- `2026-09-03` Worked on a pull request in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
-- `2026-09-02` Worked on a pull request in [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
+- `2026-09-08` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — the long-running-skill branch, context discipline for multi-lane orchestration
+- `2026-09-03` Worked on a pull request in [yasyf/slop-cop](https://github.com/yasyf/slop-cop) — cut the provider stubs to one execve per call
+- `2026-09-03` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — read the hook version from Info.plist, sparing every hook two execve
+- `2026-09-03` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — added a corpus command, so one sweep answers a hundred questions
+- `2026-09-03` Worked on a pull request in [yasyf/binrun](https://github.com/yasyf/binrun) — repinned onto daemonkit v0.24.0, whose gc prunes the tool store too
+- `2026-09-03` Worked on a pull request in [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — let version.file read the host's version without a spawn
+- `2026-09-02` Worked on a pull request in [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — stopped Claude runs inheriting the host's user settings via --setting-sources
 
-**23,428 contributions in the last year**
+**23,468 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -120,10 +120,10 @@
 - `2026-09-05` [cc-skills v1.12.0](https://github.com/yasyf/cc-skills/releases/tag/v1.12.0) — shipped design-doc's Ask bar and whole-document assistant, and routed the codex prose lane to gpt-6-astra
 - `2026-09-03` [captain-hook v12.26.0](https://github.com/yasyf/captain-hook/releases/tag/v12.26.0) — digested settings to the enablement keys, sparing every root a 3.3s spawn when settings churn
 - `2026-09-03` [slop-cop v0.1.70](https://github.com/yasyf/slop-cop/releases/tag/v0.1.70) — made --sentence-timeout and --document-timeout bound the whole pass, retries included
-- `2026-09-03` [cc-context v0.57.0](https://github.com/yasyf/cc-context/releases/tag/v0.57.0)
 - `2026-08-31` [cc-notes v0.51.3](https://github.com/yasyf/cc-notes/releases/tag/v0.51.3) — stopped a dict tool response killing the handler reading it
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
+- `2026-07-18` [authkit v0.2.0](https://github.com/yasyf/authkit/releases/tag/v0.2.0) — pinned cookiesync by its shipped module-path codesign identifier
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
