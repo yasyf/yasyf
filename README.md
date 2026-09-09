@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-09T13:55:14Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-09T16:49:50Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-09-09` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — committed and restacked the graphite lane without shelling out to gt
 - `2026-09-09` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — resolved a non-stub git, and overlapped what the graphite ship does serially
+- `2026-09-09` Discussed issues in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-09-09` Triaged issues in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-09-09` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — committed and restacked the graphite lane without shelling out to gt
+- `2026-09-09` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
+- `2026-09-09` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-09-09` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
 - `2026-09-08` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — drafted design-doc prose with Astra, falling back to Claude
 - `2026-09-08` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — stopped the actions table re-booting the GitHub resolver on every chip
 - `2026-09-08` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-09-08` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — the long-running-skill branch, context discipline for multi-lane orchestration
 - `2026-09-03` Worked on a pull request in [yasyf/slop-cop](https://github.com/yasyf/slop-cop) — cut the provider stubs to one execve per call
-- `2026-09-03` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — read the hook version from Info.plist, sparing every hook two execve
-- `2026-09-03` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — added a corpus command, so one sweep answers a hundred questions
-- `2026-09-03` Worked on a pull request in [yasyf/binrun](https://github.com/yasyf/binrun) — repinned onto daemonkit v0.24.0, whose gc prunes the tool store too
-- `2026-09-03` Worked on a pull request in [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — let version.file read the host's version without a spawn
-- `2026-09-02` Worked on a pull request in [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — stopped Claude runs inheriting the host's user settings via --setting-sources
 
-**23,468 contributions in the last year**
+**23,489 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -117,13 +117,13 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-09-09` [cc-notes v0.52.0](https://github.com/yasyf/cc-notes/releases/tag/v0.52.0)
 - `2026-09-05` [cc-skills v1.12.0](https://github.com/yasyf/cc-skills/releases/tag/v1.12.0) — shipped design-doc's Ask bar and whole-document assistant, and routed the codex prose lane to gpt-6-astra
 - `2026-09-03` [captain-hook v12.26.0](https://github.com/yasyf/captain-hook/releases/tag/v12.26.0) — digested settings to the enablement keys, sparing every root a 3.3s spawn when settings churn
 - `2026-09-03` [slop-cop v0.1.70](https://github.com/yasyf/slop-cop/releases/tag/v0.1.70) — made --sentence-timeout and --document-timeout bound the whole pass, retries included
-- `2026-08-31` [cc-notes v0.51.3](https://github.com/yasyf/cc-notes/releases/tag/v0.51.3) — stopped a dict tool response killing the handler reading it
+- `2026-09-03` [cc-context v0.57.0](https://github.com/yasyf/cc-context/releases/tag/v0.57.0)
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
-- `2026-07-18` [authkit v0.2.0](https://github.com/yasyf/authkit/releases/tag/v0.2.0) — pinned cookiesync by its shipped module-path codesign identifier
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
