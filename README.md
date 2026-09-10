@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-10T11:41:46Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-10T13:49:34Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -18,7 +18,7 @@
 - Converging those pieces into one session-activity platform — typed events, a decision ledger, and now a `corpus` command in cc-transcript, so one sweep answers a hundred questions instead of one, with captain-hook as its hook runtime. Both sides now read a relay envelope as agent-injected, so a relay stops opening a turn in cc-transcript and stops counting as an authored prompt in captain-hook, whose dispatch judges lane tool events against the lane transcript rather than the parent's task, scales its budget to live sessions, reads its version from Info.plist rather than exec'ing capt-hookd, and digests settings down to the enablement keys — so a busy machine stops blocking hooks, no hook pays two execve for a string, and settings churn stops costing every root a 3.3s spawn — and building [cc-orchestrate](https://github.com/yasyf/cc-orchestrate) into a pure-Go CLI that runs fleets of agents across pluggable backends like cmux, superset, tmux, and zellij, each with an AgentProber liveness check for long-lived, keep-alive sessions — with [cc-vigil](https://github.com/yasyf/cc-vigil), a transcript-oracle sleep inhibitor, keeping the Mac awake only while those agents are truly working
 - Running the whole cc-* fleet on shared substrate: [daemonkit](https://github.com/yasyf/daemonkit) for daemon lifecycle — one macOS-only Serve/Client/Control surface, one schema generating the frame codec for both Go and Swift behind a drift gate, and no byte reaching a peer whose code identity hasn't been judged. captain-hook, cc-pool, cc-notes, cc-interact, fusekit, cookiesync, synckit, cc-orchestrate, cc-present, cc-review, cc-runtime, and cc-squash have all moved onto it, each stating a deadline budget at every choke point; v0.22 took the socket path out of a spawned child's argv entirely — the child inherits its session on fd 3 — and v0.23 has since moved every daemon's private state under `~/.daemonkit/a/<label>`, with HelperPaths no longer deriving the socket at all. With v0.23 in, the fleet has deleted what it made obsolete: daemonkit retired `RemoveUnmarked` and its `ErrMarked` sentinel, the deprecated launchd `SessionType` API, the legacy bbolt sweep, the pre-rename metadata migration, and the markerless-plist fallback, and synckit dropped its pre-v0.21 LaunchAgent sweep — while every agent plist now renders a Homebrew-first PATH. v0.24 has since let a `version.file` read the host's version without a spawn and taught gc to prune the tool store, with [binrun](https://github.com/yasyf/binrun) repinned onto it the same day
 - Cutting that substrate through to releases: [cc-review](https://github.com/yasyf/cc-review) has cut 0.36.0 — daemonkit v0.23.0 underneath, cc-interact v0.33.0's subprocess-free Root above it, and a daemon that chains turn starts when no review is open — while [cc-runtime](https://github.com/yasyf/cc-runtime) cut 0.18.0 onto the same surface, cc-orchestrate runs its pty hosts as Serve products under one Daemon, and [binrun](https://github.com/yasyf/binrun) gates every release on a tag resolving to one exact commit on main
-- Teaching [cc-context](https://github.com/yasyf/cc-context) to ship the way I actually branch: `ccx vcs stack` drives a Graphite stack that spans one working copy per branch — restacking one spread across working copies instead of refusing it, pinning every child to its own copy and `gt track` to its branch, and running a repo's hooks only where CI never will. Those paths have since moved off the gt CLI: the stack is read from Graphite's own database, the downstack submits over Graphite's API, and a refusal carries what Graphite actually said — with `ccx vcs status` reading the merge queue through gt to reconstruct the snapshot no GitHub field carries, catching a branch reparented out from under its PR, submitting one whose work is already committed instead of refusing it, and no longer telling a `--no-commit` ship to re-run the command that just failed. Restack has since moved onto `git replay`, so a branch another worktree holds can no longer stop the stack, a merged decline from gt gets read rather than dropped, and the submit anchors on the remote trunk so it drops the branches Graphite already holds. v0.57.0 has since taught the submit to open one pull request per Graphite call, the way gt does, to ship a path-scoped change whose paths are already committed, and to report a failed `--amend` rather than pushing the un-amended commit
+- Teaching [cc-context](https://github.com/yasyf/cc-context) to ship the way I actually branch: `ccx vcs stack` drives a Graphite stack that spans one working copy per branch — restacking one spread across working copies instead of refusing it, pinning every child to its own copy and `gt track` to its branch, and running a repo's hooks only where CI never will. Those paths have since moved off the gt CLI: the stack is read from Graphite's own database, the downstack submits over Graphite's API, and a refusal carries what Graphite actually said — with `ccx vcs status` reading the merge queue through gt to reconstruct the snapshot no GitHub field carries, catching a branch reparented out from under its PR, submitting one whose work is already committed instead of refusing it, and no longer telling a `--no-commit` ship to re-run the command that just failed. Restack has since moved onto `git replay`, so a branch another worktree holds can no longer stop the stack, a merged decline from gt gets read rather than dropped, and the submit anchors on the remote trunk so it drops the branches Graphite already holds. v0.57.0 has since taught the submit to open one pull request per Graphite call, the way gt does, to ship a path-scoped change whose paths are already committed, and to report a failed `--amend` rather than pushing the un-amended commit — and v0.58.0 has taken the last of gt out of the ship itself, committing and restacking the graphite lane without it, resolving a non-stub git, and overlapping what the ship used to do serially
 - Running [cc-sentiment](https://github.com/yasyf/cc-sentiment), an open experiment in whether developer sentiment with Claude Code tracks the model, the tooling, or just the time of day
 - Self-hosting [yclaw](https://github.com/yasyf/yclaw), an always-on, reproducible Apple Silicon home server for the Nous hermes-agent — gVisor-sandboxed and tailnet-only, so the agent never touches your credentials
 - Engineer & CEO at [Aneta](https://aneta.company)
@@ -28,19 +28,19 @@
 
 <!-- gh-profile:start:activity -->
 - `2026-09-09` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-09-09` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — read the hook version from Info.plist, sparing every hook two execve
-- `2026-09-09` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
-- `2026-09-09` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — committed and restacked the graphite lane without shelling out to gt
-- `2026-09-09` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — resolved a non-stub git, and overlapped what the graphite ship does serially
-- `2026-09-09` Discussed issues in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-09-09` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-09-09` Triaged issues in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-09-09` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — framed the Stop-gate demo and simplified its homepage embed
+- `2026-09-09` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — formula bumps for ccx v0.58.0, cc-notes v0.52.0 and cc-skills v1.12.0
+- `2026-09-09` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — recorded ccx 0.58.0, the release that drops gt from the graphite ship
+- `2026-09-09` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — made the graphite lane commit and restack without shelling out to gt
+- `2026-09-09` Discussed issues in [yasyf/cc-context](https://github.com/yasyf/cc-context) — traced the argv-log race to N+2 writes per record, fixed in #19
+- `2026-09-09` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — fixed the signed-helper install path and its gosec annotation
+- `2026-09-09` Triaged issues in [yasyf/cc-context](https://github.com/yasyf/cc-context) — the vcstest fixture argv log losing a concurrent child's record
 - `2026-09-09` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
 - `2026-09-09` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
 - `2026-09-09` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
-- `2026-09-08` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-09-09` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context) — the ship-perf-commit branch behind the gt-free graphite lane
 
-**23,723 contributions in the last year**
+**23,725 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -117,7 +117,7 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-09-09` [cc-notes v0.52.0](https://github.com/yasyf/cc-notes/releases/tag/v0.52.0)
+- `2026-09-09` [cc-notes v0.52.0](https://github.com/yasyf/cc-notes/releases/tag/v0.52.0) — made package install work on a clean machine
 - `2026-09-05` [cc-skills v1.12.0](https://github.com/yasyf/cc-skills/releases/tag/v1.12.0) — shipped design-doc's Ask bar and whole-document assistant, and routed the codex prose lane to gpt-6-astra
 - `2026-09-03` [captain-hook v12.26.0](https://github.com/yasyf/captain-hook/releases/tag/v12.26.0) — digested settings to the enablement keys, sparing every root a 3.3s spawn when settings churn
 - `2026-09-03` [slop-cop v0.1.70](https://github.com/yasyf/slop-cop/releases/tag/v0.1.70) — made --sentence-timeout and --document-timeout bound the whole pass, retries included
