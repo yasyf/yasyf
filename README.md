@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-10T16:35:59Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-10T21:05:37Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-09-09` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 - `2026-09-09` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — framed the Stop-gate demo and simplified its homepage embed
-- `2026-09-09` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — formula bumps for ccx v0.58.0, cc-notes v0.52.0 and cc-skills v1.12.0
-- `2026-09-09` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — recorded ccx 0.58.0, the release that drops gt from the graphite ship
 - `2026-09-09` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — made the graphite lane commit and restack without shelling out to gt
 - `2026-09-09` Discussed issues in [yasyf/cc-context](https://github.com/yasyf/cc-context) — traced the argv-log race to N+2 writes per record, fixed in #19
-- `2026-09-09` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — fixed the signed-helper install path and its gosec annotation
 - `2026-09-09` Triaged issues in [yasyf/cc-context](https://github.com/yasyf/cc-context) — the vcstest fixture argv log losing a concurrent child's record
+- `2026-09-09` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — recorded ccx 0.58.0, the release that drops gt from the graphite ship
 - `2026-09-09` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context) — the ship-perf-commit branch behind the gt-free graphite lane
 - `2026-09-08` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-09-08` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-09-08` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-09-08` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-09-03` Worked on a pull request in [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
+- `2026-09-03` Worked on a pull request in [yasyf/binrun](https://github.com/yasyf/binrun)
 
-**23,743 contributions in the last year**
+**23,819 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
