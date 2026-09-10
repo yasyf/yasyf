@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-10T13:49:34Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-10T16:35:59Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -35,12 +35,12 @@
 - `2026-09-09` Discussed issues in [yasyf/cc-context](https://github.com/yasyf/cc-context) — traced the argv-log race to N+2 writes per record, fixed in #19
 - `2026-09-09` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — fixed the signed-helper install path and its gosec annotation
 - `2026-09-09` Triaged issues in [yasyf/cc-context](https://github.com/yasyf/cc-context) — the vcstest fixture argv log losing a concurrent child's record
-- `2026-09-09` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
-- `2026-09-09` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
-- `2026-09-09` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
 - `2026-09-09` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context) — the ship-perf-commit branch behind the gt-free graphite lane
+- `2026-09-08` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-09-08` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-09-08` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 
-**23,725 contributions in the last year**
+**23,743 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
