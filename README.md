@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-11T11:42:03Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-11T13:48:01Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -28,17 +28,17 @@
 
 <!-- gh-profile:start:activity -->
 - `2026-09-09` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — framed the Stop-gate demo and simplified its homepage embed
-- `2026-09-09` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-09-09` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — recorded ccx 0.58.0, the release that drops gt from the graphite ship
+- `2026-09-09` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — moved the llm.js whitespace exclude into the cc-guides fragment
+- `2026-09-09` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — overlapped what the graphite ship did serially, and resolved a non-stub git
 - `2026-09-09` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — made the graphite lane commit and restack without shelling out to gt
 - `2026-09-09` Discussed issues in [yasyf/cc-context](https://github.com/yasyf/cc-context) — traced the argv-log race to N+2 writes per record, fixed in #19
 - `2026-09-09` Triaged issues in [yasyf/cc-context](https://github.com/yasyf/cc-context) — the vcstest fixture argv log losing a concurrent child's record
-- `2026-09-09` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — fixed the signed-helper install path and its gosec annotation
+- `2026-09-09` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — annotated the signed-helper exec for gosec and fixed its install path
 - `2026-09-09` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
 - `2026-09-09` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash)
 - `2026-09-09` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
 - `2026-09-09` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
-- `2026-09-09` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context) — the ship-perf-commit branch behind the gt-free graphite lane
+- `2026-09-09` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 
 **23,830 contributions in the last year**
 <!-- gh-profile:end:activity -->

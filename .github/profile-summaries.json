@@ -1,9 +1,5 @@
 {
   "activity": {
-    "CreateEvent:yasyf/cc-context": {
-      "as_of": "2026-09-09T04:04:05Z",
-      "summary": "the ship-perf-commit branch behind the gt-free graphite lane"
-    },
     "IssueCommentEvent:yasyf/cc-context": {
       "as_of": "2026-09-09T15:57:25Z",
       "summary": "traced the argv-log race to N+2 writes per record, fixed in #19"
@@ -20,20 +16,20 @@
       "as_of": "2026-09-09T16:58:01Z",
       "summary": "made the graphite lane commit and restack without shelling out to gt"
     },
+    "PushEvent:yasyf/captain-hook": {
+      "as_of": "1d5ae960b6fe",
+      "summary": "moved the llm.js whitespace exclude into the cc-guides fragment"
+    },
     "PushEvent:yasyf/cc-context": {
-      "as_of": "34d5f3c85b0b",
-      "summary": "recorded ccx 0.58.0, the release that drops gt from the graphite ship"
+      "as_of": "091d7c3e0cdc",
+      "summary": "overlapped what the graphite ship did serially, and resolved a non-stub git"
     },
     "PushEvent:yasyf/cc-notes": {
-      "as_of": "85f31ca0c7dd",
-      "summary": "fixed the signed-helper install path and its gosec annotation"
-    },
-    "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "44e80bc0fc6f",
-      "summary": "formula bumps for ccx v0.58.0, cc-notes v0.52.0 and cc-skills v1.12.0"
+      "as_of": "8d6bb044b272",
+      "summary": "annotated the signed-helper exec for gosec and fixed its install path"
     }
   },
-  "generated_at": "2026-09-10T13:49:18Z",
+  "generated_at": "2026-09-11T13:47:45Z",
   "shipped": {
     "captain-hook@v12.26.0": {
       "summary": "digested settings to the enablement keys, sparing every root a 3.3s spawn when settings churn"
