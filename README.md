@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-11T13:48:01Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-11T16:41:01Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -36,9 +36,9 @@
 - `2026-09-09` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — annotated the signed-helper exec for gosec and fixed its install path
 - `2026-09-09` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
 - `2026-09-09` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash)
+- `2026-09-09` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
 - `2026-09-09` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
 - `2026-09-09` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
-- `2026-09-09` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 
 **23,830 contributions in the last year**
 <!-- gh-profile:end:activity -->
