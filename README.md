@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-12T04:52:53Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-12T11:08:03Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -29,16 +29,16 @@
 <!-- gh-profile:start:activity -->
 - `2026-09-12` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — framed the Stop-gate demo and simplified its homepage embed
 - `2026-09-12` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-09-12` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
 - `2026-09-12` Was active in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
 - `2026-09-12` Worked on a pull request in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
-- `2026-09-12` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
 - `2026-09-11` Was active in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-09-11` Created something new in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
 - `2026-09-11` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — moved the llm.js whitespace exclude into the cc-guides fragment
+- `2026-09-11` Created something new in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
 - `2026-09-09` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — made the graphite lane commit and restack without shelling out to gt
-- `2026-09-09` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — overlapped what the graphite ship did serially, and resolved a non-stub git
 - `2026-09-09` Discussed issues in [yasyf/cc-context](https://github.com/yasyf/cc-context) — traced the argv-log race to N+2 writes per record, fixed in #19
 - `2026-09-09` Triaged issues in [yasyf/cc-context](https://github.com/yasyf/cc-context) — the vcstest fixture argv log losing a concurrent child's record
+- `2026-09-08` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 
 **24,183 contributions in the last year**
 <!-- gh-profile:end:activity -->
