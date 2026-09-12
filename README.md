@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-11T21:09:44Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-12T04:52:53Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-09-09` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — framed the Stop-gate demo and simplified its homepage embed
-- `2026-09-09` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — moved the llm.js whitespace exclude into the cc-guides fragment
-- `2026-09-09` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-09-09` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — overlapped what the graphite ship did serially, and resolved a non-stub git
+- `2026-09-12` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — framed the Stop-gate demo and simplified its homepage embed
+- `2026-09-12` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-09-12` Was active in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
+- `2026-09-12` Worked on a pull request in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
+- `2026-09-12` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
+- `2026-09-11` Was active in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-09-11` Created something new in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
+- `2026-09-11` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — moved the llm.js whitespace exclude into the cc-guides fragment
 - `2026-09-09` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — made the graphite lane commit and restack without shelling out to gt
+- `2026-09-09` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — overlapped what the graphite ship did serially, and resolved a non-stub git
 - `2026-09-09` Discussed issues in [yasyf/cc-context](https://github.com/yasyf/cc-context) — traced the argv-log race to N+2 writes per record, fixed in #19
 - `2026-09-09` Triaged issues in [yasyf/cc-context](https://github.com/yasyf/cc-context) — the vcstest fixture argv log losing a concurrent child's record
-- `2026-09-09` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — annotated the signed-helper exec for gosec and fixed its install path
-- `2026-09-09` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
-- `2026-09-09` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash)
-- `2026-09-09` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
-- `2026-09-09` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
 
-**23,941 contributions in the last year**
+**24,183 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -117,6 +117,7 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-09-12` [daemonkit v0.25.0](https://github.com/yasyf/daemonkit/releases/tag/v0.25.0)
 - `2026-09-09` [cc-notes v0.52.0](https://github.com/yasyf/cc-notes/releases/tag/v0.52.0) — made package install work on a clean machine
 - `2026-09-05` [cc-skills v1.12.0](https://github.com/yasyf/cc-skills/releases/tag/v1.12.0) — shipped design-doc's Ask bar and whole-document assistant, and routed the codex prose lane to gpt-6-astra
 - `2026-09-03` [captain-hook v12.26.0](https://github.com/yasyf/captain-hook/releases/tag/v12.26.0) — digested settings to the enablement keys, sparing every root a 3.3s spawn when settings churn
