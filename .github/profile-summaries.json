@@ -9,27 +9,31 @@
       "summary": "the vcstest fixture argv log losing a concurrent child's record"
     },
     "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-09-09T20:31:05Z",
-      "summary": "framed the Stop-gate demo and simplified its homepage embed"
+      "as_of": "2026-09-12T04:41:53Z",
+      "summary": "made hookd name session capacity instead of blaming the install"
     },
     "PullRequestEvent:yasyf/cc-context": {
       "as_of": "2026-09-09T16:58:01Z",
       "summary": "made the graphite lane commit and restack without shelling out to gt"
     },
+    "PullRequestEvent:yasyf/cc-skills": {
+      "as_of": "2026-09-08T20:52:46Z",
+      "summary": "taught design-doc to draft its prose with Astra, falling back to Claude"
+    },
+    "PullRequestEvent:yasyf/daemonkit": {
+      "as_of": "2026-09-12T03:56:04Z",
+      "summary": "gave session capacity its own error, so a full lane reads as saturation, not a missing daemon"
+    },
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "1d5ae960b6fe",
-      "summary": "moved the llm.js whitespace exclude into the cc-guides fragment"
+      "as_of": "f0ced6feacb9",
+      "summary": "ran the capt-hookd Go suite under the race detector in CI"
     },
-    "PushEvent:yasyf/cc-context": {
-      "as_of": "091d7c3e0cdc",
-      "summary": "overlapped what the graphite ship did serially, and resolved a non-stub git"
-    },
-    "PushEvent:yasyf/cc-notes": {
-      "as_of": "8d6bb044b272",
-      "summary": "annotated the signed-helper exec for gosec and fixed its install path"
+    "PushEvent:yasyf/daemonkit": {
+      "as_of": "343260a375c7",
+      "summary": "recut the release as 0.25.0, since a failed run had already burned v0.24.0 in the module proxy"
     }
   },
-  "generated_at": "2026-09-11T13:47:45Z",
+  "generated_at": "2026-09-12T13:06:41Z",
   "shipped": {
     "captain-hook@v12.26.0": {
       "summary": "digested settings to the enablement keys, sparing every root a 3.3s spawn when settings churn"
@@ -42,6 +46,9 @@
     },
     "cc-skills@v1.12.0": {
       "summary": "shipped design-doc's Ask bar and whole-document assistant, and routed the codex prose lane to gpt-6-astra"
+    },
+    "daemonkit@v0.25.0": {
+      "summary": "reclaimed an idle session's lane slot, so enough concurrent clients no longer exhaust the lane"
     },
     "slop-cop@v0.1.70": {
       "summary": "made --sentence-timeout and --document-timeout bound the whole pass, retries included"
