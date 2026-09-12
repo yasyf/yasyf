@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-12T13:06:54Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-12T20:48:30Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -32,9 +32,9 @@
 - `2026-09-12` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — recut the release as 0.25.0, since a failed run had already burned v0.24.0 in the module proxy
 - `2026-09-12` Was active in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
 - `2026-09-12` Worked on a pull request in [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — gave session capacity its own error, so a full lane reads as saturation, not a missing daemon
+- `2026-09-12` Created something new in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
 - `2026-09-11` Was active in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 - `2026-09-11` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — ran the capt-hookd Go suite under the race detector in CI
-- `2026-09-11` Created something new in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
 - `2026-09-09` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — made the graphite lane commit and restack without shelling out to gt
 - `2026-09-09` Discussed issues in [yasyf/cc-context](https://github.com/yasyf/cc-context) — traced the argv-log race to N+2 writes per record, fixed in #19
 - `2026-09-09` Triaged issues in [yasyf/cc-context](https://github.com/yasyf/cc-context) — the vcstest fixture argv log losing a concurrent child's record
