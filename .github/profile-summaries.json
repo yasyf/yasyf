@@ -25,15 +25,15 @@
       "summary": "gave session capacity its own error, so a full lane reads as saturation, not a missing daemon"
     },
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "f0ced6feacb9",
-      "summary": "ran the capt-hookd Go suite under the race detector in CI"
+      "as_of": "9763021579fe",
+      "summary": "stopped one session's failure from retiring the worker every session shares"
     },
     "PushEvent:yasyf/daemonkit": {
       "as_of": "343260a375c7",
       "summary": "recut the release as 0.25.0, since a failed run had already burned v0.24.0 in the module proxy"
     }
   },
-  "generated_at": "2026-09-12T13:06:41Z",
+  "generated_at": "2026-09-13T13:54:30Z",
   "shipped": {
     "captain-hook@v12.26.0": {
       "summary": "digested settings to the enablement keys, sparing every root a 3.3s spawn when settings churn"
@@ -46,9 +46,6 @@
     },
     "cc-skills@v1.12.0": {
       "summary": "shipped design-doc's Ask bar and whole-document assistant, and routed the codex prose lane to gpt-6-astra"
-    },
-    "daemonkit@v0.25.0": {
-      "summary": "reclaimed an idle session's lane slot, so enough concurrent clients no longer exhaust the lane"
     },
     "slop-cop@v0.1.70": {
       "summary": "made --sentence-timeout and --document-timeout bound the whole pass, retries included"
