@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-14T05:19:03Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-14T13:12:24Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-09-12` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — made hookd name session capacity instead of blaming the install
-- `2026-09-12` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-09-12` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — recut the release as 0.25.0, since a failed run had already burned v0.24.0 in the module proxy
-- `2026-09-12` Worked on a pull request in [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — gave session capacity its own error, so a full lane reads as saturation, not a missing daemon
-- `2026-09-12` Created something new in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
-- `2026-09-11` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — stopped one session's failure from retiring the worker every session shares
-- `2026-09-11` Was active in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-09-11` Was active in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
-- `2026-09-09` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — made the graphite lane commit and restack without shelling out to gt
-- `2026-09-09` Discussed issues in [yasyf/cc-context](https://github.com/yasyf/cc-context) — traced the argv-log race to N+2 writes per record, fixed in #19
-- `2026-09-09` Triaged issues in [yasyf/cc-context](https://github.com/yasyf/cc-context) — the vcstest fixture argv log losing a concurrent child's record
-- `2026-09-08` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — taught design-doc to draft its prose with Astra, falling back to Claude
+- `2026-09-14` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — stopped one session's failure from retiring the worker every session shares
+- `2026-09-14` Was active in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-09-14` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — made hookd name session capacity instead of blaming the install
+- `2026-09-14` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-09-14` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
+- `2026-09-14` Worked on a pull request in [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
+- `2026-09-14` Created something new in [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
+- `2026-09-14` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-09-14` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — taught design-doc to draft its prose with Astra, falling back to Claude
+- `2026-09-14` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-09-14` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-09-14` Worked on a pull request in [yasyf/binrun](https://github.com/yasyf/binrun)
 
-**24,061 contributions in the last year**
+**24,386 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -117,9 +117,10 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-09-14` [binrun v0.6.0](https://github.com/yasyf/binrun/releases/tag/v0.6.0)
+- `2026-09-14` [captain-hook v12.28.1](https://github.com/yasyf/captain-hook/releases/tag/v12.28.1)
 - `2026-09-09` [cc-notes v0.52.0](https://github.com/yasyf/cc-notes/releases/tag/v0.52.0) — made package install work on a clean machine
 - `2026-09-05` [cc-skills v1.12.0](https://github.com/yasyf/cc-skills/releases/tag/v1.12.0) — shipped design-doc's Ask bar and whole-document assistant, and routed the codex prose lane to gpt-6-astra
-- `2026-09-03` [captain-hook v12.26.0](https://github.com/yasyf/captain-hook/releases/tag/v12.26.0) — digested settings to the enablement keys, sparing every root a 3.3s spawn when settings churn
 - `2026-09-03` [slop-cop v0.1.70](https://github.com/yasyf/slop-cop/releases/tag/v0.1.70) — made --sentence-timeout and --document-timeout bound the whole pass, retries included
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
