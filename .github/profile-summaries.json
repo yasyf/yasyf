@@ -1,42 +1,45 @@
 {
   "activity": {
-    "IssueCommentEvent:yasyf/cc-context": {
-      "as_of": "2026-09-09T15:57:25Z",
-      "summary": "traced the argv-log race to N+2 writes per record, fixed in #19"
-    },
-    "IssuesEvent:yasyf/cc-context": {
-      "as_of": "2026-09-09T15:26:45Z",
-      "summary": "the vcstest fixture argv log losing a concurrent child's record"
+    "PullRequestEvent:yasyf/binrun": {
+      "as_of": "2026-09-14T09:46:22Z",
+      "summary": "took daemonkit v0.28.0, so a signed app can require a minimum version"
     },
     "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-09-12T04:41:53Z",
-      "summary": "made hookd name session capacity instead of blaming the install"
-    },
-    "PullRequestEvent:yasyf/cc-context": {
-      "as_of": "2026-09-09T16:58:01Z",
-      "summary": "made the graphite lane commit and restack without shelling out to gt"
+      "as_of": "2026-09-14T11:02:05Z",
+      "summary": "cut per-event overhead in the Python worker"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-09-08T20:52:46Z",
-      "summary": "taught design-doc to draft its prose with Astra, falling back to Claude"
+      "as_of": "2026-09-14T09:55:50Z",
+      "summary": "pinned binrun v0.5.1 so python-tool installs refresh uv's index"
     },
-    "PullRequestEvent:yasyf/daemonkit": {
-      "as_of": "2026-09-12T03:56:04Z",
-      "summary": "gave session capacity its own error, so a full lane reads as saturation, not a missing daemon"
+    "PullRequestEvent:yasyf/spawnllm": {
+      "as_of": "2026-09-14T10:50:21Z",
+      "summary": "classified transient errors from the CLI error line, not the echoed prompt"
     },
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "9763021579fe",
-      "summary": "stopped one session's failure from retiring the worker every session shares"
+      "as_of": "49bbdecc6e5f",
+      "summary": "took cc-transcript 14.16.1, so deep conditions stop reparsing sidechains"
     },
-    "PushEvent:yasyf/daemonkit": {
-      "as_of": "343260a375c7",
-      "summary": "recut the release as 0.25.0, since a failed run had already burned v0.24.0 in the module proxy"
+    "PushEvent:yasyf/cc-skills": {
+      "as_of": "1620a94cdfe6",
+      "summary": "pinned binrun v0.6.0 in the guides for signed-app minimum versions"
+    },
+    "PushEvent:yasyf/homebrew-tap": {
+      "as_of": "1a55984a73da",
+      "summary": "bumped the binrun formula to v0.6.0"
+    },
+    "PushEvent:yasyf/spawnllm": {
+      "as_of": "3a8694b7d246",
+      "summary": "split the changelog by version and fixed a stale retry-transience comment"
     }
   },
-  "generated_at": "2026-09-13T13:54:30Z",
+  "generated_at": "2026-09-14T16:01:21Z",
   "shipped": {
-    "captain-hook@v12.26.0": {
-      "summary": "digested settings to the enablement keys, sparing every root a 3.3s spawn when settings churn"
+    "captain-hook@v12.28.1": {
+      "summary": "dropped stapler from the Homebrew formula sandbox"
+    },
+    "cc-context@v0.58.0": {
+      "summary": "committed and restacked the graphite lane without gt"
     },
     "cc-notes@v0.52.0": {
       "summary": "made package install work on a clean machine"
