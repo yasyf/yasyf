@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-14T21:57:20Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-15T05:10:08Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-09-14` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — cut per-event overhead in the Python worker
+- `2026-09-15` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — pinned binrun v0.6.0 in the guides for signed-app minimum versions
+- `2026-09-15` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — pinned binrun v0.5.1 so python-tool installs refresh uv's index
+- `2026-09-15` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — took cc-transcript 14.16.1, so deep conditions stop reparsing sidechains
+- `2026-09-15` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — cut per-event overhead in the Python worker
+- `2026-09-15` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
+- `2026-09-15` Worked on a pull request in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
+- `2026-09-15` Created something new in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
+- `2026-09-15` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the binrun formula to v0.6.0
+- `2026-09-15` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-09-14` Was active in [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
+- `2026-09-14` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — split the changelog by version and fixed a stale retry-transience comment
 - `2026-09-14` Worked on a pull request in [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — classified transient errors from the CLI error line, not the echoed prompt
-- `2026-09-14` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-09-14` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the binrun formula to v0.6.0
-- `2026-09-14` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — took cc-transcript 14.16.1, so deep conditions stop reparsing sidechains
-- `2026-09-14` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
-- `2026-09-14` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
-- `2026-09-14` Worked on a pull request in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
-- `2026-09-14` Created something new in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
-- `2026-09-14` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
-- `2026-09-14` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
-- `2026-09-14` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
 
-**24,545 contributions in the last year**
+**24,800 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -117,7 +117,7 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-09-14` [captain-hook v12.30.3](https://github.com/yasyf/captain-hook/releases/tag/v12.30.3)
+- `2026-09-15` [captain-hook v12.30.7](https://github.com/yasyf/captain-hook/releases/tag/v12.30.7)
 - `2026-09-09` [cc-notes v0.52.0](https://github.com/yasyf/cc-notes/releases/tag/v0.52.0) — made package install work on a clean machine
 - `2026-09-05` [cc-skills v1.12.0](https://github.com/yasyf/cc-skills/releases/tag/v1.12.0) — shipped design-doc's Ask bar and whole-document assistant, and routed the codex prose lane to gpt-6-astra
 - `2026-09-03` [slop-cop v0.1.70](https://github.com/yasyf/slop-cop/releases/tag/v0.1.70) — made --sentence-timeout and --document-timeout bound the whole pass, retries included
