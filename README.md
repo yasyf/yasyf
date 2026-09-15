@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-15T14:28:41Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-15T17:12:30Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-09-15` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — kept hookd working when a root is deleted underneath it, from its cwd to its plugin roster
-- `2026-09-15` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — gave a release ten minutes to show up in PyPI's index before CI calls it failed
-- `2026-09-15` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the captain-hook formula to v12.30.9
-- `2026-09-15` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-09-15` Discussed issues in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — bumped codex and slop-cop for the per-tag binrun runner
-- `2026-09-15` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — taught open-pr's watcher to see a Graphite queue drop
-- `2026-09-15` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — gave each pinned binrun tag its own runner path in the guides
-- `2026-09-15` Worked on a pull request in [yasyf/binrun](https://github.com/yasyf/binrun) — made the CLI leave a removed working directory before the runtime's init getcwd
-- `2026-09-15` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-09-15` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
 - `2026-09-15` Worked on a pull request in [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — kept one settlement grace for a kill, and named the abort that restored the incumbent
+- `2026-09-15` Created something new in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
+- `2026-09-15` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — gave a release ten minutes to show up in PyPI's index before CI calls it failed
+- `2026-09-15` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — taught open-pr's watcher to see a Graphite queue drop
+- `2026-09-15` Worked on a pull request in [yasyf/binrun](https://github.com/yasyf/binrun) — made the CLI leave a removed working directory before the runtime's init getcwd
 - `2026-09-14` Worked on a pull request in [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — resolved the small and medium codex tiers to gpt-5.6-luna
 - `2026-09-14` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — answered deep predicates from held inputs instead of held lifts
+- `2026-09-14` Was active in [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
+- `2026-09-14` Was active in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-09-14` Was active in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-09-14` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 
-**25,096 contributions in the last year**
+**25,199 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -117,12 +117,12 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-09-15` [daemonkit v0.30.1](https://github.com/yasyf/daemonkit/releases/tag/v0.30.1)
 - `2026-09-15` [captain-hook v12.30.11](https://github.com/yasyf/captain-hook/releases/tag/v12.30.11) — read a removed root's plugin roster from its nearest surviving ancestor
 - `2026-09-09` [cc-notes v0.52.0](https://github.com/yasyf/cc-notes/releases/tag/v0.52.0) — made package install work on a clean machine
 - `2026-09-05` [cc-skills v1.12.0](https://github.com/yasyf/cc-skills/releases/tag/v1.12.0) — shipped design-doc's Ask bar and whole-document assistant, and routed the codex prose lane to gpt-6-astra
 - `2026-09-03` [slop-cop v0.1.70](https://github.com/yasyf/slop-cop/releases/tag/v0.1.70) — made --sentence-timeout and --document-timeout bound the whole pass, retries included
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
-- `2026-08-30` [cc-orchestrate v0.17.0](https://github.com/yasyf/cc-orchestrate/releases/tag/v0.17.0) — took daemonkit v0.23.0, moving daemon state under ~/.daemonkit/a/<label>
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
 <!-- gh-profile:end:shipped -->
 
