@@ -1,48 +1,56 @@
 {
   "activity": {
+    "IssueCommentEvent:yasyf/cc-skills": {
+      "as_of": "2026-09-15T07:10:36Z",
+      "summary": "bumped codex and slop-cop for the per-tag binrun runner"
+    },
     "PullRequestEvent:yasyf/binrun": {
-      "as_of": "2026-09-14T09:46:22Z",
-      "summary": "took daemonkit v0.28.0, so a signed app can require a minimum version"
+      "as_of": "2026-09-15T06:56:51Z",
+      "summary": "made the CLI leave a removed working directory before the runtime's init getcwd"
     },
     "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-09-14T11:02:05Z",
-      "summary": "cut per-event overhead in the Python worker"
+      "as_of": "2026-09-15T08:19:07Z",
+      "summary": "gave a release ten minutes to show up in PyPI's index before CI calls it failed"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-09-14T09:55:50Z",
-      "summary": "pinned binrun v0.5.1 so python-tool installs refresh uv's index"
+      "as_of": "2026-09-15T07:07:57Z",
+      "summary": "taught open-pr's watcher to see a Graphite queue drop"
+    },
+    "PullRequestEvent:yasyf/cc-transcript": {
+      "as_of": "2026-09-14T20:24:36Z",
+      "summary": "answered deep predicates from held inputs instead of held lifts"
+    },
+    "PullRequestEvent:yasyf/daemonkit": {
+      "as_of": "2026-09-15T01:27:15Z",
+      "summary": "kept one settlement grace for a kill, and named the abort that restored the incumbent"
     },
     "PullRequestEvent:yasyf/spawnllm": {
-      "as_of": "2026-09-14T10:50:21Z",
-      "summary": "classified transient errors from the CLI error line, not the echoed prompt"
+      "as_of": "2026-09-14T21:59:17Z",
+      "summary": "resolved the small and medium codex tiers to gpt-5.6-luna"
     },
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "49bbdecc6e5f",
-      "summary": "took cc-transcript 14.16.1, so deep conditions stop reparsing sidechains"
+      "as_of": "911458595237",
+      "summary": "kept hookd working when a root is deleted underneath it, from its cwd to its plugin roster"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "1620a94cdfe6",
-      "summary": "pinned binrun v0.6.0 in the guides for signed-app minimum versions"
+      "as_of": "b5599db9b571",
+      "summary": "gave each pinned binrun tag its own runner path in the guides"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "1a55984a73da",
-      "summary": "bumped the binrun formula to v0.6.0"
-    },
-    "PushEvent:yasyf/spawnllm": {
-      "as_of": "3a8694b7d246",
-      "summary": "split the changelog by version and fixed a stale retry-transience comment"
+      "as_of": "9919129b131f",
+      "summary": "bumped the captain-hook formula to v12.30.9"
     }
   },
-  "generated_at": "2026-09-14T16:01:21Z",
+  "generated_at": "2026-09-15T14:28:38Z",
   "shipped": {
-    "captain-hook@v12.28.1": {
-      "summary": "dropped stapler from the Homebrew formula sandbox"
-    },
-    "cc-context@v0.58.0": {
-      "summary": "committed and restacked the graphite lane without gt"
+    "captain-hook@v12.30.11": {
+      "summary": "read a removed root's plugin roster from its nearest surviving ancestor"
     },
     "cc-notes@v0.52.0": {
       "summary": "made package install work on a clean machine"
+    },
+    "cc-orchestrate@v0.17.0": {
+      "summary": "took daemonkit v0.23.0, moving daemon state under ~/.daemonkit/a/<label>"
     },
     "cc-pool@v0.69.0": {
       "summary": "added `ccp package reset` to retire a wedged deployment"
