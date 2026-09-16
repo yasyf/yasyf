@@ -1,65 +1,62 @@
 {
   "activity": {
-    "IssueCommentEvent:yasyf/cc-skills": {
-      "as_of": "2026-09-15T07:10:36Z",
-      "summary": "bumped codex and slop-cop for the per-tag binrun runner"
-    },
-    "PullRequestEvent:yasyf/binrun": {
-      "as_of": "2026-09-15T06:56:51Z",
-      "summary": "made the CLI leave a removed working directory before the runtime's init getcwd"
-    },
     "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-09-15T08:19:07Z",
-      "summary": "gave a release ten minutes to show up in PyPI's index before CI calls it failed"
+      "as_of": "2026-09-16T09:41:52Z",
+      "summary": "blocked prose questions that skip AskUserQuestion"
+    },
+    "PullRequestEvent:yasyf/cc-notes": {
+      "as_of": "2026-09-16T09:13:45Z",
+      "summary": "tracked many like units as a keyed row set refreshed in place"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-09-15T07:07:57Z",
-      "summary": "taught open-pr's watcher to see a Graphite queue drop"
+      "as_of": "2026-09-16T10:36:01Z",
+      "summary": "gated codex's agent-plane spawns and matched the launcher's runner lookup"
     },
     "PullRequestEvent:yasyf/cc-transcript": {
-      "as_of": "2026-09-14T20:24:36Z",
-      "summary": "answered deep predicates from held inputs instead of held lifts"
+      "as_of": "2026-09-16T10:22:40Z",
+      "summary": "lifted a session incrementally with ActivityLift"
     },
     "PullRequestEvent:yasyf/daemonkit": {
-      "as_of": "2026-09-15T01:27:15Z",
-      "summary": "kept one settlement grace for a kill, and named the abort that restored the incumbent"
-    },
-    "PullRequestEvent:yasyf/spawnllm": {
-      "as_of": "2026-09-14T21:59:17Z",
-      "summary": "resolved the small and medium codex tiers to gpt-5.6-luna"
+      "as_of": "2026-09-16T09:18:34Z",
+      "summary": "restaged a candidate slot the request is not landing"
     },
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "911458595237",
-      "summary": "kept hookd working when a root is deleted underneath it, from its cwd to its plugin roster"
+      "as_of": "4c6fd654a9df",
+      "summary": "took daemonkit v0.31.1 so an aborted install stops wedging upgrades"
+    },
+    "PushEvent:yasyf/cc-orchestrate": {
+      "as_of": "64d6f69b7f8f",
+      "summary": "synced the cco binrun descriptor and manifest to v0.17.1"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "b5599db9b571",
-      "summary": "gave each pinned binrun tag its own runner path in the guides"
+      "as_of": "362efabf99b5",
+      "summary": "pinned binrun v0.7.0 for signed-app copy_exec in the guides"
+    },
+    "PushEvent:yasyf/daemonkit": {
+      "as_of": "1f9f9ce6b4da",
+      "summary": "exec'd a signed app entrypoint straight from the artifact cache"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "9919129b131f",
-      "summary": "bumped the captain-hook formula to v12.30.9"
+      "as_of": "9cde0cce0aaa",
+      "summary": "bumped the cc-skills, captain-hook, and cc-notes formulae"
     }
   },
-  "generated_at": "2026-09-15T14:28:38Z",
+  "generated_at": "2026-09-16T14:22:20Z",
   "shipped": {
-    "captain-hook@v12.30.11": {
-      "summary": "read a removed root's plugin roster from its nearest surviving ancestor"
+    "captain-hook@v12.37.0": {
+      "summary": "daemonkit v0.31.1 underneath, so an aborted install stops wedging upgrades"
     },
-    "cc-notes@v0.52.0": {
-      "summary": "made package install work on a clean machine"
+    "cc-context@v0.58.2": {
+      "summary": "read a queue landing from the trunk, not the closing account"
     },
-    "cc-orchestrate@v0.17.0": {
-      "summary": "took daemonkit v0.23.0, moving daemon state under ~/.daemonkit/a/<label>"
+    "cc-notes@v0.53.1": {
+      "summary": "dropped the stapler checks brew's sandbox cannot run"
     },
     "cc-pool@v0.69.0": {
       "summary": "added `ccp package reset` to retire a wedged deployment"
     },
-    "cc-skills@v1.12.0": {
-      "summary": "shipped design-doc's Ask bar and whole-document assistant, and routed the codex prose lane to gpt-6-astra"
-    },
-    "slop-cop@v0.1.70": {
-      "summary": "made --sentence-timeout and --document-timeout bound the whole pass, retries included"
+    "cc-skills@v1.12.4": {
+      "summary": "pinned binrun v0.7.0 for copy_exec and gated codex's agent-plane spawns"
     },
     "spawnllm@v0.11.0": {
       "summary": "added an Apple Foundation Models on-device backend and exact-model passthrough"
