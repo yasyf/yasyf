@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-16T14:22:35Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-16T17:13:11Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-09-16` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
 - `2026-09-16` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — synced the cco binrun descriptor and manifest to v0.17.1
-- `2026-09-16` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — pinned binrun v0.7.0 for signed-app copy_exec in the guides
 - `2026-09-16` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-skills, captain-hook, and cc-notes formulae
+- `2026-09-16` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — pinned binrun v0.7.0 for signed-app copy_exec in the guides
 - `2026-09-16` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — gated codex's agent-plane spawns and matched the launcher's runner lookup
-- `2026-09-16` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-09-16` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
 - `2026-09-16` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — lifted a session incrementally with ActivityLift
+- `2026-09-16` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-09-16` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — blocked prose questions that skip AskUserQuestion
-- `2026-09-16` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — took daemonkit v0.31.1 so an aborted install stops wedging upgrades
 - `2026-09-16` Worked on a pull request in [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — restaged a candidate slot the request is not landing
 - `2026-09-16` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — tracked many like units as a keyed row set refreshed in place
 - `2026-09-16` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — exec'd a signed app entrypoint straight from the artifact cache
+- `2026-09-16` Worked on a pull request in [yasyf/binrun](https://github.com/yasyf/binrun)
 
-**26,135 contributions in the last year**
+**26,146 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
