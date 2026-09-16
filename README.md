@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-16T17:13:11Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-16T21:33:35Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -29,16 +29,16 @@
 <!-- gh-profile:start:activity -->
 - `2026-09-16` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
 - `2026-09-16` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — synced the cco binrun descriptor and manifest to v0.17.1
-- `2026-09-16` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-skills, captain-hook, and cc-notes formulae
 - `2026-09-16` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — pinned binrun v0.7.0 for signed-app copy_exec in the guides
 - `2026-09-16` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — gated codex's agent-plane spawns and matched the launcher's runner lookup
 - `2026-09-16` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — lifted a session incrementally with ActivityLift
-- `2026-09-16` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-09-16` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — blocked prose questions that skip AskUserQuestion
 - `2026-09-16` Worked on a pull request in [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — restaged a candidate slot the request is not landing
 - `2026-09-16` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — tracked many like units as a keyed row set refreshed in place
-- `2026-09-16` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — exec'd a signed app entrypoint straight from the artifact cache
 - `2026-09-16` Worked on a pull request in [yasyf/binrun](https://github.com/yasyf/binrun)
+- `2026-09-15` Triaged issues in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-09-15` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-09-15` Worked on a pull request in [yasyf/cc-review](https://github.com/yasyf/cc-review)
 
 **26,146 contributions in the last year**
 <!-- gh-profile:end:activity -->
@@ -120,7 +120,6 @@
 - `2026-09-16` [cc-skills v1.12.4](https://github.com/yasyf/cc-skills/releases/tag/v1.12.4) — pinned binrun v0.7.0 for copy_exec and gated codex's agent-plane spawns
 - `2026-09-16` [captain-hook v12.37.0](https://github.com/yasyf/captain-hook/releases/tag/v12.37.0) — daemonkit v0.31.1 underneath, so an aborted install stops wedging upgrades
 - `2026-09-16` [cc-notes v0.53.1](https://github.com/yasyf/cc-notes/releases/tag/v0.53.1) — dropped the stapler checks brew's sandbox cannot run
-- `2026-09-15` [cc-context v0.58.2](https://github.com/yasyf/cc-context/releases/tag/v0.58.2) — read a queue landing from the trunk, not the closing account
 - `2026-09-15` [slop-cop v0.1.71](https://github.com/yasyf/slop-cop/releases/tag/v0.1.71)
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
 - `2026-07-27` [spawnllm v0.11.0](https://github.com/yasyf/spawnllm/releases/tag/v0.11.0) — added an Apple Foundation Models on-device backend and exact-model passthrough
