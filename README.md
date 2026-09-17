@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-17T05:08:34Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-17T11:58:24Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-09-17` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — lifted a session incrementally with ActivityLift
-- `2026-09-17` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — tracked many like units as a keyed row set refreshed in place
-- `2026-09-17` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-09-17` Created something new in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
 - `2026-09-17` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — pinned binrun v0.7.0 for signed-app copy_exec in the guides
-- `2026-09-17` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-skills, captain-hook, and cc-notes formulae
-- `2026-09-17` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
-- `2026-09-17` Worked on a pull request in [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
+- `2026-09-17` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-09-17` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-09-17` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — blocked prose questions that skip AskUserQuestion
 - `2026-09-17` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-09-17` Worked on a pull request in [yasyf/cc-patch](https://github.com/yasyf/cc-patch)
+- `2026-09-17` Created something new in [yasyf/cc-patch](https://github.com/yasyf/cc-patch)
+- `2026-09-17` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-skills, captain-hook, and cc-notes formulae
 - `2026-09-17` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — took daemonkit v0.31.1 so an aborted install stops wedging upgrades
-- `2026-09-17` Created something new in [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
+- `2026-09-17` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-09-17` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — lifted a session incrementally with ActivityLift
+- `2026-09-17` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
 
-**26,467 contributions in the last year**
+**26,633 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -117,11 +117,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-09-17` [cc-transcript v14.19.0](https://github.com/yasyf/cc-transcript/releases/tag/v14.19.0)
+- `2026-09-17` [captain-hook v12.39.0](https://github.com/yasyf/captain-hook/releases/tag/v12.39.0)
 - `2026-09-17` [cc-notes v0.55.0](https://github.com/yasyf/cc-notes/releases/tag/v0.55.0)
-- `2026-09-17` [captain-hook v12.38.0](https://github.com/yasyf/captain-hook/releases/tag/v12.38.0)
 - `2026-09-17` [spawnllm v0.13.3](https://github.com/yasyf/spawnllm/releases/tag/v0.13.3)
 - `2026-09-17` [cc-skills v1.13.0](https://github.com/yasyf/cc-skills/releases/tag/v1.13.0)
+- `2026-09-15` [cc-context v0.58.2](https://github.com/yasyf/cc-context/releases/tag/v0.58.2) — read a queue landing from the trunk, not the closing account
 - `2026-09-15` [slop-cop v0.1.71](https://github.com/yasyf/slop-cop/releases/tag/v0.1.71)
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
 <!-- gh-profile:end:shipped -->
