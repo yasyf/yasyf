@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-19T04:53:33Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-19T11:21:57Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,6 +27,7 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-09-19` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — pinned binrun v0.7.0 for signed-app copy_exec in the guides
 - `2026-09-19` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-skills, captain-hook, and cc-notes formulae
 - `2026-09-19` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — took daemonkit v0.31.1 so an aborted install stops wedging upgrades
 - `2026-09-19` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — blocked prose questions that skip AskUserQuestion
@@ -34,13 +35,12 @@
 - `2026-09-19` Was active in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 - `2026-09-19` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — gated codex's agent-plane spawns and matched the launcher's runner lookup
 - `2026-09-19` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-09-18` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
-- `2026-09-18` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — synced the cco binrun descriptor and manifest to v0.17.1
 - `2026-09-18` Discussed issues in [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
 - `2026-09-18` Worked on a pull request in [yasyf/slop-cop](https://github.com/yasyf/slop-cop)
 - `2026-09-18` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-09-18` Triaged issues in [buildkite/elastic-ci-stack-for-aws](https://github.com/buildkite/elastic-ci-stack-for-aws)
 
-**27,245 contributions in the last year**
+**27,310 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
