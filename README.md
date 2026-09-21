@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-21T13:11:38Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-21T22:07:27Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-09-21` Worked on a pull request in [yasyf/reposync](https://github.com/yasyf/reposync)
-- `2026-09-21` Created something new in [yasyf/reposync](https://github.com/yasyf/reposync)
-- `2026-09-21` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-09-21` Triaged issues in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 - `2026-09-21` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-09-21` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-09-21` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-skills, captain-hook, and cc-notes formulae
-- `2026-09-21` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — took daemonkit v0.31.1 so an aborted install stops wedging upgrades
+- `2026-09-21` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — synced the cco binrun descriptor and manifest to v0.17.1
+- `2026-09-21` Worked on a pull request in [yasyf/reposync](https://github.com/yasyf/reposync)
+- `2026-09-21` Created something new in [yasyf/reposync](https://github.com/yasyf/reposync)
+- `2026-09-21` Triaged issues in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 - `2026-09-21` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — blocked prose questions that skip AskUserQuestion
-- `2026-09-21` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-09-21` Was active in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-09-21` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — pinned binrun v0.7.0 for signed-app copy_exec in the guides
+- `2026-09-21` Worked on a pull request in [yasyf/cc-patch](https://github.com/yasyf/cc-patch)
+- `2026-09-21` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-09-21` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present)
+- `2026-09-21` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-skills, captain-hook, and cc-notes formulae
+- `2026-09-21` Pushed to [yasyf/binrun](https://github.com/yasyf/binrun)
 
-**28,052 contributions in the last year**
+**28,196 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
