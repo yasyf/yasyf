@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-22T21:34:44Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-23T05:01:25Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-09-23` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — tracked many like units as a keyed row set refreshed in place
+- `2026-09-23` Created something new in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
 - `2026-09-22` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-skills, captain-hook, and cc-notes formulae
-- `2026-09-22` Was active in [yasyf/reposync](https://github.com/yasyf/reposync)
 - `2026-09-22` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync)
+- `2026-09-22` Was active in [yasyf/reposync](https://github.com/yasyf/reposync)
 - `2026-09-22` Worked on a pull request in [yasyf/reposync](https://github.com/yasyf/reposync)
 - `2026-09-22` Created something new in [yasyf/reposync](https://github.com/yasyf/reposync)
 - `2026-09-22` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-09-22` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-09-22` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-09-22` Pushed to [yasyf/cc-patch](https://github.com/yasyf/cc-patch)
 - `2026-09-22` Worked on a pull request in [yasyf/cc-patch](https://github.com/yasyf/cc-patch)
-- `2026-09-22` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-09-22` Created something new in [yasyf/cc-patch](https://github.com/yasyf/cc-patch)
-- `2026-09-22` Was active in [yasyf/cc-patch](https://github.com/yasyf/cc-patch)
 
-**28,423 contributions in the last year**
+**28,468 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -117,7 +117,6 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-09-22` [cc-context v0.61.0](https://github.com/yasyf/cc-context/releases/tag/v0.61.0)
 - `2026-09-22` [captain-hook v12.51.0](https://github.com/yasyf/captain-hook/releases/tag/v12.51.0)
 - `2026-09-22` [cc-notes v0.59.0](https://github.com/yasyf/cc-notes/releases/tag/v0.59.0)
 - `2026-09-21` [cc-skills v1.13.2](https://github.com/yasyf/cc-skills/releases/tag/v1.13.2)
