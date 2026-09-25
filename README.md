@@ -153,11 +153,11 @@ TypeScript  ████░░░░░░░░░░░░░░░░    6%
 Latest from [Yasyf's Random Musings](https://musings.yasyf.com):
 
 <!-- BLOG-POST-LIST:START -->
+- [Give your LLM more DSLs!](https://yasyf.com/writing/give-your-llm-more-dsls/)
 - [Less prompts, more guardrails](https://yasyf.com/writing/less-prompts-more-guardrails/)
 - [Improving Claude Computer Use](https://yasyf.com/writing/improving-claude-computer-use/)
 - [On Securing Model Supply Chains](https://yasyf.com/writing/on-llm-supply-chain-attacks/)
 - [python 🤝 `defer`](https://yasyf.com/writing/bringing-gos-defer-to-python/)
-- [Haystack + Pinecone Hybrid Vectors](https://yasyf.com/writing/hybrid-vectors-are-cool/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
