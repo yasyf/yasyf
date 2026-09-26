@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-25T21:45:11Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-26T05:18:55Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-09-25` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-09-25` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-09-25` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — exec'd a signed app entrypoint straight from the artifact cache
-- `2026-09-25` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — blocked prose questions that skip AskUserQuestion
-- `2026-09-25` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — took daemonkit v0.31.1 so an aborted install stops wedging upgrades
-- `2026-09-25` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-09-25` Worked on a pull request in [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — restaged a candidate slot the request is not landing
-- `2026-09-25` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-skills, captain-hook, and cc-notes formulae
-- `2026-09-25` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-09-25` Created something new in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
-- `2026-09-25` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — gated codex's agent-plane spawns and matched the launcher's runner lookup
-- `2026-09-25` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-09-26` Triaged issues in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-09-26` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-09-26` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-09-26` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-09-26` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-skills, captain-hook, and cc-notes formulae
+- `2026-09-26` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-09-26` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — took daemonkit v0.31.1 so an aborted install stops wedging upgrades
+- `2026-09-26` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — gated codex's agent-plane spawns and matched the launcher's runner lookup
+- `2026-09-26` Triaged issues in [stablyai/orca](https://github.com/stablyai/orca)
+- `2026-09-26` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — pinned binrun v0.7.0 for signed-app copy_exec in the guides
+- `2026-09-26` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-09-26` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — lifted a session incrementally with ActivityLift
 
-**30,402 contributions in the last year**
+**30,859 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -117,8 +117,8 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-09-25` [cc-context v0.65.19](https://github.com/yasyf/cc-context/releases/tag/v0.65.19)
-- `2026-09-25` [captain-hook v12.58.0](https://github.com/yasyf/captain-hook/releases/tag/v12.58.0)
+- `2026-09-26` [cc-context v0.65.39](https://github.com/yasyf/cc-context/releases/tag/v0.65.39)
+- `2026-09-26` [captain-hook v12.59.4](https://github.com/yasyf/captain-hook/releases/tag/v12.59.4)
 - `2026-09-25` [spawnllm v0.14.0](https://github.com/yasyf/spawnllm/releases/tag/v0.14.0)
 - `2026-09-24` [cc-notes v0.63.1](https://github.com/yasyf/cc-notes/releases/tag/v0.63.1)
 - `2026-09-24` [cc-skills v1.13.4](https://github.com/yasyf/cc-skills/releases/tag/v1.13.4)
