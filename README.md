@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-26T11:41:38Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-26T16:37:34Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-09-26` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-skills, captain-hook, and cc-notes formulae
+- `2026-09-26` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
+- `2026-09-26` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash)
+- `2026-09-26` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
+- `2026-09-26` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
 - `2026-09-26` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-09-26` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-09-26` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-09-26` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-09-26` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — blocked prose questions that skip AskUserQuestion
+- `2026-09-26` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-09-26` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-09-26` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 - `2026-09-26` Discussed issues in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-09-26` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — lifted a session incrementally with ActivityLift
-- `2026-09-26` Triaged issues in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-09-26` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — pinned binrun v0.7.0 for signed-app copy_exec in the guides
-- `2026-09-26` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-09-26` Created something new in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
-- `2026-09-26` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
 
-**31,176 contributions in the last year**
+**31,232 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -117,13 +117,13 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-09-26` [cc-context v0.65.54](https://github.com/yasyf/cc-context/releases/tag/v0.65.54)
 - `2026-09-26` [captain-hook v12.59.6](https://github.com/yasyf/captain-hook/releases/tag/v12.59.6)
 - `2026-09-25` [spawnllm v0.14.0](https://github.com/yasyf/spawnllm/releases/tag/v0.14.0)
 - `2026-09-24` [cc-notes v0.63.1](https://github.com/yasyf/cc-notes/releases/tag/v0.63.1)
 - `2026-09-24` [cc-skills v1.13.4](https://github.com/yasyf/cc-skills/releases/tag/v1.13.4)
 - `2026-09-18` [slop-cop v0.1.72](https://github.com/yasyf/slop-cop/releases/tag/v0.1.72)
-- `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
+- `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0)
+- `2026-07-18` [authkit v0.2.0](https://github.com/yasyf/authkit/releases/tag/v0.2.0)
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
