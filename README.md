@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-27T12:20:21Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-27T17:11:06Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,11 +27,11 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-09-27` Pushed to [yasyf/cc-sync](https://github.com/yasyf/cc-sync)
 - `2026-09-27` Worked on a pull request in [yasyf/cc-sync](https://github.com/yasyf/cc-sync)
 - `2026-09-27` Worked on a pull request in [yasyf/reposync](https://github.com/yasyf/reposync)
 - `2026-09-27` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit)
 - `2026-09-27` Worked on a pull request in [yasyf/synckit](https://github.com/yasyf/synckit)
-- `2026-09-27` Pushed to [yasyf/cc-sync](https://github.com/yasyf/cc-sync)
 - `2026-09-27` Worked on a pull request in [stablyai/orca](https://github.com/stablyai/orca)
 - `2026-09-27` Pushed to [yasyf/orca](https://github.com/yasyf/orca)
 - `2026-09-27` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync)
