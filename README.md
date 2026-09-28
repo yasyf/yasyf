@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-28T05:43:44Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-28T14:20:37Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-09-27` Pushed to [yasyf/cc-sync](https://github.com/yasyf/cc-sync)
+- `2026-09-28` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-09-28` Worked on a pull request in [posit-dev/great-docs](https://github.com/posit-dev/great-docs)
+- `2026-09-28` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-09-28` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-09-28` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-09-27` Worked on a pull request in [yasyf/cc-sync](https://github.com/yasyf/cc-sync)
-- `2026-09-27` Pushed to [yasyf/reposync](https://github.com/yasyf/reposync)
 - `2026-09-27` Worked on a pull request in [yasyf/reposync](https://github.com/yasyf/reposync)
-- `2026-09-27` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit)
 - `2026-09-27` Worked on a pull request in [yasyf/synckit](https://github.com/yasyf/synckit)
 - `2026-09-27` Worked on a pull request in [stablyai/orca](https://github.com/stablyai/orca)
-- `2026-09-27` Pushed to [yasyf/orca](https://github.com/yasyf/orca)
-- `2026-09-27` Created something new in [yasyf/reposync](https://github.com/yasyf/reposync)
-- `2026-09-26` Created something new in [yasyf/synckit](https://github.com/yasyf/synckit)
-- `2026-09-26` Created something new in [yasyf/cc-sync](https://github.com/yasyf/cc-sync)
-- `2026-09-26` Created something new in [yasyf/orca](https://github.com/yasyf/orca)
+- `2026-09-26` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-09-26` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-09-26` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
 
-**31,552 contributions in the last year**
+**31,743 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -117,6 +117,7 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-09-28` [cc-context v0.65.58](https://github.com/yasyf/cc-context/releases/tag/v0.65.58)
 - `2026-09-26` [captain-hook v12.60.0](https://github.com/yasyf/captain-hook/releases/tag/v12.60.0)
 - `2026-09-25` [spawnllm v0.14.0](https://github.com/yasyf/spawnllm/releases/tag/v0.14.0)
 - `2026-09-24` [cc-notes v0.63.1](https://github.com/yasyf/cc-notes/releases/tag/v0.63.1)
