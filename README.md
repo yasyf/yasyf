@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-29T13:13:28Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-29T22:31:07Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-09-29` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-09-29` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-09-29` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-09-29` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-09-29` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-09-29` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-09-29` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
-- `2026-09-28` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-09-28` Was active in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-09-28` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-09-28` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-09-28` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
 - `2026-09-28` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-09-28` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-09-28` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-09-28` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-09-28` Worked on a pull request in [posit-dev/great-docs](https://github.com/posit-dev/great-docs)
-- `2026-09-27` Worked on a pull request in [yasyf/cc-sync](https://github.com/yasyf/cc-sync)
-- `2026-09-27` Worked on a pull request in [yasyf/reposync](https://github.com/yasyf/reposync)
 
-**32,313 contributions in the last year**
+**32,406 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
