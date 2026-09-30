@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-30T05:50:14Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-09-30T12:54:27Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-09-30` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-09-30` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-09-30` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-09-30` Was active in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-09-30` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-09-30` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-09-30` Created something new in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
 - `2026-09-30` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-09-30` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-09-30` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-09-30` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-09-30` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-09-30` Discussed issues in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-09-29` Triaged issues in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-09-30` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-09-30` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-09-30` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-09-30` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-09-30` Created something new in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-09-30` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-09-30` Was active in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-09-30` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
 
-**32,566 contributions in the last year**
+**32,764 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -117,11 +117,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-09-30` [cc-skills v1.14.0](https://github.com/yasyf/cc-skills/releases/tag/v1.14.0)
+- `2026-09-30` [captain-hook v12.65.0](https://github.com/yasyf/captain-hook/releases/tag/v12.65.0)
+- `2026-09-30` [cc-context v0.65.77](https://github.com/yasyf/cc-context/releases/tag/v0.65.77)
 - `2026-09-30` [cc-notes v0.63.3](https://github.com/yasyf/cc-notes/releases/tag/v0.63.3)
-- `2026-09-30` [cc-context v0.65.74](https://github.com/yasyf/cc-context/releases/tag/v0.65.74)
-- `2026-09-28` [captain-hook v12.60.1](https://github.com/yasyf/captain-hook/releases/tag/v12.60.1)
 - `2026-09-25` [spawnllm v0.14.0](https://github.com/yasyf/spawnllm/releases/tag/v0.14.0)
-- `2026-09-24` [cc-skills v1.13.4](https://github.com/yasyf/cc-skills/releases/tag/v1.13.4)
 - `2026-09-18` [slop-cop v0.1.72](https://github.com/yasyf/slop-cop/releases/tag/v0.1.72)
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0)
 <!-- gh-profile:end:shipped -->
