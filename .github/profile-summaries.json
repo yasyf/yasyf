@@ -1,65 +1,49 @@
 {
   "activity": {
-    "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-09-16T09:41:52Z",
-      "summary": "blocked prose questions that skip AskUserQuestion"
-    },
     "PullRequestEvent:yasyf/cc-notes": {
-      "as_of": "2026-09-16T09:13:45Z",
-      "summary": "tracked many like units as a keyed row set refreshed in place"
+      "as_of": "2026-10-01T15:41:07Z",
+      "summary": "hard-capped the compact restores at 7,500 bytes"
+    },
+    "PullRequestEvent:yasyf/cc-present": {
+      "as_of": "2026-10-01T15:46:15Z",
+      "summary": "stopped idle channels from exhausting the daemon's sessions"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-09-16T10:36:01Z",
-      "summary": "gated codex's agent-plane spawns and matched the launcher's runner lookup"
+      "as_of": "2026-10-01T16:02:54Z",
+      "summary": "landed a stack whole at green, never a bottom prefix"
     },
-    "PullRequestEvent:yasyf/cc-transcript": {
-      "as_of": "2026-09-16T10:22:40Z",
-      "summary": "lifted a session incrementally with ActivityLift"
+    "PushEvent:yasyf/cc-present": {
+      "as_of": "bab46a9bfc57",
+      "summary": "stopped idle channels from exhausting the daemon's sessions"
     },
-    "PullRequestEvent:yasyf/daemonkit": {
-      "as_of": "2026-09-16T09:18:34Z",
-      "summary": "restaged a candidate slot the request is not landing"
-    },
-    "PushEvent:yasyf/captain-hook": {
-      "as_of": "4c6fd654a9df",
-      "summary": "took daemonkit v0.31.1 so an aborted install stops wedging upgrades"
-    },
-    "PushEvent:yasyf/cc-orchestrate": {
-      "as_of": "64d6f69b7f8f",
-      "summary": "synced the cco binrun descriptor and manifest to v0.17.1"
+    "PushEvent:yasyf/cc-review": {
+      "as_of": "f29f8ea54452",
+      "summary": "took cc-interact v0.35.1 and smoke-tested the supervised daemon on linux"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "362efabf99b5",
-      "summary": "pinned binrun v0.7.0 for signed-app copy_exec in the guides"
-    },
-    "PushEvent:yasyf/daemonkit": {
-      "as_of": "1f9f9ce6b4da",
-      "summary": "exec'd a signed app entrypoint straight from the artifact cache"
-    },
-    "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "9cde0cce0aaa",
-      "summary": "bumped the cc-skills, captain-hook, and cc-notes formulae"
+      "as_of": "798472350836",
+      "summary": "read the GraphQL quota reset from a rejected call's headers"
     }
   },
-  "generated_at": "2026-09-16T14:22:20Z",
+  "generated_at": "2026-10-01T16:45:00Z",
   "shipped": {
-    "captain-hook@v12.37.0": {
-      "summary": "daemonkit v0.31.1 underneath, so an aborted install stops wedging upgrades"
+    "captain-hook@v12.71.1": {
+      "summary": "runs the narrate-then-wait gate on orchestrator sessions, main-session finals only"
     },
-    "cc-context@v0.58.2": {
-      "summary": "read a queue landing from the trunk, not the closing account"
-    },
-    "cc-notes@v0.53.1": {
-      "summary": "dropped the stapler checks brew's sandbox cannot run"
+    "cc-notes@v0.63.6": {
+      "summary": "never drops a durable answer title from the compact restore"
     },
     "cc-pool@v0.69.0": {
       "summary": "added `ccp package reset` to retire a wedged deployment"
     },
-    "cc-skills@v1.12.4": {
-      "summary": "pinned binrun v0.7.0 for copy_exec and gated codex's agent-plane spawns"
+    "cc-remote@v0.1.0": {
+      "summary": "Sprites and Namespace agent backends behind one provider contract"
     },
-    "spawnllm@v0.11.0": {
-      "summary": "added an Apple Foundation Models on-device backend and exact-model passthrough"
+    "cc-skills@v1.14.2": {
+      "summary": "long-running lanes flush in place instead of stopping"
+    },
+    "spawnllm@v0.14.0": {
+      "summary": "the openai_endpoint backend sends a typed reasoning_effort"
     }
   },
   "version": 1
