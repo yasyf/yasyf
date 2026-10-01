@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-01T16:41:36Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-01T22:50:20Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-10-01` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
-- `2026-10-01` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review) — took cc-interact v0.35.1 and smoke-tested the supervised daemon on linux
-- `2026-10-01` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
-- `2026-10-01` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
 - `2026-10-01` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — read the GraphQL quota reset from a rejected call's headers
+- `2026-10-01` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-10-01` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 - `2026-10-01` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — landed a stack whole at green, never a bottom prefix
-- `2026-10-01` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — stopped idle channels from exhausting the daemon's sessions
-- `2026-10-01` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present) — stopped idle channels from exhausting the daemon's sessions
-- `2026-10-01` Created something new in [yasyf/cc-present](https://github.com/yasyf/cc-present)
-- `2026-10-01` Was active in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-10-01` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — hard-capped the compact restores at 7,500 bytes
+- `2026-10-01` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-01` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-10-01` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-01` Pushed to [yasyf/cc-remote](https://github.com/yasyf/cc-remote)
+- `2026-10-01` Worked on a pull request in [yasyf/cc-remote](https://github.com/yasyf/cc-remote)
+- `2026-10-01` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-10-01` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-01` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
 
-**33,808 contributions in the last year**
+**34,084 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -118,10 +118,10 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-10-01` [captain-hook v12.71.1](https://github.com/yasyf/captain-hook/releases/tag/v12.71.1) — runs the narrate-then-wait gate on orchestrator sessions, main-session finals only
-- `2026-10-01` [cc-notes v0.63.6](https://github.com/yasyf/cc-notes/releases/tag/v0.63.6) — never drops a durable answer title from the compact restore
-- `2026-10-01` [cc-remote v0.1.0](https://github.com/yasyf/cc-remote/releases/tag/v0.1.0) — Sprites and Namespace agent backends behind one provider contract
-- `2026-10-01` [cc-skills v1.14.2](https://github.com/yasyf/cc-skills/releases/tag/v1.14.2) — long-running lanes flush in place instead of stopping
+- `2026-10-01` [cc-remote v0.2.0](https://github.com/yasyf/cc-remote/releases/tag/v0.2.0)
+- `2026-10-01` [cc-skills v1.14.7](https://github.com/yasyf/cc-skills/releases/tag/v1.14.7)
+- `2026-10-01` [captain-hook v12.74.0](https://github.com/yasyf/captain-hook/releases/tag/v12.74.0)
+- `2026-10-01` [cc-notes v0.63.8](https://github.com/yasyf/cc-notes/releases/tag/v0.63.8)
 - `2026-09-25` [spawnllm v0.14.0](https://github.com/yasyf/spawnllm/releases/tag/v0.14.0) — the openai_endpoint backend sends a typed reasoning_effort
 - `2026-09-18` [slop-cop v0.1.72](https://github.com/yasyf/slop-cop/releases/tag/v0.1.72)
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
