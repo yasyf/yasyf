@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-02T06:01:08Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-02T13:01:09Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -28,19 +28,19 @@
 
 <!-- gh-profile:start:activity -->
 - `2026-10-02` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-10-02` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 - `2026-10-02` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
-- `2026-10-02` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-10-02` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-10-02` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-10-02` Pushed to [yasyf/cc-remote](https://github.com/yasyf/cc-remote)
 - `2026-10-02` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
-- `2026-10-02` Created something new in [yasyf/cc-sudo](https://github.com/yasyf/cc-sudo)
-- `2026-10-02` Worked on a pull request in [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
-- `2026-10-02` Created something new in [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-10-02` Created something new in [yasyf/cc-remote](https://github.com/yasyf/cc-remote)
+- `2026-10-02` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-02` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-02` Worked on a pull request in [yasyf/cc-remote](https://github.com/yasyf/cc-remote)
 - `2026-10-02` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — read the GraphQL quota reset from a rejected call's headers
 - `2026-10-02` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — landed a stack whole at green, never a bottom prefix
-- `2026-10-02` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-10-02` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 
-**34,318 contributions in the last year**
+**34,446 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -118,11 +118,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-10-02` [captain-hook v12.79.3](https://github.com/yasyf/captain-hook/releases/tag/v12.79.3)
+- `2026-10-02` [captain-hook v12.79.6](https://github.com/yasyf/captain-hook/releases/tag/v12.79.6)
+- `2026-10-02` [cc-skills v1.14.9](https://github.com/yasyf/cc-skills/releases/tag/v1.14.9)
 - `2026-10-02` [cc-notes v0.65.2](https://github.com/yasyf/cc-notes/releases/tag/v0.65.2)
 - `2026-10-02` [cc-remote v0.8.0](https://github.com/yasyf/cc-remote/releases/tag/v0.8.0)
 - `2026-10-02` [spawnllm v0.15.0](https://github.com/yasyf/spawnllm/releases/tag/v0.15.0)
-- `2026-10-02` [cc-skills v1.14.8](https://github.com/yasyf/cc-skills/releases/tag/v1.14.8)
 - `2026-09-18` [slop-cop v0.1.72](https://github.com/yasyf/slop-cop/releases/tag/v0.1.72)
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
 <!-- gh-profile:end:shipped -->
@@ -139,8 +139,8 @@
 <!-- gh-profile:start:languages -->
 ```text
 Go          ████████████████████   40%
-Python      █████████████████░░░   33%
-Ruby        ████░░░░░░░░░░░░░░░░    8%
+Python      ██████████████████░░   35%
+Ruby        ███░░░░░░░░░░░░░░░░░    6%
 Rust        ███░░░░░░░░░░░░░░░░░    6%
 Swift       ███░░░░░░░░░░░░░░░░░    6%
 TypeScript  ███░░░░░░░░░░░░░░░░░    6%
