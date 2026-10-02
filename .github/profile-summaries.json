@@ -1,49 +1,49 @@
 {
   "activity": {
-    "PullRequestEvent:yasyf/cc-notes": {
-      "as_of": "2026-10-01T15:41:07Z",
-      "summary": "hard-capped the compact restores at 7,500 bytes"
+    "PullRequestEvent:yasyf/cc-remote": {
+      "as_of": "2026-10-02T15:33:30Z",
+      "summary": "mounted pinned tool payloads on fresh Sprites"
     },
-    "PullRequestEvent:yasyf/cc-present": {
-      "as_of": "2026-10-01T15:46:15Z",
-      "summary": "stopped idle channels from exhausting the daemon's sessions"
+    "PushEvent:yasyf/cc-context": {
+      "as_of": "3018f623c4b7",
+      "summary": "bounded worktree rm --wait with read-only status polls"
     },
-    "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-10-01T16:02:54Z",
-      "summary": "landed a stack whole at green, never a bottom prefix"
+    "PushEvent:yasyf/cc-orchestrate": {
+      "as_of": "e925543d3313",
+      "summary": "backed off idle subject resolution in the channel"
     },
-    "PushEvent:yasyf/cc-present": {
-      "as_of": "bab46a9bfc57",
-      "summary": "stopped idle channels from exhausting the daemon's sessions"
+    "PushEvent:yasyf/cc-remote": {
+      "as_of": "dadbc5974346",
+      "summary": "overlapped runtime install and Sprite service registration"
     },
     "PushEvent:yasyf/cc-review": {
-      "as_of": "f29f8ea54452",
-      "summary": "took cc-interact v0.35.1 and smoke-tested the supervised daemon on linux"
+      "as_of": "af4e8af6c0e0",
+      "summary": "gated cask quarantine removal on release"
     },
-    "PushEvent:yasyf/cc-skills": {
-      "as_of": "798472350836",
-      "summary": "read the GraphQL quota reset from a rejected call's headers"
+    "PushEvent:yasyf/cc-transcript": {
+      "as_of": "264814629901",
+      "summary": "streamed Claude transcripts in grep, stopping at match quotas"
     }
   },
-  "generated_at": "2026-10-01T16:45:00Z",
+  "generated_at": "2026-10-02T16:00:00Z",
   "shipped": {
-    "captain-hook@v12.71.1": {
-      "summary": "runs the narrate-then-wait gate on orchestrator sessions, main-session finals only"
+    "captain-hook@v12.79.8": {
+      "summary": "denies unverified TaskStop calls and fails native dispatch closed"
     },
-    "cc-notes@v0.63.6": {
-      "summary": "never drops a durable answer title from the compact restore"
+    "cc-notes@v0.65.2": {
+      "summary": "indexes attachment refs per tip and pushes only pending refs on sync"
     },
     "cc-pool@v0.69.0": {
       "summary": "added `ccp package reset` to retire a wedged deployment"
     },
-    "cc-remote@v0.1.0": {
-      "summary": "Sprites and Namespace agent backends behind one provider contract"
+    "cc-remote@v0.9.0": {
+      "summary": "mounts pinned tool payloads on fresh Sprites"
     },
-    "cc-skills@v1.14.2": {
-      "summary": "long-running lanes flush in place instead of stopping"
+    "cc-skills@v1.14.9": {
+      "summary": "keys long-running hooks on ccx annotations and confirm"
     },
-    "spawnllm@v0.14.0": {
-      "summary": "the openai_endpoint backend sends a typed reasoning_effort"
+    "docker-dsl@v0.1.2": {
+      "summary": "imports recipes from the working directory in the console script"
     }
   },
   "version": 1
