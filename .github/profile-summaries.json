@@ -1,49 +1,56 @@
 {
   "activity": {
+    "PullRequestEvent:yasyf/cc-context": {
+      "as_of": "2026-10-03T09:22:51Z",
+      "summary": "judged clean stack merges under trunk's attributes"
+    },
     "PullRequestEvent:yasyf/cc-remote": {
-      "as_of": "2026-10-02T15:33:30Z",
-      "summary": "mounted pinned tool payloads on fresh Sprites"
+      "as_of": "2026-10-03T10:35:34Z",
+      "summary": "moved Namespace workspaces onto regular Compute instances"
+    },
+    "PullRequestEvent:yasyf/cc-skills": {
+      "as_of": "2026-10-03T09:31:57Z",
+      "summary": "pointed long-running at canonical remote worker launchers"
+    },
+    "PullRequestEvent:yasyf/cc-transcript": {
+      "as_of": "2026-10-03T08:46:30Z",
+      "summary": "persisted per-file grep indexes for new queries"
     },
     "PushEvent:yasyf/cc-context": {
-      "as_of": "3018f623c4b7",
-      "summary": "bounded worktree rm --wait with read-only status polls"
+      "as_of": "43748ad81041",
+      "summary": "moved cleanly replayed sources and judged merges under trunk's attributes"
     },
-    "PushEvent:yasyf/cc-orchestrate": {
-      "as_of": "e925543d3313",
-      "summary": "backed off idle subject resolution in the channel"
+    "PushEvent:yasyf/cc-notes": {
+      "as_of": "bfbf4c1e2f28",
+      "summary": "retained MCP stores and batched status reads"
     },
     "PushEvent:yasyf/cc-remote": {
-      "as_of": "dadbc5974346",
-      "summary": "overlapped runtime install and Sprite service registration"
-    },
-    "PushEvent:yasyf/cc-review": {
-      "as_of": "af4e8af6c0e0",
-      "summary": "gated cask quarantine removal on release"
-    },
-    "PushEvent:yasyf/cc-transcript": {
-      "as_of": "264814629901",
-      "summary": "streamed Claude transcripts in grep, stopping at match quotas"
+      "as_of": "34c3ab23f565",
+      "summary": "switched Namespace workspaces to Compute instances with direct OCI builds"
     }
   },
-  "generated_at": "2026-10-02T16:00:00Z",
+  "generated_at": "2026-10-03T16:00:00Z",
   "shipped": {
-    "captain-hook@v12.79.8": {
-      "summary": "denies unverified TaskStop calls and fails native dispatch closed"
+    "captain-hook@v12.83.1": {
+      "summary": "coalesces reviews before spawn and skips recorded correction anchors"
     },
-    "cc-notes@v0.65.2": {
-      "summary": "indexes attachment refs per tip and pushes only pending refs on sync"
+    "cc-notes@v0.68.0": {
+      "summary": "retains MCP stores and batches status reads"
     },
     "cc-pool@v0.69.0": {
       "summary": "added `ccp package reset` to retire a wedged deployment"
     },
-    "cc-remote@v0.9.0": {
-      "summary": "mounts pinned tool payloads on fresh Sprites"
+    "cc-remote@v0.14.0": {
+      "summary": "runs Namespace workspaces on regular Compute instances via the official Go SDK"
     },
-    "cc-skills@v1.14.9": {
-      "summary": "keys long-running hooks on ccx annotations and confirm"
+    "cc-skills@v1.14.10": {
+      "summary": "long-running fixes across Slack threads, desk launches, and Orca workers"
     },
     "docker-dsl@v0.1.2": {
       "summary": "imports recipes from the working directory in the console script"
+    },
+    "spawnllm@v0.15.0": {
+      "summary": "resolves Codex's small and medium tiers to gpt-6-luna"
     }
   },
   "version": 1
