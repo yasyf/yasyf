@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-03T16:36:02Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-03T21:39:16Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-10-03` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
-- `2026-10-03` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
-- `2026-10-03` Pushed to [yasyf/cc-remote](https://github.com/yasyf/cc-remote) — switched Namespace workspaces to Compute instances with direct OCI builds
-- `2026-10-03` Worked on a pull request in [yasyf/cc-remote](https://github.com/yasyf/cc-remote) — moved Namespace workspaces onto regular Compute instances
-- `2026-10-03` Created something new in [yasyf/cc-remote](https://github.com/yasyf/cc-remote)
-- `2026-10-03` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-10-03` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-10-03` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-10-03` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-10-03` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
-- `2026-10-02` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — moved cleanly replayed sources and judged merges under trunk's attributes
-- `2026-10-02` Was active in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-03` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — judged clean stack merges under trunk's attributes
+- `2026-10-03` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-03` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-10-03` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-03` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-10-03` Created something new in [yasyf/cc-remote](https://github.com/yasyf/cc-remote)
+- `2026-10-03` Pushed to [yasyf/cookiesync](https://github.com/yasyf/cookiesync)
+- `2026-10-03` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-03` Created something new in [yasyf/cookiesync](https://github.com/yasyf/cookiesync)
+- `2026-10-03` Pushed to [yasyf/cc-remote](https://github.com/yasyf/cc-remote) — switched Namespace workspaces to Compute instances with direct OCI builds
+- `2026-10-03` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present)
 
-**35,058 contributions in the last year**
+**35,061 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
