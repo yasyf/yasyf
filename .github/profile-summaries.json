@@ -1,56 +1,53 @@
 {
   "activity": {
+    "PullRequestEvent:yasyf/captain-hook": {
+      "as_of": "2026-10-04T12:11:11Z",
+      "summary": "went back to holding a push when the merge-queue check times out"
+    },
     "PullRequestEvent:yasyf/cc-context": {
-      "as_of": "2026-10-03T09:22:51Z",
-      "summary": "judged clean stack merges under trunk's attributes"
+      "as_of": "2026-10-04T13:30:40Z",
+      "summary": "recorded publication receipts for plain Graphite submits"
     },
     "PullRequestEvent:yasyf/cc-remote": {
-      "as_of": "2026-10-03T10:35:34Z",
-      "summary": "moved Namespace workspaces onto regular Compute instances"
+      "as_of": "2026-10-04T09:53:05Z",
+      "summary": "prepared Orca workers from an unused Sprite pool"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-10-03T09:31:57Z",
-      "summary": "pointed long-running at canonical remote worker launchers"
+      "as_of": "2026-10-04T11:39:59Z",
+      "summary": "skipped an alert's fix lane when another lane already holds its monitor"
     },
-    "PullRequestEvent:yasyf/cc-transcript": {
-      "as_of": "2026-10-03T08:46:30Z",
-      "summary": "persisted per-file grep indexes for new queries"
+    "PushEvent:yasyf/captain-hook": {
+      "as_of": "730619494963",
+      "summary": "held pushes again when the merge-queue check times out"
     },
     "PushEvent:yasyf/cc-context": {
-      "as_of": "43748ad81041",
-      "summary": "moved cleanly replayed sources and judged merges under trunk's attributes"
-    },
-    "PushEvent:yasyf/cc-notes": {
-      "as_of": "bfbf4c1e2f28",
-      "summary": "retained MCP stores and batched status reads"
+      "as_of": "fc6e1674d8f0",
+      "summary": "added publication receipts for plain Graphite submits"
     },
     "PushEvent:yasyf/cc-remote": {
-      "as_of": "34c3ab23f565",
-      "summary": "switched Namespace workspaces to Compute instances with direct OCI builds"
+      "as_of": "d07f79e5beaa",
+      "summary": "tightened unused Sprite pool admission and replenishment"
     }
   },
-  "generated_at": "2026-10-03T16:00:00Z",
+  "generated_at": "2026-10-04T14:58:47Z",
   "shipped": {
-    "captain-hook@v12.83.1": {
-      "summary": "coalesces reviews before spawn and skips recorded correction anchors"
+    "captain-hook@v12.87.6": {
+      "summary": "holds a push again when the merge-queue check times out"
     },
-    "cc-notes@v0.68.0": {
-      "summary": "retains MCP stores and batches status reads"
+    "cc-notes@v0.68.2": {
+      "summary": "records AskUserQuestion answers on the reply path"
     },
     "cc-pool@v0.69.0": {
       "summary": "added `ccp package reset` to retire a wedged deployment"
     },
-    "cc-remote@v0.14.0": {
-      "summary": "runs Namespace workspaces on regular Compute instances via the official Go SDK"
+    "cc-remote@v0.16.0": {
+      "summary": "prepares Orca workers from an unused Sprite pool"
     },
     "cc-skills@v1.14.10": {
       "summary": "long-running fixes across Slack threads, desk launches, and Orca workers"
     },
     "docker-dsl@v0.1.2": {
       "summary": "imports recipes from the working directory in the console script"
-    },
-    "spawnllm@v0.15.0": {
-      "summary": "resolves Codex's small and medium tiers to gpt-6-luna"
     }
   },
   "version": 1
