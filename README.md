@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-06T16:15:16Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-06T18:32:55Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-10-06` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-10-06` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — proposed refusing ledger prefixes that are not lane-specific, plus unregister
+- `2026-10-06` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped formulae for the captain-hook, cc-sudo, and cc-inbox releases
+- `2026-10-06` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present)
+- `2026-10-06` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-06` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-06` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — had incident-retro push the finalized draft to the live branch
 - `2026-10-06` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
+- `2026-10-06` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
 - `2026-10-06` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm) — added a Codex bypass and isolated Claude API auth
 - `2026-10-06` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — gated the cask's quarantine removal
 - `2026-10-06` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
-- `2026-10-06` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped formulae for the captain-hook, cc-sudo, and cc-inbox releases
-- `2026-10-06` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — let the root stop a done dispatch and interrupt its own Orca lane
-- `2026-10-06` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — let the root interrupt its own Orca lane
-- `2026-10-06` Worked on a pull request in [yasyf/cc-sudo](https://github.com/yasyf/cc-sudo) — reached synckitd 0.40 over daemonkit protocol 2 and cut 0.12.0
-- `2026-10-06` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — had incident-retro push the finalized draft to the live branch
-- `2026-10-06` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-10-06` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — delivered every record addressed to a lane after each tool call
 
-**36,504 contributions in the last year**
+**36,560 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -119,9 +119,9 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-10-06` [cc-skills v1.14.13](https://github.com/yasyf/cc-skills/releases/tag/v1.14.13)
 - `2026-10-06` [captain-hook v12.88.16](https://github.com/yasyf/captain-hook/releases/tag/v12.88.16) — lets the root interrupt its own Orca lane
 - `2026-10-06` [cc-remote v0.22.2](https://github.com/yasyf/cc-remote/releases/tag/v0.22.2) — records which Sprite create step failed
-- `2026-10-05` [cc-skills v1.14.12](https://github.com/yasyf/cc-skills/releases/tag/v1.14.12) — a drive dashboard with chat, cci-backed lane inboxes, and live incident retros
 - `2026-10-05` [spawnllm v0.16.0](https://github.com/yasyf/spawnllm/releases/tag/v0.16.0) — added a Codex bypass and isolated Claude API auth
 - `2026-09-18` [slop-cop v0.1.72](https://github.com/yasyf/slop-cop/releases/tag/v0.1.72)
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
