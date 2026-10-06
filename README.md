@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-05T18:49:21Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-06T00:14:40Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -28,19 +28,19 @@
 
 <!-- gh-profile:start:activity -->
 - `2026-10-05` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped formulae for the captain-hook, cc-inbox, and cc-remote releases
-- `2026-10-05` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — routed prose to Opus and review lanes to sol
+- `2026-10-05` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — defaulted the digest budget to fit every section whole
+- `2026-10-05` Was active in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
 - `2026-10-05` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — let the digest close untracked holds with --resolves
 - `2026-10-05` Created something new in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
-- `2026-10-05` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — defaulted the digest budget to fit every section whole
 - `2026-10-05` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged the incident retro PR once it is clean and green
 - `2026-10-05` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — had incident-retro merge the retro PR once it is clean and green
 - `2026-10-05` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-10-05` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-10-05` Pushed to [yasyf/cc-remote](https://github.com/yasyf/cc-remote) — ran Orca startup polling through an admitted guest helper
-- `2026-10-05` Was active in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
+- `2026-10-05` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — routed prose to Opus and review lanes to sol
 - `2026-10-05` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-10-05` Worked on a pull request in [yasyf/cc-remote](https://github.com/yasyf/cc-remote)
+- `2026-10-05` Discussed issues in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
 
-**36,299 contributions in the last year**
+**36,334 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -119,11 +119,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-10-05` [cc-skills v1.14.12](https://github.com/yasyf/cc-skills/releases/tag/v1.14.12)
 - `2026-10-05` [captain-hook v12.88.12](https://github.com/yasyf/captain-hook/releases/tag/v12.88.12) — routes prose to Opus and review lanes to sol
 - `2026-10-05` [cc-remote v0.22.0](https://github.com/yasyf/cc-remote/releases/tag/v0.22.0) — runs Orca startup polling through an admitted guest helper
 - `2026-10-05` [spawnllm v0.16.0](https://github.com/yasyf/spawnllm/releases/tag/v0.16.0) — added a Codex bypass and isolated Claude API auth
 - `2026-10-05` [cc-notes v0.68.3](https://github.com/yasyf/cc-notes/releases/tag/v0.68.3) — caps recall and dedupes session nudges
-- `2026-10-05` [cc-skills v1.14.11](https://github.com/yasyf/cc-skills/releases/tag/v1.14.11) — long-running incident watches, Orca desk launches, and a rules-review merge gate
 - `2026-09-18` [slop-cop v0.1.72](https://github.com/yasyf/slop-cop/releases/tag/v0.1.72)
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
 - `2026-07-03` [docker-dsl v0.1.2](https://github.com/yasyf/docker-dsl/releases/tag/v0.1.2) — imports recipes from the working directory in the console script
