@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-07T13:44:54Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-07T23:15:06Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-10-07` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
 - `2026-10-07` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-10-07` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — let the root interrupt its own Orca lane
-- `2026-10-07` Worked on a pull request in [yasyf/cc-remote](https://github.com/yasyf/cc-remote)
-- `2026-10-07` Worked on a pull request in [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
-- `2026-10-07` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-10-07` Worked on a pull request in [yasyf/cc-review](https://github.com/yasyf/cc-review)
-- `2026-10-07` Worked on a pull request in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
-- `2026-10-07` Was active in [yasyf/cc-review](https://github.com/yasyf/cc-review)
-- `2026-10-07` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped formulae for the captain-hook, cc-sudo, and cc-inbox releases
-- `2026-10-07` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
-- `2026-10-07` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-07` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-10-07` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — had incident-retro push the finalized draft to the live branch
+- `2026-10-07` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped formulae for the captain-hook, cc-sudo, and cc-inbox releases
+- `2026-10-07` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-10-07` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-07` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — let the root stop a done dispatch and interrupt its own Orca lane
+- `2026-10-07` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
+- `2026-10-07` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-10-07` Created something new in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
 
-**37,103 contributions in the last year**
+**37,210 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -119,12 +119,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-10-07` [cc-remote v0.23.0](https://github.com/yasyf/cc-remote/releases/tag/v0.23.0)
-- `2026-10-07` [spawnllm v0.17.0](https://github.com/yasyf/spawnllm/releases/tag/v0.17.0)
-- `2026-10-07` [cc-notes v0.69.0](https://github.com/yasyf/cc-notes/releases/tag/v0.69.0)
-- `2026-10-07` [captain-hook v12.88.31](https://github.com/yasyf/captain-hook/releases/tag/v12.88.31)
+- `2026-10-07` [captain-hook v12.91.1](https://github.com/yasyf/captain-hook/releases/tag/v12.91.1)
+- `2026-10-07` [slop-cop v0.1.73](https://github.com/yasyf/slop-cop/releases/tag/v0.1.73)
+- `2026-10-07` [spawnllm v0.17.1](https://github.com/yasyf/spawnllm/releases/tag/v0.17.1)
+- `2026-10-07` [cc-notes v0.70.1](https://github.com/yasyf/cc-notes/releases/tag/v0.70.1)
 - `2026-10-06` [cc-skills v1.14.13](https://github.com/yasyf/cc-skills/releases/tag/v1.14.13)
-- `2026-09-18` [slop-cop v0.1.72](https://github.com/yasyf/slop-cop/releases/tag/v0.1.72)
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
 - `2026-07-03` [docker-dsl v0.1.2](https://github.com/yasyf/docker-dsl/releases/tag/v0.1.2) — imports recipes from the working directory in the console script
 <!-- gh-profile:end:shipped -->
