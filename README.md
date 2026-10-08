@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-08T06:30:47Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-08T16:52:56Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-10-08` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-10-08` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — proposed refusing ledger prefixes that are not lane-specific, plus unregister
+- `2026-10-08` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — proposed having orca standing desks loop until rotation instead of finishing
 - `2026-10-08` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-10-08` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-10-08` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — had incident-retro push the finalized draft to the live branch
-- `2026-10-07` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-10-08` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — had the ledger summary report a worker it cannot show instead of crashing
+- `2026-10-08` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — proposed refusing a stack submit above a held branch with unpublished work
+- `2026-10-08` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-07` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — read --version from the installed package metadata
+- `2026-10-07` Created something new in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-10-07` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the ccx formula to v0.74.12
+- `2026-10-07` Was active in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-07` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — asked TypeSafe Jev before the LLM in the grant judge and correction pick
 - `2026-10-07` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-10-07` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash)
-- `2026-10-07` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-10-07` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-10-07` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-10-07` Created something new in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
 
-**37,284 contributions in the last year**
+**37,354 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -119,11 +119,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-10-07` [captain-hook v12.91.1](https://github.com/yasyf/captain-hook/releases/tag/v12.91.1)
-- `2026-10-07` [slop-cop v0.1.73](https://github.com/yasyf/slop-cop/releases/tag/v0.1.73)
-- `2026-10-07` [spawnllm v0.17.1](https://github.com/yasyf/spawnllm/releases/tag/v0.17.1)
-- `2026-10-07` [cc-notes v0.70.1](https://github.com/yasyf/cc-notes/releases/tag/v0.70.1)
-- `2026-10-06` [cc-skills v1.14.13](https://github.com/yasyf/cc-skills/releases/tag/v1.14.13)
+- `2026-10-07` [captain-hook v12.91.1](https://github.com/yasyf/captain-hook/releases/tag/v12.91.1) — asks TypeSafe Jev before the LLM in the grant judge and correction pick
+- `2026-10-07` [slop-cop v0.1.73](https://github.com/yasyf/slop-cop/releases/tag/v0.1.73) — added --strict and a rule-suppression config, and bounded the detection tiers
+- `2026-10-07` [spawnllm v0.17.1](https://github.com/yasyf/spawnllm/releases/tag/v0.17.1) — reads the Keychain before the credentials file for Claude
+- `2026-10-07` [cc-notes v0.70.1](https://github.com/yasyf/cc-notes/releases/tag/v0.70.1) — judges commit decisions on Jev
+- `2026-10-06` [cc-skills v1.14.13](https://github.com/yasyf/cc-skills/releases/tag/v1.14.13) — redesigned the long-running dashboard around what needs the owner
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
 - `2026-07-03` [docker-dsl v0.1.2](https://github.com/yasyf/docker-dsl/releases/tag/v0.1.2) — imports recipes from the working directory in the console script
 <!-- gh-profile:end:shipped -->
