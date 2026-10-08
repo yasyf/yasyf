@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-08T16:52:56Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-08T23:30:16Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -28,19 +28,19 @@
 
 <!-- gh-profile:start:activity -->
 - `2026-10-08` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — proposed having orca standing desks loop until rotation instead of finishing
-- `2026-10-08` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-10-08` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-10-08` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — had the ledger summary report a worker it cannot show instead of crashing
+- `2026-10-08` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present)
 - `2026-10-08` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — proposed refusing a stack submit above a held branch with unpublished work
 - `2026-10-08` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-08` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-08` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — had the ledger summary report a worker it cannot show instead of crashing
+- `2026-10-08` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-08` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-08` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the ccx formula to v0.74.12
+- `2026-10-08` Was active in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-07` Was active in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
 - `2026-10-07` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — read --version from the installed package metadata
-- `2026-10-07` Created something new in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
-- `2026-10-07` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the ccx formula to v0.74.12
-- `2026-10-07` Was active in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-10-07` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — asked TypeSafe Jev before the LLM in the grant judge and correction pick
-- `2026-10-07` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 
-**37,354 contributions in the last year**
+**37,430 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
