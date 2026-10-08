@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-07T23:15:06Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-08T06:30:47Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-10-08` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-08` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — proposed refusing ledger prefixes that are not lane-specific, plus unregister
+- `2026-10-08` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-08` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-08` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — had incident-retro push the finalized draft to the live branch
 - `2026-10-07` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
-- `2026-10-07` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-10-07` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — let the root interrupt its own Orca lane
-- `2026-10-07` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-10-07` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — had incident-retro push the finalized draft to the live branch
-- `2026-10-07` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped formulae for the captain-hook, cc-sudo, and cc-inbox releases
-- `2026-10-07` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-10-07` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-10-07` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash)
 - `2026-10-07` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-10-07` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — let the root stop a done dispatch and interrupt its own Orca lane
-- `2026-10-07` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
-- `2026-10-07` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-10-07` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-10-07` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-10-07` Created something new in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
 
-**37,210 contributions in the last year**
+**37,284 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
