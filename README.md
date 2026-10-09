@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-08T23:30:16Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-09T16:31:52Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-10-08` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — proposed having orca standing desks loop until rotation instead of finishing
-- `2026-10-08` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present)
-- `2026-10-08` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — proposed refusing a stack submit above a held branch with unpublished work
-- `2026-10-08` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-10-08` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-10-08` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — had the ledger summary report a worker it cannot show instead of crashing
-- `2026-10-08` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-10-08` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-10-08` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the ccx formula to v0.74.12
-- `2026-10-08` Was active in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-10-07` Was active in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
-- `2026-10-07` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — read --version from the installed package metadata
+- `2026-10-09` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — proposed letting a read take any poll claimed since it asked, however long that poll runs
+- `2026-10-09` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — proposed a ledger.py reassign that moves a PR row to a new owning lane
+- `2026-10-09` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — seeded the pull requests the submit tests expect and pinned the hold
+- `2026-10-09` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-09` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the ccx formula to v0.76.5
+- `2026-10-09` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — re-rendered the guides from cc-guides 0.1.54
+- `2026-10-09` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — skipped the plain-English rewrite for Opus 5.5+ and Fable 5.1+ sessions
+- `2026-10-09` Worked on a pull request in [yasyf/cc-review](https://github.com/yasyf/cc-review) — read the channel route from cc-interact's ChannelState
+- `2026-10-09` Worked on a pull request in [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — shared channel state and the delivery probe for v0.37.0
+- `2026-10-09` Was active in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-10-09` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — taught snapshots to describe the session's latest assistant model
+- `2026-10-09` Worked on a pull request in [yasyf/cc-remote](https://github.com/yasyf/cc-remote) — let a tailnet destroy run without the machine's tailnet daemon
 
-**37,430 contributions in the last year**
+**37,852 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -101,6 +101,7 @@
 - [synckit](https://github.com/yasyf/synckit) — the shared substrate the tools below build on: host mesh, a convergent registry, unix-socket RPC, and synckitd, the daemon they now ride
 - [reposync](https://github.com/yasyf/reposync) — your other machine already pulled: git checkouts kept in step across every host you work from
 - [cookiesync](https://github.com/yasyf/cookiesync) — your other Mac already did the 2FA: browser sessions moved between your own machines, consent gated behind Touch ID via authkit
+- [cc-sync](https://github.com/yasyf/cc-sync) — pick up where the other machine left off: Claude Code sessions, their uncommitted Git work, and Orca workspace layouts recovered on another synckit peer
 
 **Python, with fewer footguns**
 
@@ -119,13 +120,14 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-10-07` [captain-hook v12.91.1](https://github.com/yasyf/captain-hook/releases/tag/v12.91.1) — asks TypeSafe Jev before the LLM in the grant judge and correction pick
+- `2026-10-09` [captain-hook v12.92.3](https://github.com/yasyf/captain-hook/releases/tag/v12.92.3) — re-renders the guides from cc-guides 0.1.54
+- `2026-10-09` [cc-review v0.40.2](https://github.com/yasyf/cc-review/releases/tag/v0.40.2) — reads the channel route from cc-interact's ChannelState
+- `2026-10-09` [cc-remote v0.24.1](https://github.com/yasyf/cc-remote/releases/tag/v0.24.1) — destroys a tailnet without the machine's tailnet daemon
+- `2026-10-09` [cc-notes v0.71.0](https://github.com/yasyf/cc-notes/releases/tag/v0.71.0) — names every MCP tool argument one way
 - `2026-10-07` [slop-cop v0.1.73](https://github.com/yasyf/slop-cop/releases/tag/v0.1.73) — added --strict and a rule-suppression config, and bounded the detection tiers
 - `2026-10-07` [spawnllm v0.17.1](https://github.com/yasyf/spawnllm/releases/tag/v0.17.1) — reads the Keychain before the credentials file for Claude
-- `2026-10-07` [cc-notes v0.70.1](https://github.com/yasyf/cc-notes/releases/tag/v0.70.1) — judges commit decisions on Jev
 - `2026-10-06` [cc-skills v1.14.13](https://github.com/yasyf/cc-skills/releases/tag/v1.14.13) — redesigned the long-running dashboard around what needs the owner
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
-- `2026-07-03` [docker-dsl v0.1.2](https://github.com/yasyf/docker-dsl/releases/tag/v0.1.2) — imports recipes from the working directory in the console script
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
@@ -140,11 +142,11 @@
 <!-- gh-profile:start:languages -->
 ```text
 Go          ████████████████████   42%
-Python      ████████████████░░░░   33%
-Ruby        ███░░░░░░░░░░░░░░░░░    6%
+Python      █████████████████░░░   35%
 Rust        ███░░░░░░░░░░░░░░░░░    6%
 Swift       ███░░░░░░░░░░░░░░░░░    6%
 TypeScript  ███░░░░░░░░░░░░░░░░░    6%
+Ruby        ██░░░░░░░░░░░░░░░░░░    4%
 ```
 <!-- gh-profile:end:languages -->
 

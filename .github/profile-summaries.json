@@ -1,46 +1,65 @@
 {
   "activity": {
+    "PullRequestEvent:yasyf/captain-hook": {
+      "as_of": "2026-10-09T11:46:13Z",
+      "summary": "skipped the plain-English rewrite for Opus 5.5+ and Fable 5.1+ sessions"
+    },
     "PullRequestEvent:yasyf/cc-context": {
-      "as_of": "2026-10-08T11:29:21Z",
-      "summary": "proposed refusing a stack submit above a held branch with unpublished work"
+      "as_of": "2026-10-09T16:30:13Z",
+      "summary": "proposed letting a read take any poll claimed since it asked, however long that poll runs"
+    },
+    "PullRequestEvent:yasyf/cc-interact": {
+      "as_of": "2026-10-09T11:18:57Z",
+      "summary": "shared channel state and the delivery probe for v0.37.0"
+    },
+    "PullRequestEvent:yasyf/cc-remote": {
+      "as_of": "2026-10-09T10:48:01Z",
+      "summary": "let a tailnet destroy run without the machine's tailnet daemon"
+    },
+    "PullRequestEvent:yasyf/cc-review": {
+      "as_of": "2026-10-09T11:45:56Z",
+      "summary": "read the channel route from cc-interact's ChannelState"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-10-08T16:40:34Z",
-      "summary": "proposed having orca standing desks loop until rotation instead of finishing"
+      "as_of": "2026-10-09T16:29:51Z",
+      "summary": "proposed a ledger.py reassign that moves a PR row to a new owning lane"
     },
     "PullRequestEvent:yasyf/cc-transcript": {
-      "as_of": "2026-10-07T22:24:50Z",
-      "summary": "read --version from the installed package metadata"
+      "as_of": "2026-10-09T11:10:28Z",
+      "summary": "taught snapshots to describe the session's latest assistant model"
     },
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "a889d5bdc245",
-      "summary": "asked TypeSafe Jev before the LLM in the grant judge and correction pick"
+      "as_of": "0c7476dcfd9e",
+      "summary": "re-rendered the guides from cc-guides 0.1.54"
     },
-    "PushEvent:yasyf/cc-skills": {
-      "as_of": "439621a0f02a",
-      "summary": "had the ledger summary report a worker it cannot show instead of crashing"
+    "PushEvent:yasyf/cc-context": {
+      "as_of": "2d9bc96b8df8",
+      "summary": "seeded the pull requests the submit tests expect and pinned the hold"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "47df77ac5340",
-      "summary": "bumped the ccx formula to v0.74.12"
+      "as_of": "6b471cfe300f",
+      "summary": "bumped the ccx formula to v0.76.5"
     }
   },
-  "generated_at": "2026-10-08T16:52:56Z",
+  "generated_at": "2026-10-09T16:31:44Z",
   "shipped": {
-    "captain-hook@v12.91.1": {
-      "summary": "asks TypeSafe Jev before the LLM in the grant judge and correction pick"
+    "captain-hook@v12.92.3": {
+      "summary": "re-renders the guides from cc-guides 0.1.54"
     },
-    "cc-notes@v0.70.1": {
-      "summary": "judges commit decisions on Jev"
+    "cc-notes@v0.71.0": {
+      "summary": "names every MCP tool argument one way"
     },
     "cc-pool@v0.69.0": {
       "summary": "added `ccp package reset` to retire a wedged deployment"
     },
+    "cc-remote@v0.24.1": {
+      "summary": "destroys a tailnet without the machine's tailnet daemon"
+    },
+    "cc-review@v0.40.2": {
+      "summary": "reads the channel route from cc-interact's ChannelState"
+    },
     "cc-skills@v1.14.13": {
       "summary": "redesigned the long-running dashboard around what needs the owner"
-    },
-    "docker-dsl@v0.1.2": {
-      "summary": "imports recipes from the working directory in the console script"
     },
     "slop-cop@v0.1.73": {
       "summary": "added --strict and a rule-suppression config, and bounded the detection tiers"
