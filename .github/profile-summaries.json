@@ -1,50 +1,50 @@
 {
   "activity": {
+    "PullRequestEvent:benbjohnson/litestream": {
+      "as_of": "2026-10-10T09:51:25Z",
+      "summary": "proposed opening every restore-plan file concurrently"
+    },
     "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-10-09T11:46:13Z",
-      "summary": "skipped the plain-English rewrite for Opus 5.5+ and Fable 5.1+ sessions"
+      "as_of": "2026-10-10T11:09:11Z",
+      "summary": "provisioned WordNet on first use and kept builtin hooks off it"
     },
     "PullRequestEvent:yasyf/cc-context": {
-      "as_of": "2026-10-09T16:30:13Z",
-      "summary": "proposed letting a read take any poll claimed since it asked, however long that poll runs"
+      "as_of": "2026-10-10T10:09:12Z",
+      "summary": "republished over Graphite's restack of a parked pull request"
     },
-    "PullRequestEvent:yasyf/cc-interact": {
-      "as_of": "2026-10-09T11:18:57Z",
-      "summary": "shared channel state and the delivery probe for v0.37.0"
+    "PullRequestEvent:yasyf/cc-inbox": {
+      "as_of": "2026-10-09T17:28:21Z",
+      "summary": "cut v0.9.3, letting --path supply post text from a file's first line"
     },
     "PullRequestEvent:yasyf/cc-remote": {
-      "as_of": "2026-10-09T10:48:01Z",
-      "summary": "let a tailnet destroy run without the machine's tailnet daemon"
+      "as_of": "2026-10-10T13:16:46Z",
+      "summary": "skipped per-file syncs in the resident package install again"
     },
     "PullRequestEvent:yasyf/cc-review": {
       "as_of": "2026-10-09T11:45:56Z",
       "summary": "read the channel route from cc-interact's ChannelState"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-10-09T16:29:51Z",
-      "summary": "proposed a ledger.py reassign that moves a PR row to a new owning lane"
+      "as_of": "2026-10-10T13:30:49Z",
+      "summary": "had the desk runner fill 16 Sprites before launching a lane locally"
     },
     "PullRequestEvent:yasyf/cc-transcript": {
       "as_of": "2026-10-09T11:10:28Z",
       "summary": "taught snapshots to describe the session's latest assistant model"
     },
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "0c7476dcfd9e",
-      "summary": "re-rendered the guides from cc-guides 0.1.54"
+      "as_of": "2187379eedd6",
+      "summary": "let one approval pay for one action at each place it names"
     },
-    "PushEvent:yasyf/cc-context": {
-      "as_of": "2d9bc96b8df8",
-      "summary": "seeded the pull requests the submit tests expect and pinned the hold"
-    },
-    "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "6b471cfe300f",
-      "summary": "bumped the ccx formula to v0.76.5"
+    "PushEvent:yasyf/cc-skills": {
+      "as_of": "2ba969630d42",
+      "summary": "carried a caller's cover picture on the live incident retro"
     }
   },
-  "generated_at": "2026-10-09T16:31:44Z",
+  "generated_at": "2026-10-10T15:34:06Z",
   "shipped": {
-    "captain-hook@v12.92.3": {
-      "summary": "re-renders the guides from cc-guides 0.1.54"
+    "captain-hook@v12.92.7": {
+      "summary": "provisions WordNet on first use and keeps builtin hooks off it"
     },
     "cc-notes@v0.71.0": {
       "summary": "names every MCP tool argument one way"
@@ -52,14 +52,14 @@
     "cc-pool@v0.69.0": {
       "summary": "added `ccp package reset` to retire a wedged deployment"
     },
-    "cc-remote@v0.24.1": {
-      "summary": "destroys a tailnet without the machine's tailnet daemon"
+    "cc-remote@v0.26.2": {
+      "summary": "skips per-file syncs in the resident package install again"
     },
     "cc-review@v0.40.2": {
       "summary": "reads the channel route from cc-interact's ChannelState"
     },
-    "cc-skills@v1.14.13": {
-      "summary": "redesigned the long-running dashboard around what needs the owner"
+    "cc-skills@v1.14.14": {
+      "summary": "builds each task's live dashboard from typed components, charts, and KPI tiles"
     },
     "slop-cop@v0.1.73": {
       "summary": "added --strict and a rule-suppression config, and bounded the detection tiers"
