@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-11T06:13:37Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-11T13:18:29Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -28,19 +28,19 @@
 
 <!-- gh-profile:start:activity -->
 - `2026-10-11` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-10-11` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — cut v0.9.3, letting --path supply post text from a file's first line
+- `2026-10-11` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
+- `2026-10-11` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — republished over Graphite's restack of a parked pull request
+- `2026-10-11` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-11` Created something new in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
+- `2026-10-11` Worked on a pull request in [yasyf/cc-guides](https://github.com/yasyf/cc-guides)
+- `2026-10-11` Pushed to [yasyf/cc-guides](https://github.com/yasyf/cc-guides)
+- `2026-10-11` Created something new in [yasyf/cc-guides](https://github.com/yasyf/cc-guides)
 - `2026-10-11` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — provisioned WordNet on first use and kept builtin hooks off it
-- `2026-10-11` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — let one approval pay for one action at each place it names
-- `2026-10-11` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present)
-- `2026-10-11` Created something new in [yasyf/cc-present](https://github.com/yasyf/cc-present)
-- `2026-10-11` Worked on a pull request in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
-- `2026-10-11` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — taught snapshots to describe the session's latest assistant model
-- `2026-10-11` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
-- `2026-10-11` Created something new in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
-- `2026-10-11` Worked on a pull request in [yasyf/cc-remote](https://github.com/yasyf/cc-remote) — skipped per-file syncs in the resident package install again
-- `2026-10-10` Pushed to [yasyf/cc-remote](https://github.com/yasyf/cc-remote)
-- `2026-10-10` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — had the desk runner fill 16 Sprites before launching a lane locally
+- `2026-10-11` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-10-11` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — had the desk runner fill 16 Sprites before launching a lane locally
 
-**38,610 contributions in the last year**
+**38,683 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -120,11 +120,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-10-11` [captain-hook v12.92.13](https://github.com/yasyf/captain-hook/releases/tag/v12.92.13)
+- `2026-10-11` [captain-hook v12.93.1](https://github.com/yasyf/captain-hook/releases/tag/v12.93.1)
+- `2026-10-11` [cc-notes v0.72.1](https://github.com/yasyf/cc-notes/releases/tag/v0.72.1)
 - `2026-10-11` [cc-remote v0.26.9](https://github.com/yasyf/cc-remote/releases/tag/v0.26.9)
 - `2026-10-09` [cc-skills v1.14.14](https://github.com/yasyf/cc-skills/releases/tag/v1.14.14) — builds each task's live dashboard from typed components, charts, and KPI tiles
 - `2026-10-09` [cc-review v0.40.2](https://github.com/yasyf/cc-review/releases/tag/v0.40.2) — reads the channel route from cc-interact's ChannelState
-- `2026-10-09` [cc-notes v0.71.0](https://github.com/yasyf/cc-notes/releases/tag/v0.71.0) — names every MCP tool argument one way
 - `2026-10-07` [slop-cop v0.1.73](https://github.com/yasyf/slop-cop/releases/tag/v0.1.73) — added --strict and a rule-suppression config, and bounded the detection tiers
 - `2026-10-07` [spawnllm v0.17.1](https://github.com/yasyf/spawnllm/releases/tag/v0.17.1) — reads the Keychain before the credentials file for Claude
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
