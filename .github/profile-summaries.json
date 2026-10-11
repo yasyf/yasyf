@@ -1,59 +1,39 @@
 {
   "activity": {
-    "PullRequestEvent:benbjohnson/litestream": {
-      "as_of": "2026-10-10T09:51:25Z",
-      "summary": "proposed opening every restore-plan file concurrently"
-    },
-    "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-10-10T11:09:11Z",
-      "summary": "provisioned WordNet on first use and kept builtin hooks off it"
-    },
     "PullRequestEvent:yasyf/cc-context": {
-      "as_of": "2026-10-10T10:09:12Z",
-      "summary": "republished over Graphite's restack of a parked pull request"
+      "as_of": "2026-10-11T15:48:59Z",
+      "summary": "opened a fix so ship refuses a value word as a branch name"
     },
     "PullRequestEvent:yasyf/cc-inbox": {
-      "as_of": "2026-10-09T17:28:21Z",
-      "summary": "cut v0.9.3, letting --path supply post text from a file's first line"
-    },
-    "PullRequestEvent:yasyf/cc-remote": {
-      "as_of": "2026-10-10T13:16:46Z",
-      "summary": "skipped per-file syncs in the resident package install again"
-    },
-    "PullRequestEvent:yasyf/cc-review": {
-      "as_of": "2026-10-09T11:45:56Z",
-      "summary": "read the channel route from cc-interact's ChannelState"
+      "as_of": "2026-10-11T15:52:54Z",
+      "summary": "let the relay found a mesh and enroll owners and services from cci"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-10-10T13:30:49Z",
-      "summary": "had the desk runner fill 16 Sprites before launching a lane locally"
+      "as_of": "2026-10-11T15:49:25Z",
+      "summary": "made incident-retro publish rebase onto the default branch before card sync"
     },
-    "PullRequestEvent:yasyf/cc-transcript": {
-      "as_of": "2026-10-09T11:10:28Z",
-      "summary": "taught snapshots to describe the session's latest assistant model"
-    },
-    "PushEvent:yasyf/captain-hook": {
-      "as_of": "2187379eedd6",
-      "summary": "let one approval pay for one action at each place it names"
+    "PushEvent:yasyf/cc-inbox": {
+      "as_of": "ee38d9b6088f",
+      "summary": "refreshed relay keys before sharing them on enroll"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "2ba969630d42",
-      "summary": "carried a caller's cover picture on the live incident retro"
+      "as_of": "ee9aad295a29",
+      "summary": "taught the long-running prompt watch to read a question with a preview pane"
     }
   },
-  "generated_at": "2026-10-10T15:34:06Z",
+  "generated_at": "2026-10-11T15:56:59Z",
   "shipped": {
-    "captain-hook@v12.92.7": {
-      "summary": "provisions WordNet on first use and keeps builtin hooks off it"
+    "captain-hook@v12.93.1": {
+      "summary": "walks the repo once per registry build and caches frame classification"
     },
-    "cc-notes@v0.71.0": {
-      "summary": "names every MCP tool argument one way"
+    "cc-notes@v0.72.1": {
+      "summary": "points a git-style -C at --repo"
     },
     "cc-pool@v0.69.0": {
       "summary": "added `ccp package reset` to retire a wedged deployment"
     },
-    "cc-remote@v0.26.2": {
-      "summary": "skips per-file syncs in the resident package install again"
+    "cc-remote@v0.26.9": {
+      "summary": "has a remote worker commit as the person who launches it"
     },
     "cc-review@v0.40.2": {
       "summary": "reads the channel route from cc-interact's ChannelState"
@@ -61,11 +41,11 @@
     "cc-skills@v1.14.14": {
       "summary": "builds each task's live dashboard from typed components, charts, and KPI tiles"
     },
+    "docker-dsl@v0.1.2": {
+      "summary": "imports recipes from the working directory in the console script"
+    },
     "slop-cop@v0.1.73": {
       "summary": "added --strict and a rule-suppression config, and bounded the detection tiers"
-    },
-    "spawnllm@v0.17.1": {
-      "summary": "reads the Keychain before the credentials file for Claude"
     }
   },
   "version": 1
