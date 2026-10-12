@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-11T15:57:10Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-12T06:21:29Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-10-11` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — let the relay found a mesh and enroll owners and services from cci
-- `2026-10-11` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — refreshed relay keys before sharing them on enroll
-- `2026-10-11` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — made incident-retro publish rebase onto the default branch before card sync
-- `2026-10-11` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — opened a fix so ship refuses a value word as a branch name
-- `2026-10-11` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-10-11` Pushed to [yasyf/cc-steer](https://github.com/yasyf/cc-steer)
-- `2026-10-11` Created something new in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
-- `2026-10-11` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash)
-- `2026-10-11` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — taught the long-running prompt watch to read a question with a preview pane
-- `2026-10-11` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
-- `2026-10-11` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-10-11` Was active in [yasyf/cc-present](https://github.com/yasyf/cc-present)
+- `2026-10-12` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-12` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — opened a fix so ship refuses a value word as a branch name
+- `2026-10-12` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-12` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — taught the long-running prompt watch to read a question with a preview pane
+- `2026-10-12` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — made incident-retro publish rebase onto the default branch before card sync
+- `2026-10-12` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-12` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — refreshed relay keys before sharing them on enroll
+- `2026-10-12` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — let the relay found a mesh and enroll owners and services from cci
+- `2026-10-12` Created something new in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
+- `2026-10-11` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-11` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-10-11` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present)
 
-**38,703 contributions in the last year**
+**38,575 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -120,14 +120,13 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-10-11` [captain-hook v12.93.1](https://github.com/yasyf/captain-hook/releases/tag/v12.93.1) — walks the repo once per registry build and caches frame classification
+- `2026-10-11` [captain-hook v12.93.2](https://github.com/yasyf/captain-hook/releases/tag/v12.93.2)
 - `2026-10-11` [cc-notes v0.72.1](https://github.com/yasyf/cc-notes/releases/tag/v0.72.1) — points a git-style -C at --repo
 - `2026-10-11` [cc-remote v0.26.9](https://github.com/yasyf/cc-remote/releases/tag/v0.26.9) — has a remote worker commit as the person who launches it
 - `2026-10-09` [cc-skills v1.14.14](https://github.com/yasyf/cc-skills/releases/tag/v1.14.14) — builds each task's live dashboard from typed components, charts, and KPI tiles
 - `2026-10-09` [cc-review v0.40.2](https://github.com/yasyf/cc-review/releases/tag/v0.40.2) — reads the channel route from cc-interact's ChannelState
 - `2026-10-07` [slop-cop v0.1.73](https://github.com/yasyf/slop-cop/releases/tag/v0.1.73) — added --strict and a rule-suppression config, and bounded the detection tiers
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
-- `2026-07-03` [docker-dsl v0.1.2](https://github.com/yasyf/docker-dsl/releases/tag/v0.1.2) — imports recipes from the working directory in the console script
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
