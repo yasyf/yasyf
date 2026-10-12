@@ -1,31 +1,48 @@
 {
   "activity": {
     "PullRequestEvent:yasyf/cc-context": {
-      "as_of": "2026-10-11T15:48:59Z",
-      "summary": "opened a fix so ship refuses a value word as a branch name"
+      "as_of": "2026-10-12T13:12:36Z",
+      "summary": "merged a fix so stack rebase accepts the --include its refusal names"
     },
     "PullRequestEvent:yasyf/cc-inbox": {
-      "as_of": "2026-10-11T15:52:54Z",
-      "summary": "let the relay found a mesh and enroll owners and services from cci"
+      "as_of": "2026-10-12T04:48:44Z",
+      "summary": "cut v0.17.0, accepting owner/repo#N and pull request URLs for --pr"
+    },
+    "PullRequestEvent:yasyf/cc-interact": {
+      "as_of": "2026-10-12T14:01:26Z",
+      "summary": "moved onto daemonkit v0.33.1, which waits for the held control slot"
+    },
+    "PullRequestEvent:yasyf/cc-present": {
+      "as_of": "2026-10-12T14:06:55Z",
+      "summary": "bumped cc-interact to v0.37.1, which waits for the held control slot"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-10-11T15:49:25Z",
-      "summary": "made incident-retro publish rebase onto the default branch before card sync"
+      "as_of": "2026-10-12T12:35:26Z",
+      "summary": "had long-running launch the incident fix lane inline when the desk is down"
+    },
+    "PullRequestEvent:yasyf/daemonkit": {
+      "as_of": "2026-10-12T13:56:33Z",
+      "summary": "made control wait for the held slot until the deadline and cut 0.33.1"
     },
     "PushEvent:yasyf/cc-inbox": {
-      "as_of": "ee38d9b6088f",
-      "summary": "refreshed relay keys before sharing them on enroll"
+      "as_of": "46755a51e7f4",
+      "summary": "paired foreign nodes as readers and unpaired everywhere on a write"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "ee9aad295a29",
-      "summary": "taught the long-running prompt watch to read a question with a preview pane"
+      "as_of": "52fb94601ada",
+      "summary": "let long-running's ledger.py take the repo from --repo outside a checkout"
+    },
+    "PushEvent:yasyf/homebrew-tap": {
+      "as_of": "c7a22308abf5",
+      "summary": "published cc-inbox v0.17.0 and cc-present v0.41.2"
+    },
+    "PushEvent:yasyf/synckit": {
+      "as_of": "371e10c36928",
+      "summary": "fixed the artifact build on Linux with File.Sync"
     }
   },
-  "generated_at": "2026-10-11T15:56:59Z",
+  "generated_at": "2026-10-12T19:17:40Z",
   "shipped": {
-    "captain-hook@v12.93.1": {
-      "summary": "walks the repo once per registry build and caches frame classification"
-    },
     "cc-notes@v0.72.1": {
       "summary": "points a git-style -C at --repo"
     },
@@ -38,8 +55,8 @@
     "cc-review@v0.40.2": {
       "summary": "reads the channel route from cc-interact's ChannelState"
     },
-    "cc-skills@v1.14.14": {
-      "summary": "builds each task's live dashboard from typed components, charts, and KPI tiles"
+    "cc-skills@v1.14.16": {
+      "summary": "lets a brief's place= key put any Orca lane on a Sprite or the Mac"
     },
     "docker-dsl@v0.1.2": {
       "summary": "imports recipes from the working directory in the console script"
