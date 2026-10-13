@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-13T00:54:50Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-13T14:28:47Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-10-13` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged a fix so stack rebase accepts the --include its refusal names
+- `2026-10-13` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published cc-inbox v0.17.0 and cc-present v0.41.2
 - `2026-10-13` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-10-12` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published cc-inbox v0.17.0 and cc-present v0.41.2
-- `2026-10-12` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — let long-running's ledger.py take the repo from --repo outside a checkout
-- `2026-10-12` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — had long-running launch the incident fix lane inline when the desk is down
-- `2026-10-12` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-10-12` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-10-12` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present) — bumped cc-interact to v0.37.1, which waits for the held control slot
-- `2026-10-12` Worked on a pull request in [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — moved onto daemonkit v0.33.1, which waits for the held control slot
-- `2026-10-12` Worked on a pull request in [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — made control wait for the held slot until the deadline and cut 0.33.1
-- `2026-10-12` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — cut v0.17.0, accepting owner/repo#N and pull request URLs for --pr
-- `2026-10-11` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — paired foreign nodes as readers and unpaired everywhere on a write
+- `2026-10-13` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged a fix so stack rebase accepts the --include its refusal names
+- `2026-10-13` Triaged issues in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-13` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — let long-running's ledger.py take the repo from --repo outside a checkout
+- `2026-10-13` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — had long-running launch the incident fix lane inline when the desk is down
+- `2026-10-13` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-13` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — paired foreign nodes as readers and unpaired everywhere on a write
+- `2026-10-13` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — cut v0.17.0, accepting owner/repo#N and pull request URLs for --pr
+- `2026-10-13` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-10-13` Created something new in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
+- `2026-10-13` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
 
-**38,857 contributions in the last year**
+**39,110 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -120,8 +120,8 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-10-13` [captain-hook v12.93.5](https://github.com/yasyf/captain-hook/releases/tag/v12.93.5)
 - `2026-10-12` [cc-skills v1.14.16](https://github.com/yasyf/cc-skills/releases/tag/v1.14.16) — lets a brief's place= key put any Orca lane on a Sprite or the Mac
-- `2026-10-11` [captain-hook v12.93.2](https://github.com/yasyf/captain-hook/releases/tag/v12.93.2)
 - `2026-10-11` [cc-notes v0.72.1](https://github.com/yasyf/cc-notes/releases/tag/v0.72.1) — points a git-style -C at --repo
 - `2026-10-11` [cc-remote v0.26.9](https://github.com/yasyf/cc-remote/releases/tag/v0.26.9) — has a remote worker commit as the person who launches it
 - `2026-10-09` [cc-review v0.40.2](https://github.com/yasyf/cc-review/releases/tag/v0.40.2) — reads the channel route from cc-interact's ChannelState
