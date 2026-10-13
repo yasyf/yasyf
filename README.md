@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-12T19:17:40Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-13T00:54:50Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-10-13` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged a fix so stack rebase accepts the --include its refusal names
+- `2026-10-13` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-12` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published cc-inbox v0.17.0 and cc-present v0.41.2
+- `2026-10-12` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — let long-running's ledger.py take the repo from --repo outside a checkout
+- `2026-10-12` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — had long-running launch the incident fix lane inline when the desk is down
+- `2026-10-12` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-12` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-10-12` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present) — bumped cc-interact to v0.37.1, which waits for the held control slot
 - `2026-10-12` Worked on a pull request in [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — moved onto daemonkit v0.33.1, which waits for the held control slot
 - `2026-10-12` Worked on a pull request in [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — made control wait for the held slot until the deadline and cut 0.33.1
-- `2026-10-12` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged a fix so stack rebase accepts the --include its refusal names
-- `2026-10-12` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — had long-running launch the incident fix lane inline when the desk is down
-- `2026-10-12` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-10-12` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published cc-inbox v0.17.0 and cc-present v0.41.2
 - `2026-10-12` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — cut v0.17.0, accepting owner/repo#N and pull request URLs for --pr
-- `2026-10-12` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — let long-running's ledger.py take the repo from --repo outside a checkout
 - `2026-10-11` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — paired foreign nodes as readers and unpaired everywhere on a write
-- `2026-10-11` Pushed to [yasyf/synckit](https://github.com/yasyf/synckit) — fixed the artifact build on Linux with File.Sync
-- `2026-10-11` Created something new in [yasyf/cc-present](https://github.com/yasyf/cc-present)
 
-**38,790 contributions in the last year**
+**38,857 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -127,7 +127,6 @@
 - `2026-10-09` [cc-review v0.40.2](https://github.com/yasyf/cc-review/releases/tag/v0.40.2) — reads the channel route from cc-interact's ChannelState
 - `2026-10-07` [slop-cop v0.1.73](https://github.com/yasyf/slop-cop/releases/tag/v0.1.73) — added --strict and a rule-suppression config, and bounded the detection tiers
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
-- `2026-07-03` [docker-dsl v0.1.2](https://github.com/yasyf/docker-dsl/releases/tag/v0.1.2) — imports recipes from the working directory in the console script
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
