@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-13T14:28:47Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-13T17:07:18Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-10-13` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published cc-inbox v0.17.0 and cc-present v0.41.2
-- `2026-10-13` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-10-13` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged a fix so stack rebase accepts the --include its refusal names
-- `2026-10-13` Triaged issues in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-10-13` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — let long-running's ledger.py take the repo from --repo outside a checkout
-- `2026-10-13` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — had long-running launch the incident fix lane inline when the desk is down
+- `2026-10-13` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — made the orca desk resend a lost relay once and refuse a relay cci clipped
+- `2026-10-13` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged a fix so the landing runner pins each enqueued PR to the graded head
+- `2026-10-13` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-13` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-13` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published ccx v0.78.21, captain-hook v12.93.5, and cc-inbox v0.19.0
+- `2026-10-13` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — stopped a head or tail after ccx code grep hiding counted matches
+- `2026-10-13` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged a fix so a partial clone's worktree move skips the commit-graph lock
+- `2026-10-13` Triaged issues in [yasyf/cc-context](https://github.com/yasyf/cc-context) — flagged worktree rm refusing outright while the cleanup queue is paused
 - `2026-10-13` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-10-13` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — paired foreign nodes as readers and unpaired everywhere on a write
-- `2026-10-13` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — cut v0.17.0, accepting owner/repo#N and pull request URLs for --pr
-- `2026-10-13` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-10-13` Created something new in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
-- `2026-10-13` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-10-13` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — merged posting an opened record on the session's drive for each claim
+- `2026-10-13` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — merged a fix that reads plan-rejection feedback as the owner's words
+- `2026-10-13` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — merged reusing prepared snapshot facts across owner restarts
 
-**39,110 contributions in the last year**
+**39,117 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -120,7 +120,7 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-10-13` [captain-hook v12.93.5](https://github.com/yasyf/captain-hook/releases/tag/v12.93.5)
+- `2026-10-13` [captain-hook v12.93.5](https://github.com/yasyf/captain-hook/releases/tag/v12.93.5) — reads plan-rejection feedback as the owner's words
 - `2026-10-12` [cc-skills v1.14.16](https://github.com/yasyf/cc-skills/releases/tag/v1.14.16) — lets a brief's place= key put any Orca lane on a Sprite or the Mac
 - `2026-10-11` [cc-notes v0.72.1](https://github.com/yasyf/cc-notes/releases/tag/v0.72.1) — points a git-style -C at --repo
 - `2026-10-11` [cc-remote v0.26.9](https://github.com/yasyf/cc-remote/releases/tag/v0.26.9) — has a remote worker commit as the person who launches it

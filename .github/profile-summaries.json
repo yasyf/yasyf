@@ -1,48 +1,47 @@
 {
   "activity": {
+    "IssuesEvent:yasyf/cc-context": {
+      "as_of": "2026-10-13",
+      "summary": "flagged worktree rm refusing outright while the cleanup queue is paused"
+    },
+    "PullRequestEvent:yasyf/captain-hook": {
+      "as_of": "2026-10-13",
+      "summary": "merged a fix that reads plan-rejection feedback as the owner's words"
+    },
     "PullRequestEvent:yasyf/cc-context": {
-      "as_of": "2026-10-12T13:12:36Z",
-      "summary": "merged a fix so stack rebase accepts the --include its refusal names"
+      "as_of": "2026-10-13",
+      "summary": "merged a fix so a partial clone's worktree move skips the commit-graph lock"
     },
     "PullRequestEvent:yasyf/cc-inbox": {
-      "as_of": "2026-10-12T04:48:44Z",
-      "summary": "cut v0.17.0, accepting owner/repo#N and pull request URLs for --pr"
-    },
-    "PullRequestEvent:yasyf/cc-interact": {
-      "as_of": "2026-10-12T14:01:26Z",
-      "summary": "moved onto daemonkit v0.33.1, which waits for the held control slot"
-    },
-    "PullRequestEvent:yasyf/cc-present": {
-      "as_of": "2026-10-12T14:06:55Z",
-      "summary": "bumped cc-interact to v0.37.1, which waits for the held control slot"
+      "as_of": "2026-10-13",
+      "summary": "merged posting an opened record on the session's drive for each claim"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-10-12T12:35:26Z",
-      "summary": "had long-running launch the incident fix lane inline when the desk is down"
+      "as_of": "2026-10-13",
+      "summary": "merged a fix so the landing runner pins each enqueued PR to the graded head"
     },
-    "PullRequestEvent:yasyf/daemonkit": {
-      "as_of": "2026-10-12T13:56:33Z",
-      "summary": "made control wait for the held slot until the deadline and cut 0.33.1"
+    "PullRequestEvent:yasyf/cc-transcript": {
+      "as_of": "2026-10-13",
+      "summary": "merged reusing prepared snapshot facts across owner restarts"
     },
-    "PushEvent:yasyf/cc-inbox": {
-      "as_of": "46755a51e7f4",
-      "summary": "paired foreign nodes as readers and unpaired everywhere on a write"
+    "PushEvent:yasyf/cc-context": {
+      "as_of": "3eb472297af5",
+      "summary": "stopped a head or tail after ccx code grep hiding counted matches"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "52fb94601ada",
-      "summary": "let long-running's ledger.py take the repo from --repo outside a checkout"
+      "as_of": "50d2abbb0dfe",
+      "summary": "made the orca desk resend a lost relay once and refuse a relay cci clipped"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "c7a22308abf5",
-      "summary": "published cc-inbox v0.17.0 and cc-present v0.41.2"
-    },
-    "PushEvent:yasyf/synckit": {
-      "as_of": "371e10c36928",
-      "summary": "fixed the artifact build on Linux with File.Sync"
+      "as_of": "71b91a7eed52",
+      "summary": "published ccx v0.78.21, captain-hook v12.93.5, and cc-inbox v0.19.0"
     }
   },
-  "generated_at": "2026-10-12T19:17:40Z",
+  "generated_at": "2026-10-13T17:07:07Z",
   "shipped": {
+    "captain-hook@v12.93.5": {
+      "summary": "reads plan-rejection feedback as the owner's words"
+    },
     "cc-notes@v0.72.1": {
       "summary": "points a git-style -C at --repo"
     },
@@ -57,9 +56,6 @@
     },
     "cc-skills@v1.14.16": {
       "summary": "lets a brief's place= key put any Orca lane on a Sprite or the Mac"
-    },
-    "docker-dsl@v0.1.2": {
-      "summary": "imports recipes from the working directory in the console script"
     },
     "slop-cop@v0.1.73": {
       "summary": "added --strict and a rule-suppression config, and bounded the detection tiers"
