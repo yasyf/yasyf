@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-14T14:40:03Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-14T21:52:43Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-10-14` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — made worktree rm skip a system daemon's unplaceable descriptor
 - `2026-10-14` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged a fix so only binaries under /System/Library/ count as system daemons
-- `2026-10-14` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-10-14` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published ccx v0.78.23, cc-inbox v0.20.1, and captain-hook v12.94.2
-- `2026-10-14` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-10-14` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged a fix so lane briefs allow no local test run, build, typecheck or lint
+- `2026-10-14` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-14` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-14` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-14` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — stopped redelivering peer records when a lane posts on another drive
 - `2026-10-14` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — released v0.20.1, which stops redelivering peer records across drives
 - `2026-10-14` Created something new in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
-- `2026-10-14` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — stopped redelivering peer records when a lane posts on another drive
 - `2026-10-14` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — merged a stapler retry for when Apple's ticketing service drops the connection
 - `2026-10-14` Worked on a pull request in [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — merged a sign-notarize-app stapler retry for dropped Apple connections
 - `2026-10-14` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — merged binding the core's own build identity into prepared-fact reuse
+- `2026-10-13` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 
-**39,303 contributions in the last year**
+**39,335 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
