@@ -1,49 +1,49 @@
 {
   "activity": {
-    "IssuesEvent:yasyf/cc-context": {
-      "as_of": "2026-10-13",
-      "summary": "flagged worktree rm refusing outright while the cleanup queue is paused"
-    },
     "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-10-13",
-      "summary": "merged a fix that reads plan-rejection feedback as the owner's words"
+      "as_of": "2026-10-14",
+      "summary": "merged a stapler retry for when Apple's ticketing service drops the connection"
     },
     "PullRequestEvent:yasyf/cc-context": {
-      "as_of": "2026-10-13",
-      "summary": "merged a fix so a partial clone's worktree move skips the commit-graph lock"
+      "as_of": "2026-10-14",
+      "summary": "merged a fix so only binaries under /System/Library/ count as system daemons"
     },
     "PullRequestEvent:yasyf/cc-inbox": {
-      "as_of": "2026-10-13",
-      "summary": "merged posting an opened record on the session's drive for each claim"
+      "as_of": "2026-10-14",
+      "summary": "released v0.20.1, which stops redelivering peer records across drives"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-10-13",
-      "summary": "merged a fix so the landing runner pins each enqueued PR to the graded head"
+      "as_of": "2026-10-14",
+      "summary": "merged a fix so lane briefs allow no local test run, build, typecheck or lint"
     },
     "PullRequestEvent:yasyf/cc-transcript": {
-      "as_of": "2026-10-13",
-      "summary": "merged reusing prepared snapshot facts across owner restarts"
+      "as_of": "2026-10-14",
+      "summary": "merged binding the core's own build identity into prepared-fact reuse"
+    },
+    "PullRequestEvent:yasyf/homebrew-tap": {
+      "as_of": "2026-10-14",
+      "summary": "merged a sign-notarize-app stapler retry for dropped Apple connections"
     },
     "PushEvent:yasyf/cc-context": {
-      "as_of": "3eb472297af5",
-      "summary": "stopped a head or tail after ccx code grep hiding counted matches"
+      "as_of": "941f19e30073",
+      "summary": "made worktree rm skip a system daemon's unplaceable descriptor"
     },
-    "PushEvent:yasyf/cc-skills": {
-      "as_of": "50d2abbb0dfe",
-      "summary": "made the orca desk resend a lost relay once and refuse a relay cci clipped"
+    "PushEvent:yasyf/cc-inbox": {
+      "as_of": "d0e17e801230",
+      "summary": "stopped redelivering peer records when a lane posts on another drive"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "71b91a7eed52",
-      "summary": "published ccx v0.78.21, captain-hook v12.93.5, and cc-inbox v0.19.0"
+      "as_of": "2bc9f4da00f6",
+      "summary": "published ccx v0.78.23, cc-inbox v0.20.1, and captain-hook v12.94.2"
     }
   },
-  "generated_at": "2026-10-13T17:07:07Z",
+  "generated_at": "2026-10-14T14:39:51Z",
   "shipped": {
-    "captain-hook@v12.93.5": {
-      "summary": "reads plan-rejection feedback as the owner's words"
+    "captain-hook@v12.94.2": {
+      "summary": "retries the stapler when Apple's ticketing service drops the connection"
     },
-    "cc-notes@v0.72.1": {
-      "summary": "points a git-style -C at --repo"
+    "cc-notes@v0.72.2": {
+      "summary": "fetches the blobs a partial clone left out of cc-notes refs"
     },
     "cc-pool@v0.69.0": {
       "summary": "added `ccp package reset` to retire a wedged deployment"
