@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-13T23:00:59Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-14T05:14:10Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-10-13` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged a fix so the landing runner pins each enqueued PR to the graded head
-- `2026-10-13` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-10-13` Created something new in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-10-13` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-10-13` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — made the orca desk resend a lost relay once and refuse a relay cci clipped
-- `2026-10-13` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published ccx v0.78.21, captain-hook v12.93.5, and cc-inbox v0.19.0
-- `2026-10-13` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — merged posting an opened record on the session's drive for each claim
-- `2026-10-13` Created something new in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
-- `2026-10-13` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-10-13` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged a fix so a partial clone's worktree move skips the commit-graph lock
-- `2026-10-13` Triaged issues in [yasyf/cc-context](https://github.com/yasyf/cc-context) — flagged worktree rm refusing outright while the cleanup queue is paused
-- `2026-10-13` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — merged a fix that reads plan-rejection feedback as the owner's words
+- `2026-10-14` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — merged posting an opened record on the session's drive for each claim
+- `2026-10-14` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published ccx v0.78.21, captain-hook v12.93.5, and cc-inbox v0.19.0
+- `2026-10-14` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged a fix so a partial clone's worktree move skips the commit-graph lock
+- `2026-10-14` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — merged a fix that reads plan-rejection feedback as the owner's words
+- `2026-10-14` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-14` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-10-14` Worked on a pull request in [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-10-14` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-14` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — made the orca desk resend a lost relay once and refuse a relay cci clipped
+- `2026-10-14` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged a fix so the landing runner pins each enqueued PR to the graded head
+- `2026-10-14` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-10-14` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
 
-**39,177 contributions in the last year**
+**39,278 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -120,9 +120,9 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-10-13` [captain-hook v12.93.5](https://github.com/yasyf/captain-hook/releases/tag/v12.93.5) — reads plan-rejection feedback as the owner's words
+- `2026-10-14` [captain-hook v12.94.2](https://github.com/yasyf/captain-hook/releases/tag/v12.94.2)
+- `2026-10-14` [cc-notes v0.72.2](https://github.com/yasyf/cc-notes/releases/tag/v0.72.2)
 - `2026-10-12` [cc-skills v1.14.16](https://github.com/yasyf/cc-skills/releases/tag/v1.14.16) — lets a brief's place= key put any Orca lane on a Sprite or the Mac
-- `2026-10-11` [cc-notes v0.72.1](https://github.com/yasyf/cc-notes/releases/tag/v0.72.1) — points a git-style -C at --repo
 - `2026-10-11` [cc-remote v0.26.9](https://github.com/yasyf/cc-remote/releases/tag/v0.26.9) — has a remote worker commit as the person who launches it
 - `2026-10-09` [cc-review v0.40.2](https://github.com/yasyf/cc-review/releases/tag/v0.40.2) — reads the channel route from cc-interact's ChannelState
 - `2026-10-07` [slop-cop v0.1.73](https://github.com/yasyf/slop-cop/releases/tag/v0.1.73) — added --strict and a rule-suppression config, and bounded the detection tiers
