@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-14T21:52:43Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-15T14:22:55Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-10-14` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged a fix so only binaries under /System/Library/ count as system daemons
-- `2026-10-14` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged a fix so lane briefs allow no local test run, build, typecheck or lint
-- `2026-10-14` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-10-14` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-10-14` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-10-14` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — stopped redelivering peer records when a lane posts on another drive
-- `2026-10-14` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — released v0.20.1, which stops redelivering peer records across drives
-- `2026-10-14` Created something new in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
-- `2026-10-14` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — merged a stapler retry for when Apple's ticketing service drops the connection
-- `2026-10-14` Worked on a pull request in [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — merged a sign-notarize-app stapler retry for dropped Apple connections
-- `2026-10-14` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — merged binding the core's own build identity into prepared-fact reuse
-- `2026-10-13` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-10-15` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — merged a judge that mints standing grants, with Asked previews shown as a diff
+- `2026-10-15` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged a fix so a body file replaces or retracts a carried release trailer
+- `2026-10-15` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged skipping a row on a rate-limited gh api read instead of crashing
+- `2026-10-15` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — merged reloading pack indexes only when the pack set moved
+- `2026-10-15` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present) — opened a bump to cc-interact v0.37.2, which closes presence before the store
+- `2026-10-15` Worked on a pull request in [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — merged stopping presence emission before the daemon closes its store
+- `2026-10-15` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — made the desk-runner handoff upgrade the orca runner without a signal
+- `2026-10-15` Was active in [yasyf/cc-present](https://github.com/yasyf/cc-present)
+- `2026-10-15` Was active in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-15` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — made ship --no-pr in the graphite lane push without a Graphite submit
+- `2026-10-15` Created something new in [yasyf/cc-present](https://github.com/yasyf/cc-present)
+- `2026-10-15` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published captain-hook v12.94.3, synckitd v0.41.2, and cc-present v0.43.0
 
-**39,335 contributions in the last year**
+**39,630 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -120,9 +120,9 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-10-14` [captain-hook v12.94.2](https://github.com/yasyf/captain-hook/releases/tag/v12.94.2) — retries the stapler when Apple's ticketing service drops the connection
-- `2026-10-14` [cc-notes v0.72.2](https://github.com/yasyf/cc-notes/releases/tag/v0.72.2) — fetches the blobs a partial clone left out of cc-notes refs
-- `2026-10-12` [cc-skills v1.14.16](https://github.com/yasyf/cc-skills/releases/tag/v1.14.16) — lets a brief's place= key put any Orca lane on a Sprite or the Mac
+- `2026-10-15` [captain-hook v12.95.0](https://github.com/yasyf/captain-hook/releases/tag/v12.95.0) — adds a judge that mints standing grants, and shows Asked previews as a diff
+- `2026-10-15` [cc-notes v0.72.5](https://github.com/yasyf/cc-notes/releases/tag/v0.72.5) — reloads pack indexes only when the pack set moved
+- `2026-10-15` [cc-skills v1.14.17](https://github.com/yasyf/cc-skills/releases/tag/v1.14.17) — added one-command incident launch, desk withdraw, and --re replies
 - `2026-10-11` [cc-remote v0.26.9](https://github.com/yasyf/cc-remote/releases/tag/v0.26.9) — has a remote worker commit as the person who launches it
 - `2026-10-09` [cc-review v0.40.2](https://github.com/yasyf/cc-review/releases/tag/v0.40.2) — reads the channel route from cc-interact's ChannelState
 - `2026-10-07` [slop-cop v0.1.73](https://github.com/yasyf/slop-cop/releases/tag/v0.1.73) — added --strict and a rule-suppression config, and bounded the detection tiers

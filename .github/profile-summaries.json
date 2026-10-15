@@ -1,49 +1,49 @@
 {
   "activity": {
     "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-10-14",
-      "summary": "merged a stapler retry for when Apple's ticketing service drops the connection"
+      "as_of": "2026-10-15",
+      "summary": "merged a judge that mints standing grants, with Asked previews shown as a diff"
     },
     "PullRequestEvent:yasyf/cc-context": {
-      "as_of": "2026-10-14",
-      "summary": "merged a fix so only binaries under /System/Library/ count as system daemons"
+      "as_of": "2026-10-15",
+      "summary": "merged a fix so a body file replaces or retracts a carried release trailer"
     },
-    "PullRequestEvent:yasyf/cc-inbox": {
-      "as_of": "2026-10-14",
-      "summary": "released v0.20.1, which stops redelivering peer records across drives"
+    "PullRequestEvent:yasyf/cc-interact": {
+      "as_of": "2026-10-15",
+      "summary": "merged stopping presence emission before the daemon closes its store"
+    },
+    "PullRequestEvent:yasyf/cc-notes": {
+      "as_of": "2026-10-15",
+      "summary": "merged reloading pack indexes only when the pack set moved"
+    },
+    "PullRequestEvent:yasyf/cc-present": {
+      "as_of": "2026-10-15",
+      "summary": "opened a bump to cc-interact v0.37.2, which closes presence before the store"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-10-14",
-      "summary": "merged a fix so lane briefs allow no local test run, build, typecheck or lint"
-    },
-    "PullRequestEvent:yasyf/cc-transcript": {
-      "as_of": "2026-10-14",
-      "summary": "merged binding the core's own build identity into prepared-fact reuse"
-    },
-    "PullRequestEvent:yasyf/homebrew-tap": {
-      "as_of": "2026-10-14",
-      "summary": "merged a sign-notarize-app stapler retry for dropped Apple connections"
+      "as_of": "2026-10-15",
+      "summary": "merged skipping a row on a rate-limited gh api read instead of crashing"
     },
     "PushEvent:yasyf/cc-context": {
-      "as_of": "941f19e30073",
-      "summary": "made worktree rm skip a system daemon's unplaceable descriptor"
+      "as_of": "d06bbe5e894f",
+      "summary": "made ship --no-pr in the graphite lane push without a Graphite submit"
     },
-    "PushEvent:yasyf/cc-inbox": {
-      "as_of": "d0e17e801230",
-      "summary": "stopped redelivering peer records when a lane posts on another drive"
+    "PushEvent:yasyf/cc-skills": {
+      "as_of": "40574aaf6df5",
+      "summary": "made the desk-runner handoff upgrade the orca runner without a signal"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "2bc9f4da00f6",
-      "summary": "published ccx v0.78.23, cc-inbox v0.20.1, and captain-hook v12.94.2"
+      "as_of": "6e5c154eb428",
+      "summary": "published captain-hook v12.94.3, synckitd v0.41.2, and cc-present v0.43.0"
     }
   },
-  "generated_at": "2026-10-14T14:39:51Z",
+  "generated_at": "2026-10-15T14:22:56Z",
   "shipped": {
-    "captain-hook@v12.94.2": {
-      "summary": "retries the stapler when Apple's ticketing service drops the connection"
+    "captain-hook@v12.95.0": {
+      "summary": "adds a judge that mints standing grants, and shows Asked previews as a diff"
     },
-    "cc-notes@v0.72.2": {
-      "summary": "fetches the blobs a partial clone left out of cc-notes refs"
+    "cc-notes@v0.72.5": {
+      "summary": "reloads pack indexes only when the pack set moved"
     },
     "cc-pool@v0.69.0": {
       "summary": "added `ccp package reset` to retire a wedged deployment"
@@ -54,8 +54,8 @@
     "cc-review@v0.40.2": {
       "summary": "reads the channel route from cc-interact's ChannelState"
     },
-    "cc-skills@v1.14.16": {
-      "summary": "lets a brief's place= key put any Orca lane on a Sprite or the Mac"
+    "cc-skills@v1.14.17": {
+      "summary": "added one-command incident launch, desk withdraw, and --re replies"
     },
     "slop-cop@v0.1.73": {
       "summary": "added --strict and a rule-suppression config, and bounded the detection tiers"
