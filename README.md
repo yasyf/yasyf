@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-16T14:13:05Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-16T16:51:44Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -37,10 +37,10 @@
 - `2026-10-16` Worked on a pull request in [yasyf/cc-patch](https://github.com/yasyf/cc-patch) — merged the 0.21.0 release
 - `2026-10-16` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — merged walking up to 256 cached members per registered warming step
 - `2026-10-16` Discussed issues in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-10-16` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present) — merged a bump to cc-interact v0.37.2, which closes presence before the store
-- `2026-10-15` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-10-16` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-16` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 
-**40,014 contributions in the last year**
+**40,065 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
