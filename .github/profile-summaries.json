@@ -1,49 +1,53 @@
 {
   "activity": {
     "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-10-15",
-      "summary": "merged a judge that mints standing grants, with Asked previews shown as a diff"
+      "as_of": "2026-10-16",
+      "summary": "merged letting an unchecked once ticket pass when its check cannot finish"
     },
     "PullRequestEvent:yasyf/cc-context": {
-      "as_of": "2026-10-15",
-      "summary": "merged a fix so a body file replaces or retracts a carried release trailer"
+      "as_of": "2026-10-16",
+      "summary": "merged a fix so worktree add clears a lock an interrupted add left behind"
     },
-    "PullRequestEvent:yasyf/cc-interact": {
-      "as_of": "2026-10-15",
-      "summary": "merged stopping presence emission before the daemon closes its store"
+    "PullRequestEvent:yasyf/cc-inbox": {
+      "as_of": "2026-10-16",
+      "summary": "opened folding the wire format into the mesh schema fingerprint"
     },
     "PullRequestEvent:yasyf/cc-notes": {
-      "as_of": "2026-10-15",
-      "summary": "merged reloading pack indexes only when the pack set moved"
+      "as_of": "2026-10-16",
+      "summary": "merged walking history incrementally instead of refolding every prefix"
+    },
+    "PullRequestEvent:yasyf/cc-patch": {
+      "as_of": "2026-10-16",
+      "summary": "merged the 0.21.0 release"
     },
     "PullRequestEvent:yasyf/cc-present": {
-      "as_of": "2026-10-15",
-      "summary": "opened a bump to cc-interact v0.37.2, which closes presence before the store"
+      "as_of": "2026-10-16",
+      "summary": "merged a bump to cc-interact v0.37.2, which closes presence before the store"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-10-15",
-      "summary": "merged skipping a row on a rate-limited gh api read instead of crashing"
+      "as_of": "2026-10-16",
+      "summary": "opened a fix so the landing runner retries a transient stack-enqueue failure"
     },
-    "PushEvent:yasyf/cc-context": {
-      "as_of": "d06bbe5e894f",
-      "summary": "made ship --no-pr in the graphite lane push without a Graphite submit"
+    "PullRequestEvent:yasyf/cc-transcript": {
+      "as_of": "2026-10-16",
+      "summary": "merged walking up to 256 cached members per registered warming step"
     },
-    "PushEvent:yasyf/cc-skills": {
-      "as_of": "40574aaf6df5",
-      "summary": "made the desk-runner handoff upgrade the orca runner without a signal"
+    "PullRequestEvent:yasyf/cookiesync": {
+      "as_of": "2026-10-16",
+      "summary": "opened writing the persisted watch debounce into the install manifest"
     },
-    "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "6e5c154eb428",
-      "summary": "published captain-hook v12.94.3, synckitd v0.41.2, and cc-present v0.43.0"
+    "PullRequestEvent:yasyf/synckit": {
+      "as_of": "2026-10-16",
+      "summary": "opened narrowing a syncservice watch item to named entries"
     }
   },
-  "generated_at": "2026-10-15T14:22:56Z",
+  "generated_at": "2026-10-16T14:12:55Z",
   "shipped": {
-    "captain-hook@v12.95.0": {
-      "summary": "adds a judge that mints standing grants, and shows Asked previews as a diff"
+    "captain-hook@v12.101.0": {
+      "summary": "ends the leftover processes a long-running drive's lanes and desks started"
     },
-    "cc-notes@v0.72.5": {
-      "summary": "reloads pack indexes only when the pack set moved"
+    "cc-notes@v0.72.9": {
+      "summary": "walks history incrementally instead of refolding every prefix"
     },
     "cc-pool@v0.69.0": {
       "summary": "added `ccp package reset` to retire a wedged deployment"
