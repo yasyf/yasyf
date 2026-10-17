@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-17T15:49:31Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-17T20:50:09Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-10-17` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged a fix so desk-runner withdraw waits for Orca to stop the worker
 - `2026-10-17` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — merged refusing an unbound PR mention on holds only
 - `2026-10-17` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — merged letting a hook whose condition raises sit the event out
 - `2026-10-17` Worked on a pull request in [yasyf/cookiesync](https://github.com/yasyf/cookiesync)
 - `2026-10-17` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — merged deferring a ref whose objects the remote withholds
 - `2026-10-17` Worked on a pull request in [yasyf/synckit](https://github.com/yasyf/synckit) — merged exporting the registered manifest path from hostregistry
-- `2026-10-17` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged a fix so desk-runner withdraw waits for Orca to stop the worker
 - `2026-10-17` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged a fix so the JSON-pipe nudge skips a command line with no head
-- `2026-10-16` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-17` Was active in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
+- `2026-10-17` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
 - `2026-10-16` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — the landing runner sends a PR's blockers to its current owner
+- `2026-10-16` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-10-16` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
-- `2026-10-16` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — a refusing or overflowing ticket judge now gets asked again
-- `2026-10-16` Worked on a pull request in [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — merged giving stapler six tries before Apple's ticketing drop is terminal
 
-**40,435 contributions in the last year**
+**40,454 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
