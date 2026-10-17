@@ -1,53 +1,53 @@
 {
   "activity": {
     "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-10-16",
-      "summary": "merged letting an unchecked once ticket pass when its check cannot finish"
+      "as_of": "2026-10-17",
+      "summary": "merged letting a hook whose condition raises sit the event out"
     },
     "PullRequestEvent:yasyf/cc-context": {
-      "as_of": "2026-10-16",
-      "summary": "merged a fix so worktree add clears a lock an interrupted add left behind"
+      "as_of": "2026-10-17",
+      "summary": "merged a fix so the JSON-pipe nudge skips a command line with no head"
     },
     "PullRequestEvent:yasyf/cc-inbox": {
-      "as_of": "2026-10-16",
-      "summary": "opened folding the wire format into the mesh schema fingerprint"
+      "as_of": "2026-10-17",
+      "summary": "merged refusing an unbound PR mention on holds only"
     },
     "PullRequestEvent:yasyf/cc-notes": {
-      "as_of": "2026-10-16",
-      "summary": "merged walking history incrementally instead of refolding every prefix"
-    },
-    "PullRequestEvent:yasyf/cc-patch": {
-      "as_of": "2026-10-16",
-      "summary": "merged the 0.21.0 release"
-    },
-    "PullRequestEvent:yasyf/cc-present": {
-      "as_of": "2026-10-16",
-      "summary": "merged a bump to cc-interact v0.37.2, which closes presence before the store"
+      "as_of": "2026-10-17",
+      "summary": "merged deferring a ref whose objects the remote withholds"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-10-16",
-      "summary": "opened a fix so the landing runner retries a transient stack-enqueue failure"
+      "as_of": "2026-10-17",
+      "summary": "merged a fix so desk-runner withdraw waits for Orca to stop the worker"
     },
     "PullRequestEvent:yasyf/cc-transcript": {
       "as_of": "2026-10-16",
-      "summary": "merged walking up to 256 cached members per registered warming step"
+      "summary": "merged a fix so grep stops charging discovery to scan budgets"
     },
-    "PullRequestEvent:yasyf/cookiesync": {
+    "PullRequestEvent:yasyf/homebrew-tap": {
       "as_of": "2026-10-16",
-      "summary": "opened writing the persisted watch debounce into the install manifest"
+      "summary": "merged giving stapler six tries before Apple's ticketing drop is terminal"
     },
     "PullRequestEvent:yasyf/synckit": {
       "as_of": "2026-10-16",
-      "summary": "opened narrowing a syncservice watch item to named entries"
+      "summary": "merged exporting the registered manifest path from hostregistry"
+    },
+    "PushEvent:yasyf/captain-hook": {
+      "as_of": "d64615242348",
+      "summary": "a refusing or overflowing ticket judge now gets asked again"
+    },
+    "PushEvent:yasyf/cc-skills": {
+      "as_of": "f461592581ee",
+      "summary": "the landing runner sends a PR's blockers to its current owner"
     }
   },
-  "generated_at": "2026-10-16T14:12:55Z",
+  "generated_at": "2026-10-17T13:09:09Z",
   "shipped": {
-    "captain-hook@v12.101.0": {
-      "summary": "ends the leftover processes a long-running drive's lanes and desks started"
+    "captain-hook@v12.101.9": {
+      "summary": "a hook whose condition raises sits the event out instead of failing the guard"
     },
-    "cc-notes@v0.72.9": {
-      "summary": "walks history incrementally instead of refolding every prefix"
+    "cc-notes@v0.72.10": {
+      "summary": "defers a ref whose objects the remote withholds instead of failing the sync"
     },
     "cc-pool@v0.69.0": {
       "summary": "added `ccp package reset` to retire a wedged deployment"
