@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-18T13:31:32Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-18T16:03:47Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -30,8 +30,6 @@
 - `2026-10-18` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged a landing-desk retry for fetches that lose a ref lock to a concurrent fetch
 - `2026-10-18` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — pinned golangci-lint to the version main last passed with
 - `2026-10-18` Worked on a pull request in [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — opened a fresh-only install that never recovers, drains, or boots out
-- `2026-10-18` Created something new in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
-- `2026-10-17` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — package-install proves the old host is gone under an install lock before replacing it
 - `2026-10-17` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — opened a guard so package-install never replaces a host that may be serving
 - `2026-10-17` Pushed to [yasyf/orca](https://github.com/yasyf/orca) — stored workspaces stay in the catalog when a cached worktree scan fails
 - `2026-10-17` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped cc-inbox to v0.21.1
@@ -39,8 +37,10 @@
 - `2026-10-17` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — merged matching openers to closers through an index
 - `2026-10-17` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — merged keeping registered warming from re-reading facts it would evict
 - `2026-10-17` Created something new in [yasyf/orca](https://github.com/yasyf/orca)
+- `2026-10-17` Created something new in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
+- `2026-10-17` Worked on a pull request in [stablyai/orca](https://github.com/stablyai/orca)
 
-**40,522 contributions in the last year**
+**40,524 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
