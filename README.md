@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-18T16:03:47Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-19T05:06:21Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-10-19` Worked on a pull request in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
+- `2026-10-19` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
+- `2026-10-19` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present)
+- `2026-10-19` Created something new in [yasyf/cc-present](https://github.com/yasyf/cc-present)
 - `2026-10-18` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged a landing-desk retry for fetches that lose a ref lock to a concurrent fetch
-- `2026-10-18` Pushed to [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — pinned golangci-lint to the version main last passed with
-- `2026-10-18` Worked on a pull request in [yasyf/daemonkit](https://github.com/yasyf/daemonkit) — opened a fresh-only install that never recovers, drains, or boots out
-- `2026-10-17` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — opened a guard so package-install never replaces a host that may be serving
-- `2026-10-17` Pushed to [yasyf/orca](https://github.com/yasyf/orca) — stored workspaces stay in the catalog when a cached worktree scan fails
-- `2026-10-17` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped cc-inbox to v0.21.1
-- `2026-10-17` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — the indexed opener-to-closer match landed, cut as v0.21.1
-- `2026-10-17` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — merged matching openers to closers through an index
-- `2026-10-17` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — merged keeping registered warming from re-reading facts it would evict
-- `2026-10-17` Created something new in [yasyf/orca](https://github.com/yasyf/orca)
-- `2026-10-17` Created something new in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
-- `2026-10-17` Worked on a pull request in [stablyai/orca](https://github.com/stablyai/orca)
+- `2026-10-18` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-18` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-18` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-18` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-18` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — opened a guard so package-install never replaces a host that may be serving
+- `2026-10-18` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — merged matching openers to closers through an index
+- `2026-10-18` Created something new in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
 
-**40,524 contributions in the last year**
+**40,565 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -123,9 +123,8 @@
 - `2026-10-17` [captain-hook v12.101.11](https://github.com/yasyf/captain-hook/releases/tag/v12.101.11) — keeps registered snapshot warming from re-reading facts it would evict
 - `2026-10-17` [cc-notes v0.72.11](https://github.com/yasyf/cc-notes/releases/tag/v0.72.11) — appends from the cached tip fold instead of rereading the chain
 - `2026-10-15` [cc-skills v1.14.17](https://github.com/yasyf/cc-skills/releases/tag/v1.14.17) — added one-command incident launch, desk withdraw, and --re replies
-- `2026-10-11` [cc-remote v0.26.9](https://github.com/yasyf/cc-remote/releases/tag/v0.26.9) — has a remote worker commit as the person who launches it
-- `2026-10-09` [cc-review v0.40.2](https://github.com/yasyf/cc-review/releases/tag/v0.40.2) — reads the channel route from cc-interact's ChannelState
 - `2026-10-07` [slop-cop v0.1.73](https://github.com/yasyf/slop-cop/releases/tag/v0.1.73) — added --strict and a rule-suppression config, and bounded the detection tiers
+- `2026-09-30` [cc-interact v0.35.0](https://github.com/yasyf/cc-interact/releases/tag/v0.35.0)
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
 <!-- gh-profile:end:shipped -->
 
