@@ -1,62 +1,50 @@
 {
   "activity": {
     "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-10-17",
-      "summary": "opened a guard so package-install never replaces a host that may be serving"
+      "as_of": "2026-10-19",
+      "summary": "merged letting a stale queue report through and naming the queued-push recheck"
     },
     "PullRequestEvent:yasyf/cc-inbox": {
-      "as_of": "2026-10-17",
-      "summary": "merged matching openers to closers through an index"
+      "as_of": "2026-10-19",
+      "summary": "opened letting a --pr owner/repo#N filter match records naming the bare number"
+    },
+    "PullRequestEvent:yasyf/cc-interact": {
+      "as_of": "2026-10-19",
+      "summary": "merged letting a consumer filter the event types its channel pushes"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-10-18",
-      "summary": "merged a landing-desk retry for fetches that lose a ref lock to a concurrent fetch"
-    },
-    "PullRequestEvent:yasyf/cc-transcript": {
-      "as_of": "2026-10-17",
-      "summary": "merged keeping registered warming from re-reading facts it would evict"
+      "as_of": "2026-10-19",
+      "summary": "opened registering every PR a drive lane posted, so its grade gets mirrored"
     },
     "PullRequestEvent:yasyf/daemonkit": {
-      "as_of": "2026-10-18",
-      "summary": "opened a fresh-only install that never recovers, drains, or boots out"
+      "as_of": "2026-10-19",
+      "summary": "merged the 0.34.0 release, after a fresh-only install that never drains"
     },
-    "PushEvent:yasyf/captain-hook": {
-      "as_of": "792cd92376d1",
-      "summary": "package-install proves the old host is gone under an install lock before replacing it"
+    "PullRequestEvent:yasyf/synckit": {
+      "as_of": "2026-10-19",
+      "summary": "merged no longer masking a local spawn failure as an offline peer"
     },
     "PushEvent:yasyf/cc-inbox": {
-      "as_of": "4f71f967b6ca",
-      "summary": "the indexed opener-to-closer match landed, cut as v0.21.1"
-    },
-    "PushEvent:yasyf/daemonkit": {
-      "as_of": "028e91996a88",
-      "summary": "pinned golangci-lint to the version main last passed with"
-    },
-    "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "56fee56cd239",
-      "summary": "bumped cc-inbox to v0.21.1"
-    },
-    "PushEvent:yasyf/orca": {
-      "as_of": "74336631627d",
-      "summary": "stored workspaces stay in the catalog when a cached worktree scan fails"
+      "as_of": "66e5dfa4c5f5",
+      "summary": "a --pr owner/repo#N filter now matches records that name the bare number"
     }
   },
-  "generated_at": "2026-10-18T13:31:20Z",
+  "generated_at": "2026-10-19T16:38:04Z",
   "shipped": {
-    "captain-hook@v12.101.11": {
-      "summary": "keeps registered snapshot warming from re-reading facts it would evict"
+    "captain-hook@v12.101.12": {
+      "summary": "lets a stale queue report push through, and names the queued-push recheck"
+    },
+    "cc-context@v0.79.26": {
+      "summary": "keeps a REBASING Graphite from clearing steps once graphite-app's restack lands"
+    },
+    "cc-inbox@v0.22.1": {
+      "summary": "binds a Codex session's lane on post, so claim --rel opened posts its PR"
     },
     "cc-notes@v0.72.11": {
       "summary": "appends from the cached tip fold instead of rereading the chain"
     },
     "cc-pool@v0.69.0": {
       "summary": "added `ccp package reset` to retire a wedged deployment"
-    },
-    "cc-remote@v0.26.9": {
-      "summary": "has a remote worker commit as the person who launches it"
-    },
-    "cc-review@v0.40.2": {
-      "summary": "reads the channel route from cc-interact's ChannelState"
     },
     "cc-skills@v1.14.17": {
       "summary": "added one-command incident launch, desk withdraw, and --re replies"
