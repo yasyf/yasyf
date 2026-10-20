@@ -1,8 +1,16 @@
 {
   "activity": {
-    "PullRequestEvent:yasyf/captain-hook": {
+    "PullRequestEvent:benbjohnson/litestream": {
       "as_of": "2026-10-19",
-      "summary": "merged letting a stale queue report through and naming the queued-push recheck"
+      "summary": "merged stopping monitors before the store closes its databases"
+    },
+    "PullRequestEvent:yasyf/captain-hook": {
+      "as_of": "2026-10-20",
+      "summary": "merged dropping the local test-run commit gate from the go and python packs"
+    },
+    "PullRequestEvent:yasyf/cc-context": {
+      "as_of": "2026-10-20",
+      "summary": "merged keeping a run's --parent re-parenting when continue replans"
     },
     "PullRequestEvent:yasyf/cc-inbox": {
       "as_of": "2026-10-19",
@@ -12,9 +20,17 @@
       "as_of": "2026-10-19",
       "summary": "merged letting a consumer filter the event types its channel pushes"
     },
-    "PullRequestEvent:yasyf/cc-skills": {
+    "PullRequestEvent:yasyf/cc-present": {
       "as_of": "2026-10-19",
-      "summary": "opened registering every PR a drive lane posted, so its grade gets mirrored"
+      "summary": "merged listing every option beside a focus preview, with its code wrapped"
+    },
+    "PullRequestEvent:yasyf/cc-skills": {
+      "as_of": "2026-10-20",
+      "summary": "merged claiming a drive lane's posted PR so the landing runner stops skipping it"
+    },
+    "PullRequestEvent:yasyf/cc-transcript": {
+      "as_of": "2026-10-17",
+      "summary": "merged keeping registered warming from re-reading facts it would evict"
     },
     "PullRequestEvent:yasyf/daemonkit": {
       "as_of": "2026-10-19",
@@ -24,21 +40,18 @@
       "as_of": "2026-10-19",
       "summary": "merged no longer masking a local spawn failure as an offline peer"
     },
-    "PushEvent:yasyf/cc-inbox": {
-      "as_of": "66e5dfa4c5f5",
-      "summary": "a --pr owner/repo#N filter now matches records that name the bare number"
+    "PushEvent:yasyf/cc-context": {
+      "as_of": "8dc484185db5",
+      "summary": "a --no-push ship commits a published branch on its own head if its parent moved"
     }
   },
-  "generated_at": "2026-10-19T16:38:04Z",
+  "generated_at": "2026-10-20T14:28:43Z",
   "shipped": {
-    "captain-hook@v12.101.12": {
-      "summary": "lets a stale queue report push through, and names the queued-push recheck"
+    "captain-hook@v12.101.13": {
+      "summary": "stops the go and python packs gating commits on a local test run"
     },
-    "cc-context@v0.79.26": {
-      "summary": "keeps a REBASING Graphite from clearing steps once graphite-app's restack lands"
-    },
-    "cc-inbox@v0.22.1": {
-      "summary": "binds a Codex session's lane on post, so claim --rel opened posts its PR"
+    "cc-context@v0.79.35": {
+      "summary": "keeps a run's --parent re-parenting when continue replans"
     },
     "cc-notes@v0.72.11": {
       "summary": "appends from the cached tip fold instead of rereading the chain"
