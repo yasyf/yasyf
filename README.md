@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-20T17:25:49Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-20T21:47:43Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-10-20` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — opened letting a --pr owner/repo#N filter match records naming the bare number
-- `2026-10-20` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged claiming a drive lane's posted PR so the landing runner stops skipping it
-- `2026-10-20` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged keeping a run's --parent re-parenting when continue replans
-- `2026-10-20` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — merged dropping the local test-run commit gate from the go and python packs
 - `2026-10-20` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — a --no-push ship commits a published branch on its own head if its parent moved
-- `2026-10-19` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-20` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged keeping a run's --parent re-parenting when continue replans
+- `2026-10-20` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged claiming a drive lane's posted PR so the landing runner stops skipping it
+- `2026-10-20` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-20` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-20` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-20` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-10-20` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — merged dropping the local test-run commit gate from the go and python packs
+- `2026-10-20` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — opened letting a --pr owner/repo#N filter match records naming the bare number
 - `2026-10-19` Worked on a pull request in [benbjohnson/litestream](https://github.com/benbjohnson/litestream) — merged stopping monitors before the store closes its databases
-- `2026-10-19` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
 - `2026-10-19` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-10-19` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
-- `2026-10-19` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-10-19` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-19` Worked on a pull request in [yasyf/synckit](https://github.com/yasyf/synckit) — merged no longer masking a local spawn failure as an offline peer
 
-**41,565 contributions in the last year**
+**41,644 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -120,9 +120,8 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-10-20` [cc-context v0.79.35](https://github.com/yasyf/cc-context/releases/tag/v0.79.35) — keeps a run's --parent re-parenting when continue replans
-- `2026-10-20` [captain-hook v12.101.13](https://github.com/yasyf/captain-hook/releases/tag/v12.101.13) — stops the go and python packs gating commits on a local test run
-- `2026-10-19` [cc-inbox v0.22.2](https://github.com/yasyf/cc-inbox/releases/tag/v0.22.2)
+- `2026-10-20` [cc-context v0.79.37](https://github.com/yasyf/cc-context/releases/tag/v0.79.37)
+- `2026-10-20` [captain-hook v12.101.14](https://github.com/yasyf/captain-hook/releases/tag/v12.101.14)
 - `2026-10-17` [cc-notes v0.72.11](https://github.com/yasyf/cc-notes/releases/tag/v0.72.11) — appends from the cached tip fold instead of rereading the chain
 - `2026-10-15` [cc-skills v1.14.17](https://github.com/yasyf/cc-skills/releases/tag/v1.14.17) — added one-command incident launch, desk withdraw, and --re replies
 - `2026-10-07` [slop-cop v0.1.73](https://github.com/yasyf/slop-cop/releases/tag/v0.1.73) — added --strict and a rule-suppression config, and bounded the detection tiers
