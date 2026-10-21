@@ -5,53 +5,41 @@
       "summary": "merged stopping monitors before the store closes its databases"
     },
     "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-10-20",
-      "summary": "merged dropping the local test-run commit gate from the go and python packs"
+      "as_of": "2026-10-21",
+      "summary": "merged running the hookd worker from the temp dir so it stops pinning the worktree"
     },
     "PullRequestEvent:yasyf/cc-context": {
-      "as_of": "2026-10-20",
-      "summary": "merged keeping a run's --parent re-parenting when continue replans"
+      "as_of": "2026-10-21",
+      "summary": "merged reporting a prek pass that fixed nothing as hooks failed"
     },
     "PullRequestEvent:yasyf/cc-inbox": {
       "as_of": "2026-10-19",
       "summary": "opened letting a --pr owner/repo#N filter match records naming the bare number"
     },
-    "PullRequestEvent:yasyf/cc-interact": {
-      "as_of": "2026-10-19",
-      "summary": "merged letting a consumer filter the event types its channel pushes"
-    },
-    "PullRequestEvent:yasyf/cc-present": {
-      "as_of": "2026-10-19",
-      "summary": "merged listing every option beside a focus preview, with its code wrapped"
-    },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-10-20",
-      "summary": "merged claiming a drive lane's posted PR so the landing runner stops skipping it"
+      "as_of": "2026-10-21",
+      "summary": "merged making evidence, proof, closeout, and desk lanes never PR-SILENT"
     },
-    "PullRequestEvent:yasyf/cc-transcript": {
-      "as_of": "2026-10-17",
-      "summary": "merged keeping registered warming from re-reading facts it would evict"
+    "PushEvent:yasyf/cc-inbox": {
+      "as_of": "2d720b6a270f",
+      "summary": "let a peer-only filter read without a drive"
     },
-    "PullRequestEvent:yasyf/daemonkit": {
-      "as_of": "2026-10-19",
-      "summary": "merged the 0.34.0 release, after a fresh-only install that never drains"
+    "PushEvent:yasyf/cc-present": {
+      "as_of": "42c4e8158bca",
+      "summary": "listed every option beside a focus preview, with its code wrapped"
     },
-    "PullRequestEvent:yasyf/synckit": {
-      "as_of": "2026-10-19",
-      "summary": "merged no longer masking a local spawn failure as an offline peer"
-    },
-    "PushEvent:yasyf/cc-context": {
-      "as_of": "8dc484185db5",
-      "summary": "a --no-push ship commits a published branch on its own head if its parent moved"
+    "PushEvent:yasyf/synckit": {
+      "as_of": "198b2908ec9e",
+      "summary": "stopped masking a local spawn failure as an offline peer"
     }
   },
-  "generated_at": "2026-10-20T14:28:43Z",
+  "generated_at": "2026-10-21T14:38:05Z",
   "shipped": {
-    "captain-hook@v12.101.13": {
-      "summary": "stops the go and python packs gating commits on a local test run"
+    "captain-hook@v12.101.15": {
+      "summary": "runs the hookd worker from the temp dir so it no longer pins the worktree"
     },
-    "cc-context@v0.79.35": {
-      "summary": "keeps a run's --parent re-parenting when continue replans"
+    "cc-context@v0.79.39": {
+      "summary": "reports a prek pass that fixed nothing as hooks failed"
     },
     "cc-notes@v0.72.11": {
       "summary": "appends from the cached tip fold instead of rereading the chain"
