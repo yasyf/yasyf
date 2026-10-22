@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-22T05:13:48Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-22T14:40:28Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-10-22` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged making evidence, proof, closeout, and desk lanes never PR-SILENT
-- `2026-10-22` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-22` Pushed to [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — rendered AGENTS.md from its fragment
+- `2026-10-22` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — opened telling the parent when a stopped subagent still owns live watches
+- `2026-10-22` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — opened giving each release tag its own binrun descriptor and manifest
+- `2026-10-22` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — folded the landing-runner fixes into the merge-queue stack
+- `2026-10-22` Discussed issues in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-10-22` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-22` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — added cc-slack v0.1.0
+- `2026-10-22` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-22` Created something new in [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — started the Slack daemon, CLI, and Claude Code plugin
 - `2026-10-21` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — merged running the hookd worker from the temp dir so it stops pinning the worktree
 - `2026-10-21` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged reporting a prek pass that fixed nothing as hooks failed
-- `2026-10-20` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
-- `2026-10-19` Worked on a pull request in [benbjohnson/litestream](https://github.com/benbjohnson/litestream) — merged stopping monitors before the store closes its databases
-- `2026-10-19` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — opened letting a --pr owner/repo#N filter match records naming the bare number
 - `2026-10-16` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-10-15` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present)
-- `2026-10-13` Triaged issues in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-10-02` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
 
-**41,921 contributions in the last year**
+**41,996 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -69,6 +69,7 @@
 - [cc-steer](https://github.com/yasyf/cc-steer) — learns how you steer Claude from past sessions, then does the steering for you
 - [cc-pane](https://github.com/yasyf/cc-pane) — one pane of glass over Claude Code and the whole cc-* toolbelt
 - [cc-remote](https://github.com/yasyf/cc-remote) — remote agent workspaces, ready with your tools: Sprites and Namespace backends behind one provider contract
+- [cc-slack](https://github.com/yasyf/cc-slack) — Slack for Claude Code sessions: post as you, watch threads, and take steering from your DMs
 - [cc-sudo](https://github.com/yasyf/cc-sudo) — sudo for Claude Code: one Touch ID tap per privileged command
 - [cc-patch](https://github.com/yasyf/cc-patch) — fast mode for Claude Code's delegated agents, re-applied automatically on every spawn, now with local packs and replace sites
 
@@ -120,6 +121,7 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-10-22` [cc-slack v0.1.1](https://github.com/yasyf/cc-slack/releases/tag/v0.1.1) — ships the binrun descriptor with the tagged plugin
 - `2026-10-21` [captain-hook v12.101.15](https://github.com/yasyf/captain-hook/releases/tag/v12.101.15) — runs the hookd worker from the temp dir so it no longer pins the worktree
 - `2026-10-17` [cc-notes v0.72.11](https://github.com/yasyf/cc-notes/releases/tag/v0.72.11) — appends from the cached tip fold instead of rereading the chain
 - `2026-10-15` [cc-skills v1.14.17](https://github.com/yasyf/cc-skills/releases/tag/v1.14.17) — added one-command incident launch, desk withdraw, and --re replies

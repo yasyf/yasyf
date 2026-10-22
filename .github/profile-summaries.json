@@ -1,8 +1,8 @@
 {
   "activity": {
-    "PullRequestEvent:benbjohnson/litestream": {
-      "as_of": "2026-10-19",
-      "summary": "merged stopping monitors before the store closes its databases"
+    "CreateEvent:yasyf/cc-slack": {
+      "as_of": "2026-10-22",
+      "summary": "started the Slack daemon, CLI, and Claude Code plugin"
     },
     "PullRequestEvent:yasyf/captain-hook": {
       "as_of": "2026-10-21",
@@ -12,34 +12,31 @@
       "as_of": "2026-10-21",
       "summary": "merged reporting a prek pass that fixed nothing as hooks failed"
     },
-    "PullRequestEvent:yasyf/cc-inbox": {
-      "as_of": "2026-10-19",
-      "summary": "opened letting a --pr owner/repo#N filter match records naming the bare number"
-    },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-10-21",
-      "summary": "merged making evidence, proof, closeout, and desk lanes never PR-SILENT"
+      "as_of": "2026-10-22",
+      "summary": "opened giving each release tag its own binrun descriptor and manifest"
     },
-    "PushEvent:yasyf/cc-inbox": {
-      "as_of": "2d720b6a270f",
-      "summary": "let a peer-only filter read without a drive"
+    "PullRequestEvent:yasyf/cc-slack": {
+      "as_of": "2026-10-22",
+      "summary": "opened telling the parent when a stopped subagent still owns live watches"
     },
-    "PushEvent:yasyf/cc-present": {
-      "as_of": "42c4e8158bca",
-      "summary": "listed every option beside a focus preview, with its code wrapped"
+    "PushEvent:yasyf/cc-skills": {
+      "as_of": "08099bbca2e3",
+      "summary": "folded the landing-runner fixes into the merge-queue stack"
     },
-    "PushEvent:yasyf/synckit": {
-      "as_of": "198b2908ec9e",
-      "summary": "stopped masking a local spawn failure as an offline peer"
+    "PushEvent:yasyf/cc-slack": {
+      "as_of": "420657d17e53",
+      "summary": "rendered AGENTS.md from its fragment"
+    },
+    "PushEvent:yasyf/homebrew-tap": {
+      "as_of": "c81e38e66e4a",
+      "summary": "added cc-slack v0.1.0"
     }
   },
-  "generated_at": "2026-10-21T14:38:05Z",
+  "generated_at": "2026-10-22T14:40:10Z",
   "shipped": {
     "captain-hook@v12.101.15": {
       "summary": "runs the hookd worker from the temp dir so it no longer pins the worktree"
-    },
-    "cc-context@v0.79.39": {
-      "summary": "reports a prek pass that fixed nothing as hooks failed"
     },
     "cc-notes@v0.72.11": {
       "summary": "appends from the cached tip fold instead of rereading the chain"
@@ -49,6 +46,9 @@
     },
     "cc-skills@v1.14.17": {
       "summary": "added one-command incident launch, desk withdraw, and --re replies"
+    },
+    "cc-slack@v0.1.1": {
+      "summary": "ships the binrun descriptor with the tagged plugin"
     },
     "slop-cop@v0.1.73": {
       "summary": "added --strict and a rule-suppression config, and bounded the detection tiers"
