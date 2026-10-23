@@ -1,54 +1,65 @@
 {
   "activity": {
-    "CreateEvent:yasyf/cc-slack": {
-      "as_of": "2026-10-22",
-      "summary": "started the Slack daemon, CLI, and Claude Code plugin"
-    },
     "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-10-21",
-      "summary": "merged running the hookd worker from the temp dir so it stops pinning the worktree"
+      "as_of": "2026-10-23",
+      "summary": "opened registering a pack module a sibling imported only once"
     },
     "PullRequestEvent:yasyf/cc-context": {
-      "as_of": "2026-10-21",
-      "summary": "merged reporting a prek pass that fixed nothing as hooks failed"
+      "as_of": "2026-10-23",
+      "summary": "merged keeping each aborted run's resolved commits under its own name"
+    },
+    "PullRequestEvent:yasyf/cc-notes": {
+      "as_of": "2026-10-23",
+      "summary": "merged repinning release-app onto the stapler retry"
+    },
+    "PullRequestEvent:yasyf/cc-present": {
+      "as_of": "2026-10-23",
+      "summary": "merged keeping the system map's labels readable in print and on phones"
+    },
+    "PullRequestEvent:yasyf/cc-remote": {
+      "as_of": "2026-10-23",
+      "summary": "merged reading the mounted payload into the page cache"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-10-22",
-      "summary": "opened giving each release tag its own binrun descriptor and manifest"
+      "as_of": "2026-10-23",
+      "summary": "merged posting the compaction root slice's blocker once a session"
     },
     "PullRequestEvent:yasyf/cc-slack": {
-      "as_of": "2026-10-22",
-      "summary": "opened telling the parent when a stopped subagent still owns live watches"
+      "as_of": "2026-10-23",
+      "summary": "opened asking about unrequested Slack writes on a card"
+    },
+    "PullRequestEvent:yasyf/cc-sudo": {
+      "as_of": "2026-10-23",
+      "summary": "opened keeping the recorded origin identity on reinstall"
+    },
+    "PullRequestEvent:yasyf/synckit": {
+      "as_of": "2026-10-23",
+      "summary": "opened reporting the daemon's build in synckitd status"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "08099bbca2e3",
-      "summary": "folded the landing-runner fixes into the merge-queue stack"
-    },
-    "PushEvent:yasyf/cc-slack": {
-      "as_of": "420657d17e53",
-      "summary": "rendered AGENTS.md from its fragment"
-    },
-    "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "c81e38e66e4a",
-      "summary": "added cc-slack v0.1.0"
+      "as_of": "91283683e0a4",
+      "summary": "pinned dd.system to cc-present v0.45.2"
     }
   },
-  "generated_at": "2026-10-22T14:40:10Z",
+  "generated_at": "2026-10-23T14:25:55Z",
   "shipped": {
-    "captain-hook@v12.101.15": {
-      "summary": "runs the hookd worker from the temp dir so it no longer pins the worktree"
+    "captain-hook@v12.103.2": {
+      "summary": "hook-lint flags project paths only when they name a .jsonl file"
     },
-    "cc-notes@v0.72.11": {
-      "summary": "appends from the cached tip fold instead of rereading the chain"
+    "cc-notes@v0.72.13": {
+      "summary": "repinned release-app onto the stapler retry"
     },
     "cc-pool@v0.69.0": {
       "summary": "added `ccp package reset` to retire a wedged deployment"
     },
-    "cc-skills@v1.14.17": {
-      "summary": "added one-command incident launch, desk withdraw, and --re replies"
+    "cc-remote@v0.26.14": {
+      "summary": "reads the mounted payload into the page cache beside the tools"
     },
-    "cc-slack@v0.1.1": {
-      "summary": "ships the binrun descriptor with the tagged plugin"
+    "cc-skills@v1.14.18": {
+      "summary": "renders incident fix and evidence briefs, and status posts mark milestones"
+    },
+    "cc-slack@v0.1.9": {
+      "summary": "lets a slack-grant label name one thread"
     },
     "slop-cop@v0.1.73": {
       "summary": "added --strict and a rule-suppression config, and bounded the detection tiers"

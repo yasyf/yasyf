@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-23T11:56:52Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-23T14:26:06Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-10-23` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — opened giving each release tag its own binrun descriptor and manifest
-- `2026-10-23` Worked on a pull request in [yasyf/synckit](https://github.com/yasyf/synckit)
-- `2026-10-23` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged reporting a prek pass that fixed nothing as hooks failed
-- `2026-10-23` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-10-23` Worked on a pull request in [yasyf/cc-sudo](https://github.com/yasyf/cc-sudo)
-- `2026-10-23` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present)
-- `2026-10-23` Worked on a pull request in [yasyf/cc-remote](https://github.com/yasyf/cc-remote)
+- `2026-10-23` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged posting the compaction root slice's blocker once a session
+- `2026-10-23` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — opened registering a pack module a sibling imported only once
+- `2026-10-23` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — opened asking about unrequested Slack writes on a card
+- `2026-10-23` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — merged repinning release-app onto the stapler retry
+- `2026-10-23` Discussed issues in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-23` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged keeping each aborted run's resolved commits under its own name
+- `2026-10-23` Worked on a pull request in [yasyf/synckit](https://github.com/yasyf/synckit) — opened reporting the daemon's build in synckitd status
+- `2026-10-23` Worked on a pull request in [yasyf/cc-sudo](https://github.com/yasyf/cc-sudo) — opened keeping the recorded origin identity on reinstall
+- `2026-10-23` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — pinned dd.system to cc-present v0.45.2
+- `2026-10-23` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present) — merged keeping the system map's labels readable in print and on phones
+- `2026-10-23` Worked on a pull request in [yasyf/cc-remote](https://github.com/yasyf/cc-remote) — merged reading the mounted payload into the page cache
 - `2026-10-23` Created something new in [yasyf/cc-remote](https://github.com/yasyf/cc-remote)
-- `2026-10-23` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-10-23` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present)
-- `2026-10-23` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — added cc-slack v0.1.0
-- `2026-10-23` Pushed to [yasyf/cc-remote](https://github.com/yasyf/cc-remote)
 
-**42,326 contributions in the last year**
+**42,367 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -121,12 +121,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-10-23` [cc-sudo v0.12.2](https://github.com/yasyf/cc-sudo/releases/tag/v0.12.2)
-- `2026-10-23` [cc-remote v0.26.14](https://github.com/yasyf/cc-remote/releases/tag/v0.26.14)
-- `2026-10-23` [captain-hook v12.103.0](https://github.com/yasyf/captain-hook/releases/tag/v12.103.0)
-- `2026-10-23` [cc-skills v1.14.18](https://github.com/yasyf/cc-skills/releases/tag/v1.14.18)
-- `2026-10-22` [cc-context v0.79.41](https://github.com/yasyf/cc-context/releases/tag/v0.79.41)
-- `2026-10-17` [cc-notes v0.72.11](https://github.com/yasyf/cc-notes/releases/tag/v0.72.11) — appends from the cached tip fold instead of rereading the chain
+- `2026-10-23` [cc-slack v0.1.9](https://github.com/yasyf/cc-slack/releases/tag/v0.1.9) — lets a slack-grant label name one thread
+- `2026-10-23` [captain-hook v12.103.2](https://github.com/yasyf/captain-hook/releases/tag/v12.103.2) — hook-lint flags project paths only when they name a .jsonl file
+- `2026-10-23` [cc-notes v0.72.13](https://github.com/yasyf/cc-notes/releases/tag/v0.72.13) — repinned release-app onto the stapler retry
+- `2026-10-23` [cc-remote v0.26.14](https://github.com/yasyf/cc-remote/releases/tag/v0.26.14) — reads the mounted payload into the page cache beside the tools
+- `2026-10-23` [cc-skills v1.14.18](https://github.com/yasyf/cc-skills/releases/tag/v1.14.18) — renders incident fix and evidence briefs, and status posts mark milestones
 - `2026-10-07` [slop-cop v0.1.73](https://github.com/yasyf/slop-cop/releases/tag/v0.1.73) — added --strict and a rule-suppression config, and bounded the detection tiers
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
 <!-- gh-profile:end:shipped -->
