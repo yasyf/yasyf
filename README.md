@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-23T05:12:28Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-23T11:56:52Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-10-23` Worked on a pull request in [yasyf/cc-remote](https://github.com/yasyf/cc-remote)
 - `2026-10-23` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — opened giving each release tag its own binrun descriptor and manifest
-- `2026-10-23` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — opened telling the parent when a stopped subagent still owns live watches
+- `2026-10-23` Worked on a pull request in [yasyf/synckit](https://github.com/yasyf/synckit)
+- `2026-10-23` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged reporting a prek pass that fixed nothing as hooks failed
+- `2026-10-23` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-10-23` Worked on a pull request in [yasyf/cc-sudo](https://github.com/yasyf/cc-sudo)
 - `2026-10-23` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present)
-- `2026-10-23` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — folded the landing-runner fixes into the merge-queue stack
-- `2026-10-23` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
-- `2026-10-23` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
+- `2026-10-23` Worked on a pull request in [yasyf/cc-remote](https://github.com/yasyf/cc-remote)
+- `2026-10-23` Created something new in [yasyf/cc-remote](https://github.com/yasyf/cc-remote)
+- `2026-10-23` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-23` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present)
 - `2026-10-23` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — added cc-slack v0.1.0
-- `2026-10-23` Discussed issues in [yasyf/cc-present](https://github.com/yasyf/cc-present)
-- `2026-10-23` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — merged running the hookd worker from the temp dir so it stops pinning the worktree
-- `2026-10-23` Created something new in [yasyf/cc-present](https://github.com/yasyf/cc-present)
-- `2026-10-23` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-10-23` Pushed to [yasyf/cc-remote](https://github.com/yasyf/cc-remote)
 
-**42,237 contributions in the last year**
+**42,326 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -121,10 +121,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-10-23` [cc-inbox v0.23.0](https://github.com/yasyf/cc-inbox/releases/tag/v0.23.0)
+- `2026-10-23` [cc-sudo v0.12.2](https://github.com/yasyf/cc-sudo/releases/tag/v0.12.2)
+- `2026-10-23` [cc-remote v0.26.14](https://github.com/yasyf/cc-remote/releases/tag/v0.26.14)
 - `2026-10-23` [captain-hook v12.103.0](https://github.com/yasyf/captain-hook/releases/tag/v12.103.0)
 - `2026-10-23` [cc-skills v1.14.18](https://github.com/yasyf/cc-skills/releases/tag/v1.14.18)
-- `2026-10-23` [cc-remote v0.26.10](https://github.com/yasyf/cc-remote/releases/tag/v0.26.10)
+- `2026-10-22` [cc-context v0.79.41](https://github.com/yasyf/cc-context/releases/tag/v0.79.41)
 - `2026-10-17` [cc-notes v0.72.11](https://github.com/yasyf/cc-notes/releases/tag/v0.72.11) — appends from the cached tip fold instead of rereading the chain
 - `2026-10-07` [slop-cop v0.1.73](https://github.com/yasyf/slop-cop/releases/tag/v0.1.73) — added --strict and a rule-suppression config, and bounded the detection tiers
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
