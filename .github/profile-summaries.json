@@ -1,53 +1,30 @@
 {
   "activity": {
-    "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-10-23",
-      "summary": "opened registering a pack module a sibling imported only once"
-    },
     "PullRequestEvent:yasyf/cc-context": {
-      "as_of": "2026-10-23",
-      "summary": "merged keeping each aborted run's resolved commits under its own name"
-    },
-    "PullRequestEvent:yasyf/cc-notes": {
-      "as_of": "2026-10-23",
-      "summary": "merged repinning release-app onto the stapler retry"
+      "as_of": "2026-10-24",
+      "summary": "opened saying when a submit leaves a saved rebase behind"
     },
     "PullRequestEvent:yasyf/cc-present": {
-      "as_of": "2026-10-23",
-      "summary": "merged keeping the system map's labels readable in print and on phones"
-    },
-    "PullRequestEvent:yasyf/cc-remote": {
-      "as_of": "2026-10-23",
-      "summary": "merged reading the mounted payload into the page cache"
+      "as_of": "2026-10-24",
+      "summary": "merged checking a card against the board's rules before posting it to Slack"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-10-23",
-      "summary": "merged posting the compaction root slice's blocker once a session"
+      "as_of": "2026-10-24",
+      "summary": "merged counting a row's repeat answer ids as rowed in the register gate"
     },
-    "PullRequestEvent:yasyf/cc-slack": {
-      "as_of": "2026-10-23",
-      "summary": "opened asking about unrequested Slack writes on a card"
-    },
-    "PullRequestEvent:yasyf/cc-sudo": {
-      "as_of": "2026-10-23",
-      "summary": "opened keeping the recorded origin identity on reinstall"
-    },
-    "PullRequestEvent:yasyf/synckit": {
-      "as_of": "2026-10-23",
-      "summary": "opened reporting the daemon's build in synckitd status"
+    "PushEvent:yasyf/cc-context": {
+      "as_of": "d35c6f12bd51",
+      "summary": "kept each aborted run's resolved commits under its own name"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "91283683e0a4",
-      "summary": "pinned dd.system to cc-present v0.45.2"
+      "as_of": "31b6b11c16ac",
+      "summary": "landed long-running register-gate, ledger-read, and landing-gate fixes"
     }
   },
-  "generated_at": "2026-10-23T14:25:55Z",
+  "generated_at": "2026-10-24T13:45:00Z",
   "shipped": {
-    "captain-hook@v12.103.2": {
-      "summary": "hook-lint flags project paths only when they name a .jsonl file"
-    },
-    "cc-notes@v0.72.13": {
-      "summary": "repinned release-app onto the stapler retry"
+    "cc-notes@v0.72.14": {
+      "summary": "dropped busywork nudges and capped the rest at once per agent"
     },
     "cc-pool@v0.69.0": {
       "summary": "added `ccp package reset` to retire a wedged deployment"
@@ -55,11 +32,14 @@
     "cc-remote@v0.26.14": {
       "summary": "reads the mounted payload into the page cache beside the tools"
     },
-    "cc-skills@v1.14.18": {
-      "summary": "renders incident fix and evidence briefs, and status posts mark milestones"
+    "cc-review@v0.40.2": {
+      "summary": "reads the channel route from cc-interact's ChannelState"
     },
-    "cc-slack@v0.1.9": {
-      "summary": "lets a slack-grant label name one thread"
+    "cc-skills@v1.14.19": {
+      "summary": "long-running gates PRs and owner boards on a rulings register"
+    },
+    "docker-dsl@v0.1.2": {
+      "summary": "fixed importing recipes from the working directory in the console script"
     },
     "slop-cop@v0.1.73": {
       "summary": "added --strict and a rule-suppression config, and bounded the detection tiers"
