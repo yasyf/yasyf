@@ -4,24 +4,28 @@
       "as_of": "2026-10-24",
       "summary": "opened saying when a submit leaves a saved rebase behind"
     },
-    "PullRequestEvent:yasyf/cc-present": {
-      "as_of": "2026-10-24",
-      "summary": "merged checking a card against the board's rules before posting it to Slack"
+    "PullRequestEvent:yasyf/cc-inbox": {
+      "as_of": "2026-10-25",
+      "summary": "merged folding repeated --re and --resolves into one record per seq"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-10-24",
-      "summary": "merged counting a row's repeat answer ids as rowed in the register gate"
+      "as_of": "2026-10-25",
+      "summary": "merged retiring a lane from rotation only on a stand-down order"
     },
     "PushEvent:yasyf/cc-context": {
-      "as_of": "d35c6f12bd51",
-      "summary": "kept each aborted run's resolved commits under its own name"
+      "as_of": "71e92c15ccde",
+      "summary": "kept the trunk replay decision local, aiming only the replay at the remote trunk"
+    },
+    "PushEvent:yasyf/cc-inbox": {
+      "as_of": "b13eeaf1449d",
+      "summary": "released 0.24.0: open asks surface first and overdue ones get a Stop nudge"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "31b6b11c16ac",
-      "summary": "landed long-running register-gate, ledger-read, and landing-gate fixes"
+      "as_of": "d110779d00e8",
+      "summary": "let a paused gate still squash an approved green incident fix"
     }
   },
-  "generated_at": "2026-10-24T13:45:00Z",
+  "generated_at": "2026-10-25T13:55:08Z",
   "shipped": {
     "cc-notes@v0.72.14": {
       "summary": "dropped busywork nudges and capped the rest at once per agent"
