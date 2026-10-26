@@ -9,23 +9,19 @@
       "summary": "merged folding repeated --re and --resolves into one record per seq"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-10-25",
-      "summary": "merged retiring a lane from rotation only on a stand-down order"
-    },
-    "PushEvent:yasyf/cc-context": {
-      "as_of": "71e92c15ccde",
-      "summary": "kept the trunk replay decision local, aiming only the replay at the remote trunk"
+      "as_of": "2026-10-26",
+      "summary": "merged sending an unclassified-capture blocker to the root unless its lane runs"
     },
     "PushEvent:yasyf/cc-inbox": {
-      "as_of": "b13eeaf1449d",
-      "summary": "released 0.24.0: open asks surface first and overdue ones get a Stop nudge"
+      "as_of": "dc4a0c7f1726",
+      "summary": "released 0.24.2, folding repeated --re and --resolves into one record"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "d110779d00e8",
-      "summary": "let a paused gate still squash an approved green incident fix"
+      "as_of": "1032299bbe5f",
+      "summary": "taught classify to fold repeats onto order rows and catch \"and again\""
     }
   },
-  "generated_at": "2026-10-25T13:55:08Z",
+  "generated_at": "2026-10-26T16:18:34Z",
   "shipped": {
     "cc-notes@v0.72.14": {
       "summary": "dropped busywork nudges and capped the rest at once per agent"
@@ -41,9 +37,6 @@
     },
     "cc-skills@v1.14.19": {
       "summary": "long-running gates PRs and owner boards on a rulings register"
-    },
-    "docker-dsl@v0.1.2": {
-      "summary": "fixed importing recipes from the working directory in the console script"
     },
     "slop-cop@v0.1.73": {
       "summary": "added --strict and a rule-suppression config, and bounded the detection tiers"

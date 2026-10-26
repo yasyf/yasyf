@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-26T13:27:08Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-26T16:18:34Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -28,17 +28,17 @@
 
 <!-- gh-profile:start:activity -->
 - `2026-10-26` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-10-26` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged retiring a lane from rotation only on a stand-down order
-- `2026-10-26` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — let a paused gate still squash an approved green incident fix
+- `2026-10-26` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — taught classify to fold repeats onto order rows and catch "and again"
+- `2026-10-26` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged sending an unclassified-capture blocker to the root unless its lane runs
 - `2026-10-26` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-10-25` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — released 0.24.0: open asks surface first and overdue ones get a Stop nudge
+- `2026-10-25` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — released 0.24.2, folding repeated --re and --resolves into one record
 - `2026-10-25` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — merged folding repeated --re and --resolves into one record per seq
 - `2026-10-24` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — opened saying when a submit leaves a saved rebase behind
 - `2026-10-24` Discussed issues in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-10-24` Discussed issues in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-10-24` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present)
 
-**42,398 contributions in the last year**
+**42,399 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -126,7 +126,6 @@
 - `2026-10-09` [cc-review v0.40.2](https://github.com/yasyf/cc-review/releases/tag/v0.40.2) — reads the channel route from cc-interact's ChannelState
 - `2026-10-07` [slop-cop v0.1.73](https://github.com/yasyf/slop-cop/releases/tag/v0.1.73) — added --strict and a rule-suppression config, and bounded the detection tiers
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
-- `2026-07-03` [docker-dsl v0.1.2](https://github.com/yasyf/docker-dsl/releases/tag/v0.1.2) — fixed importing recipes from the working directory in the console script
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
