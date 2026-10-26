@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-26T16:18:34Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-26T22:49:23Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,18 +27,18 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-10-26` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
+- `2026-10-26` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present)
+- `2026-10-26` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged sending an unclassified-capture blocker to the root unless its lane runs
+- `2026-10-26` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — opened saying when a submit leaves a saved rebase behind
+- `2026-10-26` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-10-26` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — merged folding repeated --re and --resolves into one record per seq
 - `2026-10-26` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-10-26` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — taught classify to fold repeats onto order rows and catch "and again"
-- `2026-10-26` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged sending an unclassified-capture blocker to the root unless its lane runs
 - `2026-10-26` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-10-25` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — released 0.24.2, folding repeated --re and --resolves into one record
-- `2026-10-25` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — merged folding repeated --re and --resolves into one record per seq
-- `2026-10-24` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — opened saying when a submit leaves a saved rebase behind
-- `2026-10-24` Discussed issues in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-10-24` Discussed issues in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-10-24` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present)
 
-**42,399 contributions in the last year**
+**42,461 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -119,8 +119,8 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-10-26` [captain-hook v12.105.4](https://github.com/yasyf/captain-hook/releases/tag/v12.105.4)
 - `2026-10-24` [cc-skills v1.14.19](https://github.com/yasyf/cc-skills/releases/tag/v1.14.19) — long-running gates PRs and owner boards on a rulings register
-- `2026-10-24` [captain-hook v12.105.3](https://github.com/yasyf/captain-hook/releases/tag/v12.105.3)
 - `2026-10-24` [cc-notes v0.72.14](https://github.com/yasyf/cc-notes/releases/tag/v0.72.14) — dropped busywork nudges and capped the rest at once per agent
 - `2026-10-23` [cc-remote v0.26.14](https://github.com/yasyf/cc-remote/releases/tag/v0.26.14) — reads the mounted payload into the page cache beside the tools
 - `2026-10-09` [cc-review v0.40.2](https://github.com/yasyf/cc-review/releases/tag/v0.40.2) — reads the channel route from cc-interact's ChannelState
