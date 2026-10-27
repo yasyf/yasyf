@@ -1,30 +1,37 @@
 {
   "activity": {
-    "PullRequestEvent:yasyf/cc-context": {
-      "as_of": "2026-10-24",
-      "summary": "opened saying when a submit leaves a saved rebase behind"
+    "PullRequestEvent:yasyf/captain-hook": {
+      "as_of": "2026-10-27",
+      "summary": "merged a warning on git log --all -S or -G with no pathspec or date bound"
     },
-    "PullRequestEvent:yasyf/cc-inbox": {
-      "as_of": "2026-10-25",
-      "summary": "merged folding repeated --re and --resolves into one record per seq"
+    "PullRequestEvent:yasyf/cc-context": {
+      "as_of": "2026-10-27",
+      "summary": "opened submit help on child-lane branches publishing onto a held parent"
+    },
+    "PullRequestEvent:yasyf/cc-review": {
+      "as_of": "2026-10-27",
+      "summary": "merged backing off on GitHub's real rate-limit error"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-10-26",
-      "summary": "merged sending an unclassified-capture blocker to the root unless its lane runs"
+      "as_of": "2026-10-27",
+      "summary": "opened mq.py gos, listing go'd PRs the queue does not hold"
     },
-    "PushEvent:yasyf/cc-inbox": {
-      "as_of": "dc4a0c7f1726",
-      "summary": "released 0.24.2, folding repeated --re and --resolves into one record"
+    "PushEvent:yasyf/cc-present": {
+      "as_of": "c43f34b77286",
+      "summary": "embedded one pr-groups row in an iframe with ?row="
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "1032299bbe5f",
-      "summary": "taught classify to fold repeats onto order rows and catch \"and again\""
+      "as_of": "c82a22cb520c",
+      "summary": "opened the long-running dashboard on the plan's steps as an interactive table"
     }
   },
-  "generated_at": "2026-10-26T16:18:34Z",
+  "generated_at": "2026-10-27T15:31:59Z",
   "shipped": {
-    "cc-notes@v0.72.14": {
-      "summary": "dropped busywork nudges and capped the rest at once per agent"
+    "captain-hook@v12.106.1": {
+      "summary": "warns on git log --all -S or -G with no pathspec or lower date bound"
+    },
+    "cc-notes@v0.73.2": {
+      "summary": "lets -R combine with --checkout, --apply and --abort"
     },
     "cc-pool@v0.69.0": {
       "summary": "added `ccp package reset` to retire a wedged deployment"
@@ -32,8 +39,8 @@
     "cc-remote@v0.26.14": {
       "summary": "reads the mounted payload into the page cache beside the tools"
     },
-    "cc-review@v0.40.2": {
-      "summary": "reads the channel route from cc-interact's ChannelState"
+    "cc-review@v0.41.2": {
+      "summary": "backs off on GitHub's real rate-limit error and resumes a rate-limited review"
     },
     "cc-skills@v1.14.19": {
       "summary": "long-running gates PRs and owner boards on a rulings register"
