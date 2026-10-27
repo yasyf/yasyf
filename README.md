@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-27T15:32:00Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-27T22:29:57Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -28,19 +28,19 @@
 
 <!-- gh-profile:start:activity -->
 - `2026-10-27` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — opened mq.py gos, listing go'd PRs the queue does not hold
+- `2026-10-27` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
+- `2026-10-27` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
+- `2026-10-27` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
 - `2026-10-27` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — opened submit help on child-lane branches publishing onto a held parent
-- `2026-10-27` Worked on a pull request in [yasyf/cc-review](https://github.com/yasyf/cc-review) — merged backing off on GitHub's real rate-limit error
+- `2026-10-27` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present)
 - `2026-10-27` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — merged a warning on git log --all -S or -G with no pathspec or date bound
-- `2026-10-27` Discussed issues in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-10-27` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — opened the long-running dashboard on the plan's steps as an interactive table
-- `2026-10-27` Created something new in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
-- `2026-10-27` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — embedded one pr-groups row in an iframe with ?row=
-- `2026-10-27` Created something new in [yasyf/cc-present](https://github.com/yasyf/cc-present)
 - `2026-10-27` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-10-27` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-10-27` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-10-27` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-10-27` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 
-**42,791 contributions in the last year**
+**42,975 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -121,10 +121,10 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-10-27` [cc-review v0.41.2](https://github.com/yasyf/cc-review/releases/tag/v0.41.2) — backs off on GitHub's real rate-limit error and resumes a rate-limited review
-- `2026-10-27` [captain-hook v12.106.1](https://github.com/yasyf/captain-hook/releases/tag/v12.106.1) — warns on git log --all -S or -G with no pathspec or lower date bound
-- `2026-10-27` [cc-notes v0.73.2](https://github.com/yasyf/cc-notes/releases/tag/v0.73.2) — lets -R combine with --checkout, --apply and --abort
-- `2026-10-24` [cc-skills v1.14.19](https://github.com/yasyf/cc-skills/releases/tag/v1.14.19) — long-running gates PRs and owner boards on a rulings register
+- `2026-10-27` [cc-skills v1.14.21](https://github.com/yasyf/cc-skills/releases/tag/v1.14.21)
+- `2026-10-27` [captain-hook v12.106.7](https://github.com/yasyf/captain-hook/releases/tag/v12.106.7)
+- `2026-10-27` [cc-notes v0.73.4](https://github.com/yasyf/cc-notes/releases/tag/v0.73.4)
+- `2026-10-27` [cc-review v0.43.0](https://github.com/yasyf/cc-review/releases/tag/v0.43.0)
 - `2026-10-23` [cc-remote v0.26.14](https://github.com/yasyf/cc-remote/releases/tag/v0.26.14) — reads the mounted payload into the page cache beside the tools
 - `2026-10-07` [slop-cop v0.1.73](https://github.com/yasyf/slop-cop/releases/tag/v0.1.73) — added --strict and a rule-suppression config, and bounded the detection tiers
 - `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
