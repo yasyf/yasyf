@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-28T06:05:11Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-28T13:22:47Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-10-28` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — opened submit help on child-lane branches publishing onto a held parent
 - `2026-10-28` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — opened mq.py gos, listing go'd PRs the queue does not hold
-- `2026-10-28` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
-- `2026-10-28` Triaged issues in [dagger/dagger](https://github.com/dagger/dagger)
-- `2026-10-28` Worked on a pull request in [yasyf/reposync](https://github.com/yasyf/reposync)
-- `2026-10-28` Worked on a pull request in [yasyf/cookiesync](https://github.com/yasyf/cookiesync)
-- `2026-10-28` Worked on a pull request in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
+- `2026-10-28` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — opened submit help on child-lane branches publishing onto a held parent
 - `2026-10-28` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — merged a warning on git log --all -S or -G with no pathspec or date bound
-- `2026-10-28` Worked on a pull request in [yasyf/synckit](https://github.com/yasyf/synckit)
-- `2026-10-28` Worked on a pull request in [yasyf/cc-squash](https://github.com/yasyf/cc-squash)
-- `2026-10-28` Worked on a pull request in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
-- `2026-10-28` Worked on a pull request in [yasyf/fusekit](https://github.com/yasyf/fusekit)
+- `2026-10-28` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
+- `2026-10-27` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-27` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — opened the long-running dashboard on the plan's steps as an interactive table
+- `2026-10-27` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-10-27` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
+- `2026-10-27` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-27` Was active in [yasyf/cc-present](https://github.com/yasyf/cc-present)
+- `2026-10-27` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — embedded one pr-groups row in an iframe with ?row=
+- `2026-10-27` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 
-**43,209 contributions in the last year**
+**43,438 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -121,13 +121,13 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-10-28` [captain-hook v12.106.13](https://github.com/yasyf/captain-hook/releases/tag/v12.106.13)
-- `2026-10-28` [cc-skills v1.14.23](https://github.com/yasyf/cc-skills/releases/tag/v1.14.23)
-- `2026-10-28` [cc-review v0.45.0](https://github.com/yasyf/cc-review/releases/tag/v0.45.0)
-- `2026-10-27` [cc-notes v0.73.5](https://github.com/yasyf/cc-notes/releases/tag/v0.73.5)
+- `2026-10-28` [captain-hook v12.106.21](https://github.com/yasyf/captain-hook/releases/tag/v12.106.21)
+- `2026-10-28` [cc-notes v0.74.0](https://github.com/yasyf/cc-notes/releases/tag/v0.74.0)
+- `2026-10-28` [cc-skills v1.14.24](https://github.com/yasyf/cc-skills/releases/tag/v1.14.24)
+- `2026-10-28` [cc-pool v0.70.0](https://github.com/yasyf/cc-pool/releases/tag/v0.70.0)
+- `2026-10-28` [cc-review v0.46.0](https://github.com/yasyf/cc-review/releases/tag/v0.46.0)
 - `2026-10-23` [cc-remote v0.26.14](https://github.com/yasyf/cc-remote/releases/tag/v0.26.14) — reads the mounted payload into the page cache beside the tools
 - `2026-10-07` [slop-cop v0.1.73](https://github.com/yasyf/slop-cop/releases/tag/v0.1.73) — added --strict and a rule-suppression config, and bounded the detection tiers
-- `2026-08-30` [cc-pool v0.69.0](https://github.com/yasyf/cc-pool/releases/tag/v0.69.0) — added `ccp package reset` to retire a wedged deployment
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
