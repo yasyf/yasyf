@@ -1,58 +1,52 @@
 {
   "activity": {
-    "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-10-28",
-      "summary": "opened a cc-transcript 14.45.9 pin for single joined cold-load publication"
-    },
     "PullRequestEvent:yasyf/cc-context": {
-      "as_of": "2026-10-28",
-      "summary": "adopted an origin head the branch already holds, naming what --expect-remote is missing"
+      "as_of": "2026-10-30",
+      "summary": "merged --tip-only reading the parent's published head from the remote"
     },
-    "PullRequestEvent:yasyf/cc-pool": {
-      "as_of": "2026-10-28",
-      "summary": "merged dropping the spctl gate Homebrew's sandbox always fails, and cut 0.70.1"
+    "PullRequestEvent:yasyf/cc-inbox": {
+      "as_of": "2026-10-30",
+      "summary": "annotates grep output in one bounded batch"
     },
-    "PullRequestEvent:yasyf/cc-present": {
-      "as_of": "2026-10-28",
-      "summary": "merged paging a Slack group card past 20 rows, one card per 20"
+    "PullRequestEvent:yasyf/cc-notes": {
+      "as_of": "2026-10-30",
+      "summary": "narrows labeled task deduplication candidates in the store"
+    },
+    "PullRequestEvent:yasyf/cc-remote": {
+      "as_of": "2026-10-30",
+      "summary": "merged delivering scoped Trunk keys through the Orca worker FIFO"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-10-28",
-      "summary": "kept an open Work story in place through updates and read GitHub in parallel for PR pages"
+      "as_of": "2026-10-30",
+      "summary": "merged detaching long-running fact values before replace mutates the tree"
     },
-    "PullRequestEvent:yasyf/daemonkit": {
-      "as_of": "2026-10-28",
-      "summary": "opened naming a foreign-era daemon's protocol and PID, for 0.36.0"
+    "PullRequestEvent:yasyf/cc-transcript": {
+      "as_of": "2026-10-30",
+      "summary": "demonstrates a cached membership namespace freshness gap"
     },
     "PullRequestEvent:yasyf/homebrew-tap": {
-      "as_of": "2026-10-28",
-      "summary": "opened a shared EX_NOHOST stapler retry that wrap-daemon-bundle uses too"
+      "as_of": "2026-10-30",
+      "summary": "rejects formulas with missing checksums"
+    },
+    "PullRequestEvent:yasyf/synckit": {
+      "as_of": "2026-10-30",
+      "summary": "merged exposing registration without importing the macOS daemon"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "b999808c968f",
-      "summary": "rewrote the long-running dashboard's Review page as one plain line per open question"
-    },
-    "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "c2125b2766a0",
-      "summary": "bumped the cc-present formula to v0.52.15"
+      "as_of": "267eee51bdad",
+      "summary": "stopped long-running treating a headless runner warning as a landing refusal"
     }
   },
-  "generated_at": "2026-10-28T16:17:01Z",
+  "generated_at": "2026-10-30T16:20:59Z",
   "shipped": {
-    "captain-hook@v12.106.21": {
-      "summary": "shares one language-marker walk per root across workers"
+    "cc-notes@v0.74.18": {
+      "summary": "fetches missing blobs without commit negotiation"
     },
-    "captain-hook@v12.106.22": {
-      "summary": "blocks rg --files at HOME, worktree pools, and their parents"
+    "cc-pool@v0.70.1": {
+      "summary": "drops the spctl gate Homebrew's sandbox always fails"
     },
-    "cc-notes@v0.74.0": {
-      "summary": "added list --full to emit whole records from one listing"
-    },
-    "cc-pool@v0.70.0": {
-      "summary": "trusts any same-user process under daemonkit 0.35.2 and fusekit 1.21.1"
-    },
-    "cc-remote@v0.26.14": {
-      "summary": "reads the mounted payload into the page cache beside the tools"
+    "cc-remote@v0.26.15": {
+      "summary": "delivers scoped Trunk keys through the Orca worker FIFO"
     },
     "cc-review@v0.46.0": {
       "summary": "trusts any same-user process and stops hashing the executable on every command"
@@ -65,9 +59,6 @@
     },
     "slop-cop@v0.1.73": {
       "summary": "added --strict and a rule-suppression config, and bounded the detection tiers"
-    },
-    "spawnllm@v0.17.1": {
-      "summary": "reads the Keychain before the credentials file"
     }
   },
   "version": 1
