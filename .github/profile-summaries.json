@@ -1,64 +1,67 @@
 {
   "activity": {
+    "PullRequestEvent:yasyf/captain-hook": {
+      "as_of": "2026-10-31",
+      "summary": "merged blocking unbounded find across checkout pools"
+    },
     "PullRequestEvent:yasyf/cc-context": {
-      "as_of": "2026-10-30",
-      "summary": "merged --tip-only reading the parent's published head from the remote"
+      "as_of": "2026-10-31",
+      "summary": "adopts an untracked branch onto its native stack base in rebase and submit"
     },
     "PullRequestEvent:yasyf/cc-inbox": {
-      "as_of": "2026-10-30",
-      "summary": "annotates grep output in one bounded batch"
+      "as_of": "2026-10-31",
+      "summary": "merged indexing incident-hold membership for native daemon reads"
     },
     "PullRequestEvent:yasyf/cc-notes": {
-      "as_of": "2026-10-30",
-      "summary": "narrows labeled task deduplication candidates in the store"
-    },
-    "PullRequestEvent:yasyf/cc-remote": {
-      "as_of": "2026-10-30",
-      "summary": "merged delivering scoped Trunk keys through the Orca worker FIFO"
+      "as_of": "2026-10-31",
+      "summary": "merged a fold cache that holds every live record of a large repository"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-10-30",
-      "summary": "merged detaching long-running fact values before replace mutates the tree"
+      "as_of": "2026-10-31",
+      "summary": "merged enqueueing a head only once its own test build passes on it"
     },
     "PullRequestEvent:yasyf/cc-transcript": {
-      "as_of": "2026-10-30",
-      "summary": "demonstrates a cached membership namespace freshness gap"
+      "as_of": "2026-10-31",
+      "summary": "preserves native hydrate limit reasons and consumed work"
     },
     "PullRequestEvent:yasyf/homebrew-tap": {
-      "as_of": "2026-10-30",
-      "summary": "rejects formulas with missing checksums"
-    },
-    "PullRequestEvent:yasyf/synckit": {
-      "as_of": "2026-10-30",
-      "summary": "merged exposing registration without importing the macOS daemon"
+      "as_of": "2026-10-31",
+      "summary": "merged publishing a verified ARM bottle for git-promisor"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "267eee51bdad",
-      "summary": "stopped long-running treating a headless runner warning as a landing refusal"
+      "as_of": "b3224b42985e",
+      "summary": "kept the long-running register read until a ledger ref moves"
+    },
+    "ReleaseEvent:yasyf/homebrew-tap": {
+      "as_of": "2026-10-31",
+      "summary": "published git-promisor 2.56.0_1 with a verified ARM bottle"
     }
   },
-  "generated_at": "2026-10-30T16:20:59Z",
+  "generated_at": "2026-10-31T15:30:12Z",
   "shipped": {
-    "cc-notes@v0.74.18": {
-      "summary": "fetches missing blobs without commit negotiation"
+    "captain-hook@v12.108.4": {
+      "summary": "recognizes unconditional hook-failure rethrows in lint"
+    },
+    "cc-notes@v0.74.29": {
+      "summary": "releases the verified bounded cache source"
     },
     "cc-pool@v0.70.1": {
       "summary": "drops the spctl gate Homebrew's sandbox always fails"
     },
-    "cc-remote@v0.26.15": {
-      "summary": "delivers scoped Trunk keys through the Orca worker FIFO"
+    "cc-remote@v0.26.17": {
+      "summary": "installs every system deb in one apt transaction"
     },
     "cc-review@v0.46.0": {
       "summary": "trusts any same-user process and stops hashing the executable on every command"
     },
-    "cc-skills@v1.14.24": {
-      "summary": "long-running routes unread terminals and fork deferrals to desks instead of root"
-    },
-    "docker-dsl@v0.1.2": {
-      "summary": "imports recipes from the working directory in the console script"
+    "cc-skills@v1.14.26": {
+      "summary": "long-running gains remote restack and vet on Sprites, and a landing runner that settles every head it admits"
     },
     "slop-cop@v0.1.73": {
       "summary": "added --strict and a rule-suppression config, and bounded the detection tiers"
+    },
+    "spawnllm@v0.17.3": {
+      "summary": "cancels request-owned CLI children at checkpoints"
     }
   },
   "version": 1

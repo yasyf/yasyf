@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-31T12:57:17Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-31T15:30:20Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-10-31` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged detaching long-running fact values before replace mutates the tree
-- `2026-10-31` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present)
-- `2026-10-31` Worked on a pull request in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
-- `2026-10-31` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-10-31` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged --tip-only reading the parent's published head from the remote
-- `2026-10-31` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — annotates grep output in one bounded batch
-- `2026-10-31` Discussed issues in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
-- `2026-10-31` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — narrows labeled task deduplication candidates in the store
-- `2026-10-30` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-10-30` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present)
-- `2026-10-30` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — stopped long-running treating a headless runner warning as a landing refusal
+- `2026-10-31` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — merged indexing incident-hold membership for native daemon reads
+- `2026-10-31` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — adopts an untracked branch onto its native stack base in rebase and submit
+- `2026-10-31` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged enqueueing a head only once its own test build passes on it
+- `2026-10-31` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — merged blocking unbounded find across checkout pools
+- `2026-10-31` Discussed issues in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-31` Cut a release in [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — published git-promisor 2.56.0_1 with a verified ARM bottle
+- `2026-10-31` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — preserves native hydrate limit reasons and consumed work
+- `2026-10-31` Worked on a pull request in [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — merged publishing a verified ARM bottle for git-promisor
+- `2026-10-31` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — merged a fold cache that holds every live record of a large repository
+- `2026-10-30` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — kept the long-running register read until a ledger ref moves
 - `2026-10-30` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-10-30` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 
-**45,849 contributions in the last year**
+**45,973 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -121,11 +121,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-10-31` [captain-hook v12.108.2](https://github.com/yasyf/captain-hook/releases/tag/v12.108.2)
-- `2026-10-31` [cc-remote v0.26.17](https://github.com/yasyf/cc-remote/releases/tag/v0.26.17)
-- `2026-10-31` [cc-skills v1.14.26](https://github.com/yasyf/cc-skills/releases/tag/v1.14.26)
-- `2026-10-31` [cc-notes v0.74.23](https://github.com/yasyf/cc-notes/releases/tag/v0.74.23)
-- `2026-10-31` [spawnllm v0.17.3](https://github.com/yasyf/spawnllm/releases/tag/v0.17.3)
+- `2026-10-31` [captain-hook v12.108.4](https://github.com/yasyf/captain-hook/releases/tag/v12.108.4) — recognizes unconditional hook-failure rethrows in lint
+- `2026-10-31` [cc-notes v0.74.29](https://github.com/yasyf/cc-notes/releases/tag/v0.74.29) — releases the verified bounded cache source
+- `2026-10-31` [cc-remote v0.26.17](https://github.com/yasyf/cc-remote/releases/tag/v0.26.17) — installs every system deb in one apt transaction
+- `2026-10-31` [cc-skills v1.14.26](https://github.com/yasyf/cc-skills/releases/tag/v1.14.26) — long-running gains remote restack and vet on Sprites, and a landing runner that settles every head it admits
+- `2026-10-31` [spawnllm v0.17.3](https://github.com/yasyf/spawnllm/releases/tag/v0.17.3) — cancels request-owned CLI children at checkpoints
 - `2026-10-28` [cc-pool v0.70.1](https://github.com/yasyf/cc-pool/releases/tag/v0.70.1) — drops the spctl gate Homebrew's sandbox always fails
 - `2026-10-28` [cc-review v0.46.0](https://github.com/yasyf/cc-review/releases/tag/v0.46.0) — trusts any same-user process and stops hashing the executable on every command
 - `2026-10-07` [slop-cop v0.1.73](https://github.com/yasyf/slop-cop/releases/tag/v0.1.73) — added --strict and a rule-suppression config, and bounded the detection tiers
