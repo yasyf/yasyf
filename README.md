@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-30T16:21:12Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-10-31T06:40:39Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-10-30` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged detaching long-running fact values before replace mutates the tree
-- `2026-10-30` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — annotates grep output in one bounded batch
-- `2026-10-30` Discussed issues in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-10-30` Worked on a pull request in [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — rejects formulas with missing checksums
-- `2026-10-30` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged --tip-only reading the parent's published head from the remote
-- `2026-10-30` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — narrows labeled task deduplication candidates in the store
-- `2026-10-30` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — demonstrates a cached membership namespace freshness gap
-- `2026-10-30` Discussed issues in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-10-30` Worked on a pull request in [yasyf/cc-remote](https://github.com/yasyf/cc-remote) — merged delivering scoped Trunk keys through the Orca worker FIFO
-- `2026-10-30` Worked on a pull request in [yasyf/synckit](https://github.com/yasyf/synckit) — merged exposing registration without importing the macOS daemon
-- `2026-10-29` Created something new in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-10-31` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged detaching long-running fact values before replace mutates the tree
+- `2026-10-31` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — narrows labeled task deduplication candidates in the store
+- `2026-10-31` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — annotates grep output in one bounded batch
+- `2026-10-31` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged --tip-only reading the parent's published head from the remote
+- `2026-10-31` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-10-31` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — demonstrates a cached membership namespace freshness gap
+- `2026-10-31` Discussed issues in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-10-31` Worked on a pull request in [yasyf/cc-remote](https://github.com/yasyf/cc-remote) — merged delivering scoped Trunk keys through the Orca worker FIFO
+- `2026-10-29` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
 - `2026-10-29` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — stopped long-running treating a headless runner warning as a landing refusal
+- `2026-10-29` Created something new in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-10-29` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
 
-**44,852 contributions in the last year**
+**45,407 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -50,7 +50,7 @@
 <!-- gh-profile:start:featured -->
 - **[gpt-do](https://github.com/yasyf/gpt-do)** ⭐ 211 — GPT-powered bash commands. `Python`
 - **[summ](https://github.com/yasyf/summ)** ⭐ 152 — GPT-based Conversation Summarizer `Python`
-- **[compress-gpt](https://github.com/yasyf/compress-gpt)** ⭐ 217 — Self-extracting GPT prompts for ~70% token savings `Python`
+- **[compress-gpt](https://github.com/yasyf/compress-gpt)** ⭐ 216 — Self-extracting GPT prompts for ~70% token savings `Python`
 - **[anthropic-computer-use-modal](https://github.com/yasyf/anthropic-computer-use-modal)** ⭐ 50 — Anthropic Computer Use with Modal Sandboxes `Python`
 - **[shamer](https://github.com/yasyf/shamer)** ⭐ 37 — Code Coverage Gamified `Python`
 <!-- gh-profile:end:featured -->
@@ -121,14 +121,14 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-10-30` [cc-remote v0.26.15](https://github.com/yasyf/cc-remote/releases/tag/v0.26.15) — delivers scoped Trunk keys through the Orca worker FIFO
-- `2026-10-30` [cc-notes v0.74.18](https://github.com/yasyf/cc-notes/releases/tag/v0.74.18) — fetches missing blobs without commit negotiation
-- `2026-10-30` [captain-hook v12.107.12](https://github.com/yasyf/captain-hook/releases/tag/v12.107.12)
+- `2026-10-31` [cc-remote v0.26.16](https://github.com/yasyf/cc-remote/releases/tag/v0.26.16)
+- `2026-10-31` [captain-hook v12.107.22](https://github.com/yasyf/captain-hook/releases/tag/v12.107.22)
+- `2026-10-31` [cc-skills v1.14.26](https://github.com/yasyf/cc-skills/releases/tag/v1.14.26)
+- `2026-10-31` [cc-notes v0.74.23](https://github.com/yasyf/cc-notes/releases/tag/v0.74.23)
+- `2026-10-31` [spawnllm v0.17.3](https://github.com/yasyf/spawnllm/releases/tag/v0.17.3)
 - `2026-10-28` [cc-pool v0.70.1](https://github.com/yasyf/cc-pool/releases/tag/v0.70.1) — drops the spctl gate Homebrew's sandbox always fails
-- `2026-10-28` [cc-skills v1.14.24](https://github.com/yasyf/cc-skills/releases/tag/v1.14.24) — long-running routes unread terminals and fork deferrals to desks instead of root
 - `2026-10-28` [cc-review v0.46.0](https://github.com/yasyf/cc-review/releases/tag/v0.46.0) — trusts any same-user process and stops hashing the executable on every command
 - `2026-10-07` [slop-cop v0.1.73](https://github.com/yasyf/slop-cop/releases/tag/v0.1.73) — added --strict and a rule-suppression config, and bounded the detection tiers
-- `2026-07-03` [docker-dsl v0.1.2](https://github.com/yasyf/docker-dsl/releases/tag/v0.1.2) — imports recipes from the working directory in the console script
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
