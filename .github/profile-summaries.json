@@ -1,55 +1,55 @@
 {
   "activity": {
     "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-10-31",
-      "summary": "merged blocking unbounded find across checkout pools"
+      "as_of": "2026-11-01",
+      "summary": "opened reusing a pinned binrun across real hook test cases"
     },
     "PullRequestEvent:yasyf/cc-context": {
-      "as_of": "2026-10-31",
-      "summary": "adopts an untracked branch onto its native stack base in rebase and submit"
+      "as_of": "2026-11-01",
+      "summary": "opened a cleanup test fix so the expected-wire fixture honors TMPDIR"
     },
     "PullRequestEvent:yasyf/cc-inbox": {
-      "as_of": "2026-10-31",
-      "summary": "merged indexing incident-hold membership for native daemon reads"
-    },
-    "PullRequestEvent:yasyf/cc-notes": {
-      "as_of": "2026-10-31",
-      "summary": "merged a fold cache that holds every live record of a large repository"
+      "as_of": "2026-11-01",
+      "summary": "opened reusing certified empty schemas in native tail fixtures"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-10-31",
-      "summary": "merged enqueueing a head only once its own test build passes on it"
+      "as_of": "2026-11-01",
+      "summary": "opened indexing long-running board review history once per check"
     },
-    "PullRequestEvent:yasyf/cc-transcript": {
-      "as_of": "2026-10-31",
-      "summary": "preserves native hydrate limit reasons and consumed work"
+    "PullRequestEvent:yasyf/watchman": {
+      "as_of": "2026-11-01",
+      "summary": "opened adopting current upstream and enabling complete Mac CI"
     },
-    "PullRequestEvent:yasyf/homebrew-tap": {
-      "as_of": "2026-10-31",
-      "summary": "merged publishing a verified ARM bottle for git-promisor"
+    "PushEvent:yasyf/cc-inbox": {
+      "as_of": "cf95419ec9db",
+      "summary": "lets a lane registering by post read mail sent before it"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "b3224b42985e",
-      "summary": "kept the long-running register read until a ledger ref moves"
+      "as_of": "e412c14784bd",
+      "summary": "made the board text gate read its reviews in one cci grep"
     },
-    "ReleaseEvent:yasyf/homebrew-tap": {
-      "as_of": "2026-10-31",
-      "summary": "published git-promisor 2.56.0_1 with a verified ARM bottle"
+    "PushEvent:yasyf/cc-transcript": {
+      "as_of": "4f14bf6f668e",
+      "summary": "preserved native timestamp offsets in instruction evidence types"
+    },
+    "PushEvent:yasyf/homebrew-tap": {
+      "as_of": "8ca7775ce73b",
+      "summary": "updated captain-hook to v12.107.21"
     }
   },
-  "generated_at": "2026-10-31T15:30:12Z",
+  "generated_at": "2026-11-01T16:17:44Z",
   "shipped": {
-    "captain-hook@v12.108.4": {
-      "summary": "recognizes unconditional hook-failure rethrows in lint"
+    "captain-hook@v12.108.35": {
+      "summary": "excludes forks while writing executable UV test fixtures"
     },
-    "cc-notes@v0.74.29": {
-      "summary": "releases the verified bounded cache source"
+    "cc-notes@v0.74.39": {
+      "summary": "reads matching document bodies for anchor filters"
     },
     "cc-pool@v0.70.1": {
       "summary": "drops the spctl gate Homebrew's sandbox always fails"
     },
-    "cc-remote@v0.26.17": {
-      "summary": "installs every system deb in one apt transaction"
+    "cc-remote@v0.26.19": {
+      "summary": "extracts the codex runtime outside the home, then moves it into place"
     },
     "cc-review@v0.46.0": {
       "summary": "trusts any same-user process and stops hashing the executable on every command"
