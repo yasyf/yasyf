@@ -1,55 +1,59 @@
 {
   "activity": {
+    "IssuesEvent:dagger/dagger": {
+      "as_of": "2026-11-02",
+      "summary": "cache keys include a host directory's group and other write bits, so checkouts under different umasks share no cache"
+    },
     "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-11-01",
-      "summary": "opened reusing a pinned binrun across real hook test cases"
+      "as_of": "2026-11-02",
+      "summary": "merged CAPT_HOOK_OWNER_RECORD, teeing every snapshot owner frame to disk so a live request stream can be replayed"
     },
     "PullRequestEvent:yasyf/cc-context": {
-      "as_of": "2026-11-01",
-      "summary": "opened a cleanup test fix so the expected-wire fixture honors TMPDIR"
+      "as_of": "2026-11-02",
+      "summary": "merged `ccx vcs merge`, which refuses a native stack rooted on an untracked parent"
     },
     "PullRequestEvent:yasyf/cc-inbox": {
-      "as_of": "2026-11-01",
-      "summary": "opened reusing certified empty schemas in native tail fixtures"
+      "as_of": "2026-11-02",
+      "summary": "moved the macOS test leg to a nightly run instead of every main push"
+    },
+    "PullRequestEvent:yasyf/cc-notes": {
+      "as_of": "2026-11-02",
+      "summary": "moved macOS CI jobs to a nightly run instead of every main push"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-11-01",
-      "summary": "opened indexing long-running board review history once per check"
+      "as_of": "2026-11-02",
+      "summary": "merged a long-running fix: a Sprite whose pass just ended with no result takes no pass while a sound one is listed"
     },
-    "PullRequestEvent:yasyf/watchman": {
-      "as_of": "2026-11-01",
-      "summary": "opened adopting current upstream and enabling complete Mac CI"
+    "PullRequestEvent:yasyf/cc-transcript": {
+      "as_of": "2026-11-02",
+      "summary": "moved macOS CI jobs to a nightly run instead of every main push"
+    },
+    "PullRequestEvent:yasyf/daemonkit": {
+      "as_of": "2026-11-02",
+      "summary": "moved macOS CI jobs to a nightly run instead of every main push"
+    },
+    "PullRequestEvent:yasyf/homebrew-tap": {
+      "as_of": "2026-11-02",
+      "summary": "opened building maturin-scripts binaries into each wheel's data scripts"
     },
     "PushEvent:yasyf/cc-inbox": {
-      "as_of": "cf95419ec9db",
-      "summary": "lets a lane registering by post read mail sent before it"
-    },
-    "PushEvent:yasyf/cc-skills": {
-      "as_of": "e412c14784bd",
-      "summary": "made the board text gate read its reviews in one cci grep"
-    },
-    "PushEvent:yasyf/cc-transcript": {
-      "as_of": "4f14bf6f668e",
-      "summary": "preserved native timestamp offsets in instruction evidence types"
-    },
-    "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "8ca7775ce73b",
-      "summary": "updated captain-hook to v12.107.21"
+      "as_of": "cc0025a9a875",
+      "summary": "made `post --owned-by` forward only asks, decides and defects to the lane's owner"
     }
   },
-  "generated_at": "2026-11-01T16:17:44Z",
+  "generated_at": "2026-11-02T19:45:21Z",
   "shipped": {
-    "captain-hook@v12.108.35": {
-      "summary": "excludes forks while writing executable UV test fixtures"
+    "captain-hook@v12.110.0": {
+      "summary": "CAPT_HOOK_OWNER_RECORD tees every snapshot owner frame to disk, so a live request stream can be replayed"
     },
-    "cc-notes@v0.74.39": {
-      "summary": "reads matching document bodies for anchor filters"
+    "cc-notes@v0.74.46": {
+      "summary": "skips LFS batch round trips for attachments the server already confirmed"
     },
     "cc-pool@v0.70.1": {
       "summary": "drops the spctl gate Homebrew's sandbox always fails"
     },
-    "cc-remote@v0.26.19": {
-      "summary": "extracts the codex runtime outside the home, then moves it into place"
+    "cc-remote@v0.27.2": {
+      "summary": "adopt returns a repaired failed machine, and keep destroys a machine whose provision fails"
     },
     "cc-review@v0.46.0": {
       "summary": "trusts any same-user process and stops hashing the executable on every command"
@@ -57,11 +61,11 @@
     "cc-skills@v1.14.26": {
       "summary": "long-running gains remote restack and vet on Sprites, and a landing runner that settles every head it admits"
     },
+    "docker-dsl@v0.1.2": {
+      "summary": "the console script imports recipes from the working directory, so the documented uvx flow works"
+    },
     "slop-cop@v0.1.73": {
       "summary": "added --strict and a rule-suppression config, and bounded the detection tiers"
-    },
-    "spawnllm@v0.17.3": {
-      "summary": "cancels request-owned CLI children at checkpoints"
     }
   },
   "version": 1
