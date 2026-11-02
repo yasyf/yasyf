@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-01T22:15:23Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-02T06:37:47Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-11-01` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present)
-- `2026-11-01` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — opened a cleanup test fix so the expected-wire fixture honors TMPDIR
-- `2026-11-01` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — opened indexing long-running board review history once per check
-- `2026-11-01` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — opened reusing certified empty schemas in native tail fixtures
-- `2026-11-01` Worked on a pull request in [yasyf/watchman](https://github.com/yasyf/watchman) — opened adopting current upstream and enabling complete Mac CI
-- `2026-11-01` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — opened reusing a pinned binrun across real hook test cases
+- `2026-11-02` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — opened indexing long-running board review history once per check
+- `2026-11-02` Worked on a pull request in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-11-02` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — opened a cleanup test fix so the expected-wire fixture honors TMPDIR
+- `2026-11-02` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-11-02` Worked on a pull request in [yasyf/daemonkit](https://github.com/yasyf/daemonkit)
+- `2026-11-02` Discussed issues in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
+- `2026-11-02` Discussed issues in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-02` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — opened reusing certified empty schemas in native tail fixtures
 - `2026-10-31` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — made the board text gate read its reviews in one cci grep
-- `2026-10-31` Was active in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
-- `2026-10-31` Created something new in [yasyf/cc-present](https://github.com/yasyf/cc-present)
 - `2026-10-31` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-10-31` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-10-31` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-10-31` Pushed to [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
+- `2026-10-31` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 
-**46,688 contributions in the last year**
+**46,773 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -121,11 +121,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-11-01` [captain-hook v12.108.40](https://github.com/yasyf/captain-hook/releases/tag/v12.108.40)
-- `2026-11-01` [cc-notes v0.74.39](https://github.com/yasyf/cc-notes/releases/tag/v0.74.39) — reads matching document bodies for anchor filters
-- `2026-10-31` [cc-remote v0.26.19](https://github.com/yasyf/cc-remote/releases/tag/v0.26.19) — extracts the codex runtime outside the home, then moves it into place
+- `2026-11-02` [captain-hook v12.108.45](https://github.com/yasyf/captain-hook/releases/tag/v12.108.45)
+- `2026-11-02` [cc-remote v0.26.20](https://github.com/yasyf/cc-remote/releases/tag/v0.26.20)
+- `2026-11-02` [cc-notes v0.74.40](https://github.com/yasyf/cc-notes/releases/tag/v0.74.40)
+- `2026-11-02` [spawnllm v0.17.4](https://github.com/yasyf/spawnllm/releases/tag/v0.17.4)
 - `2026-10-31` [cc-skills v1.14.26](https://github.com/yasyf/cc-skills/releases/tag/v1.14.26) — long-running gains remote restack and vet on Sprites, and a landing runner that settles every head it admits
-- `2026-10-31` [spawnllm v0.17.3](https://github.com/yasyf/spawnllm/releases/tag/v0.17.3) — cancels request-owned CLI children at checkpoints
 - `2026-10-28` [cc-pool v0.70.1](https://github.com/yasyf/cc-pool/releases/tag/v0.70.1) — drops the spctl gate Homebrew's sandbox always fails
 - `2026-10-28` [cc-review v0.46.0](https://github.com/yasyf/cc-review/releases/tag/v0.46.0) — trusts any same-user process and stops hashing the executable on every command
 - `2026-10-07` [slop-cop v0.1.73](https://github.com/yasyf/slop-cop/releases/tag/v0.1.73) — added --strict and a rule-suppression config, and bounded the detection tiers
