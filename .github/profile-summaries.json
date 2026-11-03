@@ -1,71 +1,63 @@
 {
   "activity": {
-    "IssuesEvent:dagger/dagger": {
-      "as_of": "2026-11-02",
-      "summary": "cache keys include a host directory's group and other write bits, so checkouts under different umasks share no cache"
-    },
     "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-11-02",
-      "summary": "merged CAPT_HOOK_OWNER_RECORD, teeing every snapshot owner frame to disk so a live request stream can be replayed"
-    },
-    "PullRequestEvent:yasyf/cc-context": {
-      "as_of": "2026-11-02",
-      "summary": "merged `ccx vcs merge`, which refuses a native stack rooted on an untracked parent"
+      "as_of": "2026-11-03",
+      "summary": "pointed the sessions guard at the long-running pack's orca-reclaim.py"
     },
     "PullRequestEvent:yasyf/cc-inbox": {
-      "as_of": "2026-11-02",
-      "summary": "moved the macOS test leg to a nightly run instead of every main push"
+      "as_of": "2026-11-03",
+      "summary": "opened a fix sending a successor's overlap notice to the successor, never root"
     },
-    "PullRequestEvent:yasyf/cc-notes": {
-      "as_of": "2026-11-02",
-      "summary": "moved macOS CI jobs to a nightly run instead of every main push"
+    "PullRequestEvent:yasyf/cc-remote": {
+      "as_of": "2026-11-03",
+      "summary": "opened a --before-worker-file script that orca prepare runs ahead of the worker"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-11-02",
-      "summary": "merged a long-running fix: a Sprite whose pass just ended with no result takes no pass while a sound one is listed"
+      "as_of": "2026-11-03",
+      "summary": "merged a `ccx: pr=none` brief line that tells its lane to open no PR"
     },
-    "PullRequestEvent:yasyf/cc-transcript": {
-      "as_of": "2026-11-02",
-      "summary": "moved macOS CI jobs to a nightly run instead of every main push"
+    "PushEvent:yasyf/cc-context": {
+      "as_of": "81e28b728b0c",
+      "summary": "merged a symbol-search scope fix; `ship --parent` no longer moves the parent"
     },
-    "PullRequestEvent:yasyf/daemonkit": {
-      "as_of": "2026-11-02",
-      "summary": "moved macOS CI jobs to a nightly run instead of every main push"
+    "PushEvent:yasyf/cc-remote": {
+      "as_of": "ecf3b1e2677a",
+      "summary": "concurrent orca fills now stop at the ready target"
     },
-    "PullRequestEvent:yasyf/homebrew-tap": {
-      "as_of": "2026-11-02",
-      "summary": "opened building maturin-scripts binaries into each wheel's data scripts"
+    "PushEvent:yasyf/cc-skills": {
+      "as_of": "2387f9ca6ecc",
+      "summary": "the long-running supervisor changes its registry only on a typed lr request"
     },
-    "PushEvent:yasyf/cc-inbox": {
-      "as_of": "cc0025a9a875",
-      "summary": "made `post --owned-by` forward only asks, decides and defects to the lane's owner"
+    "PushEvent:yasyf/cc-transcript": {
+      "as_of": "25e75cfa9770",
+      "summary": "ran the whole core library in CI and settled its red tests"
     }
   },
-  "generated_at": "2026-11-02T19:45:21Z",
+  "generated_at": "2026-11-03T17:18:05Z",
   "shipped": {
-    "captain-hook@v12.110.0": {
-      "summary": "CAPT_HOOK_OWNER_RECORD tees every snapshot owner frame to disk, so a live request stream can be replayed"
+    "captain-hook@v12.119.5": {
+      "summary": "the review brain's uvx client stays on the host's build, so evidence can verify"
     },
-    "cc-notes@v0.74.46": {
-      "summary": "skips LFS batch round trips for attachments the server already confirmed"
+    "cc-notes@v0.74.48": {
+      "summary": "scoped sync of a kind with no attachments skips the attachment scan"
     },
     "cc-pool@v0.70.1": {
       "summary": "drops the spctl gate Homebrew's sandbox always fails"
     },
-    "cc-remote@v0.27.2": {
-      "summary": "adopt returns a repaired failed machine, and keep destroys a machine whose provision fails"
+    "cc-remote@v0.27.8": {
+      "summary": "orca stop succeeds on a lane whose task record or machine is already gone"
     },
-    "cc-review@v0.46.0": {
-      "summary": "trusts any same-user process and stops hashing the executable on every command"
+    "cc-review@v0.46.1": {
+      "summary": "writes need a JSON body, and cask quarantine is stripped before any exec"
     },
-    "cc-skills@v1.14.26": {
-      "summary": "long-running gains remote restack and vet on Sprites, and a landing runner that settles every head it admits"
-    },
-    "docker-dsl@v0.1.2": {
-      "summary": "the console script imports recipes from the working directory, so the documented uvx flow works"
+    "cc-skills@v1.14.27": {
+      "summary": "the landing runner reads Trunk's queue records, raising a failed one in one pass"
     },
     "slop-cop@v0.1.73": {
       "summary": "added --strict and a rule-suppression config, and bounded the detection tiers"
+    },
+    "spawnllm@v0.17.6": {
+      "summary": "TYPESAFE_BASE_URL sends Jev decisions through a gateway"
     }
   },
   "version": 1
