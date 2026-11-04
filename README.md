@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-04T06:54:31Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-04T17:29:13Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-11-04` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged a `ccx: pr=none` brief line that tells its lane to open no PR
-- `2026-11-04` Discussed issues in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-04` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-11-04` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — opened a fix sending a successor's overlap notice to the successor, never root
-- `2026-11-04` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
-- `2026-11-04` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present)
-- `2026-11-04` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — pointed the sessions guard at the long-running pack's orca-reclaim.py
-- `2026-11-04` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-11-04` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — the long-running supervisor changes its registry only on a typed lr request
-- `2026-11-03` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present)
-- `2026-11-03` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-03` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-11-04` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — opened a fix so the cci a Sprite installs follows the cc-inbox plugin
+- `2026-11-04` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-04` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-04` Pushed to [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript) — transcript sweeps stream and fold on a bounded pool, narrowed by --until
+- `2026-11-04` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — the long-running skill says a PR waits on the owner only when its row is ready
+- `2026-11-04` Was active in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-11-04` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — covered archived blobs in the store tests and passed the pause context
+- `2026-11-04` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-11-04` Pushed to [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — a Slack permission card names its place in words, refused if it shows ids
+- `2026-11-04` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-11-04` Created something new in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
+- `2026-11-04` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — the release contract test names the vendored-schemas gate
 
-**49,032 contributions in the last year**
+**49,298 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -121,11 +121,10 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-11-04` [cc-notes v0.75.8](https://github.com/yasyf/cc-notes/releases/tag/v0.75.8)
-- `2026-11-04` [captain-hook v12.121.22](https://github.com/yasyf/captain-hook/releases/tag/v12.121.22)
-- `2026-11-04` [cc-remote v0.27.11](https://github.com/yasyf/cc-remote/releases/tag/v0.27.11)
-- `2026-11-04` [cc-skills v1.14.28](https://github.com/yasyf/cc-skills/releases/tag/v1.14.28)
-- `2026-11-03` [cc-review v0.46.2](https://github.com/yasyf/cc-review/releases/tag/v0.46.2)
+- `2026-11-04` [cc-skills v1.14.29](https://github.com/yasyf/cc-skills/releases/tag/v1.14.29) — a lane's push waits for go build, go vet and the typecheck over what it touched
+- `2026-11-04` [cc-notes v0.75.16](https://github.com/yasyf/cc-notes/releases/tag/v0.75.16) — writes managed source publications as one pack; restores the cost gate bounds
+- `2026-11-04` [captain-hook v12.121.24](https://github.com/yasyf/captain-hook/releases/tag/v12.121.24) — read-only orca commands and git grep pass their guards
+- `2026-11-04` [cc-remote v0.27.12](https://github.com/yasyf/cc-remote/releases/tag/v0.27.12) — orca prepare --env exports NAME=VALUE into the worker's environment
 - `2026-11-03` [spawnllm v0.17.6](https://github.com/yasyf/spawnllm/releases/tag/v0.17.6) — TYPESAFE_BASE_URL sends Jev decisions through a gateway
 - `2026-10-28` [cc-pool v0.70.1](https://github.com/yasyf/cc-pool/releases/tag/v0.70.1) — drops the spctl gate Homebrew's sandbox always fails
 - `2026-10-07` [slop-cop v0.1.73](https://github.com/yasyf/slop-cop/releases/tag/v0.1.73) — added --strict and a rule-suppression config, and bounded the detection tiers
@@ -142,11 +141,11 @@
 
 <!-- gh-profile:start:languages -->
 ```text
-Go          ████████████████████   45%
-Python      ███████████████░░░░░   34%
-Rust        ███░░░░░░░░░░░░░░░░░    6%
-Swift       ███░░░░░░░░░░░░░░░░░    6%
-TypeScript  ███░░░░░░░░░░░░░░░░░    6%
+Go          ████████████████████   46%
+Python      ██████████████░░░░░░   33%
+Rust        ███░░░░░░░░░░░░░░░░░    7%
+Swift       ███░░░░░░░░░░░░░░░░░    7%
+TypeScript  ███░░░░░░░░░░░░░░░░░    7%
 Ruby        █░░░░░░░░░░░░░░░░░░░    2%
 ```
 <!-- gh-profile:end:languages -->

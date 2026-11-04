@@ -1,57 +1,46 @@
 {
   "activity": {
-    "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-11-03",
-      "summary": "pointed the sessions guard at the long-running pack's orca-reclaim.py"
-    },
-    "PullRequestEvent:yasyf/cc-inbox": {
-      "as_of": "2026-11-03",
-      "summary": "opened a fix sending a successor's overlap notice to the successor, never root"
-    },
-    "PullRequestEvent:yasyf/cc-remote": {
-      "as_of": "2026-11-03",
-      "summary": "opened a --before-worker-file script that orca prepare runs ahead of the worker"
-    },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-11-03",
-      "summary": "merged a `ccx: pr=none` brief line that tells its lane to open no PR"
+      "as_of": "2026-11-04",
+      "summary": "opened a fix so the cci a Sprite installs follows the cc-inbox plugin"
     },
-    "PushEvent:yasyf/cc-context": {
-      "as_of": "81e28b728b0c",
-      "summary": "merged a symbol-search scope fix; `ship --parent` no longer moves the parent"
+    "PushEvent:yasyf/captain-hook": {
+      "as_of": "63d453a53f22",
+      "summary": "the release contract test names the vendored-schemas gate"
     },
-    "PushEvent:yasyf/cc-remote": {
-      "as_of": "ecf3b1e2677a",
-      "summary": "concurrent orca fills now stop at the ready target"
+    "PushEvent:yasyf/cc-inbox": {
+      "as_of": "40d682b3244c",
+      "summary": "covered archived blobs in the store tests and passed the pause context"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "2387f9ca6ecc",
-      "summary": "the long-running supervisor changes its registry only on a typed lr request"
+      "as_of": "c4a0beb7b3de",
+      "summary": "the long-running skill says a PR waits on the owner only when its row is ready"
+    },
+    "PushEvent:yasyf/cc-slack": {
+      "as_of": "00e57e88d453",
+      "summary": "a Slack permission card names its place in words, refused if it shows ids"
     },
     "PushEvent:yasyf/cc-transcript": {
-      "as_of": "25e75cfa9770",
-      "summary": "ran the whole core library in CI and settled its red tests"
+      "as_of": "aa5469489a1e",
+      "summary": "transcript sweeps stream and fold on a bounded pool, narrowed by --until"
     }
   },
-  "generated_at": "2026-11-03T17:18:05Z",
+  "generated_at": "2026-11-04T17:28:58Z",
   "shipped": {
-    "captain-hook@v12.119.5": {
-      "summary": "the review brain's uvx client stays on the host's build, so evidence can verify"
+    "captain-hook@v12.121.24": {
+      "summary": "read-only orca commands and git grep pass their guards"
     },
-    "cc-notes@v0.74.48": {
-      "summary": "scoped sync of a kind with no attachments skips the attachment scan"
+    "cc-notes@v0.75.16": {
+      "summary": "writes managed source publications as one pack; restores the cost gate bounds"
     },
     "cc-pool@v0.70.1": {
       "summary": "drops the spctl gate Homebrew's sandbox always fails"
     },
-    "cc-remote@v0.27.8": {
-      "summary": "orca stop succeeds on a lane whose task record or machine is already gone"
+    "cc-remote@v0.27.12": {
+      "summary": "orca prepare --env exports NAME=VALUE into the worker's environment"
     },
-    "cc-review@v0.46.1": {
-      "summary": "writes need a JSON body, and cask quarantine is stripped before any exec"
-    },
-    "cc-skills@v1.14.27": {
-      "summary": "the landing runner reads Trunk's queue records, raising a failed one in one pass"
+    "cc-skills@v1.14.29": {
+      "summary": "a lane's push waits for go build, go vet and the typecheck over what it touched"
     },
     "slop-cop@v0.1.73": {
       "summary": "added --strict and a rule-suppression config, and bounded the detection tiers"
