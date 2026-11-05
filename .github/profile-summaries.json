@@ -1,52 +1,64 @@
 {
   "activity": {
-    "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-11-04",
-      "summary": "opened a fix so the cci a Sprite installs follows the cc-inbox plugin"
+    "PullRequestEvent:yasyf/captain-hook": {
+      "as_of": "2026-11-05",
+      "summary": "opened a fix so a refused worker-stop names lr gc --done"
     },
-    "PushEvent:yasyf/captain-hook": {
-      "as_of": "63d453a53f22",
-      "summary": "the release contract test names the vendored-schemas gate"
+    "PullRequestEvent:yasyf/cc-context": {
+      "as_of": "2026-11-05",
+      "summary": "merged stack move, which puts a branch below an open pull request"
+    },
+    "PullRequestEvent:yasyf/cc-inbox": {
+      "as_of": "2026-11-05",
+      "summary": "merged a change so opened and edited PR records carry the description"
+    },
+    "PullRequestEvent:yasyf/cc-skills": {
+      "as_of": "2026-11-05",
+      "summary": "opened a fix so a deferred notes publish retries on the next check"
+    },
+    "PullRequestEvent:yasyf/cc-slack": {
+      "as_of": "2026-11-05",
+      "summary": "merged a fix refusing a send that writes its own --text-file, with that cause"
     },
     "PushEvent:yasyf/cc-inbox": {
-      "as_of": "40d682b3244c",
-      "summary": "covered archived blobs in the store tests and passed the pause context"
+      "as_of": "62d3a9e25080",
+      "summary": "cci relay status names the dotted kinds an owner node keeps local"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "c4a0beb7b3de",
-      "summary": "the long-running skill says a PR waits on the owner only when its row is ready"
+      "as_of": "103a25e531bc",
+      "summary": "lr launch lane warns a Claude lane whose brief reads Sentry to run on sol"
     },
     "PushEvent:yasyf/cc-slack": {
-      "as_of": "00e57e88d453",
-      "summary": "a Slack permission card names its place in words, refused if it shows ids"
+      "as_of": "ac8fa8aab7b7",
+      "summary": "a card copied into a thread is the whole card with live buttons"
     },
-    "PushEvent:yasyf/cc-transcript": {
-      "as_of": "aa5469489a1e",
-      "summary": "transcript sweeps stream and fold on a bounded pool, narrowed by --until"
+    "PushEvent:yasyf/homebrew-tap": {
+      "as_of": "9082888b4cbd",
+      "summary": "bumped the cc-inbox formula to v0.49.82 and cc-notes to v0.75.27"
     }
   },
-  "generated_at": "2026-11-04T17:28:58Z",
+  "generated_at": "2026-11-05T17:45:00Z",
   "shipped": {
-    "captain-hook@v12.121.24": {
-      "summary": "read-only orca commands and git grep pass their guards"
+    "captain-hook@v12.121.36": {
+      "summary": "a fork that writes no transcript runs its guards instead of skipping them"
     },
-    "cc-notes@v0.75.16": {
-      "summary": "writes managed source publications as one pack; restores the cost gate bounds"
+    "cc-notes@v0.75.27": {
+      "summary": "names the tracking lock's holder and keeps git maintenance out of its fetch"
     },
     "cc-pool@v0.70.1": {
       "summary": "drops the spctl gate Homebrew's sandbox always fails"
     },
-    "cc-remote@v0.27.12": {
-      "summary": "orca prepare --env exports NAME=VALUE into the worker's environment"
+    "cc-remote@v0.27.16": {
+      "summary": "orca stop treats a Sprite whose storage is gone as already stopped"
     },
-    "cc-skills@v1.14.29": {
-      "summary": "a lane's push waits for go build, go vet and the typecheck over what it touched"
+    "cc-review@v0.46.3": {
+      "summary": "a resumed window's channel follows its session"
+    },
+    "cc-skills@v1.15.0": {
+      "summary": "autobump cuts scheduled release tags from the newest green main commit"
     },
     "slop-cop@v0.1.73": {
       "summary": "added --strict and a rule-suppression config, and bounded the detection tiers"
-    },
-    "spawnllm@v0.17.6": {
-      "summary": "TYPESAFE_BASE_URL sends Jev decisions through a gateway"
     }
   },
   "version": 1
