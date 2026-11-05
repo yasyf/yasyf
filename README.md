@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-05T17:38:20Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-05T20:11:49Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -28,19 +28,19 @@
 
 <!-- gh-profile:start:activity -->
 - `2026-11-05` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — opened a fix so a deferred notes publish retries on the next check
-- `2026-11-05` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged stack move, which puts a branch below an open pull request
-- `2026-11-05` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — opened a fix so a refused worker-stop names lr gc --done
+- `2026-11-05` Discussed issues in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-05` Worked on a pull request in [yasyf/cc-remote](https://github.com/yasyf/cc-remote)
 - `2026-11-05` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — merged a fix refusing a send that writes its own --text-file, with that cause
+- `2026-11-05` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged stack move, which puts a branch below an open pull request
 - `2026-11-05` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — merged a change so opened and edited PR records carry the description
-- `2026-11-05` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-05` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-05` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-inbox formula to v0.49.82 and cc-notes to v0.75.27
-- `2026-11-05` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — cci relay status names the dotted kinds an owner node keeps local
 - `2026-11-05` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — lr launch lane warns a Claude lane whose brief reads Sentry to run on sol
-- `2026-11-05` Created something new in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
+- `2026-11-05` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-05` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
 - `2026-11-05` Pushed to [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — a card copied into a thread is the whole card with live buttons
+- `2026-11-05` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-05` Created something new in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
 
-**50,255 contributions in the last year**
+**50,344 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -121,8 +121,8 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-11-05` [captain-hook v12.121.36](https://github.com/yasyf/captain-hook/releases/tag/v12.121.36) — a fork that writes no transcript runs its guards instead of skipping them
-- `2026-11-05` [cc-skills v1.15.0](https://github.com/yasyf/cc-skills/releases/tag/v1.15.0) — autobump cuts scheduled release tags from the newest green main commit
+- `2026-11-05` [captain-hook v12.121.37](https://github.com/yasyf/captain-hook/releases/tag/v12.121.37)
+- `2026-11-05` [cc-skills v1.15.1](https://github.com/yasyf/cc-skills/releases/tag/v1.15.1)
 - `2026-11-05` [cc-notes v0.75.27](https://github.com/yasyf/cc-notes/releases/tag/v0.75.27) — names the tracking lock's holder and keeps git maintenance out of its fetch
 - `2026-11-05` [cc-remote v0.27.16](https://github.com/yasyf/cc-remote/releases/tag/v0.27.16) — orca stop treats a Sprite whose storage is gone as already stopped
 - `2026-11-05` [cc-review v0.46.3](https://github.com/yasyf/cc-review/releases/tag/v0.46.3) — a resumed window's channel follows its session
