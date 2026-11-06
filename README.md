@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-05T20:11:49Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-06T07:11:57Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-11-05` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — opened a fix so a deferred notes publish retries on the next check
-- `2026-11-05` Discussed issues in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-05` Worked on a pull request in [yasyf/cc-remote](https://github.com/yasyf/cc-remote)
-- `2026-11-05` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — merged a fix refusing a send that writes its own --text-file, with that cause
-- `2026-11-05` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged stack move, which puts a branch below an open pull request
-- `2026-11-05` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — merged a change so opened and edited PR records carry the description
-- `2026-11-05` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — lr launch lane warns a Claude lane whose brief reads Sentry to run on sol
-- `2026-11-05` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-05` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-11-05` Pushed to [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — a card copied into a thread is the whole card with live buttons
-- `2026-11-05` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-05` Created something new in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
+- `2026-11-06` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — opened a fix so a deferred notes publish retries on the next check
+- `2026-11-06` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-inbox formula to v0.49.82 and cc-notes to v0.75.27
+- `2026-11-06` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-11-06` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-11-06` Worked on a pull request in [yasyf/cc-guides](https://github.com/yasyf/cc-guides)
+- `2026-11-06` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged stack move, which puts a branch below an open pull request
+- `2026-11-06` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — merged a fix refusing a send that writes its own --text-file, with that cause
+- `2026-11-06` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — lr launch lane warns a Claude lane whose brief reads Sentry to run on sol
+- `2026-11-06` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-06` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-06` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-11-06` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 
-**50,344 contributions in the last year**
+**50,718 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -121,13 +121,13 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-11-05` [captain-hook v12.121.37](https://github.com/yasyf/captain-hook/releases/tag/v12.121.37)
+- `2026-11-06` [cc-notes v0.75.40](https://github.com/yasyf/cc-notes/releases/tag/v0.75.40)
+- `2026-11-06` [captain-hook v12.121.38](https://github.com/yasyf/captain-hook/releases/tag/v12.121.38)
+- `2026-11-06` [cc-remote v0.27.25](https://github.com/yasyf/cc-remote/releases/tag/v0.27.25)
+- `2026-11-05` [slop-cop v0.1.75](https://github.com/yasyf/slop-cop/releases/tag/v0.1.75)
 - `2026-11-05` [cc-skills v1.15.1](https://github.com/yasyf/cc-skills/releases/tag/v1.15.1)
-- `2026-11-05` [cc-notes v0.75.27](https://github.com/yasyf/cc-notes/releases/tag/v0.75.27) — names the tracking lock's holder and keeps git maintenance out of its fetch
-- `2026-11-05` [cc-remote v0.27.16](https://github.com/yasyf/cc-remote/releases/tag/v0.27.16) — orca stop treats a Sprite whose storage is gone as already stopped
 - `2026-11-05` [cc-review v0.46.3](https://github.com/yasyf/cc-review/releases/tag/v0.46.3) — a resumed window's channel follows its session
 - `2026-10-28` [cc-pool v0.70.1](https://github.com/yasyf/cc-pool/releases/tag/v0.70.1) — drops the spctl gate Homebrew's sandbox always fails
-- `2026-10-07` [slop-cop v0.1.73](https://github.com/yasyf/slop-cop/releases/tag/v0.1.73) — added --strict and a rule-suppression config, and bounded the detection tiers
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
