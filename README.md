@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-06T07:11:57Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-06T16:56:03Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,19 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-11-06` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — opened a fix so a deferred notes publish retries on the next check
-- `2026-11-06` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-inbox formula to v0.49.82 and cc-notes to v0.75.27
-- `2026-11-06` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-11-06` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-11-06` Worked on a pull request in [yasyf/cc-guides](https://github.com/yasyf/cc-guides)
-- `2026-11-06` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged stack move, which puts a branch below an open pull request
-- `2026-11-06` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — merged a fix refusing a send that writes its own --text-file, with that cause
-- `2026-11-06` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — lr launch lane warns a Claude lane whose brief reads Sentry to run on sol
-- `2026-11-06` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-06` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged a fix so Orca creates a sparse launch's worktree and lists it at once
+- `2026-11-06` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — merged a write queue that commits paged imports, folds, relay pages and settles
+- `2026-11-06` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — a carry reads the pipeline's own grade at the carried head
+- `2026-11-06` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — post on a replica answers a record only the hub holds
 - `2026-11-06` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-06` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-11-06` Created something new in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
+- `2026-11-06` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-06` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — read paths alone take tips from refs, and import workers keep only descriptions
 - `2026-11-06` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-11-05` Pushed to [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — a notice carrying a PR card is not counted as a second PR card
+- `2026-11-05` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-inbox formula to v0.49.75
 
-**50,718 contributions in the last year**
+**50,835 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -121,11 +120,11 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-11-06` [cc-notes v0.75.40](https://github.com/yasyf/cc-notes/releases/tag/v0.75.40)
-- `2026-11-06` [captain-hook v12.121.38](https://github.com/yasyf/captain-hook/releases/tag/v12.121.38)
-- `2026-11-06` [cc-remote v0.27.25](https://github.com/yasyf/cc-remote/releases/tag/v0.27.25)
-- `2026-11-05` [slop-cop v0.1.75](https://github.com/yasyf/slop-cop/releases/tag/v0.1.75)
-- `2026-11-05` [cc-skills v1.15.1](https://github.com/yasyf/cc-skills/releases/tag/v1.15.1)
+- `2026-11-06` [captain-hook v12.121.40](https://github.com/yasyf/captain-hook/releases/tag/v12.121.40) — a search of one Go module version directory passes the protected-root guard
+- `2026-11-06` [cc-notes v0.75.42](https://github.com/yasyf/cc-notes/releases/tag/v0.75.42) — a read in a fresh clone answers from the refs instead of waiting for the import
+- `2026-11-06` [cc-remote v0.27.26](https://github.com/yasyf/cc-remote/releases/tag/v0.27.26) — a full local disk no longer takes a Sprite's root filesystem down
+- `2026-11-05` [slop-cop v0.1.75](https://github.com/yasyf/slop-cop/releases/tag/v0.1.75) — releases on merge by tagging after autobump
+- `2026-11-05` [cc-skills v1.15.1](https://github.com/yasyf/cc-skills/releases/tag/v1.15.1) — rate-limited grades burn no attempt, and grader Sol calls run at medium effort
 - `2026-11-05` [cc-review v0.46.3](https://github.com/yasyf/cc-review/releases/tag/v0.46.3) — a resumed window's channel follows its session
 - `2026-10-28` [cc-pool v0.70.1](https://github.com/yasyf/cc-pool/releases/tag/v0.70.1) — drops the spctl gate Homebrew's sandbox always fails
 <!-- gh-profile:end:shipped -->

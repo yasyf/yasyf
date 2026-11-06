@@ -1,64 +1,56 @@
 {
   "activity": {
-    "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-11-05",
-      "summary": "opened a fix so a refused worker-stop names lr gc --done"
-    },
-    "PullRequestEvent:yasyf/cc-context": {
-      "as_of": "2026-11-05",
-      "summary": "merged stack move, which puts a branch below an open pull request"
-    },
     "PullRequestEvent:yasyf/cc-inbox": {
-      "as_of": "2026-11-05",
-      "summary": "merged a change so opened and edited PR records carry the description"
+      "as_of": "2026-11-06",
+      "summary": "merged a write queue that commits paged imports, folds, relay pages and settles"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-11-05",
-      "summary": "opened a fix so a deferred notes publish retries on the next check"
-    },
-    "PullRequestEvent:yasyf/cc-slack": {
-      "as_of": "2026-11-05",
-      "summary": "merged a fix refusing a send that writes its own --text-file, with that cause"
+      "as_of": "2026-11-06",
+      "summary": "merged a fix so Orca creates a sparse launch's worktree and lists it at once"
     },
     "PushEvent:yasyf/cc-inbox": {
-      "as_of": "62d3a9e25080",
-      "summary": "cci relay status names the dotted kinds an owner node keeps local"
+      "as_of": "6dce18380f30",
+      "summary": "post on a replica answers a record only the hub holds"
+    },
+    "PushEvent:yasyf/cc-notes": {
+      "as_of": "369ab377bab8",
+      "summary": "read paths alone take tips from refs, and import workers keep only descriptions"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "103a25e531bc",
-      "summary": "lr launch lane warns a Claude lane whose brief reads Sentry to run on sol"
+      "as_of": "eee46d922293",
+      "summary": "a carry reads the pipeline's own grade at the carried head"
     },
     "PushEvent:yasyf/cc-slack": {
-      "as_of": "ac8fa8aab7b7",
-      "summary": "a card copied into a thread is the whole card with live buttons"
+      "as_of": "7677e1d7d83a",
+      "summary": "a notice carrying a PR card is not counted as a second PR card"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "9082888b4cbd",
-      "summary": "bumped the cc-inbox formula to v0.49.82 and cc-notes to v0.75.27"
+      "as_of": "d14b25c31d06",
+      "summary": "bumped the cc-inbox formula to v0.49.75"
     }
   },
-  "generated_at": "2026-11-05T17:45:00Z",
+  "generated_at": "2026-11-06T16:55:50Z",
   "shipped": {
-    "captain-hook@v12.121.36": {
-      "summary": "a fork that writes no transcript runs its guards instead of skipping them"
+    "captain-hook@v12.121.40": {
+      "summary": "a search of one Go module version directory passes the protected-root guard"
     },
-    "cc-notes@v0.75.27": {
-      "summary": "names the tracking lock's holder and keeps git maintenance out of its fetch"
+    "cc-notes@v0.75.42": {
+      "summary": "a read in a fresh clone answers from the refs instead of waiting for the import"
     },
     "cc-pool@v0.70.1": {
       "summary": "drops the spctl gate Homebrew's sandbox always fails"
     },
-    "cc-remote@v0.27.16": {
-      "summary": "orca stop treats a Sprite whose storage is gone as already stopped"
+    "cc-remote@v0.27.26": {
+      "summary": "a full local disk no longer takes a Sprite's root filesystem down"
     },
     "cc-review@v0.46.3": {
       "summary": "a resumed window's channel follows its session"
     },
-    "cc-skills@v1.15.0": {
-      "summary": "autobump cuts scheduled release tags from the newest green main commit"
+    "cc-skills@v1.15.1": {
+      "summary": "rate-limited grades burn no attempt, and grader Sol calls run at medium effort"
     },
-    "slop-cop@v0.1.73": {
-      "summary": "added --strict and a rule-suppression config, and bounded the detection tiers"
+    "slop-cop@v0.1.75": {
+      "summary": "releases on merge by tagging after autobump"
     }
   },
   "version": 1
