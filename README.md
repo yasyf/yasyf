@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-06T19:37:46Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-07T06:25:56Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-11-06` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged a fix so Orca creates a sparse launch's worktree and lists it at once
-- `2026-11-06` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — merged a write queue that commits paged imports, folds, relay pages and settles
-- `2026-11-06` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-11-06` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
-- `2026-11-06` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-11-06` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — post on a replica answers a record only the hub holds
-- `2026-11-06` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-06` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — a carry reads the pipeline's own grade at the carried head
+- `2026-11-07` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged a fix so Orca creates a sparse launch's worktree and lists it at once
+- `2026-11-07` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
+- `2026-11-07` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — merged a write queue that commits paged imports, folds, relay pages and settles
+- `2026-11-07` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present)
 - `2026-11-06` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-06` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-11-06` Created something new in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
-- `2026-11-06` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-11-06` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — a carry reads the pipeline's own grade at the carried head
+- `2026-11-06` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-06` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-11-06` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-inbox formula to v0.49.75
+- `2026-11-06` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — post on a replica answers a record only the hub holds
+- `2026-11-06` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-11-05` Pushed to [yasyf/cc-remote](https://github.com/yasyf/cc-remote)
 
-**50,885 contributions in the last year**
+**51,156 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -121,8 +121,8 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-11-06` [cc-notes v0.75.43](https://github.com/yasyf/cc-notes/releases/tag/v0.75.43)
-- `2026-11-06` [captain-hook v12.121.40](https://github.com/yasyf/captain-hook/releases/tag/v12.121.40) — a search of one Go module version directory passes the protected-root guard
+- `2026-11-07` [cc-notes v0.75.46](https://github.com/yasyf/cc-notes/releases/tag/v0.75.46)
+- `2026-11-07` [captain-hook v12.121.48](https://github.com/yasyf/captain-hook/releases/tag/v12.121.48)
 - `2026-11-06` [cc-remote v0.27.26](https://github.com/yasyf/cc-remote/releases/tag/v0.27.26) — a full local disk no longer takes a Sprite's root filesystem down
 - `2026-11-05` [slop-cop v0.1.75](https://github.com/yasyf/slop-cop/releases/tag/v0.1.75) — releases on merge by tagging after autobump
 - `2026-11-05` [cc-skills v1.15.1](https://github.com/yasyf/cc-skills/releases/tag/v1.15.1) — rate-limited grades burn no attempt, and grader Sol calls run at medium effort
@@ -141,11 +141,11 @@
 
 <!-- gh-profile:start:languages -->
 ```text
-Go          ████████████████████   47%
-Python      ██████████████░░░░░░   32%
+Go          ████████████████████   49%
+Python      █████████████░░░░░░░   32%
 Rust        ███░░░░░░░░░░░░░░░░░    6%
 Swift       ███░░░░░░░░░░░░░░░░░    6%
-TypeScript  ███░░░░░░░░░░░░░░░░░    6%
+TypeScript  ██░░░░░░░░░░░░░░░░░░    4%
 Ruby        █░░░░░░░░░░░░░░░░░░░    2%
 ```
 <!-- gh-profile:end:languages -->
