@@ -5,8 +5,16 @@
       "summary": "merged a write queue that commits paged imports, folds, relay pages and settles"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-11-06",
-      "summary": "merged a fix so Orca creates a sparse launch's worktree and lists it at once"
+      "as_of": "2026-11-08",
+      "summary": "opened a fix so a promised clock marks a row due and a wait with no Approve is refused"
+    },
+    "PullRequestEvent:yasyf/cc-slack": {
+      "as_of": "2026-11-08",
+      "summary": "merged a change so the ELI5 line leads every PR card"
+    },
+    "PushEvent:yasyf/captain-hook": {
+      "as_of": "b6322c26060c",
+      "summary": "moved onto cc-transcript 14.46.20, which logs each owner request's waits"
     },
     "PushEvent:yasyf/cc-inbox": {
       "as_of": "6dce18380f30",
@@ -16,26 +24,36 @@
       "as_of": "369ab377bab8",
       "summary": "read paths alone take tips from refs, and import workers keep only descriptions"
     },
+    "PushEvent:yasyf/cc-present": {
+      "as_of": "ac4940d95bf9",
+      "summary": "a PR block's ELI5 line reaches its Slack card in Risk's place"
+    },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "eee46d922293",
-      "summary": "a carry reads the pipeline's own grade at the carried head"
+      "as_of": "572b683f2ecc",
+      "summary": "the long-running finder counts rows checked in any case and states the row total up front"
     },
     "PushEvent:yasyf/cc-slack": {
-      "as_of": "7677e1d7d83a",
-      "summary": "a notice carrying a PR card is not counted as a second PR card"
+      "as_of": "ec69d6e8d2e2",
+      "summary": "a PR card's line read-back never takes the live-card lock it already holds"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "d14b25c31d06",
-      "summary": "bumped the cc-inbox formula to v0.49.75"
+      "as_of": "b474c3570ab0",
+      "summary": "bumped the cc-present formula to v0.60.1"
     }
   },
-  "generated_at": "2026-11-06T16:55:50Z",
+  "generated_at": "2026-11-08T16:30:00Z",
   "shipped": {
     "captain-hook@v12.121.40": {
       "summary": "a search of one Go module version directory passes the protected-root guard"
     },
+    "captain-hook@v12.121.48": {
+      "summary": "an owner's order to restart the Orca app server lifts one kill of the profile-lock holder"
+    },
     "cc-notes@v0.75.42": {
       "summary": "a read in a fresh clone answers from the refs instead of waiting for the import"
+    },
+    "cc-notes@v0.76.1": {
+      "summary": "sets the remote HEAD when origin/HEAD is unset and no guessed base names a commit"
     },
     "cc-pool@v0.70.1": {
       "summary": "drops the spctl gate Homebrew's sandbox always fails"

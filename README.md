@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-08T13:47:54Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-08T16:16:12Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-11-08` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged a fix so Orca creates a sparse launch's worktree and lists it at once
-- `2026-11-08` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
+- `2026-11-08` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — opened a fix so a promised clock marks a row due and a wait with no Approve is refused
+- `2026-11-08` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — merged a change so the ELI5 line leads every PR card
+- `2026-11-08` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — the long-running finder counts rows checked in any case and states the row total up front
 - `2026-11-08` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-08` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — a carry reads the pipeline's own grade at the carried head
-- `2026-11-08` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present)
-- `2026-11-08` Created something new in [yasyf/cc-present](https://github.com/yasyf/cc-present)
-- `2026-11-08` Pushed to [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — a notice carrying a PR card is not counted as a second PR card
-- `2026-11-08` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-inbox formula to v0.49.75
 - `2026-11-08` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-08` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — read paths alone take tips from refs, and import workers keep only descriptions
-- `2026-11-07` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — post on a replica answers a record only the hub holds
-- `2026-11-07` Created something new in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-11-08` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-present formula to v0.60.1
+- `2026-11-08` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — a PR block's ELI5 line reaches its Slack card in Risk's place
+- `2026-11-08` Pushed to [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — a PR card's line read-back never takes the live-card lock it already holds
+- `2026-11-08` Created something new in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
+- `2026-11-07` Created something new in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
+- `2026-11-06` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — moved onto cc-transcript 14.46.20, which logs each owner request's waits
+- `2026-11-06` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 
-**51,347 contributions in the last year**
+**51,374 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -121,8 +121,8 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-11-08` [cc-notes v0.76.1](https://github.com/yasyf/cc-notes/releases/tag/v0.76.1)
-- `2026-11-07` [captain-hook v12.121.48](https://github.com/yasyf/captain-hook/releases/tag/v12.121.48)
+- `2026-11-08` [cc-notes v0.76.1](https://github.com/yasyf/cc-notes/releases/tag/v0.76.1) — sets the remote HEAD when origin/HEAD is unset and no guessed base names a commit
+- `2026-11-07` [captain-hook v12.121.48](https://github.com/yasyf/captain-hook/releases/tag/v12.121.48) — an owner's order to restart the Orca app server lifts one kill of the profile-lock holder
 - `2026-11-06` [cc-remote v0.27.26](https://github.com/yasyf/cc-remote/releases/tag/v0.27.26) — a full local disk no longer takes a Sprite's root filesystem down
 - `2026-11-05` [slop-cop v0.1.75](https://github.com/yasyf/slop-cop/releases/tag/v0.1.75) — releases on merge by tagging after autobump
 - `2026-11-05` [cc-skills v1.15.1](https://github.com/yasyf/cc-skills/releases/tag/v1.15.1) — rate-limited grades burn no attempt, and grader Sol calls run at medium effort
