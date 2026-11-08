@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-08T16:16:12Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-08T22:21:08Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -28,19 +28,19 @@
 
 <!-- gh-profile:start:activity -->
 - `2026-11-08` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — opened a fix so a promised clock marks a row due and a wait with no Approve is refused
-- `2026-11-08` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — merged a change so the ELI5 line leads every PR card
+- `2026-11-08` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-11-08` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — the long-running finder counts rows checked in any case and states the row total up front
+- `2026-11-08` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — merged a write queue that commits paged imports, folds, relay pages and settles
 - `2026-11-08` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-11-08` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-08` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — merged a change so the ELI5 line leads every PR card
+- `2026-11-08` Worked on a pull request in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
 - `2026-11-08` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-present formula to v0.60.1
-- `2026-11-08` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present) — a PR block's ELI5 line reaches its Slack card in Risk's place
-- `2026-11-08` Pushed to [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — a PR card's line read-back never takes the live-card lock it already holds
+- `2026-11-08` Pushed to [Forge-AI/litestream](https://github.com/Forge-AI/litestream)
 - `2026-11-08` Created something new in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
-- `2026-11-07` Created something new in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
-- `2026-11-06` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — moved onto cc-transcript 14.46.20, which logs each owner request's waits
-- `2026-11-06` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-11-08` Pushed to [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — a PR card's line read-back never takes the live-card lock it already holds
 
-**51,374 contributions in the last year**
+**51,429 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
