@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-07T22:12:50Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-08T06:32:11Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-11-07` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged a fix so Orca creates a sparse launch's worktree and lists it at once
-- `2026-11-07` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present)
-- `2026-11-07` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-07` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — a carry reads the pipeline's own grade at the carried head
-- `2026-11-07` Pushed to [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — a notice carrying a PR card is not counted as a second PR card
-- `2026-11-07` Created something new in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
+- `2026-11-08` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged a fix so Orca creates a sparse launch's worktree and lists it at once
 - `2026-11-07` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-07` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — a carry reads the pipeline's own grade at the carried head
+- `2026-11-07` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-11-07` Created something new in [yasyf/cc-present](https://github.com/yasyf/cc-present)
 - `2026-11-07` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-inbox formula to v0.49.75
-- `2026-11-07` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-11-07` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — post on a replica answers a record only the hub holds
-- `2026-11-07` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-11-06` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-11-06` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-11-06` Created something new in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
+- `2026-11-06` Created something new in [yasyf/cc-transcript](https://github.com/yasyf/cc-transcript)
+- `2026-11-06` Created something new in [yasyf/cc-remote](https://github.com/yasyf/cc-remote)
+- `2026-11-06` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — post on a replica answers a record only the hub holds
 
-**51,272 contributions in the last year**
+**51,303 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
