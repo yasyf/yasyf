@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-08T22:21:08Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-09T07:01:27Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,18 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-11-08` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — opened a fix so a promised clock marks a row due and a wait with no Approve is refused
-- `2026-11-08` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-11-08` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — the long-running finder counts rows checked in any case and states the row total up front
-- `2026-11-08` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — merged a write queue that commits paged imports, folds, relay pages and settles
-- `2026-11-08` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-08` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-08` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — merged a change so the ELI5 line leads every PR card
-- `2026-11-08` Worked on a pull request in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
-- `2026-11-08` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-present formula to v0.60.1
-- `2026-11-08` Pushed to [Forge-AI/litestream](https://github.com/Forge-AI/litestream)
-- `2026-11-08` Created something new in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
-- `2026-11-08` Pushed to [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — a PR card's line read-back never takes the live-card lock it already holds
+- `2026-11-09` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — opened a fix so a promised clock marks a row due and a wait with no Approve is refused
+- `2026-11-09` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — merged a change so the ELI5 line leads every PR card
+- `2026-11-09` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-11-09` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-11-09` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — the long-running finder counts rows checked in any case and states the row total up front
+- `2026-11-09` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-09` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-09` Pushed to [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — a PR card's line read-back never takes the live-card lock it already holds
+- `2026-11-09` Created something new in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
+- `2026-11-09` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-present formula to v0.60.1
 
-**51,429 contributions in the last year**
+**51,512 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -121,7 +119,7 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-11-08` [cc-notes v0.76.1](https://github.com/yasyf/cc-notes/releases/tag/v0.76.1) — sets the remote HEAD when origin/HEAD is unset and no guessed base names a commit
+- `2026-11-09` [cc-notes v0.76.3](https://github.com/yasyf/cc-notes/releases/tag/v0.76.3)
 - `2026-11-07` [captain-hook v12.121.48](https://github.com/yasyf/captain-hook/releases/tag/v12.121.48) — an owner's order to restart the Orca app server lifts one kill of the profile-lock holder
 - `2026-11-06` [cc-remote v0.27.26](https://github.com/yasyf/cc-remote/releases/tag/v0.27.26) — a full local disk no longer takes a Sprite's root filesystem down
 - `2026-11-05` [slop-cop v0.1.75](https://github.com/yasyf/slop-cop/releases/tag/v0.1.75) — releases on merge by tagging after autobump
