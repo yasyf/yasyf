@@ -1,59 +1,46 @@
 {
   "activity": {
+    "PullRequestEvent:yasyf/captain-hook": {
+      "as_of": "2026-11-09",
+      "summary": "merged a fix so a drive root's terminal close gets a real answer"
+    },
+    "PullRequestEvent:yasyf/cc-context": {
+      "as_of": "2026-11-09",
+      "summary": "merged a fix so ccx ship pushes to an open PR without rebasing it onto trunk"
+    },
     "PullRequestEvent:yasyf/cc-inbox": {
-      "as_of": "2026-11-06",
-      "summary": "merged a write queue that commits paged imports, folds, relay pages and settles"
+      "as_of": "2026-11-09",
+      "summary": "cci releases reuse a warm build from main and notarize binaries side by side"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-11-08",
-      "summary": "opened a fix so a promised clock marks a row due and a wait with no Approve is refused"
+      "as_of": "2026-11-09",
+      "summary": "merged a fix so releases upload and verify their files in parallel"
     },
     "PullRequestEvent:yasyf/cc-slack": {
-      "as_of": "2026-11-08",
-      "summary": "merged a change so the ELI5 line leads every PR card"
+      "as_of": "2026-11-09",
+      "summary": "merged a fix so an answered card settles even after its posting session ends"
+    },
+    "PullRequestEvent:yasyf/homebrew-tap": {
+      "as_of": "2026-11-09",
+      "summary": "merged parallel release staging and publishing for Go, Swift and Bun"
     },
     "PushEvent:yasyf/captain-hook": {
-      "as_of": "b6322c26060c",
-      "summary": "moved onto cc-transcript 14.46.20, which logs each owner request's waits"
+      "as_of": "9775f262e57a",
+      "summary": "a cc-notes answer naming a terminal lifts its close before the Orca probe"
     },
-    "PushEvent:yasyf/cc-inbox": {
-      "as_of": "6dce18380f30",
-      "summary": "post on a replica answers a record only the hub holds"
-    },
-    "PushEvent:yasyf/cc-notes": {
-      "as_of": "369ab377bab8",
-      "summary": "read paths alone take tips from refs, and import workers keep only descriptions"
-    },
-    "PushEvent:yasyf/cc-present": {
-      "as_of": "ac4940d95bf9",
-      "summary": "a PR block's ELI5 line reaches its Slack card in Risk's place"
-    },
-    "PushEvent:yasyf/cc-skills": {
-      "as_of": "572b683f2ecc",
-      "summary": "the long-running finder counts rows checked in any case and states the row total up front"
-    },
-    "PushEvent:yasyf/cc-slack": {
-      "as_of": "ec69d6e8d2e2",
-      "summary": "a PR card's line read-back never takes the live-card lock it already holds"
+    "PushEvent:yasyf/cc-context": {
+      "as_of": "9e3d5d436900",
+      "summary": "--landed reads the landed branch's refs when the run leaves them out"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "b474c3570ab0",
-      "summary": "bumped the cc-present formula to v0.60.1"
+      "as_of": "ff5fe7b11caf",
+      "summary": "bumped the cc-inbox formula to v0.54.11"
     }
   },
-  "generated_at": "2026-11-08T16:30:00Z",
+  "generated_at": "2026-11-09T20:00:00Z",
   "shipped": {
-    "captain-hook@v12.121.40": {
-      "summary": "a search of one Go module version directory passes the protected-root guard"
-    },
-    "captain-hook@v12.121.48": {
-      "summary": "an owner's order to restart the Orca app server lifts one kill of the profile-lock holder"
-    },
-    "cc-notes@v0.75.42": {
-      "summary": "a read in a fresh clone answers from the refs instead of waiting for the import"
-    },
-    "cc-notes@v0.76.1": {
-      "summary": "sets the remote HEAD when origin/HEAD is unset and no guessed base names a commit"
+    "captain-hook@v12.121.56": {
+      "summary": "a retried blocked terminal close gets a real answer, not the same retry block"
     },
     "cc-pool@v0.70.1": {
       "summary": "drops the spctl gate Homebrew's sandbox always fails"
@@ -64,8 +51,11 @@
     "cc-review@v0.46.3": {
       "summary": "a resumed window's channel follows its session"
     },
-    "cc-skills@v1.15.1": {
-      "summary": "rate-limited grades burn no attempt, and grader Sol calls run at medium effort"
+    "cc-skills@v1.15.2": {
+      "summary": "an unread request's refusal reaches the asking lane, and Sprite lanes can post"
+    },
+    "docker-dsl@v0.1.2": {
+      "summary": "the console script imports recipes from the working directory"
     },
     "slop-cop@v0.1.75": {
       "summary": "releases on merge by tagging after autobump"
