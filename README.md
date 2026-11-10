@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-10T07:38:22Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-10T17:16:42Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-11-10` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged a fix so releases upload and verify their files in parallel
-- `2026-11-10` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — cci releases reuse a warm build from main and notarize binaries side by side
-- `2026-11-10` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — merged a fix so an answered card settles even after its posting session ends
-- `2026-11-10` Worked on a pull request in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
-- `2026-11-10` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged a fix so ccx ship pushes to an open PR without rebasing it onto trunk
-- `2026-11-10` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — merged a fix so a drive root's terminal close gets a real answer
-- `2026-11-10` Worked on a pull request in [yasyf/cc-remote](https://github.com/yasyf/cc-remote)
-- `2026-11-09` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-09` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — a cc-notes answer naming a terminal lifts its close before the Orca probe
-- `2026-11-09` Pushed to [yasyf/cc-squash](https://github.com/yasyf/cc-squash)
-- `2026-11-09` Pushed to [yasyf/docker-dsl](https://github.com/yasyf/docker-dsl)
-- `2026-11-09` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-inbox formula to v0.54.11
+- `2026-11-10` Worked on a pull request in [Forge-AI/litestream](https://github.com/Forge-AI/litestream) — opened a fix so a litestream-next level compacts at most once per interval
+- `2026-11-10` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — merged a fix so macOS cold opens no longer deadlock on the init lock
+- `2026-11-10` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged a fix so drive job ask lists the same candidate answers every run
+- `2026-11-10` Discussed issues in [Forge-AI/litestream](https://github.com/Forge-AI/litestream)
+- `2026-11-10` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged a fix so stack submit accepts --pr-title and --pr-body-file
+- `2026-11-10` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — merged a fix so no redraw-pr-cards run outlives the daemon
+- `2026-11-10` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-11-10` Pushed to [yasyf/cc-remote](https://github.com/yasyf/cc-remote) — a lane's build can no longer take its Sprite down
+- `2026-11-10` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-10` Created something new in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
+- `2026-11-10` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — resuming a remote lane whose worker died relaunches it with a handoff
+- `2026-11-10` Pushed to [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — check-post flags a paragraph listing what is not proven yet
 
-**51,837 contributions in the last year**
+**51,974 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -121,13 +121,14 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-11-10` [captain-hook v12.121.62](https://github.com/yasyf/captain-hook/releases/tag/v12.121.62)
-- `2026-11-10` [cc-remote v0.27.28](https://github.com/yasyf/cc-remote/releases/tag/v0.27.28)
-- `2026-11-10` [cc-notes v0.76.7](https://github.com/yasyf/cc-notes/releases/tag/v0.76.7)
+- `2026-11-10` [captain-hook v12.121.63](https://github.com/yasyf/captain-hook/releases/tag/v12.121.63) — the replanning hook judges only words a person typed, never a task notification
+- `2026-11-10` [cc-remote v0.27.29](https://github.com/yasyf/cc-remote/releases/tag/v0.27.29) — a dead Orca runtime starts again, and Go's caches leave a Sprite's home volume
+- `2026-11-10` [cc-notes v0.76.7](https://github.com/yasyf/cc-notes/releases/tag/v0.76.7) — the deep-history fault check no longer fails at random on Go runtime timing
 - `2026-11-09` [cc-skills v1.15.2](https://github.com/yasyf/cc-skills/releases/tag/v1.15.2) — an unread request's refusal reaches the asking lane, and Sprite lanes can post
 - `2026-11-05` [slop-cop v0.1.75](https://github.com/yasyf/slop-cop/releases/tag/v0.1.75) — releases on merge by tagging after autobump
 - `2026-11-05` [cc-review v0.46.3](https://github.com/yasyf/cc-review/releases/tag/v0.46.3) — a resumed window's channel follows its session
 - `2026-10-28` [cc-pool v0.70.1](https://github.com/yasyf/cc-pool/releases/tag/v0.70.1) — drops the spctl gate Homebrew's sandbox always fails
+- `2026-07-03` [docker-dsl v0.1.2](https://github.com/yasyf/docker-dsl/releases/tag/v0.1.2) — the console script imports recipes from the working directory
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox

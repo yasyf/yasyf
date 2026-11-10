@@ -1,52 +1,51 @@
 {
   "activity": {
-    "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-11-09",
-      "summary": "merged a fix so a drive root's terminal close gets a real answer"
+    "PullRequestEvent:Forge-AI/litestream": {
+      "as_of": "2026-11-10",
+      "summary": "opened a fix so a litestream-next level compacts at most once per interval"
     },
     "PullRequestEvent:yasyf/cc-context": {
-      "as_of": "2026-11-09",
-      "summary": "merged a fix so ccx ship pushes to an open PR without rebasing it onto trunk"
+      "as_of": "2026-11-10",
+      "summary": "merged a fix so stack submit accepts --pr-title and --pr-body-file"
     },
     "PullRequestEvent:yasyf/cc-inbox": {
-      "as_of": "2026-11-09",
-      "summary": "cci releases reuse a warm build from main and notarize binaries side by side"
+      "as_of": "2026-11-10",
+      "summary": "merged a fix so macOS cold opens no longer deadlock on the init lock"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-11-09",
-      "summary": "merged a fix so releases upload and verify their files in parallel"
+      "as_of": "2026-11-10",
+      "summary": "merged a fix so drive job ask lists the same candidate answers every run"
     },
     "PullRequestEvent:yasyf/cc-slack": {
-      "as_of": "2026-11-09",
-      "summary": "merged a fix so an answered card settles even after its posting session ends"
+      "as_of": "2026-11-10",
+      "summary": "merged a fix so no redraw-pr-cards run outlives the daemon"
     },
-    "PullRequestEvent:yasyf/homebrew-tap": {
-      "as_of": "2026-11-09",
-      "summary": "merged parallel release staging and publishing for Go, Swift and Bun"
+    "PushEvent:yasyf/cc-remote": {
+      "as_of": "04cf5c9e3713",
+      "summary": "a lane's build can no longer take its Sprite down"
     },
-    "PushEvent:yasyf/captain-hook": {
-      "as_of": "9775f262e57a",
-      "summary": "a cc-notes answer naming a terminal lifts its close before the Orca probe"
+    "PushEvent:yasyf/cc-skills": {
+      "as_of": "e734d5525051",
+      "summary": "resuming a remote lane whose worker died relaunches it with a handoff"
     },
-    "PushEvent:yasyf/cc-context": {
-      "as_of": "9e3d5d436900",
-      "summary": "--landed reads the landed branch's refs when the run leaves them out"
-    },
-    "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "ff5fe7b11caf",
-      "summary": "bumped the cc-inbox formula to v0.54.11"
+    "PushEvent:yasyf/cc-slack": {
+      "as_of": "2efa0c1f8e69",
+      "summary": "check-post flags a paragraph listing what is not proven yet"
     }
   },
-  "generated_at": "2026-11-09T20:00:00Z",
+  "generated_at": "2026-11-10T17:16:29Z",
   "shipped": {
-    "captain-hook@v12.121.56": {
-      "summary": "a retried blocked terminal close gets a real answer, not the same retry block"
+    "captain-hook@v12.121.63": {
+      "summary": "the replanning hook judges only words a person typed, never a task notification"
+    },
+    "cc-notes@v0.76.7": {
+      "summary": "the deep-history fault check no longer fails at random on Go runtime timing"
     },
     "cc-pool@v0.70.1": {
       "summary": "drops the spctl gate Homebrew's sandbox always fails"
     },
-    "cc-remote@v0.27.26": {
-      "summary": "a full local disk no longer takes a Sprite's root filesystem down"
+    "cc-remote@v0.27.29": {
+      "summary": "a dead Orca runtime starts again, and Go's caches leave a Sprite's home volume"
     },
     "cc-review@v0.46.3": {
       "summary": "a resumed window's channel follows its session"
