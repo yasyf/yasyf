@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-10T17:16:42Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-10T19:55:10Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -31,16 +31,16 @@
 - `2026-11-10` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — merged a fix so macOS cold opens no longer deadlock on the init lock
 - `2026-11-10` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged a fix so drive job ask lists the same candidate answers every run
 - `2026-11-10` Discussed issues in [Forge-AI/litestream](https://github.com/Forge-AI/litestream)
-- `2026-11-10` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged a fix so stack submit accepts --pr-title and --pr-body-file
-- `2026-11-10` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — merged a fix so no redraw-pr-cards run outlives the daemon
-- `2026-11-10` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-11-10` Pushed to [yasyf/cc-remote](https://github.com/yasyf/cc-remote) — a lane's build can no longer take its Sprite down
-- `2026-11-10` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-10` Created something new in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
-- `2026-11-10` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — resuming a remote lane whose worker died relaunches it with a handoff
+- `2026-11-10` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-10` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
+- `2026-11-10` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
 - `2026-11-10` Pushed to [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — check-post flags a paragraph listing what is not proven yet
+- `2026-11-10` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — resuming a remote lane whose worker died relaunches it with a handoff
+- `2026-11-10` Created something new in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
+- `2026-11-10` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-10` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
 
-**51,974 contributions in the last year**
+**51,975 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -128,7 +128,6 @@
 - `2026-11-05` [slop-cop v0.1.75](https://github.com/yasyf/slop-cop/releases/tag/v0.1.75) — releases on merge by tagging after autobump
 - `2026-11-05` [cc-review v0.46.3](https://github.com/yasyf/cc-review/releases/tag/v0.46.3) — a resumed window's channel follows its session
 - `2026-10-28` [cc-pool v0.70.1](https://github.com/yasyf/cc-pool/releases/tag/v0.70.1) — drops the spctl gate Homebrew's sandbox always fails
-- `2026-07-03` [docker-dsl v0.1.2](https://github.com/yasyf/docker-dsl/releases/tag/v0.1.2) — the console script imports recipes from the working directory
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
