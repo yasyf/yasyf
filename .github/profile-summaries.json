@@ -1,54 +1,52 @@
 {
   "activity": {
     "PullRequestEvent:Forge-AI/litestream": {
-      "as_of": "2026-11-10",
-      "summary": "opened a fix so a litestream-next level compacts at most once per interval"
+      "as_of": "2026-11-11",
+      "summary": "opened a fix so litestream-next checkpoints only in PASSIVE mode"
+    },
+    "PullRequestEvent:yasyf/captain-hook": {
+      "as_of": "2026-11-11",
+      "summary": "merged a fix so the load-gate guide says the route always carries a cd"
     },
     "PullRequestEvent:yasyf/cc-context": {
-      "as_of": "2026-11-10",
-      "summary": "merged a fix so stack submit accepts --pr-title and --pr-body-file"
+      "as_of": "2026-11-11",
+      "summary": "merged a fix so the literal-search-scope check sees files a musl-built rg opens"
     },
     "PullRequestEvent:yasyf/cc-inbox": {
-      "as_of": "2026-11-10",
-      "summary": "merged a fix so macOS cold opens no longer deadlock on the init lock"
+      "as_of": "2026-11-11",
+      "summary": "merged a fix so the MCP find tool accepts a pattern that opens with --"
+    },
+    "PullRequestEvent:yasyf/cc-review": {
+      "as_of": "2026-11-11",
+      "summary": "merged a Go 1.26.11 bump clearing GO-2026-6859 so merges release again"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-11-10",
-      "summary": "merged a fix so drive job ask lists the same candidate answers every run"
+      "as_of": "2026-11-11",
+      "summary": "merged a fix so an ask record on an open incident names the incident's thread"
     },
     "PullRequestEvent:yasyf/cc-slack": {
-      "as_of": "2026-11-10",
-      "summary": "merged a fix so no redraw-pr-cards run outlives the daemon"
+      "as_of": "2026-11-11",
+      "summary": "merged a fix so a card linked into a thread reads its body once"
     },
-    "PushEvent:yasyf/cc-remote": {
-      "as_of": "04cf5c9e3713",
-      "summary": "a lane's build can no longer take its Sprite down"
+    "PushEvent:yasyf/cc-context": {
+      "as_of": "a9c34c2298d2",
+      "summary": "ccx vcs merge reads the repo's configured queue, not leftover Graphite metadata"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "e734d5525051",
-      "summary": "resuming a remote lane whose worker died relaunches it with a handoff"
-    },
-    "PushEvent:yasyf/cc-slack": {
-      "as_of": "2efa0c1f8e69",
-      "summary": "check-post flags a paragraph listing what is not proven yet"
+      "as_of": "cee7eca6bc64",
+      "summary": "a drive line under an order's card counts as its line for the DUE read"
     }
   },
-  "generated_at": "2026-11-10T17:16:29Z",
+  "generated_at": "2026-11-11T17:30:00Z",
   "shipped": {
-    "captain-hook@v12.121.63": {
-      "summary": "the replanning hook judges only words a person typed, never a task notification"
+    "captain-hook@v12.121.66": {
+      "summary": "the load-gate guide says the route always carries a cd to the call's directory"
     },
-    "cc-notes@v0.76.7": {
-      "summary": "the deep-history fault check no longer fails at random on Go runtime timing"
+    "cc-notes@v0.76.9": {
+      "summary": "answer match ranks the same answers in the same order on every call"
     },
     "cc-pool@v0.70.1": {
       "summary": "drops the spctl gate Homebrew's sandbox always fails"
-    },
-    "cc-remote@v0.27.29": {
-      "summary": "a dead Orca runtime starts again, and Go's caches leave a Sprite's home volume"
-    },
-    "cc-review@v0.46.3": {
-      "summary": "a resumed window's channel follows its session"
     },
     "cc-skills@v1.15.2": {
       "summary": "an unread request's refusal reaches the asking lane, and Sprite lanes can post"
@@ -58,6 +56,9 @@
     },
     "slop-cop@v0.1.75": {
       "summary": "releases on merge by tagging after autobump"
+    },
+    "spawnllm@v0.17.6": {
+      "summary": "TYPESAFE_BASE_URL sends Jev decisions through a gateway"
     }
   },
   "version": 1
