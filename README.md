@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-11T17:25:15Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-11T19:47:31Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-11-11` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged a fix so an ask record on an open incident names the incident's thread
 - `2026-11-11` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context) — merged a fix so the literal-search-scope check sees files a musl-built rg opens
+- `2026-11-11` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged a fix so an ask record on an open incident names the incident's thread
 - `2026-11-11` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — merged a fix so a card linked into a thread reads its body once
 - `2026-11-11` Worked on a pull request in [Forge-AI/litestream](https://github.com/Forge-AI/litestream) — opened a fix so litestream-next checkpoints only in PASSIVE mode
-- `2026-11-11` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — merged a fix so the load-gate guide says the route always carries a cd
-- `2026-11-11` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — merged a fix so the MCP find tool accepts a pattern that opens with --
-- `2026-11-11` Worked on a pull request in [yasyf/cc-review](https://github.com/yasyf/cc-review) — merged a Go 1.26.11 bump clearing GO-2026-6859 so merges release again
-- `2026-11-10` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — a drive line under an order's card counts as its line for the DUE read
 - `2026-11-10` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-10` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — ccx vcs merge reads the repo's configured queue, not leftover Graphite metadata
+- `2026-11-10` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — a drive line under an order's card counts as its line for the DUE read
+- `2026-11-10` Created something new in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
+- `2026-11-10` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
 - `2026-11-10` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-10` Created something new in [Forge-AI/litestream](https://github.com/Forge-AI/litestream)
+- `2026-11-10` Created something new in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
+- `2026-11-10` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-11-10` Pushed to [Forge-AI/litestream](https://github.com/Forge-AI/litestream)
 
-**52,428 contributions in the last year**
+**52,449 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -121,9 +121,9 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
+- `2026-11-11` [cc-skills v1.15.3](https://github.com/yasyf/cc-skills/releases/tag/v1.15.3)
 - `2026-11-11` [captain-hook v12.121.66](https://github.com/yasyf/captain-hook/releases/tag/v12.121.66) — the load-gate guide says the route always carries a cd to the call's directory
-- `2026-11-11` [cc-notes v0.76.9](https://github.com/yasyf/cc-notes/releases/tag/v0.76.9) — answer match ranks the same answers in the same order on every call
-- `2026-11-09` [cc-skills v1.15.2](https://github.com/yasyf/cc-skills/releases/tag/v1.15.2) — an unread request's refusal reaches the asking lane, and Sprite lanes can post
+- `2026-11-11` [cc-review v0.46.4](https://github.com/yasyf/cc-review/releases/tag/v0.46.4)
 - `2026-11-05` [slop-cop v0.1.75](https://github.com/yasyf/slop-cop/releases/tag/v0.1.75) — releases on merge by tagging after autobump
 - `2026-11-03` [spawnllm v0.17.6](https://github.com/yasyf/spawnllm/releases/tag/v0.17.6) — TYPESAFE_BASE_URL sends Jev decisions through a gateway
 - `2026-10-28` [cc-pool v0.70.1](https://github.com/yasyf/cc-pool/releases/tag/v0.70.1) — drops the spctl gate Homebrew's sandbox always fails
