@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-12T07:33:19Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-12T17:44:21Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-11-12` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged a fix so an ask record on an open incident names the incident's thread
-- `2026-11-12` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — merged a fix so a card linked into a thread reads its body once
-- `2026-11-12` Worked on a pull request in [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
-- `2026-11-12` Created something new in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
-- `2026-11-12` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — merged a fix so the MCP find tool accepts a pattern that opens with --
-- `2026-11-12` Created something new in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
-- `2026-11-12` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present)
-- `2026-11-12` Worked on a pull request in [yasyf/cc-review](https://github.com/yasyf/cc-review) — merged a Go 1.26.11 bump clearing GO-2026-6859 so merges release again
-- `2026-11-12` Worked on a pull request in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
+- `2026-11-12` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — merged a fix so an unfinished PR card tap stays taken and is applied again
+- `2026-11-12` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged a fix so the drive's lander lands a tapped stack's ready bottom
+- `2026-11-12` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — merged a fix so releases publish before Apple notarizes the macOS binaries
+- `2026-11-12` Worked on a pull request in [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — merged a fix so releases publish before Apple notarizes the macOS binaries
+- `2026-11-12` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — merged a fix so releases publish before Apple notarizes the macOS binaries
+- `2026-11-12` Worked on a pull request in [yasyf/cc-review](https://github.com/yasyf/cc-review) — merged a fix so releases publish before Apple notarizes the macOS binaries
+- `2026-11-12` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — merged a fix so the process guard reads each drive's drive.json
+- `2026-11-12` Worked on a pull request in [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — merged a fix so Go tool releases publish before Apple notarizes them
+- `2026-11-12` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — a report's url names what it measured, so {record:} links its evidence
+- `2026-11-12` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-11-12` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-12` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — a drive line under an order's card counts as its line for the DUE read
-- `2026-11-12` Worked on a pull request in [Forge-AI/litestream](https://github.com/Forge-AI/litestream) — opened a fix so litestream-next checkpoints only in PASSIVE mode
+- `2026-11-12` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — ccx vcs gh strips terminal escape codes so a redirected job log saves whole
 
-**52,699 contributions in the last year**
+**52,970 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -121,14 +121,14 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-11-12` [cc-remote v0.27.33](https://github.com/yasyf/cc-remote/releases/tag/v0.27.33)
-- `2026-11-11` [captain-hook v12.121.69](https://github.com/yasyf/captain-hook/releases/tag/v12.121.69)
-- `2026-11-11` [cc-skills v1.15.3](https://github.com/yasyf/cc-skills/releases/tag/v1.15.3)
-- `2026-11-11` [cc-review v0.46.4](https://github.com/yasyf/cc-review/releases/tag/v0.46.4)
+- `2026-11-12` [captain-hook v12.121.71](https://github.com/yasyf/captain-hook/releases/tag/v12.121.71) — the process guard reads each drive's drive.json to end a drive's leftovers
+- `2026-11-12` [cc-review v0.46.7](https://github.com/yasyf/cc-review/releases/tag/v0.46.7) — releases publish before Apple notarizes the macOS binaries
+- `2026-11-12` [cc-notes v0.76.14](https://github.com/yasyf/cc-notes/releases/tag/v0.76.14) — reindex holds the authority lock only briefly and builds 10 times faster
+- `2026-11-12` [cc-remote v0.27.37](https://github.com/yasyf/cc-remote/releases/tag/v0.27.37) — orca prune stops failing on every pass after a keeper handover
+- `2026-11-12` [spawnllm v0.17.7](https://github.com/yasyf/spawnllm/releases/tag/v0.17.7) — spawnllm decide asks Jev typed questions from any shell
+- `2026-11-11` [cc-skills v1.15.3](https://github.com/yasyf/cc-skills/releases/tag/v1.15.3) — drives hold their alert channels, hand watches over, and give every order a job
 - `2026-11-05` [slop-cop v0.1.75](https://github.com/yasyf/slop-cop/releases/tag/v0.1.75) — releases on merge by tagging after autobump
-- `2026-11-03` [spawnllm v0.17.6](https://github.com/yasyf/spawnllm/releases/tag/v0.17.6) — TYPESAFE_BASE_URL sends Jev decisions through a gateway
 - `2026-10-28` [cc-pool v0.70.1](https://github.com/yasyf/cc-pool/releases/tag/v0.70.1) — drops the spctl gate Homebrew's sandbox always fails
-- `2026-07-03` [docker-dsl v0.1.2](https://github.com/yasyf/docker-dsl/releases/tag/v0.1.2) — the console script imports recipes from the working directory
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
