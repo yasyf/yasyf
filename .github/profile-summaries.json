@@ -1,71 +1,63 @@
 {
   "activity": {
-    "PullRequestEvent:yasyf/captain-hook": {
-      "as_of": "2026-11-12",
-      "summary": "merged a fix so the process guard reads each drive's drive.json"
-    },
     "PullRequestEvent:yasyf/cc-inbox": {
-      "as_of": "2026-11-12",
-      "summary": "merged a fix so releases publish before Apple notarizes the macOS binaries"
+      "as_of": "2026-11-13",
+      "summary": "merged a fix so the close tool's withdraw takes back a lane's own report"
     },
     "PullRequestEvent:yasyf/cc-notes": {
-      "as_of": "2026-11-12",
-      "summary": "merged a fix so releases publish before Apple notarizes the macOS binaries"
-    },
-    "PullRequestEvent:yasyf/cc-orchestrate": {
-      "as_of": "2026-11-12",
-      "summary": "merged a fix so releases publish before Apple notarizes the macOS binaries"
-    },
-    "PullRequestEvent:yasyf/cc-review": {
-      "as_of": "2026-11-12",
-      "summary": "merged a fix so releases publish before Apple notarizes the macOS binaries"
+      "as_of": "2026-11-13",
+      "summary": "merged a fix excluding gosec's flaky G703 check from the lint job"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-11-12",
-      "summary": "merged a fix so the drive's lander lands a tapped stack's ready bottom"
+      "as_of": "2026-11-13",
+      "summary": "merged a fix so drive cards redraw every question drive status reads as open"
     },
     "PullRequestEvent:yasyf/cc-slack": {
-      "as_of": "2026-11-12",
-      "summary": "merged a fix so an unfinished PR card tap stays taken and is applied again"
+      "as_of": "2026-11-13",
+      "summary": "merged a fix so a question card quoting an option by number draws again"
     },
-    "PullRequestEvent:yasyf/homebrew-tap": {
-      "as_of": "2026-11-12",
-      "summary": "merged a fix so Go tool releases publish before Apple notarizes them"
+    "PushEvent:yasyf/binrun": {
+      "as_of": "834571fef5f1",
+      "summary": "records where a static descriptor resolved so a launcher can skip binrun"
     },
     "PushEvent:yasyf/cc-context": {
-      "as_of": "fdaaf9a05a77",
-      "summary": "ccx vcs gh strips terminal escape codes so a redirected job log saves whole"
+      "as_of": "5ef8844919c5",
+      "summary": "ship --dry-run deepens past a base a shallow clone lacks, as ship does"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "e08eab10895a",
-      "summary": "a report's url names what it measured, so {record:} links its evidence"
+      "as_of": "10cb7fd0dcf1",
+      "summary": "drive incident open saves its order, jobs, and evidence record once"
+    },
+    "PushEvent:yasyf/cc-slack": {
+      "as_of": "9bcd3478e473",
+      "summary": "a markdown link or bold inside a code span stays as written"
     }
   },
-  "generated_at": "2026-11-12T17:44:09Z",
+  "generated_at": "2026-11-13T17:23:02Z",
   "shipped": {
-    "captain-hook@v12.121.71": {
-      "summary": "the process guard reads each drive's drive.json to end a drive's leftovers"
+    "captain-hook@v12.121.77": {
+      "summary": "any drive session ends a stuck drive command, reading bindings from drive.db"
     },
-    "cc-notes@v0.76.14": {
-      "summary": "reindex holds the authority lock only briefly and builds 10 times faster"
+    "cc-notes@v0.76.26": {
+      "summary": "the lint job excludes gosec's G703 check, which flaked on unchanged code"
     },
     "cc-pool@v0.70.1": {
       "summary": "drops the spctl gate Homebrew's sandbox always fails"
     },
-    "cc-remote@v0.27.37": {
-      "summary": "orca prune stops failing on every pass after a keeper handover"
+    "cc-remote@v0.27.48": {
+      "summary": "a payload download whose staging write stops reading fails instead of hanging"
     },
-    "cc-review@v0.46.7": {
-      "summary": "releases publish before Apple notarizes the macOS binaries"
+    "cc-review@v0.47.0": {
+      "summary": "the channel survives a plugin reload and reconnects when it stops"
     },
-    "cc-skills@v1.15.3": {
-      "summary": "drives hold their alert channels, hand watches over, and give every order a job"
+    "cc-skills@v1.16.0": {
+      "summary": "GitHub webhooks reach the drive watch through a Tailscale Funnel receiver"
     },
     "slop-cop@v0.1.75": {
       "summary": "releases on merge by tagging after autobump"
     },
-    "spawnllm@v0.17.7": {
-      "summary": "spawnllm decide asks Jev typed questions from any shell"
+    "spawnllm@v0.17.8": {
+      "summary": "every claude -p run starts light, with the plugin auto-updater off"
     }
   },
   "version": 1

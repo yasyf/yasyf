@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-13T07:04:45Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-13T17:23:02Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-11-13` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged a fix so the drive's lander lands a tapped stack's ready bottom
-- `2026-11-13` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — merged a fix so an unfinished PR card tap stays taken and is applied again
-- `2026-11-13` Worked on a pull request in [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate) — merged a fix so releases publish before Apple notarizes the macOS binaries
-- `2026-11-13` Worked on a pull request in [yasyf/cc-review](https://github.com/yasyf/cc-review) — merged a fix so releases publish before Apple notarizes the macOS binaries
-- `2026-11-13` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present)
-- `2026-11-13` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook) — merged a fix so the process guard reads each drive's drive.json
-- `2026-11-13` Worked on a pull request in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
-- `2026-11-13` Created something new in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
-- `2026-11-13` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — a report's url names what it measured, so {record:} links its evidence
-- `2026-11-13` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-13` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — merged a fix so drive cards redraw every question drive status reads as open
+- `2026-11-13` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — merged a fix so the close tool's withdraw takes back a lane's own report
+- `2026-11-13` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — merged a fix so a question card quoting an option by number draws again
+- `2026-11-13` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes) — merged a fix excluding gosec's flaky G703 check from the lint job
+- `2026-11-13` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — drive incident open saves its order, jobs, and evidence record once
+- `2026-11-13` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — ship --dry-run deepens past a base a shallow clone lacks, as ship does
 - `2026-11-13` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-11` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-11-13` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-13` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
+- `2026-11-13` Pushed to [yasyf/binrun](https://github.com/yasyf/binrun) — records where a static descriptor resolved so a launcher can skip binrun
+- `2026-11-13` Created something new in [yasyf/binrun](https://github.com/yasyf/binrun)
+- `2026-11-12` Pushed to [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — a markdown link or bold inside a code span stays as written
 
-**53,380 contributions in the last year**
+**53,835 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -94,6 +94,7 @@
 - [binrun](https://github.com/yasyf/binrun) — fetch, verify, and exec the exact artifact a descriptor pins: release binaries, Python tools, signed apps — the shim the cc-* tools now ship behind
 - [semisweet](https://github.com/yasyf/semisweet) — an async, in-memory semantic cache with pluggable backends
 - [experiment-at-home](https://github.com/yasyf/experiment-at-home) — the plumbing every local AI experiment rebuilds, built once: modal, mlx-lm, and tinker backends behind one registry
+- [ioskit](https://github.com/yasyf/ioskit) — shared Swift for the iPhone apps that talk to cc-present daemons
 - [spawnllm](https://github.com/yasyf/spawnllm) — call an LLM from any subshell: Claude, Codex, a local MLX model, or Apple's on-device Foundation Models
 - [pocket-llm](https://github.com/yasyf/pocket-llm) — on-device LLM sessions for any browser: Chrome's Prompt API, WebLLM, or wllama, picked by feature detection, smallest model first
 
@@ -121,12 +122,12 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-11-13` [captain-hook v12.121.76](https://github.com/yasyf/captain-hook/releases/tag/v12.121.76)
-- `2026-11-13` [cc-skills v1.16.0](https://github.com/yasyf/cc-skills/releases/tag/v1.16.0)
-- `2026-11-13` [cc-review v0.47.0](https://github.com/yasyf/cc-review/releases/tag/v0.47.0)
-- `2026-11-13` [cc-notes v0.76.23](https://github.com/yasyf/cc-notes/releases/tag/v0.76.23)
-- `2026-11-13` [cc-remote v0.27.44](https://github.com/yasyf/cc-remote/releases/tag/v0.27.44)
-- `2026-11-13` [spawnllm v0.17.8](https://github.com/yasyf/spawnllm/releases/tag/v0.17.8)
+- `2026-11-13` [cc-notes v0.76.26](https://github.com/yasyf/cc-notes/releases/tag/v0.76.26) — the lint job excludes gosec's G703 check, which flaked on unchanged code
+- `2026-11-13` [cc-remote v0.27.48](https://github.com/yasyf/cc-remote/releases/tag/v0.27.48) — a payload download whose staging write stops reading fails instead of hanging
+- `2026-11-13` [captain-hook v12.121.77](https://github.com/yasyf/captain-hook/releases/tag/v12.121.77) — any drive session ends a stuck drive command, reading bindings from drive.db
+- `2026-11-13` [cc-skills v1.16.0](https://github.com/yasyf/cc-skills/releases/tag/v1.16.0) — GitHub webhooks reach the drive watch through a Tailscale Funnel receiver
+- `2026-11-13` [cc-review v0.47.0](https://github.com/yasyf/cc-review/releases/tag/v0.47.0) — the channel survives a plugin reload and reconnects when it stops
+- `2026-11-13` [spawnllm v0.17.8](https://github.com/yasyf/spawnllm/releases/tag/v0.17.8) — every claude -p run starts light, with the plugin auto-updater off
 - `2026-11-05` [slop-cop v0.1.75](https://github.com/yasyf/slop-cop/releases/tag/v0.1.75) — releases on merge by tagging after autobump
 - `2026-10-28` [cc-pool v0.70.1](https://github.com/yasyf/cc-pool/releases/tag/v0.70.1) — drops the spctl gate Homebrew's sandbox always fails
 <!-- gh-profile:end:shipped -->
