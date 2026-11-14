@@ -1,42 +1,30 @@
 {
   "activity": {
-    "PullRequestEvent:yasyf/cc-inbox": {
-      "as_of": "2026-11-13",
-      "summary": "merged a fix so the close tool's withdraw takes back a lane's own report"
-    },
-    "PullRequestEvent:yasyf/cc-notes": {
-      "as_of": "2026-11-13",
-      "summary": "merged a fix excluding gosec's flaky G703 check from the lint job"
-    },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-11-13",
-      "summary": "merged a fix so drive cards redraw every question drive status reads as open"
+      "as_of": "2026-11-14",
+      "summary": "opened a fix so the post check never refuses a short ack for its length"
     },
-    "PullRequestEvent:yasyf/cc-slack": {
-      "as_of": "2026-11-13",
-      "summary": "merged a fix so a question card quoting an option by number draws again"
-    },
-    "PushEvent:yasyf/binrun": {
-      "as_of": "834571fef5f1",
-      "summary": "records where a static descriptor resolved so a launcher can skip binrun"
-    },
-    "PushEvent:yasyf/cc-context": {
-      "as_of": "5ef8844919c5",
-      "summary": "ship --dry-run deepens past a base a shallow clone lacks, as ship does"
+    "PushEvent:Forge-AI/litestream": {
+      "as_of": "e7bb42d44c5a",
+      "summary": "the shutdown test counts a snapshot-level file as initial replication"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "10cb7fd0dcf1",
-      "summary": "drive incident open saves its order, jobs, and evidence record once"
+      "as_of": "0104eca56c8a",
+      "summary": "the watch raises no stall on a chain waiting on a release hold"
     },
     "PushEvent:yasyf/cc-slack": {
-      "as_of": "9bcd3478e473",
-      "summary": "a markdown link or bold inside a code span stays as written"
+      "as_of": "dee529cc65b5",
+      "summary": "slack_thread and slack_history read a DM the app isn't in via one-time OAuth"
+    },
+    "PushEvent:yasyf/homebrew-tap": {
+      "as_of": "0252275f35c7",
+      "summary": "bumped the cc-slack formula to v0.20.30"
     }
   },
-  "generated_at": "2026-11-13T17:23:02Z",
+  "generated_at": "2026-11-14T16:02:11Z",
   "shipped": {
-    "captain-hook@v12.121.77": {
-      "summary": "any drive session ends a stuck drive command, reading bindings from drive.db"
+    "captain-hook@v12.121.80": {
+      "summary": "a Decide judge given its own frame judges by that frame alone"
     },
     "cc-notes@v0.76.26": {
       "summary": "the lint job excludes gosec's G703 check, which flaked on unchanged code"
@@ -44,14 +32,14 @@
     "cc-pool@v0.70.1": {
       "summary": "drops the spctl gate Homebrew's sandbox always fails"
     },
-    "cc-remote@v0.27.48": {
-      "summary": "a payload download whose staging write stops reading fails instead of hanging"
+    "cc-remote@v0.27.49": {
+      "summary": "a Claude worker's codex signs in with its OpenAI key, ending 401 failures"
     },
     "cc-review@v0.47.0": {
       "summary": "the channel survives a plugin reload and reconnects when it stops"
     },
-    "cc-skills@v1.16.0": {
-      "summary": "GitHub webhooks reach the drive watch through a Tailscale Funnel receiver"
+    "cc-skills@v1.16.1": {
+      "summary": "a live retro's clock follows state.json once an incident reopens"
     },
     "slop-cop@v0.1.75": {
       "summary": "releases on merge by tagging after autobump"
