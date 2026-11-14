@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-14T18:24:20Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-14T22:40:06Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -28,19 +28,16 @@
 
 <!-- gh-profile:start:activity -->
 - `2026-11-14` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — opened a fix so the post check never refuses a short ack for its length
+- `2026-11-14` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
 - `2026-11-14` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — the watch raises no stall on a chain waiting on a release hold
-- `2026-11-14` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-14` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
 - `2026-11-14` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-11-14` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-slack formula to v0.20.30
-- `2026-11-13` Created something new in [yasyf/cc-remote](https://github.com/yasyf/cc-remote)
+- `2026-11-14` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-14` Pushed to [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — slack_thread and slack_history read a DM the app isn't in via one-time OAuth
 - `2026-11-12` Created something new in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
-- `2026-11-12` Pushed to [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-11-12` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
-- `2026-11-12` Pushed to [yasyf/cc-orchestrate](https://github.com/yasyf/cc-orchestrate)
-- `2026-11-12` Created something new in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-11-12` Created something new in [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
 
-**54,170 contributions in the last year**
+**54,208 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
