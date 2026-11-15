@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-15T16:34:58Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-15T19:01:31Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -28,19 +28,19 @@
 
 <!-- gh-profile:start:activity -->
 - `2026-11-15` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — opened a fix for how a relaunch handoff marks its job sent
+- `2026-11-15` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
 - `2026-11-15` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — opened a fix so cci show prints another drive's record instead of refusing
 - `2026-11-15` Worked on a pull request in [yasyf/cc-remote](https://github.com/yasyf/cc-remote) — opened a fix so a new worker gets its first GitHub App token within a minute
 - `2026-11-15` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — a never-started job reads as an orphan a minute after drive job add
-- `2026-11-15` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-15` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-slack formula to v0.20.82
-- `2026-11-15` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-15` Pushed to [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — the channel server runs the plugin's own cc-slack, never the PATH copy
-- `2026-11-15` Pushed to [Forge-AI/litestream](https://github.com/Forge-AI/litestream) — a lazy primary reads fault-socket from config and faults absent segments
+- `2026-11-15` Pushed to [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
+- `2026-11-14` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-14` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-13` Pushed to [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — the channel server runs the plugin's own cc-slack, never the PATH copy
+- `2026-11-13` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-11-13` Created something new in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
-- `2026-11-13` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-11-13` Pushed to [yasyf/orca](https://github.com/yasyf/orca) — agent hooks accept spaced Claude payloads in identity reuse
+- `2026-11-13` Created something new in [Forge-AI/litestream](https://github.com/Forge-AI/litestream)
 
-**54,696 contributions in the last year**
+**54,726 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
