@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-15T06:59:26Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-15T16:34:58Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-11-15` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — the watch raises no stall on a chain waiting on a release hold
-- `2026-11-15` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — opened a fix so the post check never refuses a short ack for its length
-- `2026-11-15` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
+- `2026-11-15` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — opened a fix for how a relaunch handoff marks its job sent
+- `2026-11-15` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — opened a fix so cci show prints another drive's record instead of refusing
+- `2026-11-15` Worked on a pull request in [yasyf/cc-remote](https://github.com/yasyf/cc-remote) — opened a fix so a new worker gets its first GitHub App token within a minute
+- `2026-11-15` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — a never-started job reads as an orphan a minute after drive job add
 - `2026-11-15` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-15` Worked on a pull request in [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
-- `2026-11-15` Created something new in [yasyf/spawnllm](https://github.com/yasyf/spawnllm)
-- `2026-11-15` Worked on a pull request in [yasyf/cc-remote](https://github.com/yasyf/cc-remote)
-- `2026-11-15` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
-- `2026-11-15` Pushed to [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — slack_thread and slack_history read a DM the app isn't in via one-time OAuth
-- `2026-11-15` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
-- `2026-11-14` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-13` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-slack formula to v0.20.30
+- `2026-11-15` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-slack formula to v0.20.82
+- `2026-11-15` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-15` Pushed to [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — the channel server runs the plugin's own cc-slack, never the PATH copy
+- `2026-11-15` Pushed to [Forge-AI/litestream](https://github.com/Forge-AI/litestream) — a lazy primary reads fault-socket from config and faults absent segments
+- `2026-11-13` Created something new in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
+- `2026-11-13` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-11-13` Pushed to [yasyf/orca](https://github.com/yasyf/orca) — agent hooks accept spaced Claude payloads in identity reuse
 
-**54,359 contributions in the last year**
+**54,696 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -122,12 +122,12 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-11-15` [spawnllm v0.17.10](https://github.com/yasyf/spawnllm/releases/tag/v0.17.10)
-- `2026-11-14` [captain-hook v12.121.81](https://github.com/yasyf/captain-hook/releases/tag/v12.121.81)
-- `2026-11-14` [cc-skills v1.16.1](https://github.com/yasyf/cc-skills/releases/tag/v1.16.1) — a live retro's clock follows state.json once an incident reopens
-- `2026-11-13` [cc-remote v0.27.49](https://github.com/yasyf/cc-remote/releases/tag/v0.27.49) — a Claude worker's codex signs in with its OpenAI key, ending 401 failures
-- `2026-11-13` [cc-notes v0.76.26](https://github.com/yasyf/cc-notes/releases/tag/v0.76.26) — the lint job excludes gosec's G703 check, which flaked on unchanged code
-- `2026-11-13` [cc-review v0.47.0](https://github.com/yasyf/cc-review/releases/tag/v0.47.0) — the channel survives a plugin reload and reconnects when it stops
+- `2026-11-15` [cc-remote v0.27.52](https://github.com/yasyf/cc-remote/releases/tag/v0.27.52) — a warm pool claim destroys a spare whose block device already failed
+- `2026-11-15` [cc-notes v0.76.27](https://github.com/yasyf/cc-notes/releases/tag/v0.76.27) — the plugin ships its own cc-notes and ccn in bin, pinned to its release
+- `2026-11-15` [captain-hook v12.121.82](https://github.com/yasyf/captain-hook/releases/tag/v12.121.82) — the load gate's suggested command keeps the call's own variable assignments
+- `2026-11-15` [cc-skills v1.16.2](https://github.com/yasyf/cc-skills/releases/tag/v1.16.2) — a job proving a fix live still briefs when its Slack link is unreadable
+- `2026-11-15` [cc-review v0.47.1](https://github.com/yasyf/cc-review/releases/tag/v0.47.1) — the channel server runs the plugin's own cc-review, never the PATH copy
+- `2026-11-15` [spawnllm v0.17.10](https://github.com/yasyf/spawnllm/releases/tag/v0.17.10) — the Go core runs under wazero's interpreter so hardened-runtime binaries work
 - `2026-11-05` [slop-cop v0.1.75](https://github.com/yasyf/slop-cop/releases/tag/v0.1.75) — releases on merge by tagging after autobump
 - `2026-10-28` [cc-pool v0.70.1](https://github.com/yasyf/cc-pool/releases/tag/v0.70.1) — drops the spctl gate Homebrew's sandbox always fails
 <!-- gh-profile:end:shipped -->

@@ -1,51 +1,63 @@
 {
   "activity": {
+    "PullRequestEvent:yasyf/cc-inbox": {
+      "as_of": "2026-11-15",
+      "summary": "opened a fix so cci show prints another drive's record instead of refusing"
+    },
+    "PullRequestEvent:yasyf/cc-remote": {
+      "as_of": "2026-11-15",
+      "summary": "opened a fix so a new worker gets its first GitHub App token within a minute"
+    },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-11-14",
-      "summary": "opened a fix so the post check never refuses a short ack for its length"
+      "as_of": "2026-11-15",
+      "summary": "opened a fix for how a relaunch handoff marks its job sent"
     },
     "PushEvent:Forge-AI/litestream": {
-      "as_of": "e7bb42d44c5a",
-      "summary": "the shutdown test counts a snapshot-level file as initial replication"
+      "as_of": "ed2809b4a740",
+      "summary": "a lazy primary reads fault-socket from config and faults absent segments"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "0104eca56c8a",
-      "summary": "the watch raises no stall on a chain waiting on a release hold"
+      "as_of": "b759f51571d0",
+      "summary": "a never-started job reads as an orphan a minute after drive job add"
     },
     "PushEvent:yasyf/cc-slack": {
-      "as_of": "dee529cc65b5",
-      "summary": "slack_thread and slack_history read a DM the app isn't in via one-time OAuth"
+      "as_of": "1fb4f2873081",
+      "summary": "the channel server runs the plugin's own cc-slack, never the PATH copy"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "0252275f35c7",
-      "summary": "bumped the cc-slack formula to v0.20.30"
+      "as_of": "36fa263cf4c5",
+      "summary": "bumped the cc-slack formula to v0.20.82"
+    },
+    "PushEvent:yasyf/orca": {
+      "as_of": "2c137e5773d9",
+      "summary": "agent hooks accept spaced Claude payloads in identity reuse"
     }
   },
-  "generated_at": "2026-11-14T16:02:11Z",
+  "generated_at": "2026-11-15T16:34:58Z",
   "shipped": {
-    "captain-hook@v12.121.80": {
-      "summary": "a Decide judge given its own frame judges by that frame alone"
+    "captain-hook@v12.121.82": {
+      "summary": "the load gate's suggested command keeps the call's own variable assignments"
     },
-    "cc-notes@v0.76.26": {
-      "summary": "the lint job excludes gosec's G703 check, which flaked on unchanged code"
+    "cc-notes@v0.76.27": {
+      "summary": "the plugin ships its own cc-notes and ccn in bin, pinned to its release"
     },
     "cc-pool@v0.70.1": {
       "summary": "drops the spctl gate Homebrew's sandbox always fails"
     },
-    "cc-remote@v0.27.49": {
-      "summary": "a Claude worker's codex signs in with its OpenAI key, ending 401 failures"
+    "cc-remote@v0.27.52": {
+      "summary": "a warm pool claim destroys a spare whose block device already failed"
     },
-    "cc-review@v0.47.0": {
-      "summary": "the channel survives a plugin reload and reconnects when it stops"
+    "cc-review@v0.47.1": {
+      "summary": "the channel server runs the plugin's own cc-review, never the PATH copy"
     },
-    "cc-skills@v1.16.1": {
-      "summary": "a live retro's clock follows state.json once an incident reopens"
+    "cc-skills@v1.16.2": {
+      "summary": "a job proving a fix live still briefs when its Slack link is unreadable"
     },
     "slop-cop@v0.1.75": {
       "summary": "releases on merge by tagging after autobump"
     },
-    "spawnllm@v0.17.8": {
-      "summary": "every claude -p run starts light, with the plugin auto-updater off"
+    "spawnllm@v0.17.10": {
+      "summary": "the Go core runs under wazero's interpreter so hardened-runtime binaries work"
     }
   },
   "version": 1
