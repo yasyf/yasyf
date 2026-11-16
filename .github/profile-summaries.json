@@ -1,63 +1,53 @@
 {
   "activity": {
-    "PullRequestEvent:yasyf/cc-inbox": {
-      "as_of": "2026-11-15",
-      "summary": "opened a fix so cci show prints another drive's record instead of refusing"
-    },
-    "PullRequestEvent:yasyf/cc-remote": {
-      "as_of": "2026-11-15",
-      "summary": "opened a fix so a new worker gets its first GitHub App token within a minute"
+    "PullRequestEvent:yasyf/cc-interact": {
+      "as_of": "2026-11-16",
+      "summary": "merged a fix so a starting daemon reports its release"
     },
     "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-11-15",
-      "summary": "opened a fix for how a relaunch handoff marks its job sent"
+      "as_of": "2026-11-16",
+      "summary": "merged a long-running change that loads only addressed post validation records"
     },
-    "PushEvent:Forge-AI/litestream": {
-      "as_of": "ed2809b4a740",
-      "summary": "a lazy primary reads fault-socket from config and faults absent segments"
+    "PullRequestEvent:yasyf/cc-slack": {
+      "as_of": "2026-11-16",
+      "summary": "merged daemon upgrades that hold their turn on a derived budget"
+    },
+    "PushEvent:yasyf/cc-inbox": {
+      "as_of": "2dc2020f99c7",
+      "summary": "a deaf channel confirms past three minutes before cci types a reconnect"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "b759f51571d0",
-      "summary": "a never-started job reads as an orphan a minute after drive job add"
+      "as_of": "e182dd9cf460",
+      "summary": "say links each PR mention the drive holds an open card for to that card"
     },
     "PushEvent:yasyf/cc-slack": {
-      "as_of": "1fb4f2873081",
-      "summary": "the channel server runs the plugin's own cc-slack, never the PATH copy"
+      "as_of": "319e62ba1b6e",
+      "summary": "a card linked from another channel is copied into the thread with live buttons"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "36fa263cf4c5",
-      "summary": "bumped the cc-slack formula to v0.20.82"
-    },
-    "PushEvent:yasyf/orca": {
-      "as_of": "2c137e5773d9",
-      "summary": "agent hooks accept spaced Claude payloads in identity reuse"
+      "as_of": "6fb60edc27e0",
+      "summary": "bumped the cc-slack formula to v0.20.138"
     }
   },
-  "generated_at": "2026-11-15T16:34:58Z",
+  "generated_at": "2026-11-16T19:49:04Z",
   "shipped": {
-    "captain-hook@v12.121.82": {
-      "summary": "the load gate's suggested command keeps the call's own variable assignments"
-    },
-    "cc-notes@v0.76.27": {
-      "summary": "the plugin ships its own cc-notes and ccn in bin, pinned to its release"
+    "cc-notes@v0.76.28": {
+      "summary": "an agent dispatch a durable answer bears on is refused once, quoting it"
     },
     "cc-pool@v0.70.1": {
       "summary": "drops the spctl gate Homebrew's sandbox always fails"
     },
-    "cc-remote@v0.27.52": {
-      "summary": "a warm pool claim destroys a spare whose block device already failed"
-    },
     "cc-review@v0.47.1": {
       "summary": "the channel server runs the plugin's own cc-review, never the PATH copy"
     },
-    "cc-skills@v1.16.2": {
-      "summary": "a job proving a fix live still briefs when its Slack link is unreadable"
+    "cc-skills@v1.16.8": {
+      "summary": "reuses encoded long-running snapshots as write baselines"
+    },
+    "docker-dsl@v0.1.2": {
+      "summary": "imports recipes from the working directory in the console script"
     },
     "slop-cop@v0.1.75": {
       "summary": "releases on merge by tagging after autobump"
-    },
-    "spawnllm@v0.17.10": {
-      "summary": "the Go core runs under wazero's interpreter so hardened-runtime binaries work"
     }
   },
   "version": 1
