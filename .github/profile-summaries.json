@@ -1,41 +1,36 @@
 {
   "activity": {
-    "PullRequestEvent:yasyf/cc-interact": {
-      "as_of": "2026-11-16",
-      "summary": "merged a fix so a starting daemon reports its release"
+    "PushEvent:Forge-AI/litestream": {
+      "as_of": "8c7d72c2a9f1",
+      "summary": "a forked child's first syncs upload no copy of its database"
     },
-    "PullRequestEvent:yasyf/cc-skills": {
-      "as_of": "2026-11-16",
-      "summary": "merged a long-running change that loads only addressed post validation records"
-    },
-    "PullRequestEvent:yasyf/cc-slack": {
-      "as_of": "2026-11-16",
-      "summary": "merged daemon upgrades that hold their turn on a derived budget"
-    },
-    "PushEvent:yasyf/cc-inbox": {
-      "as_of": "2dc2020f99c7",
-      "summary": "a deaf channel confirms past three minutes before cci types a reconnect"
+    "PushEvent:yasyf/cc-remote": {
+      "as_of": "d630ca595c99",
+      "summary": "the Sprites tool install no longer starts a Go cache trim service"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "e182dd9cf460",
-      "summary": "say links each PR mention the drive holds an open card for to that card"
+      "as_of": "488016e5ff33",
+      "summary": "a lane PR on a closed stack is queued as a rebase onto the default branch"
     },
     "PushEvent:yasyf/cc-slack": {
-      "as_of": "319e62ba1b6e",
-      "summary": "a card linked from another channel is copied into the thread with live buttons"
+      "as_of": "6931652df87f",
+      "summary": "a button is 1-4 words of at most 24 characters, distinct from its siblings"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "6fb60edc27e0",
-      "summary": "bumped the cc-slack formula to v0.20.138"
+      "as_of": "78f7559b3ce3",
+      "summary": "bumped the cc-slack formula to v0.20.199"
     }
   },
-  "generated_at": "2026-11-16T19:49:04Z",
+  "generated_at": "2026-11-17T18:44:41Z",
   "shipped": {
-    "cc-notes@v0.76.28": {
-      "summary": "an agent dispatch a durable answer bears on is refused once, quoting it"
+    "cc-notes@v0.76.30": {
+      "summary": "removes the send gate on durable answers"
     },
     "cc-pool@v0.70.1": {
       "summary": "drops the spctl gate Homebrew's sandbox always fails"
+    },
+    "cc-remote@v0.27.69": {
+      "summary": "an inventory tool can wrap a bin, linking the real binary beside it"
     },
     "cc-review@v0.47.1": {
       "summary": "the channel server runs the plugin's own cc-review, never the PATH copy"

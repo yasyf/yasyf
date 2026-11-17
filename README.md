@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-17T08:19:43Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-17T18:44:41Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,17 +27,17 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-11-17` Worked on a pull request in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
-- `2026-11-17` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-16` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — say links each PR mention the drive holds an open card for to that card
-- `2026-11-16` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-slack formula to v0.20.138
-- `2026-11-16` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-16` Created something new in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
-- `2026-11-16` Pushed to [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — a card linked from another channel is copied into the thread with live buttons
-- `2026-11-15` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-11-15` Created something new in [Forge-AI/litestream](https://github.com/Forge-AI/litestream)
+- `2026-11-17` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — a lane PR on a closed stack is queued as a rebase onto the default branch
+- `2026-11-17` Pushed to [Forge-AI/litestream](https://github.com/Forge-AI/litestream) — a forked child's first syncs upload no copy of its database
+- `2026-11-17` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-17` Pushed to [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — a button is 1-4 words of at most 24 characters, distinct from its siblings
+- `2026-11-17` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-slack formula to v0.20.199
+- `2026-11-16` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-16` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-11-16` Pushed to [yasyf/cc-remote](https://github.com/yasyf/cc-remote) — the Sprites tool install no longer starts a Go cache trim service
+- `2026-11-16` Created something new in [yasyf/cc-remote](https://github.com/yasyf/cc-remote)
 
-**57,120 contributions in the last year**
+**57,304 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -119,8 +119,8 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-11-17` [cc-notes v0.76.30](https://github.com/yasyf/cc-notes/releases/tag/v0.76.30)
-- `2026-11-16` [cc-remote v0.27.69](https://github.com/yasyf/cc-remote/releases/tag/v0.27.69)
+- `2026-11-17` [cc-notes v0.76.30](https://github.com/yasyf/cc-notes/releases/tag/v0.76.30) — removes the send gate on durable answers
+- `2026-11-16` [cc-remote v0.27.69](https://github.com/yasyf/cc-remote/releases/tag/v0.27.69) — an inventory tool can wrap a bin, linking the real binary beside it
 - `2026-11-16` [captain-hook v12.121.88](https://github.com/yasyf/captain-hook/releases/tag/v12.121.88)
 - `2026-11-16` [cc-skills v1.16.8](https://github.com/yasyf/cc-skills/releases/tag/v1.16.8) — reuses encoded long-running snapshots as write baselines
 - `2026-11-15` [cc-review v0.47.1](https://github.com/yasyf/cc-review/releases/tag/v0.47.1) — the channel server runs the plugin's own cc-review, never the PATH copy
