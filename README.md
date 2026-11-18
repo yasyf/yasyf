@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-18T07:50:52Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-18T18:21:57Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-11-18` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
-- `2026-11-18` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-11-17` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present)
-- `2026-11-17` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-18` Worked on a pull request in [Forge-AI/litestream](https://github.com/Forge-AI/litestream)
+- `2026-11-18` Created something new in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-11-17` Was active in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
-- `2026-11-17` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-slack formula to v0.20.199
-- `2026-11-17` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
-- `2026-11-17` Created something new in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
-- `2026-11-17` Pushed to [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — a button is 1-4 words of at most 24 characters, distinct from its siblings
-- `2026-11-17` Created something new in [yasyf/cc-present](https://github.com/yasyf/cc-present)
-- `2026-11-17` Pushed to [Forge-AI/litestream](https://github.com/Forge-AI/litestream) — a forked child's first syncs upload no copy of its database
-- `2026-11-17` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — a lane PR on a closed stack is queued as a rebase onto the default branch
+- `2026-11-17` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — ccx vcs ship replays an untracked child's commits onto a rewritten parent
+- `2026-11-17` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — a PR label drops only the kind prefix, not a leading #
+- `2026-11-17` Pushed to [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — the plumbing check flags raw commit ids and unexplained job names
+- `2026-11-17` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-slack formula to v0.20.222
+- `2026-11-17` Pushed to [Forge-AI/litestream](https://github.com/Forge-AI/litestream) — a forked child's lane starts at its base TXID, downloading nothing first
+- `2026-11-17` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-16` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-16` Pushed to [yasyf/cc-review](https://github.com/yasyf/cc-review)
+- `2026-11-16` Pushed to [yasyf/experiment-at-home](https://github.com/yasyf/experiment-at-home)
 
-**57,410 contributions in the last year**
+**57,531 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -129,6 +129,7 @@
 - `2026-11-15` [cc-review v0.47.1](https://github.com/yasyf/cc-review/releases/tag/v0.47.1) — the channel server runs the plugin's own cc-review, never the PATH copy
 - `2026-11-05` [slop-cop v0.1.75](https://github.com/yasyf/slop-cop/releases/tag/v0.1.75) — releases on merge by tagging after autobump
 - `2026-10-28` [cc-pool v0.70.1](https://github.com/yasyf/cc-pool/releases/tag/v0.70.1) — drops the spctl gate Homebrew's sandbox always fails
+- `2026-07-03` [docker-dsl v0.1.2](https://github.com/yasyf/docker-dsl/releases/tag/v0.1.2) — imports recipes from the working directory in the console script
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox

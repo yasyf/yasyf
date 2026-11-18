@@ -1,27 +1,27 @@
 {
   "activity": {
     "PushEvent:Forge-AI/litestream": {
-      "as_of": "8c7d72c2a9f1",
-      "summary": "a forked child's first syncs upload no copy of its database"
+      "as_of": "fb140460dbf3",
+      "summary": "a forked child's lane starts at its base TXID, downloading nothing first"
     },
-    "PushEvent:yasyf/cc-remote": {
-      "as_of": "d630ca595c99",
-      "summary": "the Sprites tool install no longer starts a Go cache trim service"
+    "PushEvent:yasyf/cc-context": {
+      "as_of": "209b90ef19eb",
+      "summary": "ccx vcs ship replays an untracked child's commits onto a rewritten parent"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "488016e5ff33",
-      "summary": "a lane PR on a closed stack is queued as a rebase onto the default branch"
+      "as_of": "f62494e1b471",
+      "summary": "a PR label drops only the kind prefix, not a leading #"
     },
     "PushEvent:yasyf/cc-slack": {
-      "as_of": "6931652df87f",
-      "summary": "a button is 1-4 words of at most 24 characters, distinct from its siblings"
+      "as_of": "a375e52a61fb",
+      "summary": "the plumbing check flags raw commit ids and unexplained job names"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "78f7559b3ce3",
-      "summary": "bumped the cc-slack formula to v0.20.199"
+      "as_of": "ee3587ebbb2a",
+      "summary": "bumped the cc-slack formula to v0.20.222"
     }
   },
-  "generated_at": "2026-11-17T18:44:41Z",
+  "generated_at": "2026-11-18T18:21:57Z",
   "shipped": {
     "cc-notes@v0.76.30": {
       "summary": "removes the send gate on durable answers"
