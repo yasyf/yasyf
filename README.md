@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-17T21:14:12Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-18T07:50:52Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-11-18` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
+- `2026-11-18` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
 - `2026-11-17` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present)
 - `2026-11-17` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-17` Was active in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-17` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — a lane PR on a closed stack is queued as a rebase onto the default branch
-- `2026-11-17` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
-- `2026-11-17` Created something new in [yasyf/cc-remote](https://github.com/yasyf/cc-remote)
+- `2026-11-17` Was active in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
 - `2026-11-17` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap) — bumped the cc-slack formula to v0.20.199
-- `2026-11-17` Created something new in [yasyf/cc-notes](https://github.com/yasyf/cc-notes)
+- `2026-11-17` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
+- `2026-11-17` Created something new in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
 - `2026-11-17` Pushed to [yasyf/cc-slack](https://github.com/yasyf/cc-slack) — a button is 1-4 words of at most 24 characters, distinct from its siblings
-- `2026-11-16` Created something new in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-16` Created something new in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
-- `2026-11-16` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-11-17` Created something new in [yasyf/cc-present](https://github.com/yasyf/cc-present)
+- `2026-11-17` Pushed to [Forge-AI/litestream](https://github.com/Forge-AI/litestream) — a forked child's first syncs upload no copy of its database
+- `2026-11-17` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — a lane PR on a closed stack is queued as a rebase onto the default branch
 
-**57,308 contributions in the last year**
+**57,410 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -142,11 +142,12 @@
 
 <!-- gh-profile:start:languages -->
 ```text
-Go          ████████████████████   47%
-Python      ███████████████░░░░░   34%
+Go          ████████████████████   46%
+Python      ███████████████░░░░░   33%
 Rust        ███░░░░░░░░░░░░░░░░░    6%
 Swift       ███░░░░░░░░░░░░░░░░░    6%
 TypeScript  ██░░░░░░░░░░░░░░░░░░    4%
+JavaScript  █░░░░░░░░░░░░░░░░░░░    2%
 Ruby        █░░░░░░░░░░░░░░░░░░░    2%
 ```
 <!-- gh-profile:end:languages -->
