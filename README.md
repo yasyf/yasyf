@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-19T07:46:33Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-19T18:40:09Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
+- `2026-11-19` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — incident-retro's Impact opens on big numbers and a bar per customer
+- `2026-11-19` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-11-19` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
+- `2026-11-19` Pushed to [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox) — an empty batch flush moves its cursor to the head
 - `2026-11-19` Worked on a pull request in [Forge-AI/litestream](https://github.com/Forge-AI/litestream)
 - `2026-11-19` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
-- `2026-11-19` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-11-19` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
 - `2026-11-19` Worked on a pull request in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
-- `2026-11-19` Created something new in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
-- `2026-11-19` Pushed to [yasyf/cc-present](https://github.com/yasyf/cc-present)
 - `2026-11-19` Worked on a pull request in [yasyf/cc-present](https://github.com/yasyf/cc-present)
 - `2026-11-19` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-11-19` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
-- `2026-11-18` Pushed to [Forge-AI/litestream](https://github.com/Forge-AI/litestream) — a forked child's lane starts at its base TXID, downloading nothing first
+- `2026-11-18` Discussed issues in [Forge-AI/litestream](https://github.com/Forge-AI/litestream)
+- `2026-11-18` Pushed to [Forge-AI/litestream](https://github.com/Forge-AI/litestream) — unregister compacts level 0 past level 1 so the page map reaches its last write
 
-**57,748 contributions in the last year**
+**57,848 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -122,13 +122,14 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-11-19` [cc-skills v1.16.9](https://github.com/yasyf/cc-skills/releases/tag/v1.16.9)
-- `2026-11-19` [captain-hook v12.121.89](https://github.com/yasyf/captain-hook/releases/tag/v12.121.89)
+- `2026-11-19` [cc-skills v1.16.9](https://github.com/yasyf/cc-skills/releases/tag/v1.16.9) — long-running reads drives through indexed rows and keeps write baselines by row
+- `2026-11-19` [captain-hook v12.121.89](https://github.com/yasyf/captain-hook/releases/tag/v12.121.89) — the Monitor buffering hook counts grep -v as holding lines
 - `2026-11-17` [cc-notes v0.76.30](https://github.com/yasyf/cc-notes/releases/tag/v0.76.30) — removes the send gate on durable answers
 - `2026-11-16` [cc-remote v0.27.69](https://github.com/yasyf/cc-remote/releases/tag/v0.27.69) — an inventory tool can wrap a bin, linking the real binary beside it
 - `2026-11-15` [cc-review v0.47.1](https://github.com/yasyf/cc-review/releases/tag/v0.47.1) — the channel server runs the plugin's own cc-review, never the PATH copy
 - `2026-11-05` [slop-cop v0.1.75](https://github.com/yasyf/slop-cop/releases/tag/v0.1.75) — releases on merge by tagging after autobump
 - `2026-10-28` [cc-pool v0.70.1](https://github.com/yasyf/cc-pool/releases/tag/v0.70.1) — drops the spctl gate Homebrew's sandbox always fails
+- `2026-07-03` [docker-dsl v0.1.2](https://github.com/yasyf/docker-dsl/releases/tag/v0.1.2) — imports recipes from the working directory in the console script
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox

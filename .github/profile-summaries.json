@@ -1,28 +1,23 @@
 {
   "activity": {
     "PushEvent:Forge-AI/litestream": {
-      "as_of": "fb140460dbf3",
-      "summary": "a forked child's lane starts at its base TXID, downloading nothing first"
+      "as_of": "823f02b3701c",
+      "summary": "unregister compacts level 0 past level 1 so the page map reaches its last write"
     },
-    "PushEvent:yasyf/cc-context": {
-      "as_of": "209b90ef19eb",
-      "summary": "ccx vcs ship replays an untracked child's commits onto a rewritten parent"
+    "PushEvent:yasyf/cc-inbox": {
+      "as_of": "d514d826d38a",
+      "summary": "an empty batch flush moves its cursor to the head"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "f62494e1b471",
-      "summary": "a PR label drops only the kind prefix, not a leading #"
-    },
-    "PushEvent:yasyf/cc-slack": {
-      "as_of": "a375e52a61fb",
-      "summary": "the plumbing check flags raw commit ids and unexplained job names"
-    },
-    "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "ee3587ebbb2a",
-      "summary": "bumped the cc-slack formula to v0.20.222"
+      "as_of": "d93d0a1df835",
+      "summary": "incident-retro's Impact opens on big numbers and a bar per customer"
     }
   },
-  "generated_at": "2026-11-18T18:21:57Z",
+  "generated_at": "2026-11-19T18:40:09Z",
   "shipped": {
+    "captain-hook@v12.121.89": {
+      "summary": "the Monitor buffering hook counts grep -v as holding lines"
+    },
     "cc-notes@v0.76.30": {
       "summary": "removes the send gate on durable answers"
     },
@@ -35,8 +30,8 @@
     "cc-review@v0.47.1": {
       "summary": "the channel server runs the plugin's own cc-review, never the PATH copy"
     },
-    "cc-skills@v1.16.8": {
-      "summary": "reuses encoded long-running snapshots as write baselines"
+    "cc-skills@v1.16.9": {
+      "summary": "long-running reads drives through indexed rows and keeps write baselines by row"
     },
     "docker-dsl@v0.1.2": {
       "summary": "imports recipes from the working directory in the console script"
