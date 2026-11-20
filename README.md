@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-20T07:38:53Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-20T17:59:23Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -28,17 +28,19 @@
 
 <!-- gh-profile:start:activity -->
 - `2026-11-20` Worked on a pull request in [Forge-AI/litestream](https://github.com/Forge-AI/litestream)
-- `2026-11-20` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
 - `2026-11-20` Discussed issues in [Forge-AI/litestream](https://github.com/Forge-AI/litestream)
-- `2026-11-20` Was active in [Forge-AI/litestream](https://github.com/Forge-AI/litestream)
-- `2026-11-20` Pushed to [Forge-AI/litestream](https://github.com/Forge-AI/litestream) — unregister compacts level 0 past level 1 so the page map reaches its last write
+- `2026-11-20` Worked on a pull request in [benbjohnson/litestream](https://github.com/benbjohnson/litestream)
+- `2026-11-20` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
 - `2026-11-20` Created something new in [Forge-AI/litestream](https://github.com/Forge-AI/litestream)
-- `2026-11-19` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-19` Worked on a pull request in [yasyf/cc-inbox](https://github.com/yasyf/cc-inbox)
-- `2026-11-19` Worked on a pull request in [yasyf/cc-context](https://github.com/yasyf/cc-context)
+- `2026-11-20` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
+- `2026-11-20` Was active in [Forge-AI/litestream](https://github.com/Forge-AI/litestream)
+- `2026-11-19` Pushed to [Forge-AI/litestream](https://github.com/Forge-AI/litestream) — a landed cut records its level-0 CRC64 so a fork refuses a rewritten parent
+- `2026-11-19` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — ccx vcs ship returns at PR open in an agent session instead of watching CI
+- `2026-11-19` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — steers a teammate's PR wait to a pr-watcher that messages it back
+- `2026-11-19` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — the echo example pushes channel events under the one method Claude Code delivers
 - `2026-11-19` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
 
-**57,970 contributions in the last year**
+**58,057 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>

@@ -1,19 +1,23 @@
 {
   "activity": {
     "PushEvent:Forge-AI/litestream": {
-      "as_of": "823f02b3701c",
-      "summary": "unregister compacts level 0 past level 1 so the page map reaches its last write"
+      "as_of": "138537d5775a",
+      "summary": "a landed cut records its level-0 CRC64 so a fork refuses a rewritten parent"
     },
-    "PushEvent:yasyf/cc-inbox": {
-      "as_of": "d514d826d38a",
-      "summary": "an empty batch flush moves its cursor to the head"
+    "PushEvent:yasyf/cc-context": {
+      "as_of": "1335dd17bee3",
+      "summary": "ccx vcs ship returns at PR open in an agent session instead of watching CI"
+    },
+    "PushEvent:yasyf/cc-interact": {
+      "as_of": "a854dee5a4ef",
+      "summary": "the echo example pushes channel events under the one method Claude Code delivers"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "d93d0a1df835",
-      "summary": "incident-retro's Impact opens on big numbers and a bar per customer"
+      "as_of": "f27375aec3f3",
+      "summary": "steers a teammate's PR wait to a pr-watcher that messages it back"
     }
   },
-  "generated_at": "2026-11-19T18:40:09Z",
+  "generated_at": "2026-11-20T17:59:13Z",
   "shipped": {
     "captain-hook@v12.121.89": {
       "summary": "the Monitor buffering hook counts grep -v as holding lines"
@@ -32,9 +36,6 @@
     },
     "cc-skills@v1.16.9": {
       "summary": "long-running reads drives through indexed rows and keeps write baselines by row"
-    },
-    "docker-dsl@v0.1.2": {
-      "summary": "imports recipes from the working directory in the console script"
     },
     "slop-cop@v0.1.75": {
       "summary": "releases on merge by tagging after autobump"
