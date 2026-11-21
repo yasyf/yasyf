@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-20T17:59:23Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-21T07:35:56Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -27,20 +27,20 @@
 <summary>Recent activity</summary>
 
 <!-- gh-profile:start:activity -->
-- `2026-11-20` Worked on a pull request in [Forge-AI/litestream](https://github.com/Forge-AI/litestream)
-- `2026-11-20` Discussed issues in [Forge-AI/litestream](https://github.com/Forge-AI/litestream)
-- `2026-11-20` Worked on a pull request in [benbjohnson/litestream](https://github.com/benbjohnson/litestream)
-- `2026-11-20` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
-- `2026-11-20` Created something new in [Forge-AI/litestream](https://github.com/Forge-AI/litestream)
-- `2026-11-20` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
-- `2026-11-20` Was active in [Forge-AI/litestream](https://github.com/Forge-AI/litestream)
-- `2026-11-19` Pushed to [Forge-AI/litestream](https://github.com/Forge-AI/litestream) — a landed cut records its level-0 CRC64 so a fork refuses a rewritten parent
-- `2026-11-19` Pushed to [yasyf/cc-context](https://github.com/yasyf/cc-context) — ccx vcs ship returns at PR open in an agent session instead of watching CI
-- `2026-11-19` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — steers a teammate's PR wait to a pr-watcher that messages it back
-- `2026-11-19` Pushed to [yasyf/cc-interact](https://github.com/yasyf/cc-interact) — the echo example pushes channel events under the one method Claude Code delivers
-- `2026-11-19` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-11-21` Worked on a pull request in [Forge-AI/litestream](https://github.com/Forge-AI/litestream)
+- `2026-11-21` Pushed to [Forge-AI/litestream](https://github.com/Forge-AI/litestream) — a landed cut records its level-0 CRC64 so a fork refuses a rewritten parent
+- `2026-11-21` Worked on a pull request in [yasyf/cc-skills](https://github.com/yasyf/cc-skills)
+- `2026-11-21` Pushed to [yasyf/cc-skills](https://github.com/yasyf/cc-skills) — steers a teammate's PR wait to a pr-watcher that messages it back
+- `2026-11-21` Pushed to [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-11-21` Worked on a pull request in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-11-21` Worked on a pull request in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
+- `2026-11-21` Worked on a pull request in [yasyf/cc-interact](https://github.com/yasyf/cc-interact)
+- `2026-11-21` Created something new in [yasyf/captain-hook](https://github.com/yasyf/captain-hook)
+- `2026-11-21` Pushed to [yasyf/homebrew-tap](https://github.com/yasyf/homebrew-tap)
+- `2026-11-21` Pushed to [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
+- `2026-11-21` Created something new in [yasyf/cc-slack](https://github.com/yasyf/cc-slack)
 
-**58,057 contributions in the last year**
+**58,206 contributions in the last year**
 <!-- gh-profile:end:activity -->
 
 </details>
@@ -122,8 +122,8 @@
 ## 📦 Recently shipped
 
 <!-- gh-profile:start:shipped -->
-- `2026-11-19` [cc-skills v1.16.9](https://github.com/yasyf/cc-skills/releases/tag/v1.16.9) — long-running reads drives through indexed rows and keeps write baselines by row
-- `2026-11-19` [captain-hook v12.121.89](https://github.com/yasyf/captain-hook/releases/tag/v12.121.89) — the Monitor buffering hook counts grep -v as holding lines
+- `2026-11-21` [cc-skills v1.16.11](https://github.com/yasyf/cc-skills/releases/tag/v1.16.11)
+- `2026-11-21` [captain-hook v12.121.92](https://github.com/yasyf/captain-hook/releases/tag/v12.121.92)
 - `2026-11-17` [cc-notes v0.76.30](https://github.com/yasyf/cc-notes/releases/tag/v0.76.30) — removes the send gate on durable answers
 - `2026-11-16` [cc-remote v0.27.69](https://github.com/yasyf/cc-remote/releases/tag/v0.27.69) — an inventory tool can wrap a bin, linking the real binary beside it
 - `2026-11-15` [cc-review v0.47.1](https://github.com/yasyf/cc-review/releases/tag/v0.47.1) — the channel server runs the plugin's own cc-review, never the PATH copy
