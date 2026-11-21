@@ -1,26 +1,22 @@
 {
   "activity": {
     "PushEvent:Forge-AI/litestream": {
-      "as_of": "138537d5775a",
-      "summary": "a landed cut records its level-0 CRC64 so a fork refuses a rewritten parent"
-    },
-    "PushEvent:yasyf/cc-context": {
-      "as_of": "1335dd17bee3",
-      "summary": "ccx vcs ship returns at PR open in an agent session instead of watching CI"
-    },
-    "PushEvent:yasyf/cc-interact": {
-      "as_of": "a854dee5a4ef",
-      "summary": "the echo example pushes channel events under the one method Claude Code delivers"
+      "as_of": "ddb4589c9396",
+      "summary": "the nightly rebase opens a pull request instead of force-pushing ssql-litestream"
     },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "f27375aec3f3",
-      "summary": "steers a teammate's PR wait to a pr-watcher that messages it back"
+      "as_of": "f9e76ddc766a",
+      "summary": "a teammate hands its PR watch to team-lead"
+    },
+    "PushEvent:yasyf/cc-slack": {
+      "as_of": "2aced1f9c7bd",
+      "summary": "the race suite fits its 8 minutes again on cc-interact v0.45.1"
     }
   },
-  "generated_at": "2026-11-20T17:59:13Z",
+  "generated_at": "2026-11-21T16:57:51Z",
   "shipped": {
-    "captain-hook@v12.121.89": {
-      "summary": "the Monitor buffering hook counts grep -v as holding lines"
+    "captain-hook@v12.121.92": {
+      "summary": "blocks a teammate's waiting Agent spawn whatever its flags"
     },
     "cc-notes@v0.76.30": {
       "summary": "removes the send gate on durable answers"
@@ -34,8 +30,8 @@
     "cc-review@v0.47.1": {
       "summary": "the channel server runs the plugin's own cc-review, never the PATH copy"
     },
-    "cc-skills@v1.16.9": {
-      "summary": "long-running reads drives through indexed rows and keeps write baselines by row"
+    "cc-skills@v1.16.12": {
+      "summary": "codex wrappers and top-level sessions can wait on a codex run"
     },
     "slop-cop@v0.1.75": {
       "summary": "releases on merge by tagging after autobump"
