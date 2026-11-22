@@ -1,19 +1,15 @@
 {
   "activity": {
-    "PushEvent:Forge-AI/litestream": {
-      "as_of": "ddb4589c9396",
-      "summary": "the nightly rebase opens a pull request instead of force-pushing ssql-litestream"
-    },
     "PushEvent:yasyf/cc-skills": {
-      "as_of": "f9e76ddc766a",
-      "summary": "a teammate hands its PR watch to team-lead"
+      "as_of": "c2f3199ef0cb",
+      "summary": "long-running drops cli.py's unused go/ci paths"
     },
-    "PushEvent:yasyf/cc-slack": {
-      "as_of": "2aced1f9c7bd",
-      "summary": "the race suite fits its 8 minutes again on cc-interact v0.45.1"
+    "PushEvent:yasyf/homebrew-tap": {
+      "as_of": "4f8197744e0f",
+      "summary": "the captain-hook formula moves to v12.121.91"
     }
   },
-  "generated_at": "2026-11-21T16:57:51Z",
+  "generated_at": "2026-11-22T17:21:05Z",
   "shipped": {
     "captain-hook@v12.121.92": {
       "summary": "blocks a teammate's waiting Agent spawn whatever its flags"
