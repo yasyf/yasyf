@@ -1,15 +1,15 @@
 {
   "activity": {
-    "PushEvent:yasyf/cc-skills": {
-      "as_of": "c2f3199ef0cb",
-      "summary": "long-running drops cli.py's unused go/ci paths"
+    "PushEvent:Forge-AI/litestream": {
+      "as_of": "34667cb6b0e5",
+      "summary": "the VFS sync tests wait for the new LTX file instead of a fixed sleep"
     },
     "PushEvent:yasyf/homebrew-tap": {
-      "as_of": "4f8197744e0f",
-      "summary": "the captain-hook formula moves to v12.121.91"
+      "as_of": "a8e7f5f3a04b",
+      "summary": "the cc-skills formula moves to v1.16.11"
     }
   },
-  "generated_at": "2026-11-22T17:21:05Z",
+  "generated_at": "2026-11-23T21:41:25Z",
   "shipped": {
     "captain-hook@v12.121.92": {
       "summary": "blocks a teammate's waiting Agent spawn whatever its flags"
@@ -28,6 +28,9 @@
     },
     "cc-skills@v1.16.12": {
       "summary": "codex wrappers and top-level sessions can wait on a codex run"
+    },
+    "docker-dsl@v0.1.2": {
+      "summary": "the console script imports recipes from the working directory"
     },
     "slop-cop@v0.1.75": {
       "summary": "releases on merge by tagging after autobump"
