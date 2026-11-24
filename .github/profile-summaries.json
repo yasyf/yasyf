@@ -9,7 +9,7 @@
       "summary": "the cc-skills formula moves to v1.16.11"
     }
   },
-  "generated_at": "2026-11-23T21:41:25Z",
+  "generated_at": "2026-11-24T20:19:50Z",
   "shipped": {
     "captain-hook@v12.121.92": {
       "summary": "blocks a teammate's waiting Agent spawn whatever its flags"
@@ -23,14 +23,8 @@
     "cc-remote@v0.27.69": {
       "summary": "an inventory tool can wrap a bin, linking the real binary beside it"
     },
-    "cc-review@v0.47.1": {
-      "summary": "the channel server runs the plugin's own cc-review, never the PATH copy"
-    },
     "cc-skills@v1.16.12": {
       "summary": "codex wrappers and top-level sessions can wait on a codex run"
-    },
-    "docker-dsl@v0.1.2": {
-      "summary": "the console script imports recipes from the working directory"
     },
     "slop-cop@v0.1.75": {
       "summary": "releases on merge by tagging after autobump"
