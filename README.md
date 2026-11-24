@@ -1,4 +1,4 @@
-<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-23T21:41:33Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
+<!-- gh-profile:meta {"intensity": "fancy", "last_refresh": "2026-11-24T10:16:53Z", "min_contributions": 750, "min_stars_badge": 30, "shipped_window_months": 6, "skill_version": "0.2.0"} -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
@@ -126,10 +126,8 @@
 - `2026-11-21` [captain-hook v12.121.92](https://github.com/yasyf/captain-hook/releases/tag/v12.121.92) — blocks a teammate's waiting Agent spawn whatever its flags
 - `2026-11-17` [cc-notes v0.76.30](https://github.com/yasyf/cc-notes/releases/tag/v0.76.30) — removes the send gate on durable answers
 - `2026-11-16` [cc-remote v0.27.69](https://github.com/yasyf/cc-remote/releases/tag/v0.27.69) — an inventory tool can wrap a bin, linking the real binary beside it
-- `2026-11-15` [cc-review v0.47.1](https://github.com/yasyf/cc-review/releases/tag/v0.47.1) — the channel server runs the plugin's own cc-review, never the PATH copy
 - `2026-11-05` [slop-cop v0.1.75](https://github.com/yasyf/slop-cop/releases/tag/v0.1.75) — releases on merge by tagging after autobump
 - `2026-10-28` [cc-pool v0.70.1](https://github.com/yasyf/cc-pool/releases/tag/v0.70.1) — drops the spctl gate Homebrew's sandbox always fails
-- `2026-07-03` [docker-dsl v0.1.2](https://github.com/yasyf/docker-dsl/releases/tag/v0.1.2) — the console script imports recipes from the working directory
 <!-- gh-profile:end:shipped -->
 
 ## 🛠 Toolbox
