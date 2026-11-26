@@ -9,7 +9,7 @@
       "summary": "the cc-skills formula moves to v1.16.11"
     }
   },
-  "generated_at": "2026-11-25T19:33:25Z",
+  "generated_at": "2026-11-26T19:15:45Z",
   "shipped": {
     "captain-hook@v12.121.92": {
       "summary": "blocks a teammate's waiting Agent spawn whatever its flags"
